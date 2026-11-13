@@ -1,7 +1,9 @@
 # Implementation milestones
 
-The detailed approved plan is saved in the originating Copilot session's
-`plan.md`. This file describes repository deliverables, not completion claims.
+The detailed approved plan is saved in the originating session's `plan.md`.
+The first implementation checkpoint covers milestones 1 and 2, including a
+descriptive Senate benchmark pilot. The remaining milestones are future
+research work, not completed findings.
 
 1. Independent repository, reproducible CLI and source contract.
 2. Immutable held-data imports, complete returns and exclusion queries, coverage
