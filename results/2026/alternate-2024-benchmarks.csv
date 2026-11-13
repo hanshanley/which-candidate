@@ -1,0 +1,391 @@
+contest_id,D_name,same_year_gap_share_pp,alternate_2020_gap_share_pp
+2024:house:AL:01:general:source_general,Tom Holmes,-0.5947821930867221,-3.0176285954545286
+2024:house:AL:02:general:source_general,Shomari Figures,0.4435705084919803,-1.6577665475961467
+2024:house:AL:06:general:source_general,Elizabeth Anderson,-0.9098731310824348,-1.1555884481251901
+2024:house:AL:07:general:source_general,Terri A. Sewell,1.9323279061841703,-0.8526474499899024
+2024:house:AR:01:general:source_general,Rodney Govens,-2.1411772870827015,-4.155493147079415
+2024:house:AR:02:general:source_general,Marcus A. Jones,-0.9775768288275657,-2.1939515710655613
+2024:house:AR:03:general:source_general,Caitlin Draper,-3.9636228334519004,-4.688699773367027
+2024:house:AR:04:general:source_general,Risie Howard,-2.581189232904592,-4.789989574280277
+2024:house:AZ:01:general:source_general,Amish Shah,-0.33858404281683363,-2.659228536784532
+2024:house:AZ:02:general:source_general,Jonathan Nez,3.0753608241408372,-0.48536057104974617
+2024:house:AZ:03:general:source_general,Yassamin Ansari,2.59055429131368,-2.984867855544323
+2024:house:AZ:04:general:source_general,Greg Stanton,0.3290872300593932,-1.5423499738896567
+2024:house:AZ:05:general:source_general,Katrina Schaffner,-0.2917341940038156,-2.0692822972752296
+2024:house:AZ:06:general:source_general,Kirsten Engel,-0.9083062131912527,-1.3240108911928203
+2024:house:AZ:07:general:source_general,Raúl M. Grijalva,2.255033795698459,-3.183391705026672
+2024:house:AZ:08:general:source_general,Gregory Whitten,1.739252541766568,0.36207898521350756
+2024:house:AZ:09:general:source_general,Quacy Smith,0.3735601943694462,-2.2273050097735165
+2024:house:CA:01:general:source_general,Rose Penelope Yee,-2.5083631859953712,-5.548561311285091
+2024:house:CA:02:general:source_general,Jared Huffman,-1.4891065251928666,-3.472964417991193
+2024:house:CA:03:general:source_general,Jessica Morse,-3.4961425691292334,-4.543818489454608
+2024:house:CA:04:general:source_general,Mike Thompson,0.3386139255036795,-2.281549776148907
+2024:house:CA:05:general:source_general,Michael J. “Mike” Barkley,-2.6753789309903695,-5.474209699995335
+2024:house:CA:06:general:source_general,Ami Bera,0.44056160959740964,-1.8470106521899865
+2024:house:CA:07:general:source_general,Doris O. Matsui,1.3284502594776342,-2.270199077229833
+2024:house:CA:08:general:source_general,John Garamendi,1.4451895494572682,-3.6054094539959465
+2024:house:CA:09:general:source_general,Josh Harder,2.70802542435019,-4.652760417131603
+2024:house:CA:10:general:source_general,Mark DeSaulnier,-1.0048999422400016,-3.631658438402553
+2024:house:CA:11:general:source_general,Nancy Pelosi,-4.277590540707507,-6.994316189430421
+2024:house:CA:13:general:source_general,Adam Gray,2.8317580292869096,-5.507934000412455
+2024:house:CA:14:general:source_general,Eric Swalwell,-0.6716238225432534,-5.464741641640259
+2024:house:CA:15:general:source_general,Kevin Mullin,-1.720952427394863,-6.129383122305242
+2024:house:CA:17:general:source_general,Ro Khanna,-2.159928692155958,-6.524147851164912
+2024:house:CA:18:general:source_general,Zoe Lofgren,-0.602669804368702,-7.8973922051581695
+2024:house:CA:19:general:source_general,Jimmy Panetta,1.4743525137466094,-0.9631994413668394
+2024:house:CA:21:general:source_general,Jim Costa,0.6298408203916921,-7.794900093128113
+2024:house:CA:22:general:source_general,Rudy Salas,-0.42687947763990763,-10.03201177966492
+2024:house:CA:23:general:source_general,Derek Marshall,-1.4824953537131762,-5.116800741401796
+2024:house:CA:24:general:source_general,Salud O. Carbajal,-0.2279250235592798,-2.1799661378399904
+2024:house:CA:25:general:source_general,Raul Ruiz,4.9866330081714025,-1.5477585685834896
+2024:house:CA:26:general:source_general,Julia Brownley,-0.7180848515080172,-4.1466876012469385
+2024:house:CA:27:general:source_general,George Whitesides,-0.6720017362204516,-4.988914537153121
+2024:house:CA:28:general:source_general,Judy Chu,0.9966043574549914,-2.50981911396039
+2024:house:CA:29:general:source_general,Luz Maria Rivas,1.8134056651275046,-6.457368565556052
+2024:house:CA:30:general:source_general,Laura Friedman,-2.882093779209839,-5.1586951356300546
+2024:house:CA:31:general:source_general,Gil Cisneros,1.0136610861174091,-6.12660800511749
+2024:house:CA:32:general:source_general,Brad Sherman,0.056063717715233,-4.563503243241357
+2024:house:CA:33:general:source_general,Pete Aguilar,4.316333492140082,-4.140727399040983
+2024:house:CA:35:general:source_general,Norma J. Torres,3.1163817875200195,-5.712272737351185
+2024:house:CA:36:general:source_general,Ted Lieu,-1.496168202568768,-3.800931799442907
+2024:house:CA:38:general:source_general,Linda T. Sánchez,1.5399168796423197,-5.568427931227177
+2024:house:CA:39:general:source_general,Mark Takano,1.6876441229340742,-6.663802777719901
+2024:house:CA:40:general:source_general,Joe Kerr,-4.0601060357406595,-6.21691240570361
+2024:house:CA:41:general:source_general,Will Rollins,1.3524706585344433,-1.1414696107373885
+2024:house:CA:42:general:source_general,Robert Garcia,1.3415985755385123,-5.33406375138334
+2024:house:CA:43:general:source_general,Maxine Waters,-0.22044113685643651,-7.539358888231362
+2024:house:CA:44:general:source_general,Nanette Diaz Barragán,3.9135132254560148,-3.301182921689005
+2024:house:CA:45:general:source_general,Derek Tran,-0.6875086539600304,-3.0489056342388565
+2024:house:CA:46:general:source_general,J. Luis Correa,4.279604466090142,-2.1140324451116257
+2024:house:CA:47:general:source_general,Dave Min,-0.7201311529485608,-4.2208296942935135
+2024:house:CA:48:general:source_general,Stephen Houlahan,-1.4460143799727874,-2.9900506632316066
+2024:house:CA:49:general:source_general,Mike Levin,-1.8203484379958539,-3.6637565914416967
+2024:house:CA:50:general:source_general,Scott H. Peters,-1.0148508274996715,-2.696237116857077
+2024:house:CA:51:general:source_general,Sara Jacobs,-1.4223318466507422,-3.2862602718043163
+2024:house:CA:52:general:source_general,Juan Vargas,5.4271487000047145,-2.5116834801204675
+2024:house:CO:01:general:source_general,Diana DeGette,-0.7984438472828685,-3.3513421245908432
+2024:house:CO:02:general:source_general,Joe Neguse,-0.19894080780889567,-0.19440736388308721
+2024:house:CO:03:general:source_general,Adam Frisch,2.410336858798793,1.6477917838064684
+2024:house:CO:04:general:source_general,Trisha Calvarese,3.2926730985632986,3.4494831914451467
+2024:house:CO:05:general:source_general,River Gassen,-2.552145805703354,-1.9725699764252766
+2024:house:CO:06:general:source_general,Jason Crow,0.3484385855022367,-1.6897602632539162
+2024:house:CO:07:general:source_general,Brittany Pettersen,-0.3569863408210736,0.062203393646363736
+2024:house:CO:08:general:source_general,Yadira Caraveo,0.5623146121406037,-2.7246830827002597
+2024:house:CT:01:general:source_general,John B. Larson,2.820338598573443,0.20296742139220214
+2024:house:CT:02:general:source_general,Joe Courtney,4.087399929668905,2.176071954339861
+2024:house:CT:03:general:source_general,Rosa L. DeLauro,1.7408047632532657,-1.0775113145932593
+2024:house:CT:04:general:source_general,James A. Himes,0.1874958511317999,-3.6590751439099805
+2024:house:CT:05:general:source_general,Jahana Hayes,0.5710109183256051,-2.046830111383194
+2024:house:DE:AL:general:source_general,Sarah McBride,0.38348438680697683,-1.7640241366793106
+2024:house:FL:01:general:source_general,Gay Valimont,2.7582187967566476,0.4022838677175429
+2024:house:FL:02:general:source_general,Yen Bailey,-2.5498251717725324,-6.082615139827027
+2024:house:FL:03:general:source_general,Tom Wells,-0.9510491019348137,-4.490407882116138
+2024:house:FL:04:general:source_general,LaShonda “L. J.” Holloway,-1.288310733760163,-3.8828406349590594
+2024:house:FL:05:general:source_general,Jay McGovern,-2.2374871184535863,-5.078300078578302
+2024:house:FL:06:general:source_general,James David Stockton III,-1.3811000330254402,-4.592121004522824
+2024:house:FL:07:general:source_general,Jennifer Adams,-0.21773660557205687,-3.7238365744918553
+2024:house:FL:08:general:source_general,Sandy Kennedy,-0.963357910046291,-3.3196481667822084
+2024:house:FL:09:general:source_general,Darren Soto,4.64628551818722,-2.377538598652059
+2024:house:FL:10:general:source_general,Maxwell Frost,0.8659207510215694,-3.7022226102942355
+2024:house:FL:11:general:source_general,Barbie Harden Hall,-2.1716242172720968,-4.892051396361758
+2024:house:FL:12:general:source_general,"Rock Aboujaoude, Jr.",-3.611807193932364,-6.533928819872251
+2024:house:FL:13:general:source_general,Whitney Fox,1.1625204495576682,-1.4130198051887817
+2024:house:FL:14:general:source_general,Kathy Castor,3.913389578536936,-1.8956522159128468
+2024:house:FL:15:general:source_general,Patricia “Pat” Kemp,-0.5030954843741071,-4.583842017283416
+2024:house:FL:16:general:source_general,Jan Schneider,-1.6771778672536257,-4.984518801126171
+2024:house:FL:17:general:source_general,Manny Lopez,-1.8488384777616176,-5.865547451718513
+2024:house:FL:18:general:source_general,Andrea Doria Kale,-0.48868776707598016,-3.7917094707796934
+2024:house:FL:19:general:source_general,Kari L. Lerner,-1.6385823441130682,-5.731611192336764
+2024:house:FL:21:general:source_general,Thomas Witkop,-3.4836910270302965,-7.075789025552638
+2024:house:FL:22:general:source_general,Lois Frankel,2.146742579958172,-3.9061076319814774
+2024:house:FL:23:general:source_general,Jared Moskowitz,1.4838870836907958,-4.204844902803302
+2024:house:FL:24:general:source_general,Frederica S. Wilson,3.0834892621701044,-6.419818074243366
+2024:house:FL:25:general:source_general,Debbie Wasserman Schultz,1.785798701830899,-5.539982443130789
+2024:house:FL:26:general:source_general,Joey Atkins,-3.3198598564239212,-11.709526667823713
+2024:house:FL:27:general:source_general,Lucia Baez-Geller,-2.9873705496527805,-10.215961830167338
+2024:house:FL:28:general:source_general,Phil Ehr,-1.7797697980515395,-11.37439497340759
+2024:house:GA:01:general:source_general,Patti Hewitt,-4.038042460111761,-5.187188609337433
+2024:house:GA:02:general:source_general,"Sanford D. Bishop, Jr.",2.5035260588195456,1.1072205000485056
+2024:house:GA:03:general:source_general,Maura Keller,-1.3673137166142695,-1.083174235177161
+2024:house:GA:04:general:source_general,"Henry C. “Hank” Johnson, Jr.",-0.936045239389486,-3.6019122847674225
+2024:house:GA:05:general:source_general,Nikema Williams,-0.48666087188034624,-1.127298997111481
+2024:house:GA:06:general:source_general,Lucy McBath,-0.4893427245280435,-0.3380221057670383
+2024:house:GA:07:general:source_general,Bob Christian,-3.700392520024856,-4.980453688943783
+2024:house:GA:08:general:source_general,Darrius Butler,-3.555790954392805,-4.963085437911538
+2024:house:GA:09:general:source_general,Tambrei Cash,-1.8372152049056716,-2.650909554840137
+2024:house:GA:10:general:source_general,Alexandra “Lexy” Doherty,-2.59492922532786,-2.2981410738335555
+2024:house:GA:11:general:source_general,Katy “Kate” L. Stamper,-5.526756812642304,-6.1548270702535675
+2024:house:GA:12:general:source_general,Elizabeth “Liz” Johnson,-3.203705688147217,-5.184445797781308
+2024:house:GA:13:general:source_general,David Scott,0.47194895520131297,1.3312331776974986
+2024:house:GA:14:general:source_general,Shawn Harris,4.139384586192939,4.6547187376074675
+2024:house:HI:01:general:source_general,Ed Case,9.258396862590658,6.876531200259521
+2024:house:HI:02:general:source_general,Jill N. Tokuda,7.746293503688108,3.6805200276557173
+2024:house:IA:01:general:source_general,Christina Bohannan,4.1986468461669375,1.3755881555039196
+2024:house:IA:02:general:source_general,Sarah Corkery,-2.8254540109281407,-5.64913507300961
+2024:house:IA:03:general:source_general,Lanon Baccam,0.3152331602458176,-1.7409497096842514
+2024:house:IA:04:general:source_general,Ryan Melton,-1.2678982959915928,-3.979912734227284
+2024:house:ID:01:general:source_general,Kaylee Peterson,-0.515812337681858,-3.982345666562093
+2024:house:ID:02:general:source_general,David Roth,-2.67893119744911,-4.603526588285646
+2024:house:IL:01:general:source_general,Jonathan L. Jackson,-0.3761496653726084,-5.628664442022838
+2024:house:IL:02:general:source_general,Robin L. Kelly,0.7717889607919801,-2.735862625901561
+2024:house:IL:03:general:source_general,Delia C. Ramirez,1.3721371228611758,-3.842883313248109
+2024:house:IL:04:general:source_general,Jesús G. “Chuy” García,6.838585030616969,-2.431202038951426
+2024:house:IL:05:general:source_general,Mike Quigley,0.18817762466146348,-1.1910218450961594
+2024:house:IL:06:general:source_general,Sean Casten,1.4203881944050138,-1.3345170724439797
+2024:house:IL:07:general:source_general,Danny K. Davis,0.2190144541919068,-3.7014424687812806
+2024:house:IL:08:general:source_general,Raja Krishnamoorthi,3.555398011989695,-0.7950141788604412
+2024:house:IL:09:general:source_general,Janice D. Schakowsky,-0.1038074226400596,-2.7380282583645226
+2024:house:IL:10:general:source_general,Bradley Scott Schneider,-1.1946098108256749,-3.2026006987987543
+2024:house:IL:11:general:source_general,Bill Foster,-0.21217383453396366,-2.2216428839619837
+2024:house:IL:12:general:source_general,Brian Roberts,-2.152102801521199,-2.4084020579216165
+2024:house:IL:13:general:source_general,Nikki Budzinski,2.787552194678973,2.3711582813950045
+2024:house:IL:14:general:source_general,Lauren Underwood,2.472186930831022,-0.7450874208851417
+2024:house:IL:17:general:source_general,Eric Sorensen,2.0123324617091143,0.4368969779154952
+2024:house:IN:01:general:source_general,Frank J. Mrvan,4.115265168059409,0.06983286671722766
+2024:house:IN:02:general:source_general,Lori A. Camp,-0.9895054601486137,-2.9528852510858172
+2024:house:IN:03:general:source_general,Kiley M. Adolph,-1.5687426556407118,-2.1566877462041774
+2024:house:IN:04:general:source_general,Derrick Holder,-2.761269340868779,-2.7927208156672165
+2024:house:IN:05:general:source_general,Deborah A. Pickett,-1.2552584360679333,-1.6866192619678202
+2024:house:IN:06:general:source_general,Cynthia “Cinde” Wirth,-0.30227728206301663,-0.5420407062476684
+2024:house:IN:07:general:source_general,André Carson,-0.8381808365212464,-1.3266354194153251
+2024:house:IN:08:general:source_general,Erik Hurt,-1.5209753874286882,-3.042478974593184
+2024:house:IN:09:general:source_general,Timothy “Tim” Peck,-1.0855854354345666,-2.3494335514954585
+2024:house:KS:01:general:source_general,Paul Buskirk,-3.2126673558804058,-3.9940091509602595
+2024:house:KS:02:general:source_general,Nancy Boyda,0.12201679294879852,-1.570054800347421
+2024:house:KS:03:general:source_general,Sharice Davids,3.5166428432956494,3.3296412343084327
+2024:house:KS:04:general:source_general,Esau Freeman,-3.199921071150648,-3.919003030770533
+2024:house:KY:01:general:source_general,Erin Marshall,-0.7609432066498165,-3.0227765080626874
+2024:house:KY:02:general:source_general,Hank Linderman,-2.1357242017932023,-4.41531972337518
+2024:house:KY:03:general:source_general,Morgan McGarvey,2.321557155561287,0.5685681377326617
+2024:house:KY:06:general:source_general,Randy Cravens,-5.380460637419908,-7.430481405760041
+2024:house:MA:08:general:source_general,Stephen F. Lynch,7.087379230540357,2.547675960161712
+2024:house:MA:09:general:source_general,William R. Keating,1.0470557263716387,-2.7381441582404733
+2024:house:MD:01:general:source_general,Blane H. Miller III,-2.7306342743700966,-3.9662432969240484
+2024:house:MD:02:general:source_general,"John “Johnny O” Olszewski, Jr.",0.07100528001017636,-1.0853213924991323
+2024:house:MD:03:general:source_general,Sarah Elfreth,-1.2239624314389488,-2.0046014152236182
+2024:house:MD:04:general:source_general,Glenn Ivey,0.8902390142349645,-2.4647607736690276
+2024:house:MD:05:general:source_general,Steny H. Hoyer,0.8906930487866731,-0.6387837449199765
+2024:house:MD:06:general:source_general,April McClain Delaney,0.20581184291688004,-1.8455522931145296
+2024:house:MD:07:general:source_general,Kweisi Mfume,2.132607066904498,0.1306775347190552
+2024:house:MD:08:general:source_general,Jamie Raskin,-0.06496831741220888,-2.834404362641223
+2024:house:MI:01:general:source_general,Callie Barr,-0.1778310631939206,-0.8935686168191666
+2024:house:MI:02:general:source_general,Michael Lynch,-2.000507408909179,-2.914513702882445
+2024:house:MI:03:general:source_general,Hillary J. Scholten,1.0885150707407192,0.7452998241193782
+2024:house:MI:04:general:source_general,Jessica Swartz,-3.1359147351743673,-3.9386788478303103
+2024:house:MI:05:general:source_general,Libbi Urban,-3.0158602044536877,-4.425666610655142
+2024:house:MI:06:general:source_general,Debbie Dingell,1.9652225614867973,0.4130455154343906
+2024:house:MI:07:general:source_general,Curtis Hertel,-1.2674359209357036,-2.185514644286947
+2024:house:MI:08:general:source_general,Kristen McDonald Rivet,4.467270611199787,2.4327792593990623
+2024:house:MI:09:general:source_general,Clinton St. Mosley,-2.9647223653387975,-4.410841630236174
+2024:house:MI:10:general:source_general,Carl J. Marlinga,0.15332558320764633,-2.693034416074454
+2024:house:MI:11:general:source_general,Haley M. Stevens,1.298361599586194,-0.5400141726629855
+2024:house:MI:12:general:source_general,Rashida Tlaib,3.3081329615521895,-1.2942971568842552
+2024:house:MI:13:general:source_general,Shri Thanedar,2.6700492584674578,-1.4039494833741344
+2024:house:MN:01:general:source_general,Rachel Bohman,-2.437783762156151,-3.8518928084354513
+2024:house:MN:02:general:source_general,Angie Craig,3.913912166051219,3.2246759794505806
+2024:house:MN:03:general:source_general,Kelly Morrison,-2.363255654442362,-2.201905656110796
+2024:house:MN:04:general:source_general,Betty McCollum,-0.8670848341846664,-1.8321984029901017
+2024:house:MN:05:general:source_general,Ilhan Omar,-6.596776815418423,-7.031776397480002
+2024:house:MN:06:general:source_general,Jeanne Hendricks,-2.5001641819755847,-3.5137120258283616
+2024:house:MN:07:general:source_general,A J “John” Peters,-1.9751535578402972,-3.607889969013847
+2024:house:MN:08:general:source_general,Jen Schultz,-0.7792322217653265,-2.2767264073761098
+2024:house:MO:01:general:source_general,Wesley Bell,1.4238199995000969,0.854234844217487
+2024:house:MO:02:general:source_general,Ray Hartmann,-2.1655857239471032,-2.2431198147050466
+2024:house:MO:03:general:source_general,Bethany E. Mann,0.08672606319039744,-0.05158967776387868
+2024:house:MO:04:general:source_general,Jeanette Cass,-1.5030290886987068,-2.8404830226550004
+2024:house:MO:05:general:source_general,Emanuel Cleaver,0.5472116091321553,-1.1170135172938913
+2024:house:MO:06:general:source_general,Pam May,-2.7609314597740244,-3.5423614793853204
+2024:house:MO:07:general:source_general,Missi Hesketh,-1.5808769380873038,-2.059132920293603
+2024:house:MO:08:general:source_general,Randi McCallian,-0.4405911149622277,-1.6980323011052896
+2024:house:MS:01:general:source_general,Dianne Dodson Black,-1.0428886585032764,-3.728286756915306
+2024:house:MS:02:general:source_general,Bennie G. Thompson,1.7284982249152918,-1.184887124398081
+2024:house:MS:04:general:source_general,Craig Elliot Raybon,-2.453861008753769,-4.669408452032567
+2024:house:MT:01:general:source_general,Monica Tranel,1.9994628624353794,-0.434138851748159
+2024:house:MT:02:general:source_general,John B. Driscoll,-0.7360277320758257,-2.2215160971238177
+2024:house:NC:01:general:source_general,Donald G. Davis,2.4207640227465035,0.01589482881523452
+2024:house:NC:02:general:source_general,Deborah K. Ross,0.48518849566055167,-0.25410356900209763
+2024:house:NC:04:general:source_general,Valerie P. Foushee,0.2907739004042895,-0.07766735207582087
+2024:house:NC:05:general:source_general,Chuck Hubbard,-0.4962230177482567,-1.694492430074348
+2024:house:NC:07:general:source_general,Marlando D. Pridgen,-1.6184557560058934,-3.0119409140698536
+2024:house:NC:08:general:source_general,Justin E. Dues,0.18470388998348852,-0.6272163205861432
+2024:house:NC:09:general:source_general,Nigel William Bristow,-1.8536081853144353,-2.8215164302129736
+2024:house:NC:10:general:source_general,"Ralph R. Scott, Jr.",-1.12354569088361,-1.9481513232231862
+2024:house:NC:11:general:source_general,Caleb Rudow,-1.9627443673207807,-1.1975521028656644
+2024:house:NC:12:general:source_general,Alma S. Adams,0.49202077469988126,-1.4510109504021216
+2024:house:NC:13:general:source_general,Frank Pierce,-0.3178030042693578,0.10541833012177904
+2024:house:NC:14:general:source_general,Pam Genant,-0.4507569590951235,0.10059191643856735
+2024:house:ND:AL:general:source_general,Trygve Hammer,-0.8203237403670194,-2.299408383863579
+2024:house:NE:01:general:source_general,Carol Blood,-3.489920607780448,-4.43881184981521
+2024:house:NE:02:general:source_general,Tony Vargas,-3.2686764072009495,-4.156334665499536
+2024:house:NE:03:general:source_general,Daniel Ebers,-3.2029492172500937,-3.970228943497272
+2024:house:NH:01:general:source_general,Chris Pappas,3.024627311859618,1.0224045335643197
+2024:house:NH:02:general:source_general,Maggie Goodlander,1.1695154943981407,-1.5078998517390971
+2024:house:NJ:01:general:source_general,Donald Norcross,-0.3901104610356185,-3.2612222773247836
+2024:house:NJ:02:general:source_general,Joseph F. Salerno,-2.1442811819309497,-6.021063696181123
+2024:house:NJ:03:general:source_general,Herb Conaway,0.1373016755259897,-2.7066318285138706
+2024:house:NJ:04:general:source_general,Matthew Jenkins,-2.7680430586187867,-6.672133357896293
+2024:house:NJ:05:general:source_general,Josh Gottheimer,4.992395545914917,-0.5149790891727051
+2024:house:NJ:06:general:source_general,"Frank Pallone, Jr.",4.860468304558935,-1.5938340067848316
+2024:house:NJ:07:general:source_general,Sue Altman,-2.154045975239079,-4.71240530190294
+2024:house:NJ:08:general:source_general,Robert Menendez,0.6724728221342318,-9.824885268911558
+2024:house:NJ:09:general:source_general,Nellie Pou,3.1160304811173987,-7.02300523532876
+2024:house:NJ:10:general:source_general,LaMonica McIver,1.1547352414096395,-4.286863084934751
+2024:house:NJ:11:general:source_general,Mikie Sherrill,3.046114584357987,-1.079286698346415
+2024:house:NJ:12:general:source_general,Bonnie Watson Coleman,0.4106121871916315,-4.764302527569747
+2024:house:NM:01:general:source_general,Melanie A. Stansbury,-0.12954766011190344,-1.0423000367672515
+2024:house:NM:02:general:source_general,Gabe Vasquez,3.0023262559737844,-0.9209446503028644
+2024:house:NM:03:general:source_general,Teresa Leger Fernandez,3.6250126707241392,0.8005998605556499
+2024:house:NV:01:general:source_general,Dina Titus,2.7395453794044897,-0.46312726042351926
+2024:house:NV:03:general:source_general,Susie Lee,1.7469280342288585,-2.0100932595682295
+2024:house:NV:04:general:source_general,Steven Horsford,2.979168718319549,-0.06818282181620816
+2024:house:NY:01:general:source_general,John P. Avlon,-0.11953755792731613,-4.328494252738807
+2024:house:NY:02:general:source_general,Rob Lubin,-2.7304953745256455,-8.532910021744897
+2024:house:NY:03:general:source_general,Thomas R. Suozzi,3.9615025031368774,-3.9226801179336164
+2024:house:NY:04:general:source_general,Laura A. Gillen,0.500916530825215,-6.199515199179125
+2024:house:NY:05:general:source_general,Gregory W. Meeks,3.4173651805112826,-6.54289984769774
+2024:house:NY:06:general:source_general,Grace Meng,8.455009011545606,-3.082920282448903
+2024:house:NY:07:general:source_general,Nydia M. Velázquez,4.511343881186946,-2.442295345404105
+2024:house:NY:08:general:source_general,Hakeem S. Jeffries,3.0346073562373874,-2.54755260042144
+2024:house:NY:09:general:source_general,Yvette D. Clarke,3.519262996066672,-1.9852519269908981
+2024:house:NY:10:general:source_general,Daniel S. Goldman,3.647332014882565,-1.1406580361505547
+2024:house:NY:11:general:source_general,Andrea S. Morse,-1.6869986202523535,-10.244274122476106
+2024:house:NY:12:general:source_general,Jerrold Nadler,-1.9416542877564922,-5.538655978810951
+2024:house:NY:13:general:source_general,Adriano Espaillat,3.402850132070199,-5.2924711711489465
+2024:house:NY:14:general:source_general,Alexandria Ocasio-Cortez,3.013784604042641,-8.612402154825986
+2024:house:NY:15:general:source_general,Ritchie Torres,3.9556465335655133,-7.131442522750092
+2024:house:NY:16:general:source_general,George S. Latimer,4.928573307209831,-0.9219766992181349
+2024:house:NY:17:general:source_general,Mondaire L. Jones,-3.50062643629537,-8.310618108937916
+2024:house:NY:18:general:source_general,Patrick Ryan,5.4975160241371555,2.5597526634575445
+2024:house:NY:19:general:source_general,Josh Riley,0.2082349895728015,-1.1717888578173117
+2024:house:NY:20:general:source_general,Paul Tonko,3.9708235809974397,1.35679415821307
+2024:house:NY:21:general:source_general,Paula Collins,-1.6089122468737642,-4.003351156425573
+2024:house:NY:22:general:source_general,John W. Mannion,0.7141602304736594,-1.2457160889915784
+2024:house:NY:23:general:source_general,Thomas A. Carle,-5.2002088336157115,-6.517358493210757
+2024:house:NY:24:general:source_general,David Wagenhauser,-4.048887140153305,-5.30656030415404
+2024:house:NY:25:general:source_general,Joseph D. Morelle,1.4923862762912279,0.2723223224183542
+2024:house:NY:26:general:source_general,Timothy M. Kennedy,5.3891821712797565,2.3769215021713848
+2024:house:OH:01:general:source_general,Greg Landsman,1.3833726729646116,0.2882001634327622
+2024:house:OH:02:general:source_general,Samantha Meadows,0.41045421988891917,-0.5731997807618328
+2024:house:OH:03:general:source_general,Joyce Beatty,0.41215481362615947,-1.4728335963068417
+2024:house:OH:04:general:source_general,Tamie Wilson,0.08035965509199272,-0.3386163008149019
+2024:house:OH:05:general:source_general,Keith Mundy,-2.7431921924367444,-3.9012094882268187
+2024:house:OH:06:general:source_general,Michael L. Kripchak,0.22143962139605833,-2.182048092030037
+2024:house:OH:07:general:source_general,Matt Diemer,-3.210921950751114,-3.908977596814559
+2024:house:OH:08:general:source_general,Vanessa Enoch,-0.8579466271155738,-1.6355039520030417
+2024:house:OH:09:general:source_general,Marcy Kaptur,3.7179328022341167,1.8152510799005057
+2024:house:OH:10:general:source_general,Amy Cox,-6.608020297582392,-7.7155813034192064
+2024:house:OH:11:general:source_general,Shontel M. Brown,2.222255066153906,0.8484494709525734
+2024:house:OH:12:general:source_general,Jerrad Christian,-1.9969713234118913,-2.833513175038661
+2024:house:OH:13:general:source_general,Emilia Strong Sykes,1.0820028388403244,-0.32497644735732223
+2024:house:OH:14:general:source_general,Brian Bob Kenderes,-4.369302194527201,-5.841959076969957
+2024:house:OH:15:general:source_general,Adam Miller,-1.8156616917466621,-3.023994910498544
+2024:house:OK:01:general:source_general,Dennis Baker,-2.637197555710472,-2.6787298119271554
+2024:house:OK:02:general:source_general,Brandon Wade,0.6820550071871878,-0.3862700125773415
+2024:house:OK:04:general:source_general,Mary Brannon,-2.82601105182081,-3.566201074944221
+2024:house:OK:05:general:source_general,Madison Horn,-1.6333513404812336,-2.0306863235310573
+2024:house:OR:01:general:source_general,Suzanne Bonamici,1.393891917561234,0.77675495995517
+2024:house:OR:02:general:source_general,Dan Ruby,-2.131905713907429,-3.559124242182037
+2024:house:OR:03:general:source_general,Maxine E. Dexter,-0.9490448691708906,-1.338987826954309
+2024:house:OR:04:general:source_general,Val T. Hoyle,-2.1595404939051193,-2.477419922911942
+2024:house:OR:05:general:source_general,Janelle S. Bynum,-2.9323750966120414,-3.0746220593073303
+2024:house:OR:06:general:source_general,Andrea Salinas,-2.4388705445214143,-3.341484751813809
+2024:house:PA:01:general:source_general,Ashley Ehasz,-6.564287077554738,-8.747614229840387
+2024:house:PA:02:general:source_general,Brendan F. Boyle,3.375625137503235,-0.07436437683945485
+2024:house:PA:04:general:source_general,Madeleine Dean,1.0826969399461674,-0.5013616532359748
+2024:house:PA:05:general:source_general,Mary Gay Scanlon,0.8213088748522921,-0.9935808237238604
+2024:house:PA:06:general:source_general,Chrissy Houlahan,0.43680260955732564,-1.2465064739739233
+2024:house:PA:07:general:source_general,Susan Wild,1.1158548430627633,-0.8171386063270205
+2024:house:PA:08:general:source_general,Matt Cartwright,3.4718788577285196,0.6556658630017154
+2024:house:PA:09:general:source_general,Amanda Waldman,-1.3664315094481978,-1.9772673930165574
+2024:house:PA:10:general:source_general,Janelle Stelson,2.0135699673745506,1.4649636340232775
+2024:house:PA:11:general:source_general,Jim Atkinson,-2.1097368305786475,-2.1061550915303755
+2024:house:PA:12:general:source_general,Summer L. Lee,-3.2706371519704405,-3.6724334852989955
+2024:house:PA:13:general:source_general,Beth Farnham,-1.2478792205031546,-1.3162707973568466
+2024:house:PA:14:general:source_general,Chris Dziados,0.22482648532799487,-0.6499390164745975
+2024:house:PA:15:general:source_general,Zach Womer,-2.3221478110043314,-2.699997223646971
+2024:house:PA:16:general:source_general,Preston Nouri,-2.172884145317987,-3.1974059721415244
+2024:house:PA:17:general:source_general,Christopher R. Deluzio,1.0974060162410169,0.9238246395622127
+2024:house:RI:01:general:source_general,Gabe Amo,4.998550272639733,1.5661012174129922
+2024:house:RI:02:general:source_general,Seth Magaziner,4.914568759590416,1.4074690355896422
+2024:house:SC:01:general:source_general,Michael B. Moore,-1.7165683686824522,-3.9313417446665824
+2024:house:SC:02:general:source_general,David Robinson II,-2.603877900224319,-4.291439526748341
+2024:house:SC:03:general:source_general,Bryon L. Best,-2.093210122573204,-4.901133626425398
+2024:house:SC:04:general:source_general,Kathryn Harvey,0.3792565170191651,-2.155015294312605
+2024:house:SC:05:general:source_general,Evangeline Hundley,-2.0639764901834496,-4.398935028402654
+2024:house:SC:06:general:source_general,James E. Clyburn,0.31402192388399186,-4.4513936472979125
+2024:house:SC:07:general:source_general,Mal Hyman,-1.6676353418713532,-5.55615851305096
+2024:house:SD:AL:general:source_general,Sheryl Johnson,-7.099375700825224,-8.609695376070253
+2024:house:TN:01:general:source_general,Kevin Jenkins,-0.8875786576026634,-2.5274423328488176
+2024:house:TN:02:general:source_general,Jane George,-2.0938464285923466,-4.364730339261502
+2024:house:TN:03:general:source_general,Jack Allen,-1.5197000501600897,-3.4456989569697143
+2024:house:TN:04:general:source_general,Victoria Isabel Broderick,-0.2762776187675371,-3.1062528674091823
+2024:house:TN:05:general:source_general,Maryam Abolfazli,0.010946190916662601,-3.2438037332195293
+2024:house:TN:06:general:source_general,Lore Bergman,-0.1729876739265137,-3.1536318987602883
+2024:house:TN:07:general:source_general,Megan Barry,0.3114266584648888,-3.2538131036455837
+2024:house:TN:08:general:source_general,Sarah Freeman,-3.0670463387859854,-4.9454595725487
+2024:house:TN:09:general:source_general,Steve Cohen,1.4427775965940128,-0.9282101850479307
+2024:house:TX:02:general:source_general,Peter Filler,-3.6260780528641376,-4.112247213675467
+2024:house:TX:03:general:source_general,Sandeep Srivastava,-2.1853000564146186,-5.134145935214178
+2024:house:TX:04:general:source_general,Simon Cardell,-1.8458812552642776,-5.239978813953957
+2024:house:TX:05:general:source_general,Ruth “Truth” Torres,-0.3914445492023191,-2.7287419028895883
+2024:house:TX:06:general:source_general,John Love III,-1.2519679320201078,-3.5432527257177284
+2024:house:TX:07:general:source_general,Lizzie Fletcher,0.5872933347763052,-3.788372951935962
+2024:house:TX:08:general:source_general,Laura Jones,-1.062296219691774,-4.448911243002186
+2024:house:TX:10:general:source_general,Theresa Boisseau,-2.583357797352164,-5.609800644262926
+2024:house:TX:12:general:source_general,Trey J. Hunt,-2.021743643502127,-4.238325811254882
+2024:house:TX:14:general:source_general,Rhonda Hart,-1.491566097680515,-4.216918961005671
+2024:house:TX:15:general:source_general,Michelle Vallejo,1.883296004032637,-5.659167686262009
+2024:house:TX:16:general:source_general,Veronica Escobar,1.4370214451603402,-8.449514711297368
+2024:house:TX:17:general:source_general,Mark Lorenzen,-1.576398221389681,-4.907173118805723
+2024:house:TX:18:general:source_general,Sylvester Turner,-0.7501860311543851,-5.16316628768331
+2024:house:TX:21:general:source_general,Kristin Hook,-1.217430145229386,-3.1763335368694
+2024:house:TX:22:general:source_general,Marquette Greene-Scott,-2.166104786992939,-3.9936766628628533
+2024:house:TX:23:general:source_general,S. Limon,-4.456726236630459,-8.65724046468609
+2024:house:TX:24:general:source_general,Sam Eppler,-2.413680734647599,-4.029496990203633
+2024:house:TX:26:general:source_general,Ernest R. Lineberger III,-1.6260304303048088,-4.0951867437186
+2024:house:TX:27:general:source_general,Tanya Lloyd,-1.0815947837126672,-4.680402643594178
+2024:house:TX:28:general:source_general,Henry Cuellar,6.471262076853854,-0.7724554180662935
+2024:house:TX:29:general:source_general,Sylvia R. Garcia,4.968806165924363,-3.2950480399125723
+2024:house:TX:31:general:source_general,Stuart Whitlow,-2.639033994097275,-4.113563364991549
+2024:house:TX:32:general:source_general,Julie Johnson,-0.11408685718441802,-4.709317529369564
+2024:house:TX:33:general:source_general,Marc A. Veasey,1.5044351904504367,-6.516737897065369
+2024:house:TX:34:general:source_general,Vicente Gonzalez,3.5249370488663203,-6.555337630620059
+2024:house:TX:35:general:source_general,Greg Casar,0.27890625007300685,-5.680847181675674
+2024:house:TX:36:general:source_general,Dayna Steele,-0.7710738914470419,-3.367375398916465
+2024:house:TX:37:general:source_general,Lloyd Doggett,0.7467898820786445,-1.015232021727698
+2024:house:TX:38:general:source_general,Melissa McDonough,-2.218895212266908,-3.56106868173827
+2024:house:UT:01:general:source_general,Bill Campbell,-5.9895001567332,-5.942412090772756
+2024:house:UT:02:general:source_general,Nathaniel E. Woodward,-2.461377150826152,-3.987958869439751
+2024:house:UT:03:general:source_general,Glenn J. Wright,-6.453519224379498,-6.348300474911774
+2024:house:UT:04:general:source_general,Katrina Fallick-Wang,-4.005951445360601,-4.178798526869514
+2024:house:VA:01:general:source_general,Leslie C. Mehta,-3.899350489440579,-3.266739411198131
+2024:house:VA:02:general:source_general,Missy Cotter Smasal,-1.8413931611149863,-2.9424744706589507
+2024:house:VA:03:general:source_general,Robert C. “Bobby” Scott,2.5153977462397563,0.589646230308901
+2024:house:VA:04:general:source_general,Jennifer L. McClellan,0.9010585514490117,-0.5798562116499113
+2024:house:VA:05:general:source_general,Gloria Tinsley Witt,-1.327123015998552,-3.338117782175651
+2024:house:VA:06:general:source_general,Ken L. Mitchell,-2.388898927660172,-3.5363160675470837
+2024:house:VA:07:general:source_general,Eugene S. Vindman,-0.13332079049823164,-2.12922339373236
+2024:house:VA:08:general:source_general,"Donald S. Beyer, Jr.",-1.0908742263115414,-4.022918012100007
+2024:house:VA:09:general:source_general,Karen G. H. Baker,-0.40930723680283876,-1.4325966346690748
+2024:house:VA:10:general:source_general,Suhas Subramanyam,-2.0052137106504446,-6.881554800006043
+2024:house:VA:11:general:source_general,Gerald E. Connolly,-0.6585051096121504,-3.945105924447091
+2024:house:VT:AL:general:source_general,Becca Balint,1.26188648803128,-0.6520821789351743
+2024:house:WA:01:general:source_general,Suzan K. DelBene,-1.6986763431789527,-2.5820827173530816
+2024:house:WA:02:general:source_general,Rick Larsen,1.805210484875559,2.2569601998179962
+2024:house:WA:03:general:source_general,Marie Gluesenkamp Perez,3.6442624308799836,4.102084572300441
+2024:house:WA:05:general:source_general,Carmela Conroy,-5.1019476316935695,-5.522211154382269
+2024:house:WA:06:general:source_general,Emily Randall,-3.130221576850495,-2.058657433868433
+2024:house:WA:07:general:source_general,Pramila Jayapal,-4.603207001557195,-4.328179931435486
+2024:house:WA:08:general:source_general,Kim Schrier,1.1019504766933252,0.6333105363450713
+2024:house:WA:10:general:source_general,Marilyn Strickland,-0.6276114326539997,-0.45758588574628334
+2024:house:WI:01:general:source_general,Peter Barca,-2.9231405928844936,-4.192523861247281
+2024:house:WI:02:general:source_general,Mark Pocan,-0.23155165173830028,-1.0286632068309842
+2024:house:WI:03:general:source_general,Rebecca Cooke,2.3936951107001363,1.0168433258677467
+2024:house:WI:04:general:source_general,Gwen Moore,0.7025823320988138,0.0708154517750188
+2024:house:WI:05:general:source_general,Ben Steinhoff,-3.2386458916366934,-2.8587783254255257
+2024:house:WI:06:general:source_general,John Zarbano,-2.9494560435799286,-3.334621635422536
+2024:house:WI:07:general:source_general,Kyle Kilbourn,-2.1841970048623622,-3.4711152217468992
+2024:house:WI:08:general:source_general,Kristin Lyerly,0.9029082210911596,0.5389146328997754
+2024:house:WV:01:general:source_general,Chris Bob Reed,0.8661931616400089,-0.9584816138434356
+2024:house:WV:02:general:source_general,Steven Wendelin,-0.5774116323006346,-1.9258792907993794
+2024:house:WY:AL:general:source_general,Kyle G. Cameron,-1.7597680574625478,-2.758506705984864
