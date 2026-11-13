@@ -30,6 +30,12 @@ candidate-source coverage, review queues, individual CAWP observations, caucus
 attrition and [separately classified state polling](docs/STATE_POLL_CONTEXT.md).
 The publication hold also applies to replacement figures.
 
+An [independent identity review](docs/CANDIDATE_IDENTITY_REVIEW.md) corroborates
+four donor-name aliases and cross-office ID bridges for two candidates,
+retaining all 470 contests and every unresolved lead. Its complete replay
+download includes both openly licensed crosswalk originals; no new scores
+are promoted into the election models.
+
 **The corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
 It supersedes v2's interpretation while preserving all v2 bytes. Fresh native
 queries acquired November 13 retain all 435 House and 35 Senate races, with
