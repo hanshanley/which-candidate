@@ -5,21 +5,28 @@ partisanship, and how is that associated with ideology, legislative votes,
 party loyalty, incumbency and candidate background?
 
 This is an independent research project, not a modification of
-`voter-participation`. The planned historical window is 2016-2024; 2026 belongs
+`voter-participation`. The historical window is 2016-2024; 2026 belongs
 in a separately labeled provisional view. Democratic-aligned independents
 remain separate from Democratic nominees.
 
 ## Status
 
-The first implementation checkpoint builds an audited returns panel from held
-official FEC workbooks and the existing all-district House audit. It preserves
-complete native queries, candidate rows, eligibility decisions and source
-hashes. It is not yet a finding about which characteristics perform better.
+The implemented analysis combines audited returns, election-map presidential
+benchmarks, dated candidate identities, lagged Voteview records and authorized
+official biographies. It fits chamber-specific associations for 2016-2022 and
+chronological, state/person-held-out validation through 2024. The analysis
+retains 1,607 eligible development comparisons and 420 eligible 2024 comparisons.
 
-The current panel retains 10,123 candidate-contest aggregates across 2,858
-contests. The Senate pilot has 115 eligible descriptive presidential-benchmark
-gaps; these are not cycle-adjusted candidate effects. One native accounting
-mismatch remains explicitly held.
+Preliminary results identify incumbency as the strongest recurring association.
+They do not establish a broad moderation or party-defection advantage. These
+are observational comparisons, not causal nominee-replacement effects.
+
+**In progress:** expanded religion categories and race/ethnicity comparisons,
+adjusted for constituency composition. Complete Census racial/Hispanic-origin
+tables and Pew member-religion lists are acquired and pinned. Census does not
+collect religious affiliation: religious context requires a separate, explicitly
+qualified source. Unknown identities are never inferred from names or photos.
+The expanded models and final analysis release are not complete yet.
 
 See [methodology](docs/METHODOLOGY.md), [data and qualification rules](docs/DATA.md)
 and [implementation milestones](docs/ROADMAP.md).
@@ -31,6 +38,10 @@ python3.12 -m venv .venv
 .venv/bin/python -m pip install -e '.[test]'
 .venv/bin/which-candidate import-participation --source ../voter-participation
 .venv/bin/which-candidate build
+.venv/bin/which-candidate acquire-research
+.venv/bin/which-candidate import-2024 --source ../voter-participation
+.venv/bin/which-candidate build --output data/returns-v2
+.venv/bin/which-candidate analyze
 .venv/bin/which-candidate verify
 .venv/bin/which-candidate package
 .venv/bin/pytest
@@ -41,7 +52,8 @@ python3.12 -m venv .venv
 Imports copy verified originals into an ignored, content-addressed local cache.
 Builds use that cache without network or access to the parent repository.
 Complete factual queries and derived tables are retained under `data/processed/`.
-No GitHub repository, website or public release is created automatically.
+The GitHub repository is private. Raw caches and private replay archives are
+excluded from Git; no website or public data release is created automatically.
 
 The complete local download is `artifacts/complete-analysis.zip`, including
 original inputs, every query and exclusion, derived tables, code and tests.

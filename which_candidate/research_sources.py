@@ -92,6 +92,83 @@ def source_specs():
                 "attribution": "Joint Committee on Printing / US Government Publishing Office",
             }
         )
+    for election, vintage, congress in (
+        (2016, 2016, 115),
+        (2018, 2018, 116),
+        (2020, 2021, 117),
+        (2022, 2022, 118),
+        (2024, 2024, 119),
+    ):
+        for level in ("040", "500"):
+            for table in ("B02001", "B03002"):
+                suffix = ".csv.gz" if vintage <= 2018 else ".csv.zip"
+                specs.append(
+                    {
+                        "id": f"acs_{vintage}_{level}_{table}",
+                        "kind": "acs_composition",
+                        "election_year": election,
+                        "acs_year": vintage,
+                        "map_congress": congress,
+                        "summary_level": level,
+                        "table": table,
+                        "origin_url": (
+                            "https://www2.census.gov/programs-surveys/acs/replicate_estimates/"
+                            f"{vintage}/data/5-year/{level}/{table}{suffix}"
+                        ),
+                        "suffix": suffix,
+                        "attribution": "US Census Bureau, ACS five-year variance replicate estimates",
+                        "timing": "retrospective_context_not_available_for_forward_prediction",
+                    }
+                )
+    for year, publication, url in (
+        (
+            2018,
+            "2017-01-19",
+            "https://assets.pewresearch.org/wp-content/uploads/sites/11/2017/01/19161723/Member-affiliations-for-web.pdf",
+        ),
+        (
+            2020,
+            "2019-01-03",
+            "https://www.pewresearch.org/religion/wp-content/uploads/sites/7/2019/01/Detailed-tables-NUMBER-CHECK-COMPLETE-1-3.pdf",
+        ),
+        (
+            2022,
+            "2021-01-04",
+            "https://www.pewresearch.org/wp-content/uploads/sites/20/2021/01/01.04.21_faith_on_the_hill_detailed.table_.update.pdf",
+        ),
+        (
+            2024,
+            "2023-01-03",
+            "https://www.pewresearch.org/religion/wp-content/uploads/sites/7/2022/12/PF_2023.01.03_congress_LIST.pdf",
+        ),
+    ):
+        specs.append(
+            {
+                "id": f"pew_member_religion_{year}",
+                "kind": "pew_member_religion",
+                "election_year": year,
+                "publication_date": publication,
+                "origin_url": url,
+                "suffix": ".pdf",
+                "attribution": "Pew Research Center, Faith on the Hill; CQ office questionnaires",
+            }
+        )
+    specs.append(
+        {
+            "id": "district_religiosity_v2",
+            "kind": "district_religiosity",
+            "origin_url": (
+                "https://marksetzler.org/Congressional_District_Religiosity_Dataset/"
+                "ReligEstimatesByCD_07_22_2018.csv"
+            ),
+            "suffix": ".csv",
+            "attribution": "Mark Setzler, Congressional District Religiosity Dataset, Version 2",
+            "qualification": (
+                "2010_RCMS_congregation_adherence; county_population_apportionment;"
+                " not_Census_religion_or_individual_self_identification"
+            ),
+        }
+    )
     return specs
 
 
@@ -137,6 +214,10 @@ def acquire_research(data_dir, specs=None):
                 shutil.copyfile(path, destination)
             receipt["path"] = relative
             receipts.append(receipt)
+            write_json(
+                manifest_path,
+                {"schema": "which_candidate.sources.v1", "sources": receipts},
+            )
             print(f"Acquired {spec['id']}: {receipt['bytes']:,} bytes", flush=True)
     write_json(
         manifest_path,
