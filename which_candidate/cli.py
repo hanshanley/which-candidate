@@ -2,7 +2,9 @@ import argparse
 import json
 from pathlib import Path
 
+from .analysis import analyze, package_analysis
 from .pipeline import build, package, verify_output
+from .research_sources import acquire_research, import_2024
 from .sources import import_participation
 
 
@@ -12,6 +14,15 @@ def main(argv=None):
     importer = commands.add_parser("import-participation", help="Copy and pin held source facts")
     importer.add_argument("--source", type=Path, required=True)
     importer.add_argument("--data-dir", type=Path, default=Path("data"))
+    researcher = commands.add_parser(
+        "acquire-research", help="Pin public identity, ideology, unity and district benchmarks"
+    )
+    researcher.add_argument("--data-dir", type=Path, default=Path("data"))
+    extra = commands.add_parser(
+        "import-2024", help="Pin held official 2024 Senate/presidential inputs"
+    )
+    extra.add_argument("--source", type=Path, required=True)
+    extra.add_argument("--data-dir", type=Path, default=Path("data"))
     builder = commands.add_parser("build", help="Build complete audited queries without network")
     builder.add_argument("--manifest", type=Path, default=Path("data/sources.json"))
     builder.add_argument("--output", type=Path, default=Path("data/processed"))
@@ -24,12 +35,34 @@ def main(argv=None):
     packager.add_argument("--output", type=Path, default=Path("data/processed"))
     packager.add_argument("--archive", type=Path, default=Path("artifacts/complete-analysis.zip"))
     packager.add_argument("--project-root", type=Path, default=Path("."))
+    for command in ("analyze", "package-analysis"):
+        action = commands.add_parser(
+            command, help="Build/package the candidate-characteristics analysis"
+        )
+        action.add_argument("--data-dir", type=Path, default=Path("data"))
+        action.add_argument("--returns", type=Path, default=Path("data/returns-v2"))
+        action.add_argument("--output", type=Path, default=Path("data/analysis-v1"))
+        if command == "package-analysis":
+            action.add_argument("--project-root", type=Path, default=Path("."))
+            action.add_argument(
+                "--archive", type=Path, default=Path("artifacts/candidate-characteristics-v1.zip")
+            )
     args = parser.parse_args(argv)
     try:
         if args.command == "import-participation":
             result = import_participation(args.source, args.data_dir)
+        elif args.command == "acquire-research":
+            result = acquire_research(args.data_dir)
+        elif args.command == "import-2024":
+            result = import_2024(args.source, args.data_dir)
         elif args.command == "build":
             result = build(args.manifest, args.output)
+        elif args.command == "analyze":
+            result = analyze(args.data_dir, args.returns, args.output)
+        elif args.command == "package-analysis":
+            result = package_analysis(
+                args.project_root, args.data_dir, args.returns, args.output, args.archive
+            )
         elif args.command == "verify":
             manifest = verify_output(args.output)
             result = {"status": "verified", "files": len(manifest["files"])}
