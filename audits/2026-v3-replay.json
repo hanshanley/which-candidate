@@ -1,0 +1,11 @@
+{
+  "release": "2026-v3",
+  "network_disabled": true,
+  "extracted_complete_public_download": true,
+  "byte_identical_analysis_files_including_manifest": 18,
+  "byte_identical_publication_files_including_both_downloads_and_manifest": 49,
+  "unchanged_v2_files_verified_against_original_audit": 120,
+  "passing_repository_tests": 118,
+  "ruff_check": "passed",
+  "ruff_format_check": "passed"
+}

@@ -1,0 +1,10 @@
+{
+  "folds_without_state_or_person_overlap": 1971,
+  "incumbency_corrections_verified": 5,
+  "independent_2026_caucus_pipeline_deletions": 120,
+  "independent_structural_residuals": 5513,
+  "independent_trait_deletions": 4721,
+  "independent_trait_fits": 161,
+  "native_candidate_rows": 1686,
+  "retained_2026": 470
+}

@@ -1,0 +1,9 @@
+state,chamber,advanced,candidate_id,color,incumbent,major_candidate,name,party,percent,votes,winner,all_candidate_votes,all_candidate_share_pct,primary_eligible
+AK,house,False,219754,#c6606b,False,True,Nick Begich III,Republican,48.62,123241,False,253459,48.623643271692856,False
+AK,house,False,219757,#9A36FF,False,True,Bill Hill,Nonpartisan,41.21,104460,False,253459,41.21376632907097,False
+AK,house,False,219755,#4874a3,False,True,Eric Hafner,Democratic,7.51,19032,False,253459,7.50890676598582,False
+AK,house,False,219756,#d4c029,False,False,"James C. ""Jim"" McDermott",Libertarian,2.65,6726,False,253459,2.653683633250348,False
+MT,senate,False,220680,#c6606b,False,True,Kurt Alme,Republican,48.16,235580,True,489119,48.16414819297553,False
+MT,senate,False,220683,#63c660,False,True,Seth Bodnar,Independent,37.73,184563,False,489119,37.73376213150583,False
+MT,senate,False,220681,#4874a3,False,True,Alani Bankhead,Democratic,12.26,59960,False,489119,12.258775471817696,False
+MT,senate,False,220682,#d4c029,False,False,Kyle Austin,Libertarian,1.84,9016,False,489119,1.8433142037009398,False

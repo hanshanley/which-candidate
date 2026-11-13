@@ -1,0 +1,16 @@
+field,category,candidates,denominator,share_pct
+religion_category,unknown,261,405,64.44444444444444
+religion_category,protestant,63,405,15.555555555555555
+religion_category,catholic,52,405,12.839506172839506
+religion_category,jewish,16,405,3.950617283950617
+religion_category,muslim,3,405,0.7407407407407407
+religion_category,unitarian_universalist,3,405,0.7407407407407407
+religion_category,buddhist,2,405,0.49382716049382713
+religion_category,hindu,2,405,0.49382716049382713
+religion_category,humanist,1,405,0.24691358024691357
+religion_category,orthodox,1,405,0.24691358024691357
+religion_category,unaffiliated,1,405,0.24691358024691357
+race_category,unknown,355,405,87.65432098765432
+race_category,black,37,405,9.135802469135802
+race_category,asian_or_pacific_islander,11,405,2.7160493827160495
+race_category,multiracial,2,405,0.49382716049382713
