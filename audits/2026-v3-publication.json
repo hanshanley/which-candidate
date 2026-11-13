@@ -1,0 +1,49 @@
+{
+  "release": "2026-v3",
+  "research_snapshot_commit": "e36e39819f7e11a606634951124557e1cf346922",
+  "published_release": {
+    "draft": false,
+    "server_enforced_immutable": true,
+    "complete_assets_downloaded_and_byte_verified": 49
+  },
+  "website": {
+    "commit": "ba6a92157758568a982f4a6efde7f84c058f3e1b",
+    "workflow_run": 43508604243,
+    "conclusion": "success",
+    "file_content_bytes": 997353906,
+    "actual_tar_bytes_including_headers_and_padding": 999956480,
+    "verified_current_release_offloads": 49,
+    "verified_archived_v2_offloads": 53
+  },
+  "production_browser_checks": {
+    "viewport_widths": [1280, 390, 320],
+    "javascript_enabled": false,
+    "decoded_figures_per_viewport": 9,
+    "horizontal_overflow": false,
+    "page_errors": false,
+    "correction_notice_and_native_clocks_verified": true,
+    "interactive_analysis_preview_verified": true
+  },
+  "complete_downloads_through_live_gallery": {
+    "complete-query-set.zip": {
+      "bytes": 28719193,
+      "sha256": "ea7f191b5419d439c9136e99b7be9fc49c645534722d90a31ad8fb8fdcc8732b"
+    },
+    "substack-figures.zip": {
+      "bytes": 30324727,
+      "sha256": "c9ee11a53b1d1c75cb448a6b0a57afc7ffe87417feb44efe5b7ec87aa1f6b211",
+      "embedded_complete_query_zip_byte_verified": true
+    }
+  },
+  "validation": {
+    "research_tests": 118,
+    "research_ruff_check": "passed",
+    "research_ruff_format_check": "passed",
+    "website_type_errors": 0,
+    "website_build": "passed",
+    "focused_gallery_tests": 5,
+    "frozen_v2_files_unchanged": 120,
+    "offline_analysis_files_byte_identical": 18,
+    "offline_publication_files_byte_identical": 49
+  }
+}
