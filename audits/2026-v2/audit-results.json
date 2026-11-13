@@ -1,0 +1,2834 @@
+{
+  "all_values_are_share_percentage_points_unless_labeled": true,
+  "audit_date": "2026-11-13",
+  "contextual_diagnostics": {
+    "house:race_category:asian_or_pacific_islander_vs_black:census_adjusted": {
+      "cv1_interval": [
+        -2.912577850515753,
+        0.793766808768773
+      ],
+      "cv1_se": 0.8741769409808186,
+      "cv3_interval": [
+        -3.3902469076249973,
+        1.2714358658780172
+      ],
+      "cv3_se": 1.099502599294289,
+      "estimate": -1.05940552087349,
+      "group_support": {
+        "asian_or_pacific_islander": {
+          "people": 4,
+          "rows": 4,
+          "states": 4
+        },
+        "black": {
+          "people": 25,
+          "rows": 25,
+          "states": 15
+        }
+      },
+      "inverse_herfindahl_of_cluster_partial_leverage": 3.9733556570955786,
+      "leave_state_out": [
+        {
+          "estimate": -1.0322286051644514,
+          "state": "CT"
+        },
+        {
+          "estimate": -1.137355035511295,
+          "state": "GA"
+        },
+        {
+          "estimate": -0.8536860765350754,
+          "state": "HI"
+        },
+        {
+          "estimate": -0.5420988615066209,
+          "state": "IL"
+        },
+        {
+          "estimate": -1.2673208935784075,
+          "state": "IN"
+        },
+        {
+          "estimate": -1.1160403622576298,
+          "state": "MD"
+        },
+        {
+          "estimate": -1.4380729973981254,
+          "state": "MN"
+        },
+        {
+          "estimate": -1.209773091660857,
+          "state": "MS"
+        },
+        {
+          "estimate": -0.4429083217176396,
+          "state": "NJ"
+        },
+        {
+          "estimate": -1.0360728139100694,
+          "state": "NV"
+        },
+        {
+          "estimate": -0.7250985798227815,
+          "state": "NY"
+        },
+        {
+          "estimate": -1.278923727311693,
+          "state": "OR"
+        },
+        {
+          "estimate": -0.9406499661681901,
+          "state": "PA"
+        },
+        {
+          "estimate": -1.098871108092099,
+          "state": "SC"
+        },
+        {
+          "estimate": -1.0957731470421737,
+          "state": "VA"
+        },
+        {
+          "estimate": -1.4964439487280716,
+          "state": "WA"
+        },
+        {
+          "estimate": -1.141486239515739,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Jill Tokuda",
+      "max_observation_leverage": 0.9985555046239698,
+      "n": 29,
+      "parameters": 11,
+      "state_clusters": 17
+    },
+    "house:religion_category:catholic_vs_protestant:census_adjusted": {
+      "cv1_interval": [
+        -0.24184178516878174,
+        2.9211818149422744
+      ],
+      "cv1_se": 0.7662739969197011,
+      "cv3_interval": [
+        -0.5023882131903021,
+        3.181728242963795
+      ],
+      "cv3_se": 0.8925139356771558,
+      "estimate": 1.3396700148867464,
+      "group_support": {
+        "catholic": {
+          "people": 30,
+          "rows": 30,
+          "states": 14
+        },
+        "protestant": {
+          "people": 42,
+          "rows": 42,
+          "states": 20
+        }
+      },
+      "inverse_herfindahl_of_cluster_partial_leverage": 11.439595987962365,
+      "leave_state_out": [
+        {
+          "estimate": 1.2933214413238847,
+          "state": "AZ"
+        },
+        {
+          "estimate": 1.45129141733707,
+          "state": "CO"
+        },
+        {
+          "estimate": 1.1499267759737481,
+          "state": "CT"
+        },
+        {
+          "estimate": 1.34179088186762,
+          "state": "DE"
+        },
+        {
+          "estimate": 1.2885840798035755,
+          "state": "GA"
+        },
+        {
+          "estimate": 1.0987198651920087,
+          "state": "HI"
+        },
+        {
+          "estimate": 1.70869340535879,
+          "state": "IL"
+        },
+        {
+          "estimate": 1.2411135647465474,
+          "state": "IN"
+        },
+        {
+          "estimate": 1.4698008767339716,
+          "state": "KY"
+        },
+        {
+          "estimate": 1.1535620333191234,
+          "state": "MA"
+        },
+        {
+          "estimate": 1.3162864180501421,
+          "state": "MD"
+        },
+        {
+          "estimate": 1.2254633507811419,
+          "state": "MI"
+        },
+        {
+          "estimate": 1.3663723752049632,
+          "state": "MN"
+        },
+        {
+          "estimate": 1.3400057498179054,
+          "state": "MS"
+        },
+        {
+          "estimate": 1.2907639505707107,
+          "state": "NH"
+        },
+        {
+          "estimate": 1.1974023932415339,
+          "state": "NJ"
+        },
+        {
+          "estimate": 1.448439007904579,
+          "state": "NM"
+        },
+        {
+          "estimate": 1.3623245792317231,
+          "state": "NV"
+        },
+        {
+          "estimate": 1.8530196673677304,
+          "state": "NY"
+        },
+        {
+          "estimate": 1.4623045488964144,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.9842809792157325,
+          "state": "PA"
+        },
+        {
+          "estimate": 1.3414067830581495,
+          "state": "SC"
+        },
+        {
+          "estimate": 1.349273436206078,
+          "state": "VA"
+        },
+        {
+          "estimate": 1.0812406974378852,
+          "state": "WA"
+        },
+        {
+          "estimate": 1.3389112919152073,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Teresa Leger Fernandez",
+      "max_observation_leverage": 0.9492006022992157,
+      "n": 72,
+      "parameters": 11,
+      "state_clusters": 25
+    },
+    "house:religion_category:jewish_vs_protestant:census_adjusted": {
+      "cv1_interval": [
+        -1.2702769675788634,
+        1.9522560190776466
+      ],
+      "cv1_se": 0.7747911937657092,
+      "cv3_interval": [
+        -1.4746167445253282,
+        2.1565957960241113
+      ],
+      "cv3_se": 0.873049712992495,
+      "estimate": 0.34098952574939156,
+      "group_support": {
+        "jewish": {
+          "people": 8,
+          "rows": 8,
+          "states": 8
+        },
+        "protestant": {
+          "people": 42,
+          "rows": 42,
+          "states": 20
+        }
+      },
+      "inverse_herfindahl_of_cluster_partial_leverage": 9.596626583210725,
+      "leave_state_out": [
+        {
+          "estimate": 0.5086501224671551,
+          "state": "CO"
+        },
+        {
+          "estimate": -0.24993533133268878,
+          "state": "CT"
+        },
+        {
+          "estimate": 0.33983458351886214,
+          "state": "DE"
+        },
+        {
+          "estimate": 0.38727052095598496,
+          "state": "GA"
+        },
+        {
+          "estimate": 0.3156487748901581,
+          "state": "HI"
+        },
+        {
+          "estimate": 0.6654146379910452,
+          "state": "IL"
+        },
+        {
+          "estimate": 0.5355713637667698,
+          "state": "KY"
+        },
+        {
+          "estimate": 0.11848311811977456,
+          "state": "MA"
+        },
+        {
+          "estimate": 0.2786157392859826,
+          "state": "MD"
+        },
+        {
+          "estimate": 0.24678262192818182,
+          "state": "MI"
+        },
+        {
+          "estimate": 0.2655437947936013,
+          "state": "MN"
+        },
+        {
+          "estimate": 0.30403227358812557,
+          "state": "MS"
+        },
+        {
+          "estimate": 0.07780322776183077,
+          "state": "NJ"
+        },
+        {
+          "estimate": 0.34118051803159216,
+          "state": "NV"
+        },
+        {
+          "estimate": 0.4142271989102348,
+          "state": "NY"
+        },
+        {
+          "estimate": 0.6266889215874485,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.4421600730638539,
+          "state": "PA"
+        },
+        {
+          "estimate": 0.3362935704970355,
+          "state": "SC"
+        },
+        {
+          "estimate": 0.20952276740589662,
+          "state": "VA"
+        },
+        {
+          "estimate": 0.3220645501066949,
+          "state": "VT"
+        },
+        {
+          "estimate": 0.48871630753741857,
+          "state": "WA"
+        },
+        {
+          "estimate": 0.34023081036060054,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Jill Tokuda",
+      "max_observation_leverage": 0.8016905486995966,
+      "n": 50,
+      "parameters": 11,
+      "state_clusters": 22
+    },
+    "house:religion_category:muslim_vs_protestant:census_adjusted": {
+      "cv1_interval": [
+        0.0575075870351367,
+        3.336838077384646
+      ],
+      "cv1_se": 0.7860469690031787,
+      "cv3_interval": [
+        -0.6624576570037655,
+        4.056803321423548
+      ],
+      "cv3_se": 1.1311945529565708,
+      "estimate": 1.6971728322098913,
+      "group_support": {
+        "muslim": {
+          "people": 3,
+          "rows": 3,
+          "states": 3
+        },
+        "protestant": {
+          "people": 42,
+          "rows": 42,
+          "states": 20
+        }
+      },
+      "inverse_herfindahl_of_cluster_partial_leverage": 4.318365165951582,
+      "leave_state_out": [
+        {
+          "estimate": 1.8821285466756872,
+          "state": "CO"
+        },
+        {
+          "estimate": 1.851235320018045,
+          "state": "CT"
+        },
+        {
+          "estimate": 1.6986941316990518,
+          "state": "DE"
+        },
+        {
+          "estimate": 1.7231782563313496,
+          "state": "GA"
+        },
+        {
+          "estimate": 1.3733069807728673,
+          "state": "HI"
+        },
+        {
+          "estimate": 1.744782351262963,
+          "state": "IL"
+        },
+        {
+          "estimate": 1.537348931221319,
+          "state": "IN"
+        },
+        {
+          "estimate": 1.800027817598982,
+          "state": "KY"
+        },
+        {
+          "estimate": 1.553512915099365,
+          "state": "MD"
+        },
+        {
+          "estimate": 1.0069376870221793,
+          "state": "MI"
+        },
+        {
+          "estimate": 2.424400434079469,
+          "state": "MN"
+        },
+        {
+          "estimate": 1.7090606790305305,
+          "state": "MS"
+        },
+        {
+          "estimate": 1.720463564026948,
+          "state": "NJ"
+        },
+        {
+          "estimate": 1.727638182566923,
+          "state": "NV"
+        },
+        {
+          "estimate": 1.8641953686293329,
+          "state": "NY"
+        },
+        {
+          "estimate": 1.5968650772142532,
+          "state": "OR"
+        },
+        {
+          "estimate": 1.7752051246213036,
+          "state": "PA"
+        },
+        {
+          "estimate": 1.702830050381624,
+          "state": "SC"
+        },
+        {
+          "estimate": 1.736252889540274,
+          "state": "VA"
+        },
+        {
+          "estimate": 1.4377211871312103,
+          "state": "WA"
+        },
+        {
+          "estimate": 1.6621889216611838,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Jill Tokuda",
+      "max_observation_leverage": 0.8074090473631992,
+      "n": 45,
+      "parameters": 11,
+      "state_clusters": 21
+    }
+  },
+  "external_primary_sources": {
+    "asa_pvalue_statement": "https://doi.org/10.1080/00031305.2016.1154108",
+    "california_general_candidates": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+    "california_special_candidates": "https://elections.cdn.sos.ca.gov/special-elections/2026-cd1/cert-list-primary.pdf",
+    "cluster_inference_methods": "https://doi.org/10.1016/j.jeconom.2022.04.001",
+    "gallagher_federal_service": "https://history.house.gov/People/Listing/G/GALLAGHER%2C-James-%28G000607%29/",
+    "mcguire_fec_record_with_conflicting_incumbent_flag": "https://www.fec.gov/data/candidate/H6CA01269/",
+    "mcguire_state_senate_biography": "https://sd02.senate.ca.gov/biography",
+    "voteview_measurement": "https://voteview.com/articles/data_help_members"
+  },
+  "fold_checks": 1981,
+  "forward_2026_fold_checks": 325,
+  "frozen_inputs_unchanged": true,
+  "historical_benchmark_sensitivity": [
+    {
+      "lagged_2020": 1.7243373579572872,
+      "model": "incumbency",
+      "n": 389,
+      "same_year_2024": 2.430423968555837
+    },
+    {
+      "lagged_2020": 0.319143651073134,
+      "model": "ideology",
+      "n": 133,
+      "same_year_2024": -0.1880617450034539
+    },
+    {
+      "lagged_2020": 0.45999275381242194,
+      "model": "defection",
+      "n": 133,
+      "same_year_2024": -0.38572838807190374
+    },
+    {
+      "lagged_2020": 0.1664344305699536,
+      "model": "age",
+      "n": 167,
+      "same_year_2024": 0.05768720494108659
+    },
+    {
+      "lagged_2020": -0.034737568162331006,
+      "model": "tenure",
+      "n": 167,
+      "same_year_2024": 0.09159249866775238
+    },
+    {
+      "lagged_2020": -0.03774121999681013,
+      "model": "gender",
+      "n": 167,
+      "same_year_2024": -0.683418818627158
+    }
+  ],
+  "identity_coverage_2026_house_incumbents": [
+    {
+      "category": "catholic",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 52,
+      "phase": "primary_2026",
+      "rows": 52,
+      "states": 18
+    },
+    {
+      "category": "protestant",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 63,
+      "phase": "primary_2026",
+      "rows": 63,
+      "states": 27
+    },
+    {
+      "category": "jewish",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 16,
+      "phase": "primary_2026",
+      "rows": 16,
+      "states": 11
+    },
+    {
+      "category": "muslim",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 3,
+      "phase": "primary_2026",
+      "rows": 3,
+      "states": 3
+    },
+    {
+      "category": "atheist",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "agnostic",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "unaffiliated",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 2,
+      "phase": "primary_2026",
+      "rows": 2,
+      "states": 2
+    },
+    {
+      "category": "hindu",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 2,
+      "phase": "primary_2026",
+      "rows": 2,
+      "states": 2
+    },
+    {
+      "category": "buddhist",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 2,
+      "phase": "primary_2026",
+      "rows": 2,
+      "states": 2
+    },
+    {
+      "category": "orthodox",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 1,
+      "phase": "primary_2026",
+      "rows": 1,
+      "states": 1
+    },
+    {
+      "category": "lds",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "unitarian_universalist",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 3,
+      "phase": "primary_2026",
+      "rows": 3,
+      "states": 2
+    },
+    {
+      "category": "humanist",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 1,
+      "phase": "primary_2026",
+      "rows": 1,
+      "states": 1
+    },
+    {
+      "category": "christian_unspecified",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "other_christian",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "other",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "multiple",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "unknown",
+      "chamber": "house",
+      "field": "religion_category",
+      "people": 18,
+      "phase": "primary_2026",
+      "rows": 18,
+      "states": 15
+    },
+    {
+      "category": "white",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "black",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 37,
+      "phase": "primary_2026",
+      "rows": 37,
+      "states": 21
+    },
+    {
+      "category": "asian",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "native_american",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "nhpi",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "asian_or_pacific_islander",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 11,
+      "phase": "primary_2026",
+      "rows": 11,
+      "states": 5
+    },
+    {
+      "category": "multiracial",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 2,
+      "phase": "primary_2026",
+      "rows": 2,
+      "states": 2
+    },
+    {
+      "category": "other",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": "unknown",
+      "chamber": "house",
+      "field": "race_category",
+      "people": 113,
+      "phase": "primary_2026",
+      "rows": 113,
+      "states": 29
+    },
+    {
+      "category": true,
+      "chamber": "house",
+      "field": "hispanic_origin",
+      "people": 31,
+      "phase": "primary_2026",
+      "rows": 31,
+      "states": 11
+    },
+    {
+      "category": false,
+      "chamber": "house",
+      "field": "hispanic_origin",
+      "people": 0,
+      "phase": "primary_2026",
+      "rows": 0,
+      "states": 0
+    },
+    {
+      "category": null,
+      "chamber": "house",
+      "field": "hispanic_origin",
+      "people": 132,
+      "phase": "primary_2026",
+      "rows": 132,
+      "states": 35
+    }
+  ],
+  "independent_fit_checks_including_repeated_2026_fits": 257,
+  "input_sha256": {
+    "publication/2026-v2/captions.json": "0a24778eec0d0773434b6cf1cef287edc22a0c122125594cedef0644feda7e66",
+    "publication/2026-v2/comparison/annual-model-fits.csv": "de5d97186ed5bbb7e50305273cbd62817812ad1fec85931d470ffbe1e924f1f0",
+    "publication/2026-v2/comparison/annual-model-fits.jsonl.gz": "d6fa72178fe9551a8100e328c1681a86c62677d4705a7691242306b7c4d49a59",
+    "publication/2026-v2/comparison/annual-model-terms.csv": "64ad1fb596acf97a9dda0fdc16ab77fd9a572bc73535e238563a41cfd3fb9fe9",
+    "publication/2026-v2/comparison/annual-model-terms.jsonl.gz": "d3ff01814d60c8718651959b3915a9d0b356153a38bc921069efb33fb91562a7",
+    "publication/2026-v2/complete-query-set.zip": "7a19ba9b8f07802872e71d9ff4cd67b6fd2b4a005e972a1ea62bdbf0fcb84797",
+    "publication/2026-v2/manifest.json": "bddf9970054306b2f605a381ffc61996a79aaa5becc240ed0df9b375ad53fdbf",
+    "publication/2026-v2/marginoferror/house-characteristics.png": "6639895feab49f957115825f7ee163e06a54d976724e7d0d02a4f6bba857f834",
+    "publication/2026-v2/marginoferror/house-characteristics.svg": "ed5d0f4b54a37135a98cfb79901cb099e05a1759e8d3e33dc49081d4324f86fd",
+    "publication/2026-v2/marginoferror/house-history.png": "fa685c36561de07ad47c4a90b4daf0738af883fd6e9d54bfde1102744506101a",
+    "publication/2026-v2/marginoferror/house-history.svg": "10e2ae2e85a7cdd60d521f6b162b7d5b67a0d27fb3ef80dc2c6cfbb796814971",
+    "publication/2026-v2/marginoferror/house-voting-records.png": "dd34df37ccae516e52efbbd5382a5c03af6157fe359ec6d89904b09e633dccd5",
+    "publication/2026-v2/marginoferror/house-voting-records.svg": "1b66528f65b39202ee01cbbac92a82c5fc413ba699c5f5900b51adf15b6f6f76",
+    "publication/2026-v2/marginoferror/identity-comparisons.png": "b1f5c6610cdf7370603122464c560509ecc965c1bf96f5cae0ccdd3fa455fb16",
+    "publication/2026-v2/marginoferror/identity-comparisons.svg": "f419c38debe3371b925d321073431979c28e154734aaa6021cb9121231a4b9e2",
+    "publication/2026-v2/marginoferror/identity-coverage.png": "e1fabc7b3dc156fbeb5b0c2d00f24abc6377cf25fcdd1137a1cdf12d1edacc9d",
+    "publication/2026-v2/marginoferror/identity-coverage.svg": "908551aec3edbaddfa6f511cd5e152a7c622f210cc3b3d93e1be4b6d261d68ca",
+    "publication/2026-v2/marginoferror/partisan-geography.png": "65ef94dc9b63d8e5adc90b4ebed774eb8e97b63c5c00ee356a334152728dcc50",
+    "publication/2026-v2/marginoferror/partisan-geography.svg": "3a422af12525cb2c789e6585fd6cbff717dad12593bec224c742da72581f2a7d",
+    "publication/2026-v2/marginoferror/predictive-lift.png": "0bcd2aa52176ed701b814b7f87f60fef9d601bad3aac5d216822da77fe4418e4",
+    "publication/2026-v2/marginoferror/predictive-lift.svg": "17971b69da22103f904b2bf5f307466dbc8aa095d9356682f7d7e838a9f3349c",
+    "publication/2026-v2/marginoferror/senate-characteristics.png": "c48826a98acdec11c588048b32d6c1dbcf234b4f572a11c486070a09994a6dfd",
+    "publication/2026-v2/marginoferror/senate-characteristics.svg": "fbbf0bed721dc38a2e6c197f82f0190c59cd0dcfdf0d2903b3544bdb264c484e",
+    "publication/2026-v2/marginoferror/senate-history.png": "09ff63ac64f6b7a290856e21d11f882bdb81f496d8231a2975e405b3840716e0",
+    "publication/2026-v2/marginoferror/senate-history.svg": "5ae9fe5e8598e10875d7e192abb62dc726bff2ec122f34f1d72bd5ba90ae9545",
+    "publication/2026-v2/plot-data/house-characteristics.csv": "2909a973f3902275d5dc9c83d0401c2f548155416462ae6e9a9f54efb4121e52",
+    "publication/2026-v2/plot-data/house-history.csv": "c7584ea05e131df336a0ee94609cc8066690d318c895e197f6429407a477be02",
+    "publication/2026-v2/plot-data/house-voting-records.csv": "42b002792a2d30b579e375bc64a654420e7c1f62e803e8b05eabfae543a4206d",
+    "publication/2026-v2/plot-data/identity-comparisons.csv": "4d351bcc30b0691c8b5d2c55a64f773e154d0162078524e3935e94d4ad9df9ea",
+    "publication/2026-v2/plot-data/identity-coverage.csv": "db6c92b44b47e9bc36b5f880884b3a135154de7379fb816200e077df221f327c",
+    "publication/2026-v2/plot-data/partisan-geography.csv": "d95c27e4b5fc0e068be1224c0eae348bd15d1d92b0992b7c4707f62a386e931d",
+    "publication/2026-v2/plot-data/predictive-lift.csv": "048abd85d12f4a17519fb841e6b6bddd1360bb285c416385f8545ffb941d3dba",
+    "publication/2026-v2/plot-data/senate-characteristics.csv": "91ed83b3d4a9b3208c6f8e2001c792a073f68d81aa63ac22012e7c512fd35df5",
+    "publication/2026-v2/plot-data/senate-history.csv": "db9780445ac1f543d78a5bcc0c389c93932a7b491d63a4181e73ce0467134886",
+    "publication/2026-v2/substack-figures.zip": "54fd17fb34ba0817cebe52f787ae3e9420b455b9d36476fe2b6188042d6b6f39",
+    "publication/2026-v2/substack/house-characteristics.png": "96b243f695203ffd1c914ebab7c6aa01eab46cca258b0bedbf020cebf6df23f7",
+    "publication/2026-v2/substack/house-characteristics.svg": "8787a764c82597e386e4a97576395ebda6e63d2f1708ba4be9e43c0dee380647",
+    "publication/2026-v2/substack/house-history.png": "a40495ae2e3e6488e2bd2604ccb0c2670c798fd32e9acd265fbf9be4a9672aca",
+    "publication/2026-v2/substack/house-history.svg": "274cb09c1d611e1e5ac43ba484e49ee1948cc82b67bc19f6af13b5b21fb85d89",
+    "publication/2026-v2/substack/house-voting-records.png": "40cc5e7aecd3c2ac01f3a271808a2900bf6d6086a99d22b64465c46919c3a5ee",
+    "publication/2026-v2/substack/house-voting-records.svg": "81ad233ca75257400b8c923024a8f339f0e0a845bcb748372dbcb62b01b271f9",
+    "publication/2026-v2/substack/identity-comparisons.png": "c6d9b4eff8c7858c8074783c95ea0cf5ade9fc1bc71b963c922db55ca2b77079",
+    "publication/2026-v2/substack/identity-comparisons.svg": "824179c3ad803ff260375ea44103da5b0a3ed7d2da8829f7cf5d5370dbdaae49",
+    "publication/2026-v2/substack/identity-coverage.png": "6385fc737ae76d9414ea1f83c341a6434e1adc7bd0fb1f16e5b49f463455642a",
+    "publication/2026-v2/substack/identity-coverage.svg": "759d3b6f6cde0aa83d6ff1e1ade184054519a2cbfedfd74499836d85fb620f6a",
+    "publication/2026-v2/substack/partisan-geography.png": "ac86fb64bc1ba8781946c4815e4b026607d1a7882c0f0e2dcdcdbfa6f5a3c31b",
+    "publication/2026-v2/substack/partisan-geography.svg": "7c628880e1439f5a3455345b698a52b6c965401240a7639714ec9f2b4c7dc32f",
+    "publication/2026-v2/substack/predictive-lift.png": "d8a5906020f7382552cf25d403e34dfcf38443f3f31f9b9d6ceffd4f013b596a",
+    "publication/2026-v2/substack/predictive-lift.svg": "29206c3f5a5497e4c12bbefbdaf5603d7e0abcbc71dc299ca6e9bbed4dd8d102",
+    "publication/2026-v2/substack/senate-characteristics.png": "9382866c14c633e3b7902f97eb6d9b6fc8730dba5739abedbc348a9554c40d08",
+    "publication/2026-v2/substack/senate-characteristics.svg": "75fd7bafa271597c89f2687116dbba93041df0595d6a8907532f25391ec9de7b",
+    "publication/2026-v2/substack/senate-history.png": "b3b8d6e2cfe9ba0acdfbb8fa748450d6692731edde5876a58251955712419986",
+    "publication/2026-v2/substack/senate-history.svg": "2e69be9f2f547bdff00dc52019b27b85a7097873ba4214774e56fb1776f105a7",
+    "results/2026/2026-candidate-results.csv": "2eaeaf6d9665892bba4f1a9a721ead73a02511bba46601736a9a72cab79da892",
+    "results/2026/2026-candidate-results.jsonl.gz": "41c6500a7bf00aa8a756980c1a6cf203bc28d5c8455e971d66cb73c85ae8a87b",
+    "results/2026/2026-model-fits.jsonl.gz": "f7170a1d57f2c623ef69fc8ba064af870ebbaf5c4cf25d7774164ab052f81ce7",
+    "results/2026/2026-model-terms.csv": "eaa42882b32454beeaa40129443028ac4debcaf2ff25f1eb05e33ba089aa737c",
+    "results/2026/2026-model-terms.jsonl.gz": "32ee4b882f864fc96e67a87e55eda0f6d9d71094e99f5752332ff6c6fbc75d87",
+    "results/2026/Census-population-composition.csv": "1fb3c65d4b3f7ba777a0042e1d18e023f4d3ee990a1686da9daa671c081346f9",
+    "results/2026/Census-population-composition.jsonl.gz": "2166279cbab438078ef7b4e45df5a11c8a7fd88d96d94e383e623093f0e6c346",
+    "results/2026/House-Historian-identity.csv": "3864f9d185532ab58783705136c73959f3259d62de185aeecdedd8e961a71508",
+    "results/2026/House-Historian-identity.jsonl.gz": "415ffeb5c8933df252909528cb4adee7ac73399bcd8ec0934d82831cc74de3b1",
+    "results/2026/Pew-member-religion.csv": "fb95a56773cf93902109833587c41381f4feee00a47a0c75327e4dd1dc7e83a8",
+    "results/2026/Pew-member-religion.jsonl.gz": "640009d3164239a814dcfda80a40319fd487a18bb9cb84a25d25f7e211ab8a46",
+    "results/2026/adjusted-associations.png": "1a38982f65f31461d0433eead967f8665b6dd2bf8247661c0199e7a24e9e2ecc",
+    "results/2026/adjusted-associations.svg": "559985439e5bdeac637b7fc23a235731bd397249cc1eb96dc326bf45b1177c8b",
+    "results/2026/alternate-2024-benchmarks.csv": "01016110f395ff660e145acddc480f28a801dca6c26f27ed71f6ee6db366e4c1",
+    "results/2026/alternate-2024-benchmarks.jsonl.gz": "1a9a27f3e83c5ea1de248c7941e80675a36bcd6103386cecd9b5ed717830ca35",
+    "results/2026/candidate-features.csv": "f911e82cc37163066f233e8eccc6c0bfdf487c7e61ec2ff9c1170af242544c67",
+    "results/2026/candidate-features.jsonl.gz": "7f12c40925014569b3d838ced82d877f3bbc77028b90d97a35c350c7b634fa49",
+    "results/2026/candidate-queries.csv": "00f4f3fae72410d9ba59a7113db2069619732fc9abc5fb4b16372169af72833d",
+    "results/2026/candidate-queries.jsonl.gz": "a128204d03b22f95f432b58b43bf054e4b6d715f383407d6cfe12597321083a6",
+    "results/2026/clerk-2024-pages.jsonl.gz": "6fd890278c960a700f4fc4af448657083f7d41cc9715fcc0effbfe42d9acaba3",
+    "results/2026/clerk-2024-senate-candidates.jsonl.gz": "e534e2fef38e7ae6c412dff6d1490064a91111b2b529e7681b98f540bb750865",
+    "results/2026/clerk-2024-senate-contests.jsonl.gz": "6e939c97109e820d718cc54962aa5ae25d581840a3243bdedbe7cf9506000e58",
+    "results/2026/clerk-2024-senate-decisions.jsonl.gz": "b9450a9486b007557032c8684af4cd0dd196e968744f3bd3115636c6cbe2b089",
+    "results/2026/clerk-2024-senate-native.jsonl.gz": "841205ae50cd45291c8197098dd7604cfa4ddf766b6964dbca5938eb5c4033ff",
+    "results/2026/contextual-model-fits.jsonl.gz": "92a2a262ea7ee5be68950a584a9021da9ba3a40d99a757f74e1b633bbc1d4ba9",
+    "results/2026/contextual-model-terms.csv": "1c2385ba065afdd336785dc1a1862ad6458b13e26465e857813a182d627f6ac1",
+    "results/2026/contextual-model-terms.jsonl.gz": "e4f1bbd676472c2040bbbdd902d8d5038fc089e7021aa7a235e865fd46c047c3",
+    "results/2026/coverage.csv": "92aacbfa4c2589b9b513b4cb356571f6c1eed602e0555830d580ce15674f5062",
+    "results/2026/coverage.jsonl.gz": "820b9ac37c90a788cd5e333b2eb7b382592f840b57cae081de9c86da7532ac36",
+    "results/2026/directory-biographies.jsonl.gz": "29068f7ed6723edf0f067bd73362156634e7195635fbe33685175746194269e3",
+    "results/2026/district-congregation-context.csv": "0d44c81de9bbbc5754d8371c06cdafd71f8f5d3d2b26b3972ec896444c816172",
+    "results/2026/district-congregation-context.jsonl.gz": "011c7f0abd812166504df78109408d23b062f0c109173bfade8daf53e7c94186",
+    "results/2026/district-presidential-benchmarks.csv": "c65099804e43b2f7fadb3d1f4079d63dcd49c97b443f38c1062933c5d9cc459f",
+    "results/2026/district-presidential-benchmarks.jsonl.gz": "e8c50057d28872f9de83843a583fb8a422e63f02c5ae78852baab192662feae7",
+    "results/2026/fec-2024-state-president.jsonl.gz": "ac91869cf994b0f51f6b81aa337fefeb715722f8f6d66ad7388c3f4a86a6be61",
+    "results/2026/fec-nominee-and-registration-records.jsonl.gz": "3ea4364c223bf4aa5c5e36e13bb8907ef905aca501a500ba6d19ebdef0e3918e",
+    "results/2026/folds.jsonl.gz": "1aa1d601a2dbc1266ce590b13e01310af080e4b49817fc92abab3711920e4dac",
+    "results/2026/historical-backtests.md": "d6ab14f2b773c6b8eeebb5fc35208b57cd7babd885c678b462961fe2d82606b7",
+    "results/2026/identity-category-counts.csv": "214c2c15fbf0c0e5e11dcd0f058f468c65dd045f259e9d2ca2fac4f608237f37",
+    "results/2026/identity-category-counts.jsonl.gz": "4a7221417e633e27a680c253051b288af1b8f36766e3576c7cca27ee76442759",
+    "results/2026/manifest.json": "bfbdded0b236dcd8392c44f9579cc169e5485702e2fe917a3e6fc7607b4e3cb8",
+    "results/2026/model-fits.jsonl.gz": "3d56c4605008f16ccb5e6340326f6cb67f9ccd43310d5da521b7014f315830e1",
+    "results/2026/model-terms.csv": "3468f91e9bd6b03343530e3d301ecb33cf065d1e0bab88be22360201b99c0cd9",
+    "results/2026/model-terms.jsonl.gz": "59a9d5aa8dcc9c772da6ee2fc93cd5bcc27ac7499e5217902127bca4e6740b2c",
+    "results/2026/predictions.jsonl.gz": "6d9a4d2318b8aa4e99f945916672c15ef9568f1d12d0c36d1009f601024b5b36",
+    "results/2026/religion-race-report.md": "b11e10c2e940396176a0f7ff48fac5bdd58f0979aa4db3686d951156e7a6113f",
+    "results/2026/replay-verification.json": "d13928bb35240baa7673716d0662464ad70c4e9f1af3f1bdeeded5bf5cf707a4",
+    "results/2026/report.md": "cb83a005b6fb9285c516b4e85470fa63f37b24501b1f88eba6b6fe062308cdc6",
+    "results/2026/returns/candidate-returns.csv": "3f4f7cd246207e4ae55d2bf31aa1c71fb45dfbeba62969e5074929348252dcf8",
+    "results/2026/returns/candidate-returns.jsonl.gz": "6b5b6a0c35b04dbf11b03d9bf7e01eab8a0f2dfd94078218806018fca2f8149f",
+    "results/2026/returns/contests.csv": "a70a61f315547f3c8d33a99ec3e6768f9cdc67c903fc813692dc2dd43a32d89e",
+    "results/2026/returns/contests.jsonl.gz": "7150c0317a2403c8ffc1f0fe524393274b397409403a788fe58246462440998b",
+    "results/2026/returns/coverage.json": "a25635bb9d7f73a32111e83534a74ed6d01b3ec9291b1c5baf365edd0296a301",
+    "results/2026/returns/fec-row-decisions.jsonl.gz": "14fcb328da29b603e1711cfeafa35b6af25ae1899a571d7bed878e18edfbd6aa",
+    "results/2026/returns/house-audit.json": "87600f4819217ac124a11120d9af49c6cf75d35e91839e10b2e29a165ee412cf",
+    "results/2026/returns/manifest.json": "2f199a1d01e136410885f339ad8151305f4a37dcb06fd5e84a5c51606406d4e5",
+    "results/2026/returns/native-contest-total-references.jsonl.gz": "f7e41010e4009310de223b2fba8ae0324686c094eee0e28293e1ec5e144df299",
+    "results/2026/returns/native-fec-rows.jsonl.gz": "3d4f03f1b456a64ff9607d4f7bc5b187d86dc5424ebff0d997d1937b6c2df7b9",
+    "results/2026/returns/report.md": "ef9a84f0963d70a33a4617682262b8565c73f2dd9e6c77f44456491d33fd3c35",
+    "results/2026/returns/senate-benchmarks.csv": "6ffbd79536a77fae62c57e1f8f4d8048944f5062416a197fc8c1f2140987dbea",
+    "results/2026/returns/senate-benchmarks.jsonl.gz": "83d0f1550d6596447059fdf548bd1c581fc12ef98ded75abf1c03a57d8eee554",
+    "results/2026/senate-2026-candidates.jsonl.gz": "240541f21112a0339caedb32f2eb846c90a2da819f5aba2fb42f7b73e0cda3a9",
+    "results/2026/senate-2026-contests.jsonl.gz": "86e4098e537f85142654e4874087783c68475cdb33154852942c59f5a37b1cd5",
+    "results/2026/state-presidential-benchmarks.jsonl.gz": "f1055de83b5baaef28dc7c197a5919d7dfb640a8b6d583d13fd9af5bc457014c",
+    "results/2026/summary.json": "4bc1871dbea7ba6372665920c9fc4e541e4ebbc37ffd84e785e0da93ada98605",
+    "results/2026/validation.csv": "cb08fd494b811b7add448bdd291f0409c07603eaaaa55f3c866ee75293a76bb7",
+    "results/2026/validation.jsonl.gz": "2bede6d218cdb16926c9a10d29afba799f99556b5457e8745b291f5ab9b8962b"
+  },
+  "mcguire_only_incumbency_correction_sensitivity": {
+    "cv1_interval": [
+      -0.9369556405143156,
+      1.643587938335732
+    ],
+    "cv1_se": 0.6406184491561648,
+    "cv3_interval": [
+      -1.0156587462603555,
+      1.7222910440817718
+    ],
+    "cv3_se": 0.6796944500112014,
+    "estimate": 0.35331614891070817,
+    "inverse_herfindahl_of_cluster_partial_leverage": 16.881887832397076,
+    "leave_state_out": [
+      {
+        "estimate": 0.2654148602347806,
+        "state": "AL"
+      },
+      {
+        "estimate": 0.37814069924115556,
+        "state": "AR"
+      },
+      {
+        "estimate": 0.31327814483209604,
+        "state": "AZ"
+      },
+      {
+        "estimate": 0.4329854071981861,
+        "state": "CA"
+      },
+      {
+        "estimate": 0.4238184328014569,
+        "state": "CO"
+      },
+      {
+        "estimate": 0.4085335813869687,
+        "state": "CT"
+      },
+      {
+        "estimate": 0.3620978090616916,
+        "state": "DE"
+      },
+      {
+        "estimate": 0.028855422717249387,
+        "state": "FL"
+      },
+      {
+        "estimate": 0.3563195089636379,
+        "state": "GA"
+      },
+      {
+        "estimate": 0.3319463044074348,
+        "state": "HI"
+      },
+      {
+        "estimate": 0.314745614533453,
+        "state": "IA"
+      },
+      {
+        "estimate": 0.37471779067436345,
+        "state": "ID"
+      },
+      {
+        "estimate": 0.7501449519782092,
+        "state": "IL"
+      },
+      {
+        "estimate": 0.2683486738423986,
+        "state": "IN"
+      },
+      {
+        "estimate": 0.3548704042749408,
+        "state": "KS"
+      },
+      {
+        "estimate": 0.38841344675701345,
+        "state": "KY"
+      },
+      {
+        "estimate": 0.24858328011558306,
+        "state": "MA"
+      },
+      {
+        "estimate": 0.3688801544387507,
+        "state": "MD"
+      },
+      {
+        "estimate": 0.2484154446229231,
+        "state": "MI"
+      },
+      {
+        "estimate": 0.32316827367293616,
+        "state": "MN"
+      },
+      {
+        "estimate": 0.3444536196110887,
+        "state": "MO"
+      },
+      {
+        "estimate": 0.32779456982090355,
+        "state": "MS"
+      },
+      {
+        "estimate": 0.34892150350937295,
+        "state": "MT"
+      },
+      {
+        "estimate": 0.4868121041066028,
+        "state": "NC"
+      },
+      {
+        "estimate": 0.3511747077003658,
+        "state": "ND"
+      },
+      {
+        "estimate": 0.382638685225969,
+        "state": "NE"
+      },
+      {
+        "estimate": 0.309339272692385,
+        "state": "NH"
+      },
+      {
+        "estimate": 0.3381521628896129,
+        "state": "NJ"
+      },
+      {
+        "estimate": 0.33611864313426953,
+        "state": "NM"
+      },
+      {
+        "estimate": 0.3159677834708615,
+        "state": "NV"
+      },
+      {
+        "estimate": 0.20025633071213197,
+        "state": "NY"
+      },
+      {
+        "estimate": 0.41172416408453616,
+        "state": "OH"
+      },
+      {
+        "estimate": 0.3412150858110212,
+        "state": "OK"
+      },
+      {
+        "estimate": 0.5762461290522859,
+        "state": "OR"
+      },
+      {
+        "estimate": 0.34176905047123346,
+        "state": "PA"
+      },
+      {
+        "estimate": 0.33477992735217144,
+        "state": "RI"
+      },
+      {
+        "estimate": 0.3255486809541189,
+        "state": "SC"
+      },
+      {
+        "estimate": 0.32921957286094233,
+        "state": "TN"
+      },
+      {
+        "estimate": 0.4446737265433976,
+        "state": "TX"
+      },
+      {
+        "estimate": 0.4204626551680208,
+        "state": "UT"
+      },
+      {
+        "estimate": 0.30379818467175934,
+        "state": "VA"
+      },
+      {
+        "estimate": 0.38086905081634714,
+        "state": "VT"
+      },
+      {
+        "estimate": 0.5073019675381011,
+        "state": "WA"
+      },
+      {
+        "estimate": 0.2658922953914031,
+        "state": "WI"
+      },
+      {
+        "estimate": 0.3119064181350565,
+        "state": "WV"
+      },
+      {
+        "estimate": 0.36700936495175235,
+        "state": "WY"
+      }
+    ],
+    "max_leverage_candidate": "Pramila Jayapal",
+    "max_observation_leverage": 0.10224094382806298,
+    "n": 349,
+    "parameters": 5,
+    "state_clusters": 46
+  },
+  "plotted_csv_rows_checked_across_nine_figures": 1030,
+  "primary_diagnostics": {
+    "house:age:primary": {
+      "cv1_interval": [
+        -0.653092473246406,
+        0.6558954825995272
+      ],
+      "cv1_se": 0.3220547404223021,
+      "cv3_interval": [
+        -0.6742195233471838,
+        0.6770225327003051
+      ],
+      "cv3_se": 0.3324506598128634,
+      "estimate": 0.0014015046765606387,
+      "inverse_herfindahl_of_cluster_partial_leverage": 16.63511135372119,
+      "leave_state_out": [
+        {
+          "estimate": 0.001210437206622866,
+          "state": "AL"
+        },
+        {
+          "estimate": 0.23854199687555555,
+          "state": "AZ"
+        },
+        {
+          "estimate": 0.009636169043169284,
+          "state": "CA"
+        },
+        {
+          "estimate": -0.024001919050549495,
+          "state": "CO"
+        },
+        {
+          "estimate": 0.02103847513160858,
+          "state": "CT"
+        },
+        {
+          "estimate": -0.009533291214450903,
+          "state": "DE"
+        },
+        {
+          "estimate": -0.004774450482767444,
+          "state": "FL"
+        },
+        {
+          "estimate": 0.012264269344457582,
+          "state": "GA"
+        },
+        {
+          "estimate": -0.03924100216396031,
+          "state": "HI"
+        },
+        {
+          "estimate": 0.023894974456645766,
+          "state": "IL"
+        },
+        {
+          "estimate": 0.0032082145223659153,
+          "state": "IN"
+        },
+        {
+          "estimate": 0.0009575560910310719,
+          "state": "KS"
+        },
+        {
+          "estimate": 0.015125040093232754,
+          "state": "KY"
+        },
+        {
+          "estimate": -0.01314947017981807,
+          "state": "MA"
+        },
+        {
+          "estimate": -0.03750075197712405,
+          "state": "MD"
+        },
+        {
+          "estimate": -0.010340750644315886,
+          "state": "MI"
+        },
+        {
+          "estimate": -0.01936019911090205,
+          "state": "MN"
+        },
+        {
+          "estimate": -0.013534035573449826,
+          "state": "MO"
+        },
+        {
+          "estimate": -0.008637087605909316,
+          "state": "MS"
+        },
+        {
+          "estimate": -0.01677868740174532,
+          "state": "NC"
+        },
+        {
+          "estimate": -1.3198334838623336e-05,
+          "state": "NH"
+        },
+        {
+          "estimate": -0.10611379307576481,
+          "state": "NJ"
+        },
+        {
+          "estimate": -0.00202841793312897,
+          "state": "NM"
+        },
+        {
+          "estimate": -0.01017502329576586,
+          "state": "NV"
+        },
+        {
+          "estimate": 0.14267970725886722,
+          "state": "NY"
+        },
+        {
+          "estimate": 0.020869713434490803,
+          "state": "OH"
+        },
+        {
+          "estimate": 0.018654178224021396,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.012698025387330517,
+          "state": "PA"
+        },
+        {
+          "estimate": 0.0011298113704423674,
+          "state": "RI"
+        },
+        {
+          "estimate": -0.0023770232175048533,
+          "state": "SC"
+        },
+        {
+          "estimate": -0.1330040746238037,
+          "state": "TX"
+        },
+        {
+          "estimate": 0.001212756117545898,
+          "state": "VA"
+        },
+        {
+          "estimate": -0.0021699413746164194,
+          "state": "VT"
+        },
+        {
+          "estimate": -0.016001734282680986,
+          "state": "WA"
+        },
+        {
+          "estimate": 0.001594162400381639,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Pramila Jayapal",
+      "max_observation_leverage": 0.19269750122451107,
+      "n": 163,
+      "parameters": 4,
+      "state_clusters": 35,
+      "state_fixed_effects_sensitivity": 0.16439216989117256
+    },
+    "house:defection:primary": {
+      "cv1_interval": [
+        -1.2616965849178534,
+        1.952314586205004
+      ],
+      "cv1_se": 0.788933811074857,
+      "cv3_interval": [
+        -1.7063662095536802,
+        2.396984210840831
+      ],
+      "cv3_se": 1.0072372848058504,
+      "estimate": 0.3453090006435754,
+      "inverse_herfindahl_of_cluster_partial_leverage": 7.187216177022433,
+      "leave_state_out": [
+        {
+          "estimate": 0.3617639390256144,
+          "state": "AL"
+        },
+        {
+          "estimate": 0.329191484661555,
+          "state": "AZ"
+        },
+        {
+          "estimate": 0.5990009293313996,
+          "state": "CA"
+        },
+        {
+          "estimate": 0.3574855420751524,
+          "state": "CO"
+        },
+        {
+          "estimate": 0.3106633846600326,
+          "state": "CT"
+        },
+        {
+          "estimate": 0.15504187188602242,
+          "state": "FL"
+        },
+        {
+          "estimate": 0.3325922375879941,
+          "state": "GA"
+        },
+        {
+          "estimate": 0.25257208573924445,
+          "state": "HI"
+        },
+        {
+          "estimate": 0.43754071917085335,
+          "state": "IL"
+        },
+        {
+          "estimate": 0.3485029584820479,
+          "state": "IN"
+        },
+        {
+          "estimate": 0.345316325485268,
+          "state": "KS"
+        },
+        {
+          "estimate": 0.3711834473592645,
+          "state": "KY"
+        },
+        {
+          "estimate": 0.3433927602648554,
+          "state": "MA"
+        },
+        {
+          "estimate": 0.36480368130436386,
+          "state": "MD"
+        },
+        {
+          "estimate": 0.38710147298361863,
+          "state": "MI"
+        },
+        {
+          "estimate": 0.349502430668145,
+          "state": "MN"
+        },
+        {
+          "estimate": 0.3558346857266541,
+          "state": "MO"
+        },
+        {
+          "estimate": 0.35558221224188163,
+          "state": "MS"
+        },
+        {
+          "estimate": 0.4940256323429397,
+          "state": "NC"
+        },
+        {
+          "estimate": 0.3627985406084436,
+          "state": "NJ"
+        },
+        {
+          "estimate": 0.336164846503202,
+          "state": "NM"
+        },
+        {
+          "estimate": 0.3403053931899394,
+          "state": "NV"
+        },
+        {
+          "estimate": 0.3251128617999833,
+          "state": "NY"
+        },
+        {
+          "estimate": 0.33228696514656125,
+          "state": "OH"
+        },
+        {
+          "estimate": 0.29972916437689767,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.27953126118623867,
+          "state": "PA"
+        },
+        {
+          "estimate": 0.34424429746490454,
+          "state": "RI"
+        },
+        {
+          "estimate": 0.34727717574506517,
+          "state": "SC"
+        },
+        {
+          "estimate": -0.38341996512288706,
+          "state": "TX"
+        },
+        {
+          "estimate": 0.3432090685277571,
+          "state": "VA"
+        },
+        {
+          "estimate": 0.3316514061332399,
+          "state": "VT"
+        },
+        {
+          "estimate": 0.9475738046909972,
+          "state": "WA"
+        },
+        {
+          "estimate": 0.34457669369779187,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Marie Gluesenkamp Perez",
+      "max_observation_leverage": 0.2911938952067475,
+      "n": 130,
+      "observed_feature_range": [
+        0.3468208092485603,
+        26.046511627906977
+      ],
+      "parameters": 4,
+      "state_clusters": 33,
+      "state_fixed_effects_sensitivity": 0.15354140083499038
+    },
+    "house:gender:primary": {
+      "cv1_interval": [
+        -2.197235664290245,
+        1.8181537235858618
+      ],
+      "cv1_se": 0.9879198515399572,
+      "cv3_interval": [
+        -2.577453673267158,
+        2.198371732562774
+      ],
+      "cv3_se": 1.175012500693952,
+      "estimate": -0.18954097035219175,
+      "inverse_herfindahl_of_cluster_partial_leverage": 15.186829073244626,
+      "leave_state_out": [
+        {
+          "estimate": -0.21876296733322823,
+          "state": "AL"
+        },
+        {
+          "estimate": -0.500323598005428,
+          "state": "AZ"
+        },
+        {
+          "estimate": -1.1510861902496368,
+          "state": "CA"
+        },
+        {
+          "estimate": -0.16697491376786627,
+          "state": "CO"
+        },
+        {
+          "estimate": -0.14430621966834245,
+          "state": "CT"
+        },
+        {
+          "estimate": -0.17406909231369175,
+          "state": "DE"
+        },
+        {
+          "estimate": -0.23609802368188376,
+          "state": "FL"
+        },
+        {
+          "estimate": -0.19204939691469214,
+          "state": "GA"
+        },
+        {
+          "estimate": -0.09314090522683081,
+          "state": "HI"
+        },
+        {
+          "estimate": -0.2420357578181517,
+          "state": "IL"
+        },
+        {
+          "estimate": -0.1347007272453999,
+          "state": "IN"
+        },
+        {
+          "estimate": -0.18941673618637325,
+          "state": "KS"
+        },
+        {
+          "estimate": -0.15598540224213828,
+          "state": "KY"
+        },
+        {
+          "estimate": -0.21252148044455926,
+          "state": "MA"
+        },
+        {
+          "estimate": -0.19566084854992202,
+          "state": "MD"
+        },
+        {
+          "estimate": -0.12199609592426224,
+          "state": "MI"
+        },
+        {
+          "estimate": -0.0450599150720967,
+          "state": "MN"
+        },
+        {
+          "estimate": -0.1593649383049278,
+          "state": "MO"
+        },
+        {
+          "estimate": -0.1753214495042362,
+          "state": "MS"
+        },
+        {
+          "estimate": -0.2862045556781395,
+          "state": "NC"
+        },
+        {
+          "estimate": -0.18786462953593838,
+          "state": "NH"
+        },
+        {
+          "estimate": -0.16903298817178594,
+          "state": "NJ"
+        },
+        {
+          "estimate": -0.17739219916824495,
+          "state": "NM"
+        },
+        {
+          "estimate": -0.22446044071349383,
+          "state": "NV"
+        },
+        {
+          "estimate": -0.36241778923738766,
+          "state": "NY"
+        },
+        {
+          "estimate": -0.19676608350879654,
+          "state": "OH"
+        },
+        {
+          "estimate": 0.2281497421958822,
+          "state": "OR"
+        },
+        {
+          "estimate": -0.10386165041674009,
+          "state": "PA"
+        },
+        {
+          "estimate": -0.19103474863420908,
+          "state": "RI"
+        },
+        {
+          "estimate": -0.18641018164870152,
+          "state": "SC"
+        },
+        {
+          "estimate": -0.11248422022852168,
+          "state": "TX"
+        },
+        {
+          "estimate": -0.16113955618898854,
+          "state": "VA"
+        },
+        {
+          "estimate": -0.120995443572678,
+          "state": "VT"
+        },
+        {
+          "estimate": 0.15200221596147664,
+          "state": "WA"
+        },
+        {
+          "estimate": -0.19041674693868835,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Pramila Jayapal",
+      "max_observation_leverage": 0.20031226386652423,
+      "n": 163,
+      "parameters": 4,
+      "state_clusters": 35,
+      "state_fixed_effects_sensitivity": 0.9297028844903267
+    },
+    "house:ideology:primary": {
+      "cv1_interval": [
+        -1.4086264837735327,
+        0.04458902728470748
+      ],
+      "cv1_se": 0.35671651105423247,
+      "cv3_interval": [
+        -1.4816350824533502,
+        0.11759762596452505
+      ],
+      "cv3_se": 0.3925589203869793,
+      "estimate": -0.6820187282444126,
+      "inverse_herfindahl_of_cluster_partial_leverage": 12.270505539140107,
+      "leave_state_out": [
+        {
+          "estimate": -0.6627130874693147,
+          "state": "AL"
+        },
+        {
+          "estimate": -0.691233651503018,
+          "state": "AZ"
+        },
+        {
+          "estimate": -0.433684526348301,
+          "state": "CA"
+        },
+        {
+          "estimate": -0.6799376323817423,
+          "state": "CO"
+        },
+        {
+          "estimate": -0.6664830814177237,
+          "state": "CT"
+        },
+        {
+          "estimate": -0.7765579885323609,
+          "state": "FL"
+        },
+        {
+          "estimate": -0.7599248479721928,
+          "state": "GA"
+        },
+        {
+          "estimate": -0.7898176219741162,
+          "state": "HI"
+        },
+        {
+          "estimate": -0.7231623170316338,
+          "state": "IL"
+        },
+        {
+          "estimate": -0.6731032242726951,
+          "state": "IN"
+        },
+        {
+          "estimate": -0.6817276142290769,
+          "state": "KS"
+        },
+        {
+          "estimate": -0.6565909849585284,
+          "state": "KY"
+        },
+        {
+          "estimate": -0.6917327428236713,
+          "state": "MA"
+        },
+        {
+          "estimate": -0.672710823017232,
+          "state": "MD"
+        },
+        {
+          "estimate": -0.658157216427192,
+          "state": "MI"
+        },
+        {
+          "estimate": -0.6454656449795112,
+          "state": "MN"
+        },
+        {
+          "estimate": -0.6755428803386849,
+          "state": "MO"
+        },
+        {
+          "estimate": -0.6883886028828908,
+          "state": "MS"
+        },
+        {
+          "estimate": -0.680740501695468,
+          "state": "NC"
+        },
+        {
+          "estimate": -0.7738405354598863,
+          "state": "NJ"
+        },
+        {
+          "estimate": -0.697676696370171,
+          "state": "NM"
+        },
+        {
+          "estimate": -0.7259733025754689,
+          "state": "NV"
+        },
+        {
+          "estimate": -0.729516172002979,
+          "state": "NY"
+        },
+        {
+          "estimate": -0.6742964397338679,
+          "state": "OH"
+        },
+        {
+          "estimate": -0.491660772387243,
+          "state": "OR"
+        },
+        {
+          "estimate": -0.7674971730521037,
+          "state": "PA"
+        },
+        {
+          "estimate": -0.6819690313750166,
+          "state": "RI"
+        },
+        {
+          "estimate": -0.6998648439253793,
+          "state": "SC"
+        },
+        {
+          "estimate": -0.6540765627099195,
+          "state": "TX"
+        },
+        {
+          "estimate": -0.6996535850613512,
+          "state": "VA"
+        },
+        {
+          "estimate": -0.6967900163193282,
+          "state": "VT"
+        },
+        {
+          "estimate": -0.5969834619822714,
+          "state": "WA"
+        },
+        {
+          "estimate": -0.6832844687111178,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Pramila Jayapal",
+      "max_observation_leverage": 0.21318795104881197,
+      "n": 131,
+      "observed_feature_range": [
+        -0.767,
+        -0.084
+      ],
+      "parameters": 4,
+      "state_clusters": 33,
+      "state_fixed_effects_sensitivity": -0.368014169753345
+    },
+    "house:incumbency:primary": {
+      "cv1_interval": [
+        -1.2173865741685934,
+        1.512446650192917
+      ],
+      "cv1_se": 0.6776795172065039,
+      "cv3_interval": [
+        -1.3177237026318231,
+        1.6127837786561467
+      ],
+      "cv3_se": 0.7274967852857671,
+      "estimate": 0.1475300380121618,
+      "inverse_herfindahl_of_cluster_partial_leverage": 16.712015392598744,
+      "leave_state_out": [
+        {
+          "estimate": 0.05622879589443395,
+          "state": "AL"
+        },
+        {
+          "estimate": 0.1717084446523351,
+          "state": "AR"
+        },
+        {
+          "estimate": 0.1057904546972037,
+          "state": "AZ"
+        },
+        {
+          "estimate": 0.4329854071981861,
+          "state": "CA"
+        },
+        {
+          "estimate": 0.21148254709828934,
+          "state": "CO"
+        },
+        {
+          "estimate": 0.19584919464352132,
+          "state": "CT"
+        },
+        {
+          "estimate": 0.15571882838066897,
+          "state": "DE"
+        },
+        {
+          "estimate": -0.18804456245182707,
+          "state": "FL"
+        },
+        {
+          "estimate": 0.14255658393253762,
+          "state": "GA"
+        },
+        {
+          "estimate": 0.12628057483630642,
+          "state": "HI"
+        },
+        {
+          "estimate": 0.1083193759074367,
+          "state": "IA"
+        },
+        {
+          "estimate": 0.16879971327093019,
+          "state": "ID"
+        },
+        {
+          "estimate": 0.5238093813267158,
+          "state": "IL"
+        },
+        {
+          "estimate": 0.06439083635106074,
+          "state": "IN"
+        },
+        {
+          "estimate": 0.14810744700373987,
+          "state": "KS"
+        },
+        {
+          "estimate": 0.17586856117184657,
+          "state": "KY"
+        },
+        {
+          "estimate": 0.03909616997631899,
+          "state": "MA"
+        },
+        {
+          "estimate": 0.16156416258468667,
+          "state": "MD"
+        },
+        {
+          "estimate": 0.03158115560544003,
+          "state": "MI"
+        },
+        {
+          "estimate": 0.1113579823157187,
+          "state": "MN"
+        },
+        {
+          "estimate": 0.13659318529238468,
+          "state": "MO"
+        },
+        {
+          "estimate": 0.12164668116468669,
+          "state": "MS"
+        },
+        {
+          "estimate": 0.14070396318082573,
+          "state": "MT"
+        },
+        {
+          "estimate": 0.28123073110715496,
+          "state": "NC"
+        },
+        {
+          "estimate": 0.14532959846800694,
+          "state": "ND"
+        },
+        {
+          "estimate": 0.17469968023357177,
+          "state": "NE"
+        },
+        {
+          "estimate": 0.10076592845220518,
+          "state": "NH"
+        },
+        {
+          "estimate": 0.1282669063241688,
+          "state": "NJ"
+        },
+        {
+          "estimate": 0.12893575971225632,
+          "state": "NM"
+        },
+        {
+          "estimate": 0.10905402156849506,
+          "state": "NV"
+        },
+        {
+          "estimate": -0.030868762676631765,
+          "state": "NY"
+        },
+        {
+          "estimate": 0.20327515376355934,
+          "state": "OH"
+        },
+        {
+          "estimate": 0.13371490823361817,
+          "state": "OK"
+        },
+        {
+          "estimate": 0.3633443617699623,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.1362087958555542,
+          "state": "PA"
+        },
+        {
+          "estimate": 0.1285649448241173,
+          "state": "RI"
+        },
+        {
+          "estimate": 0.11740713015569747,
+          "state": "SC"
+        },
+        {
+          "estimate": 0.11772874264091417,
+          "state": "TN"
+        },
+        {
+          "estimate": 0.21517153123001675,
+          "state": "TX"
+        },
+        {
+          "estimate": 0.21079890797080833,
+          "state": "UT"
+        },
+        {
+          "estimate": 0.09478119097754843,
+          "state": "VA"
+        },
+        {
+          "estimate": 0.1738942427215385,
+          "state": "VT"
+        },
+        {
+          "estimate": 0.29332786821077955,
+          "state": "WA"
+        },
+        {
+          "estimate": 0.05667409504635836,
+          "state": "WI"
+        },
+        {
+          "estimate": 0.10555442634918788,
+          "state": "WV"
+        },
+        {
+          "estimate": 0.15917140380462455,
+          "state": "WY"
+        }
+      ],
+      "max_leverage_candidate": "Pramila Jayapal",
+      "max_observation_leverage": 0.10224235716661326,
+      "n": 349,
+      "parameters": 5,
+      "state_clusters": 46,
+      "state_fixed_effects_sensitivity": 0.5436730510779526
+    },
+    "house:tenure:primary": {
+      "cv1_interval": [
+        -0.1826215177130237,
+        1.0959148621592643
+      ],
+      "cv1_se": 0.3145626360436148,
+      "cv3_interval": [
+        -0.20597420548516399,
+        1.1192675499314046
+      ],
+      "cv3_se": 0.3260537177835676,
+      "estimate": 0.4566466722231203,
+      "inverse_herfindahl_of_cluster_partial_leverage": 13.037746670899033,
+      "leave_state_out": [
+        {
+          "estimate": 0.45143910793254366,
+          "state": "AL"
+        },
+        {
+          "estimate": 0.6549569815028173,
+          "state": "AZ"
+        },
+        {
+          "estimate": 0.44691516091407435,
+          "state": "CA"
+        },
+        {
+          "estimate": 0.4398345283019297,
+          "state": "CO"
+        },
+        {
+          "estimate": 0.5375050630148414,
+          "state": "CT"
+        },
+        {
+          "estimate": 0.4510525190467815,
+          "state": "DE"
+        },
+        {
+          "estimate": 0.4695206604250424,
+          "state": "FL"
+        },
+        {
+          "estimate": 0.5071353486530766,
+          "state": "GA"
+        },
+        {
+          "estimate": 0.4442898756867997,
+          "state": "HI"
+        },
+        {
+          "estimate": 0.468207117680976,
+          "state": "IL"
+        },
+        {
+          "estimate": 0.4588200609647081,
+          "state": "IN"
+        },
+        {
+          "estimate": 0.45659342228613786,
+          "state": "KS"
+        },
+        {
+          "estimate": 0.47377401451111967,
+          "state": "KY"
+        },
+        {
+          "estimate": 0.44829654459573914,
+          "state": "MA"
+        },
+        {
+          "estimate": 0.4110423061665292,
+          "state": "MD"
+        },
+        {
+          "estimate": 0.43651373906470664,
+          "state": "MI"
+        },
+        {
+          "estimate": 0.44896500789076216,
+          "state": "MN"
+        },
+        {
+          "estimate": 0.45275699486140236,
+          "state": "MO"
+        },
+        {
+          "estimate": 0.452395932963348,
+          "state": "MS"
+        },
+        {
+          "estimate": 0.4702494730493198,
+          "state": "NC"
+        },
+        {
+          "estimate": 0.45734219896028694,
+          "state": "NH"
+        },
+        {
+          "estimate": 0.37965638105299626,
+          "state": "NJ"
+        },
+        {
+          "estimate": 0.45678691868523275,
+          "state": "NM"
+        },
+        {
+          "estimate": 0.45390502423419254,
+          "state": "NV"
+        },
+        {
+          "estimate": 0.38211564460283504,
+          "state": "NY"
+        },
+        {
+          "estimate": 0.5694163461743195,
+          "state": "OH"
+        },
+        {
+          "estimate": 0.3374380268741051,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.4578229953505648,
+          "state": "PA"
+        },
+        {
+          "estimate": 0.4576304270808438,
+          "state": "RI"
+        },
+        {
+          "estimate": 0.4689157394733902,
+          "state": "SC"
+        },
+        {
+          "estimate": 0.3361013147276403,
+          "state": "TX"
+        },
+        {
+          "estimate": 0.4843805638536273,
+          "state": "VA"
+        },
+        {
+          "estimate": 0.42718053323302874,
+          "state": "VT"
+        },
+        {
+          "estimate": 0.5040410500803835,
+          "state": "WA"
+        },
+        {
+          "estimate": 0.4611046355560766,
+          "state": "WI"
+        }
+      ],
+      "max_leverage_candidate": "Pramila Jayapal",
+      "max_observation_leverage": 0.1922767868609235,
+      "n": 163,
+      "parameters": 4,
+      "state_clusters": 35,
+      "state_fixed_effects_sensitivity": 0.8231096031837479
+    },
+    "senate:age:primary": {
+      "cv1_interval": [
+        -2.3164545525666513,
+        3.7578008186079783
+      ],
+      "cv1_se": 1.317052141937472,
+      "cv3_interval": [
+        -3.0322480575899537,
+        4.47359432363128
+      ],
+      "cv3_se": 1.6274564010174015,
+      "estimate": 0.7206731330206635,
+      "inverse_herfindahl_of_cluster_partial_leverage": 3.9019289398203245,
+      "leave_state_out": [
+        {
+          "estimate": 0.9458464668011705,
+          "state": "CO"
+        },
+        {
+          "estimate": 0.5255148584505229,
+          "state": "DE"
+        },
+        {
+          "estimate": 0.6009845210744778,
+          "state": "GA"
+        },
+        {
+          "estimate": 0.47471341357810865,
+          "state": "MA"
+        },
+        {
+          "estimate": 0.8933956905118534,
+          "state": "NJ"
+        },
+        {
+          "estimate": 1.0030110088108077,
+          "state": "NM"
+        },
+        {
+          "estimate": 0.2367055703057746,
+          "state": "OR"
+        },
+        {
+          "estimate": -0.07154870196909563,
+          "state": "RI"
+        },
+        {
+          "estimate": 2.078867524115131,
+          "state": "VA"
+        }
+      ],
+      "max_leverage_candidate": "Edward J. Markey",
+      "max_observation_leverage": 0.9408248601262345,
+      "n": 9,
+      "parameters": 4,
+      "state_clusters": 9
+    },
+    "senate:defection:primary": {
+      "cv1_interval": [
+        -45.9831477760367,
+        14.873878579835349
+      ],
+      "cv1_se": 13.195341982872025,
+      "cv3_interval": [
+        -58.954006895039704,
+        27.84473769883835
+      ],
+      "cv3_se": 18.820162390167003,
+      "estimate": -15.554634598100677,
+      "inverse_herfindahl_of_cluster_partial_leverage": 3.4797663646796204,
+      "leave_state_out": [
+        {
+          "estimate": -31.57293086918318,
+          "state": "CO"
+        },
+        {
+          "estimate": -22.390936759351877,
+          "state": "DE"
+        },
+        {
+          "estimate": -15.299057907061917,
+          "state": "GA"
+        },
+        {
+          "estimate": -15.143929555091132,
+          "state": "MA"
+        },
+        {
+          "estimate": -14.84895289486805,
+          "state": "NJ"
+        },
+        {
+          "estimate": -15.460039816473259,
+          "state": "NM"
+        },
+        {
+          "estimate": -7.789827241968551,
+          "state": "OR"
+        },
+        {
+          "estimate": -9.713703926517292,
+          "state": "RI"
+        },
+        {
+          "estimate": -15.607986905959748,
+          "state": "VA"
+        }
+      ],
+      "max_leverage_candidate": "Edward J. Markey",
+      "max_observation_leverage": 0.9322092675388363,
+      "n": 9,
+      "observed_feature_range": [
+        0.1945525291828787,
+        1.5238095238095273
+      ],
+      "parameters": 4,
+      "state_clusters": 9
+    },
+    "senate:ideology:primary": {
+      "cv1_interval": [
+        -2.565625284944709,
+        4.421935288375597
+      ],
+      "cv1_se": 1.5150798011690578,
+      "cv3_interval": [
+        -3.8790928049086513,
+        5.735402808339538
+      ],
+      "cv3_se": 2.0846657355185,
+      "estimate": 0.9281550017154436,
+      "inverse_herfindahl_of_cluster_partial_leverage": 4.508260822447217,
+      "leave_state_out": [
+        {
+          "estimate": 1.434902738595427,
+          "state": "CO"
+        },
+        {
+          "estimate": 1.6096614274074987,
+          "state": "DE"
+        },
+        {
+          "estimate": 1.3678498865347652,
+          "state": "GA"
+        },
+        {
+          "estimate": 1.1928945340115695,
+          "state": "MA"
+        },
+        {
+          "estimate": 1.2291983341373056,
+          "state": "NJ"
+        },
+        {
+          "estimate": 1.2327272195564807,
+          "state": "NM"
+        },
+        {
+          "estimate": -0.940914707762623,
+          "state": "OR"
+        },
+        {
+          "estimate": 0.4512372716460184,
+          "state": "RI"
+        },
+        {
+          "estimate": 0.9165869577130102,
+          "state": "VA"
+        }
+      ],
+      "max_leverage_candidate": "Edward J. Markey",
+      "max_observation_leverage": 0.936411536830676,
+      "n": 9,
+      "observed_feature_range": [
+        -0.669,
+        -0.27
+      ],
+      "parameters": 4,
+      "state_clusters": 9
+    },
+    "senate:incumbency:primary": {
+      "cv1_interval": [
+        -1.3952078375502839,
+        8.23432794016827
+      ],
+      "cv1_se": 2.3216309442339003,
+      "cv3_interval": [
+        -1.9711004469875193,
+        8.810220549605507
+      ],
+      "cv3_se": 2.5993203642615517,
+      "estimate": 3.4195600513089937,
+      "inverse_herfindahl_of_cluster_partial_leverage": 6.7493749961335565,
+      "leave_state_out": [
+        {
+          "estimate": 3.406688763392375,
+          "state": "AL"
+        },
+        {
+          "estimate": 3.4403661000945696,
+          "state": "AR"
+        },
+        {
+          "estimate": 3.46396530842986,
+          "state": "CO"
+        },
+        {
+          "estimate": 3.524251185442371,
+          "state": "DE"
+        },
+        {
+          "estimate": 2.950934559407794,
+          "state": "GA"
+        },
+        {
+          "estimate": 4.674745810502862,
+          "state": "IL"
+        },
+        {
+          "estimate": 3.4672176085486206,
+          "state": "KS"
+        },
+        {
+          "estimate": 3.4090444252657712,
+          "state": "KY"
+        },
+        {
+          "estimate": 2.58754286081577,
+          "state": "MA"
+        },
+        {
+          "estimate": 3.444636697938392,
+          "state": "MS"
+        },
+        {
+          "estimate": 2.11034755686026,
+          "state": "MT"
+        },
+        {
+          "estimate": 4.794822653143261,
+          "state": "NC"
+        },
+        {
+          "estimate": 3.5467871508408395,
+          "state": "NH"
+        },
+        {
+          "estimate": 2.8521218519383416,
+          "state": "NJ"
+        },
+        {
+          "estimate": 3.0360107898581674,
+          "state": "NM"
+        },
+        {
+          "estimate": 3.716309729054133,
+          "state": "OH"
+        },
+        {
+          "estimate": 3.7564790612547223,
+          "state": "OR"
+        },
+        {
+          "estimate": 3.0585239996601743,
+          "state": "RI"
+        },
+        {
+          "estimate": 3.778558879572596,
+          "state": "SC"
+        },
+        {
+          "estimate": 3.4493983854998067,
+          "state": "TN"
+        },
+        {
+          "estimate": 3.400053122660106,
+          "state": "VA"
+        },
+        {
+          "estimate": 3.397524586734086,
+          "state": "WV"
+        },
+        {
+          "estimate": 3.3392009438594106,
+          "state": "WY"
+        }
+      ],
+      "max_leverage_candidate": "James W. Byrd",
+      "max_observation_leverage": 0.5717156007676991,
+      "n": 23,
+      "parameters": 5,
+      "state_clusters": 23,
+      "without_montana_sensitivity": {
+        "cv1_interval": [
+          -0.43257113394618507,
+          4.653266247666708
+        ],
+        "cv1_se": 1.2227840746749,
+        "cv3_interval": [
+          -0.6383651069044549,
+          4.859060220624977
+        ],
+        "cv3_se": 1.3217418564188554,
+        "estimate": 2.1103475568602614,
+        "inverse_herfindahl_of_cluster_partial_leverage": 6.708486996446253,
+        "leave_state_out": [
+          {
+            "estimate": 2.112928844963983,
+            "state": "AL"
+          },
+          {
+            "estimate": 2.1328570181824396,
+            "state": "AR"
+          },
+          {
+            "estimate": 2.163481360822676,
+            "state": "CO"
+          },
+          {
+            "estimate": 2.17593577833648,
+            "state": "DE"
+          },
+          {
+            "estimate": 2.401855652775603,
+            "state": "GA"
+          },
+          {
+            "estimate": 2.555826913234778,
+            "state": "IL"
+          },
+          {
+            "estimate": 2.130399415119906,
+            "state": "KS"
+          },
+          {
+            "estimate": 2.106318151681554,
+            "state": "KY"
+          },
+          {
+            "estimate": 2.0811887318018547,
+            "state": "MA"
+          },
+          {
+            "estimate": 2.129119991542565,
+            "state": "MS"
+          },
+          {
+            "estimate": 2.752491214246423,
+            "state": "NC"
+          },
+          {
+            "estimate": 1.3355705640135935,
+            "state": "NH"
+          },
+          {
+            "estimate": 1.7478663065001523,
+            "state": "NJ"
+          },
+          {
+            "estimate": 1.9248627983489948,
+            "state": "NM"
+          },
+          {
+            "estimate": 1.8721024314402457,
+            "state": "OH"
+          },
+          {
+            "estimate": 2.4126042656583335,
+            "state": "OR"
+          },
+          {
+            "estimate": 1.7080295634851708,
+            "state": "RI"
+          },
+          {
+            "estimate": 2.1907462130207427,
+            "state": "SC"
+          },
+          {
+            "estimate": 2.142505626391525,
+            "state": "TN"
+          },
+          {
+            "estimate": 2.2985148806770597,
+            "state": "VA"
+          },
+          {
+            "estimate": 2.0317271534793893,
+            "state": "WV"
+          },
+          {
+            "estimate": 2.1139544446979994,
+            "state": "WY"
+          }
+        ],
+        "max_leverage_candidate": "James W. Byrd",
+        "max_observation_leverage": 0.5781878244436801,
+        "n": 22,
+        "parameters": 5,
+        "state_clusters": 22
+      }
+    },
+    "senate:tenure:primary": {
+      "cv1_interval": [
+        -2.153784133385904,
+        5.352643464182986
+      ],
+      "cv1_se": 1.6275832907177974,
+      "cv3_interval": [
+        -5.509578612576716,
+        8.708437943373797
+      ],
+      "cv3_se": 3.082825468283841,
+      "estimate": 1.5994296653985407,
+      "inverse_herfindahl_of_cluster_partial_leverage": 3.0100458421052476,
+      "leave_state_out": [
+        {
+          "estimate": 2.182291836025403,
+          "state": "CO"
+        },
+        {
+          "estimate": 1.5620948448712764,
+          "state": "DE"
+        },
+        {
+          "estimate": 1.798557052078631,
+          "state": "GA"
+        },
+        {
+          "estimate": 2.10311758497012,
+          "state": "MA"
+        },
+        {
+          "estimate": 1.5950321905308622,
+          "state": "NJ"
+        },
+        {
+          "estimate": 2.163202308671643,
+          "state": "NM"
+        },
+        {
+          "estimate": 1.715392586040207,
+          "state": "OR"
+        },
+        {
+          "estimate": -1.5014633133043116,
+          "state": "RI"
+        },
+        {
+          "estimate": 1.9318006114003397,
+          "state": "VA"
+        }
+      ],
+      "max_leverage_candidate": "Edward J. Markey",
+      "max_observation_leverage": 0.9390975433853845,
+      "n": 9,
+      "parameters": 4,
+      "state_clusters": 9
+    }
+  },
+  "release_reviewed": "2026-v2",
+  "sample_coverage": {
+    "house": {
+      "eligible_nominees": 408,
+      "missing_ideology_with_under_two_years_service": 31,
+      "missing_incumbent_ideology": 32,
+      "verified_incumbents": 163
+    },
+    "senate": {
+      "eligible_nominees": 29,
+      "missing_ideology_with_under_two_years_service": 0,
+      "missing_incumbent_ideology": 0,
+      "verified_incumbents": 9
+    }
+  },
+  "sensitivity_warning": "Post-publication diagnostic checks, not new confirmatory tests or replacement results.",
+  "third_party_senate_cases_over_10pct": [
+    {
+      "D_name": "Alani Bankhead",
+      "gap_share_pp": -19.62147431066289,
+      "other_share_pct": 39.53059454704635,
+      "state": "MT"
+    }
+  ],
+  "validation_2026": [
+    {
+      "baseline_bias": 6.443989726609335,
+      "baseline_mae": 6.499242329967117,
+      "baseline_retrospective_centered_mae": 2.8461242919288425,
+      "baseline_rmse": 7.54827146897984,
+      "chamber": "house",
+      "feature_bias": 6.472569141140018,
+      "feature_mae": 6.519941087186361,
+      "feature_retrospective_centered_mae": 2.815831462047273,
+      "feature_rmse": 7.583068372501161,
+      "mae_improvement": -0.02069875721924319,
+      "model": "age",
+      "n": 163,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 6.92411607855382,
+      "baseline_mae": 6.966255284201648,
+      "baseline_retrospective_centered_mae": 2.873518820284071,
+      "baseline_rmse": 8.02021103646344,
+      "chamber": "house",
+      "feature_bias": 6.684102968119592,
+      "feature_mae": 6.716957357990258,
+      "feature_retrospective_centered_mae": 2.8655334064820215,
+      "feature_rmse": 7.775032335840949,
+      "mae_improvement": 0.24929792621139057,
+      "model": "born_in_state",
+      "n": 135,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 6.353697543655321,
+      "baseline_mae": 6.4095927384308515,
+      "baseline_retrospective_centered_mae": 2.7904179215508242,
+      "baseline_rmse": 7.3036442038754,
+      "chamber": "house",
+      "feature_bias": 6.374888744708241,
+      "feature_mae": 6.428432896214292,
+      "feature_retrospective_centered_mae": 2.8078271453729693,
+      "feature_rmse": 7.3259029190462615,
+      "mae_improvement": -0.018840157783440503,
+      "model": "defection",
+      "n": 130,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 6.443989726609335,
+      "baseline_mae": 6.499242329967117,
+      "baseline_retrospective_centered_mae": 2.8461242919288425,
+      "baseline_rmse": 7.54827146897984,
+      "chamber": "house",
+      "feature_bias": 6.524882507475208,
+      "feature_mae": 6.5758214029228474,
+      "feature_retrospective_centered_mae": 2.8702530777763693,
+      "feature_rmse": 7.6397777167298555,
+      "mae_improvement": -0.07657907295573008,
+      "model": "gender",
+      "n": 163,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 6.380580260246822,
+      "baseline_mae": 6.436640257745301,
+      "baseline_retrospective_centered_mae": 2.794661822179298,
+      "baseline_rmse": 7.327211289962429,
+      "chamber": "house",
+      "feature_bias": 6.352642956828459,
+      "feature_mae": 6.405294342535973,
+      "feature_retrospective_centered_mae": 2.7588624228328062,
+      "feature_rmse": 7.292481974651362,
+      "mae_improvement": 0.031345915209327835,
+      "model": "ideology",
+      "n": 131,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 7.250161062511113,
+      "baseline_mae": 7.293217834757254,
+      "baseline_retrospective_centered_mae": 2.6230235227920584,
+      "baseline_rmse": 8.024672789661828,
+      "chamber": "house",
+      "feature_bias": 6.854441681612004,
+      "feature_mae": 6.916612736381279,
+      "feature_retrospective_centered_mae": 2.662881544056277,
+      "feature_rmse": 7.710127649131894,
+      "mae_improvement": 0.37660509837597456,
+      "model": "incumbency",
+      "n": 349,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 6.443989726609335,
+      "baseline_mae": 6.499242329967117,
+      "baseline_retrospective_centered_mae": 2.8461242919288425,
+      "baseline_rmse": 7.54827146897984,
+      "chamber": "house",
+      "feature_bias": 6.462770769356025,
+      "feature_mae": 6.503461567183251,
+      "feature_retrospective_centered_mae": 2.8106441880823003,
+      "feature_rmse": 7.554614907070511,
+      "mae_improvement": -0.00421923721613382,
+      "model": "tenure",
+      "n": 163,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.265209609050477,
+      "baseline_mae": 5.265209609050477,
+      "baseline_retrospective_centered_mae": 2.43254501278377,
+      "baseline_rmse": 6.070915218361133,
+      "chamber": "senate",
+      "feature_bias": 5.655413588154101,
+      "feature_mae": 5.655413588154101,
+      "feature_retrospective_centered_mae": 2.4386896009405823,
+      "feature_rmse": 6.394766271423623,
+      "mae_improvement": -0.3902039791036236,
+      "model": "age",
+      "n": 9,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 4.604224301052168,
+      "baseline_mae": 4.616938172182216,
+      "baseline_retrospective_centered_mae": 2.4773368560911435,
+      "baseline_rmse": 5.54909408099524,
+      "chamber": "senate",
+      "feature_bias": 4.565712116370395,
+      "feature_mae": 4.665054000152468,
+      "feature_retrospective_centered_mae": 2.5462570353455147,
+      "feature_rmse": 5.576633861440148,
+      "mae_improvement": -0.0481158279702516,
+      "model": "born_in_state",
+      "n": 8,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.020584900323473,
+      "baseline_mae": 5.020584900323473,
+      "baseline_retrospective_centered_mae": 2.5088186302016062,
+      "baseline_rmse": 5.8976310776637115,
+      "chamber": "senate",
+      "feature_bias": 4.770189441782734,
+      "feature_mae": 4.786408668520166,
+      "feature_retrospective_centered_mae": 2.4430138659138083,
+      "feature_rmse": 5.659131842143395,
+      "mae_improvement": 0.23417623180330693,
+      "model": "defection",
+      "n": 9,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.265209609050477,
+      "baseline_mae": 5.265209609050477,
+      "baseline_retrospective_centered_mae": 2.43254501278377,
+      "baseline_rmse": 6.070915218361133,
+      "chamber": "senate",
+      "feature_bias": 4.926076187198943,
+      "feature_mae": 4.926076187198943,
+      "feature_retrospective_centered_mae": 2.404511707218331,
+      "feature_rmse": 5.759096207922989,
+      "mae_improvement": 0.3391334218515345,
+      "model": "gender",
+      "n": 9,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.0808157902312745,
+      "baseline_mae": 5.0808157902312745,
+      "baseline_retrospective_centered_mae": 2.5178222112770525,
+      "baseline_rmse": 5.9543813210159575,
+      "chamber": "senate",
+      "feature_bias": 5.009140026067339,
+      "feature_mae": 5.16165924865788,
+      "feature_retrospective_centered_mae": 2.6589893936399682,
+      "feature_rmse": 5.982651762743126,
+      "mae_improvement": -0.08084345842660579,
+      "model": "ideology",
+      "n": 9,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.830706798112544,
+      "baseline_mae": 7.643025161517177,
+      "baseline_retrospective_centered_mae": 3.731416772881171,
+      "baseline_rmse": 8.614946207726405,
+      "chamber": "senate",
+      "feature_bias": 5.76358499852172,
+      "feature_mae": 7.659310743243151,
+      "feature_retrospective_centered_mae": 4.0858084481478185,
+      "feature_rmse": 8.808658889643608,
+      "mae_improvement": -0.01628558172597394,
+      "model": "incumbency",
+      "n": 23,
+      "year": 2026
+    },
+    {
+      "baseline_bias": 5.265209609050477,
+      "baseline_mae": 5.265209609050477,
+      "baseline_retrospective_centered_mae": 2.43254501278377,
+      "baseline_rmse": 6.070915218361133,
+      "chamber": "senate",
+      "feature_bias": 5.380357738566233,
+      "feature_mae": 5.380357738566233,
+      "feature_retrospective_centered_mae": 2.472840887365312,
+      "feature_rmse": 6.2119818955713395,
+      "mae_improvement": -0.11514812951575593,
+      "model": "tenure",
+      "n": 9,
+      "year": 2026
+    }
+  ]
+}
