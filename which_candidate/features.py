@@ -34,6 +34,8 @@ def name_matches(name, first, last, aliases=()):
         a, b = tokens(given), tokens(family)
         if a and a[0] in ("dr", "sen", "rep"):
             a = a[1:]
+        if a and len(a) > 1 and len(a[0]) == 1 and value[0] == a[1]:
+            a = a[1:]
         if a and b and len(value) > len(b) and value[-len(b) :] == b:
             if value[0] == a[0] and len(a[0]) > 1:
                 return True
@@ -293,7 +295,9 @@ class FeatureSources:
             "state": row["state"],
             "party_group": row["party_group"],
             "name": row["name"],
-            "incumbent": resolved["native_incumbent"],
+            "incumbent": None
+            if resolved["native_incumbent"] is True
+            else resolved["native_incumbent"],
             "service_verified_incumbent": None,
             "incumbency_conflict": False,
             "age_years": None,

@@ -12,6 +12,22 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**The corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
+It supersedes v2's interpretation while preserving all v2 bytes. Fresh native
+queries acquired November 13 retain all 435 House and 35 Senate races, with
+405 House and 28 Senate comparisons eligible. Counts remain provisional.
+Federal incumbency is corrected; unity uses actual pre-election 119th-Congress
+votes. Prior-118th ideology remains explicitly lagged.
+
+Blue Dog/CPC structural comparisons include historical cohorts, full-pipeline
+state-deletion uncertainty and identical-sample benchmark sensitivities.
+They are not exact Split Ticket WAR. Sparse 2026 evidence does not establish
+a precise moderation advantage or its decline. See the
+[post-audit specification](docs/CORRECTIONS_2026_V3.md) and
+[original audit](audits/2026-v2/critical-review.md).
+
+### Archived v2 status
+
 The implemented analysis combines audited returns, election-map presidential
 benchmarks, dated candidate identities, lagged Voteview records and authorized
 official biographies. It fits chamber-specific **2026** associations and
@@ -67,13 +83,32 @@ dependency versions, install with
 Dependency installation may require network access; the subsequent data build
 does not.
 
-The current report, categorical comparisons, charts and **complete derived
+The archived v2 report, categorical comparisons, charts and **complete derived
 analysis queries** are copied into `results/2026/` for repository readers,
 including held fits, evidence, fold membership and predictions. The private
 local replay archive additionally contains the original source bytes. Restricted
 whole workbooks are not uploaded to GitHub.
 
 ## Publication figures
+
+The [corrected nine-figure gallery](publication/2026-v3/) includes characteristics,
+caucus history and same-sample sensitivities, record/identity coverage, benchmark
+sensitivity, absolute predictive error, named third-party holds and native count
+clocks. Each has understated Margin of Error/Substack PNG/SVG versions,
+complete plotted CSVs and explicit support/uncertainty qualifications.
+
+Both [complete-query-set.zip](publication/2026-v3/complete-query-set.zip) and
+[substack-figures.zip](publication/2026-v3/substack-figures.zip) include the complete
+normalized inputs and fitted queries, not just metadata.
+
+```bash
+.venv/bin/python -m which_candidate.corrected build \
+  --inputs results/2026-v3/inputs --output replay-analysis
+.venv/bin/python -m which_candidate.corrected_publication \
+  --inputs results/2026-v3/inputs --analysis replay-analysis --output replay-publication
+```
+
+### Archived v2 publication (superseded)
 
 Nine figures adapt the restrained serif typography, terracotta/blue palette and
 source notes from `hanshanley/uk_decline`: House and Senate characteristics,
