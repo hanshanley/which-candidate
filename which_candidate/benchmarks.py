@@ -29,7 +29,7 @@ def district_presidential(path, spec):
     if spec["presidential_year"] != (year if year % 4 == 0 else year - 2):
         raise ValueError("Presidential/map-year qualification mismatch")
     workbook = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    sheet = workbook["Percentages" if year == 2024 else "Results"]
+    sheet = workbook["Percentages" if year >= 2024 else "Results"]
     result = []
     try:
         for number, cells in enumerate(sheet.iter_rows(max_col=9, values_only=True), 1):

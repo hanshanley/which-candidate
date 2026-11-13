@@ -1,4 +1,5 @@
 import json
+import re
 from collections import Counter, defaultdict
 
 from .fec import GENERIC
@@ -130,6 +131,11 @@ def contest_panel(candidates, accounting):
                 "district": district,
                 "source_id": first["source_id"],
                 "source_status": first["source_status"],
+                "source_updated_at_values": sorted(
+                    {r["source_updated_at"] for r in rows if r.get("source_updated_at")}
+                ),
+                "stage": first.get("stage"),
+                "counting_round": first.get("counting_round"),
                 "candidate_rows": len(rows),
                 "named_D_nominees": len(major["D"]),
                 "named_R_nominees": len(major["R"]),
@@ -156,6 +162,69 @@ def contest_panel(candidates, accounting):
             }
         )
     return contests
+
+
+def senate_2026_candidates(path, spec):
+    audit = json.loads(path.read_bytes())
+    if audit["contract"] != "participation.ak_senate_native_scope.v1":
+        raise ValueError("Unsupported statewide Senate control audit")
+    selected = [
+        (i, row) for i, row in enumerate(audit["control_decisions"]) if row["provider"] == "civic"
+    ]
+    expected_states = set(
+        "AL AK AR CO DE FL GA ID IL IA KS KY LA ME MA MI MN MS MT NE NH NJ NM NC OH OK OR RI SC SD TN TX VA WV WY".split()
+    )
+    if {r["state"] for _, r in selected} != expected_states:
+        raise ValueError("Incomplete 35-race 2026 Senate query")
+    seen, result = set(), []
+    for index, row in selected:
+        state, name = row["state"], row["candidate"]
+        if (state, name) in seen:
+            raise ValueError("Duplicate statewide Senate candidate")
+        seen.add((state, name))
+        votes = str(row["native_state_votes"])
+        if not re.fullmatch(r"\d+", votes):
+            raise ValueError("Invalid native statewide Senate count")
+        stage = "general_special" if state in ("FL", "OH") else "general"
+        contest_id = f"2026:senate:{state}:STATE:{stage}:source_general"
+        party = row["party"]
+        result.append(
+            {
+                "candidate_election_id": f"{contest_id}:audit:{index}",
+                "contest_id": contest_id,
+                "year": 2026,
+                "chamber": "senate",
+                "state": state,
+                "district": "STATE",
+                "election_date": "2026-11-03",
+                "date_scope": "2026 general; FL/OH special seats separately identified",
+                "stage": stage,
+                "counting_round": row["native_round"],
+                "name": name,
+                "fec_id": None,
+                "party_group": "D"
+                if party in ("Democratic", "Democratic-Farmer-Labor")
+                else "R"
+                if party == "Republican"
+                else "O",
+                "literal_parties": [party],
+                "votes": int(votes),
+                "named_candidate": not bool(GENERIC.fullmatch(name)),
+                "source_incumbent": None,
+                "source_status": "provisional_provider_state_total_in_derived_audit",
+                "source_updated_at": row["native_updated"],
+                "origin_url": spec["origin_url"],
+                "boundary_comparability_verified": True,
+                "issues": [],
+                "source_id": spec["id"],
+                "source_rows": [
+                    {"source_id": spec["id"], "json_pointer": f"/control_decisions/{index}"}
+                ],
+                "native_accounting_evidence": row,
+                "combined_total_references": [],
+            }
+        )
+    return result
 
 
 def senate_benchmarks(contests, candidates):
@@ -242,9 +311,9 @@ def coverage(candidates, contests, native, decisions, benchmarks):
         "limits": [
             "Historical FEC congressional coverage currently stops at 2022.",
             "2024 and provisional 2026 House rows are imported from the complete participation audit.",
-            "2024/2026 Senate outcomes are not yet imported.",
-            "House district partisan benchmarks and boundary matches are not yet qualified.",
+            "This base returns stage excludes supplemental Senate outcomes; the analysis stage imports 2024/2026.",
+            "House district benchmarks and map qualifications are added in the analysis stage.",
             "Senate presidential gaps are descriptive, not cycle-adjusted candidate effects.",
-            "Candidate identities, legislative features and biographies remain unverified.",
+            "Candidate identities, legislative features and biographies are added in the analysis stage.",
         ],
     }

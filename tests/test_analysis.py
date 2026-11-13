@@ -21,6 +21,7 @@ from which_candidate.benchmarks import (
 from which_candidate.biographies import biography_entries, birth_state
 from which_candidate.features import FeatureSources, name_matches
 from which_candidate.models import associations, fit_clustered, folds_and_predictions, purge
+from which_candidate.panel import contest_panel, senate_2026_candidates
 from which_candidate.pipeline import build
 from which_candidate.research_sources import acquire_research
 from which_candidate.storage import fingerprint, write_json, write_rows
@@ -111,7 +112,7 @@ def candidate(year=2024):
 
 
 @pytest.mark.parametrize(
-    "year,congress", [(2016, 113), (2018, 114), (2020, 115), (2022, 116), (2024, 117)]
+    "year,congress", [(2016, 113), (2018, 114), (2020, 115), (2022, 116), (2024, 117), (2026, 118)]
 )
 def test_legislative_features_use_prior_completed_congress_and_decimal_party_codes(
     tmp_path, year, congress
@@ -398,6 +399,55 @@ def test_folds_hold_out_states_people_and_future_cycles():
     assert any(r.get("locked_validation_2024") for r in predictions)
 
 
+def test_2026_primary_coefficients_and_backtests_use_the_correct_outcome_year():
+    history = synthetic_panel()
+    current = [
+        {**r, "year": 2026, "D_candidate_election_id": "2026:" + r["D_candidate_election_id"]}
+        for r in history
+        if r["year"] == 2024
+    ]
+    fits, terms = associations(history + current, target_year=2026)
+    coefficient = next(r for r in terms if r["primary_focal"])
+    assert coefficient["estimate_share_pp"] == pytest.approx(3, abs=0.1)
+    assert all(r["target_year"] == 2026 for r in fits)
+    changed = [{**r, "descriptive_gap_share_pp": 1000} for r in history]
+    assert associations(changed + current, target_year=2026)[1] == terms
+    folds, predictions = folds_and_predictions(history + current)
+    assert any(r["kind"] == "retrospective_2026_state_held_out" for r in predictions)
+    assert any(r.get("year") == 2026 and r.get("model") == "incumbency" for r in predictions)
+    for fold in folds:
+        assert not set(fold["train_states"]) & set(fold["test_states"])
+        assert fold["candidate_group_overlap"] == 0
+        if ":forward:" in fold["fold_id"] and fold["test_years"] == [2026]:
+            assert max(fold["train_years"]) == 2024
+
+
+def test_2026_outcomes_require_the_2026_map_and_positive_major_party_counts():
+    row = {
+        "contest_id": "current",
+        "year": 2026,
+        "state": "NY",
+        "chamber": "house",
+        "district": "01",
+        "D_candidate_election_id": None,
+        "exclusion_reasons": [],
+        "D_two_party_share_pct": 55,
+        "D_votes": 55,
+        "R_votes": 45,
+    }
+    benchmark = {
+        "map_year": 2026,
+        "state": "NY",
+        "district": "01",
+        "presidential_D_two_party_share_pct": 50,
+    }
+    assert candidate_queries([row], [], [], [benchmark], [])[0]["descriptive_gap_share_pp"] == 5
+    old = {**benchmark, "map_year": 2024}
+    assert not candidate_queries([row], [], [], [old], [])[0]["eligible"]
+    zero = {**row, "D_votes": 0}
+    assert not candidate_queries([zero], [], [], [benchmark], [])[0]["eligible"]
+
+
 def test_purge_removes_cross_state_repeated_people():
     train = [{"state": "CA", "person_group": "same"}, {"state": "NY", "person_group": "other"}]
     assert purge(train, [{"state": "TX", "person_group": "same"}]) == [train[1]]
@@ -469,3 +519,51 @@ def test_analysis_archive_keeps_originals_queries_and_project_relative_paths(tmp
         assert "tests/test_analysis.py" in packed.namelist()
     with pytest.raises(ValueError, match="overwrite"):
         package_analysis(tmp_path, manifest.parent, returns, output, archive)
+
+
+def test_2026_senate_uses_native_totals_and_preserves_scope_holds(tmp_path):
+    states = (
+        "AL AK AR CO DE FL GA ID IL IA KS KY LA ME MA MI MN MS MT NE NH NJ NM NC OH OK OR "
+        "RI SC SD TN TX VA WV WY"
+    ).split()
+    rows = [
+        {
+            "provider": "civic",
+            "state": state,
+            "candidate": f"{first} {state}",
+            "party": "Independent" if state == "NE" and first == "Jane" else party,
+            "native_state_votes": votes,
+            "county_sum": 999999,
+            "native_round": "1",
+            "native_updated": "2026-11-08T00:00:00Z",
+        }
+        for state in states
+        for first, party, votes in (
+            ("Jane", "Democratic", "100"),
+            ("John", "Republican", "80"),
+        )
+    ]
+    path = tmp_path / "audit.json"
+    audit = {"contract": "participation.ak_senate_native_scope.v1", "control_decisions": rows}
+    spec = {"id": "test", "origin_url": "test"}
+    write_json(path, audit)
+    candidates = senate_2026_candidates(path, spec)
+    assert candidates[0]["votes"] == 100
+    contests = {r["state"]: r for r in contest_panel(candidates, [])}
+    assert len(contests) == 35
+    for state in ("AK", "ME"):
+        assert "ranked_choice_round_unqualified" in contests[state]["exclusion_reasons"]
+    assert "louisiana_stage_unqualified" in contests["LA"]["exclusion_reasons"]
+    assert "requires_one_named_D_nominee" in contests["NE"]["exclusion_reasons"]
+    for state in ("FL", "OH"):
+        assert contests[state]["stage"] == "general_special"
+        assert contests[state]["eligible_descriptive_two_party_share"]
+
+    for changed, error in (
+        (rows[:-2], "Incomplete 35-race"),
+        (rows + [rows[0]], "Duplicate statewide"),
+        ([{**rows[0], "native_state_votes": "-1"}] + rows[1:], "Invalid native statewide"),
+    ):
+        write_json(path, {**audit, "control_decisions": changed})
+        with pytest.raises(ValueError, match=error):
+            senate_2026_candidates(path, spec)

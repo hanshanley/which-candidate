@@ -4,7 +4,7 @@ from pathlib import Path
 
 from .analysis import analyze, package_analysis
 from .pipeline import build, package, verify_output
-from .research_sources import acquire_research, import_2024
+from .research_sources import acquire_research, import_2024, import_2026
 from .sources import import_participation
 
 
@@ -23,6 +23,9 @@ def main(argv=None):
     )
     extra.add_argument("--source", type=Path, required=True)
     extra.add_argument("--data-dir", type=Path, default=Path("data"))
+    current = commands.add_parser("import-2026", help="Pin held 2026 statewide Senate totals")
+    current.add_argument("--source", type=Path, required=True)
+    current.add_argument("--data-dir", type=Path, default=Path("data"))
     builder = commands.add_parser("build", help="Build complete audited queries without network")
     builder.add_argument("--manifest", type=Path, default=Path("data/sources.json"))
     builder.add_argument("--output", type=Path, default=Path("data/processed"))
@@ -40,12 +43,12 @@ def main(argv=None):
             command, help="Build/package the candidate-characteristics analysis"
         )
         action.add_argument("--data-dir", type=Path, default=Path("data"))
-        action.add_argument("--returns", type=Path, default=Path("data/returns-v2"))
-        action.add_argument("--output", type=Path, default=Path("data/analysis-v1"))
+        action.add_argument("--returns", type=Path, default=Path("artifacts/returns-2026-v1"))
+        action.add_argument("--output", type=Path, default=Path("artifacts/analysis-2026-v1"))
         if command == "package-analysis":
             action.add_argument("--project-root", type=Path, default=Path("."))
             action.add_argument(
-                "--archive", type=Path, default=Path("artifacts/candidate-characteristics-v1.zip")
+                "--archive", type=Path, default=Path("artifacts/which-candidate-2026-v1.zip")
             )
     args = parser.parse_args(argv)
     try:
@@ -55,6 +58,8 @@ def main(argv=None):
             result = acquire_research(args.data_dir)
         elif args.command == "import-2024":
             result = import_2024(args.source, args.data_dir)
+        elif args.command == "import-2026":
+            result = import_2026(args.source, args.data_dir)
         elif args.command == "build":
             result = build(args.manifest, args.output)
         elif args.command == "analyze":

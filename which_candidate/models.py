@@ -136,10 +136,15 @@ def fit_clustered(x, y, clusters):
     }
 
 
-def associations(panel):
+def associations(panel, target_year=None):
     fits, terms = [], []
     for chamber in ("house", "senate"):
-        historical = [r for r in panel if r["chamber"] == chamber and r["year"] <= 2022]
+        historical = [
+            r
+            for r in panel
+            if r["chamber"] == chamber
+            and (r["year"] == target_year if target_year is not None else r["year"] <= 2022)
+        ]
         for model in (*PRIMARY, *SUPPLEMENTAL, "joint", "ideology_lean"):
             sample = [r for r in historical if available(r, model)]
             variants = {
@@ -154,7 +159,7 @@ def associations(panel):
                     r for r in sample if 40 <= r["presidential_D_two_party_share_pct"] <= 60
                 ]
                 variants["linear_lean"] = sample
-                for year in (2016, 2018, 2020, 2022):
+                for year in () if target_year is not None else (2016, 2018, 2020, 2022):
                     variants[f"cycle_only_{year}"] = [r for r in sample if r["year"] == year]
             for variant, rows in variants.items():
                 model_id = f"{chamber}:{model}:{variant}"
@@ -168,6 +173,7 @@ def associations(panel):
                         "chamber": chamber,
                         "model": model,
                         "variant": variant,
+                        "target_year": target_year,
                         "terms": names,
                         "candidate_election_ids": [r["D_candidate_election_id"] for r in rows],
                         **fit,
@@ -182,6 +188,7 @@ def associations(panel):
                             "chamber": chamber,
                             "model": model,
                             "variant": variant,
+                            "target_year": target_year,
                             "term": name,
                             "estimate_share_pp": fit["coefficients"][index],
                             "ci_low": fit["ci_low"][index],
@@ -213,41 +220,46 @@ def folds_and_predictions(panel):
     predictions, folds = [], []
     for chamber in ("house", "senate"):
         eligible = [r for r in panel if r["chamber"] == chamber and r["eligible"]]
-        historical = [r for r in eligible if r["year"] <= 2022]
-        for state in sorted({r["state"] for r in historical}):
-            test = [r for r in historical if r["state"] == state]
-            train = purge(historical, test)
-            cycles = sorted({r["year"] for r in historical})
-            x, names = matrix(train, "baseline", cycles)
-            fit = fit_clustered(
-                x,
-                np.array([r["descriptive_gap_share_pp"] for r in train]),
-                [r["state"] for r in train],
-            )
-            fold_id = f"{chamber}:retrospective:{state}"
-            folds.append(fold_record(fold_id, train, test, {"terms": names, **fit}))
-            if fit["status"] == "estimated":
-                test_x, _ = matrix(test, "baseline", cycles)
-                expected = test_x @ fit["coefficients"]
-                for row, gap in zip(test, expected):
-                    predictions.append(
-                        {
-                            "kind": "retrospective_state_held_out",
-                            "fold_id": fold_id,
-                            "chamber": chamber,
-                            "year": row["year"],
-                            "state": state,
-                            "candidate_election_id": row["D_candidate_election_id"],
-                            "observed_share_pct": row["D_two_party_share_pct"],
-                            "expected_share_pct": row["presidential_D_two_party_share_pct"]
-                            + float(gap),
-                            "cross_fitted_overperformance_share_pp": row["descriptive_gap_share_pp"]
-                            - float(gap),
-                        }
-                    )
+        for kind, cohort in (
+            ("retrospective_state_held_out", [r for r in eligible if r["year"] <= 2022]),
+            ("retrospective_2026_state_held_out", [r for r in eligible if r["year"] == 2026]),
+        ):
+            for state in sorted({r["state"] for r in cohort}):
+                test = [r for r in cohort if r["state"] == state]
+                train = purge(cohort, test)
+                cycles = sorted({r["year"] for r in cohort})
+                x, names = matrix(train, "baseline", cycles)
+                fit = fit_clustered(
+                    x,
+                    np.array([r["descriptive_gap_share_pp"] for r in train]),
+                    [r["state"] for r in train],
+                )
+                fold_id = f"{chamber}:{kind}:{state}"
+                folds.append(fold_record(fold_id, train, test, {"terms": names, **fit}))
+                if fit["status"] == "estimated":
+                    test_x, _ = matrix(test, "baseline", cycles)
+                    expected = test_x @ fit["coefficients"]
+                    for row, gap in zip(test, expected):
+                        predictions.append(
+                            {
+                                "kind": kind,
+                                "fold_id": fold_id,
+                                "chamber": chamber,
+                                "year": row["year"],
+                                "state": state,
+                                "candidate_election_id": row["D_candidate_election_id"],
+                                "observed_share_pct": row["D_two_party_share_pct"],
+                                "expected_share_pct": row["presidential_D_two_party_share_pct"]
+                                + float(gap),
+                                "cross_fitted_overperformance_share_pp": row[
+                                    "descriptive_gap_share_pp"
+                                ]
+                                - float(gap),
+                            }
+                        )
         for model in (*PRIMARY, *SUPPLEMENTAL):
             sample = [r for r in eligible if available(r, model)]
-            for year in (2018, 2020, 2022, 2024):
+            for year in (2018, 2020, 2022, 2024, 2026):
                 for state in sorted({r["state"] for r in sample if r["year"] == year}):
                     test = [r for r in sample if r["year"] == year and r["state"] == state]
                     train = purge([r for r in sample if r["year"] < year], test)

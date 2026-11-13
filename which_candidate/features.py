@@ -2,6 +2,7 @@ import csv
 import json
 import re
 import unicodedata
+import zipfile
 from collections import defaultdict
 from datetime import date
 
@@ -60,6 +61,7 @@ def read_nominees(path, spec):
                 rows.append(
                     {
                         "state": cells[0],
+                        "election_year": spec.get("election_year", 2024),
                         "chamber": "senate" if district.startswith("S") else "house",
                         "district": district if district.startswith("S") else district.zfill(2),
                         "fec_id": fec_id if re.fullmatch(r"[HS]\d[A-Z]{2}\d{5}", fec_id) else None,
@@ -75,6 +77,51 @@ def read_nominees(path, spec):
                 )
     finally:
         workbook.close()
+    return rows
+
+
+def read_candidate_master(path, spec):
+    with zipfile.ZipFile(path) as archive:
+        names = [name for name in archive.namelist() if name.lower().endswith(".txt")]
+        if len(names) != 1:
+            raise ValueError("Expected one complete FEC candidate master")
+        lines = archive.read(names[0]).decode("utf-8-sig").splitlines()
+    rows = []
+    for number, line in enumerate(lines, 1):
+        cells = line.split("|")
+        if len(cells) != 15:
+            raise ValueError("Changed FEC candidate-master schema")
+        identifier, name, party, year, state, office, district, incumbency = cells[:8]
+        if year != str(spec["election_year"]) or office not in ("H", "S") or state not in STATES:
+            continue
+        if not re.fullmatch(r"[HS]\d[A-Z]{2}\d{5}", identifier):
+            raise ValueError("Invalid FEC congressional candidate identifier")
+        if "," in name:
+            last, first = (part.strip() for part in name.split(",", 1))
+        else:
+            parts = name.rsplit(" ", 1)
+            first, last = parts if len(parts) == 2 else ("", name)
+        rows.append(
+            {
+                "election_year": int(year),
+                "state": state,
+                "chamber": "house" if office == "H" else "senate",
+                "district": district.zfill(2) if office == "H" else "S",
+                "fec_id": identifier,
+                "incumbent": True
+                if incumbency == "I"
+                else False
+                if incumbency in ("C", "O")
+                else None,
+                "first": first,
+                "last": last,
+                "name": name,
+                "party": party,
+                "source_id": spec["id"],
+                "source_sheet": names[0],
+                "source_row": number,
+            }
+        )
     return rows
 
 
@@ -120,7 +167,9 @@ class FeatureSources:
                             key = (int(row["congress"]), row["chamber"].lower(), row["icpsr"])
                             self.unity[key].append(row)
             elif spec["kind"] == "fec_nominees_2024":
-                self.nominees = read_nominees(path, spec)
+                self.nominees.extend(read_nominees(path, spec))
+            elif spec["kind"] == "fec_candidate_master":
+                self.nominees.extend(read_candidate_master(path, spec))
             elif spec["kind"] == "congressional_directory":
                 self.biographies.extend(read_directory(path, spec))
         self.biography_index = defaultdict(list)
@@ -128,7 +177,7 @@ class FeatureSources:
             self.biography_index[(row["election_year"], row["state"])].append(row)
         self.roster_index = defaultdict(list)
         for row in self.nominees:
-            self.roster_index[(row["state"], row["chamber"])].append(row)
+            self.roster_index[(row["election_year"], row["state"], row["chamber"])].append(row)
         self.state_people = defaultdict(set)
         for key, person in self.people.items():
             for term in person["terms"]:
@@ -160,11 +209,15 @@ class FeatureSources:
     def resolve(self, row):
         fec_id, incumbent = row.get("fec_id"), row.get("source_incumbent")
         roster_refs, roster_status = [], "not_applicable"
-        if row["year"] == 2024:
+        if row["year"] in (2024, 2026):
             matches = []
-            for nominee in self.roster_index[(row["state"], row["chamber"])]:
+            for nominee in self.roster_index[(row["year"], row["state"], row["chamber"])]:
                 district = "00" if row["district"] == "AL" else row["district"]
                 if row["chamber"] == "house" and nominee["district"] != district:
+                    continue
+                if row["year"] == 2026 and nominee["party"] not in (
+                    ("DEM", "DFL") if row["party_group"] == "D" else ("REP",)
+                ):
                     continue
                 aliases = []
                 if "," in nominee["name"]:

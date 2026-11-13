@@ -4,9 +4,11 @@ The unit is a candidate in a dated contest, not a voter. Keep House and Senate,
 regular and special elections, counting rounds, and reporting vintages separate.
 Native district labels are not evidence of stable district boundaries.
 
-The primary eventual outcome is Democratic two-party vote share minus a
-cross-fitted constituency/chamber/cycle expectation. A descriptive presidential
-benchmark gap is a different quantity, especially in midterms. One share point
+The primary election is **2026**. Characteristic models regress the Democratic
+two-party share minus the map-correct presidential baseline on lean/lean-squared
+and each feature. A separate cross-fitted constituency expectation supplies
+retrospective residuals; those are not confused with raw presidential gaps.
+Earlier elections are historical training/backtests. One share point
 equals two D-minus-R margin points. Neither quantity identifies a causal nominee
 effect or demographic voting behavior.
 
@@ -34,11 +36,21 @@ missing legislative records, not zero ideology. Party unity, bipartisan voting,
 issue positions and attendance are separate measures.
 
 Include winners and losers in biography acquisition. Race/ethnicity and religion
-require documented public self-identification, never inference from names or
-photos. Unknowns, multiple identities and time-varying evidence remain explicit.
+require documented public identity evidence, never inference from names or
+photos. Positive House Historian classifications are distinguished from
+member-authorized statements. Absence from a list supplies no negative identity.
+Unknowns, multiple identities and time-varying evidence remain explicit.
 Birth in the state is distinct from residence and other local ties.
 
 Model House and Senate separately with chronological and candidate/geography
 group-aware validation. Report sparse samples, missingness, uncertainty,
 alternative benchmarks and null findings. No characteristic ranking should be
 published before the corresponding evidence and validation exist.
+
+The 2026 counts are provisional snapshots, not certified final results.
+Use the separately published 2026-map House presidential workbook. State-level
+ACS composition can be reused for 2026; district-level 2024 ACS is held in all
+ten Census-reported 2026 map-change states. Population is not the electorate.
+Census does not measure religion; no 2018 religious district context is carried
+forward to 2026. A Census-race-adjusted religion comparison is not a comparison
+adjusted for constituency religious composition.

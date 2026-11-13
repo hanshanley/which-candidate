@@ -84,6 +84,21 @@ behavior or causal nominee effects are estimated at this checkpoint.
 
 ## Reproduction and packaging
 
+The 2026-primary analysis additionally pins the FEC candidate master, separate
+2026-map presidential workbook, 2026 Congressional Directory, Pew/CQ 119th
+member religion list, positive House Historian group lists, ACS state/district
+race/Hispanic tables and Census map-change evidence in `research-sources.json`.
+`supplemental-returns-sources.json` retains the 2024 Clerk/FEC sources and the
+complete 2026 Senate statewide-control audit. The latter is a derived factual
+query with native count clocks and scope decisions, not original provider JSON.
+
+`artifacts/analysis-2026-v1/` contains the main report, separate historical
+backtests, complete 2026 candidate decisions, demographic evidence and
+contextual fits, including every hold and zero-observation category.
+`2026-model-terms.csv` reports the primary-year associations; `model-terms.csv`
+is the retained historical comparison. No historical coefficient is a 2026
+finding. The 2026 query preserves all 435 House and 35 Senate contests.
+
 An unchanged build verifies every output checksum and returns a no-parse
 no-op. Changed inputs or package code require a new output directory; an
 existing version is never silently overwritten.

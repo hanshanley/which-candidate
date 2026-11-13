@@ -6,8 +6,11 @@ from collections import defaultdict
 from pathlib import Path
 
 from .benchmarks import clerk_senate_2024, district_presidential, presidential_2024
+from .contextual import category_report, contextual_associations
+from .demographics import DemographicSources
 from .features import FeatureSources
 from .models import PRIMARY, SUPPLEMENTAL, associations, folds_and_predictions, validation_summary
+from .panel import contest_panel, senate_2026_candidates
 from .pipeline import code_receipts, csv_bytes, verify_output
 from .sources import load_sources
 from .storage import confined, fingerprint, read_rows, write_json, write_rows
@@ -66,8 +69,10 @@ def candidate_queries(contests, candidates, features, district_benchmarks, state
             else states.get((presidential_year, state))
         )
         reasons = list(contest["exclusion_reasons"])
-        if year > 2024:
-            reasons.append("provisional_2026_not_in_historical_analysis")
+        if year > 2026:
+            reasons.append("outside_requested_2016_2026_window")
+        if year == 2026 and any(contest.get(f"{p}_votes") == 0 for p in ("D", "R")):
+            reasons.append("positive_reported_major_party_counts_required")
         p = benchmark.get("presidential_D_two_party_share_pct") if benchmark else None
         if p is None:
             reasons.append("qualified_map_or_state_presidential_benchmark_missing")
@@ -100,7 +105,22 @@ def candidate_queries(contests, candidates, features, district_benchmarks, state
                 "birth_state": d.get("birth_state"),
                 "religion": d.get("religion"),
                 "reported_catholic": d.get("reported_catholic"),
+                **{
+                    key: d.get(key)
+                    for key in (
+                        "religion_category",
+                        "religion_category_source",
+                        "religion_category_evidence",
+                        "race_category",
+                        "races",
+                        "hispanic_origin",
+                        "racial_identity_evidence",
+                    )
+                },
                 "feature_evidence": d.get("feature_evidence", []),
+                "analysis_role": "primary_2026"
+                if year == 2026
+                else "historical_training_or_backtest",
                 "presidential_year": presidential_year,
                 "benchmark_district": district if chamber == "house" else None,
                 "presidential_D_two_party_share_pct": p,
@@ -136,7 +156,16 @@ def coverage_rows(panel):
                 "party_unity_observed": sum(r["party_unity_score"] is not None for r in rows),
                 "birth_state_observed": sum(r["born_in_state"] is not None for r in rows),
                 "explicit_religion_observed": sum(r["religion"] is not None for r in rows),
-                "race_ethnicity_observed": 0,
+                "race_ethnicity_observed": sum(
+                    r.get("race_category") not in (None, "unknown") for r in rows
+                ),
+                "hispanic_origin_observed": sum(r.get("hispanic_origin") is not None for r in rows),
+                "religion_category_observed": sum(
+                    r.get("religion_category") not in (None, "unknown") for r in rows
+                ),
+                "Census_composition_observed": sum(
+                    bool(r.get("constituency_race_shares_pct")) for r in rows
+                ),
             }
         )
     return result
@@ -267,7 +296,10 @@ def render_report(panel, terms, validation, coverage, fits):
         "",
         "## What remains unanswered",
         "",
-        "**Race/ethnicity, military service, occupation, education, "
+        "**The categorical religion/race and Census-composition extension is in "
+        "`religion-race-report.md`.** Its explicitly supplemental results do not replace "
+        "the original six tests above. Race coverage remains evidence-limited; unknowns "
+        "are not White. **Military service, occupation, education, "
         "issue-specific positions and attendance are not measured here.** No inference from "
         "names, photos, party, current residence or missing records fills those fields. "
         "The sources used do not supply a qualified all-nominee panel, particularly for losers. "
@@ -321,7 +353,146 @@ def render_report(panel, terms, validation, coverage, fits):
     return "\n".join(lines)
 
 
-def render_figures(destination, terms):
+def render_2026_report(panel, terms, fits, validation, manifests):
+    rows = [r for r in panel if r["year"] == 2026]
+    focal = {(r["chamber"], r["model"]): r for r in terms if r["primary_focal"]}
+    primary = {(r["chamber"], r["model"]): r for r in fits if r["variant"] == "primary"}
+    clocks = sorted({clock for r in rows for clock in r["source_updated_at_values"]})
+    lines = [
+        "# Which Democrats did better in 2026?",
+        "",
+        "**2026 is the primary election outcome.** Earlier elections are training data and "
+        "backtests, not the answer to this question. These results use held, provisional "
+        "provider counts, not certified final returns or a live November 13 tally.",
+        "",
+        "## Outcome and coverage",
+        "",
+        "The outcome is Democratic two-party vote share minus the constituency's 2024 "
+        "presidential Democratic two-party share. House benchmarks are The Downballot's "
+        "**2026-map** calculations, not old district numbers carried forward. Senate "
+        "benchmarks use official statewide FEC presidential returns. One share point "
+        "equals two D-minus-R margin points.",
+        "",
+        "| Chamber | 2026 contests retained | Eligible comparisons | Identified Democrats |",
+        "|---|---:|---:|---:|",
+    ]
+    for chamber in ("house", "senate"):
+        sample = [r for r in rows if r["chamber"] == chamber]
+        lines.append(
+            f"| {chamber.title()} | {len(sample)} | {sum(r['eligible'] for r in sample)} | "
+            f"{sum(r['bioguide_id'] is not None for r in sample)} |"
+        )
+    if clocks:
+        lines += [
+            "",
+            f"Retained provider update clocks range from **{clocks[0]}** to **{clocks[-1]}**. "
+            "Acquisition time is not the counting clock; different contests need not be "
+            "equally complete. Certification and final-count completion remain unverified.",
+        ]
+    lines += [
+        "",
+        "Senate counts are native **statewide** totals preserved in the complete source audit, "
+        "not sums of county units. Florida and Ohio special seats are separately identified "
+        "in contest IDs. Independent/nonpartisan candidates remain separate from Democrats. "
+        "Unqualified Alaska/Maine ranked-choice rounds, Louisiana stages, missing/ambiguous "
+        "major-party nominees and zero-reported major-party counts are held, not ranked.",
+        "",
+        "## Characteristics associated with 2026 performance",
+        "",
+        "Each model adjusts for constituency partisan lean and lean squared, separately "
+        "by chamber. Incumbency models also control Republican incumbency. All other "
+        "traits are compared **among verified same-chamber Democratic incumbents**, "
+        "not all nominees. These are associations, not causal candidate-selection effects.",
+        "",
+        "| Chamber | Comparison | Share-point association | Pointwise 95% interval | N | States | Holm p |",
+        "|---|---|---:|---|---:|---:|---:|",
+    ]
+    for chamber in ("house", "senate"):
+        for model, (_, label) in PRIMARY.items():
+            row = focal.get((chamber, model))
+            fit = primary[(chamber, model)]
+            if row:
+                p = row["holm_pvalue"]
+                ptext = "<0.001" if p < 0.001 else f"{p:.3f}"
+                lines.append(
+                    f"| {chamber.title()} | {label} | {row['estimate_share_pp']:+.2f} | "
+                    f"[{row['ci_low']:+.2f}, {row['ci_high']:+.2f}] | {row['n']} | "
+                    f"{row['state_clusters']} | {ptext} |"
+                )
+            else:
+                lines.append(
+                    f"| {chamber.title()} | {label} | Held: {fit['status']} | — | "
+                    f"{fit['n']} | {fit['state_clusters']} | — |"
+                )
+    supported = [r for r in focal.values() if r["holm_pvalue"] < 0.05]
+    lines += [
+        "",
+        (
+            "Comparisons passing the six-test-per-chamber Holm threshold: "
+            + "; ".join(
+                f"{r['chamber'].title()} {PRIMARY[r['model']][1]} "
+                f"({r['estimate_share_pp']:+.2f} share points)"
+                for r in supported
+            )
+            + "."
+            if supported
+            else "No primary comparison passes the six-test-per-chamber Holm threshold. "
+            "That is not evidence that every trait has zero effect."
+        ),
+        "",
+        "Ideology is prior-completed-Congress Nokken-Poole, not a categorical "
+        "moderate/progressive label. Party defection concerns party-unity roll calls, "
+        "not every bipartisan vote. For 2026 these use the 118th Congress, not voting "
+        "records after the election. Retrieved score vintages are retrospective.",
+        "",
+        "## Religion, race and constituency composition",
+        "",
+        "See `religion-race-report.md` for Catholic, Protestant, Jewish, Muslim, atheist "
+        "and other explicit religion categories; race and Hispanic origin are separate. "
+        "Unknown identity is never treated as White, non-Hispanic or Protestant. "
+        "Sparse or unidentified contrasts remain held rather than being imputed.",
+        "",
+        "Census ACS 2024 race/Hispanic population composition supplies state controls "
+        "and district controls only outside the ten states with Census-reported "
+        "2026 map changes. Those ten states' district composition models are held. "
+        "These are total-population shares, not voters or CVAP. **Census does not "
+        "collect religion.** The acquired 2016/2018 congregation estimates do not "
+        "qualify as 2026 district religious composition; no such adjustment is claimed.",
+        "",
+        "## Historical-to-2026 validation",
+        "",
+        "The following retrospective replays train only on earlier elections and exclude "
+        "the test state and every identified test person. They are not forecasts "
+        "actually issued before Election Day. Census contextual variables do not enter "
+        "these prediction models.",
+        "",
+        "| Chamber | Model | 2026 predictions | MAE (share pp) | Improvement over same-sample baseline |",
+        "|---|---|---:|---:|---:|",
+    ]
+    for row in validation:
+        if row["year"] == 2026:
+            improvement = row["mae_improvement"]
+            lines.append(
+                f"| {row['chamber'].title()} | {row['model']} | {row['n']} | "
+                f"{row['feature_mae']:.2f} | {improvement:+.2f} |"
+            )
+    lines += [
+        "",
+        "## Complete queries and reproducibility",
+        "",
+        "`2026-candidate-results.csv` retains every 2026 contest, including exclusions "
+        "and exact reasons. `2026-model-fits.jsonl.gz` retains every fit and hold; "
+        "`2026-model-terms.csv` contains coefficients, uncertainty and multiplicity "
+        "adjustment. Full evidence, source receipts, contextual queries, fold membership, "
+        "predictions and historical backtests are retained. The immutable private "
+        "replay archive includes selected source bytes and code; source redistribution "
+        "restrictions still apply.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def render_figures(destination, terms, target_year=None):
     import matplotlib
 
     matplotlib.use("Agg")
@@ -374,7 +545,10 @@ def render_figures(destination, terms):
             axis.tick_params(axis="both", length=0)
             axis.set_ylim(-0.6, 5.6)
         figure.suptitle(
-            "Adjusted candidate associations, 2016–2022", x=0.03, ha="left", fontsize=13
+            f"Adjusted candidate associations, {target_year or '2016–2022'}",
+            x=0.03,
+            ha="left",
+            fontsize=13,
         )
         figure.text(
             0.03,
@@ -447,21 +621,37 @@ def analyze(data_dir, returns, output, project=None):
         elif spec["kind"] == "fec_president_2024":
             extra_tables["fec-2024-state-president"] = presidential_2024(path, spec)
             state_rows.extend(extra_tables["fec-2024-state-president"])
+        elif spec["kind"] == "senate_2026_audit":
+            current = senate_2026_candidates(path, spec)
+            current_contests = contest_panel(current, [])
+            candidates.extend(current)
+            contests.extend(current_contests)
+            extra_tables["senate-2026-candidates"] = current
+            extra_tables["senate-2026-contests"] = current_contests
     feature_sources = FeatureSources(manifests["research-sources.json"], data_dir)
-    features = [
-        feature_sources.features(row)
-        for row in candidates
-        if row["chamber"] in ("house", "senate")
-        and row["named_candidate"]
-        and row["party_group"] in ("D", "R")
-    ]
+    demographic_sources = DemographicSources(manifests["research-sources.json"], data_dir)
+    features = []
+    for row in candidates:
+        if (
+            row["chamber"] not in ("house", "senate")
+            or not row["named_candidate"]
+            or row["party_group"] not in ("D", "R")
+        ):
+            continue
+        feature = feature_sources.features(row)
+        feature.update(demographic_sources.candidate_identity(row, feature, feature_sources))
+        features.append(feature)
     panel = candidate_queries(contests, candidates, features, district_rows, state_rows)
+    for row in panel:
+        row.update(demographic_sources.context(row))
     fits, terms = associations(panel)
+    current_fits, current_terms = associations(panel, target_year=2026)
+    contextual_fits, contextual_terms, category_counts = contextual_associations(panel)
     folds, predictions = folds_and_predictions(panel)
     predicted = {
         r["candidate_election_id"]: r
         for r in predictions
-        if r["kind"] == "retrospective_state_held_out"
+        if r["kind"] in ("retrospective_state_held_out", "retrospective_2026_state_held_out")
     }
     for row in panel:
         item = predicted.get(row["D_candidate_election_id"])
@@ -487,13 +677,23 @@ def analyze(data_dir, returns, output, project=None):
         **extra_tables,
         "district-presidential-benchmarks": district_rows,
         "state-presidential-benchmarks": state_rows,
-        "fec-2024-nominee-roster": feature_sources.nominees,
+        "fec-nominee-and-registration-records": feature_sources.nominees,
         "directory-biographies": feature_sources.biographies,
+        "Census-population-composition": demographic_sources.acs,
+        "Pew-member-religion": demographic_sources.pew,
+        "House-Historian-identity": demographic_sources.historian,
+        "district-congregation-context": demographic_sources.religious,
+        "contextual-model-fits": contextual_fits,
+        "contextual-model-terms": contextual_terms,
+        "identity-category-counts": category_counts,
         "candidate-features": features,
         "candidate-queries": panel,
         "coverage": coverage,
         "model-fits": fits,
         "model-terms": terms,
+        "2026-model-fits": current_fits,
+        "2026-model-terms": current_terms,
+        "2026-candidate-results": [r for r in panel if r["year"] == 2026],
         "folds": folds,
         "predictions": predictions,
         "validation": validation,
@@ -509,19 +709,29 @@ def analyze(data_dir, returns, output, project=None):
             people_states[row["person_group"]].add(row["state"])
     summary = {
         "schema": "which_candidate.analysis.v1",
+        "primary_target_year": 2026,
+        "2026_status": "provisional_held_provider_counts_not_certified_final_results",
+        "eligible_2026": sum(r["eligible"] and r["year"] == 2026 for r in panel),
+        "2026_focal_estimates": [r for r in current_terms if r["primary_focal"]],
         "contests_retained": len(panel),
         "eligible_2016_2022": sum(r["eligible"] and r["year"] <= 2022 for r in panel),
         "eligible_locked_2024": sum(r["eligible"] and r["year"] == 2024 for r in panel),
         "feature_queries": len(features),
-        "primary_focal_estimates": [r for r in terms if r["primary_focal"]],
+        "primary_focal_estimates": [r for r in current_terms if r["primary_focal"]],
+        "historical_focal_estimates": [r for r in terms if r["primary_focal"]],
         "cross_state_repeated_people": {
             k: sorted(v) for k, v in people_states.items() if len(v) > 1
         },
         "all_group_folds_have_zero_person_overlap": all(
             r["candidate_group_overlap"] == 0 for r in folds
         ),
+        "contextual_focal_estimates": [r for r in contextual_terms if r["focal"]],
+        "contextual_estimated_models": sum(r["status"] == "estimated" for r in contextual_fits),
+        "religion_category_queries_observed": sum(
+            r["religion_category"] != "unknown" for r in features
+        ),
+        "race_category_queries_observed": sum(r["race_category"] != "unknown" for r in features),
         "unsupported_characteristics": [
-            "race_ethnicity",
             "military",
             "occupation",
             "education",
@@ -539,16 +749,39 @@ def analyze(data_dir, returns, output, project=None):
                 "candidate-queries",
                 "coverage",
                 "model-terms",
+                "2026-model-terms",
+                "2026-candidate-results",
                 "validation",
                 "alternate-2024-benchmarks",
                 "district-presidential-benchmarks",
+                "contextual-model-terms",
+                "identity-category-counts",
+                "Census-population-composition",
+                "Pew-member-religion",
+                "House-Historian-identity",
+                "district-congregation-context",
             ):
                 (destination / f"{name}.csv").write_bytes(csv_bytes(rows))
         write_json(destination / "summary.json", summary)
-        (destination / "report.md").write_text(
-            render_report(panel, terms, validation, coverage, fits), encoding="utf-8"
+        (destination / "historical-backtests.md").write_text(
+            render_report(
+                [r for r in panel if r["year"] <= 2024],
+                terms,
+                [r for r in validation if r["year"] <= 2024],
+                [r for r in coverage if r["year"] <= 2024],
+                fits,
+            ),
+            encoding="utf-8",
         )
-        render_figures(destination, terms)
+        (destination / "report.md").write_text(
+            render_2026_report(panel, current_terms, current_fits, validation, manifests),
+            encoding="utf-8",
+        )
+        (destination / "religion-race-report.md").write_text(
+            category_report(contextual_fits, contextual_terms, category_counts, panel),
+            encoding="utf-8",
+        )
+        render_figures(destination, current_terms, target_year=2026)
         write_json(
             destination / "manifest.json",
             {

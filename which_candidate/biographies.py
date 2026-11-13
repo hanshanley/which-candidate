@@ -46,6 +46,53 @@ FOREIGN_COUNTRIES = (
     "Iran",
 )
 
+RACE_LABELS = {
+    "white": "white",
+    "black": "black",
+    "african american": "black",
+    "asian american": "asian",
+    "native american": "native_american",
+    "american indian": "native_american",
+    "native hawaiian": "nhpi",
+    "pacific islander": "nhpi",
+}
+
+
+def authorized_identity(body):
+    races, hispanic, evidence = set(), None, []
+    for clause in body.split(";"):
+        clause = " ".join(clause.split()).strip()
+        normalized = clause.casefold().replace("-", " ")
+        explicit = re.fullmatch(r"(?:race|racial identity):\s*(.+)", normalized)
+        ethnicity = re.fullmatch(r"(?:ethnicity|hispanic origin):\s*(.+)", normalized)
+        if explicit:
+            labels = re.split(r"\s+(?:and|&)\s+|,\s*", explicit[1])
+            if all(label in RACE_LABELS for label in labels):
+                races.update(RACE_LABELS[label] for label in labels)
+                evidence.append(clause)
+        if ethnicity and ethnicity[1] in ("hispanic", "latino", "latina", "non hispanic"):
+            hispanic = ethnicity[1] != "non hispanic"
+            evidence.append(clause)
+        claim = re.match(
+            r"^(?:(?:the|became the|elected as the|elected the|was the) )?"
+            r"(?:first|second|third|only) (?:woman |female |male )?"
+            r"(african american|black|asian american|native american|american indian|"
+            r"native hawaiian|pacific islander|white|hispanic|latino|latina)\b"
+            r"(?=.{0,100}\b(?:elected|represent|serve|member|senator|woman|man|mayor)\b)",
+            normalized,
+        )
+        if claim and not re.search(r"\b(?:caucus|wife|husband|daughter|son)\b", normalized):
+            if claim[1] in ("hispanic", "latino", "latina"):
+                hispanic = True
+            else:
+                races.add(RACE_LABELS[claim[1]])
+            evidence.append(clause)
+    return {
+        "races": sorted(races),
+        "hispanic_origin": hispanic,
+        "racial_identity_evidence": evidence,
+    }
+
 
 def birth_state(clause):
     states = {
@@ -106,6 +153,7 @@ def biography_entries(pages, spec):
                 "publication_date": spec["publication_date"],
                 "election_year": spec["election_year"],
                 "qualification": "member_office_furnished_or_authorized; explicit_fields_only",
+                **authorized_identity(body),
             }
         )
     return result

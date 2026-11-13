@@ -13,6 +13,7 @@ SHEETS = {
     2020: "1XbUXnI9OyfAuhP5P3vWtMuGc5UJlrhXbzZo3AwMuHtk",
     2022: "1CKngqOp8fzU22JOlypoxNsxL6KSAH920Whc-rd7ebuM",
     2024: "1ng1i_Dm_RMDnEvauH44pgE6JCUsapcuu8F2pCfeLWFo",
+    2026: "1eZfaFI-c-PFOoKx1-zZA2MP0_dxRq_LVK0re3BOQqy0",
 }
 
 
@@ -77,6 +78,7 @@ def source_specs():
         (2020, "2020-07-22"),
         (2022, "2022-10-26"),
         (2024, "2024-04-25"),
+        (2026, "2026-02-20"),
     ):
         specs.append(
             {
@@ -95,7 +97,7 @@ def source_specs():
     for election, vintage, congress in (
         (2016, 2016, 115),
         (2018, 2018, 116),
-        (2020, 2021, 117),
+        (2020, 2021, 116),
         (2022, 2022, 118),
         (2024, 2024, 119),
     ):
@@ -141,6 +143,11 @@ def source_specs():
             "2023-01-03",
             "https://www.pewresearch.org/religion/wp-content/uploads/sites/7/2022/12/PF_2023.01.03_congress_LIST.pdf",
         ),
+        (
+            2026,
+            "2025-01-02",
+            "https://www.pewresearch.org/wp-content/uploads/sites/20/2024/12/pr_2025-01-02_faith-on-the-hill_member-list.pdf",
+        ),
     ):
         specs.append(
             {
@@ -169,7 +176,84 @@ def source_specs():
             ),
         }
     )
+    specs.append(
+        {
+            "id": "census_2026_district_change_evidence",
+            "kind": "map_change_evidence",
+            "origin_url": "https://cdn.www.census.gov/about/history/stories/monthly/2026/november-2026.html",
+            "suffix": ".html",
+            "attribution": "US Census Bureau, November 2026 Geography",
+            "changed_states": ["AL", "CA", "FL", "LA", "MO", "NC", "OH", "TN", "TX", "UT"],
+            "qualification": "119th_to_120th_map_changes; conservatively_hold_all_listed_states",
+        }
+    )
+    specs.append(
+        {
+            "id": "fec_candidate_master_2026",
+            "kind": "fec_candidate_master",
+            "election_year": 2026,
+            "origin_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+            "suffix": ".zip",
+            "attribution": "Federal Election Commission, 2026 candidate master file",
+            "qualification": "registration and I/C/O fields; not a ballot roster",
+        }
+    )
+    for group, section, page in (
+        ("black", "BAIC", "Black-American-Representatives-and-Senators-by-Congress"),
+        ("asian_or_pacific_islander", "APA", "By-Congress"),
+        (
+            "hispanic",
+            "HAIC",
+            "Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress",
+        ),
+    ):
+        specs.append(
+            {
+                "id": f"house_historian_{group}",
+                "kind": "house_historian_identity",
+                "identity_group": group,
+                "origin_url": (
+                    "https://history.house.gov/Exhibitions-and-Publications/"
+                    f"{section}/Historical-Data/{page}/"
+                ),
+                "suffix": ".html",
+                "attribution": "Office of the Historian, U.S. House of Representatives",
+                "qualification": (
+                    "Positive published group identification, not an exhaustive race taxonomy; "
+                    "absence does not establish White or non-Hispanic identity"
+                ),
+            }
+        )
     return specs
+
+
+def import_2026(source, data_dir):
+    source, data_dir = Path(source).resolve(), Path(data_dir).resolve()
+    manifest_path = data_dir / "supplemental-returns-sources.json"
+    manifest = load_sources(manifest_path)
+    if any(s["id"] == "senate_2026_native_control_audit" for s in manifest["sources"]):
+        return {"status": "verified_existing_import"}
+    held = source / "data/ak-senate-native-controls/20261112-01/complete-result.json"
+    receipt = {
+        "id": "senate_2026_native_control_audit",
+        "kind": "senate_2026_audit",
+        "origin_url": (
+            "https://github.com/hanshanley/margin_of_error/releases/download/"
+            "participation-ak-senate-native-controls-20261112-01/complete-result.json"
+        ),
+        "attribution": "civicAPI native state totals, retained in voter-participation's scope audit",
+        "qualification": "derived factual query; not original provider JSON or certified final results",
+        **fingerprint(held),
+    }
+    relative = f"raw/{receipt['sha256']}.json"
+    destination = confined(data_dir, relative)
+    if destination.exists() and fingerprint(destination) != fingerprint(held):
+        raise ValueError("Content-addressed cache collision")
+    shutil.copyfile(held, destination)
+    receipt["path"] = relative
+    manifest["sources"].append(receipt)
+    write_json(manifest_path, manifest)
+    return {"status": "imported", "source": receipt["id"], "sha256": receipt["sha256"]}
 
 
 def acquire_research(data_dir, specs=None):
