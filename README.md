@@ -56,8 +56,8 @@ python3.12 -m venv .venv
 Imports copy verified originals into an ignored, content-addressed local cache.
 Builds use that cache without network or access to the parent repository.
 Complete factual queries and derived tables are retained under `data/processed/`.
-The GitHub repository is private. Raw caches and private replay archives are
-excluded from Git; no website or public data release is created automatically.
+The GitHub repository is public. Raw caches and private replay archives are
+excluded from Git; source acquisition does not publish an update automatically.
 
 The complete 2026 local download is `artifacts/which-candidate-2026-v1.zip`, including
 original inputs, every query and exclusion, derived tables, code and tests.
@@ -72,3 +72,50 @@ analysis queries** are copied into `results/2026/` for repository readers,
 including held fits, evidence, fold membership and predictions. The private
 local replay archive additionally contains the original source bytes. Restricted
 whole workbooks are not uploaded to GitHub.
+
+## Publication figures
+
+Nine figures adapt the restrained serif typography, terracotta/blue palette and
+source notes from `hanshanley/uk_decline`: House and Senate characteristics,
+House voting records, identity comparisons and coverage, predictive lift, and
+partisan geography, plus annual House and Senate comparisons from 2016 through
+2026. **2026 remains the primary result**: its saved fits and exact samples are
+reused unchanged. Earlier years receive exploratory annual fits of the same
+specification, not a pooled historical result relabeled as 2026. Every figure
+explicitly identifies the November 7-8 provisional 2026 snapshot.
+
+```bash
+.venv/bin/python -m which_candidate.publication \
+  --analysis results/2026 --output publication/2026-v2
+# Optional: stage byte-verified assets into an existing local website checkout.
+.venv/bin/python -m which_candidate.publication \
+  --output publication/2026-v2 --stage-site ../margin_of_error
+```
+
+The committed release is [publication/2026-v2](publication/2026-v2/):
+
+- `substack/`: warm-paper (`#F7F5F0`) PNG and vector SVG originals.
+- `marginoferror/`: website-paper (`#F2EFE7`) PNG and SVG versions. PNG conversion
+  changes only exact opaque background pixels; all other decoded pixels and
+  dimensions are preserved.
+- `plot-data/`, `captions.json`, `manifest.json`: complete plotted values,
+  captions, alt text, image dimensions, input provenance and file checksums.
+- `comparison/`: every annual fit, covariance, exact sample ID, term and
+  within-year Holm-adjusted result, including held fits. Historical comparisons
+  are exploratory: midterms use a lagged presidential benchmark, while
+  presidential years use the same-year benchmark. Cohorts and maps differ;
+  coefficient differences are not formal tests of change.
+- [substack-figures.zip](publication/2026-v2/substack-figures.zip): upload-ready
+  originals, captions, plotted data, and the complete query download.
+- [complete-query-set.zip](publication/2026-v2/complete-query-set.zip): **all**
+  files under `results/2026/`, including base returns, inclusion/exclusion
+  decisions, features, evidence, fitted terms/covariances, predictions and fold
+  membership; plus plotting data, code, tests, documentation and dependency lock.
+  This is a complete derived-query release, not the restricted-source replay
+  archive. Extract it and run the command above to regenerate the figures offline
+  after installing the recorded dependencies.
+
+Existing verified outputs are reused unchanged. Any changed data, code,
+documentation, dependency or style recipe requires a new output directory.
+The website's `/which-candidate/` gallery can embed these static figures and
+downloads without JavaScript. No Substack essay is generated or published.

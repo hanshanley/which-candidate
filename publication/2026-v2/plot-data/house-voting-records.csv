@@ -1,0 +1,462 @@
+kind,model,candidate_election_id,name,state,x,adjusted_gap_share_pp,raw_gap_share_pp,ci_low,ci_high
+candidate,ideology,2026:house:AL:07:general:source_general:audit:0,Terri Sewell,AL,-0.522,10.06113911090017,10.428287016966095,,
+candidate,ideology,2026:house:AZ:04:general:source_general:audit:0,Greg Stanton,AZ,-0.294,9.010766269051741,10.502523717001843,,
+candidate,ideology,2026:house:CA:02:general:source_general:audit:0,Jared Huffman,CA,-0.435,2.585237137512362,2.247101259088275,,
+candidate,ideology,2026:house:CA:03:general:source_general:audit:0,Ami Bera,CA,-0.364,1.5972257983289853,2.7010348728662237,,
+candidate,ideology,2026:house:CA:08:general:source_general:audit:0,John Garamendi,CA,-0.354,6.269681563542543,5.075128112757085,,
+candidate,ideology,2026:house:CA:09:general:source_general:audit:0,Josh Harder,CA,-0.287,10.050197974985434,11.025557845508196,,
+candidate,ideology,2026:house:CA:10:general:source_general:audit:0,Mark DeSaulnier,CA,-0.419,3.4733953213318136,2.3177272040263404,,
+candidate,ideology,2026:house:CA:15:general:source_general:audit:0,Kevin Mullin,CA,-0.473,5.995484434760339,3.649332311353433,,
+candidate,ideology,2026:house:CA:17:general:source_general:audit:0,Ro Khanna,CA,-0.324,2.504219157270927,0.8483175637075107,,
+candidate,ideology,2026:house:CA:18:general:source_general:audit:0,Zoe Lofgren,CA,-0.313,8.123310419708243,7.431088200718619,,
+candidate,ideology,2026:house:CA:19:general:source_general:audit:0,Jimmy Panetta,CA,-0.278,5.745893984944658,4.509303730754013,,
+candidate,ideology,2026:house:CA:21:general:source_general:audit:0,Jim Costa,CA,-0.301,8.033429835423384,9.591348329330074,,
+candidate,ideology,2026:house:CA:24:general:source_general:audit:0,Salud Carbajal,CA,-0.42900000000000005,3.4980752080055666,3.1321297277509643,,
+candidate,ideology,2026:house:CA:25:general:source_general:audit:0,Raul Ruiz,CA,-0.379,10.437954505328493,12.015961505201851,,
+candidate,ideology,2026:house:CA:28:general:source_general:audit:0,Judy Chu,CA,-0.407,7.23974943346872,6.8362169500156895,,
+candidate,ideology,2026:house:CA:32:general:source_general:audit:0,Brad Sherman,CA,-0.396,4.857426102398341,4.49068041999967,,
+candidate,ideology,2026:house:CA:33:general:source_general:audit:0,Pete Aguilar,CA,-0.511,11.761954365084497,12.911684965271071,,
+candidate,ideology,2026:house:CA:35:general:source_general:audit:0,Norma Torres,CA,-0.4079999999999999,10.729726564656985,12.088349190005374,,
+candidate,ideology,2026:house:CA:36:general:source_general:audit:0,Ted Lieu,CA,-0.371,3.8159909639590324,2.1851699507588904,,
+candidate,ideology,2026:house:CA:39:general:source_general:audit:0,Mark Takano,CA,-0.431,10.536777550775637,11.716683069499396,,
+candidate,ideology,2026:house:CA:41:general:source_general:audit:0,Linda Sánchez,CA,-0.525,9.162788823466292,9.85231283959196,,
+candidate,ideology,2026:house:CA:42:general:source_general:audit:0,Robert Garcia,CA,-0.379,3.589930552155229,4.387021402619865,,
+candidate,ideology,2026:house:CA:43:general:source_general:audit:0,Maxine Waters,CA,-0.488,9.629251144092983,7.211720964755912,,
+candidate,ideology,2026:house:CA:44:general:source_general:audit:0,Nanette Barragán,CA,-0.43599999999999994,14.443686155172383,13.151632228195425,,
+candidate,ideology,2026:house:CA:49:general:source_general:audit:0,Mike Levin,CA,-0.307,0.6683374380578249,1.5752846020311964,,
+candidate,ideology,2026:house:CA:50:general:source_general:audit:0,Scott Peters,CA,-0.283,2.130094703887531,2.41070393014828,,
+candidate,ideology,2026:house:CA:51:general:source_general:audit:0,Sara Jacobs,CA,-0.422,4.308048371794143,4.592817334405282,,
+candidate,ideology,2026:house:CA:52:general:source_general:audit:0,Juan Vargas,CA,-0.326,10.346985889652606,10.70426742892873,,
+candidate,ideology,2026:house:CO:02:general:source_general:audit:0,Joe Neguse,CO,-0.45599999999999996,7.08523915595981,5.4147086653680105,,
+candidate,ideology,2026:house:CO:06:general:source_general:audit:0,Jason Crow,CO,-0.44500000000000006,7.4758548115486665,7.611034374886124,,
+candidate,ideology,2026:house:CO:07:general:source_general:audit:0,Brittany Pettersen,CO,-0.352,4.368017545697375,4.981314011802887,,
+candidate,ideology,2026:house:CT:02:general:source_general:audit:0,Joe Courtney,CT,-0.322,7.135506414784084,8.513133569465332,,
+candidate,ideology,2026:house:CT:03:general:source_general:audit:0,Rosa DeLauro,CT,-0.44399999999999995,5.387694831581333,6.108243798166164,,
+candidate,ideology,2026:house:CT:04:general:source_general:audit:0,Jim Himes,CT,-0.264,5.175867467496341,4.995024063396322,,
+candidate,ideology,2026:house:CT:05:general:source_general:audit:0,Jahana Hayes,CT,-0.309,3.407322927590327,5.013033594451187,,
+candidate,ideology,2026:house:FL:09:general:source_general:audit:0,Darren Soto,FL,-0.294,4.9376359091701865,9.224026748041382,,
+candidate,ideology,2026:house:FL:14:general:source_general:audit:0,Kathy Castor,FL,-0.43199999999999994,4.641008008080674,8.055925022027786,,
+candidate,ideology,2026:house:FL:20:general:source_general:audit:0,Debbie Wasserman Schultz,FL,-0.382,10.022704617321907,8.632521551817703,,
+candidate,ideology,2026:house:FL:23:general:source_general:audit:0,Lois Frankel,FL,-0.398,7.9498577864695905,8.718033170683988,,
+candidate,ideology,2026:house:FL:25:general:source_general:audit:0,Jared Moskowitz,FL,-0.233,3.7169298877706822,6.9682593699255335,,
+candidate,ideology,2026:house:GA:02:general:source_general:audit:0,Sanford Bishop,GA,-0.43999999999999995,5.5687723497423764,6.968275384835351,,
+candidate,ideology,2026:house:GA:04:general:source_general:audit:0,Hank Johnson,GA,-0.767,8.715896152349814,6.119977042988893,,
+candidate,ideology,2026:house:GA:05:general:source_general:audit:0,Nikema Williams,GA,-0.43199999999999994,7.8873455719422445,4.029164753469459,,
+candidate,ideology,2026:house:GA:06:general:source_general:audit:0,Lucy McBath,GA,-0.4789999999999999,8.116631109353271,5.718057337228956,,
+candidate,ideology,2026:house:HI:01:general:source_general:audit:0,Ed Case,HI,-0.265,13.529937232347557,13.216834837974147,,
+candidate,ideology,2026:house:HI:02:general:source_general:audit:0,Jill Tokuda,HI,-0.46399999999999997,5.516318468838991,5.491218672426591,,
+candidate,ideology,2026:house:IL:01:general:source_general:audit:0,Jonathan Jackson,IL,-0.388,6.411119236036314,5.449016496937986,,
+candidate,ideology,2026:house:IL:03:general:source_general:audit:0,Delia Ramirez,IL,-0.496,11.586162174706185,10.677545124163473,,
+candidate,ideology,2026:house:IL:05:general:source_general:audit:0,Mike Quigley,IL,-0.43999999999999995,8.653492389720359,7.2572193938906935,,
+candidate,ideology,2026:house:IL:06:general:source_general:audit:0,Sean Casten,IL,-0.609,8.429935030370537,10.046823192712942,,
+candidate,ideology,2026:house:IL:10:general:source_general:audit:0,Brad Schneider,IL,-0.307,8.872803614986857,8.821509314534765,,
+candidate,ideology,2026:house:IL:11:general:source_general:audit:0,Bill Foster,IL,-0.345,7.4810064351272265,8.475062740005555,,
+candidate,ideology,2026:house:IL:13:general:source_general:audit:0,Nikki Budzinski,IL,-0.325,6.214037137927996,7.304807380140801,,
+candidate,ideology,2026:house:IL:14:general:source_general:audit:0,Lauren Underwood,IL,-0.645,8.290278087154219,9.939398107417531,,
+candidate,ideology,2026:house:IL:17:general:source_general:audit:0,Eric Sorensen,IL,-0.246,6.056747786427901,7.752758669329161,,
+candidate,ideology,2026:house:IN:01:general:source_general:audit:0,Frank Mrvan,IN,-0.323,10.514852355886015,12.686552436863359,,
+candidate,ideology,2026:house:IN:07:general:source_general:audit:0,André Carson,IN,-0.494,9.736897348875578,7.9676923489915765,,
+candidate,ideology,2026:house:KS:03:general:source_general:audit:0,Sharice Davids,KS,-0.293,6.963966915803303,8.72891225455274,,
+candidate,ideology,2026:house:KY:03:general:source_general:audit:0,Morgan McGarvey,KY,-0.54,10.464180527078158,10.704588922582658,,
+candidate,ideology,2026:house:MA:03:general:source_general:audit:0,Lori Loureiro Trahan,MA,-0.415,8.960144317639168,9.187938390093692,,
+candidate,ideology,2026:house:MA:04:general:source_general:audit:0,Jake Auchincloss,MA,-0.31,6.155930373218404,6.313534372759506,,
+candidate,ideology,2026:house:MA:08:general:source_general:audit:0,Stephen F. Lynch,MA,-0.306,9.108028764629346,8.629826795848665,,
+candidate,ideology,2026:house:MD:04:general:source_general:audit:0,Glenn Ivey,MD,-0.497,9.679883090474977,5.630558212088758,,
+candidate,ideology,2026:house:MD:07:general:source_general:audit:0,Kweisi Mfume,MD,-0.41700000000000004,7.1007512824838095,3.985811883576133,,
+candidate,ideology,2026:house:MD:08:general:source_general:audit:0,Jamie Raskin,MD,-0.446,8.216679980522347,5.2670248973022495,,
+candidate,ideology,2026:house:MI:03:general:source_general:audit:0,Hillary Scholten,MI,-0.258,2.6274173437294968,3.9944958510399857,,
+candidate,ideology,2026:house:MI:06:general:source_general:audit:0,Debbie Dingell,MI,-0.358,7.186578644874162,6.988432588651079,,
+candidate,ideology,2026:house:MI:12:general:source_general:audit:0,Rashida Tlaib,MI,-0.374,9.828747530172633,8.241869025479147,,
+candidate,ideology,2026:house:MN:04:general:source_general:audit:0,Betty McCollum,MN,-0.493,6.243023813612616,4.938084776946184,,
+candidate,ideology,2026:house:MN:05:general:source_general:audit:0,Ilhan Omar,MN,-0.296,4.036064372972799,0.7211170205966937,,
+candidate,ideology,2026:house:MO:05:general:source_general:audit:0,Emanuel Cleaver,MO,-0.447,9.59039917834293,9.430672011980121,,
+candidate,ideology,2026:house:MS:02:general:source_general:audit:0,Bennie Thompson,MS,-0.607,8.882269269230326,8.996597690282258,,
+candidate,ideology,2026:house:NC:01:general:source_general:audit:0,Don Davis,NC,-0.259,3.9855096635031613,7.520144362731756,,
+candidate,ideology,2026:house:NC:02:general:source_general:audit:0,Deborah Ross,NC,-0.398,10.0891937403747,8.956819065006798,,
+candidate,ideology,2026:house:NC:04:general:source_general:audit:0,Valerie Foushee,NC,-0.529,9.728162102272252,7.6519380120249565,,
+candidate,ideology,2026:house:NC:12:general:source_general:audit:0,Alma Adams,NC,-0.447,9.822445501187003,7.670591849160104,,
+candidate,ideology,2026:house:NJ:01:general:source_general:audit:0,Donald Norcross,NJ,-0.383,10.60623467257812,10.86986054851321,,
+candidate,ideology,2026:house:NJ:05:general:source_general:audit:0,Josh Gottheimer,NJ,-0.20599999999999996,11.462147269901628,13.509716698928585,,
+candidate,ideology,2026:house:NJ:06:general:source_general:audit:0,Frank Pallone,NJ,-0.322,14.550525483437038,16.061049051595127,,
+candidate,ideology,2026:house:NJ:10:general:source_general:audit:0,LaMonica McIver,NJ,-0.397,11.246095375394423,8.749953958110652,,
+candidate,ideology,2026:house:NM:01:general:source_general:audit:0,Melanie Stansbury,NM,-0.455,6.279022187527483,7.132537399576982,,
+candidate,ideology,2026:house:NM:02:general:source_general:audit:0,Gabe Vasquez,NM,-0.303,7.260126514408338,9.678241621683867,,
+candidate,ideology,2026:house:NM:03:general:source_general:audit:0,Teresa Leger Fernandez,NM,-0.347,7.348585793614547,8.992590979124579,,
+candidate,ideology,2026:house:NV:01:general:source_general:audit:0,Dina Titus,NV,-0.284,7.9771989198487505,9.942583574385871,,
+candidate,ideology,2026:house:NV:03:general:source_general:audit:0,Susie Lee,NV,-0.2,9.073466861964866,11.369694416045917,,
+candidate,ideology,2026:house:NV:04:general:source_general:audit:0,Steven Horsford,NV,-0.269,8.706168034128114,10.664822533259816,,
+candidate,ideology,2026:house:NY:05:general:source_general:audit:0,Gregory Meeks,NY,-0.518,11.115705526747002,9.294953420067813,,
+candidate,ideology,2026:house:NY:06:general:source_general:audit:0,Grace Meng,NY,-0.324,14.385158552633309,15.901732913311697,,
+candidate,ideology,2026:house:NY:08:general:source_general:audit:0,Hakeem Jeffries,NY,-0.49099999999999994,9.658335058534671,7.6879793272621555,,
+candidate,ideology,2026:house:NY:09:general:source_general:audit:0,Yvette Clarke,NY,-0.514,13.805897666304935,12.091543703828279,,
+candidate,ideology,2026:house:NY:14:general:source_general:audit:0,Alexandria Ocasio-Cortez,NY,-0.446,13.173969462359548,12.218250362132508,,
+candidate,ideology,2026:house:NY:15:general:source_general:audit:0,Ritchie Torres,NY,-0.312,15.70906512445992,13.42506565956846,,
+candidate,ideology,2026:house:NY:18:general:source_general:audit:0,Pat Ryan,NY,-0.239,9.385515982592997,11.238164365626986,,
+candidate,ideology,2026:house:NY:20:general:source_general:audit:0,Paul Tonko,NY,-0.352,5.745099251343513,6.467119256849259,,
+candidate,ideology,2026:house:NY:25:general:source_general:audit:0,Joseph Morelle,NY,-0.323,3.4149588326528026,3.713971666255013,,
+candidate,ideology,2026:house:NY:26:general:source_general:audit:0,Tim Kennedy,NY,-0.372,5.938846080872334,6.150346544643568,,
+candidate,ideology,2026:house:OH:01:general:source_general:audit:0,Greg Landsman,OH,-0.217,4.683844927023226,7.187964528348132,,
+candidate,ideology,2026:house:OH:03:general:source_general:audit:0,Joyce Beatty,OH,-0.44399999999999995,8.544358295423992,6.895534497154202,,
+candidate,ideology,2026:house:OH:09:general:source_general:audit:0,Marcy Kaptur,OH,-0.292,4.644996715117621,8.066784562559839,,
+candidate,ideology,2026:house:OH:11:general:source_general:audit:0,Shontel M. Brown,OH,-0.44100000000000006,8.566934549751334,5.798011184409603,,
+candidate,ideology,2026:house:OH:13:general:source_general:audit:0,Emilia Sykes,OH,-0.333,7.44027334252613,9.296297681914112,,
+candidate,ideology,2026:house:OR:01:general:source_general:audit:0,Suzanne Bonamici,OR,-0.43999999999999995,3.1001287472963908,1.577143911345459,,
+candidate,ideology,2026:house:OR:04:general:source_general:audit:0,Val Hoyle,OR,-0.22599999999999998,-1.5042975630636808,-0.5956613102669692,,
+candidate,ideology,2026:house:OR:06:general:source_general:audit:0,Andrea Salinas,OR,-0.205,1.4624048529332614,2.4421818363728605,,
+candidate,ideology,2026:house:PA:02:general:source_general:audit:0,Brendan Boyle,PA,-0.345,13.947723009594737,12.668642072023928,,
+candidate,ideology,2026:house:PA:04:general:source_general:audit:0,Madeleine Dean,PA,-0.43300000000000005,8.558623260594658,9.118275814786365,,
+candidate,ideology,2026:house:PA:05:general:source_general:audit:0,Mary Gay Scanlon,PA,-0.44900000000000007,8.258473443947626,7.604947585441181,,
+candidate,ideology,2026:house:PA:06:general:source_general:audit:0,Chrissy Houlahan,PA,-0.23399999999999999,7.5448897933303485,8.547825007156142,,
+candidate,ideology,2026:house:PA:12:general:source_general:audit:0,Summer Lee,PA,-0.411,5.523372930670494,5.753171822803139,,
+candidate,ideology,2026:house:PA:17:general:source_general:audit:0,Chris Deluzio,PA,-0.239,8.423407366278324,10.041369326540625,,
+candidate,ideology,2026:house:RI:02:general:source_general:audit:0,Seth Magaziner,RI,-0.342,7.123181365357566,8.59792345628766,,
+candidate,ideology,2026:house:SC:06:general:source_general:audit:0,Jim Clyburn,SC,-0.584,8.03375735112478,7.916214308673368,,
+candidate,ideology,2026:house:TX:07:general:source_general:audit:0,Lizzie Fletcher,TX,-0.525,10.171905271666995,9.957532910279703,,
+candidate,ideology,2026:house:TX:16:general:source_general:audit:0,Veronica Escobar,TX,-0.525,11.985165444319168,12.479066605883297,,
+candidate,ideology,2026:house:TX:20:general:source_general:audit:0,Joaquin Castro,TX,-0.39,13.817256952644387,13.167930382729438,,
+candidate,ideology,2026:house:TX:28:general:source_general:audit:0,Henry Cuellar,TX,-0.193,20.770355267130874,24.16693350627392,,
+candidate,ideology,2026:house:TX:29:general:source_general:audit:0,Sylvia Garcia,TX,-0.486,15.340553517673287,14.51791901264464,,
+candidate,ideology,2026:house:TX:34:general:source_general:audit:0,Vicente Gonzalez,TX,-0.349,10.047835731254654,13.4164007748358,,
+candidate,ideology,2026:house:TX:37:general:source_general:audit:0,Greg Casar,TX,-0.405,7.824567453666889,4.899803804603025,,
+candidate,ideology,2026:house:VA:03:general:source_general:audit:0,Bobby Scott,VA,-0.404,8.720642759882047,7.525342732236652,,
+candidate,ideology,2026:house:VA:04:general:source_general:audit:0,Jennifer McClellan,VA,-0.555,7.825705329186632,6.800696211625322,,
+candidate,ideology,2026:house:VA:08:general:source_general:audit:0,Don Beyer,VA,-0.40900000000000003,8.596883447638827,6.156380096380872,,
+candidate,ideology,2026:house:VT:AL:general:source_general:audit:0,Becca Balint,VT,-0.45199999999999996,2.47856941202518,1.4887511012417889,,
+candidate,ideology,2026:house:WA:01:general:source_general:audit:0,Suzan DelBene,WA,-0.36,2.864610628661293,2.141099339820414,,
+candidate,ideology,2026:house:WA:02:general:source_general:audit:0,Rick Larsen,WA,-0.325,5.037026480213532,4.790392025627099,,
+candidate,ideology,2026:house:WA:03:general:source_general:audit:0,Marie Gluesenkamp Perez,WA,-0.084,3.222636482599495,5.812551667310615,,
+candidate,ideology,2026:house:WA:07:general:source_general:audit:0,Pramila Jayapal,WA,-0.466,3.157324961869299,-0.9974338399649412,,
+candidate,ideology,2026:house:WA:08:general:source_general:audit:0,Kim Schrier,WA,-0.26,1.7681381033986736,3.34327366038584,,
+candidate,ideology,2026:house:WA:09:general:source_general:audit:0,Adam Smith,WA,-0.49,6.195000136879802,4.382325200534723,,
+candidate,ideology,2026:house:WA:10:general:source_general:audit:0,Marilyn Strickland,WA,-0.469,4.239495677094628,4.543318416011715,,
+candidate,ideology,2026:house:WI:04:general:source_general:audit:0,Gwen Moore,WI,-0.423,8.388339364399526,5.833610773834849,,
+fitted_mean,ideology,,,,-0.767,10.274125906199695,,7.966212676826933,12.582039135572456
+fitted_mean,ideology,,,,-0.7601010101010102,10.227073503028894,,7.965668210284815,12.488478795772973
+fitted_mean,ideology,,,,-0.7532020202020202,10.180021099858092,,7.964965779105675,12.395076420610508
+fitted_mean,ideology,,,,-0.7463030303030304,10.132968696687291,,7.964095255902473,12.301842137472109
+fitted_mean,ideology,,,,-0.7394040404040405,10.08591629351649,,7.963045670398937,12.208786916634043
+fitted_mean,ideology,,,,-0.7325050505050505,10.038863890345688,,7.961805124914445,12.11592265577693
+fitted_mean,ideology,,,,-0.7256060606060606,9.991811487174887,,7.96036070022002,12.023262274129754
+fitted_mean,ideology,,,,-0.7187070707070707,9.944759084004087,,7.958698350594891,11.930819817413283
+fitted_mean,ideology,,,,-0.7118080808080809,9.897706680833284,,7.956802786776257,11.83861057489031
+fitted_mean,ideology,,,,-0.7049090909090909,9.850654277662482,,7.954657345347686,11.746651209977278
+fitted_mean,ideology,,,,-0.6980101010101011,9.803601874491683,,7.952243842955363,11.654959906028003
+fitted_mean,ideology,,,,-0.6911111111111112,9.75654947132088,,7.9495424135796835,11.563556529062078
+fitted_mean,ideology,,,,-0.6842121212121213,9.709497068150078,,7.946531326927497,11.47246280937266
+fitted_mean,ideology,,,,-0.6773131313131313,9.66244466497928,,7.943186785855843,11.381702544102716
+fitted_mean,ideology,,,,-0.6704141414141415,9.615392261808477,,7.939482700603856,11.291301823013098
+fitted_mean,ideology,,,,-0.6635151515151515,9.568339858637675,,7.9353904375129245,11.201289279762424
+fitted_mean,ideology,,,,-0.6566161616161617,9.521287455466874,,7.930878539882023,11.111696371051725
+fitted_mean,ideology,,,,-0.6497171717171718,9.474235052296073,,7.925912418670432,11.022557685921715
+fitted_mean,ideology,,,,-0.6428181818181818,9.427182649125271,,7.920454010972858,10.933911287277684
+fitted_mean,ideology,,,,-0.635919191919192,9.38013024595447,,7.914461404617741,10.8457990872912
+fitted_mean,ideology,,,,-0.629020202020202,9.33307784278367,,7.907888427966253,10.758267257601085
+fitted_mean,ideology,,,,-0.6221212121212121,9.286025439612867,,7.900684205131124,10.67136667409461
+fitted_mean,ideology,,,,-0.6152222222222222,9.238973036442065,,7.892792678537254,10.585153394346877
+fitted_mean,ideology,,,,-0.6083232323232324,9.191920633271266,,7.8841521031912745,10.499689163351258
+fitted_mean,ideology,,,,-0.6014242424242424,9.144868230100464,,7.874694520432383,10.415041939768544
+fitted_mean,ideology,,,,-0.5945252525252526,9.097815826929661,,7.864345223549956,10.331286430309367
+fitted_mean,ideology,,,,-0.5876262626262626,9.050763423758863,,7.853022233736013,10.248504613781712
+fitted_mean,ideology,,,,-0.5807272727272726,9.00371102058806,,7.840635812633585,10.166786228542534
+fitted_mean,ideology,,,,-0.5738282828282828,8.956658617417258,,7.82708804740188,10.086229187432636
+fitted_mean,ideology,,,,-0.566929292929293,8.909606214246457,,7.81227255571915,10.006939872773765
+fitted_mean,ideology,,,,-0.560030303030303,8.862553811075657,,7.796074371126382,9.929033251024931
+fitted_mean,ideology,,,,-0.5531313131313133,8.815501407904854,,7.778370082692062,9.852632733117646
+fitted_mean,ideology,,,,-0.5462323232323233,8.768449004734054,,7.7590283155036905,9.777869693964416
+fitted_mean,ideology,,,,-0.5393333333333333,8.721396601563251,,7.737910647336914,9.704882555789588
+fitted_mean,ideology,,,,-0.5324343434343435,8.67434419839245,,7.714873058294836,9.633815338490065
+fitted_mean,ideology,,,,-0.5255353535353535,8.62729179522165,,7.689767999574056,9.564815590869243
+fitted_mean,ideology,,,,-0.5186363636363637,8.58023939205085,,7.662447139775716,9.498031644325984
+fitted_mean,ideology,,,,-0.5117373737373738,8.533186988880047,,7.632764798198037,9.433609179562056
+fitted_mean,ideology,,,,-0.5048383838383839,8.486134585709245,,7.600582002959666,9.371687168458823
+fitted_mean,ideology,,,,-0.49793939393939396,8.439082182538444,,7.5657710212895815,9.312393343787306
+fitted_mean,ideology,,,,-0.4910404040404041,8.392029779367643,,7.528220110450489,9.255839448284798
+fitted_mean,ideology,,,,-0.48414141414141415,8.34497737619684,,7.487838148257049,9.202116604136632
+fitted_mean,ideology,,,,-0.47724242424242425,8.29792497302604,,7.444558744354428,9.151291201697653
+fitted_mean,ideology,,,,-0.4703434343434344,8.25087256985524,,7.398343428648478,9.103401711062
+fitted_mean,ideology,,,,-0.46344444444444444,8.203820166684437,,7.349183574218496,9.05845675915038
+fitted_mean,ideology,,,,-0.4565454545454546,8.156767763513637,,7.297100836173526,9.016434690853746
+fitted_mean,ideology,,,,-0.4496464646464647,8.109715360342836,,7.242146055359936,8.977284665325735
+fitted_mean,ideology,,,,-0.4427474747474747,8.062662957172034,,7.18439675371196,8.940929160632107
+fitted_mean,ideology,,,,-0.4358484848484849,8.015610554001233,,7.123953500231476,8.90726760777099
+fitted_mean,ideology,,,,-0.42894949494949497,7.9685581508304315,,7.060935524878386,8.876180776782478
+fitted_mean,ideology,,,,-0.422050505050505,7.92150574765963,,6.995475989526367,8.847535505792893
+fitted_mean,ideology,,,,-0.41515151515151516,7.8744533444888285,,6.927717295232154,8.821189393745502
+fitted_mean,ideology,,,,-0.4082525252525253,7.827400941318027,,6.85780673074256,8.796995151893494
+fitted_mean,ideology,,,,-0.40135353535353535,7.780348538147226,,6.785892671048879,8.774804405245574
+fitted_mean,ideology,,,,-0.39445454545454545,7.733296134976425,,6.712121437759188,8.754470832193661
+fitted_mean,ideology,,,,-0.3875555555555556,7.686243731805623,,6.636634849853569,8.735852613757679
+fitted_mean,ideology,,,,-0.3806565656565657,7.639191328634823,,6.5595684314553955,8.71881422581425
+fitted_mean,ideology,,,,-0.37375757575757573,7.59213892546402,,6.481050203821552,8.703227647106488
+fitted_mean,ideology,,,,-0.3668585858585859,7.54508652229322,,6.40119996899625,8.688973075590189
+fitted_mean,ideology,,,,-0.35995959595959603,7.498034119122419,,6.320128987767744,8.675939250477095
+fitted_mean,ideology,,,,-0.3530606060606061,7.450981715951617,,6.237939959730806,8.664023472172428
+fitted_mean,ideology,,,,-0.34616161616161617,7.403929312780816,,6.154727224084037,8.653131401477596
+fitted_mean,ideology,,,,-0.3392626262626263,7.356876909610015,,6.070577113031062,8.643176706188967
+fitted_mean,ideology,,,,-0.33236363636363636,7.309824506439213,,5.985568403127151,8.634080609751276
+fitted_mean,ideology,,,,-0.32546464646464646,7.262772103268412,,5.899772822327671,8.625771384209152
+fitted_mean,ideology,,,,-0.3185656565656566,7.21571970009761,,5.81325558122104,8.618183818974181
+fitted_mean,ideology,,,,-0.31166666666666665,7.1686672969268095,,5.726075905772326,8.611258688081293
+fitted_mean,ideology,,,,-0.3047676767676768,7.121614893756008,,5.638287555932237,8.604942231579779
+fitted_mean,ideology,,,,-0.2978686868686869,7.0745624905852065,,5.549939319882618,8.599185661287795
+fitted_mean,ideology,,,,-0.29096969696969693,7.027510087414405,,5.46107547774932,8.59394469707949
+fitted_mean,ideology,,,,-0.2840707070707071,6.9804576842436035,,5.371736231575202,8.589179136912005
+fitted_mean,ideology,,,,-0.2771717171717172,6.933405281072803,,5.281958100446069,8.584852461699537
+fitted_mean,ideology,,,,-0.27027272727272733,6.886352877902001,,5.19177428110279,8.580931474701213
+fitted_mean,ideology,,,,-0.26337373737373737,6.8393004747312,,5.101214975319415,8.577385974142985
+fitted_mean,ideology,,,,-0.25647474747474747,6.792248071560399,,5.010307685911493,8.574188457209306
+fitted_mean,ideology,,,,-0.24957575757575762,6.745195668389598,,4.919077483563335,8.57131385321586
+fitted_mean,ideology,,,,-0.24267676767676766,6.698143265218796,,4.827547246805068,8.568739283632524
+fitted_mean,ideology,,,,-0.23577777777777778,6.651090862047995,,4.735737877487981,8.566443846608008
+fitted_mean,ideology,,,,-0.2288787878787879,6.604038458877194,,4.643668494042458,8.56440842371193
+fitted_mean,ideology,,,,-0.22197979797979794,6.556986055706393,,4.551356604687369,8.562615506725416
+fitted_mean,ideology,,,,-0.2150808080808081,6.509933652535591,,4.458818262614992,8.56104904245619
+fitted_mean,ideology,,,,-0.20818181818181822,6.46288124936479,,4.366068205016552,8.559694293713028
+fitted_mean,ideology,,,,-0.20128282828282826,6.415828846193988,,4.273119977650654,8.558537714737323
+fitted_mean,ideology,,,,-0.19438383838383838,6.368776443023187,,4.179986046497033,8.55756683954934
+fitted_mean,ideology,,,,-0.1874848484848485,6.321724039852386,,4.086677897885401,8.55677018181937
+fitted_mean,ideology,,,,-0.18058585858585854,6.2746716366815845,,3.993206128346331,8.556137145016837
+fitted_mean,ideology,,,,-0.17368686868686867,6.227619233510783,,3.8995805252993203,8.555657941722245
+fitted_mean,ideology,,,,-0.16678787878787882,6.180566830339982,,3.8058101395727184,8.555323521107246
+fitted_mean,ideology,,,,-0.15988888888888886,6.13351442716918,,3.711903350641321,8.555125503697038
+fitted_mean,ideology,,,,-0.15298989898989898,6.086462023998379,,3.617867925369268,8.55505612262749
+fitted_mean,ideology,,,,-0.1460909090909091,6.039409620827578,,3.5237110709579658,8.55510817069719
+fitted_mean,ideology,,,,-0.13919191919191923,5.992357217656777,,3.429439482720442,8.555274952593113
+fitted_mean,ideology,,,,-0.13229292929292927,5.945304814485976,,3.335059387233615,8.555550241738336
+fitted_mean,ideology,,,,-0.1253939393939394,5.898252411315174,,3.2405765813580945,8.555928241272253
+fitted_mean,ideology,,,,-0.11849494949494953,5.851200008144373,,3.1459964675600824,8.556403548728664
+fitted_mean,ideology,,,,-0.11159595959595957,5.804147604973571,,3.0513240859213524,8.55697112402579
+fitted_mean,ideology,,,,-0.10469696969696969,5.75709520180277,,2.956564143180167,8.557626260425373
+fitted_mean,ideology,,,,-0.09779797979797983,5.710042798631969,,2.8617210391079224,8.558364558156015
+fitted_mean,ideology,,,,-0.09089898989898987,5.662990395461168,,2.766798890492612,8.559181900429722
+fitted_mean,ideology,,,,-0.084,5.615937992290366,,2.671801552970439,8.560074431610293
+candidate,defection,2026:house:AL:07:general:source_general:audit:0,Terri Sewell,AL,1.4687882496939975,10.05175248865544,10.428287016966095,,
+candidate,defection,2026:house:AZ:04:general:source_general:audit:0,Greg Stanton,AZ,8.120649651972156,9.432162526347067,10.502523717001843,,
+candidate,defection,2026:house:CA:02:general:source_general:audit:0,Jared Huffman,CA,0.8303677342823224,2.3557265513778938,2.247101259088275,,
+candidate,defection,2026:house:CA:03:general:source_general:audit:0,Ami Bera,CA,2.771362586605086,1.8600510355333606,2.7010348728662237,,
+candidate,defection,2026:house:CA:08:general:source_general:audit:0,John Garamendi,CA,2.493438320209973,5.836901617937378,5.075128112757085,,
+candidate,defection,2026:house:CA:09:general:source_general:audit:0,Josh Harder,CA,9.123222748815163,10.26273738958244,11.025557845508196,,
+candidate,defection,2026:house:CA:10:general:source_general:audit:0,Mark DeSaulnier,CA,0.7042253521126751,3.048109598817853,2.3177272040263404,,
+candidate,defection,2026:house:CA:15:general:source_general:audit:0,Kevin Mullin,CA,0.7194244604316502,5.432331784209019,3.649332311353433,,
+candidate,defection,2026:house:CA:17:general:source_general:audit:0,Ro Khanna,CA,1.388888888888884,1.9968035937492945,0.8483175637075107,,
+candidate,defection,2026:house:CA:18:general:source_general:audit:0,Zoe Lofgren,CA,2.0238095238095277,7.80045557176845,7.431088200718619,,
+candidate,defection,2026:house:CA:19:general:source_general:audit:0,Jimmy Panetta,CA,7.586206896551728,5.305214152307603,4.509303730754013,,
+candidate,defection,2026:house:CA:21:general:source_general:audit:0,Jim Costa,CA,9.975961538461542,8.482835223750449,9.591348329330074,,
+candidate,defection,2026:house:CA:24:general:source_general:audit:0,Salud Carbajal,CA,1.6184971098265888,3.2607927810120203,3.1321297277509643,,
+candidate,defection,2026:house:CA:25:general:source_general:audit:0,Raul Ruiz,CA,1.9630484988452657,10.895918353469629,12.015961505201851,,
+candidate,defection,2026:house:CA:28:general:source_general:audit:0,Judy Chu,CA,0.5807200929152101,6.992079166079982,6.8362169500156895,,
+candidate,defection,2026:house:CA:32:general:source_general:audit:0,Brad Sherman,CA,2.0930232558139528,4.619921127285541,4.49068041999967,,
+candidate,defection,2026:house:CA:33:general:source_general:audit:0,Pete Aguilar,CA,1.6184971098265888,12.043030881783732,12.911684965271071,,
+candidate,defection,2026:house:CA:35:general:source_general:audit:0,Norma Torres,CA,2.422145328719727,11.09559971031055,12.088349190005374,,
+candidate,defection,2026:house:CA:36:general:source_general:audit:0,Ted Lieu,CA,1.9161676646706538,3.311922353171987,2.1851699507588904,,
+candidate,defection,2026:house:CA:39:general:source_general:audit:0,Mark Takano,CA,0.5793742757821518,10.82992435629082,11.716683069499396,,
+candidate,defection,2026:house:CA:41:general:source_general:audit:0,Linda Sánchez,CA,0.7025761124121788,9.267606423875694,9.85231283959196,,
+candidate,defection,2026:house:CA:42:general:source_general:audit:0,Robert Garcia,CA,1.081730769230771,3.7345953193722177,4.387021402619865,,
+candidate,defection,2026:house:CA:43:general:source_general:audit:0,Maxine Waters,CA,0.8284023668639007,9.06472465033524,7.211720964755912,,
+candidate,defection,2026:house:CA:44:general:source_general:audit:0,Nanette Barragán,CA,0.8196721311475419,13.992908129482625,13.151632228195425,,
+candidate,defection,2026:house:CA:49:general:source_general:audit:0,Mike Levin,CA,4.822043628013772,0.8545624335394698,1.5752846020311964,,
+candidate,defection,2026:house:CA:50:general:source_general:audit:0,Scott Peters,CA,4.060324825986084,2.0914342451334687,2.41070393014828,,
+candidate,defection,2026:house:CA:51:general:source_general:audit:0,Sara Jacobs,CA,0.7025761124121788,4.270781245162373,4.592817334405282,,
+candidate,defection,2026:house:CA:52:general:source_general:audit:0,Juan Vargas,CA,1.9607843137254943,10.3342314255674,10.70426742892873,,
+candidate,defection,2026:house:CO:02:general:source_general:audit:0,Joe Neguse,CO,0.45977011494252595,6.575911023063245,5.4147086653680105,,
+candidate,defection,2026:house:CO:06:general:source_general:audit:0,Jason Crow,CO,0.9603841536614643,7.389373443174628,7.611034374886124,,
+candidate,defection,2026:house:CO:07:general:source_general:audit:0,Brittany Pettersen,CO,4.513888888888884,4.445115322343289,4.981314011802887,,
+candidate,defection,2026:house:CT:02:general:source_general:audit:0,Joe Courtney,CT,4.498269896193774,7.509235886837022,8.513133569465332,,
+candidate,defection,2026:house:CT:03:general:source_general:audit:0,Rosa DeLauro,CT,1.3986013986013957,5.5039182177839825,6.108243798166164,,
+candidate,defection,2026:house:CT:04:general:source_general:audit:0,Jim Himes,CT,4.387990762124716,4.991668824367467,4.995024063396322,,
+candidate,defection,2026:house:CT:05:general:source_general:audit:0,Jahana Hayes,CT,3.2258064516129004,3.87713057536061,5.013033594451187,,
+candidate,defection,2026:house:FL:09:general:source_general:audit:0,Darren Soto,FL,5.536332179930792,6.746167843177943,9.224026748041382,,
+candidate,defection,2026:house:FL:14:general:source_general:audit:0,Kathy Castor,FL,1.8583042973286834,5.976595505905022,8.055925022027786,,
+candidate,defection,2026:house:FL:20:general:source_general:audit:0,Debbie Wasserman Schultz,FL,3.356481481481477,9.554983886182189,8.632521551817703,,
+candidate,defection,2026:house:FL:23:general:source_general:audit:0,Lois Frankel,FL,2.7479091995221028,8.08372791805121,8.718033170683988,,
+candidate,defection,2026:house:FL:25:general:source_general:audit:0,Jared Moskowitz,FL,9.927360774818405,4.967439990869763,6.9682593699255335,,
+candidate,defection,2026:house:GA:02:general:source_general:audit:0,Sanford Bishop,GA,3.460207612456745,5.951573929215813,6.968275384835351,,
+candidate,defection,2026:house:GA:04:general:source_general:audit:0,Hank Johnson,GA,0.8333333333333304,8.151969401873586,6.119977042988893,,
+candidate,defection,2026:house:GA:05:general:source_general:audit:0,Nikema Williams,GA,0.8111239860950192,7.5343987080838435,4.029164753469459,,
+candidate,defection,2026:house:GA:06:general:source_general:audit:0,Lucy McBath,GA,1.869158878504673,7.5523818011801795,5.718057337228956,,
+candidate,defection,2026:house:HI:01:general:source_general:audit:0,Ed Case,HI,5.2083333333333375,13.307484853491392,13.216834837974147,,
+candidate,defection,2026:house:HI:02:general:source_general:audit:0,Jill Tokuda,HI,0.3468208092485603,5.379190472022041,5.491218672426591,,
+candidate,defection,2026:house:IL:01:general:source_general:audit:0,Jonathan Jackson,IL,1.4018691588784993,6.025737083179402,5.449016496937986,,
+candidate,defection,2026:house:IL:03:general:source_general:audit:0,Delia Ramirez,IL,0.8187134502923965,11.212548757377977,10.677545124163473,,
+candidate,defection,2026:house:IL:05:general:source_general:audit:0,Mike Quigley,IL,1.556886227544907,8.184759705186533,7.2572193938906935,,
+candidate,defection,2026:house:IL:06:general:source_general:audit:0,Sean Casten,IL,1.0428736964078755,8.904534657819339,10.046823192712942,,
+candidate,defection,2026:house:IL:10:general:source_general:audit:0,Brad Schneider,IL,4.312354312354316,8.727608880061078,8.821509314534765,,
+candidate,defection,2026:house:IL:11:general:source_general:audit:0,Bill Foster,IL,1.969872537659323,7.700794315878834,8.475062740005555,,
+candidate,defection,2026:house:IL:13:general:source_general:audit:0,Nikki Budzinski,IL,7.692307692307687,6.471706232418771,7.304807380140801,,
+candidate,defection,2026:house:IL:14:general:source_general:audit:0,Lauren Underwood,IL,0.4662004662004615,8.778739019206474,9.939398107417531,,
+candidate,defection,2026:house:IL:17:general:source_general:audit:0,Eric Sorensen,IL,8.232445520581111,6.565487415342674,7.752758669329161,,
+candidate,defection,2026:house:IN:01:general:source_general:audit:0,Frank Mrvan,IN,6.744186046511624,11.23664802358162,12.686552436863359,,
+candidate,defection,2026:house:IN:07:general:source_general:audit:0,André Carson,IN,0.8196721311475419,9.215442761709982,7.9676923489915765,,
+candidate,defection,2026:house:KS:03:general:source_general:audit:0,Sharice Davids,KS,6.09195402298851,7.502759902523067,8.72891225455274,,
+candidate,defection,2026:house:KY:03:general:source_general:audit:0,Morgan McGarvey,KY,0.6904487917146152,10.412127039132853,10.704588922582658,,
+candidate,defection,2026:house:MA:03:general:source_general:audit:0,Lori Loureiro Trahan,MA,0.8111239860950192,8.903915537350091,9.187938390093692,,
+candidate,defection,2026:house:MA:04:general:source_general:audit:0,Jake Auchincloss,MA,2.2248243559718994,6.076708547945418,6.313534372759506,,
+candidate,defection,2026:house:MA:08:general:source_general:audit:0,Stephen F. Lynch,MA,3.9766081871345005,8.840124090736177,8.629826795848665,,
+candidate,defection,2026:house:MD:04:general:source_general:audit:0,Glenn Ivey,MD,0.9280742459396807,9.400255724058475,5.630558212088758,,
+candidate,defection,2026:house:MD:07:general:source_general:audit:0,Kweisi Mfume,MD,0.9389671361502372,6.5749936938187075,3.985811883576133,,
+candidate,defection,2026:house:MD:08:general:source_general:audit:0,Jamie Raskin,MD,0.4645760743321681,7.672430297918144,5.2670248973022495,,
+candidate,defection,2026:house:MI:03:general:source_general:audit:0,Hillary Scholten,MI,7.531865585168019,2.996783208751093,3.9944958510399857,,
+candidate,defection,2026:house:MI:06:general:source_general:audit:0,Debbie Dingell,MI,0.8423586040914532,6.997284457219834,6.988432588651079,,
+candidate,defection,2026:house:MI:12:general:source_general:audit:0,Rashida Tlaib,MI,1.289566236811257,9.330748022753703,8.241869025479147,,
+candidate,defection,2026:house:MN:04:general:source_general:audit:0,Betty McCollum,MN,0.8083140877598205,5.789953318628673,4.938084776946184,,
+candidate,defection,2026:house:MN:05:general:source_general:audit:0,Ilhan Omar,MN,1.5186915887850483,3.5415043788681615,0.7211170205966937,,
+candidate,defection,2026:house:MO:05:general:source_general:audit:0,Emanuel Cleaver,MO,0.8275862068965467,9.412455827948946,9.430672011980121,,
+candidate,defection,2026:house:MS:02:general:source_general:audit:0,Bennie Thompson,MS,0.7001166861143493,8.789075516367872,8.996597690282258,,
+candidate,defection,2026:house:NC:01:general:source_general:audit:0,Don Davis,NC,20.166073546856467,5.384128504721715,7.520144362731756,,
+candidate,defection,2026:house:NC:02:general:source_general:audit:0,Deborah Ross,NC,1.2820512820512775,9.668482288994186,8.956819065006798,,
+candidate,defection,2026:house:NC:04:general:source_general:audit:0,Valerie Foushee,NC,0.35211267605633756,9.17801550436048,7.6519380120249565,,
+candidate,defection,2026:house:NC:12:general:source_general:audit:0,Alma Adams,NC,0.7009345794392496,9.267449207494977,7.670591849160104,,
+candidate,defection,2026:house:NJ:01:general:source_general:audit:0,Donald Norcross,NJ,3.888213851761846,10.56190009973047,10.86986054851321,,
+candidate,defection,2026:house:NJ:05:general:source_general:audit:0,Josh Gottheimer,NJ,10.134310134310132,12.127089179488307,13.509716698928585,,
+candidate,defection,2026:house:NJ:06:general:source_general:audit:0,Frank Pallone,NJ,2.6497695852534586,14.979838477940064,16.061049051595127,,
+candidate,defection,2026:house:NM:01:general:source_general:audit:0,Melanie Stansbury,NM,0.8254716981132115,6.444925181497285,7.132537399576982,,
+candidate,defection,2026:house:NM:02:general:source_general:audit:0,Gabe Vasquez,NM,9.205983889528191,8.097303245139946,9.678241621683867,,
+candidate,defection,2026:house:NM:03:general:source_general:audit:0,Teresa Leger Fernandez,NM,1.5366430260047248,7.83484284287215,8.992590979124579,,
+candidate,defection,2026:house:NV:01:general:source_general:audit:0,Dina Titus,NV,3.672985781990523,8.604979390770946,9.942583574385871,,
+candidate,defection,2026:house:NV:03:general:source_general:audit:0,Susie Lee,NV,10.589651022864022,9.853158417641723,11.369694416045917,,
+candidate,defection,2026:house:NV:04:general:source_general:audit:0,Steven Horsford,NV,5.647058823529417,9.330922508485157,10.664822533259816,,
+candidate,defection,2026:house:NY:05:general:source_general:audit:0,Gregory Meeks,NY,1.1682242990654235,10.588462063412253,9.294953420067813,,
+candidate,defection,2026:house:NY:06:general:source_general:audit:0,Grace Meng,NY,1.6451233842538215,14.817028870072981,15.901732913311697,,
+candidate,defection,2026:house:NY:08:general:source_general:audit:0,Hakeem Jeffries,NY,1.0404624277456698,9.116484154819815,7.6879793272621555,,
+candidate,defection,2026:house:NY:09:general:source_general:audit:0,Yvette Clarke,NY,0.6928406466512715,13.291016410837393,12.091543703828279,,
+candidate,defection,2026:house:NY:14:general:source_general:audit:0,Alexandria Ocasio-Cortez,NY,1.1834319526627168,12.789975352186584,12.218250362132508,,
+candidate,defection,2026:house:NY:15:general:source_general:audit:0,Ritchie Torres,NY,3.78250591016549,15.14783049252963,13.42506565956846,,
+candidate,defection,2026:house:NY:18:general:source_general:audit:0,Pat Ryan,NY,9.017341040462423,9.962955274633817,11.238164365626986,,
+candidate,defection,2026:house:NY:20:general:source_general:audit:0,Paul Tonko,NY,1.1560693641618491,5.861865202769313,6.467119256849259,,
+candidate,defection,2026:house:NY:25:general:source_general:audit:0,Joseph Morelle,NY,4.023668639053257,3.3824733997526257,3.713971666255013,,
+candidate,defection,2026:house:NY:26:general:source_general:audit:0,Tim Kennedy,NY,4.2194092827004255,5.877243516039376,6.150346544643568,,
+candidate,defection,2026:house:OH:01:general:source_general:audit:0,Greg Landsman,OH,9.014423076923073,5.562060402570218,7.187964528348132,,
+candidate,defection,2026:house:OH:03:general:source_general:audit:0,Joyce Beatty,OH,0.5924170616113722,8.037878577444305,6.895534497154202,,
+candidate,defection,2026:house:OH:09:general:source_general:audit:0,Marcy Kaptur,OH,7.8454332552693185,5.984184269711619,8.066784562559839,,
+candidate,defection,2026:house:OH:11:general:source_general:audit:0,Shontel M. Brown,OH,0.6904487917146152,8.009409985031223,5.798011184409603,,
+candidate,defection,2026:house:OH:13:general:source_general:audit:0,Emilia Sykes,OH,3.529411764705881,8.019209343680355,9.296297681914112,,
+candidate,defection,2026:house:OR:01:general:source_general:audit:0,Suzanne Bonamici,OR,0.6112469437652757,2.611413216282955,1.577143911345459,,
+candidate,defection,2026:house:OR:04:general:source_general:audit:0,Val Hoyle,OR,2.5912838633686652,-1.3174268421884272,-0.5956613102669692,,
+candidate,defection,2026:house:OR:06:general:source_general:audit:0,Andrea Salinas,OR,4.750869061413676,1.6766545512880051,2.4421818363728605,,
+candidate,defection,2026:house:PA:02:general:source_general:audit:0,Brendan Boyle,PA,3.86869871043376,13.499273554568093,12.668642072023928,,
+candidate,defection,2026:house:PA:04:general:source_general:audit:0,Madeleine Dean,PA,0.696055684454755,8.616475648907059,9.118275814786365,,
+candidate,defection,2026:house:PA:05:general:source_general:audit:0,Mary Gay Scanlon,PA,0.4854368932038833,7.945212140552672,7.604947585441181,,
+candidate,defection,2026:house:PA:06:general:source_general:audit:0,Chrissy Houlahan,PA,6.8235294117647065,7.768128476693359,8.547825007156142,,
+candidate,defection,2026:house:PA:12:general:source_general:audit:0,Summer Lee,PA,1.0332950631458115,5.467806865962913,5.753171822803139,,
+candidate,defection,2026:house:PA:17:general:source_general:audit:0,Chris Deluzio,PA,4.257767548906788,8.898467753676734,10.041369326540625,,
+candidate,defection,2026:house:RI:02:general:source_general:audit:0,Seth Magaziner,RI,3.817733990147787,7.537418639301976,8.59792345628766,,
+candidate,defection,2026:house:SC:06:general:source_general:audit:0,Jim Clyburn,SC,0.9248554913294793,7.868430162526288,7.916214308673368,,
+candidate,defection,2026:house:TX:07:general:source_general:audit:0,Lizzie Fletcher,TX,6.462984723854293,9.977857217420787,9.957532910279703,,
+candidate,defection,2026:house:TX:16:general:source_general:audit:0,Veronica Escobar,TX,0.7202881152461038,12.019728172844927,12.479066605883297,,
+candidate,defection,2026:house:TX:20:general:source_general:audit:0,Joaquin Castro,TX,0.6402048655569814,13.505045943251638,13.167930382729438,,
+candidate,defection,2026:house:TX:28:general:source_general:audit:0,Henry Cuellar,TX,20.886814469078175,22.09634441103983,24.16693350627392,,
+candidate,defection,2026:house:TX:29:general:source_general:audit:0,Sylvia Garcia,TX,0.8254716981132115,14.986512565815026,14.51791901264464,,
+candidate,defection,2026:house:TX:34:general:source_general:audit:0,Vicente Gonzalez,TX,14.92890995260664,11.359192501759475,13.4164007748358,,
+candidate,defection,2026:house:TX:37:general:source_general:audit:0,Greg Casar,TX,0.9291521486643473,7.278070760383875,4.899803804603025,,
+candidate,defection,2026:house:VA:03:general:source_general:audit:0,Bobby Scott,VA,1.3808975834292303,8.287720676731603,7.525342732236652,,
+candidate,defection,2026:house:VA:04:general:source_general:audit:0,Jennifer McClellan,VA,0.7978723404255317,7.42688798541285,6.800696211625322,,
+candidate,defection,2026:house:VA:08:general:source_general:audit:0,Don Beyer,VA,0.7025761124121788,8.032107051149799,6.156380096380872,,
+candidate,defection,2026:house:VT:AL:general:source_general:audit:0,Becca Balint,VT,0.4645760743321681,2.0872133710228926,1.4887511012417889,,
+candidate,defection,2026:house:WA:01:general:source_general:audit:0,Suzan DelBene,WA,1.2672811059907807,2.5341113739832624,2.141099339820414,,
+candidate,defection,2026:house:WA:02:general:source_general:audit:0,Rick Larsen,WA,1.93003618817853,4.833597911522647,4.790392025627099,,
+candidate,defection,2026:house:WA:03:general:source_general:audit:0,Marie Gluesenkamp Perez,WA,26.04651162790698,4.142177636805094,5.812551667310615,,
+candidate,defection,2026:house:WA:07:general:source_general:audit:0,Pramila Jayapal,WA,0.7142857142857117,2.924325615642994,-0.9974338399649412,,
+candidate,defection,2026:house:WA:08:general:source_general:audit:0,Kim Schrier,WA,9.61761297798378,2.2248770751007165,3.34327366038584,,
+candidate,defection,2026:house:WA:09:general:source_general:audit:0,Adam Smith,WA,0.34965034965035446,5.668638618294133,4.382325200534723,,
+candidate,defection,2026:house:WA:10:general:source_general:audit:0,Marilyn Strickland,WA,2.6713124274099886,4.208628641769274,4.543318416011715,,
+candidate,defection,2026:house:WI:04:general:source_general:audit:0,Gwen Moore,WI,1.1029411764705843,7.823748523581044,5.833610773834849,,
+fitted_mean,defection,,,,0.3468208092485603,7.4611418375859175,,6.683364449651998,8.238919225519837
+fitted_mean,defection,,,,0.6064136458006655,7.479069786178726,,6.718400885980274,8.239738686377178
+fitted_mean,defection,,,,0.8660064823527708,7.496997734771533,,6.7445225126014865,8.24947295694158
+fitted_mean,defection,,,,1.1255993189048759,7.514925683364341,,6.761438445294894,8.268412921433788
+fitted_mean,defection,,,,1.3851921554569813,7.532853631957148,,6.769185281434416,8.29652198247988
+fitted_mean,defection,,,,1.6447849920090862,7.550781580549956,,6.768120763241702,8.33344239785821
+fitted_mean,defection,,,,1.9043778285611914,7.5687095291427635,,6.758864584716942,8.378554473568585
+fitted_mean,defection,,,,2.163970665113297,7.586637477735572,,6.7422075003085356,8.431067455162609
+fitted_mean,defection,,,,2.423563501665402,7.604565426328379,,6.719016210730673,8.490114641926084
+fitted_mean,defection,,,,2.683156338217507,7.622493374921187,,6.690154856239841,8.554831893602532
+fitted_mean,defection,,,,2.942749174769612,7.640421323513994,,6.656431949947866,8.624410697080123
+fitted_mean,defection,,,,3.2023420113217176,7.658349272106802,,6.618571731058658,8.698126813154946
+fitted_mean,defection,,,,3.4619348478738226,7.6762772206996095,,6.577204040175168,8.77535040122405
+fitted_mean,defection,,,,3.7215276844259284,7.694205169292417,,6.532866006458827,8.855544332126007
+fitted_mean,defection,,,,3.981120520978033,7.712133117885225,,6.486010073563465,8.938256162206985
+fitted_mean,defection,,,,4.240713357530138,7.730061066478033,,6.437014639544481,9.023107493411585
+fitted_mean,defection,,,,4.500306194082244,7.74798901507084,,6.386195095897564,9.109782934244116
+fitted_mean,defection,,,,4.759899030634348,7.765916963663647,,6.3338141153696,9.198019811957694
+fitted_mean,defection,,,,5.019491867186455,7.7838449122564555,,6.280090699763782,9.287599124749129
+fitted_mean,defection,,,,5.279084703738559,7.801772860849264,,6.2252078705016025,9.378337851196925
+fitted_mean,defection,,,,5.538677540290664,7.819700809442071,,6.169319071875483,9.470082547008658
+fitted_mean,defection,,,,5.79827037684277,7.837628758034878,,6.112553436693917,9.56270407937584
+fitted_mean,defection,,,,6.057863213394875,7.855556706627686,,6.055020085892396,9.656093327362976
+fitted_mean,defection,,,,6.31745604994698,7.873484655220494,,5.996811627061081,9.750157683379907
+fitted_mean,defection,,,,6.577048886499085,7.8914126038133015,,5.938006998124584,9.84481820950202
+fitted_mean,defection,,,,6.83664172305119,7.909340552406109,,5.878673780197011,9.940007324615205
+fitted_mean,defection,,,,7.096234559603296,7.927268500998917,,5.818870082085866,10.035666919911968
+fitted_mean,defection,,,,7.3558273961554015,7.945196449591724,,5.758646079785688,10.13174681939776
+fitted_mean,defection,,,,7.615420232707506,7.963124398184532,,5.6980452781038,10.228203518265264
+fitted_mean,defection,,,,7.8750130692596105,7.981052346777339,,5.6371055482225145,10.324999145332164
+fitted_mean,defection,,,,8.134605905811718,7.998980295370147,,5.575859984203562,10.422100606536734
+fitted_mean,defection,,,,8.394198742363821,8.016908243962956,,5.514337612787162,10.519478875138748
+fitted_mean,defection,,,,8.653791578915927,8.034836192555762,,5.4525639839452715,10.617108401166252
+fitted_mean,defection,,,,8.913384415468032,8.05276414114857,,5.390561664175133,10.714966618122007
+fitted_mean,defection,,,,9.172977252020138,8.070692089741378,,5.328350650177763,10.813033529304994
+fitted_mean,defection,,,,9.432570088572243,8.088620038334186,,5.26594871712176,10.911291359546613
+fitted_mean,defection,,,,9.692162925124348,8.106547986926993,,5.203371712956483,11.009724260897503
+fitted_mean,defection,,,,9.951755761676452,8.1244759355198,,5.14063380806091,11.108318062978691
+fitted_mean,defection,,,,10.211348598228557,8.142403884112609,,5.077747707776602,11.207060060448615
+fitted_mean,defection,,,,10.470941434780663,8.160331832705417,,5.014724833982691,11.305938831428143
+fitted_mean,defection,,,,10.730534271332768,8.178259781298223,,4.951575480754508,11.404944081841938
+fitted_mean,defection,,,,10.990127107884874,8.196187729891031,,4.8883089482486195,11.504066511533443
+fitted_mean,defection,,,,11.249719944436979,8.21411567848384,,4.8249336582306,11.603297698737078
+fitted_mean,defection,,,,11.509312780989085,8.232043627076647,,4.761457254073018,11.702630000080276
+fitted_mean,defection,,,,11.76890561754119,8.249971575669454,,4.697886687571749,11.802056463767158
+fitted_mean,defection,,,,12.028498454093295,8.267899524262262,,4.634228294537621,11.901570753986903
+fitted_mean,defection,,,,12.2880912906454,8.28582747285507,,4.5704878607996635,12.001167084910477
+fitted_mean,defection,,,,12.547684127197504,8.303755421447876,,4.506670679992877,12.100840162902877
+fitted_mean,defection,,,,12.80727696374961,8.321683370040684,,4.44278160428589,12.200585135795478
+fitted_mean,defection,,,,13.066869800301715,8.339611318633493,,4.378825089024039,12.300397548242946
+fitted_mean,defection,,,,13.326462636853819,8.3575392672263,,4.314805232114047,12.400273302338555
+fitted_mean,defection,,,,13.586055473405928,8.375467215819107,,4.25072580885199,12.500208622786225
+fitted_mean,defection,,,,13.845648309958031,8.393395164411915,,4.186590302792345,12.600200026031485
+fitted_mean,defection,,,,14.105241146510137,8.411323113004723,,4.122401933168708,12.70024429284074
+fitted_mean,defection,,,,14.364833983062242,8.429251061597531,,4.0581636793036475,12.800338443891416
+fitted_mean,defection,,,,14.624426819614346,8.447179010190338,,3.993878302383311,12.900479717997364
+fitted_mean,defection,,,,14.884019656166451,8.465106958783146,,3.9295483649202856,13.000665552646005
+fitted_mean,defection,,,,15.143612492718557,8.483034907375954,,3.8651762481839196,13.100893566567988
+fitted_mean,defection,,,,15.403205329270662,8.500962855968762,,3.800764167839782,13.201161544097742
+fitted_mean,defection,,,,15.662798165822768,8.518890804561568,,3.736314188007805,13.301467421115332
+fitted_mean,defection,,,,15.922391002374873,8.536818753154376,,3.6718282339213495,13.401809272387403
+fitted_mean,defection,,,,16.18198383892698,8.554746701747185,,3.6073081033459324,13.502185300148437
+fitted_mean,defection,,,,16.441576675479084,8.572674650339993,,3.5427554768962706,13.602593823783714
+fitted_mean,defection,,,,16.70116951203119,8.590602598932799,,3.4781719273729452,13.703033270492654
+fitted_mean,defection,,,,16.960762348583295,8.608530547525607,,3.413558928225072,13.803502166826142
+fitted_mean,defection,,,,17.2203551851354,8.626458496118415,,3.3489178612324055,13.903999131004426
+fitted_mean,defection,,,,17.479948021687505,8.644386444711223,,3.2842500234891885,14.004522865933257
+fitted_mean,defection,,,,17.739540858239607,8.66231439330403,,3.2195566337622905,14.105072152845768
+fitted_mean,defection,,,,17.999133694791713,8.680242341896838,,3.1548388382877484,14.205645845505927
+fitted_mean,defection,,,,18.25872653134382,8.698170290489646,,3.0900977160624645,14.306242864916827
+fitted_mean,defection,,,,18.518319367895927,8.716098239082452,,3.0253342836813895,14.406862194483516
+fitted_mean,defection,,,,18.77791220444803,8.73402618767526,,2.9605494997648893,14.507502875585631
+fitted_mean,defection,,,,19.037505041000134,8.751954136268068,,2.895744269016042,14.608164003520095
+fitted_mean,defection,,,,19.29709787755224,8.769882084860877,,2.8309194459433353,14.708844723778418
+fitted_mean,defection,,,,19.556690714104345,8.787810033453685,,2.7660758382803596,14.80954422862701
+fitted_mean,defection,,,,19.81628355065645,8.805737982046491,,2.7012142101307823,14.9102617539622
+fitted_mean,defection,,,,20.07587638720856,8.823665930639299,,2.636335284863919,15.01099657641468
+fitted_mean,defection,,,,20.33546922376066,8.841593879232107,,2.571439747783561,15.111748010680653
+fitted_mean,defection,,,,20.595062060312763,8.859521827824913,,2.5065282485904516,15.212515407059374
+fitted_mean,defection,,,,20.854654896864872,8.877449776417722,,2.4416014036567333,15.31329814917871
+fitted_mean,defection,,,,21.114247733416978,8.89537772501053,,2.376659798128806,15.414095651892254
+fitted_mean,defection,,,,21.373840569969083,8.913305673603338,,2.3117039878735044,15.514907359333172
+fitted_mean,defection,,,,21.633433406521185,8.931233622196144,,2.246734501280974,15.615732743111314
+fitted_mean,defection,,,,21.89302624307329,8.949161570788952,,2.181751840936373,15.716571300641531
+fitted_mean,defection,,,,22.152619079625396,8.96708951938176,,2.1167564851713845,15.817422553592136
+fitted_mean,defection,,,,22.412211916177505,8.985017467974568,,2.05174888950543,15.918286046443708
+fitted_mean,defection,,,,22.671804752729614,9.002945416567375,,1.9867294879856514,16.019161345149097
+fitted_mean,defection,,,,22.93139758928171,9.020873365160183,,1.921698694433787,16.12004803588658
+fitted_mean,defection,,,,23.190990425833817,9.038801313752991,,1.8566569036074032,16.22094572389858
+fitted_mean,defection,,,,23.450583262385926,9.0567292623458,,1.7916044922822643,16.321854032409334
+fitted_mean,defection,,,,23.71017609893803,9.074657210938605,,1.7265418202619678,16.422772601615243
+fitted_mean,defection,,,,23.96976893549013,9.092585159531414,,1.6614692313205035,16.523701087742324
+fitted_mean,defection,,,,24.22936177204224,9.110513108124222,,1.5963870540828147,16.62463916216563
+fitted_mean,defection,,,,24.488954608594344,9.12844105671703,,1.531295602848136,16.725586510585924
+fitted_mean,defection,,,,24.74854744514645,9.146369005309836,,1.4661951783603024,16.82654283225937
+fitted_mean,defection,,,,25.00814028169856,9.164296953902644,,1.401086068529028,16.92750783927626
+fitted_mean,defection,,,,25.267733118250657,9.182224902495452,,1.3359685491056998,17.028481255885204
+fitted_mean,defection,,,,25.527325954802762,9.200152851088259,,1.2708428843170205,17.129462817859498
+fitted_mean,defection,,,,25.78691879135487,9.218080799681067,,1.205709327459548,17.230452271902585
+fitted_mean,defection,,,,26.04651162790698,9.236008748273875,,1.140568121457834,17.331449375089917

@@ -1,0 +1,7 @@
+model,comparison,status,n,state_clusters,chamber,ci_high,ci_low,estimate_share_pp,holm_pvalue,model_id,primary_focal,pvalue,supplemental_focal,target_year,term,variant
+incumbency,Democratic incumbent,estimated,23,23,senate,8.234327940168248,-1.395207837550252,3.419560051308998,0.9296308450010049,senate:incumbency:primary,True,0.15493847416683415,False,2026,D_incumbent,primary
+ideology,Rightward ideology (+0.1),estimated,9,9,senate,4.421935288375537,-2.565625284944649,0.928155001715444,1.0,senate:ideology:primary,True,0.557141852337111,False,2026,rightward_01,primary
+defection,Party defection (+5 pp),estimated,9,9,senate,14.873878579835385,-45.98314777603674,-15.554634598100677,1.0,senate:defection:primary,True,0.2723480766017485,False,2026,defection_5pp,primary
+age,Age (+10 years),estimated,9,9,senate,3.757800818607956,-2.3164545525666274,0.7206731330206645,1.0,senate:age:primary,True,0.5991784937557533,False,2026,age_10years,primary
+tenure,Chamber tenure (+10 years),estimated,9,9,senate,5.352643464182972,-2.153784133385895,1.5994296653985383,1.0,senate:tenure:primary,True,0.35453591953429114,False,2026,tenure_10years,primary
+gender,Recorded F versus M,rank_deficient_or_ill_conditioned,9,9,,,,,,,,,,,,

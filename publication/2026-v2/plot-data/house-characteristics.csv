@@ -1,0 +1,7 @@
+model,comparison,status,n,state_clusters,chamber,ci_high,ci_low,estimate_share_pp,holm_pvalue,model_id,primary_focal,pvalue,supplemental_focal,target_year,term,variant
+incumbency,Democratic incumbent,estimated,349,46,house,1.5124466501929181,-1.217386574168594,0.1475300380121621,1.0,house:incumbency:primary,True,0.8286479210311173,False,2026,D_incumbent,primary
+ideology,Rightward ideology (+0.1),estimated,131,33,house,0.04458902728470859,-1.408626483773531,-0.6820187282444112,0.3892418342778188,house:ideology:primary,True,0.06487363904630312,False,2026,rightward_01,primary
+defection,Party defection (+5 pp),estimated,130,33,house,1.9523145862050004,-1.2616965849178512,0.3453090006435745,1.0,house:defection:primary,True,0.6645506406376014,False,2026,defection_5pp,primary
+age,Age (+10 years),estimated,163,35,house,0.6558954825995282,-0.653092473246405,0.0014015046765615854,1.0,house:age:primary,True,0.9965532433373804,False,2026,age_10years,primary
+tenure,Chamber tenure (+10 years),estimated,163,35,house,1.0959148621592665,-0.18262151771302,0.4566466722231232,0.7787708730183849,house:tenure:primary,True,0.15575417460367696,False,2026,tenure_10years,primary
+gender,Recorded F versus M,estimated,163,35,house,1.8181537235858611,-2.1972356642902477,-0.18954097035219336,1.0,house:gender:primary,True,0.8489941997845729,False,2026,source_F,primary
