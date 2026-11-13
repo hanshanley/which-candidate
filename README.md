@@ -12,6 +12,24 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**Website publication is withdrawn pending further candidate research.** The
+gallery and its links were removed from The Margin of Error; v2/v3 research
+files and releases remain historical snapshots, not publication approval.
+
+The old label **"118th ideology" means a Nokken-Poole score estimated from
+2023-2024 congressional votes**. It covers returning legislators, not all 2026
+candidates, and is not their current campaign position. Donation-based ideology,
+issue positions, and voting-based ideology need separate definitions and samples.
+The [source-expansion investigation](docs/CANDIDATE_DATABASES.md) reopens the
+challenger, losing-candidate, religion and race coverage gaps.
+
+The reopened source milestone retains all 470 contests. It adds independently
+qualified source records, not new election fits. The
+[complete research queries](downloads/2026-source-complete-queries.zip) contain
+candidate-source coverage, review queues, individual CAWP observations, caucus
+attrition and [separately classified state polling](docs/STATE_POLL_CONTEXT.md).
+The publication hold also applies to replacement figures.
+
 **The corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
 It supersedes v2's interpretation while preserving all v2 bytes. Fresh native
 queries acquired November 13 retain all 435 House and 35 Senate races, with

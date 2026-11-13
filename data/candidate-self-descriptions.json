@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "policy": "Research observations, not current-as-of-election labels. Review date does not establish pre-election publication. This pilot is not a representative sample.",
+  "observations": [
+    {
+      "name": "Lou Correa",
+      "fec_id": "H6CA46116",
+      "state": "CA",
+      "chamber": "house",
+      "source_id": "campaignview:lou-correa-ca-democrat",
+      "campaignview_issue_key": "-2022",
+      "quote": "Lou is a member of Christ Cathedral Catholic Church",
+      "religion_literal": "Catholic",
+      "religion_category": "catholic",
+      "source_year_label": 2022,
+      "publication_date": null,
+      "evidence_basis": "Explicit personal Catholic congregation membership in the candidate's own biography; historical affiliation only."
+    },
+    {
+      "name": "Vanessa Enoch",
+      "fec_id": "H8OH08097",
+      "state": "OH",
+      "chamber": "house",
+      "source_id": "campaignview:vanessa-enoch-oh-democrat",
+      "campaignview_issue_key": "-2022",
+      "quote": "Enoch is a devout Christian",
+      "religion_literal": "Christian",
+      "religion_category": "christian_unspecified",
+      "source_year_label": 2022,
+      "publication_date": null,
+      "evidence_basis": "Explicit Christian self-description; no denomination stated, so not classified Protestant."
+    },
+    {
+      "name": "James Talarico",
+      "fec_id": "S6TX00479",
+      "state": "TX",
+      "chamber": "senate",
+      "source_id": "talarico-biography",
+      "quote": "Presbyterian seminarian",
+      "religion_literal": "Presbyterian seminarian",
+      "religion_category": "protestant",
+      "source_year_label": null,
+      "publication_date": null,
+      "evidence_basis": "Explicit denominational self-description in his own campaign biography, not inference from attending a named school."
+    },
+    {
+      "name": "Adam Hamilton",
+      "fec_id": "S6KS00312",
+      "state": "KS",
+      "chamber": "senate",
+      "source_id": "hamilton-biography",
+      "quote": "largest United Methodist congregation",
+      "religion_literal": "United Methodist pastor",
+      "religion_category": "protestant",
+      "source_year_label": null,
+      "publication_date": null,
+      "evidence_basis": "His own biography identifies him as founder and pastor of this United Methodist congregation; records clergy affiliation, not every private belief."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "blocked_network_attempts": 0,
+  "extracted_offline_replay": "all outputs byte_identical",
+  "frozen_analysis_and_publication_worktrees": "unchanged",
+  "outputs": {
+    "campaignview-matched-index.jsonl.gz": {
+      "bytes": 6566,
+      "sha256": "ff4a53f7aafb6840568c123f47c80942dfb95ec5b1fec2741bd1a1f8ebbe8d78"
+    },
+    "candidate-queries.jsonl.gz": {
+      "bytes": 306656,
+      "sha256": "a44f0988f9bb82720eea0d7e312a25ade138b8d0f5ad04cb5a66ed6d06bc6c01"
+    },
+    "cawp-reported-race-source-rows.jsonl.gz": {
+      "bytes": 1544,
+      "sha256": "9695b62140584f7df5745912046bc563a7e14d5e82eab606e9e445c69b944365"
+    },
+    "cawp-source-rows.jsonl.gz": {
+      "bytes": 18397,
+      "sha256": "05bc08f6bb3ccf9fc7e2589f1dc232e9d8ffe4e4c9b9f32e0b84162540c32e3c"
+    },
+    "coverage.json": {
+      "bytes": 10982,
+      "sha256": "69c1459919685ea6394abf30398b0b9b76b3be5bb89a71d4ee47ed0fb0a78af7"
+    },
+    "dime-cross-office-review.jsonl.gz": {
+      "bytes": 6083,
+      "sha256": "0d732a0609b10952e47a1dbaa94976c91e0910c8200fd03c8237eca784855b47"
+    },
+    "dime-matched-source-rows.jsonl.gz": {
+      "bytes": 162930,
+      "sha256": "4273968f86c83040b4d50cbe133a5b0751063467faf667ed31541bc546a791de"
+    },
+    "historical-website-attempts.jsonl.gz": {
+      "bytes": 25348,
+      "sha256": "c703769fef960bfbf6469950b3142397608f17c640ca39d4609c46f5e527e0ea"
+    },
+    "identity-review-queue.jsonl.gz": {
+      "bytes": 12364,
+      "sha256": "9a3714114ce9a983a6787a87143449b7f26e43415215ccce912aba4adae2b1fe"
+    },
+    "reused-source-receipts.json": {
+      "bytes": 3847,
+      "sha256": "ba1cbb87763dbd614cbf0149843a8a480bcd440c5cff922d855596c64c3576a4"
+    },
+    "reviewed-self-descriptions.json": {
+      "bytes": 3356,
+      "sha256": "b007291ca5505b262e98ddc294bd77f628e0fce8af2da282adf6228f454a10eb"
+    },
+    "source-receipts.json": {
+      "bytes": 72939,
+      "sha256": "40bbb8ec1b13e4c941b080da375f9f007d28693532c2d2fe0d4cc5876a6e1aec"
+    }
+  },
+  "private_archive": {
+    "bytes": 38677096,
+    "sha256": "e73f3fc50aedeb46d6bf36b962959c6d1cb3b7dc80c6db7379f44fe782d5b2b0"
+  },
+  "private_archive_members": 210,
+  "publication_status": "withdrawn",
+  "scope": "2026 source expansion only; no new election fits or website publication",
+  "verified_at": "2026-11-13T22:42:06.887943+00:00"
+}

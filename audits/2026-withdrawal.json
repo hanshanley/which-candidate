@@ -1,0 +1,70 @@
+{
+  "withdrawal_commit": "7fd74295a862b0743e8efca7018969e7ea9008c4",
+  "deployment_run": 43511218068,
+  "verified_at": "2026-11-13T22:21:41.247521+00:00",
+  "checks": [
+    {
+      "path": "/which-candidate/",
+      "status": 404,
+      "expected": 404,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/artifacts/which-candidate/2026-v3/manifest.json",
+      "status": 404,
+      "expected": 404,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/artifacts/which-candidate/2026-v2/manifest.json",
+      "status": 404,
+      "expected": 404,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "expected": 200,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/interactive-analysis/",
+      "status": 200,
+      "expected": 200,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200,
+      "expected": 200,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200,
+      "expected": 200,
+      "contains_candidate_url": false
+    },
+    {
+      "path": "/rss.xml",
+      "status": 200,
+      "expected": 200,
+      "contains_candidate_url": false
+    },
+    {
+      "width": 1280,
+      "candidate_links": 0,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "candidate_links": 0,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 320,
+      "candidate_links": 0,
+      "horizontal_overflow": false
+    }
+  ]
+}
