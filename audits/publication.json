@@ -1,0 +1,76 @@
+{
+  "scope": "Current 2026 House publication and all-candidate inventory",
+  "publication": {
+    "directory": "publication",
+    "figures": 8,
+    "website_status": "withdrawn",
+    "superseded_publication_directories_removed": true,
+    "downloads_contain_only_current_charts": true,
+    "historical_research_files_preserved_byte_for_byte": 126,
+    "existing_performance_models_refitted": false
+  },
+  "inventory": {
+    "contests": 435,
+    "native_choices": 1426,
+    "named_candidate_contest_records": 1284,
+    "aggregate_choices": 142,
+    "democrats": 449,
+    "republicans": 433,
+    "other_parties": 402,
+    "qualified_candidate_id_links": 962,
+    "campaign_urls": 678,
+    "pre_election_biography_records": 462,
+    "additional_historical_biographies": 130,
+    "candidates_with_either_biography_source": 592,
+    "candidates_without_either_biography_source": 692,
+    "name_qualified_historical_donor_scores": 370,
+    "prior_federal_voting_scores": 282,
+    "historical_profiles_acquired_or_verified": 244,
+    "historical_profile_endpoint_failures": 0
+  },
+  "verification": {
+    "checkout_tests_passed": 216,
+    "extracted_download_tests_passed": 210,
+    "extracted_download_tests_skipped": 6,
+    "extracted_skip_reasons": [
+      "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
+      "One repository-only historical byte audit requires its original audit receipt."
+    ],
+    "ruff_lint": "passed",
+    "ruff_format_files": 64,
+    "original_cache_house_reconstruction": "byte-identical",
+    "extracted_imports_confirmed_local": true,
+    "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
+    "extracted_replay_byte_identical_files": {
+      "results/2026-v4": 9,
+      "results/house": 8,
+      "publication": 42
+    },
+    "zip_crc_checks": "passed",
+    "zip_member_names_unique": true,
+    "embedded_query_zip_matches_standalone": true,
+    "repository_and_personal_chart_skills_match": true,
+    "article_and_mobile_visual_review": "All eight current figures; previews refreshed after final donor-label edits.",
+    "withdrawn_gallery_http_status": 404,
+    "withdrawn_manifest_http_status": 404
+  },
+  "downloads": {
+    "complete-queries.zip": {
+      "bytes": 38635375,
+      "sha256": "1bb440d203d6e2ab06cd5fbc32451e69f717d619612fc87c6a72e5100707d294"
+    },
+    "substack-figures.zip": {
+      "bytes": 39705552,
+      "sha256": "a7e14355bfe3360a7a97681789fd3dba9532d88ce1bdccbf8f9b1a70c5b781f4"
+    }
+  },
+  "remaining_limitations": [
+    "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
+    "A complete roster is not complete trait coverage; acquired biography sources cover only the two major parties.",
+    "Machine-extracted biography facts require subject verification and remain model-ineligible.",
+    "Religion and race/ethnicity are not coded in the new all-candidate inventory; no identities are inferred.",
+    "Historical donor scores and 2023-2024 voting records are not current campaign ideology.",
+    "Existing selective model samples are not expanded by inventory coverage and do not establish causal candidate effects.",
+    "Detailed static labels and footnotes require enlargement at narrow phone widths."
+  ]
+}

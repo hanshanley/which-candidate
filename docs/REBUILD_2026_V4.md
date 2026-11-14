@@ -3,7 +3,9 @@
 The primary election is **2026**, using the pinned November 12-13 provider
 snapshot, not certified returns. Historical comparisons cover 2016-2024.
 This is a research replacement, **not permission to republish the website**.
-Rejected v2/v3 images remain byte-identical archives.
+Only current figures remain in `publication/`; superseded images are retained
+in Git history, not the checkout or current downloads. Analysis snapshots are
+unchanged. See [the publication guide](PUBLICATION.md) for current paths.
 
 ## The answer depends on the measure and benchmark
 

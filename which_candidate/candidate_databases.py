@@ -187,7 +187,7 @@ def _number(value):
     return number if math.isfinite(number) else None
 
 
-def select_dime(query, matches):
+def select_dime(query, matches, *, party_code="100"):
     if not query.get("D_name"):
         return {"status": "no_named_nominee", "score": None}
     if not query.get("D_fec_id"):
@@ -199,7 +199,7 @@ def select_dime(query, matches):
         for row in matches
         if row["Cand.ID"] == query["D_fec_id"]
         and row["state"] == query["state"]
-        and row["party"] == "100"
+        and row["party"] == party_code
         and row["recipient.type"] == "cand"
         and _number(row["cycle"]) is not None
         and _number(row["cycle"]).is_integer()
@@ -239,7 +239,7 @@ def select_dime(query, matches):
     }
 
 
-def select_campaignview(query, matches, details):
+def select_campaignview(query, matches, details, *, party_label="Democrat"):
     accepted, held = [], []
     for record in matches:
         uid = record["uid"]
@@ -247,7 +247,7 @@ def select_campaignview(query, matches, details):
         if (
             record["FECCandID"] != query.get("D_fec_id")
             or record["state_postal"] != query["state"]
-            or record["cand_party"] != "Democrat"
+            or record["cand_party"] != party_label
         ):
             held.append({"uid": uid, "reason": "state_or_party_conflict"})
         elif detail is None:
@@ -267,14 +267,20 @@ def select_campaignview(query, matches, details):
                 ):
                     held.append({"uid": uid, "key": key, "reason": "unqualified_issue_year"})
                     continue
-                text = issue.get("text") or ""
+                text = issue.get("text")
+                characters = len(text) if isinstance(text, str) else issue.get("text_characters", 0)
+                digest = (
+                    hashlib.sha256(text.encode()).hexdigest()
+                    if isinstance(text, str)
+                    else issue.get("text_sha256")
+                )
                 issues.append(
                     {
                         "key": key,
                         "year": issue["year"],
                         "header": issue["header"],
-                        "text_characters": len(text),
-                        "text_sha256": hashlib.sha256(text.encode()).hexdigest(),
+                        "text_characters": characters,
+                        "text_sha256": digest or hashlib.sha256(b"").hexdigest(),
                         "biography": issue["header"] == "Candidate Biography",
                     }
                 )

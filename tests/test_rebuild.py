@@ -419,7 +419,7 @@ def test_sparse_donor_interval_and_missing_rosters_are_not_misleading():
 
 def test_figure_bytes_backgrounds_and_sizes_are_reproducible(release):
     destination, manifest = release
-    original = ROOT / "publication/2026-v4"
+    original = ROOT / "publication"
     output = destination / "figures"
     for name in (*manifest["files"], "manifest.json"):
         assert (output / name).read_bytes() == (original / name).read_bytes()
@@ -458,17 +458,28 @@ def test_existing_output_cannot_be_silently_overwritten(release, tmp_path):
 def test_public_packages_include_entire_queries_evidence_and_embedded_download(tmp_path):
     output = tmp_path / "downloads"
     receipts = rebuild_package.build(ROOT, output)
-    queries = output / "2026-v4-complete-queries.zip"
+    queries = output / "complete-queries.zip"
     with zipfile.ZipFile(queries) as archive:
         assert len(archive.namelist()) == len(set(archive.namelist()))
-        for folder in ("results", "publication/2026-v4"):
+        for folder in ("results", "publication"):
             for path in (ROOT / folder).rglob("*"):
-                if path.is_file() and path.suffix != ".zip":
+                if (
+                    path.is_file()
+                    and path.suffix != ".zip"
+                    and not (folder == "results" and path.suffix in (".png", ".svg"))
+                ):
                     assert archive.read(path.relative_to(ROOT).as_posix()) == path.read_bytes()
         assert ".github/skills/publication-charts/SKILL.md" in archive.namelist()
         assert "tests/test_rebuild.py" in archive.namelist()
         assert all(not name.startswith("data/raw/") for name in archive.namelist())
-    with zipfile.ZipFile(output / "2026-v4-substack-figures.zip") as archive:
+        assert all(not name.startswith("publication/2026-") for name in archive.namelist())
+        assert all(
+            name.startswith("publication/")
+            for name in archive.namelist()
+            if Path(name).suffix in (".png", ".svg")
+        )
+        assert "results/2026-v4/biography-facts.jsonl.gz" in archive.namelist()
+    with zipfile.ZipFile(output / "substack-figures.zip") as archive:
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())
@@ -476,6 +487,11 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
 
 def test_failed_packaging_never_publishes_partial_downloads(tmp_path, monkeypatch):
     calls = []
+    output = tmp_path / "downloads"
+    output.mkdir()
+    for name in ("complete-queries.zip", "substack-figures.zip", "downloads.json"):
+        (output / name).write_bytes(b"previous complete download")
+    before = {p.name: p.read_bytes() for p in output.iterdir()}
 
     def fail_second_archive(path, entries):
         calls.append(path)
@@ -485,14 +501,14 @@ def test_failed_packaging_never_publishes_partial_downloads(tmp_path, monkeypatc
 
     monkeypatch.setattr(rebuild_package, "write_zip", fail_second_archive)
     with pytest.raises(OSError, match="no space"):
-        rebuild_package.build(ROOT, tmp_path / "downloads")
-    assert not list((tmp_path / "downloads").iterdir())
+        rebuild_package.build(ROOT, output)
+    assert {p.name: p.read_bytes() for p in output.iterdir()} == before
 
 
-def test_refined_measurement_panels_share_a_centered_scale_without_clipping_intervals():
+def test_measurement_panels_share_a_centered_scale_without_clipping_intervals():
     data = {"measurements": read_rows(ROOT / "results/2026-v4/measurement-fits.jsonl.gz")}
     with plt.rc_context(publication.THEME):
-        fig, rows, _ = rebuild_publication.refined_measurements(data)
+        fig, rows, _ = rebuild_publication.measurements(data)
         limits = fig.axes[0].get_xlim()
         assert all(ax.get_xlim() == limits for ax in fig.axes)
         assert limits[0] == -limits[1]
@@ -510,18 +526,18 @@ def test_refined_measurement_panels_share_a_centered_scale_without_clipping_inte
         (
             "donor",
             "results/2026-v4/donor-fits.jsonl.gz",
-            rebuild_publication.refined_donor,
+            rebuild_publication.donor,
             "Low support; see CSV",
         ),
         (
             "moderation",
             "results/2026-v3/analysis/moderation-fits.jsonl.gz",
-            rebuild_publication.refined_caucus,
+            rebuild_publication.caucus,
             "Roster unavailable",
         ),
     ],
 )
-def test_refined_diagnostic_labels_are_clear_of_the_zero_line(key, source, builder, label):
+def test_diagnostic_labels_are_clear_of_the_zero_line(key, source, builder, label):
     data = {key: read_rows(ROOT / source)}
     with plt.rc_context(publication.THEME):
         fig, _, _ = builder(data)
@@ -537,45 +553,70 @@ def test_refined_diagnostic_labels_are_clear_of_the_zero_line(key, source, build
         plt.close(fig)
 
 
-def test_visual_revision_preserves_data_and_embeds_complete_versioned_queries(tmp_path):
-    output = tmp_path / "figures"
-    charts = rebuild_publication.build(ROOT, output, version="2026-v5")
-    for chart in charts:
-        name = chart["id"]
-        assert (output / chart["data"]).read_bytes() == (
-            ROOT / "publication/2026-v4" / chart["data"]
-        ).read_bytes()
-        if name not in ("donor-ideology", "ideology-measurement", "caucus-history"):
-            for theme in publication.BACKGROUNDS:
-                relative = f"{theme}/{name}.png"
-                assert (output / relative).read_bytes() == (
-                    ROOT / "publication/2026-v4" / relative
-                ).read_bytes()
-    canonical = ROOT / "publication/2026-v5"
-    for path in output.rglob("*"):
-        if path.is_file():
-            assert path.read_bytes() == (canonical / path.relative_to(output)).read_bytes()
-    downloads = tmp_path / "downloads"
-    rebuild_package.build(ROOT, downloads, version="2026-v5")
-    queries = downloads / "2026-v5-complete-queries.zip"
-    with zipfile.ZipFile(queries) as archive:
-        assert (
-            archive.read("publication/2026-v5/substack/ideology-measurement.png")
-            == (output / "substack/ideology-measurement.png").read_bytes()
-        )
-        assert "results/2026-v4/candidate-queries.jsonl.gz" in archive.namelist()
-        assert "results/2026-v4/biography-facts.jsonl.gz" in archive.namelist()
-        assert (
-            archive.read("publication/2026-v4/substack/ideology-measurement.png")
-            == (ROOT / "publication/2026-v4/substack/ideology-measurement.png").read_bytes()
-        )
-    with zipfile.ZipFile(downloads / "2026-v5-substack-figures.zip") as archive:
-        assert archive.read("complete-query-set.zip") == queries.read_bytes()
+def test_publication_refreshes_in_place_without_retaining_stale_plots(release):
+    destination, manifest = release
+    output = destination / "figures"
+    image = output / manifest["charts"][0]["files"]["substack"]["png"]
+    stamp = image.stat().st_mtime_ns
+    (output / "captions.json").write_text("outdated captions")
+    stale = output / "substack/rejected-plot.png"
+    stale.write_bytes(b"old plot")
+    unrelated = output / "user-file.txt"
+    unrelated.write_text("keep")
+    rebuild_publication.build(ROOT, output)
+    assert (output / "captions.json").read_bytes() == (
+        ROOT / "publication/captions.json"
+    ).read_bytes()
+    assert image.stat().st_mtime_ns == stamp
+    assert not stale.exists()
+    assert unrelated.read_text() == "keep"
+    unrelated.unlink()
 
 
-@pytest.mark.parametrize("builder", [rebuild_publication.build, rebuild_package.build])
-def test_unknown_visual_version_cannot_create_output(builder, tmp_path):
-    output = tmp_path / "invalid"
-    with pytest.raises(ValueError, match="Unknown figure version"):
-        builder(ROOT, output, version="../changed")
-    assert not output.exists()
+def test_default_figure_build_uses_one_publication_folder(tmp_path, monkeypatch):
+    def render(root, output):
+        assert root == tmp_path
+        for folder in ("substack", "marginoferror", "plot-data"):
+            (output / folder).mkdir()
+        write_json(output / "manifest.json", {"current": True})
+        return []
+
+    monkeypatch.setattr(rebuild_publication, "_build", render)
+    rebuild_publication.build(tmp_path)
+    assert json.loads((tmp_path / "publication/manifest.json").read_text()) == {"current": True}
+    assert {p.name for p in (tmp_path / "publication").iterdir()} == {
+        "substack",
+        "marginoferror",
+        "plot-data",
+        "manifest.json",
+    }
+
+
+def test_failed_figure_render_leaves_current_publication_unchanged(tmp_path, monkeypatch):
+    output = tmp_path / "publication"
+    output.mkdir()
+    (output / "manifest.json").write_text("previous complete publication")
+
+    def fail(root, staged):
+        (staged / "manifest.json").write_text("partial")
+        raise OSError("render failed")
+
+    monkeypatch.setattr(rebuild_publication, "_build", fail)
+    with pytest.raises(OSError, match="render failed"):
+        rebuild_publication.build(tmp_path)
+    assert (output / "manifest.json").read_text() == "previous complete publication"
+    assert list(tmp_path.iterdir()) == [output]
+
+
+def test_packages_refresh_the_same_filenames_and_reuse_identical_bytes(tmp_path):
+    output = tmp_path / "downloads"
+    output.mkdir()
+    names = ("complete-queries.zip", "substack-figures.zip", "downloads.json")
+    for name in names:
+        (output / name).write_bytes(b"outdated download")
+    receipts = rebuild_package.build(ROOT, output)
+    stamps = {name: (output / name).stat().st_mtime_ns for name in names}
+    assert rebuild_package.build(ROOT, output) == receipts
+    assert {p.name for p in output.iterdir()} == set(names)
+    assert all((output / name).stat().st_mtime_ns == stamps[name] for name in names)
+    assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())

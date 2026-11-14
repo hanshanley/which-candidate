@@ -1,0 +1,67 @@
+# Current publication figures
+
+The only chart set is `publication/`, containing eight current figures for
+Substack and Margin of Error. Superseded plot directories and their download
+bundles have been removed from the checkout; Git history retains them.
+Historical analysis data under `results/` are unchanged; `results/house/` adds the
+complete current House roster and source-qualified candidate information.
+Website publication remains withdrawn.
+
+All eight figures now concern the **House only**, including the seat-baseline
+and incumbency-history plots. The evidence figure counts every named candidate,
+not only the selected Democratic analysis candidate. Its all-party denominators
+and coverage are generated directly from `results/house/coverage.json`.
+See [candidate information and limitations](HOUSE_CANDIDATES.md).
+
+The UK Decline `vizstyle` helpers and two rendered GDP/income comparisons were
+the visual references: warm paper, serif hierarchy, restrained colors, direct
+labels and meaningful reference lines, without decorative dashboard elements.
+
+The current design includes:
+
+- The same-candidate donor/voting comparison now uses identical symmetric limits,
+  placing zero in the middle of both panels. Opposite associations are visually
+  apparent without comparing positions on differently cropped axes. Predictor
+  increments remain different and explicit; aligned outcome axes do not turn
+  the scores into the same construct or establish causal effects.
+- Low-support donor and unavailable-caucus labels move clear of the zero line.
+  The unsupported donor estimate remains excluded from the headline plot and
+  complete in its CSV; missing caucus rosters remain explicitly unavailable.
+
+Each theme has eight PNG/SVG exports. Shared `plot-data/`, `captions.json` and
+`manifest.json` provide exact plotted values, captions, alt text and checksums.
+The `publication-charts` skill requires matching scales for comparable panels,
+collision-free labels, fresh source-hashed reading-width previews and one
+current publication folder rather than accumulating design versions.
+
+Reproduce the figures and complete downloads:
+
+```bash
+.venv/bin/python -m which_candidate.rebuild_publication
+.venv/bin/python -m which_candidate.rebuild_package
+```
+
+The builders stage complete outputs before refreshing the same destinations.
+Unchanged bytes are reused, obsolete files in the theme/data folders are removed,
+and failed rendering or archive generation leaves existing outputs intact.
+`--output` remains available for an independent replay or test directory.
+
+`downloads/complete-queries.zip` contains all normalized research records,
+evidence, models, code, tests and current figure inputs, not merely metadata.
+`downloads/substack-figures.zip` embeds that exact query ZIP along with the
+current Substack exports. Neither bundle includes superseded plots.
+`downloads/downloads.json` records both archive sizes and checksums.
+
+After extracting the query ZIP, replay the analysis and figures without network:
+
+```bash
+.venv/bin/python -m which_candidate.rebuild replay --output replay-analysis
+.venv/bin/python -m which_candidate.house_candidates --output replay-house
+.venv/bin/python -m which_candidate.rebuild_publication --output replay-figures
+```
+
+Public replay reconstructs the normalized analysis and current figures, not the
+original website extraction process. Historical audit receipts describe the
+commits at which they were recorded, not the current publication file layout.
+Legacy publication tests requiring superseded image fixtures run in the full
+checkout and skip in the current-chart download; current replay tests run in both.

@@ -1,6 +1,6 @@
 # Which candidate?
 
-Which Democratic House and Senate candidates outperform their constituencies'
+Which Democratic House candidates outperform their districts'
 partisanship, and how is that associated with ideology, legislative votes,
 party loyalty, incumbency and candidate background?
 
@@ -12,9 +12,20 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**Current scope: House only.** The [complete candidate inventory](results/house/candidates.csv)
+accounts for **1,284 named candidates in all 435 districts**, including Republicans,
+other parties, losers and multiple candidates from the same party. Another 142
+aggregate write-in/none-of-the-above choices are retained separately, not invented
+as people. This is the pinned November 12-13 provider roster, not a certified
+ballot-access census or a claim that every person has complete trait data.
+
+The [House information audit](docs/HOUSE_CANDIDATES.md) describes the actual source
+coverage and unresolved fields. All current figures are House-only. Older
+House/Senate analysis snapshots remain unchanged for provenance.
+
 **Website publication is withdrawn pending further candidate research.** The
-gallery and its links were removed from The Margin of Error; v2/v3 research
-files and releases remain historical snapshots, not publication approval.
+gallery and its links were removed from The Margin of Error. Historical analysis
+data remain under `results/`; superseded plots are available only in Git history.
 
 The old label **"118th ideology" means a Nokken-Poole score estimated from
 2023-2024 congressional votes**. It covers returning legislators, not all 2026
@@ -30,9 +41,9 @@ attrition and [separately classified state polling](docs/STATE_POLL_CONTEXT.md).
 The user has authorized a replacement analysis and new figures. Website
 publication remains withdrawn; this does not authorize redeployment.
 
-The rejected v2/v3 graphics are **archived, not the active chart set**.
-[`publication/active.json`](publication/active.json) records the replacement
-status. The reusable
+There is **one current chart set in [`publication/`](publication/)**, with no
+versioned copies of rejected graphics. Its manifest records the analysis inputs
+and withdrawn website status. The reusable
 [`publication-charts` skill](.github/skills/publication-charts/SKILL.md) encodes
 the editorial style and required rendered-image review, with a personal copy
 installed for future projects.
@@ -43,11 +54,11 @@ retaining all 470 contests and every unresolved lead. Its complete replay
 download includes both openly licensed crosswalk originals; no new scores
 are promoted into the election models.
 
-**The active figures are [2026-v5](docs/FIGURES_2026_V5.md)**, a visual-only
-refinement of the unchanged [2026-v4 analysis](docs/REBUILD_2026_V4.md):
-eight redesigned figures, 7,252 biography records, 273 nominees with pre-election
-captures and 129 historical identity leads. All machine biography labels remain
-held for review.
+**The [current figures](docs/PUBLICATION.md)** use the unchanged
+[2026-v4 analysis](docs/REBUILD_2026_V4.md):
+eight redesigned House figures, plus the expanded all-party House information
+inventory. The original model inputs and estimates remain unchanged; expanded
+biography coverage is not silently promoted into new verified traits or fits.
 
 **The answer depends on the measure and benchmark.** The selected House donor
 association falls from +3.22 to +0.81 margin points when the presidential
@@ -56,11 +67,11 @@ opposite associations even on the same 100 incumbents. This does not establish
 a universal moderation premium.
 
 See the [critique and repairs](audits/2026-v4/critical-review.md),
-[complete queries](downloads/2026-v5-complete-queries.zip) and
-[Substack bundle](downloads/2026-v5-substack-figures.zip).
+[complete queries](downloads/complete-queries.zip) and
+[Substack bundle](downloads/substack-figures.zip).
 
 **The archived corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
-It supersedes v2's interpretation while preserving all v2 bytes. Fresh native
+It supersedes v2's interpretation while preserving its historical analysis data. Fresh native
 queries acquired November 13 retain all 435 House and 35 Senate races, with
 405 House and 28 Senate comparisons eligible. Counts remain provisional.
 Federal incumbency is corrected; unity uses actual pre-election 119th-Congress
@@ -130,7 +141,7 @@ dependency versions, install with
 Dependency installation may require network access; the subsequent data build
 does not.
 
-The archived v2 report, categorical comparisons, charts and **complete derived
+The archived v2 report, categorical comparisons and **complete derived
 analysis queries** are copied into `results/2026/` for repository readers,
 including held fits, evidence, fold membership and predictions. The private
 local replay archive additionally contains the original source bytes. Restricted
@@ -138,7 +149,7 @@ whole workbooks are not uploaded to GitHub.
 
 ## Publication figures
 
-The active [eight-figure research set](publication/2026-v4/) has separate
+The current [eight-figure research set](publication/) has separate
 Substack/Margin of Error PNG/SVG versions, CSVs, captions and alt text:
 seat baselines, donor sensitivity, same-candidate ideology measurements,
 voting/incumbency/caucus history and evidence coverage.
@@ -146,76 +157,21 @@ These are repository research assets, **not a live website gallery**.
 
 ```bash
 .venv/bin/python -m which_candidate.rebuild replay --output replay-analysis
-.venv/bin/python -m which_candidate.rebuild_publication --output replay-figures
+.venv/bin/python -m which_candidate.rebuild_publication
 .venv/bin/python -m which_candidate.rebuild_package
 ```
 
 The complete download includes all 470 contests and every evidence row, hold
 and fitted sample, not just metadata. Extract it to replay without the parent
-project or raw website narratives; see the v4 report for scope.
+project or raw website narratives; see the [publication guide](docs/PUBLICATION.md).
 
-### Archived v3 publication (superseded)
+Both builders refresh the same destinations after successful generation:
+`publication/`, `downloads/complete-queries.zip`, and
+`downloads/substack-figures.zip`. Unchanged files are reused; obsolete plots are
+removed from the managed theme/data folders. No old plot sets are bundled.
+The Substack ZIP embeds the exact complete-query ZIP.
 
-The [archived nine-figure set](publication/2026-v3/) includes characteristics,
-caucus history and same-sample sensitivities, record/identity coverage, benchmark
-sensitivity, absolute predictive error, named third-party holds and native count
-clocks. Each has understated Margin of Error/Substack PNG/SVG versions,
-complete plotted CSVs and explicit support/uncertainty qualifications.
-
-Both [complete-query-set.zip](publication/2026-v3/complete-query-set.zip) and
-[substack-figures.zip](publication/2026-v3/substack-figures.zip) include the complete
-normalized inputs and fitted queries, not just metadata.
-
-```bash
-.venv/bin/python -m which_candidate.corrected build \
-  --inputs results/2026-v3/inputs --output replay-analysis
-.venv/bin/python -m which_candidate.corrected_publication \
-  --inputs results/2026-v3/inputs --analysis replay-analysis --output replay-publication
-```
-
-### Archived v2 publication (superseded)
-
-Nine figures adapt the restrained serif typography, terracotta/blue palette and
-source notes from `hanshanley/uk_decline`: House and Senate characteristics,
-House voting records, identity comparisons and coverage, predictive lift, and
-partisan geography, plus annual House and Senate comparisons from 2016 through
-2026. **2026 remains the primary result**: its saved fits and exact samples are
-reused unchanged. Earlier years receive exploratory annual fits of the same
-specification, not a pooled historical result relabeled as 2026. Every figure
-explicitly identifies the November 7-8 provisional 2026 snapshot.
-
-```bash
-.venv/bin/python -m which_candidate.publication \
-  --analysis results/2026 --output publication/2026-v2
-# Optional: stage byte-verified assets into an existing local website checkout.
-.venv/bin/python -m which_candidate.publication \
-  --output publication/2026-v2 --stage-site ../margin_of_error
-```
-
-The committed release is [publication/2026-v2](publication/2026-v2/):
-
-- `substack/`: warm-paper (`#F7F5F0`) PNG and vector SVG originals.
-- `marginoferror/`: website-paper (`#F2EFE7`) PNG and SVG versions. PNG conversion
-  changes only exact opaque background pixels; all other decoded pixels and
-  dimensions are preserved.
-- `plot-data/`, `captions.json`, `manifest.json`: complete plotted values,
-  captions, alt text, image dimensions, input provenance and file checksums.
-- `comparison/`: every annual fit, covariance, exact sample ID, term and
-  within-year Holm-adjusted result, including held fits. Historical comparisons
-  are exploratory: midterms use a lagged presidential benchmark, while
-  presidential years use the same-year benchmark. Cohorts and maps differ;
-  coefficient differences are not formal tests of change.
-- [substack-figures.zip](publication/2026-v2/substack-figures.zip): upload-ready
-  originals, captions, plotted data, and the complete query download.
-- [complete-query-set.zip](publication/2026-v2/complete-query-set.zip): **all**
-  files under `results/2026/`, including base returns, inclusion/exclusion
-  decisions, features, evidence, fitted terms/covariances, predictions and fold
-  membership; plus plotting data, code, tests, documentation and dependency lock.
-  This is a complete derived-query release, not the restricted-source replay
-  archive. Extract it and run the command above to regenerate the figures offline
-  after installing the recorded dependencies.
-
-Existing verified outputs are reused unchanged. Any changed data, code,
-documentation, dependency or style recipe requires a new output directory.
-The website's `/which-candidate/` gallery can embed these static figures and
-downloads without JavaScript. No Substack essay is generated or published.
+The two themes use warm-paper Substack (`#F7F5F0`) and website-paper Margin of
+Error (`#F2EFE7`) backgrounds. All other decoded PNG pixels and dimensions match.
+Git history retains earlier graphics; the checkout contains only the current set.
+No website deployment or Substack publication is performed.

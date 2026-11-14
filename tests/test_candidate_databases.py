@@ -61,6 +61,14 @@ def test_donation_ideology_covers_losing_nonincumbent_without_vote_score():
     assert selected["source_rows"] == [1]
 
 
+def test_opponent_donor_link_requires_explicit_republican_party():
+    republican = dime(party="200")
+    assert select_dime(query(), [republican])["score"] is None
+    result = select_dime(query(), [republican], party_code="200")
+    assert result["score"] == -0.75
+    assert not result["model_ready"]
+
+
 @pytest.mark.parametrize(
     "change,status",
     [
@@ -229,6 +237,26 @@ def test_campaign_issue_references_are_not_sensitive_identity_labels():
     result = select_campaignview(query(), [index], {index["uid"]: detail})
     assert result["held"][0]["reason"] == "detail_identity_conflict"
     assert not result["historical_biography_available"]
+
+
+def test_normalized_opponent_biography_replays_without_redistributing_text():
+    from which_candidate.house_candidates import normalize_campaignview
+
+    index, detail = campaign()
+    index["cand_party"] = "Republican"
+    normalized = normalize_campaignview(detail)
+    assert "text" not in normalized["issues"]["-2022"]
+    expected = select_campaignview(
+        query(), [index], {index["uid"]: detail}, party_label="Republican"
+    )
+    assert expected["historical_biography_available"]
+    assert (
+        select_campaignview(query(), [index], {index["uid"]: normalized}, party_label="Republican")
+        == expected
+    )
+    assert not select_campaignview(query(), [index], {index["uid"]: normalized})[
+        "historical_biography_available"
+    ]
 
 
 def test_reviewed_description_requires_pinned_quote_and_identity(tmp_path):

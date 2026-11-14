@@ -1,4 +1,4 @@
-"""A redesigned, readable 2026-first figure suite, separate from archived v2/v3."""
+"""Build the current 2026-first figures in a single publication directory."""
 
 import argparse
 import json
@@ -15,13 +15,11 @@ from matplotlib.ticker import MaxNLocator, MultipleLocator
 
 from .pipeline import csv_bytes
 from .publication import ACCENT, BLUE, GRID, INK, MUTED, THEME, export_chart
-from .rebuild import persist_directory
 from .storage import fingerprint, read_rows, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
 YEARS = (2016, 2018, 2020, 2022, 2024, 2026)
 CLOCK = "2026 counts: November 12-13 provider snapshot; provisional, not certified."
-VERSIONS = ("2026-v4", "2026-v5")
 
 
 def frame(title, subtitle, note, height=6.5):
@@ -66,18 +64,18 @@ def interval(ax, row, y, color=ACCENT, factor=2):
 
 
 def geography(data):
-    panel = data["panel"]
+    panel = [r for r in data["panel"] if r["chamber"] == "house"]
     fig = frame(
         "Start with the seat, not the candidate",
-        "2026 Democratic vote share versus the district or state's 2024 presidential share. "
+        "2026 House Democratic vote share versus the district's 2024 presidential share. "
         "Each dot is one qualified contest; the diagonal marks equal shares.",
         "Sources: pinned federal returns and map-qualified presidential benchmarks. "
         "Democratic share of the D+R vote; independents and held election rounds are not pooled.",
     )
     rows = []
-    for i, chamber in enumerate(("house", "senate")):
+    for i, chamber in enumerate(("house",)):
         sample = [r for r in panel if r["chamber"] == chamber and r["eligible"]]
-        ax = fig.add_axes((0.11 + i * 0.46, 0.22, 0.36, 0.51))
+        ax = fig.add_axes((0.13, 0.22, 0.72, 0.51))
         ax.plot([0, 100], [0, 100], color=MUTED, linewidth=1, linestyle="--", zorder=1)
         ax.scatter(
             [r["presidential_D_two_party_share_pct"] for r in sample],
@@ -87,7 +85,7 @@ def geography(data):
             alpha=0.65,
             linewidths=0,
         )
-        ax.set(xlim=(10, 90), ylim=(10, 100), xlabel="2024 presidential D share (%)")
+        ax.set(xlim=(0, 100), ylim=(0, 100), xlabel="2024 presidential D share (%)")
         if i == 0:
             ax.set_ylabel("2026 congressional D share (%)")
         ax.set_title(f"{chamber.title()}  |  {len(sample)} contests", loc="left", size=12, pad=13)
@@ -110,15 +108,17 @@ def geography(data):
         (
             "The diagonal is a descriptive equal-share reference, not an expected generic "
             "candidate, election forecast, national-wave adjustment or causal candidate effect. "
-            "House geography uses the 2026 congressional map. All 470 contests, including "
-            "the 37 held comparisons, remain in the complete candidate queries."
+            f"House geography uses the 2026 congressional map. All {len(panel)} House "
+            f"contests, including {sum(not r['eligible'] for r in panel)} held comparisons, "
+            "remain in the complete queries. The all-candidate inventory also retains "
+            "same-party candidates and noncandidate aggregate vote choices."
         ),
     )
 
 
 def donor(data):
     labels = {
-        "all_qualified": "All qualified candidates",
+        "all_qualified": "Qualified Democrats",
         "democratic_incumbents": "Democratic incumbents",
         "democratic_nonincumbents": "Democratic nonincumbents",
         "at_least_100_givers": "At least 100 reported givers",
@@ -132,7 +132,7 @@ def donor(data):
     ]
     fig = frame(
         "Donor ideology gives a selected-sample answer",
-        "2026 House association with a 0.5-point more conservative historical donor score. "
+        "2026 Democratic House candidates: a 0.5-point more conservative historical donor score. "
         "These scores describe funding coalitions, not campaign platforms.",
         "DIME v4, activity through 2024; retrospectively acquired. Controls: district lean, "
         "lean squared and known D/R incumbency. 95% pointwise state-cluster sensitivity intervals.",
@@ -141,13 +141,14 @@ def donor(data):
     for y, row in enumerate(rows):
         if row.get("publication_status") != "supported_exploratory":
             ax.text(
-                0.02,
+                0.97,
                 y,
                 "Low support; see CSV",
                 transform=ax.get_yaxis_transform(),
                 va="center",
                 size=9.4,
                 color=MUTED,
+                ha="right",
             )
         elif not interval(ax, row, y):
             ax.text(
@@ -198,7 +199,7 @@ def donor_benchmarks(data):
     ]
     fig = frame(
         "The baseline changes the donor-ideology answer",
-        "2026 House: a 0.5-point more conservative donor score. The lower two rows "
+        "2026 House Democrats: a 0.5-point more conservative donor score. The lower two rows "
         "use exactly the same candidates, isolating the benchmark change.",
         "Outcome: congressional minus presidential D share, converted to margin points. "
         "Identical lean/incumbency specification; 95% pointwise state-cluster sensitivity intervals.",
@@ -307,6 +308,24 @@ def measurements(data):
         ax.set_title(label, loc="left", size=11.4, pad=15)
         ax.set_xlabel("D-minus-R margin association (pp)", size=9.6, labelpad=12)
         tidy(ax)
+    extent = max(
+        1,
+        math.ceil(
+            1.08
+            * max(
+                (
+                    abs(2 * row[key])
+                    for row in rows
+                    for key in ("ci_low", "ci_high")
+                    if row.get(key) is not None
+                ),
+                default=1,
+            )
+        ),
+    )
+    for ax in fig.axes:
+        ax.set_xlim(-extent, extent)
+        ax.xaxis.set_major_locator(MaxNLocator(nbins=5, symmetric=True))
     return (
         fig,
         rows,
@@ -324,15 +343,15 @@ def measurements(data):
 
 def incumbency(data):
     fig = frame(
-        "Incumbency comparisons across six elections",
-        "Democratic incumbents versus nonincumbents, controlling for constituency lean "
+        "House incumbency across six elections",
+        "Democratic House incumbents versus nonincumbents, controlling for district lean "
         "and Republican incumbency. 2026 is the primary election.",
         "Pinned returns and dated federal service evidence. 95% pointwise state-cluster "
         "sensitivity intervals; held or hollow results do not support headline inference.",
     )
     rows = []
-    for i, chamber in enumerate(("house", "senate")):
-        ax = fig.add_axes((0.15 + i * 0.46, 0.23, 0.31, 0.48))
+    for i, chamber in enumerate(("house",)):
+        ax = fig.add_axes((0.22, 0.23, 0.49, 0.48))
         sample = [
             r
             for r in data["traits"]
@@ -343,7 +362,7 @@ def incumbency(data):
             if not interval(ax, row, y, ACCENT if year == 2026 else BLUE):
                 ax.text(0.02, y, "Held", transform=ax.get_yaxis_transform(), va="center", size=9)
             fig.text(
-                0.475 + i * 0.46,
+                0.76,
                 0.23 + 0.48 * (1 - (y + 0.5) / 6),
                 f"n={row['n']}",
                 size=8.6,
@@ -366,7 +385,7 @@ def incumbency(data):
             "Separate annual chamber-specific lean/lean-squared regressions; the cross-year "
             "points are not a paired-candidate or formal trend test. Presidential election "
             "years use same-year presidential benchmarks; midterms use lagged benchmarks. "
-            "Senate estimates frequently have limited support. Unknown incumbency is "
+            "Historical cohorts are not the complete 2026 candidate roster. Unknown incumbency is "
             "not coded as nonincumbency. These are associations, not causal incumbency effects."
         ),
     )
@@ -392,12 +411,13 @@ def caucus(data):
         row = next(r for r in rows if r["year"] == year)
         if not interval(ax, row, y, ACCENT if year == 2026 else BLUE):
             ax.text(
-                0.02,
+                0.97,
                 y,
                 "Roster unavailable" if row["n"] == 0 else "Held",
                 transform=ax.get_yaxis_transform(),
                 va="center",
                 size=10,
+                ha="right",
             )
         group = row["group_support"]
         fig.text(
@@ -434,18 +454,18 @@ def caucus(data):
 
 def coverage(data):
     labels = {
-        "all_named": "All named nominees",
-        "democratic_incumbents": "D incumbents",
-        "democratic_nonincumbents": "D nonincumbents",
-        "unknown_incumbency": "Incumbency unknown",
+        "all_named": "All named candidates",
+        "democrats": "Democrats",
+        "republicans": "Republicans",
+        "other_parties": "Other listed parties",
     }
     rows = [r for r in data["coverage"] if r["cohort"] in labels]
     fig = frame(
-        "New biographies reach far beyond incumbents",
-        "Share of named 2026 Democratic nominees with a source record. A missing record "
+        "A complete roster is not complete candidate data",
+        "Share of all named 2026 House candidates with usable source information. A missing record "
         "does not mean that a candidate lacks a trait or position.",
-        "Biography: independently ID-matched, pre-election campaign-site captures; "
-        "machine-extracted facts require review. Donor scores require consistent names.",
+        "ID/context-qualified campaign captures and historical donor/voting records. "
+        "Biographies are machine-extracted, not verified traits. Unknown is never zero.",
     )
     for i, (key, title) in enumerate(
         (
@@ -456,9 +476,9 @@ def coverage(data):
     ):
         ax = fig.add_axes((0.24 + i * 0.245, 0.24, 0.20, 0.45))
         for y, row in enumerate(rows):
-            count, total = row[key], row["nominees"]
-            percentage = 100 * count / total
-            color = ACCENT if row["cohort"] == "democratic_nonincumbents" else BLUE
+            count, total = row[key], row["candidates"]
+            percentage = 100 * count / total if total else 0
+            color = ACCENT if row["cohort"] == "democrats" else BLUE
             ax.barh(y, percentage, height=0.42, color=color)
             ax.text(
                 percentage + 3 if percentage < 60 else percentage - 3,
@@ -478,12 +498,14 @@ def coverage(data):
         fig,
         rows,
         (
-            "The denominator is 454 named nominees, not 470 contests or just winners. "
-            "183 incumbents, 249 nonincumbents and 22 nominees with unknown incumbency "
-            "sum to that denominator. The new corpus supplies pre-election biography "
-            "records for 147 nonincumbents, versus eight with the older CampaignView "
-            "historical biographies; the datasets have different years and definitions. "
-            "No machine-extracted biography has been promoted into a verified trait or model."
+            f"The denominator is {rows[0]['candidates']} named House candidates across all "
+            "435 districts, not one selected Democrat per district or just winners. "
+            "Aggregate write-in/none-of-the-above choices are retained separately. "
+            "The campaign-site corpus covers Democrats and Republicans; zero third-party "
+            "biographies means no coverage in this source, not no biography or experience. "
+            "Registration-district differences are disclosed; stable FEC IDs can persist "
+            "across district moves. No machine-extracted trait or newly attached score "
+            "has been added to the existing performance models."
         ),
     )
 
@@ -500,63 +522,40 @@ BUILDERS = (
 )
 
 
-def refined_diagnostics(builder, data):
-    fig, rows, caption = builder(data)
-    for ax in fig.axes:
-        for text in ax.texts:
-            if text.get_text() in ("Low support; see CSV", "Roster unavailable", "Held"):
-                text.set_x(0.97)
-                text.set_ha("right")
-    return fig, rows, caption
+def persist_publication(staged, output):
+    files = {path.relative_to(staged) for path in staged.rglob("*") if path.is_file()}
+    output.mkdir(parents=True, exist_ok=True)
+    for name in sorted(files - {Path("manifest.json")}):
+        source, target = staged / name, output / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists() or fingerprint(source) != fingerprint(target):
+            source.replace(target)
+    for folder in ("substack", "marginoferror", "plot-data"):
+        directory = output / folder
+        directory.mkdir(exist_ok=True)
+        for path in directory.iterdir():
+            if path.is_file() and path.relative_to(output) not in files:
+                path.unlink()
+    source, target = staged / "manifest.json", output / "manifest.json"
+    if not target.exists() or fingerprint(source) != fingerprint(target):
+        source.replace(target)
 
 
-def refined_donor(data):
-    return refined_diagnostics(donor, data)
-
-
-def refined_caucus(data):
-    return refined_diagnostics(caucus, data)
-
-
-def refined_measurements(data):
-    fig, rows, caption = measurements(data)
-    extent = max(
-        1,
-        math.ceil(
-            1.08
-            * max(
-                (
-                    abs(2 * row[key])
-                    for row in rows
-                    for key in ("ci_low", "ci_high")
-                    if row.get(key) is not None
-                ),
-                default=1,
-            )
-        ),
-    )
-    for ax in fig.axes:
-        ax.set_xlim(-extent, extent)
-        ax.xaxis.set_major_locator(MaxNLocator(nbins=5, symmetric=True))
-    return fig, rows, caption
-
-
-def build(root=ROOT, output=None, *, version="2026-v4"):
-    if version not in VERSIONS:
-        raise ValueError(f"Unknown figure version: {version}")
+def build(root=ROOT, output=None):
     root = Path(root)
-    output = Path(output) if output else root / "publication" / version
-    with TemporaryDirectory(prefix="which-candidate-charts-") as directory:
+    output = Path(output) if output else root / "publication"
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory(prefix=".which-candidate-charts-", dir=output.parent) as directory:
         staged = Path(directory)
-        result = _build(root, staged, version=version)
-        persist_directory(staged, output)
+        result = _build(root, staged)
+        persist_publication(staged, output)
     return result
 
 
-def _build(root, output, *, version="2026-v4"):
+def _build(root, output):
     output.mkdir(parents=True, exist_ok=True)
     (output / "plot-data").mkdir(exist_ok=True)
-    for directory in ("results/2026-v3/analysis", "results/2026-v4"):
+    for directory in ("results/2026-v3/analysis", "results/2026-v4", "results/house"):
         manifest = json.loads((root / directory / "manifest.json").read_text())
         receipts = manifest.get("files", manifest)
         for name, receipt in receipts.items():
@@ -566,29 +565,20 @@ def _build(root, output, *, version="2026-v4"):
         "panel": read_rows(root / "results/2026-v4/candidate-queries.jsonl.gz"),
         "donor": read_rows(root / "results/2026-v4/donor-fits.jsonl.gz"),
         "measurements": read_rows(root / "results/2026-v4/measurement-fits.jsonl.gz"),
-        "coverage": json.loads((root / "results/2026-v4/coverage.json").read_text()),
+        "coverage": json.loads((root / "results/house/coverage.json").read_text()),
         "traits": read_rows(root / "results/2026-v3/analysis/trait-fits.jsonl.gz"),
         "moderation": read_rows(root / "results/2026-v3/analysis/moderation-fits.jsonl.gz"),
     }
     charts = []
-    refinements = (
-        {
-            "donor-ideology": refined_donor,
-            "caucus-history": refined_caucus,
-            "ideology-measurement": refined_measurements,
-        }
-        if version == "2026-v5"
-        else {}
-    )
     with plt.rc_context(
         {
             **THEME,
-            "svg.hashsalt": f"which-candidate-{version.removeprefix('2026-')}",
+            "svg.hashsalt": "which-candidate-v5",
             "font.size": 11,
         }
     ):
         for name, builder in BUILDERS:
-            fig, rows, caption = refinements.get(name, builder)(data)
+            fig, rows, caption = builder(data)
             scalars = [
                 {k: v for k, v in row.items() if not isinstance(v, (list, dict))} for row in rows
             ]
@@ -627,7 +617,9 @@ def _build(root, output, *, version="2026-v4"):
         output / "manifest.json",
         {
             "target_year": 2026,
-            "version": version,
+            "schema": "which_candidate.publication.v1",
+            "analysis_version": "2026-v4",
+            "chamber": "house",
             "website_publication": "withdrawn",
             "historical_years": list(YEARS[:-1]),
             "charts": charts,
@@ -636,6 +628,7 @@ def _build(root, output, *, version="2026-v4"):
                 for name in (
                     "results/2026-v3/analysis/manifest.json",
                     "results/2026-v4/manifest.json",
+                    "results/house/manifest.json",
                 )
             },
             "files": {
@@ -652,6 +645,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--version", choices=VERSIONS, default="2026-v4")
     args = parser.parse_args()
-    print(f"Built {len(build(args.root, args.output, version=args.version))} redesigned figures")
+    print(f"Built {len(build(args.root, args.output))} current figures")

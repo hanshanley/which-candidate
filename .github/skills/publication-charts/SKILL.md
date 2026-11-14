@@ -78,8 +78,10 @@ The goal is an informative editorial graphic, not a styled statistical dump.
 4. Fix dense labels, unreadable notes, unsupported emphasis and weak comparisons,
    then rerender and inspect again. Do not call a figure beautiful merely
    because it uses the palette.
-   Keep diagnostic text clear of the zero line and data marks. Preserve frozen
-   releases; publish subsequent design changes as a new version.
+   Keep diagnostic text clear of the zero line and data marks. Maintain one
+   current publication folder and current plot bundles; use Git history for
+   superseded graphics, not duplicate versioned plot directories. Preserve
+   analysis inputs and provenance when replacing figures.
 5. Verify the two publication backgrounds preserve all non-background content.
    Read the SVG text as a second check of labels, units and sample sizes.
 6. Deliver complete query/data downloads, not metadata-only packages. Verify

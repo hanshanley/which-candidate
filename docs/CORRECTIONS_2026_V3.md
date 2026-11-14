@@ -1,8 +1,10 @@
 # Post-audit 2026 correction specification
 
 This is an **exploratory amendment after inspecting v2**, not a newly
-preregistered confirmatory analysis. Preserve all bytes in `results/2026/`
-and `publication/2026-v2/`; retain the original audit.
+preregistered confirmatory analysis. The original analysis bytes in
+`results/2026/` and the audit remain preserved. Superseded plots were later
+removed from the checkout; Git history retains them. Current figures and
+downloads are documented in [the publication guide](PUBLICATION.md).
 
 ## Evidence
 
@@ -89,9 +91,10 @@ MAE, RMSE and signed bias alongside same-sample paired lifts. State bootstrap
 intervals resample fixed prediction pairs, are explicitly conditional and
 omit refitting uncertainty; they do not establish calibrated forecasts.
 
-New immutable outputs are `results/2026-v3/` and `publication/2026-v3/`.
-Every figure has complete plotted CSVs, PNG/SVG variants, captions and hashes.
-Both ZIPs include complete normalized selected queries, legislative tables,
+The corrected analysis snapshot is `results/2026-v3/`. Its historical graphics
+are superseded by the single current `publication/` set.
+Every current figure has complete plotted CSVs, PNG/SVG variants, captions and hashes.
+Current ZIPs include complete normalized selected queries, legislative tables,
 model samples/exclusions, residual/deletion/fold records, receipts, code/tests,
 methods and lockfile. Restricted original workbooks/website bodies stay local;
 normalized factual inputs support a network-disabled public replay.

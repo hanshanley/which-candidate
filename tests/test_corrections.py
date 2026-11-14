@@ -205,7 +205,7 @@ def test_coverage_axis_labels_are_actual_elections_not_decimal_years():
     plt.close(fig)
 
 
-def test_frozen_v2_audit_inputs_remain_unchanged():
+def test_historical_analysis_audit_inputs_remain_unchanged():
     import json
 
     from which_candidate.storage import fingerprint
@@ -214,59 +214,20 @@ def test_frozen_v2_audit_inputs_remain_unchanged():
     if not (root / "audits/2026-v2/audit-results.json").exists():
         pytest.skip("Repository-only v2 byte audit; offline packages verify their own manifests")
     audit = json.loads((root / "audits/2026-v2/audit-results.json").read_text())
-    for name, sha256 in audit["input_sha256"].items():
+    retained = {
+        name: sha256
+        for name, sha256 in audit["input_sha256"].items()
+        if not name.startswith("publication/")
+    }
+    assert retained
+    for name, sha256 in retained.items():
         assert fingerprint(root / name)["sha256"] == sha256
-    assert len(audit["input_sha256"]) == 120
 
 
-def test_corrected_release_includes_complete_queries_and_all_plotted_values():
-    import csv
-    import zipfile
-
-    from which_candidate.pipeline import verify_output
+def test_corrected_analysis_retains_the_complete_contest_universe():
     from which_candidate.storage import read_rows
 
     root = Path(__file__).resolve().parents[1]
-    publication = root / "publication/2026-v3"
-    if not (publication / "manifest.json").exists():
-        pytest.skip("Run after freezing the corrected publication")
-    manifest = verify_output(publication)
-    assert manifest["target_year"] == 2026
-    assert manifest["supersedes"] == "2026-v2"
-    assert len(manifest["charts"]) == 9
-    with zipfile.ZipFile(publication / manifest["downloads"]["queries"]) as archive:
-        for folder in ("results/2026-v3/inputs", "results/2026-v3/analysis"):
-            for path in (root / folder).iterdir():
-                assert archive.read(f"{folder}/{path.name}") == path.read_bytes()
-        for chart in manifest["charts"]:
-            with (publication / chart["data"]).open() as stream:
-                assert len(list(csv.DictReader(stream))) == chart["plotted_records"]
     panel = read_rows(root / "results/2026-v3/analysis/candidate-queries.jsonl.gz")
     assert len([r for r in panel if r["year"] == 2026]) == 470
     assert sum(r["eligible"] for r in panel if r["year"] == 2026) == 433
-
-
-def test_corrected_chart_background_conversion_preserves_all_other_pixels():
-    import json
-
-    from matplotlib.colors import to_rgb
-    from PIL import Image
-
-    from which_candidate.publication import BACKGROUNDS
-
-    root = Path(__file__).resolve().parents[1]
-    publication = root / "publication/2026-v3"
-    if not (publication / "manifest.json").exists():
-        pytest.skip("Run after freezing the corrected publication")
-    manifest = json.loads((publication / "manifest.json").read_text())
-    old = np.array([round(v * 255) for v in to_rgb(BACKGROUNDS["substack"])] + [255])
-    new = np.array([round(v * 255) for v in to_rgb(BACKGROUNDS["marginoferror"])] + [255])
-    for chart in manifest["charts"]:
-        with Image.open(publication / chart["files"]["substack"]["png"]) as image:
-            expected = np.array(image.convert("RGBA"))
-        with Image.open(publication / chart["files"]["marginoferror"]["png"]) as image:
-            actual = np.array(image.convert("RGBA"))
-        mask = np.all(expected == old, axis=2)
-        assert mask.any()
-        expected[mask] = new
-        np.testing.assert_array_equal(expected, actual)

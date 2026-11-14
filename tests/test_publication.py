@@ -129,7 +129,18 @@ def test_annual_comparisons_keep_current_fits_and_separate_historical_samples():
 
 
 @pytest.fixture(scope="module")
-def release(tmp_path_factory):
+def legacy_analysis():
+    manifest = json.loads((ANALYSIS / "manifest.json").read_text())
+    if any(
+        Path(name).suffix in (".png", ".svg") and not (ANALYSIS / name).exists()
+        for name in manifest["files"]
+    ):
+        pytest.skip("Legacy image fixtures are intentionally excluded from current-chart downloads")
+    return ANALYSIS
+
+
+@pytest.fixture(scope="module")
+def release(tmp_path_factory, legacy_analysis):
     destination = tmp_path_factory.mktemp("publication") / "2026-v1"
     with pytest.MonkeyPatch.context() as patch:
         patch.setattr(
@@ -137,7 +148,7 @@ def release(tmp_path_factory):
             "connect",
             lambda *args: pytest.fail("Publication generation attempted network access"),
         )
-        manifest = publication.build_publication(ANALYSIS, destination)
+        manifest = publication.build_publication(legacy_analysis, destination)
     return destination, manifest
 
 
@@ -214,7 +225,7 @@ def test_publication_is_byte_reproducible_immutable_and_preserves_analysis(relea
         verify_output(second)
 
 
-def test_non_2026_saved_fit_is_rejected(monkeypatch, tmp_path):
+def test_non_2026_saved_fit_is_rejected(monkeypatch, tmp_path, legacy_analysis):
     def wrong_year(path):
         rows = read_rows(path)
         if path.name == "2026-model-fits.jsonl.gz":
@@ -224,7 +235,7 @@ def test_non_2026_saved_fit_is_rejected(monkeypatch, tmp_path):
 
     monkeypatch.setattr(publication, "read_rows", wrong_year)
     with pytest.raises(ValueError, match="Non-2026 fit"):
-        publication.build_publication(ANALYSIS, tmp_path / "wrong-year")
+        publication.build_publication(legacy_analysis, tmp_path / "wrong-year")
 
 
 def test_site_staging_checks_bytes_and_refuses_overwrites(release, tmp_path):

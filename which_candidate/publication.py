@@ -949,7 +949,12 @@ def stage_site(output, site):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--analysis", type=Path, default=Path("results/2026"))
-    parser.add_argument("--output", type=Path, default=Path("publication/2026-v2"))
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Explicit destination for legacy plots; use rebuild_publication for current figures",
+    )
     parser.add_argument("--stage-site", type=Path)
     args = parser.parse_args()
     manifest = build_publication(args.analysis, args.output)
