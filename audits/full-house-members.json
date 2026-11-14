@@ -1,0 +1,117 @@
+{
+  "scope": "All voting House seats, separate nonvoting seats, and provisional incoming House members",
+  "reviewed_on": "2026-11-14",
+  "coverage_report": "results/members/coverage.json",
+  "output_manifest": "results/members/manifest.json",
+  "seated_house": {
+    "congress": 119,
+    "voting_seats": 435,
+    "named_occupants": 433,
+    "vacancies": 2,
+    "separate_nonvoting_seats": 6,
+    "clerk_roster_as_of": "2026-11-03",
+    "clerk_roster_retrieved_on": "2026-11-13",
+    "clerk_sha256": "84458803178118dd612e41ff119daf2976e59d9f96780d8c794eba52d717711d",
+    "previous_incumbent_election_candidate_subset": 360,
+    "core_biography_and_cutoff_cast_vote_records": 433,
+    "party_unity_scores_at_minimum_50_party_dividing_votes": 431,
+    "substantive_religion_observations": 411,
+    "explicit_unknown_or_refused_religion_responses": 17,
+    "no_acquired_qualified_religion_disclosure": 5,
+    "positive_military_evidence": 80,
+    "positive_Historian_identity_classifications": 119,
+    "prior_118th_Congress_ideology": 360,
+    "historical_CongressData_records": 362
+  },
+  "incoming_house": {
+    "congress": 120,
+    "scheduled_start": "2027-01-03",
+    "voting_seats": 435,
+    "unique_provider_reported_winners": 426,
+    "unresolved_seats": 9,
+    "continuing_members": 319,
+    "returning_former_House_members": 6,
+    "other_reported_winners_prior_federal_service_not_fully_resolved": 101,
+    "acquired_Wikipedia_roster_rows": 113,
+    "selected_winner_roster_matches": 107,
+    "acquired_Wikipedia_infobox_profiles": 34,
+    "selected_winner_Wikipedia_education_fields": 32,
+    "existing_biography_or_reported_prior_background": 426,
+    "missing_exact_date_of_birth": 101,
+    "missing_structured_education": 75,
+    "missing_substantive_religion_observation": 127,
+    "no_current_119th_federal_record_not_zero": 107,
+    "certified_outcomes_claimed": false,
+    "newcomer_biographies_claimed_complete": false
+  },
+  "CongressData": {
+    "deposit_DOI": "10.6084/m9.figshare.28146914",
+    "source_rows": 67661,
+    "source_columns": 1045,
+    "source_years": [1789, 2024],
+    "latest_matched_member_rows_exported": 368,
+    "all_native_columns_preserved": true,
+    "publisher_size_and_MD5_verified": true,
+    "source_sha256": "44a5c05bcd359dff0d5cdae552ac74854d2eee4cd7dd21cb6a7ea8787f783a07",
+    "codebook_sha256": "791d5fae41bb2cc034ce3b1e8cf18b98afa125a449ff1a1257e6c4dabb66be24",
+    "codebook_qualification": "Current v3 codebook and the paper deposit have separate vintages; export only actual native columns.",
+    "source_receipts": "data/congressdata-sources.json",
+    "native_reader_versions": "data/congressdata-members.json#acquisition_reader",
+    "current_2026_beliefs_inferred": false
+  },
+  "findings_and_repairs": [
+    {
+      "finding": "The 360 incumbent election candidates were not the entire sitting House.",
+      "repair": "Build a separate Clerk-seat roster, qualify every occupant by stable Bioguide and dated state/House service, retain two explicit vacancies, and separate six nonvoting seats."
+    },
+    {
+      "finding": "Core background gaps remained outside the candidate subset.",
+      "repair": "Extend the official directory and stable-ID sources to all 433 occupants; acquire Blair's Historian biography and Crenshaw's official career biography."
+    },
+    {
+      "finding": "Recent service crosswalks omitted some returning members and nickname forms.",
+      "repair": "Qualify source-recorded aliases and full historical service crosswalks; recover six former members and Bob Onder. Preserve state, party and identity guards; reject ambiguity."
+    },
+    {
+      "finding": "A similarly named Wikipedia article can identify the wrong person.",
+      "repair": "Follow actual district-roster links, not guessed article titles; retain uncertain birth-year literals and hold conflicting birth years. Add regression tests."
+    },
+    {
+      "finding": "Provider winner flags and dated new-member articles are not certified final rosters.",
+      "repair": "Keep all 435 incoming seats and unresolved outcomes, retain independent provider clocks and Quorum's November 12 caveats, and do not manufacture a federal voting record for newcomers."
+    },
+    {
+      "finding": "A source catalog and a current codebook do not establish acquired historical variable coverage.",
+      "repair": "Acquire the authors' licensed native CongressData deposit, verify its published checksum, measure its actual rows and columns, and preserve the source vintage and all native variables."
+    },
+    {
+      "finding": "Religion and military-service coverage cannot be completed by treating proxies or omissions as facts.",
+      "repair": "Retain unknown/refused and no-disclosure statuses separately, record unsuccessful disclosure searches, and never turn military-source absence into nonservice."
+    }
+  ],
+  "source_accounting": {
+    "additional_downloaded_or_cached_member_originals": 38,
+    "failed_member_requests_retained": 78,
+    "member_source_receipts": "data/house-member-sources.json",
+    "CongressData_original_receipts": 5,
+    "additional_disclosure_search": "data/full-house-disclosure-search.json",
+    "failed_requests_bypassed": false,
+    "discovery_pages_counted_as_acquired_member_profiles": false
+  },
+  "invariants": {
+    "new_biographies_model_ready": false,
+    "historical_models_refitted": false,
+    "religion_or_race_inferred": false,
+    "missing_military_evidence_labeled_nonservice": false,
+    "newcomer_federal_ideology_imputed_zero": false,
+    "website_republished": false,
+    "full_release_verification": "audits/publication.json records checkout tests, extracted offline replay and final archive receipts without an archive-hash cycle."
+  },
+  "remaining_limitations": [
+    "This is the pinned November 3 Clerk population, retrieved November 13, not a live November 14 membership claim.",
+    "Dated religion responses and historical CongressData variables are not verified current beliefs.",
+    "Incoming member calls remain provisional, with nine unresolved seats and incomplete individual newcomer traits.",
+    "Wikipedia individual-page rate limits and Inside Elections' HTTP 403 prevented further acquisition; the failures are preserved.",
+    "New background and campaign-extracted evidence remains descriptive/model-ineligible; frozen candidate-performance results and their original sample sizes are unchanged."
+  ]
+}

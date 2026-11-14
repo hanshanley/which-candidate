@@ -119,7 +119,122 @@ Wikidata query endpoint returned HTTP 403. Neither was bypassed, acquired as a
 usable candidate database, or counted as background evidence. Source receipts
 record actual successes and failures rather than treating a catalog as data.
 
-## Every qualified incumbent
+## Full House membership and incoming members
+
+The previous 360-person table was an **incumbent-election-candidate subset**,
+not the House membership roster. `results/members/house-119-seats.csv` now
+accounts for **all 435 voting seats**: 433 named occupants, plus vacancies in
+FL-20 and TX-23. Vacancies retain predecessor identifiers and source-recorded
+vacate dates, never fabricated current members. The Clerk source is dated
+**November 3, 2026**, retrieved November 13; these are different clocks.
+`house-119-delegates.csv` separately retains six nonvoting delegate/Resident
+Commissioner seats and does not inflate the 435-seat denominator.
+
+| Information | Named voting-seat occupants with observations |
+| --- | ---: |
+| Age, source-recorded gender, first service, birth, education and career | 433 each |
+| Cutoff-only 119th-Congress cast-vote record | 433 |
+| Current party-unity score, subject to the 50-vote threshold | 431 |
+| Substantive reported religion | 411 |
+| Explicit unknown/refused religious response | 17 |
+| No acquired qualified religious disclosure | 5 |
+| Positive military-service evidence | 80 |
+| Positive official Historian identity classifications | 119 |
+| Prior 118th-Congress ideology | 360 |
+| Historical CongressData member-year record | 362 |
+
+Blair's official Historian biography fills birth, education and career gaps;
+Crenshaw's official biography supplies his Navy SEAL career. Stable-ID
+crosswalk names and published article-title aliases recover existing religion
+questionnaire observations without guessing nicknames from names alone.
+Of the 411 substantive religion observations, 405 are dated office responses,
+two dated public self-descriptions and four undated public self-descriptions.
+The five unresolved disclosures are Everton Blair, Adelita Grijalva,
+Analilia Mejia, Christian Menefee and James Walkinshaw. Upbringing, an oath
+and religious-liberty statements do not establish an individual's current
+affiliation. A missing military section never means nonservice.
+
+`house-120-seats.csv` is a **separate provisional incoming roster**, scheduled
+to begin January 3, 2027. It retains all 435 seats, including nine without a
+unique provider-reported winner. The 426 native winner flags comprise
+319 continuing members, six returning former members and 101 other reported
+winners whose prior federal service is not independently established.
+The six returning members are Jerry Carl, Hilda Solis, Melissa Bean,
+Colin Allred, Ben McAdams and Elaine Luria. Full historical Congress Legislators
+crosswalks, including earlier service absent from the election panel, qualify
+these joins. Bob Onder is correctly linked to his seated stable identity,
+not misclassified as a first-time member. Continuing-member evidence follows
+the Bioguide ID even when the district changes.
+
+All 426 reported winners have an existing biography or a short secondary
+prior-background summary. This is **not complete newcomer education, religion,
+age or verified career coverage**. Wikipedia supplies 113 district-qualified
+new-member rows, of which 107 join the selected provisional winners, and
+34 acquired infobox profiles. Only 32 selected-winner rows have Wikipedia
+education fields. Rate limits prevented further individual-page acquisition;
+failures remain recorded and are not bypassed or counted as profiles.
+Uncertain birth years remain literal ranges, not exact birthdays.
+Infobox race/religion labels are not treated as self-identification.
+Campaign extractions remain separately marked as requiring review.
+
+Quorum's snapshot explicitly dated November 12 reports 13 listed House seats
+as uncalled; the provider's separate clocks and any winner flags are retained
+alongside that caveat. The older article does not automatically override a
+later snapshot, and neither is promoted to certification or a verified call
+timestamp. Inside Elections returned HTTP 403 to acquisition: its catalog
+page does not contribute invented member records.
+
+`background-observations.csv` supplies source-qualified factual member fields
+and separately labeled secondary/machine-extracted incoming evidence.
+`missing-fields.csv` covers seated members; `incoming-missing-fields.csv`
+retains unresolved seats, exact-birth/education/religion gaps and the
+inapplicability of current federal votes for newcomers. Federal nonservice
+does not become an ideology score of zero.
+
+### Actually acquired CongressData, not only a catalog entry
+
+The authors' openly licensed Figshare deposit was downloaded and checked against
+its published checksum. Its actual file has **67,661 member-years, 1,045
+variables and years 1789-2024**, rather than assuming the current website's
+larger variable count applies to this deposited vintage.
+`congressdata-latest.csv` retains every native column for the latest available
+historical row of 368 matched people: 362 seated occupants and six returning
+former members. Their source years remain explicit. No historical variable
+is silently substituted for current religion, race, nonservice or ideology.
+
+The included `congressdata-codebook.json` supplies the acquired v3 codebook text,
+attribution and source receipts. **The current v3 codebook and the paper's
+deposit are separate vintages**; only variables actually present in the
+downloaded file are exported. Cite Grossmann, Lucas and Yoel (2025),
+*Introducing CongressData and Correlates of State Policy*, Scientific Data
+12:1185, DOI 10.1038/s41597-025-05495-7, and each used variable's original
+source. Deposit DOI: 10.6084/m9.figshare.28146914; data license CC BY 4.0.
+The codebook is distributed in the upstream GPL-3 CongressData package,
+separately from that deposit. Its package declaration and full GPL text
+are included in `congressdata-codebook.json`; the licenses are not conflated.
+CRS's congressional profile remains useful aggregate context, not an acquired
+member-level database. Vote Smart's questionnaire requires approved access;
+no unauthorized access or imaginary complete questionnaire panel is claimed.
+
+Offline reproduction of these member tables uses the included normalized data,
+without R, the original caches or the optional acquisition reader:
+
+```bash
+.venv/bin/python -m which_candidate.house_members
+```
+
+Fresh acquisition additionally requires the older source caches described above
+and the optional reader (`pip install -e '.[acquisition]'`, Python 3.11+):
+
+```bash
+.venv/bin/python -m which_candidate.house_members --acquire
+.venv/bin/python -m which_candidate.congress_data
+```
+
+These are descriptive additions. All historical performance-model outputs
+remain unchanged, and website publication remains withdrawn.
+
+## Every qualified incumbent election candidate
 
 `incumbents.csv` contains **360 independently qualified incumbent candidate
 records**: 183 Democrats, 176 Republicans and one native No Party Preference

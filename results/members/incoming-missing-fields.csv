@@ -1,0 +1,420 @@
+congress,seat_id,field,status,member_id,candidate_id,name
+120,AK:AL,member_identity,no_unique_provider_winner; unresolved,,,
+120,AL:01,religion_literal,no_qualified_disclosure,C001054,219724,Jerry Carl
+120,AL:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,C001054,219724,Jerry Carl
+120,AZ:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219764,219764,Amish Shah
+120,AZ:01,religion_literal,no_qualified_disclosure,candidate:219764,219764,Amish Shah
+120,AZ:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219764,219764,Amish Shah
+120,AZ:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219781,219781,Mark Lamb
+120,AZ:05,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:219781,219781,Mark Lamb
+120,AZ:05,religion_literal,no_qualified_disclosure,candidate:219781,219781,Mark Lamb
+120,AZ:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219781,219781,Mark Lamb
+120,AZ:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219782,219782,JoAnna Mendoza
+120,AZ:06,religion_literal,no_qualified_disclosure,candidate:219782,219782,JoAnna Mendoza
+120,AZ:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219782,219782,JoAnna Mendoza
+120,AZ:07,religion_literal,no_qualified_disclosure,G000606,219787,Adelita Grijalva
+120,CA:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219889,219889,Mike McGuire
+120,CA:01,religion_literal,no_qualified_disclosure,candidate:219889,219889,Mike McGuire
+120,CA:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219889,219889,Mike McGuire
+120,CA:04,member_identity,no_unique_provider_winner; unresolved,,,
+120,CA:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219965,219965,Richard Pan
+120,CA:06,religion_literal,no_qualified_disclosure,candidate:219965,219965,Richard Pan
+120,CA:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219965,219965,Richard Pan
+120,CA:11,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219872,219872,Scott Wiener
+120,CA:11,religion_literal,no_qualified_disclosure,candidate:219872,219872,Scott Wiener
+120,CA:11,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219872,219872,Scott Wiener
+120,CA:13,religion_literal,explicit_unknown_or_refused,G000605,219875,Adam Gray
+120,CA:22,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219895,219895,Randy Villegas
+120,CA:22,religion_literal,no_qualified_disclosure,candidate:219895,219895,Randy Villegas
+120,CA:22,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219895,219895,Randy Villegas
+120,CA:26,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219903,219903,Jacqui Irwin
+120,CA:26,religion_literal,no_qualified_disclosure,candidate:219903,219903,Jacqui Irwin
+120,CA:26,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219903,219903,Jacqui Irwin
+120,CA:34,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219922,219922,Angela Gonzales-Torres
+120,CA:34,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:219922,219922,Angela Gonzales-Torres
+120,CA:34,religion_literal,no_qualified_disclosure,candidate:219922,219922,Angela Gonzales-Torres
+120,CA:34,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219922,219922,Angela Gonzales-Torres
+120,CA:38,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,S001153,219929,Hilda Solis
+120,CA:38,religion_literal,no_qualified_disclosure,S001153,219929,Hilda Solis
+120,CA:38,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,S001153,219929,Hilda Solis
+120,CA:48,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219951,219951,Marni von Wilpert
+120,CA:48,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:219951,219951,Marni von Wilpert
+120,CA:48,religion_literal,no_qualified_disclosure,candidate:219951,219951,Marni von Wilpert
+120,CA:48,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219951,219951,Marni von Wilpert
+120,CO:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219973,219973,Melat Kiros
+120,CO:01,religion_literal,no_qualified_disclosure,candidate:219973,219973,Melat Kiros
+120,CO:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219973,219973,Melat Kiros
+120,CO:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219986,219986,Eileen Laubacher
+120,CO:04,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:219986,219986,Eileen Laubacher
+120,CO:04,religion_literal,no_qualified_disclosure,candidate:219986,219986,Eileen Laubacher
+120,CO:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219986,219986,Eileen Laubacher
+120,CO:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:219990,219990,Jessica Killin
+120,CO:05,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:219990,219990,Jessica Killin
+120,CO:05,religion_literal,no_qualified_disclosure,candidate:219990,219990,Jessica Killin
+120,CO:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:219990,219990,Jessica Killin
+120,CO:07,religion_literal,explicit_unknown_or_refused,P000620,220000,Brittany Pettersen
+120,CO:08,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220006,220006,Manny Rutinel
+120,CO:08,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220006,220006,Manny Rutinel
+120,CO:08,religion_literal,no_qualified_disclosure,candidate:220006,220006,Manny Rutinel
+120,CO:08,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220006,220006,Manny Rutinel
+120,CT:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220035,220035,Luke Bronin
+120,CT:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220035,220035,Luke Bronin
+120,CT:01,religion_literal,no_qualified_disclosure,candidate:220035,220035,Luke Bronin
+120,CT:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220035,220035,Luke Bronin
+120,FL:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220081,220081,Austin Rogers
+120,FL:02,religion_literal,no_qualified_disclosure,candidate:220081,220081,Austin Rogers
+120,FL:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220081,220081,Austin Rogers
+120,FL:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220095,220095,Ryan Elijah
+120,FL:07,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220095,220095,Ryan Elijah
+120,FL:07,religion_literal,no_qualified_disclosure,candidate:220095,220095,Ryan Elijah
+120,FL:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220095,220095,Ryan Elijah
+120,FL:11,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220103,220103,Joe Strada
+120,FL:11,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220103,220103,Joe Strada
+120,FL:11,religion_literal,no_qualified_disclosure,candidate:220103,220103,Joe Strada
+120,FL:11,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220103,220103,Joe Strada
+120,FL:16,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220116,220116,Sydney Gruters
+120,FL:16,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220116,220116,Sydney Gruters
+120,FL:16,religion_literal,no_qualified_disclosure,candidate:220116,220116,Sydney Gruters
+120,FL:16,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220116,220116,Sydney Gruters
+120,FL:19,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220126,220126,Jim Schwartzel
+120,FL:19,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220126,220126,Jim Schwartzel
+120,FL:19,religion_literal,no_qualified_disclosure,candidate:220126,220126,Jim Schwartzel
+120,FL:19,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220126,220126,Jim Schwartzel
+120,FL:22,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220135,220135,Pia Dandiya
+120,FL:22,religion_literal,no_qualified_disclosure,candidate:220135,220135,Pia Dandiya
+120,FL:22,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220135,220135,Pia Dandiya
+120,FL:24,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220139,220139,Oliver Gilbert
+120,FL:24,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220139,220139,Oliver Gilbert
+120,FL:24,religion_literal,no_qualified_disclosure,candidate:220139,220139,Oliver Gilbert
+120,FL:24,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220139,220139,Oliver Gilbert
+120,GA:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220171,220171,Jim Kingston
+120,GA:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220171,220171,Jim Kingston
+120,GA:01,religion_literal,no_qualified_disclosure,candidate:220171,220171,Jim Kingston
+120,GA:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220171,220171,Jim Kingston
+120,GA:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220189,220189,Houston Gaines
+120,GA:10,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220189,220189,Houston Gaines
+120,GA:10,religion_literal,no_qualified_disclosure,candidate:220189,220189,Houston Gaines
+120,GA:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220189,220189,Houston Gaines
+120,GA:11,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220191,220191,John Cowan
+120,GA:11,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220191,220191,John Cowan
+120,GA:11,religion_literal,no_qualified_disclosure,candidate:220191,220191,John Cowan
+120,GA:11,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220191,220191,John Cowan
+120,GA:13,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220195,220195,Jasmine Clark
+120,GA:13,religion_literal,no_qualified_disclosure,candidate:220195,220195,Jasmine Clark
+120,GA:13,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220195,220195,Jasmine Clark
+120,IA:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220344,220344,Christina Bohannan
+120,IA:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220344,220344,Christina Bohannan
+120,IA:01,religion_literal,no_qualified_disclosure,candidate:220344,220344,Christina Bohannan
+120,IA:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220344,220344,Christina Bohannan
+120,IA:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220347,220347,Lindsay James
+120,IA:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220347,220347,Lindsay James
+120,IA:02,religion_literal,no_qualified_disclosure,candidate:220347,220347,Lindsay James
+120,IA:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220347,220347,Lindsay James
+120,IA:03,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220351,220351,Sarah Trone Garriott
+120,IA:03,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220351,220351,Sarah Trone Garriott
+120,IA:03,religion_literal,no_qualified_disclosure,candidate:220351,220351,Sarah Trone Garriott
+120,IA:03,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220351,220351,Sarah Trone Garriott
+120,IA:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220352,220352,Chris McGowan
+120,IA:04,religion_literal,no_qualified_disclosure,candidate:220352,220352,Chris McGowan
+120,IA:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220352,220352,Chris McGowan
+120,IL:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220265,220265,Donna Miller
+120,IL:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220265,220265,Donna Miller
+120,IL:02,religion_literal,no_qualified_disclosure,candidate:220265,220265,Donna Miller
+120,IL:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220265,220265,Donna Miller
+120,IL:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220269,220269,Patty Garcia
+120,IL:04,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220269,220269,Patty Garcia
+120,IL:04,religion_literal,no_qualified_disclosure,candidate:220269,220269,Patty Garcia
+120,IL:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220269,220269,Patty Garcia
+120,IL:06,religion_literal,explicit_unknown_or_refused,C001117,220275,Sean Casten
+120,IL:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220277,220277,La Shawn Ford
+120,IL:07,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220277,220277,La Shawn Ford
+120,IL:07,religion_literal,no_qualified_disclosure,candidate:220277,220277,La Shawn Ford
+120,IL:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220277,220277,La Shawn Ford
+120,IL:08,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,B001253,220279,Melissa Bean
+120,IL:08,religion_literal,no_qualified_disclosure,B001253,220279,Melissa Bean
+120,IL:08,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,B001253,220279,Melissa Bean
+120,IL:09,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220281,220281,Daniel K. Biss
+120,IL:09,religion_literal,no_qualified_disclosure,candidate:220281,220281,Daniel K. Biss
+120,IL:09,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220281,220281,Daniel K. Biss
+120,IL:11,religion_literal,explicit_unknown_or_refused,F000454,220285,Bill Foster
+120,IL:13,religion_literal,explicit_unknown_or_refused,B001315,220289,Nikki Budzinski
+120,IN:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220322,220322,J. D. Ford
+120,IN:05,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220322,220322,J. D. Ford
+120,IN:05,religion_literal,no_qualified_disclosure,candidate:220322,220322,J. D. Ford
+120,IN:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220322,220322,J. D. Ford
+120,KS:03,religion_literal,explicit_unknown_or_refused,D000629,220375,Sharice Davids
+120,KY:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220403,220403,Ed Gallrein
+120,KY:04,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220403,220403,Ed Gallrein
+120,KY:04,religion_literal,no_qualified_disclosure,candidate:220403,220403,Ed Gallrein
+120,KY:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220403,220403,Ed Gallrein
+120,KY:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220412,220412,Zach Dembo
+120,KY:06,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220412,220412,Zach Dembo
+120,KY:06,religion_literal,no_qualified_disclosure,candidate:220412,220412,Zach Dembo
+120,KY:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220412,220412,Zach Dembo
+120,LA:05,member_identity,no_unique_provider_winner; unresolved,,,
+120,LA:06,member_identity,no_unique_provider_winner; unresolved,,,
+120,MA:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220751,220751,Dan Koh
+120,MA:06,religion_literal,no_qualified_disclosure,candidate:220751,220751,Dan Koh
+120,MA:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220751,220751,Dan Koh
+120,MD:03,religion_literal,explicit_unknown_or_refused,E000301,220479,Sarah Elfreth
+120,MD:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220484,220484,Adrian Boafo
+120,MD:05,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220484,220484,Adrian Boafo
+120,MD:05,religion_literal,no_qualified_disclosure,candidate:220484,220484,Adrian Boafo
+120,MD:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220484,220484,Adrian Boafo
+120,ME:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220469,220469,Paul LePage
+120,ME:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220469,220469,Paul LePage
+120,ME:02,religion_literal,no_qualified_disclosure,candidate:220469,220469,Paul LePage
+120,ME:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220469,220469,Paul LePage
+120,MI:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220516,220516,Sean McCann
+120,MI:04,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220516,220516,Sean McCann
+120,MI:04,religion_literal,no_qualified_disclosure,candidate:220516,220516,Sean McCann
+120,MI:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220516,220516,Sean McCann
+120,MI:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220530,220530,William Lawrence
+120,MI:07,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220530,220530,William Lawrence
+120,MI:07,religion_literal,no_qualified_disclosure,candidate:220530,220530,William Lawrence
+120,MI:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220530,220530,William Lawrence
+120,MI:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220544,220544,Christina Hines
+120,MI:10,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220544,220544,Christina Hines
+120,MI:10,religion_literal,no_qualified_disclosure,candidate:220544,220544,Christina Hines
+120,MI:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220544,220544,Christina Hines
+120,MI:11,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220549,220549,Jeremy Moss
+120,MI:11,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220549,220549,Jeremy Moss
+120,MI:11,religion_literal,no_qualified_disclosure,candidate:220549,220549,Jeremy Moss
+120,MI:11,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220549,220549,Jeremy Moss
+120,MI:13,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220559,220559,Donavan McKinney
+120,MI:13,religion_literal,no_qualified_disclosure,candidate:220559,220559,Donavan McKinney
+120,MI:13,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220559,220559,Donavan McKinney
+120,MN:01,member_identity,no_unique_provider_winner; unresolved,,,
+120,MN:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220599,220599,Matt Little
+120,MN:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220599,220599,Matt Little
+120,MN:02,religion_literal,no_qualified_disclosure,candidate:220599,220599,Matt Little
+120,MN:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220599,220599,Matt Little
+120,MO:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220646,220646,Fred Wellman
+120,MO:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220646,220646,Fred Wellman
+120,MO:02,religion_literal,no_qualified_disclosure,candidate:220646,220646,Fred Wellman
+120,MO:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220646,220646,Fred Wellman
+120,MO:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220657,220657,Chris Stigall
+120,MO:06,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220657,220657,Chris Stigall
+120,MO:06,religion_literal,no_qualified_disclosure,candidate:220657,220657,Chris Stigall
+120,MO:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220657,220657,Chris Stigall
+120,MT:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220674,220674,Sam Forstag
+120,MT:01,religion_literal,no_qualified_disclosure,candidate:220674,220674,Sam Forstag
+120,MT:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220674,220674,Sam Forstag
+120,NC:03,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220904,220904,Raymond Smith Jr.
+120,NC:03,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220904,220904,Raymond Smith Jr.
+120,NC:03,religion_literal,no_qualified_disclosure,candidate:220904,220904,Raymond Smith Jr.
+120,NC:03,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220904,220904,Raymond Smith Jr.
+120,NC:05,member_identity,no_unique_provider_winner; unresolved,,,
+120,NC:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220913,220913,Cyril Jefferson
+120,NC:06,religion_literal,no_qualified_disclosure,candidate:220913,220913,Cyril Jefferson
+120,NC:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220913,220913,Cyril Jefferson
+120,NC:07,member_identity,no_unique_provider_winner; unresolved,,,
+120,NC:09,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220921,220921,Richard Ojeda
+120,NC:09,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220921,220921,Richard Ojeda
+120,NC:09,religion_literal,no_qualified_disclosure,candidate:220921,220921,Richard Ojeda
+120,NC:09,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220921,220921,Richard Ojeda
+120,NC:10,member_identity,no_unique_provider_winner; unresolved,,,
+120,NC:11,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220925,220925,Jamie Ager
+120,NC:11,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220925,220925,Jamie Ager
+120,NC:11,religion_literal,no_qualified_disclosure,candidate:220925,220925,Jamie Ager
+120,NC:11,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220925,220925,Jamie Ager
+120,NC:13,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220931,220931,Paul Barringer
+120,NC:13,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220931,220931,Paul Barringer
+120,NC:13,religion_literal,no_qualified_disclosure,candidate:220931,220931,Paul Barringer
+120,NC:13,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220931,220931,Paul Barringer
+120,NC:14,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220933,220933,Lakesha Womack
+120,NC:14,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220933,220933,Lakesha Womack
+120,NC:14,religion_literal,no_qualified_disclosure,candidate:220933,220933,Lakesha Womack
+120,NC:14,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220933,220933,Lakesha Womack
+120,NE:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220695,220695,Denise  Powell
+120,NE:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220695,220695,Denise  Powell
+120,NE:02,religion_literal,no_qualified_disclosure,candidate:220695,220695,Denise  Powell
+120,NE:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220695,220695,Denise  Powell
+120,NH:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220774,220774,Stefany Shaheen
+120,NH:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220774,220774,Stefany Shaheen
+120,NH:01,religion_literal,no_qualified_disclosure,candidate:220774,220774,Stefany Shaheen
+120,NH:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220774,220774,Stefany Shaheen
+120,NJ:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220797,220797,Zack Mullock
+120,NJ:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220797,220797,Zack Mullock
+120,NJ:02,religion_literal,no_qualified_disclosure,candidate:220797,220797,Zack Mullock
+120,NJ:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220797,220797,Zack Mullock
+120,NJ:03,religion_literal,explicit_unknown_or_refused,C001136,220799,Herb Conaway
+120,NJ:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220811,220811,Rebecca Bennett
+120,NJ:07,religion_literal,no_qualified_disclosure,candidate:220811,220811,Rebecca Bennett
+120,NJ:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220811,220811,Rebecca Bennett
+120,NJ:11,religion_literal,no_qualified_disclosure,M001246,220822,Analilia Mejia
+120,NJ:12,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220825,220825,Adam Hamawy
+120,NJ:12,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220825,220825,Adam Hamawy
+120,NJ:12,religion_literal,no_qualified_disclosure,candidate:220825,220825,Adam Hamawy
+120,NJ:12,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220825,220825,Adam Hamawy
+120,NM:01,religion_literal,explicit_unknown_or_refused,S001218,220785,Melanie Stansbury
+120,NV:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220715,220715,Teresa Benitez-Thompson
+120,NV:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220715,220715,Teresa Benitez-Thompson
+120,NV:02,religion_literal,no_qualified_disclosure,candidate:220715,220715,Teresa Benitez-Thompson
+120,NV:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220715,220715,Teresa Benitez-Thompson
+120,NY:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220844,220844,Claire Valdez
+120,NY:07,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220844,220844,Claire Valdez
+120,NY:07,religion_literal,no_qualified_disclosure,candidate:220844,220844,Claire Valdez
+120,NY:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220844,220844,Claire Valdez
+120,NY:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220851,220851,Brad Lander
+120,NY:10,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220851,220851,Brad Lander
+120,NY:10,religion_literal,no_qualified_disclosure,candidate:220851,220851,Brad Lander
+120,NY:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220851,220851,Brad Lander
+120,NY:12,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220855,220855,Micah Lasher
+120,NY:12,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220855,220855,Micah Lasher
+120,NY:12,religion_literal,no_qualified_disclosure,candidate:220855,220855,Micah Lasher
+120,NY:12,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220855,220855,Micah Lasher
+120,NY:13,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220859,220859,Darializa Avila Chevalier
+120,NY:13,religion_literal,no_qualified_disclosure,candidate:220859,220859,Darializa Avila Chevalier
+120,NY:13,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220859,220859,Darializa Avila Chevalier
+120,NY:17,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220870,220870,Cait Conley
+120,NY:17,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220870,220870,Cait Conley
+120,NY:17,religion_literal,no_qualified_disclosure,candidate:220870,220870,Cait Conley
+120,NY:17,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220870,220870,Cait Conley
+120,NY:19,religion_literal,explicit_unknown_or_refused,R000622,220874,Josh Riley
+120,NY:21,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220879,220879,Anthony Constantino
+120,NY:21,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220879,220879,Anthony Constantino
+120,NY:21,religion_literal,no_qualified_disclosure,candidate:220879,220879,Anthony Constantino
+120,NY:21,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220879,220879,Anthony Constantino
+120,OH:02,religion_literal,explicit_unknown_or_refused,T000490,220951,David J. Taylor
+120,OH:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220965,220965,Brian Poindexter
+120,OH:07,religion_literal,no_qualified_disclosure,candidate:220965,220965,Brian Poindexter
+120,OH:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220965,220965,Brian Poindexter
+120,OH:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220971,220971,Kristina Knickerbocker
+120,OH:10,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220971,220971,Kristina Knickerbocker
+120,OH:10,religion_literal,no_qualified_disclosure,candidate:220971,220971,Kristina Knickerbocker
+120,OH:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220971,220971,Kristina Knickerbocker
+120,OH:15,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:220986,220986,Don Leonard
+120,OH:15,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:220986,220986,Don Leonard
+120,OH:15,religion_literal,no_qualified_disclosure,candidate:220986,220986,Don Leonard
+120,OH:15,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:220986,220986,Don Leonard
+120,OK:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221332,221332,Mark Tedford
+120,OK:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221332,221332,Mark Tedford
+120,OK:01,religion_literal,no_qualified_disclosure,candidate:221332,221332,Mark Tedford
+120,OK:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221332,221332,Mark Tedford
+120,OR:03,religion_literal,explicit_unknown_or_refused,D000635,221003,Maxine Dexter
+120,PA:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221015,221015,Bob Harvie
+120,PA:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221015,221015,Bob Harvie
+120,PA:01,religion_literal,no_qualified_disclosure,candidate:221015,221015,Bob Harvie
+120,PA:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221015,221015,Bob Harvie
+120,PA:03,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221019,221019,Chris Rabb
+120,PA:03,religion_literal,no_qualified_disclosure,candidate:221019,221019,Chris Rabb
+120,PA:03,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221019,221019,Chris Rabb
+120,PA:06,religion_literal,explicit_unknown_or_refused,H001085,221025,Chrissy Houlahan
+120,PA:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221027,221027,Bob Brooks
+120,PA:07,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221027,221027,Bob Brooks
+120,PA:07,religion_literal,no_qualified_disclosure,candidate:221027,221027,Bob Brooks
+120,PA:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221027,221027,Bob Brooks
+120,PA:08,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221029,221029,Paige Cognetti
+120,PA:08,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221029,221029,Paige Cognetti
+120,PA:08,religion_literal,no_qualified_disclosure,candidate:221029,221029,Paige Cognetti
+120,PA:08,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221029,221029,Paige Cognetti
+120,PA:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221033,221033,Janelle Stelson
+120,PA:10,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221033,221033,Janelle Stelson
+120,PA:10,religion_literal,no_qualified_disclosure,candidate:221033,221033,Janelle Stelson
+120,PA:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221033,221033,Janelle Stelson
+120,RI:02,religion_literal,explicit_unknown_or_refused,M001223,221055,Seth Magaziner
+120,SC:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221073,221073,Nancy Lacore
+120,SC:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221073,221073,Nancy Lacore
+120,SC:01,religion_literal,no_qualified_disclosure,candidate:221073,221073,Nancy Lacore
+120,SC:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221073,221073,Nancy Lacore
+120,SC:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221084,221084,Wes Climer
+120,SC:05,religion_literal,no_qualified_disclosure,candidate:221084,221084,Wes Climer
+120,SC:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221084,221084,Wes Climer
+120,SD:AL,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221166,221166,Marty Jackley
+120,SD:AL,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221166,221166,Marty Jackley
+120,SD:AL,religion_literal,no_qualified_disclosure,candidate:221166,221166,Marty Jackley
+120,SD:AL,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221166,221166,Marty Jackley
+120,TN:04,member_identity,no_unique_provider_winner; unresolved,,,
+120,TN:05,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221180,221180,Charlie Hatcher
+120,TN:05,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221180,221180,Charlie Hatcher
+120,TN:05,religion_literal,no_qualified_disclosure,candidate:221180,221180,Charlie Hatcher
+120,TN:05,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221180,221180,Charlie Hatcher
+120,TN:06,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221182,221182,Johnny Garrett
+120,TN:06,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221182,221182,Johnny Garrett
+120,TN:06,religion_literal,no_qualified_disclosure,candidate:221182,221182,Johnny Garrett
+120,TN:06,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221182,221182,Johnny Garrett
+120,TN:09,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221189,221189,Brent Taylor
+120,TN:09,religion_literal,no_qualified_disclosure,candidate:221189,221189,Brent Taylor
+120,TN:09,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221189,221189,Brent Taylor
+120,TX:02,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221100,221100,Steve Toth
+120,TX:02,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221100,221100,Steve Toth
+120,TX:02,religion_literal,no_qualified_disclosure,candidate:221100,221100,Steve Toth
+120,TX:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221100,221100,Steve Toth
+120,TX:08,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:140476,140476,Jessica Steinmann
+120,TX:08,religion_literal,no_qualified_disclosure,candidate:140476,140476,Jessica Steinmann
+120,TX:08,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:140476,140476,Jessica Steinmann
+120,TX:09,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221110,221110,Leticia Gutierrez
+120,TX:09,religion_literal,no_qualified_disclosure,candidate:221110,221110,Leticia Gutierrez
+120,TX:09,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221110,221110,Leticia Gutierrez
+120,TX:10,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:140478,140478,Chris Gober
+120,TX:10,religion_literal,no_qualified_disclosure,candidate:140478,140478,Chris Gober
+120,TX:10,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:140478,140478,Chris Gober
+120,TX:15,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221121,221121,Bobby Pulido
+120,TX:15,religion_literal,no_qualified_disclosure,candidate:221121,221121,Bobby Pulido
+120,TX:15,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221121,221121,Bobby Pulido
+120,TX:18,religion_literal,no_qualified_disclosure,M001245,221126,Christian Menefee
+120,TX:19,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221128,221128,Tom Sell
+120,TX:19,religion_literal,no_qualified_disclosure,candidate:221128,221128,Tom Sell
+120,TX:19,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221128,221128,Tom Sell
+120,TX:21,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:140480,140480,Mark Teixeira
+120,TX:21,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:140480,140480,Mark Teixeira
+120,TX:21,religion_literal,no_qualified_disclosure,candidate:140480,140480,Mark Teixeira
+120,TX:21,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:140480,140480,Mark Teixeira
+120,TX:22,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:140482,140482,Trever Nehls
+120,TX:22,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:140482,140482,Trever Nehls
+120,TX:22,religion_literal,no_qualified_disclosure,candidate:140482,140482,Trever Nehls
+120,TX:22,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:140482,140482,Trever Nehls
+120,TX:23,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221133,221133,Katy Padilla Stout
+120,TX:23,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221133,221133,Katy Padilla Stout
+120,TX:23,religion_literal,no_qualified_disclosure,candidate:221133,221133,Katy Padilla Stout
+120,TX:23,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221133,221133,Katy Padilla Stout
+120,TX:30,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221140,221140,Frederick Haynes III
+120,TX:30,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221140,221140,Frederick Haynes III
+120,TX:30,religion_literal,no_qualified_disclosure,candidate:221140,221140,Frederick Haynes III
+120,TX:30,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221140,221140,Frederick Haynes III
+120,TX:32,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221143,221143,Jace Yarbrough
+120,TX:32,religion_literal,no_qualified_disclosure,candidate:221143,221143,Jace Yarbrough
+120,TX:32,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221143,221143,Jace Yarbrough
+120,TX:33,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,A000376,221144,Colin Allred
+120,TX:33,religion_literal,no_qualified_disclosure,A000376,221144,Colin Allred
+120,TX:33,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,A000376,221144,Colin Allred
+120,TX:35,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221146,221146,Johnny Garcia
+120,TX:35,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221146,221146,Johnny Garcia
+120,TX:35,religion_literal,no_qualified_disclosure,candidate:221146,221146,Johnny Garcia
+120,TX:35,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221146,221146,Johnny Garcia
+120,TX:38,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221150,221150,Jon Bonck
+120,TX:38,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221150,221150,Jon Bonck
+120,TX:38,religion_literal,no_qualified_disclosure,candidate:221150,221150,Jon Bonck
+120,TX:38,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221150,221150,Jon Bonck
+120,UT:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,M001209,221191,Ben McAdams
+120,UT:01,religion_literal,no_qualified_disclosure,M001209,221191,Ben McAdams
+120,UT:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,M001209,221191,Ben McAdams
+120,VA:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221198,221198,Shannon Taylor
+120,VA:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221198,221198,Shannon Taylor
+120,VA:01,religion_literal,no_qualified_disclosure,candidate:221198,221198,Shannon Taylor
+120,VA:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221198,221198,Shannon Taylor
+120,VA:02,religion_literal,no_qualified_disclosure,L000591,221201,Elaine Luria
+120,VA:02,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,L000591,221201,Elaine Luria
+120,VA:11,religion_literal,no_qualified_disclosure,W000831,221241,James Walkinshaw
+120,WA:04,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221352,221352,Amanda McKinney
+120,WA:04,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221352,221352,Amanda McKinney
+120,WA:04,religion_literal,no_qualified_disclosure,candidate:221352,221352,Amanda McKinney
+120,WA:04,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221352,221352,Amanda McKinney
+120,WA:07,religion_literal,explicit_unknown_or_refused,J000298,221358,Pramila Jayapal
+120,WI:01,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221266,221266,Mitchell Berman
+120,WI:01,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221266,221266,Mitchell Berman
+120,WI:01,religion_literal,no_qualified_disclosure,candidate:221266,221266,Mitchell Berman
+120,WI:01,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221266,221266,Mitchell Berman
+120,WI:02,religion_literal,explicit_unknown_or_refused,P000607,221267,Mark Pocan
+120,WI:03,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221269,221269,Rebecca Cooke
+120,WI:03,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221269,221269,Rebecca Cooke
+120,WI:03,religion_literal,no_qualified_disclosure,candidate:221269,221269,Rebecca Cooke
+120,WI:03,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221269,221269,Rebecca Cooke
+120,WI:07,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221276,221276,Michael Alfonso
+120,WI:07,religion_literal,no_qualified_disclosure,candidate:221276,221276,Michael Alfonso
+120,WI:07,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221276,221276,Michael Alfonso
+120,WY:AL,exact_date_of_birth,no_qualified_exact_date; reported_Wikipedia_birth_literal_may_be_available,candidate:221288,221288,Chuck Gray
+120,WY:AL,structured_education,no_qualified_structured_field; any_machine_campaign_extraction_requires_review,candidate:221288,221288,Chuck Gray
+120,WY:AL,religion_literal,no_qualified_disclosure,candidate:221288,221288,Chuck Gray
+120,WY:AL,current_119th_voting_record,no_current_qualified_federal_record; not_zero; not_expected_for_newcomers,candidate:221288,221288,Chuck Gray

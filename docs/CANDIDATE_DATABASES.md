@@ -7,11 +7,25 @@ Frozen v2/v3 outputs remain unchanged.
 
 ## November 14 follow-up: nationwide services and acquired House profiles
 
+The subsequent **full-House extension** now covers the Clerk's 435 voting-seat
+universe (433 named occupants, two vacancies), six separate nonvoting seats,
+and all 435 provisional incoming seats. This corrects the earlier 360-person
+election-candidate denominator below. See
+[full membership coverage](HOUSE_CANDIDATES.md#full-house-membership-and-incoming-members).
+Actual CongressData acquisition adds all 1,045 variables in the paper's
+1789-2024 deposit for 368 matched current/returning members. The source file
+and current v3 codebook have separate pinned receipts and vintage qualifications;
+the catalog's larger count is not substituted for measured file contents.
+Wikipedia contributes district-qualified background rows and 34 acquired
+individual profiles; rate-limited requests and Inside Elections' HTTP 403 are
+recorded, not counted as acquired biographies. Current member core backgrounds
+are complete for 433 occupants; religious disclosure is not universally complete.
+
 The latest follow-up acquired usable background records for **all 360 qualified
 House incumbents**, rather than stopping at vendor catalogs. Full education,
 birth and career fields are supplemented from the official directory and eleven
 Historian biographies; current cutoff-only voting covers every incumbent.
-The [field-by-field audit](HOUSE_CANDIDATES.md#every-qualified-incumbent) retains
+The [field-by-field audit](HOUSE_CANDIDATES.md#every-qualified-incumbent-election-candidate) retains
 340 substantive religion observations, 16 unknown/refused responses and four
 unresolved disclosures. Positive military evidence, prior ideology and donor
 scores remain selective, not imputed. Undated or presently retrieved biographies

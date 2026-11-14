@@ -30,8 +30,29 @@ profiles. **667 candidates still lack these observations.** A null-ID matching
 bug that assigned 42 unrelated historical biographies has been corrected; the
 audit documents the withdrawn counts and remaining coverage gaps.
 
-The [incumbent dataset](results/house/incumbents.csv) covers **360 qualified
-incumbents**, with age, education, birthplace, career history, service and
+The [full House roster](results/members/house-119-seats.csv) now accounts for
+**all 435 voting seats: 433 named occupants and two explicit vacancies** in the
+Clerk snapshot dated November 3, 2026, retrieved November 13. Six nonvoting
+delegate/Resident Commissioner seats are separate. All 433 occupants have age,
+birth, education, career, service and cutoff-only voting information; 411 have
+substantive reported religion observations, 17 have unknown/refused responses
+and five lack acquired qualified disclosure. Dated statements are not verified
+current beliefs.
+
+The [incoming House table](results/members/house-120-seats.csv) separately retains
+all 435 seats for the Congress scheduled to begin **January 3, 2027**. The pinned
+provider reports 426 provisional winners: 319 continuing members, six returning
+former members and 101 others; nine seats remain unresolved. Every reported
+winner has an existing biography or a secondary reported prior-background
+summary, **not universally complete education, religion or exact birth dates**.
+The [coverage audit](results/members/coverage.json) reports actual availability.
+Newcomers do not inherit invented federal votes. The acquired CongressData
+deposit adds 1,045 native historical variables for 368 matched members, through
+2024, with source years and a separately qualified codebook.
+
+The older [incumbent-candidate dataset](results/house/incumbents.csv) covers
+**360 qualified election candidates**, not the whole House, with age,
+education, birthplace, career history, service and
 pre-election voting records for every row. It includes 340 substantive dated or
 public religious self-descriptions, 16 explicit unknown/refused responses and
 four unresolved disclosures; dated statements are not verified current beliefs.

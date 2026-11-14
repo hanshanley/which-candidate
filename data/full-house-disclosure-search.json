@@ -1,0 +1,46 @@
+{
+  "scope": "Additional religious-disclosure search for the full seated House population",
+  "reviewed_on": "2026-11-14",
+  "earlier_four_member_search": "data/incumbent-disclosure-search.json",
+  "additional_member": {
+    "bioguide_id": "B001328",
+    "name": "Everton Blair",
+    "state": "GA",
+    "queries": [
+      "\"Everton Blair\" \"faith\"",
+      "\"Everton Blair\" \"religion\"",
+      "\"Everton Blair\" \"church\""
+    ],
+    "religion_value_assigned": false,
+    "disposition": "no_qualified_current_affiliation_disclosure_acquired",
+    "reviewed_sources": [
+      {
+        "url": "https://www.evertonblair.com/Careers",
+        "source_kind": "candidate_campaign_website",
+        "observation": "The page prohibits employment discrimination by religion.",
+        "disposition": "employment_policy_is_not_personal_religious_affiliation",
+        "original_html_downloaded": false
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/pdf/CREC-2026-09-01-pt1-PgH5385.pdf",
+        "source_kind": "official_Congressional_Record",
+        "observation": "The entry records the constitutional oath of office and a biographical welcome.",
+        "disposition": "constitutional_oath_does_not_establish_personal_religious_affiliation",
+        "original_pdf_downloaded_for_this_search": false
+      },
+      {
+        "url": "https://soybean-saxophone-8trg.squarespace.com/episodes/e81-everton-blair-a-new-generation-of-leadership-candidate-conversations",
+        "source_kind": "interview_publishers_episode_summary",
+        "observation": "The publisher describes Blair's church upbringing and relatives' religious roles.",
+        "disposition": "upbringing_and_family_affiliation_do_not_establish_current_personal_affiliation",
+        "audio_independently_verified": false,
+        "original_html_downloaded": false
+      }
+    ]
+  },
+  "invariants": {
+    "religion_inferred_from_family_or_upbringing": false,
+    "absence_of_disclosure_labeled_refusal": false,
+    "new_model_features_created": false
+  }
+}

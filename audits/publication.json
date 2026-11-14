@@ -1,5 +1,5 @@
 {
-  "scope": "Current 2026 House publication and all-candidate inventory",
+  "scope": "Current 2026 House publication, all-candidate inventory and full seated/incoming House profiles",
   "publication": {
     "directory": "publication",
     "figures": 8,
@@ -35,26 +35,29 @@
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 240,
-    "extracted_download_tests_passed": 234,
+    "checkout_tests_passed": 246,
+    "extracted_download_tests_passed": 240,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 67,
+    "ruff_format_files": 70,
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
     "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
     "extracted_replay_byte_identical_files": {
       "results/2026-v4": 9,
       "results/house": 13,
+      "results/members": 10,
       "publication": 42
     },
     "zip_crc_checks": "passed",
     "zip_member_names_unique": true,
     "embedded_query_zip_matches_standalone": true,
+    "complete_query_zip_members": 278,
+    "substack_zip_members": 27,
     "repository_and_personal_chart_skills_match": true,
     "article_and_mobile_visual_review": "Earlier full eight-figure review retained; updated coverage figure reviewed without clipping or overlap. Detailed labels require enlargement at narrow phone widths.",
     "withdrawn_gallery_http_status": 404,
@@ -62,12 +65,12 @@
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 52365130,
-      "sha256": "b2829a9150680415ea60961d1bb681381eeb896ac4bb4cbba873ecf04e5b51ae"
+      "bytes": 57350171,
+      "sha256": "e5f743cdcbc1499df1368cb1eaa32189dbba0a26ef423c0fd7dd5eb2cf328d8d"
     },
     "substack-figures.zip": {
-      "bytes": 53439738,
-      "sha256": "3a6203cf75a900d4ca52f777ddb64c24119ffe90a35e9ea0aa754f4314efbb85"
+      "bytes": 58358158,
+      "sha256": "7ff2ba0da2f8bf6852e84ed59af4c6d0cee89a0dcc0f1fa8b491e5bd8fd4b054"
     }
   },
   "identity_correction": {
@@ -111,6 +114,26 @@
     "unresolved_cohort_identity_holds": 1,
     "new_model_features_or_refits": false
   },
+  "full_house_acquisition": {
+    "detailed_audit": "audits/full-house-members.json",
+    "voting_seats": 435,
+    "named_occupants": 433,
+    "vacancies": 2,
+    "separate_nonvoting_seats": 6,
+    "clerk_roster_as_of": "2026-11-03",
+    "clerk_roster_retrieved_on": "2026-11-13",
+    "complete_core_biography_and_cast_vote_records": 433,
+    "current_party_unity_scores": 431,
+    "substantive_religion_observations": 411,
+    "explicit_unknown_or_refused_religion": 17,
+    "unresolved_religion_disclosures": 5,
+    "historical_CongressData_variables": 1045,
+    "historical_CongressData_matched_member_rows": 368,
+    "historical_CongressData_original_receipts": 5,
+    "provisional_incoming_winners": 426,
+    "unresolved_incoming_seats": 9,
+    "new_model_features_or_refits": false
+  },
   "remaining_limitations": [
     "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
     "A complete roster is not complete background coverage: 667 candidates lack downloadable observations; only 15 other-party candidates have them.",
@@ -119,6 +142,9 @@
     "One current campaign record was captured only after Election Day and cannot supply pre-election features.",
     "Individual voter-guide publication dates remain unverified; candidate-supplied fields are not independently verified.",
     "Historical donor scores and 2023-2024 voting records are not current campaign ideology.",
+    "The full sitting House roster has a November 3 Clerk date; it is not represented as a live November 14 population.",
+    "Incoming member calls remain provisional; individual newcomer education, age and religion are incomplete and explicitly audited.",
+    "CongressData historical variables and the separately versioned current codebook do not establish current 2026 beliefs.",
     "Existing selective model samples are not expanded by inventory coverage and do not establish causal candidate effects.",
     "Detailed static labels and footnotes require enlargement at narrow phone widths."
   ]

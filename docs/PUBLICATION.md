@@ -5,6 +5,9 @@ Substack and Margin of Error. Superseded plot directories and their download
 bundles have been removed from the checkout; Git history retains them.
 Historical analysis data under `results/` are unchanged; `results/house/` adds the
 complete current House roster and source-qualified candidate information.
+`results/members/` separately accounts for all 435 sitting seats, six nonvoting
+seats, provisional incoming members and historical CongressData observations.
+It does not change the election-candidate denominator in the existing charts.
 Website publication remains withdrawn.
 
 All eight figures now concern the **House only**, including the seat-baseline
@@ -57,6 +60,7 @@ After extracting the query ZIP, replay the analysis and figures without network:
 ```bash
 .venv/bin/python -m which_candidate.rebuild replay --output replay-analysis
 .venv/bin/python -m which_candidate.house_candidates --output replay-house
+.venv/bin/python -m which_candidate.house_members --output replay-members
 .venv/bin/python -m which_candidate.rebuild_publication --output replay-figures
 ```
 

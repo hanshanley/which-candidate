@@ -16,7 +16,7 @@ def build(root=ROOT, output=None):
     output.mkdir(parents=True, exist_ok=True)
     manifests = {
         folder: json.loads((root / folder / "manifest.json").read_text())
-        for folder in ("results/2026-v4", "results/house", "publication")
+        for folder in ("results/2026-v4", "results/house", "results/members", "publication")
     }
     for folder, manifest in manifests.items():
         for name, receipt in manifest["files"].items():
@@ -59,6 +59,7 @@ def build(root=ROOT, output=None):
         "audits/2026-v4/same-sample-measurement.json",
         "audits/house-backgrounds.json",
         "audits/incumbent-backgrounds.json",
+        "audits/full-house-members.json",
     ):
         entries[name] = root / name
     names = ("complete-queries.zip", "substack-figures.zip")
