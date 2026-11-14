@@ -23,12 +23,19 @@ issue positions, and voting-based ideology need separate definitions and samples
 The [source-expansion investigation](docs/CANDIDATE_DATABASES.md) reopens the
 challenger, losing-candidate, religion and race coverage gaps.
 
-The reopened source milestone retains all 470 contests. It adds independently
-qualified source records, not new election fits. The
+The earlier reopened-source milestone retains all 470 contests. Its
 [complete research queries](downloads/2026-source-complete-queries.zip) contain
 candidate-source coverage, review queues, individual CAWP observations, caucus
 attrition and [separately classified state polling](docs/STATE_POLL_CONTEXT.md).
-The publication hold also applies to replacement figures.
+The user has authorized a replacement analysis and new figures. Website
+publication remains withdrawn; this does not authorize redeployment.
+
+The rejected v2/v3 graphics are **archived, not the active chart set**.
+[`publication/active.json`](publication/active.json) records the replacement
+status. The reusable
+[`publication-charts` skill](.github/skills/publication-charts/SKILL.md) encodes
+the editorial style and required rendered-image review, with a personal copy
+installed for future projects.
 
 An [independent identity review](docs/CANDIDATE_IDENTITY_REVIEW.md) corroborates
 four donor-name aliases and cross-office ID bridges for two candidates,
@@ -36,7 +43,22 @@ retaining all 470 contests and every unresolved lead. Its complete replay
 download includes both openly licensed crosswalk originals; no new scores
 are promoted into the election models.
 
-**The corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
+**The active research replacement is [2026-v4](docs/REBUILD_2026_V4.md)**:
+eight redesigned figures, 7,252 biography records, 273 nominees with pre-election
+captures and 129 historical identity leads. All machine biography labels remain
+held for review.
+
+**The answer depends on the measure and benchmark.** The selected House donor
+association falls from +3.22 to +0.81 margin points when the presidential
+benchmark changes on identical candidates. Donor and voting ideology have
+opposite associations even on the same 100 incumbents. This does not establish
+a universal moderation premium.
+
+See the [critique and repairs](audits/2026-v4/critical-review.md),
+[complete queries](downloads/2026-v4-complete-queries.zip) and
+[Substack bundle](downloads/2026-v4-substack-figures.zip).
+
+**The archived corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
 It supersedes v2's interpretation while preserving all v2 bytes. Fresh native
 queries acquired November 13 retain all 435 House and 35 Senate races, with
 405 House and 28 Senate comparisons eligible. Counts remain provisional.
@@ -115,7 +137,25 @@ whole workbooks are not uploaded to GitHub.
 
 ## Publication figures
 
-The [corrected nine-figure gallery](publication/2026-v3/) includes characteristics,
+The active [eight-figure research set](publication/2026-v4/) has separate
+Substack/Margin of Error PNG/SVG versions, CSVs, captions and alt text:
+seat baselines, donor sensitivity, same-candidate ideology measurements,
+voting/incumbency/caucus history and evidence coverage.
+These are repository research assets, **not a live website gallery**.
+
+```bash
+.venv/bin/python -m which_candidate.rebuild replay --output replay-analysis
+.venv/bin/python -m which_candidate.rebuild_publication --output replay-figures
+.venv/bin/python -m which_candidate.rebuild_package
+```
+
+The complete download includes all 470 contests and every evidence row, hold
+and fitted sample, not just metadata. Extract it to replay without the parent
+project or raw website narratives; see the v4 report for scope.
+
+### Archived v3 publication (superseded)
+
+The [archived nine-figure set](publication/2026-v3/) includes characteristics,
 caucus history and same-sample sensitivities, record/identity coverage, benchmark
 sensitivity, absolute predictive error, named third-party holds and native count
 clocks. Each has understated Margin of Error/Substack PNG/SVG versions,

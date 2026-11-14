@@ -12,6 +12,7 @@ pillow==13.0.0
 pluggy==1.7.0
 Pygments==2.21.0
 pyparsing==3.3.3
+pyarrow==26.0.1
 pypdf==6.21.4
 pytest==9.2.0
 python-dateutil==4.0.0
