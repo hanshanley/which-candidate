@@ -25,14 +25,14 @@ Current source-qualified coverage:
 | Historical CampaignView biography records | 87 | 34 | 53 | 0 |
 | Historical campaign-site factual extractions | 184 | 95 | 89 | 0 |
 | Official candidate-supplied voter-guide profiles | 30 | 11 | 8 | 11 |
-| Dated Pew/CQ religion observations | 340 | 176 | 164 | 0 |
-| Member-authorized background records | 332 | 167 | 165 | 0 |
-| Positive House Historian identifications | 100 | 88 | 12 | 0 |
-| Any downloadable background observations | 612 | 329 | 269 | 14 |
+| Dated Pew/CQ religion observations | 352 | 179 | 172 | 1 |
+| Member-authorized or official member backgrounds | 362 | 184 | 177 | 1 |
+| Positive House Historian identifications | 101 | 89 | 12 | 0 |
+| Any downloadable background observations | 617 | 330 | 272 | 15 |
 | Name-qualified historical donor scores | 370 | 192 | 178 | 0 |
-| Prior federal voting scores | 291 | 148 | 143 | 0 |
+| Prior federal voting scores | 293 | 149 | 143 | 1 |
 
-Rows overlap and must not be added. **672 candidates still lack downloadable
+Rows overlap and must not be added. **667 candidates still lack downloadable
 background observations.** An observation can be historical, machine-extracted,
 candidate-supplied or an explicit unknown questionnaire response; it is not a
 complete verified biography. One candidate's current campaign facts were captured
@@ -55,7 +55,7 @@ The held historical search contains 244 CampaignView profiles; only 87 candidate
 have a currently qualified nonempty biography from 2024 or earlier. Historical
 issue headings, years, lengths and hashes are supplied, not copyrighted campaign
 text. These pointers do not count as downloadable factual background in the
-612-person denominator unless another source actually supplies observations.
+617-person denominator unless another source actually supplies observations.
 
 `results/house/candidates.csv` is the readable candidate-level table.
 `candidates.jsonl.gz` adds every match decision, source row, campaign URL,
@@ -98,7 +98,7 @@ The follow-up acquired Utah's complete **118-page official pamphlet** and its
 amended candidate certification. It adds 14 usable structured profiles, including
 11 previously uncovered candidates, and 66 observations. Party and district are
 checked against the certification before joining a guide profile to a candidate.
-The current long table contains **26,230 observations for 612 candidates**.
+The current long table contains **27,875 observations for 617 candidates**.
 Utah contributes occupation, city of residence, literal years-of-residence
 responses, reported age and campaign websites, not inferred religion or ideology.
 Reported age is not converted into age at Election Day; years of residence are
@@ -118,6 +118,78 @@ Ballotpedia's bulk request returned an empty HTTP 202 response. The public
 Wikidata query endpoint returned HTTP 403. Neither was bypassed, acquired as a
 usable candidate database, or counted as background evidence. Source receipts
 record actual successes and failures rather than treating a catalog as data.
+
+## Every qualified incumbent
+
+`incumbents.csv` contains **360 independently qualified incumbent candidate
+records**: 183 Democrats, 176 Republicans and one native No Party Preference
+candidate. Each row has an actual age, source-recorded gender, first House
+service date, birthplace clause, education, professional history and pre-election
+voting record. These are source-qualified descriptive records, not newly
+approved performance-model features.
+
+| Information | Incumbents with observations |
+| --- | ---: |
+| Age, gender, service, birth clause, education, career and current cast-vote record | 360 each |
+| Current party-unity score, subject to the 50-vote threshold | 359 |
+| Substantive reported religious affiliation | 340 |
+| Explicit unknown/refused religious response | 16 |
+| No acquired qualified religious disclosure | 4 |
+| Explicit positive military-service evidence | 64 |
+| Positive House Historian race/ethnicity classifications | 101 |
+| Prior 118th-Congress ideology | 291 |
+| Qualified historical donor score | 298 |
+
+The religion-literal availability count is 356, **not 356 known affiliations**.
+Of 340 substantive observations, 334 are dated office responses, two are dated
+public self-descriptions and four are undated public self-descriptions retrieved
+after the election. Older questionnaire refusals remain refusals rather than
+being replaced with older positive responses. The four unresolved disclosures
+are Adelita Grijalva, Analilia Mejia, Christian Menefee and James Walkinshaw.
+`data/incumbent-disclosure-search.json` records the searches and rejected proxies.
+No missing religion or military section supplies a negative classification.
+
+The new source set contains the verified full February 20, 2026 Congressional
+Directory, eleven House Historian biographies, the Clerk's October 1, 2026
+veterans list, explicit member/campaign self-descriptions and a published
+interview transcript. That transcript has not been checked against the audio.
+Gallagher's dated Christian self-description was manually reviewed in a rendered
+archive of his official statement; direct HTML returned 403. The factual
+extraction is supplied, but **no downloaded original HTML is claimed**.
+Original-source receipts and this separate review qualification are retained in
+`data/incumbent-background-sources.json` and
+`data/incumbent-reviewed-observations.json`.
+
+The directory parser now handles name credentials, optional punctuation and
+labels split across PDF pages, without importing staff/contact sections.
+Education attendance is not turned into graduation. Official source URLs and
+stable Bioguide IDs qualify member biographies. Name variants recover existing
+questionnaire observations only after the person identity is independently
+qualified.
+
+An independent Election Day Clerk cross-check recovers Kevin Kiley, Mark Harris
+and Rob Menendez without arbitrarily resolving their absent or conflicting FEC
+campaign IDs. `incumbent-cohort-audit.csv` accounts for all **441** Clerk records:
+360 qualified candidate links, one held candidate label and 80 without a
+matching label in the pinned returns. The held Bonnie Watson Coleman NJ-03
+write-in label is not merged with NJ-12 merely from the name. Absence of a label
+does not prove a member was not a candidate.
+
+The **119th Congress is 2025-2026**. Current party unity uses only actual yea/nay
+votes before November 3, 2026 on roll calls where Democratic and Republican
+majorities opposed one another. Abstention is not opposition. Aisha Wahab has
+a real voting record but fewer than 50 qualifying roll calls, so her unity
+score is withheld, not zero. Source party codes and record qualifications are
+exported: Kiley's native affiliation is No Party Preference, while the reused
+voting record is Republican-coded and covers that source spell, not necessarily
+every vote of the Congress. Prior 118th-Congress ideology and historical donor
+scores are separate columns, not substitutes for this current voting measure.
+
+`incumbent-missing-fields.csv` retains absent fields and explicit religion
+unknowns/refusals. `incumbent-coverage.json` provides machine-generated
+denominators and statuses. The detailed implementation critique and corrections
+are in `audits/incumbent-backgrounds.json`. All four incumbent exports are
+included in the complete downloads and deterministic offline rebuild.
 
 ## Qualification and critique
 
@@ -157,12 +229,16 @@ donor/voting samples must not be generalized to all 1,284 people.
 ## Reproduce
 
 ```bash
+.venv/bin/python -m which_candidate.incumbents
+.venv/bin/python -m which_candidate.house_candidates --from-cache
 .venv/bin/python -m which_candidate.house_candidates
 .venv/bin/python -m which_candidate.rebuild_publication
 .venv/bin/python -m which_candidate.rebuild_package
 ```
 
 Default replay uses only the packaged normalized inputs, without network.
+The incumbent acquisition command uses the network only for unheld originals;
+the following `--from-cache` command verifies and integrates the held sources.
 `--from-cache` reconstructs them from the original held source cache and verifies
 publisher/source hashes. `--output` writes an independent replay directory.
 The complete-query download includes every table, fact, alternative, exclusion,

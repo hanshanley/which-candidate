@@ -10,6 +10,7 @@ from pypdf import PdfReader
 
 from .corrected import same_name
 from .features import FeatureSources
+from .incumbents import pinned_inputs, profile_inputs
 from .rebuild import district
 from .storage import fingerprint, read_rows, write_json
 
@@ -248,12 +249,22 @@ def acquire_background_inputs(root):
                 raise ValueError("Official profile annotation source changed")
             evidence["sha256"] = source["sha256"]
     records["background_original_sources"] = sources
+    records["incumbent_backgrounds"] = profile_inputs(root)
+    for source in records["incumbent_backgrounds"].get("sources", []):
+        if fingerprint(root / source["path"]) != {key: source[key] for key in ("sha256", "bytes")}:
+            raise ValueError(f"Changed original incumbent source: {source['id']}")
+    records.update(pinned_inputs(root))
     return records
 
 
 def background_profile(candidate, inputs):
     target_id = candidate["identity"]["fec_id"]
     people = [p for p in inputs["people"] if target_id and target_id in p["id"].get("fec", [])]
+    legislative = candidate.get("legislative", {})
+    if not people and legislative.get("status") == "official_clerk_and_service_crosswalk":
+        people = [
+            p for p in inputs["people"] if p["id"]["bioguide"] == legislative.get("bioguide_id")
+        ]
     matcher = FeatureSources({"sources": []}, None)
 
     def qualified(record):
@@ -263,7 +274,18 @@ def background_profile(candidate, inputs):
             return False
         if record.get("publication_date", "") >= "2026-11-03":
             return False
-        return matcher.matches_person({"name": record["name"], "state": record["state"]}, people[0])
+        if matcher.matches_person({"name": record["name"], "state": record["state"]}, people[0]):
+            return True
+        aliases = [
+            candidate["name"],
+            *[
+                alias["name"]
+                for alias in inputs.get("incumbent_backgrounds", {}).get("aliases", [])
+                if alias["bioguide_id"] == people[0]["id"]["bioguide"]
+                and alias["state"] == candidate["state"]
+            ],
+        ]
+        return any(same_name(record["name"], alias) for alias in aliases)
 
     def observations(key):
         return [
@@ -290,6 +312,15 @@ def background_profile(candidate, inputs):
     ]
     return {
         "official_candidate_profiles": profiles,
+        "official_member_profiles": [
+            profile
+            for profile in inputs.get("incumbent_backgrounds", {}).get("profiles", [])
+            if len(people) == 1
+            and legislative.get("house_incumbent") is True
+            and profile["bioguide_id"] == people[0]["id"]["bioguide"]
+            and profile["state"] == candidate["state"]
+            and profile["chamber"] == "house"
+        ],
         "dated_religion_observations": observations("religion_observations"),
         "member_authorized_biographies": observations("member_biographies"),
         "official_historian_observations": observations("historian_observations"),
@@ -337,6 +368,20 @@ def background_observations(candidates, facts):
         )
     for candidate in candidates:
         background = candidate["background"]
+        for profile in background.get("official_member_profiles", []):
+            for field, value in profile["fields"].items():
+                append(
+                    candidate,
+                    field,
+                    value,
+                    profile.get("source_kind", "official_congressional_biography"),
+                    int(profile["evidence"]["publication_date"][:4])
+                    if profile["evidence"]["publication_date"]
+                    else None,
+                    profile["evidence"]["publication_date"],
+                    profile["evidence"],
+                    profile["identity_qualification"] + "; descriptive_only; absence_unknown",
+                )
         for profile in background["official_candidate_profiles"]:
             for field, value in profile["fields"].items():
                 append(

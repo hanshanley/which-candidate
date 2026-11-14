@@ -1,0 +1,83 @@
+{
+  "scope": "Source-qualified background and cutoff voting for every qualified 2026 House incumbent candidate",
+  "reviewed_on": "2026-11-14",
+  "incumbent_records": 360,
+  "core_fields_available_for_every_record": [
+    "age_at_election",
+    "source_recorded_gender",
+    "first_house_service",
+    "birth_clause",
+    "education",
+    "professional_history",
+    "cast_yea_nay_votes"
+  ],
+  "coverage_report": "results/house/incumbent-coverage.json",
+  "missing_fields": "results/house/incumbent-missing-fields.csv",
+  "clerk_cohort_audit": "results/house/incumbent-cohort-audit.csv",
+  "findings_and_repairs": [
+    {
+      "finding": "FEC-only service qualification omitted three independently identifiable incumbents.",
+      "repair": "Use the dated Clerk snapshot plus the unique stable Bioguide service identity, with name, state, party and sworn-date guards. Recover Kiley, Harris and Menendez without arbitrarily resolving campaign FEC IDs.",
+      "remaining_hold": "Bonnie Watson Coleman's NJ-03 Write-In label remains unlinked to the NJ-12 campaign identity. Native labels are not corrected by assumption."
+    },
+    {
+      "finding": "The historical biography parser intentionally omitted education and career sections and missed some header variants.",
+      "repair": "Add an opt-in current-incumbent parser qualified by unique official member website. Handle credentials, optional punctuation and page-interrupted section labels. Stop at offices and labelled personal sections. Do not change the frozen historical parser."
+    },
+    {
+      "finding": "The directory itself omits some birth and career facts, and recent special-election members require supplemental records.",
+      "repair": "Acquire eleven stable-ID-qualified official Historian biographies. Every qualified incumbent now has actual birth, education and career values; attendance is not relabeled graduation.",
+      "qualification": "Undated pages retrieved after the election remain descriptive and model-ineligible."
+    },
+    {
+      "finding": "Nickname mismatches withheld existing source observations even after the person's stable identity was qualified.",
+      "repair": "Accept the already-qualified native candidate name or an explicit reviewed same-ID, same-state official alias. Preserve all absent-ID campaign joins as held."
+    },
+    {
+      "finding": "Questionnaire absence is not the end of the religion-source search, but unknown responses are not known affiliations.",
+      "repair": "Acquire or review six direct public self-descriptions. Retain 340 substantive observations, 16 explicit unknown/refused responses and four unresolved disclosures. Keep explicit unknowns in the missing-field audit.",
+      "remaining_gaps": "Adelita Grijalva, Analilia Mejia, Christian Menefee and James Walkinshaw. Search and rejected-proxy dispositions are in data/incumbent-disclosure-search.json."
+    },
+    {
+      "finding": "A skipped delegate row in the veterans PDF could contaminate the previous member's military-branch field.",
+      "repair": "Terminate branch extraction at every numbered source row, including rows that cannot be qualified. Add a regression test. Omission remains unknown, not nonservice."
+    },
+    {
+      "finding": "Current voting, prior ideology and donor scores have different vintages and support.",
+      "repair": "Export 119th-Congress cutoff-only cast votes for all 360 incumbents, with source party codes, dates and denominators. Withhold unity below 50 party-dividing votes. Preserve 118th-Congress ideology and historical donor scores as distinct selective fields.",
+      "qualification": "Kiley's current native affiliation differs from the Republican-coded source voting spell. The export does not claim that spell is every vote of the Congress."
+    }
+  ],
+  "source_accounting": {
+    "source_receipts": 20,
+    "normalized_member_profiles": 525,
+    "downloaded_or_reused_original_sources": 19,
+    "reviewed_factual_extractions_without_downloaded_original_html": 1,
+    "direct_archive_request_failures": 1,
+    "failed_requests_bypassed": false,
+    "religion_interview_audio_independently_verified": false,
+    "complete_source_receipts": "data/incumbent-background-sources.json"
+  },
+  "invariants": {
+    "historical_model_inputs_and_estimates_refitted": false,
+    "religion_or_race_inferred": false,
+    "missing_id_campaign_matches_allowed": false,
+    "military_absence_labeled_nonservice": false,
+    "new_background_fields_model_ready": false,
+    "website_republication_authorized_or_performed": false
+  },
+  "verification": {
+    "focused_house_and_incumbent_tests_passed": 36,
+    "full_suite_status": "passed",
+    "full_suite_tests_passed": 240,
+    "ruff_lint": "passed",
+    "ruff_format_files": 67,
+    "complete_download_replay_status": "passed",
+    "extracted_download_tests_passed": 234,
+    "extracted_download_tests_skipped": 6,
+    "replay_byte_identical_files": 64,
+    "replay_network": "connect, connect_ex and getaddrinfo blocked",
+    "historical_research_files_preserved_byte_for_byte": 126,
+    "website_gallery_and_manifest_http_status": 404
+  }
+}

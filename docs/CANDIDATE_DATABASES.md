@@ -7,6 +7,16 @@ Frozen v2/v3 outputs remain unchanged.
 
 ## November 14 follow-up: nationwide services and acquired House profiles
 
+The latest follow-up acquired usable background records for **all 360 qualified
+House incumbents**, rather than stopping at vendor catalogs. Full education,
+birth and career fields are supplemented from the official directory and eleven
+Historian biographies; current cutoff-only voting covers every incumbent.
+The [field-by-field audit](HOUSE_CANDIDATES.md#every-qualified-incumbent) retains
+340 substantive religion observations, 16 unknown/refused responses and four
+unresolved disclosures. Positive military evidence, prior ideology and donor
+scores remain selective, not imputed. Undated or presently retrieved biographies
+are descriptive additions, not proof of historical as-of availability.
+
 The current all-party House counts and identity corrections are in
 [HOUSE_CANDIDATES.md](HOUSE_CANDIDATES.md). The older tables below describe a
 selected House/Senate research snapshot, **not current all-candidate coverage**.

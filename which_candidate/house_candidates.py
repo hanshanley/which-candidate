@@ -255,7 +255,7 @@ def acquire_inputs(root):
     }
 
 
-def legislative_profile(candidate, identity, people, members):
+def legislative_profile(candidate, identity, people, members, clerk_members=()):
     matches = [
         p
         for p in people
@@ -263,9 +263,16 @@ def legislative_profile(candidate, identity, people, members):
         and identity["fec_id"] in p["id"].get("fec", [])
         and any(t["state"] == candidate["state"] for t in p["terms"])
     ]
-    if len(matches) != 1:
-        return {"status": "no_unique_fec_service_crosswalk", "house_incumbent": None}
-    person = matches[0]
+    status, clerk_evidence = "exact_fec_service_crosswalk", None
+    if len(matches) == 1:
+        person = matches[0]
+    else:
+        from .incumbents import clerk_person
+
+        person, clerk_evidence = clerk_person(candidate, people, clerk_members)
+        if person is None:
+            return {"status": "no_unique_fec_service_crosswalk", "house_incumbent": None}
+        status = "official_clerk_and_service_crosswalk"
     bioguide = person["id"]["bioguide"]
     active = [
         t for t in person["terms"] if t["type"] == "rep" and t["start"] <= "2026-11-03" < t["end"]
@@ -278,12 +285,15 @@ def legislative_profile(candidate, identity, people, members):
     votes = [r for r in members if r["bioguide_id"] == bioguide]
     voting = votes[0] if len(votes) == 1 else None
     return {
-        "status": "exact_fec_service_crosswalk",
+        "status": status,
         "bioguide_id": bioguide,
         "house_incumbent": bool(active),
         "age_at_election": age,
         "source_recorded_gender": person.get("bio", {}).get("gender"),
-        "evidence": person["evidence"],
+        "evidence": {
+            **person["evidence"],
+            **({"official_clerk": clerk_evidence} if clerk_evidence else {}),
+        },
         "active_house_terms": active,
         "prior_voting_record": voting,
         "voting_measure": "118th Congress (2023-2024), Nokken-Poole first dimension",
@@ -430,7 +440,7 @@ def inventory(panel, inputs):
             row["identity"] = identity
             row["website"] = website
             row["legislative"] = legislative_profile(
-                row, identity, inputs["people"], inputs["members"]
+                row, identity, inputs["people"], inputs["members"], inputs.get("clerk_members", ())
             )
             party = {"Democratic": "democrat", "Republican": "republican"}.get(row["party"])
             if row["party"] == "Write-In" and identity["fec_id"]:
@@ -587,7 +597,11 @@ def coverage(candidates):
                     bool(r["background"]["dated_religion_observations"]) for r in rows
                 ),
                 "member_authorized_background": sum(
-                    bool(r["background"]["member_authorized_biographies"]) for r in rows
+                    bool(
+                        r["background"]["member_authorized_biographies"]
+                        or r["background"].get("official_member_profiles")
+                    )
+                    for r in rows
                 ),
                 "official_historian_identification": sum(
                     bool(r["background"]["official_historian_observations"]) for r in rows
@@ -599,6 +613,7 @@ def coverage(candidates):
                         or r["historical_campaign_record_ids"]
                         or r["background"]["official_candidate_profiles"]
                         or r["background"]["member_authorized_biographies"]
+                        or r["background"].get("official_member_profiles")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )
@@ -610,6 +625,7 @@ def coverage(candidates):
                         or r["historical_campaign_record_ids"]
                         or r["background"]["official_candidate_profiles"]
                         or r["background"]["member_authorized_biographies"]
+                        or r["background"].get("official_member_profiles")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )
@@ -654,6 +670,9 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
         (staged / "background-observations.csv").write_bytes(
             csv_bytes(background_observations(candidates, facts))
         )
+        from .incumbents import write_tables
+
+        write_tables(staged, candidates, inputs)
         write_json(staged / "coverage.json", coverage(candidates))
         flat = [
             {
@@ -682,6 +701,9 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
                 "dated_religion_observations": len(r["background"]["dated_religion_observations"]),
                 "member_authorized_biography_records": len(
                     r["background"]["member_authorized_biographies"]
+                ),
+                "additional_member_background_records": len(
+                    r["background"].get("official_member_profiles", [])
                 ),
                 "historical_donor_score": r["donor"].get("score"),
                 "donor_name_screen": r["donor"].get("name_screen"),

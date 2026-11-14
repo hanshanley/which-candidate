@@ -113,8 +113,11 @@ def test_all_house_choices_reconcile_to_the_native_roster():
     for row in candidates:
         assert row["native_flags_unverified"] is not None
         assert row["legislative"]["house_incumbent"] is None or (
-            row["legislative"]["status"] == "exact_fec_service_crosswalk"
+            row["legislative"]["status"]
+            in ("exact_fec_service_crosswalk", "official_clerk_and_service_crosswalk")
         )
+        if row["legislative"]["status"] == "official_clerk_and_service_crosswalk":
+            assert row["legislative"]["evidence"]["official_clerk"]["native_xml"]
 
 
 def test_biography_records_preserve_subject_review_and_pre_election_cutoff():
@@ -145,8 +148,16 @@ def test_missing_ids_cannot_inherit_any_historical_person_evidence():
         if not row["identity"]["fec_id"]:
             assert not row["historical_biography"]["historical_biography_available"]
             assert not row["historical_campaign_record_ids"]
-            assert not row["background"]["dated_religion_observations"]
-            assert not row["background"]["member_authorized_biographies"]
+            if row["legislative"]["status"] != "official_clerk_and_service_crosswalk":
+                assert not row["background"]["dated_religion_observations"]
+                assert not row["background"]["member_authorized_biographies"]
+                assert not row["background"]["official_member_profiles"]
+            else:
+                assert row["legislative"]["evidence"]["official_clerk"]["native_xml"]
+                assert all(
+                    r["bioguide_id"] == row["legislative"]["bioguide_id"]
+                    for r in row["background"]["dated_religion_observations"]
+                )
 
 
 def test_write_in_ballot_label_needs_exact_district_and_preserves_affiliation():

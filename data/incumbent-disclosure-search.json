@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-11-14",
+  "scope": "Follow-up religion searches beyond the dated Pew/CQ questionnaire; leads are not observations",
+  "rules": [
+    "Code only explicit candidate/member self-description or a dated office questionnaire.",
+    "Do not infer religion from relatives, ethnicity, religious-freedom positions, endorsements or event attendance.",
+    "No qualified disclosure acquired does not mean no religion or prove that no disclosure exists."
+  ],
+  "unresolved": [
+    {
+      "name": "Adelita Grijalva",
+      "bioguide_id": "G000606",
+      "queries": [
+        "\"Adelita Grijalva\" \"religion\" \"faith\"",
+        "\"Adelita Grijalva\" \"I am\" \"Catholic\""
+      ],
+      "acquired_biography_source": "historian-G000606",
+      "disposition": "no_explicit_self_description_acquired",
+      "rejected_leads": "A relative's reported affiliation and the member's positions on public religion do not identify her affiliation."
+    },
+    {
+      "name": "Analilia Mejia",
+      "bioguide_id": "M001246",
+      "queries": [
+        "\"Analilia Mejia\" \"Catholic\" \"faith\"",
+        "\"Analilia Mejia\" \"my faith\""
+      ],
+      "acquired_biography_source": "historian-M001246",
+      "disposition": "no_explicit_self_description_acquired",
+      "rejected_leads": "Appearance in a Catholic voter guide does not establish a candidate's own religion."
+    },
+    {
+      "name": "Christian Menefee",
+      "bioguide_id": "M001245",
+      "queries": [
+        "\"Christian Menefee\" \"church\" \"faith\"",
+        "\"Christian Menefee\" \"I am a Christian\""
+      ],
+      "acquired_biography_source": "historian-M001245",
+      "lead_urls": [
+        "https://ballotpedia.org/Christian_Menefee",
+        "https://christianmenefee.com/endorsements/"
+      ],
+      "disposition": "third_party_affiliation_lead_found; explicit_self_description_not_acquired",
+      "rejected_leads": "An unattributed profile label and endorsements by clergy are not the required explicit self-description. Childhood churches are not a current denomination."
+    },
+    {
+      "name": "James Walkinshaw",
+      "bioguide_id": "W000831",
+      "queries": [
+        "\"James Walkinshaw\" \"religion\" \"faith\""
+      ],
+      "acquired_biography_source": "congressional_directory_2026",
+      "disposition": "no_explicit_self_description_acquired",
+      "rejected_leads": "A third-party scorecard's unknown label is not a candidate refusal or evidence of nonreligion."
+    }
+  ],
+  "additional_acquired_disclosures": [
+    "Jimmy Patronis: official member self-description",
+    "Randy Fine: official member first-person self-description",
+    "Clay Fuller: campaign self-description",
+    "Aisha Wahab: published first-person interview transcript; audio not independently checked",
+    "Matt Van Epps: dated first-person Congressional Record statement",
+    "James Gallagher: reviewed factual extraction of a dated official statement in a public archive; original HTML not acquired"
+  ]
+}

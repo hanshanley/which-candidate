@@ -23,33 +23,33 @@
     "additional_historical_biographies": 87,
     "historical_campaign_factual_extractions": 184,
     "official_candidate_supplied_profiles": 30,
-    "dated_religion_observations": 340,
-    "member_authorized_background_records": 332,
-    "positive_house_historian_identifications": 100,
-    "candidates_with_downloadable_background_observations": 612,
-    "candidates_without_downloadable_background_observations": 672,
-    "downloadable_background_observation_rows": 26230,
+    "dated_religion_observations": 352,
+    "member_authorized_background_records": 362,
+    "positive_house_historian_identifications": 101,
+    "candidates_with_downloadable_background_observations": 617,
+    "candidates_without_downloadable_background_observations": 667,
+    "downloadable_background_observation_rows": 27875,
     "name_qualified_historical_donor_scores": 370,
-    "prior_federal_voting_scores": 291,
+    "prior_federal_voting_scores": 293,
     "historical_profiles_acquired_or_verified": 244,
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 226,
-    "extracted_download_tests_passed": 220,
+    "checkout_tests_passed": 240,
+    "extracted_download_tests_passed": 234,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 65,
+    "ruff_format_files": 67,
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
     "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
     "extracted_replay_byte_identical_files": {
       "results/2026-v4": 9,
-      "results/house": 9,
+      "results/house": 13,
       "publication": 42
     },
     "zip_crc_checks": "passed",
@@ -62,12 +62,12 @@
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 51689178,
-      "sha256": "341128a0abd6d49837ee419e5aad28b07e3cff5415519f3aaf722267f52e63cb"
+      "bytes": 52365130,
+      "sha256": "b2829a9150680415ea60961d1bb681381eeb896ac4bb4cbba873ecf04e5b51ae"
     },
     "substack-figures.zip": {
-      "bytes": 52764344,
-      "sha256": "8be9befed362ea143b1dc3529ca39566e06e0f9e931daebab11989f7602314e9"
+      "bytes": 53439738,
+      "sha256": "3a6203cf75a900d4ca52f777ddb64c24119ffe90a35e9ea0aa754f4314efbb85"
     }
   },
   "identity_correction": {
@@ -95,9 +95,25 @@
     "provider_discovery_counted_as_candidate_coverage": false,
     "new_background_evidence_model_ready": false
   },
+  "incumbent_acquisition": {
+    "detailed_audit": "audits/incumbent-backgrounds.json",
+    "qualified_incumbent_candidates": 360,
+    "complete_core_biography_and_cast_vote_records": 360,
+    "current_party_unity_scores": 359,
+    "substantive_religion_observations": 340,
+    "explicit_unknown_or_refused_religion": 16,
+    "unresolved_religion_disclosures": 4,
+    "positive_military_service_observations": 64,
+    "prior_congress_ideology_observations": 291,
+    "qualified_historical_donor_scores": 298,
+    "downloaded_or_reused_original_sources": 19,
+    "separately_reviewed_factual_extractions": 1,
+    "unresolved_cohort_identity_holds": 1,
+    "new_model_features_or_refits": false
+  },
   "remaining_limitations": [
     "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
-    "A complete roster is not complete background coverage: 672 candidates lack downloadable observations; only 14 other-party candidates have them.",
+    "A complete roster is not complete background coverage: 667 candidates lack downloadable observations; only 15 other-party candidates have them.",
     "Machine-extracted biography facts require subject verification and remain model-ineligible.",
     "Dated religion responses and official positive identity classifications are retained as observations, not current verified identity labels; no identities are inferred.",
     "One current campaign record was captured only after Election Day and cannot supply pre-election features.",

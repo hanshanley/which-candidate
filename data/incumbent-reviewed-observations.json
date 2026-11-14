@@ -1,0 +1,25 @@
+{
+  "scope": "Reviewed factual extraction from the rendered public archive of an official statement; not a downloaded HTML original",
+  "profiles": [
+    {
+      "bioguide_id": "G000607",
+      "state": "CA",
+      "chamber": "house",
+      "fields": {
+        "religion_literal": "Christian"
+      },
+      "source_url": "https://www.legistorm.com/stormfeed/view_rss/2239765/member/4916/title/gallagher-statement-on-assembly-honoring-anti-catholic-hate-group.html",
+      "source_title": "Gallagher Statement on Assembly Honoring Anti-Catholic Hate Group",
+      "publication_date": "2023-06-05",
+      "reviewed_on": "2026-11-14",
+      "review_excerpt": "As a Christian, I love all people",
+      "acquisition_method": "manual_review_of_rendered_public_official_press_release",
+      "original_html_acquired": false,
+      "original_publisher_url": "https://ad03.asmrc.org/2023/06/05/gallagher-statement-on-assembly-honoring-anti-catholic-hate-group/",
+      "access_limitations": "Direct archive HTML request returned 403; original publisher URL was restricted. Neither was bypassed. The public rendered archive supplied the reviewed statement.",
+      "identity_qualification": "reviewed_official_statement_by_James_Gallagher_of_Yuba_City; same_stable_member_and_state",
+      "source_kind": "reviewed_archived_official_press_release",
+      "model_ready": false
+    }
+  ]
+}
