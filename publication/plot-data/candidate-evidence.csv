@@ -1,5 +1,5 @@
 any_background_evidence,campaign_website,candidates,cohort,dated_religion_observations,donor_score,factual_background,fec_id,historical_biography,historical_campaign_facts,member_authorized_background,official_candidate_profile,official_historian_identification,pre_election_biography,prior_federal_voting_score
-605,694,1284,all_named,340,370,601,983,87,184,332,16,100,467,291
-329,372,449,democrats,176,192,327,428,34,95,167,7,88,278,148
-270,315,433,republicans,164,178,268,397,53,89,165,6,12,186,143
-6,7,402,other_parties,0,0,6,158,0,0,0,3,0,3,0
+616,703,1284,all_named,340,370,612,983,87,184,332,30,100,467,291
+331,373,449,democrats,176,192,329,428,34,95,167,11,88,278,148
+271,315,433,republicans,164,178,269,397,53,89,165,8,12,186,143
+14,15,402,other_parties,0,0,14,158,0,0,0,11,0,3,0

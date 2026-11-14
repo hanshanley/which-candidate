@@ -5,7 +5,37 @@ behind the **2026** candidate universe; it is not a new election model, approval
 to republish, or a claim that the missing-characteristic problem is solved.
 Frozen v2/v3 outputs remain unchanged.
 
-## What was actually acquired
+## November 14 follow-up: nationwide services and acquired House profiles
+
+The current all-party House counts and identity corrections are in
+[HOUSE_CANDIDATES.md](HOUSE_CANDIDATES.md). The older tables below describe a
+selected House/Senate research snapshot, **not current all-candidate coverage**.
+In particular, old historical-biography counts must not supersede the later
+missing-ID correction.
+
+| Source | Verified offering | Actual access outcome |
+| --- | --- | --- |
+| [Vote Smart CandidateBio](https://api.votesmart.org/docs/CandidateBio.html) | Religion, birthplace, detailed education, employment and political experience; current product also advertises voting records and interest-group ratings | API documentation requires a key. No approved access or 2026 candidate extract acquired; the current product-page direct request returned 403. |
+| [KnowWho Candidate Data Service](https://kw1.knowwho.com/candidate-data-service/) | Nationwide candidate tracking with biography options in higher service levels | Commercial export/subscription or web service. Vendor explicitly says fields are supplied as available; neither complete biographies nor religion coverage is established. No subscription purchased. |
+| [BallotReady CivicEngine](https://developers.civicengine.com/) | Current/historical election and candidate API | Developer site directs users to contact the vendor for a test key and pricing. No key, extract or redistribution license acquired. |
+| [Utah official voter guide](https://vote.utah.gov/wp-content/uploads/2026/09/2026-Voter-Information-Pamphlet.pdf) | Candidate-supplied age, occupation and residence fields | Downloaded the full guide and amended certification; integrated 14 qualified profiles and 66 observations, including 11 newly covered candidates. |
+| [C3, DOI 10.7910/DVN/VHAPHV](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VHAPHV) | Identified 2018 state-legislative candidate dataset | Not a current House biography source; no 2026 candidate coverage credited. |
+| Washington official voter guide | Candidate statements identified in the state index | State site returned 403; no Washington biographies acquired or credited. County-published editions remain a legitimate acquisition lead. |
+
+These are real national data suppliers, not evidence that every field is
+available for all 1,284 people. Vote Smart is a concrete lead for explicitly
+recorded religion; its documented field does not establish response rates or
+current affiliation. Ratings and issue positions must remain separate from
+voting-based and donor-based ideology.
+
+`data/house-source-search.json` records URLs, access outcomes, limitations and
+specific acquisition requirements. Actual guide originals are pinned in
+`data/house-background-sources.json`. No discovery-only provider contributes
+records to the coverage numerator. Utah's missing submissions and unparsed
+narrative-only profiles remain explicit dispositions, not fabricated facts.
+New evidence remains model-ineligible and website publication remains withdrawn.
+
+## Archived November 13 acquisition
 
 | Source | Acquired contents | Actual overlap with 2026 study |
 | --- | --- | --- |

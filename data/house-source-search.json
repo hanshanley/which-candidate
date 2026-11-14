@@ -1,0 +1,76 @@
+{
+  "checked_on": "2026-11-14",
+  "scope": "2026 all-party House candidate backgrounds; discovered products are not acquired candidate records",
+  "sources": [
+    {
+      "id": "utah-official-voter-pamphlet",
+      "status": "acquired_and_integrated",
+      "urls": [
+        "https://vote.utah.gov/wp-content/uploads/2026/09/2026-Voter-Information-Pamphlet.pdf",
+        "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification-Amended-09-21.pdf"
+      ],
+      "fields_acquired": ["reported_age", "occupation", "residence_city", "reported_years_of_residence", "campaign_website"],
+      "candidate_profiles_integrated": 14,
+      "limitation": "Candidate-supplied fields, not independent verification. Four profiles were not submitted; two further profiles have no usable structured background fields. The certification does not list one of the nonresponding guide candidates. Reported age is not age at Election Day.",
+      "receipts": "data/house-background-sources.json",
+      "excluded_profile_dispositions": "data/house-official-profile-dispositions.json"
+    },
+    {
+      "id": "votesmart-candidatebio",
+      "status": "documented_api_no_approved_access_or_candidate_extract",
+      "urls": [
+        "https://api.votesmart.org/docs/CandidateBio.html",
+        "https://api.votesmart.org/docs/direct.html",
+        "https://www.votesmart.org/votesmart-api"
+      ],
+      "documented_fields": ["religion", "birthPlace", "education", "profession", "political", "office", "election"],
+      "candidate_records_acquired": 0,
+      "access": "Authentication key required by API documentation; current product page directs prospective users to a demo and terms review. Documentation is not an acquired 2026 extract.",
+      "next_action": "Obtain approved API access and redistribution terms, then enumerate the current House roster and measure actual field coverage and vintages.",
+      "limitation": "Do not promise complete candidate coverage, current religion, or a common ideology scale. Direct product-page retrieval returned HTTP 403; public indexed product information and API documentation establish the lead, not candidate data."
+    },
+    {
+      "id": "knowwho-candidate-data-service",
+      "status": "commercial_service_no_subscription_or_candidate_extract",
+      "urls": [
+        "https://kw1.knowwho.com/store/by-data/candidates/candidate-data-service/",
+        "https://kw1.knowwho.com/candidate-data-service/",
+        "https://kw1.knowwho.com/federal-candidate-web-service/"
+      ],
+      "documented_fields": ["candidate_identifiers", "party", "district", "campaign_status", "biographies_optional_by_service_level"],
+      "candidate_records_acquired": 0,
+      "access": "Commercial download/subscription or web service; biography option/service level must be included.",
+      "next_action": "Obtain an authorized sample/export and license covering biographies, election vintage and public redistribution before purchasing or importing.",
+      "limitation": "Vendor explicitly supplies data on an as-available basis. Nationwide candidate tracking does not establish a biography for every candidate; religion is not verified as an included field."
+    },
+    {
+      "id": "ballotready-civicengine",
+      "status": "documented_developer_service_no_test_key_or_candidate_extract",
+      "urls": [
+        "https://developers.civicengine.com/",
+        "https://www.ballotready.org/for-candidates"
+      ],
+      "candidate_records_acquired": 0,
+      "access": "Developer homepage directs users to contact BallotReady for a test key and pricing.",
+      "next_action": "Obtain test access, inspect candidate biography/experience schemas and provenance, and establish storage and redistribution permissions.",
+      "limitation": "No 2026 extract or field-completeness audit acquired. Do not assume a religion field or a validated ideology measure."
+    },
+    {
+      "id": "candidate-characteristics-cooperative",
+      "status": "historical_non_house_dataset_identified_not_integrated",
+      "urls": ["https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VHAPHV"],
+      "candidate_records_acquired": 0,
+      "limitation": "The identified 2018 state-legislative release is not a 2026 House biography database. Historical candidate links and demographic coding methods require separate review."
+    },
+    {
+      "id": "washington-state-voter-guide",
+      "status": "official_guide_identified_not_acquired",
+      "urls": ["https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/2026-general-election-voters-guide"],
+      "candidate_records_acquired": 0,
+      "access": "Direct Secretary of State retrieval returned HTTP 403; not bypassed.",
+      "next_action": "Locate independently published county editions or obtain an authorized state copy; county returns are not candidate biographies.",
+      "limitation": "No Washington background coverage credited from search results, guide headings or election-return tables."
+    }
+  ],
+  "interpretation": "No purchase, registration, outreach, credential search or access-control workaround was performed. Provider discovery contributes zero candidate observations until actual records are acquired, qualified and retained."
+}

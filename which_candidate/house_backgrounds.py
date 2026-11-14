@@ -22,6 +22,78 @@ OREGON_PARTIES = {
     "Progressive": "Progressive",
 }
 
+UTAH_PARTIES = (
+    "Independent American",
+    "Democratic",
+    "Republican",
+    "Unaffiliated",
+    "Libertarian",
+    "Constitution",
+)
+# The held certification's text layer splits this surname.
+UTAH_CERTIFICATION_OCR_NAMES = {"ADONIS HOOSL YN": "ADONIS HOOSLYN"}
+
+
+def parse_utah_certification(text):
+    headers = list(re.finditer(r"^U\.S\. House of Representatives District ([1-4])\.", text, re.M))
+    result = []
+    for index, header in enumerate(headers):
+        end = headers[index + 1].start() if index + 1 < len(headers) else len(text)
+        for name, party in re.findall(
+            r"^([A-Z][A-Z .'-]+?) +(" + "|".join(UTAH_PARTIES) + r")\s*$",
+            text[header.end() : end],
+            re.M,
+        ):
+            result.append({"name": name, "district": header[1].zfill(2), "party": party})
+    return result
+
+
+def parse_utah_profile(text, certified):
+    header = re.match(r"^Congressional District ([1-4])\s*\n", text)
+    if not header:
+        return None
+    heading = text[header.end() :].lstrip().split("\n\n", 1)[0]
+    name = " ".join(heading.split())
+    matches = [
+        row
+        for row in certified
+        if row["district"] == header[1].zfill(2)
+        and same_name(name, UTAH_CERTIFICATION_OCR_NAMES.get(row["name"], row["name"]))
+    ]
+    profile = {
+        "name": name,
+        "state": "UT",
+        "chamber": "house",
+        "district": header[1].zfill(2),
+        "party": matches[0]["party"] if len(matches) == 1 else None,
+        "certified_ballot_name": matches[0]["name"] if len(matches) == 1 else None,
+        "election_year": 2026,
+        "fields": {},
+        "review_status": "structured_candidate_supplied_fields; not_independently_verified",
+        "model_ready": False,
+    }
+    if re.search(r"\bNO\s+PROFILE\s+SUBMITTED\b", text):
+        return {**profile, "response_status": "no_profile_submitted"}
+    if len(matches) != 1:
+        return {**profile, "response_status": "certification_identity_unresolved"}
+    for label, field in (
+        ("CITY OF RESIDENCE", "residence_city"),
+        ("YEARS OF RESIDENCE", "reported_years_of_residence"),
+        ("AGE", "reported_age"),
+        ("OCCUPATION", "occupation"),
+    ):
+        value = re.search(r"^" + label + r"[ \t]+(\S[^\n]*(?:\n[ \t]{10,}\S[^\n]*)*)", text, re.M)
+        if value:
+            profile["fields"][field] = " ".join(value[1].split())
+    if profile["fields"]:
+        website = re.search(r"^WEBSITE[ \t]+(\S+)", text, re.M)
+        if website:
+            profile["fields"]["campaign_website"] = website[1]
+    return {
+        **profile,
+        "response_status": "structured_fields" if profile["fields"] else "no_structured_fields",
+    }
+
 
 def parse_oregon_page(text):
     headers = list(re.finditer(r"US Representative,\s*(\d+)(?:st|nd|rd|th) District\s*\n", text))
@@ -69,12 +141,38 @@ def extract_official_profiles(root):
     receipts = json.loads((root / "data/house-background-sources.json").read_text())
     profiles = json.loads((root / "data/house-reviewed-profile-facts.json").read_text())
     grouped = {}
+    source_by_id = {source["id"]: source for source in receipts["sources"]}
+    nonresponses = []
+    for source in receipts["sources"]:
+        path = root / "data/raw/house-profiles-20261114" / source["file"]
+        if fingerprint(path) != {key: source[key] for key in ("bytes", "sha256")}:
+            raise ValueError(f"Changed original candidate source: {source['id']}")
+    if "ut-guide" in source_by_id:
+        certification = source_by_id["ut-certified"]
+        cert_path = root / "data/raw/house-profiles-20261114" / certification["file"]
+        certified = parse_utah_certification(PdfReader(cert_path).pages[1].extract_text())
+        source = source_by_id["ut-guide"]
+        path = root / "data/raw/house-profiles-20261114" / source["file"]
+        for number, page in enumerate(PdfReader(path).pages, 1):
+            profile = parse_utah_profile(page.extract_text(extraction_mode="layout"), certified)
+            if not profile:
+                continue
+            profile["evidence"] = [
+                {"source_id": "ut-guide", "pdf_page": number, "sha256": source["sha256"]}
+            ]
+            if profile["party"] is not None:
+                profile["evidence"].append(
+                    {
+                        "source_id": "ut-certified",
+                        "pdf_page": 2,
+                        "sha256": certification["sha256"],
+                    }
+                )
+            (profiles if profile["fields"] else nonresponses).append(profile)
     for source in receipts["sources"]:
         if not source["id"].startswith("or-"):
             continue
         path = root / "data/raw/house-profiles-20261114" / source["file"]
-        if fingerprint(path) != {key: source[key] for key in ("bytes", "sha256")}:
-            raise ValueError(f"Changed original pamphlet: {source['id']}")
         for number, page in enumerate(PdfReader(path).pages, 1):
             for profile in parse_oregon_page(page.extract_text()):
                 block_hash = profile.pop("source_block_sha256")
@@ -91,7 +189,12 @@ def extract_official_profiles(root):
                 )
     profiles.extend(grouped.values())
     write_json(root / "data/house-official-profile-facts.json", profiles)
-    return {"profiles": len(profiles), "sources": len(receipts["sources"])}
+    write_json(root / "data/house-official-profile-dispositions.json", nonresponses)
+    return {
+        "profiles": len(profiles),
+        "sources": len(receipts["sources"]),
+        "nonresponses": len(nonresponses),
+    }
 
 
 def acquire_background_inputs(root):
@@ -124,6 +227,10 @@ def acquire_background_inputs(root):
             )
     official = root / "data/house-official-profile-facts.json"
     records["official_profiles"] = json.loads(official.read_text()) if official.exists() else []
+    dispositions = root / "data/house-official-profile-dispositions.json"
+    records["official_profile_dispositions"] = (
+        json.loads(dispositions.read_text()) if dispositions.exists() else []
+    )
     receipts = root / "data/house-background-sources.json"
     records["background_source_receipts"] = (
         json.loads(receipts.read_text()) if receipts.exists() else {}
@@ -179,6 +286,7 @@ def background_profile(candidate, inputs):
         and same_name(record["name"], candidate["name"])
         and record["election_year"] == 2026
         and record.get("chamber") == "house"
+        and record.get("fields")
     ]
     return {
         "official_candidate_profiles": profiles,

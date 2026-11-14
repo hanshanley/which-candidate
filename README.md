@@ -24,11 +24,16 @@ coverage and unresolved fields. All current figures are House-only. Older
 House/Senate analysis snapshots remain unchanged for provenance.
 
 The readable [background observations](results/house/background-observations.csv)
-contain factual/source-reported fields for **601 candidates**, not all 1,284.
+contain factual/source-reported fields for **612 candidates**, not all 1,284.
 They include dated religion records and newly acquired official voter-guide
-profiles. **683 candidates still lack these observations.** A null-ID matching
+profiles. **672 candidates still lack these observations.** A null-ID matching
 bug that assigned 42 unrelated historical biographies has been corrected; the
 audit documents the withdrawn counts and remaining coverage gaps.
+
+The latest acquisition adds **14 Utah profiles**, including 11 previously
+uncovered candidates. The [source investigation](docs/CANDIDATE_DATABASES.md)
+also verifies nationwide biography services from Vote Smart, KnowWho and
+BallotReady, while distinguishing access requirements from acquired records.
 
 **Website publication is withdrawn pending further candidate research.** The
 gallery and its links were removed from The Margin of Error. Historical analysis

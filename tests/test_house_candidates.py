@@ -8,7 +8,12 @@ import pytest
 
 from which_candidate import house_candidates as house
 from which_candidate import rebuild_publication
-from which_candidate.house_backgrounds import background_profile, parse_oregon_page
+from which_candidate.house_backgrounds import (
+    background_profile,
+    parse_oregon_page,
+    parse_utah_certification,
+    parse_utah_profile,
+)
 from which_candidate.storage import fingerprint, read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -187,6 +192,7 @@ def test_official_profile_link_requires_office_cycle_party_and_district():
         ("party", "Democratic"),
         ("election_year", 2024),
         ("chamber", "senate"),
+        ("fields", {}),
     ):
         changed = {**inputs, "official_profiles": [{**profile, key: value}]}
         assert not background_profile(candidate, changed)["official_candidate_profiles"]
@@ -208,6 +214,63 @@ def test_pamphlet_parser_excludes_statements_and_state_house_candidates():
     }
     assert "promises" not in json.dumps(profile)
     assert not parse_oregon_page(text.replace("US Representative", "State Representative"))
+
+
+def test_utah_profiles_join_certified_party_and_preserve_multiline_occupation():
+    certified = parse_utah_certification(
+        "U.S. House of Representatives District 1. First district\nCandidate Party\n"
+        "JANE M. SMITH Libertarian\nADONIS HOOSL YN Unaffiliated\n"
+        "U.S. House of Representatives District 2. Second district\nCandidate Party\n"
+        "JANE SMITH Republican\n"
+    )
+    text = (
+        "Congressional District 1\n\nJane Smith\n\n"
+        "CONTACT EMAIL    private@example.org\n\n"
+        "WEBSITE    example.org\nCITY OF RESIDENCE    Example City\n\n"
+        "YEARS OF RESIDENCE    12\n\nAGE    39\n"
+        "OCCUPATION    Physical Education Teacher & Direct Care\n"
+        "             Provider\n\nA campaign promise, not a biography field."
+    )
+    profile = parse_utah_profile(text, certified)
+    assert profile["party"] == "Libertarian"
+    assert profile["fields"] == {
+        "residence_city": "Example City",
+        "reported_years_of_residence": "12",
+        "reported_age": "39",
+        "occupation": "Physical Education Teacher & Direct Care Provider",
+        "campaign_website": "example.org",
+    }
+    assert not profile["model_ready"]
+    assert "private@" not in json.dumps(profile)
+    assert "campaign promise" not in json.dumps(profile)
+    assert parse_utah_profile(text.replace("Congressional", "State House"), certified) is None
+    assert certified[1]["name"] == "ADONIS HOOSL YN"
+    assert (
+        parse_utah_profile(text.replace("Jane Smith", "Adonis Hooslyn"), certified)["party"]
+        == "Unaffiliated"
+    )
+
+
+def test_utah_empty_fields_and_nonresponses_do_not_inherit_campaign_prose():
+    certified = [{"name": "JANE SMITH", "district": "01", "party": "Democratic"}]
+    text = "Congressional District 1\n\nJane Smith\n\n"
+    for ending, status in (
+        ("NO PROFILE SUBMITTED", "no_profile_submitted"),
+        ("NO  PROFILE  SUBMITTED", "no_profile_submitted"),
+        ("WEBSITE    example.org\n\nOCCUPATION\n\nI will cut taxes.", "no_structured_fields"),
+    ):
+        profile = parse_utah_profile(text + ending, certified)
+        assert profile["fields"] == {}
+        assert profile["response_status"] == status
+    for alternatives in (
+        [],
+        [*certified, *certified],
+        [{**certified[0], "district": "02"}],
+        [{**certified[0], "name": "JANES MITH"}],
+    ):
+        profile = parse_utah_profile(text + "OCCUPATION    Teacher", alternatives)
+        assert profile["fields"] == {}
+        assert profile["response_status"] == "certification_identity_unresolved"
 
 
 def test_dated_backgrounds_keep_unknowns_and_changes_without_current_labels():

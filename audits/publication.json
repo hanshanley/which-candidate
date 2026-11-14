@@ -18,25 +18,25 @@
     "republicans": 433,
     "other_parties": 402,
     "qualified_candidate_id_links": 983,
-    "campaign_urls": 694,
+    "campaign_urls": 703,
     "pre_election_biography_records": 467,
     "additional_historical_biographies": 87,
     "historical_campaign_factual_extractions": 184,
-    "official_candidate_supplied_profiles": 16,
+    "official_candidate_supplied_profiles": 30,
     "dated_religion_observations": 340,
     "member_authorized_background_records": 332,
     "positive_house_historian_identifications": 100,
-    "candidates_with_downloadable_background_observations": 601,
-    "candidates_without_downloadable_background_observations": 683,
-    "downloadable_background_observation_rows": 26164,
+    "candidates_with_downloadable_background_observations": 612,
+    "candidates_without_downloadable_background_observations": 672,
+    "downloadable_background_observation_rows": 26230,
     "name_qualified_historical_donor_scores": 370,
     "prior_federal_voting_scores": 291,
     "historical_profiles_acquired_or_verified": 244,
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 224,
-    "extracted_download_tests_passed": 218,
+    "checkout_tests_passed": 226,
+    "extracted_download_tests_passed": 220,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
@@ -62,12 +62,12 @@
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 51679111,
-      "sha256": "f9834aa526b263f508802d5457c80ce849c87f7aef649f0063875ef364820012"
+      "bytes": 51689178,
+      "sha256": "341128a0abd6d49837ee419e5aad28b07e3cff5415519f3aaf722267f52e63cb"
     },
     "substack-figures.zip": {
-      "bytes": 52756240,
-      "sha256": "a79811a88f55c630f68b89e9db326125b25a19e39af4daa1cba6bb42f4c61241"
+      "bytes": 52764344,
+      "sha256": "8be9befed362ea143b1dc3529ca39566e06e0f9e931daebab11989f7602314e9"
     }
   },
   "identity_correction": {
@@ -77,9 +77,27 @@
     "corrected_historical_count": 87,
     "detailed_receipt": "audits/house-backgrounds.json"
   },
+  "source_acquisition_follow_up": {
+    "checked_on": "2026-11-14",
+    "source_search_ledger": "data/house-source-search.json",
+    "original_pdf_sources": 28,
+    "utah_profiles_added": 14,
+    "previously_uncovered_candidates_added": 11,
+    "observations_added": 66,
+    "utah_missing_submissions": 4,
+    "utah_additional_profiles_without_structured_fields": 2,
+    "omitted_profile_dispositions": "data/house-official-profile-dispositions.json",
+    "nationwide_providers_documented_not_acquired": [
+      "Vote Smart",
+      "KnowWho",
+      "BallotReady CivicEngine"
+    ],
+    "provider_discovery_counted_as_candidate_coverage": false,
+    "new_background_evidence_model_ready": false
+  },
   "remaining_limitations": [
     "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
-    "A complete roster is not complete background coverage: 683 candidates lack downloadable observations; only six other-party candidates have them.",
+    "A complete roster is not complete background coverage: 672 candidates lack downloadable observations; only 14 other-party candidates have them.",
     "Machine-extracted biography facts require subject verification and remain model-ineligible.",
     "Dated religion responses and official positive identity classifications are retained as observations, not current verified identity labels; no identities are inferred.",
     "One current campaign record was captured only after Election Day and cannot supply pre-election features.",

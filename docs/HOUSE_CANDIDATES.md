@@ -20,19 +20,19 @@ Current source-qualified coverage:
 | --- | ---: | ---: | ---: | ---: |
 | Roster entries | 1,284 | 449 | 433 | 402 |
 | Candidate-ID links | 983 | 428 | 397 | 158 |
-| Campaign URLs | 694 | 372 | 315 | 7 |
+| Campaign URLs | 703 | 373 | 315 | 15 |
 | Pre-election campaign biography records | 467 | 278 | 186 | 3 |
 | Historical CampaignView biography records | 87 | 34 | 53 | 0 |
 | Historical campaign-site factual extractions | 184 | 95 | 89 | 0 |
-| Official candidate-supplied voter-guide profiles | 16 | 7 | 6 | 3 |
+| Official candidate-supplied voter-guide profiles | 30 | 11 | 8 | 11 |
 | Dated Pew/CQ religion observations | 340 | 176 | 164 | 0 |
 | Member-authorized background records | 332 | 167 | 165 | 0 |
 | Positive House Historian identifications | 100 | 88 | 12 | 0 |
-| Any downloadable background observations | 601 | 327 | 268 | 6 |
+| Any downloadable background observations | 612 | 329 | 269 | 14 |
 | Name-qualified historical donor scores | 370 | 192 | 178 | 0 |
 | Prior federal voting scores | 291 | 148 | 143 | 0 |
 
-Rows overlap and must not be added. **683 candidates still lack downloadable
+Rows overlap and must not be added. **672 candidates still lack downloadable
 background observations.** An observation can be historical, machine-extracted,
 candidate-supplied or an explicit unknown questionnaire response; it is not a
 complete verified biography. One candidate's current campaign facts were captured
@@ -55,7 +55,7 @@ The held historical search contains 244 CampaignView profiles; only 87 candidate
 have a currently qualified nonempty biography from 2024 or earlier. Historical
 issue headings, years, lengths and hashes are supplied, not copyrighted campaign
 text. These pointers do not count as downloadable factual background in the
-601-person denominator unless another source actually supplies observations.
+612-person denominator unless another source actually supplies observations.
 
 `results/house/candidates.csv` is the readable candidate-level table.
 `candidates.jsonl.gz` adds every match decision, source row, campaign URL,
@@ -93,6 +93,26 @@ candidate-supplied PDFs. Regional duplicates are consolidated while retaining
 every page reference. Not every listed Oregon candidate submitted a usable
 profile. Publication dates for individual voter-guide statements are not fully
 verified; these new fields remain model-ineligible.
+
+The follow-up acquired Utah's complete **118-page official pamphlet** and its
+amended candidate certification. It adds 14 usable structured profiles, including
+11 previously uncovered candidates, and 66 observations. Party and district are
+checked against the certification before joining a guide profile to a candidate.
+The current long table contains **26,230 observations for 612 candidates**.
+Utah contributes occupation, city of residence, literal years-of-residence
+responses, reported age and campaign websites, not inferred religion or ideology.
+Reported age is not converted into age at Election Day; years of residence are
+not presumed to mean years in the district.
+
+Four Utah pages explicitly say no profile was submitted. Two additional profiles
+have no usable structured background fields; their narrative statements are not
+silently treated as empty submissions or copied wholesale. All six dispositions
+and their page/hash references are supplied in
+`data/house-official-profile-dispositions.json` and the normalized inputs.
+No failed submission or website-only profile counts as background coverage.
+The [source search](CANDIDATE_DATABASES.md) and
+`data/house-source-search.json` distinguish acquired guides from nationwide
+services requiring approved access.
 
 Ballotpedia's bulk request returned an empty HTTP 202 response. The public
 Wikidata query endpoint returned HTTP 403. Neither was bypassed, acquired as a
