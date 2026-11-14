@@ -18,6 +18,11 @@ import pyarrow.parquet as pq
 from .candidate_databases import DIME_URL, _fetch, select_campaignview, select_dime
 from .corrected import same_name
 from .features import name_matches, read_candidate_master
+from .house_backgrounds import (
+    acquire_background_inputs,
+    background_observations,
+    background_profile,
+)
 from .pipeline import csv_bytes
 from .rebuild import (
     CACHE,
@@ -67,7 +72,13 @@ def resolve_identity(candidate, fec_rows, websites, people=()):
         if r["election_year"] == 2026
         and r["chamber"] == "house"
         and r["state"] == candidate["state"]
-        and r["party"] in codes
+        and (
+            r["party"] in codes
+            or (
+                candidate["party"] == "Write-In"
+                and district(r["district"]) == district(candidate["district"])
+            )
+        )
     ]
 
     def qualified_name(name, record):
@@ -86,11 +97,19 @@ def resolve_identity(candidate, fec_rows, websites, people=()):
             ]
             if name_matches(name, source["first"], source["last"], aliases):
                 return True
+            for key in ("wikipedia", "ballotpedia"):
+                title = re.sub(r"\s*\(.*\)$", "", person["id"].get(key, "").replace("_", " "))
+                if same_name(name, title):
+                    return True
         return False
 
     official = [r for r in context if qualified_name(candidate["name"], r)]
     ids = {r["fec_id"] for r in official}
     party = {"Democratic": "D", "Republican": "R"}.get(candidate["party"])
+    if candidate["party"] == "Write-In" and len(ids) == 1:
+        registration_parties = {r["party"] for r in official}
+        if len(registration_parties) == 1:
+            party = {"DEM": "D", "REP": "R"}.get(next(iter(registration_parties)))
     web = [
         r
         for r in websites
@@ -116,6 +135,8 @@ def resolve_identity(candidate, fec_rows, websites, people=()):
         status = "official_name_party_year_state"
         if not same_district:
             status += "; registration_district_differs"
+        if candidate["party"] == "Write-In":
+            status += "; write_in_is_ballot_label; district_required"
     elif len(ids & web_ids) == 1 and len(web_ids) == 1:
         fec_id, status = next(iter(web_ids)), "official_and_publisher_concordance"
     elif not ids and len(web_ids) == 1:
@@ -164,9 +185,7 @@ def acquire_inputs(root):
                 if row["congress"] == "118" and row["chamber"] == "House":
                     members.append({**row, "source_id": spec["id"], "source_row": number})
     websites = [
-        r
-        for r in csv_rows(cache / "candidate-year-universe.csv")
-        if r["year"] == "2026" and r["office"] == "house"
+        r for r in csv_rows(cache / "candidate-year-universe.csv") if r["office"] == "house"
     ]
     documents = {
         r["parent_document_id"]: r
@@ -176,7 +195,7 @@ def acquire_inputs(root):
     for fact, doc in unique_facts(
         pq.read_table(cache / "biography-facts.parquet").to_pylist(), documents
     ):
-        if doc["year"] != 2026 or doc["office"] != "house":
+        if doc["year"] > 2026 or doc["office"] != "house":
             continue
         facts.append(
             {
@@ -197,6 +216,7 @@ def acquire_inputs(root):
                 },
                 "state": doc["state"],
                 "party": doc["party"],
+                "source_year": doc["year"],
                 "first_capture_timestamp": doc["first_capture_timestamp"],
                 "last_capture_timestamp": doc["last_capture_timestamp"],
                 "captured_before_election": capture_before_cutoff(doc["first_capture_timestamp"]),
@@ -231,6 +251,7 @@ def acquire_inputs(root):
         "website_source_receipts": receipts,
         "website_license": "CC BY 4.0; Hanno Hilbig et al.; doi:10.7910/DVN/BZ2JRS",
         **cached_historical_biographies(root),
+        **acquire_background_inputs(root),
     }
 
 
@@ -322,7 +343,9 @@ def acquire_historical_biographies(root):
     if fingerprint(index_path) != {k: index_receipt[k] for k in ("bytes", "sha256")}:
         raise ValueError("Changed CampaignView index")
     ids = {
-        r["identity"]["fec_id"] for r in candidates if not r["pre_election_biography_record_ids"]
+        r["identity"]["fec_id"]
+        for r in candidates
+        if r["identity"]["fec_id"] and not r["pre_election_biography_record_ids"]
     }
     index = [r for r in json.loads(index_path.read_text()) if r["FECCandID"] in ids]
 
@@ -410,6 +433,10 @@ def inventory(panel, inputs):
                 row, identity, inputs["people"], inputs["members"]
             )
             party = {"Democratic": "democrat", "Republican": "republican"}.get(row["party"])
+            if row["party"] == "Write-In" and identity["fec_id"]:
+                registered = {r["party"] for r in identity["official_alternatives"]}
+                if len(registered) == 1:
+                    party = {"DEM": "democrat", "REP": "republican"}.get(next(iter(registered)))
             matched_facts = []
             if website:
                 for fact in grouped[website["candidate_cycle_id"]]:
@@ -424,6 +451,32 @@ def inventory(panel, inputs):
             row["pre_election_biography_record_ids"] = [
                 f["record_id"] for f in matched_facts if f["captured_before_election"]
             ]
+            historical = []
+            if identity["fec_id"]:
+                for source in inputs["websites"]:
+                    if (
+                        source["year"] >= "2026"
+                        or source["office"] != "house"
+                        or source["cand_id"] != identity["fec_id"]
+                        or source["state"] != row["state"]
+                    ):
+                        continue
+                    if not (
+                        same_name(row["name"], source["candidate"])
+                        or any(
+                            matches_name(source["candidate"], official)
+                            for official in identity["official_alternatives"]
+                        )
+                    ):
+                        continue
+                    for fact in grouped[source["candidate_cycle_id"]]:
+                        if fact["captured_before_election"]:
+                            historical.append(
+                                {**fact, "candidate_id": row["candidate_id"], "historical": True}
+                            )
+            facts.extend(historical)
+            row["historical_campaign_record_ids"] = [f["record_id"] for f in historical]
+            row["historical_campaign_fields"] = sorted({f["field"] for f in historical})
             row["donor"] = (
                 select_dime(
                     {"D_name": row["name"], "D_fec_id": identity["fec_id"], "state": row["state"]},
@@ -436,7 +489,7 @@ def inventory(panel, inputs):
             cv = [
                 r
                 for r in inputs.get("campaignview", [])
-                if r["index"]["FECCandID"] == identity["fec_id"]
+                if identity["fec_id"] and r["index"]["FECCandID"] == identity["fec_id"]
             ]
             row["historical_biography"] = (
                 select_campaignview(
@@ -454,11 +507,32 @@ def inventory(panel, inputs):
             row["verified_religion"] = None
             row["verified_race_ethnicity"] = None
             row["identity_trait_status"] = "not_coded_in_this_all_candidate_inventory"
+            row["background"] = background_profile(row, inputs)
+            row["campaign_websites"] = sorted(
+                {
+                    *([website["website_url"]] if website and website["website_url"] else []),
+                    *[
+                        profile["fields"]["campaign_website"]
+                        for profile in row["background"]["official_candidate_profiles"]
+                        if profile["fields"].get("campaign_website")
+                    ],
+                }
+            )
+            row["religion_evidence_status"] = (
+                "dated_office_observations; current_affiliation_unverified"
+                if row["background"]["dated_religion_observations"]
+                else "no_qualified_office_observation"
+            )
+            row["race_ethnicity_evidence_status"] = (
+                "dated_official_observations; current_self_identification_unverified"
+                if row["background"]["official_historian_observations"]
+                else "no_qualified_historian_observation"
+            )
             row["missing_information"] = [
                 key
                 for key, present in (
                     ("fec_id", identity["fec_id"]),
-                    ("campaign_website", website and website["website_url"]),
+                    ("campaign_website", row["campaign_websites"]),
                     ("pre_election_biography", row["pre_election_biography_record_ids"]),
                     ("verified_religion", False),
                     ("verified_race_ethnicity", False),
@@ -486,9 +560,7 @@ def coverage(candidates):
                 "cohort": group,
                 "candidates": len(rows),
                 "fec_id": sum(bool(r["identity"]["fec_id"]) for r in rows),
-                "campaign_website": sum(
-                    bool(r["website"] and r["website"]["website_url"]) for r in rows
-                ),
+                "campaign_website": sum(bool(r["campaign_websites"]) for r in rows),
                 "pre_election_biography": sum(
                     bool(r["pre_election_biography_record_ids"]) for r in rows
                 ),
@@ -504,6 +576,44 @@ def coverage(candidates):
                 ),
                 "historical_biography": sum(
                     r["historical_biography"]["historical_biography_available"] for r in rows
+                ),
+                "historical_campaign_facts": sum(
+                    bool(r["historical_campaign_record_ids"]) for r in rows
+                ),
+                "official_candidate_profile": sum(
+                    bool(r["background"]["official_candidate_profiles"]) for r in rows
+                ),
+                "dated_religion_observations": sum(
+                    bool(r["background"]["dated_religion_observations"]) for r in rows
+                ),
+                "member_authorized_background": sum(
+                    bool(r["background"]["member_authorized_biographies"]) for r in rows
+                ),
+                "official_historian_identification": sum(
+                    bool(r["background"]["official_historian_observations"]) for r in rows
+                ),
+                "any_background_evidence": sum(
+                    bool(
+                        r["biography_record_ids"]
+                        or r["historical_biography"]["historical_biography_available"]
+                        or r["historical_campaign_record_ids"]
+                        or r["background"]["official_candidate_profiles"]
+                        or r["background"]["member_authorized_biographies"]
+                        or r["background"]["dated_religion_observations"]
+                        or r["background"]["official_historian_observations"]
+                    )
+                    for r in rows
+                ),
+                "factual_background": sum(
+                    bool(
+                        r["biography_record_ids"]
+                        or r["historical_campaign_record_ids"]
+                        or r["background"]["official_candidate_profiles"]
+                        or r["background"]["member_authorized_biographies"]
+                        or r["background"]["dated_religion_observations"]
+                        or r["background"]["official_historian_observations"]
+                    )
+                    for r in rows
                 ),
             }
         )
@@ -541,6 +651,9 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
         write_rows(staged / "candidates.jsonl.gz", candidates)
         write_rows(staged / "all-choices.jsonl.gz", choices)
         write_rows(staged / "biography-facts.jsonl.gz", facts)
+        (staged / "background-observations.csv").write_bytes(
+            csv_bytes(background_observations(candidates, facts))
+        )
         write_json(staged / "coverage.json", coverage(candidates))
         flat = [
             {
@@ -558,19 +671,25 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
                 },
                 "fec_id": r["identity"]["fec_id"],
                 "identity_match": r["identity"]["status"],
-                "website_url": r["website"]["website_url"] if r["website"] else None,
+                "website_url": ";".join(r["campaign_websites"]),
                 "bioguide_id": r["legislative"].get("bioguide_id"),
                 "house_incumbent": r["legislative"]["house_incumbent"],
                 "age_at_election": r["legislative"].get("age_at_election"),
                 "pre_election_biography_records": len(r["pre_election_biography_record_ids"]),
                 "biography_fields": ";".join(r["pre_election_biography_fields"]),
+                "historical_campaign_fields": ";".join(r["historical_campaign_fields"]),
+                "official_profile_records": len(r["background"]["official_candidate_profiles"]),
+                "dated_religion_observations": len(r["background"]["dated_religion_observations"]),
+                "member_authorized_biography_records": len(
+                    r["background"]["member_authorized_biographies"]
+                ),
                 "historical_donor_score": r["donor"].get("score"),
                 "donor_name_screen": r["donor"].get("name_screen"),
                 "historical_biography_available": r["historical_biography"][
                     "historical_biography_available"
                 ],
-                "religion_status": r["identity_trait_status"],
-                "race_ethnicity_status": r["identity_trait_status"],
+                "religion_status": r["religion_evidence_status"],
+                "race_ethnicity_status": r["race_ethnicity_evidence_status"],
                 "missing_information": ";".join(r["missing_information"]),
             }
             for r in candidates
@@ -580,7 +699,7 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
             csv_bytes([r for r in flat if r["missing_information"]])
         )
         manifest = {
-            "schema": "which_candidate.house_candidates.v1",
+            "schema": "which_candidate.house_candidates.v2",
             "scope": "2026 House only; all named candidates in the pinned provider returns",
             "count_status": "November 12-13 provider snapshot; provisional, not certified",
             "contests": len(panel),

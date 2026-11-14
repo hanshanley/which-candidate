@@ -23,6 +23,13 @@ The [House information audit](docs/HOUSE_CANDIDATES.md) describes the actual sou
 coverage and unresolved fields. All current figures are House-only. Older
 House/Senate analysis snapshots remain unchanged for provenance.
 
+The readable [background observations](results/house/background-observations.csv)
+contain factual/source-reported fields for **601 candidates**, not all 1,284.
+They include dated religion records and newly acquired official voter-guide
+profiles. **683 candidates still lack these observations.** A null-ID matching
+bug that assigned 42 unrelated historical biographies has been corrected; the
+audit documents the withdrawn counts and remaining coverage gaps.
+
 **Website publication is withdrawn pending further candidate research.** The
 gallery and its links were removed from The Margin of Error. Historical analysis
 data remain under `results/`; superseded plots are available only in Git history.

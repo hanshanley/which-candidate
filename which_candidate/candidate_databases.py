@@ -240,6 +240,15 @@ def select_dime(query, matches, *, party_code="100"):
 
 
 def select_campaignview(query, matches, details, *, party_label="Democrat"):
+    if not query.get("D_fec_id"):
+        return {
+            "status": "missing_target_fec_id",
+            "records": [],
+            "held": [],
+            "historical_biography_available": False,
+            "current_2026_biography": False,
+            "identity_labels_extracted": False,
+        }
     accepted, held = [], []
     for record in matches:
         uid = record["uid"]

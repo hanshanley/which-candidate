@@ -1,3 +1,4 @@
+import csv
 import json
 import socket
 from copy import deepcopy
@@ -7,6 +8,7 @@ import pytest
 
 from which_candidate import house_candidates as house
 from which_candidate import rebuild_publication
+from which_candidate.house_backgrounds import background_profile, parse_oregon_page
 from which_candidate.storage import fingerprint, read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -116,7 +118,12 @@ def test_biography_records_preserve_subject_review_and_pre_election_cutoff():
     by_id = {r["candidate_id"]: r for r in candidates}
     for fact in facts:
         candidate = by_id[fact["candidate_id"]]
-        assert fact["candidate_cycle_id"] == candidate["website"]["candidate_cycle_id"]
+        if fact.get("historical"):
+            assert candidate["identity"]["fec_id"]
+            assert fact["record_id"] in candidate["historical_campaign_record_ids"]
+            assert fact["source_year"] < 2026
+        else:
+            assert fact["candidate_cycle_id"] == candidate["website"]["candidate_cycle_id"]
         assert not fact["model_ready"]
         assert fact["captured_before_election"] == house.capture_before_cutoff(
             fact["first_capture_timestamp"]
@@ -125,6 +132,126 @@ def test_biography_records_preserve_subject_review_and_pre_election_cutoff():
         assert "require_review" in fact["review_status"]
     assert all(r["verified_religion"] is None for r in candidates)
     assert all(r["verified_race_ethnicity"] is None for r in candidates)
+
+
+def test_missing_ids_cannot_inherit_any_historical_person_evidence():
+    candidates = read_rows(ROOT / "results/house/candidates.jsonl.gz")
+    for row in candidates:
+        if not row["identity"]["fec_id"]:
+            assert not row["historical_biography"]["historical_biography_available"]
+            assert not row["historical_campaign_record_ids"]
+            assert not row["background"]["dated_religion_observations"]
+            assert not row["background"]["member_authorized_biographies"]
+
+
+def test_write_in_ballot_label_needs_exact_district_and_preserves_affiliation():
+    candidate, fec, website = identity_fixture()
+    candidate["party"] = "Write-In"
+    result = house.resolve_identity(candidate, [fec], [website])
+    assert result["fec_id"] == fec["fec_id"]
+    assert "write_in_is_ballot_label" in result["status"]
+    assert candidate["party"] == "Write-In"
+    assert house.resolve_identity(candidate, [{**fec, "district": "03"}], [])["fec_id"] is None
+
+
+def test_documented_congressional_title_alias_requires_the_same_fec_id():
+    candidate, fec, _ = identity_fixture()
+    candidate["name"], fec["name"], fec["first"] = "Jo Smith", "SMITH, JOSEPHINE", "Josephine"
+    person = {
+        "id": {"fec": [fec["fec_id"]], "wikipedia": "Jo Smith (politician)"},
+        "name": {"first": "Josephine", "last": "Smith"},
+    }
+    assert house.resolve_identity(candidate, [fec], [], [person])["fec_id"] == fec["fec_id"]
+    person["id"]["fec"] = ["H6CA02002"]
+    assert house.resolve_identity(candidate, [fec], [], [person])["fec_id"] is None
+
+
+def test_official_profile_link_requires_office_cycle_party_and_district():
+    candidate = {
+        **identity_fixture()[0],
+        "identity": {"fec_id": None},
+    }
+    profile = {
+        "name": candidate["name"],
+        "state": "CA",
+        "district": "02",
+        "party": "Republican",
+        "election_year": 2026,
+        "fields": {"occupation": "Teacher"},
+        "chamber": "house",
+    }
+    inputs = {"people": [], "official_profiles": [profile]}
+    assert background_profile(candidate, inputs)["official_candidate_profiles"] == [profile]
+    for key, value in (
+        ("district", "03"),
+        ("party", "Democratic"),
+        ("election_year", 2024),
+        ("chamber", "senate"),
+    ):
+        changed = {**inputs, "official_profiles": [{**profile, key: value}]}
+        assert not background_profile(candidate, changed)["official_candidate_profiles"]
+
+
+def test_pamphlet_parser_excludes_statements_and_state_house_candidates():
+    text = (
+        "US Representative, 4th District\nJane Smith\nPacific Green\n"
+        "Occupation: Statistician\nOccupational Background: Teacher\n"
+        "Educational Background: Example College, BS\n"
+        "Prior Governmental Experience: Council member\nMy campaign promises..."
+    )
+    profile = parse_oregon_page(text)[0]
+    assert profile["party"] == "Pacific Green"
+    assert profile["fields"] == {
+        "occupation": "Statistician",
+        "occupational_background": "Teacher",
+        "education": "Example College, BS",
+    }
+    assert "promises" not in json.dumps(profile)
+    assert not parse_oregon_page(text.replace("US Representative", "State Representative"))
+
+
+def test_dated_backgrounds_keep_unknowns_and_changes_without_current_labels():
+    candidate, fec, _ = identity_fixture()
+    candidate["identity"] = {"fec_id": fec["fec_id"]}
+    person = {
+        "id": {"fec": [fec["fec_id"]], "bioguide": "S000001"},
+        "name": {"first": "Jane", "last": "Smith"},
+        "terms": [{"state": "CA"}],
+    }
+    record = {
+        "name": "Jane Smith",
+        "state": "CA",
+        "chamber": "house",
+        "publication_date": "2023-01-03",
+        "religion_literal": "Unknown",
+    }
+    inputs = {
+        "people": [person],
+        "religion_observations": [
+            record,
+            {
+                **record,
+                "religion_literal": "Unspecified Protestant",
+                "publication_date": "2025-01-02",
+            },
+            {**record, "publication_date": "2026-11-04"},
+            {**record, "state": "NY"},
+            {**record, "name": "Jane Jones"},
+        ],
+    }
+    result = background_profile(candidate, inputs)["dated_religion_observations"]
+    assert [r["religion_literal"] for r in result] == ["Unknown", "Unspecified Protestant"]
+    assert all(not r["current_identity_label"] and not r["model_ready"] for r in result)
+
+
+def test_background_csv_coverage_counts_people_not_repeated_observations():
+    candidates = read_rows(ROOT / "results/house/candidates.jsonl.gz")
+    with (ROOT / "results/house/background-observations.csv").open() as stream:
+        observations = list(csv.DictReader(stream))
+    ids = {r["candidate_id"] for r in observations}
+    assert len(ids) == house.coverage(candidates)[0]["factual_background"]
+    assert all(r["model_ready"] == "False" for r in observations)
+    assert all(r["field"] and r["value"] and r["evidence"] for r in observations)
 
 
 def test_house_inventory_replays_offline_without_mutating_sources(tmp_path, monkeypatch):

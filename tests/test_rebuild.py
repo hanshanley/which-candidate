@@ -479,6 +479,10 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
             if Path(name).suffix in (".png", ".svg")
         )
         assert "results/2026-v4/biography-facts.jsonl.gz" in archive.namelist()
+        assert (
+            archive.read("audits/house-backgrounds.json")
+            == (ROOT / "audits/house-backgrounds.json").read_bytes()
+        )
     with zipfile.ZipFile(output / "substack-figures.zip") as archive:
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())

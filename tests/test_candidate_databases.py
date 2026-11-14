@@ -107,6 +107,25 @@ def test_missing_fec_is_not_replaced_with_name_matching():
     assert select_dime(query(D_fec_id=None), [dime()])["status"] == "missing_target_fec_id"
 
 
+def test_missing_campaignview_ids_never_match_each_other():
+    record = {
+        "uid": "different-person",
+        "FECCandID": None,
+        "state_postal": "CA",
+        "cand_party": "Democrat",
+        "years": [2024],
+    }
+    detail = {
+        "uid": record["uid"],
+        "FECCandID": {"2024": None},
+        "issues": {"bio": {"year": 2024, "header": "Candidate Biography", "text": "Other person"}},
+    }
+    selected = select_campaignview(query(D_fec_id=None), [record], {record["uid"]: detail})
+    assert selected["status"] == "missing_target_fec_id"
+    assert not selected["records"]
+    assert not selected["historical_biography_available"]
+
+
 def test_old_office_name_match_is_only_a_review_lead(tmp_path):
     rows = [
         dime(**{"Cand.ID": "CA-state123", "seat": "state:lower"}),

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Nick Begich III",
+    "chamber": "house",
+    "state": "AK",
+    "district": "AL",
+    "party": "Republican",
+    "election_year": 2026,
+    "fields": {
+      "campaign_website": "https://www.alaskansfornickbegich.com",
+      "occupation": "U.S. Representative",
+      "education": ["Baylor University, BBA", "Indiana University, MBA"],
+      "birthplace": "Anchorage, Alaska",
+      "reported_age": 48,
+      "business_experience": ["Dashfire founder", "Farshore Partners founder", "Ford Motor Company"]
+    },
+    "evidence": [{"source_id": "ak-begich", "pdf_page": 1}],
+    "review_status": "candidate_supplied_factual_fields_reviewed; not_independently_verified",
+    "publication_date": null,
+    "model_ready": false
+  },
+  {
+    "name": "Eric Hafner",
+    "chamber": "house",
+    "state": "AK",
+    "district": "AL",
+    "party": "Democratic",
+    "election_year": 2026,
+    "fields": {
+      "campaign_website": "https://www.erichafner.com",
+      "education": ["Denver College, criminal justice", "City College of San Francisco, listed fields of study"]
+    },
+    "evidence": [{"source_id": "ak-hafner", "pdf_page": 1}],
+    "review_status": "candidate_supplied_factual_fields_reviewed; degree_not_inferred_for_listed_study",
+    "publication_date": null,
+    "model_ready": false
+  },
+  {
+    "name": "Bill Hill",
+    "chamber": "house",
+    "state": "AK",
+    "district": "AL",
+    "party": "Nonpartisan",
+    "election_year": 2026,
+    "fields": {
+      "campaign_website": "https://www.billhillforalaskans.com",
+      "occupation": "Commercial fisherman",
+      "education": ["University of Alaska Anchorage, bachelor's in education", "University of Phoenix, master's in education administration"],
+      "birthplace": "Maryland",
+      "reported_age": 57,
+      "occupational_background": ["Teacher", "Principal", "School superintendent", "Business owner"],
+      "governmental_experience": ["Bristol Bay School District superintendent, 2013-2023"]
+    },
+    "evidence": [{"source_id": "ak-hill", "pdf_page": 1}],
+    "review_status": "candidate_supplied_factual_fields_reviewed; not_independently_verified",
+    "publication_date": null,
+    "model_ready": false
+  },
+  {
+    "name": "James C. \"Jim\" McDermott",
+    "chamber": "house",
+    "state": "AK",
+    "district": "AL",
+    "party": "Libertarian",
+    "election_year": 2026,
+    "fields": {
+      "campaign_website": "https://www.mcdermott4congress4alaska.com/",
+      "occupation": "Writer",
+      "education": ["University of La Verne, MS in business organizational management", "Wayland Baptist University, BS in occupational education"],
+      "military_service": "U.S. Air Force, 22.5 years; retired master sergeant",
+      "birthplace": "Savannah, Georgia",
+      "reported_age": 68,
+      "governmental_experience": ["Alaska Public Offices Commission, election commissioner"]
+    },
+    "evidence": [{"source_id": "ak-mcdermott", "pdf_page": 1}],
+    "review_status": "candidate_supplied_factual_fields_reviewed; source_explicitly_gives_nickname_Jim",
+    "publication_date": null,
+    "model_ready": false
+  }
+]

@@ -17,58 +17,73 @@
     "democrats": 449,
     "republicans": 433,
     "other_parties": 402,
-    "qualified_candidate_id_links": 962,
-    "campaign_urls": 678,
-    "pre_election_biography_records": 462,
-    "additional_historical_biographies": 130,
-    "candidates_with_either_biography_source": 592,
-    "candidates_without_either_biography_source": 692,
+    "qualified_candidate_id_links": 983,
+    "campaign_urls": 694,
+    "pre_election_biography_records": 467,
+    "additional_historical_biographies": 87,
+    "historical_campaign_factual_extractions": 184,
+    "official_candidate_supplied_profiles": 16,
+    "dated_religion_observations": 340,
+    "member_authorized_background_records": 332,
+    "positive_house_historian_identifications": 100,
+    "candidates_with_downloadable_background_observations": 601,
+    "candidates_without_downloadable_background_observations": 683,
+    "downloadable_background_observation_rows": 26164,
     "name_qualified_historical_donor_scores": 370,
-    "prior_federal_voting_scores": 282,
+    "prior_federal_voting_scores": 291,
     "historical_profiles_acquired_or_verified": 244,
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 216,
-    "extracted_download_tests_passed": 210,
+    "checkout_tests_passed": 224,
+    "extracted_download_tests_passed": 218,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 64,
+    "ruff_format_files": 65,
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
     "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
     "extracted_replay_byte_identical_files": {
       "results/2026-v4": 9,
-      "results/house": 8,
+      "results/house": 9,
       "publication": 42
     },
     "zip_crc_checks": "passed",
     "zip_member_names_unique": true,
     "embedded_query_zip_matches_standalone": true,
     "repository_and_personal_chart_skills_match": true,
-    "article_and_mobile_visual_review": "All eight current figures; previews refreshed after final donor-label edits.",
+    "article_and_mobile_visual_review": "Earlier full eight-figure review retained; updated coverage figure reviewed without clipping or overlap. Detailed labels require enlargement at narrow phone widths.",
     "withdrawn_gallery_http_status": 404,
     "withdrawn_manifest_http_status": 404
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 38635375,
-      "sha256": "1bb440d203d6e2ab06cd5fbc32451e69f717d619612fc87c6a72e5100707d294"
+      "bytes": 51679111,
+      "sha256": "f9834aa526b263f508802d5457c80ce849c87f7aef649f0063875ef364820012"
     },
     "substack-figures.zip": {
-      "bytes": 39705552,
-      "sha256": "a7e14355bfe3360a7a97681789fd3dba9532d88ce1bdccbf8f9b1a70c5b781f4"
+      "bytes": 52756240,
+      "sha256": "a79811a88f55c630f68b89e9db326125b25a19e39af4daa1cba6bb42f4c61241"
     }
+  },
+  "identity_correction": {
+    "false_null_id_biography_assignments_removed": 42,
+    "previous_actual_historical_count": 129,
+    "previous_prose_historical_count": 130,
+    "corrected_historical_count": 87,
+    "detailed_receipt": "audits/house-backgrounds.json"
   },
   "remaining_limitations": [
     "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
-    "A complete roster is not complete trait coverage; acquired biography sources cover only the two major parties.",
+    "A complete roster is not complete background coverage: 683 candidates lack downloadable observations; only six other-party candidates have them.",
     "Machine-extracted biography facts require subject verification and remain model-ineligible.",
-    "Religion and race/ethnicity are not coded in the new all-candidate inventory; no identities are inferred.",
+    "Dated religion responses and official positive identity classifications are retained as observations, not current verified identity labels; no identities are inferred.",
+    "One current campaign record was captured only after Election Day and cannot supply pre-election features.",
+    "Individual voter-guide publication dates remain unverified; candidate-supplied fields are not independently verified.",
     "Historical donor scores and 2023-2024 voting records are not current campaign ideology.",
     "Existing selective model samples are not expanded by inventory coverage and do not establish causal candidate effects.",
     "Detailed static labels and footnotes require enlargement at narrow phone widths."

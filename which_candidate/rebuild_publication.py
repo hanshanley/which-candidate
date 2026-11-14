@@ -464,12 +464,12 @@ def coverage(data):
         "A complete roster is not complete candidate data",
         "Share of all named 2026 House candidates with usable source information. A missing record "
         "does not mean that a candidate lacks a trait or position.",
-        "ID/context-qualified campaign captures and historical donor/voting records. "
-        "Biographies are machine-extracted, not verified traits. Unknown is never zero.",
+        "Background mixes dated campaign extractions, member records and official voter guides. "
+        "Source claims are not verified current traits. Unknown is never zero.",
     )
     for i, (key, title) in enumerate(
         (
-            ("pre_election_biography", "2026 biography"),
+            ("factual_background", "Background observations"),
             ("donor_score", "Historical donor score"),
             ("prior_federal_voting_score", "Prior federal votes"),
         )
@@ -501,8 +501,10 @@ def coverage(data):
             f"The denominator is {rows[0]['candidates']} named House candidates across all "
             "435 districts, not one selected Democrat per district or just winners. "
             "Aggregate write-in/none-of-the-above choices are retained separately. "
-            "The campaign-site corpus covers Democrats and Republicans; zero third-party "
-            "biographies means no coverage in this source, not no biography or experience. "
+            "Background includes historical records, dated office questionnaires and "
+            "candidate-supplied voter-guide fields, not complete verified biographies. "
+            "Historical profile headings without extracted facts do not count in this panel. "
+            "Third-party gaps remain substantial and never mean no experience. "
             "Registration-district differences are disclosed; stable FEC IDs can persist "
             "across district moves. No machine-extracted trait or newly attached score "
             "has been added to the existing performance models."
