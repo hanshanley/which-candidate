@@ -43,7 +43,8 @@ retaining all 470 contests and every unresolved lead. Its complete replay
 download includes both openly licensed crosswalk originals; no new scores
 are promoted into the election models.
 
-**The active research replacement is [2026-v4](docs/REBUILD_2026_V4.md)**:
+**The active figures are [2026-v5](docs/FIGURES_2026_V5.md)**, a visual-only
+refinement of the unchanged [2026-v4 analysis](docs/REBUILD_2026_V4.md):
 eight redesigned figures, 7,252 biography records, 273 nominees with pre-election
 captures and 129 historical identity leads. All machine biography labels remain
 held for review.
@@ -55,8 +56,8 @@ opposite associations even on the same 100 incumbents. This does not establish
 a universal moderation premium.
 
 See the [critique and repairs](audits/2026-v4/critical-review.md),
-[complete queries](downloads/2026-v4-complete-queries.zip) and
-[Substack bundle](downloads/2026-v4-substack-figures.zip).
+[complete queries](downloads/2026-v5-complete-queries.zip) and
+[Substack bundle](downloads/2026-v5-substack-figures.zip).
 
 **The archived corrected release is [2026-v3](results/2026-v3/analysis/report.md).**
 It supersedes v2's interpretation while preserving all v2 bytes. Fresh native

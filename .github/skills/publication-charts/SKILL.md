@@ -52,6 +52,9 @@ The goal is an informative editorial graphic, not a styled statistical dump.
   Preserve gaps and distinguish measured absence from unavailable evidence.
 - Use common samples and scales for sensitivity comparisons. Disclose changed
   cohorts, geography and sources in historical comparisons.
+- When panels share outcome units, use matching limits and zero positions so
+  opposite signs are immediately visible. State different predictor increments;
+  aligned axes do not make those predictors equivalent constructs.
 - Do not infer religion, race or gender from names, photos, geography, relatives
   or a website's generic mentions. Do not silently promote machine-extracted
   facts into verified labels.
@@ -70,9 +73,13 @@ The goal is an informative editorial graphic, not a styled statistical dump.
 3. Inspect every actual figure at a normal article width, plus a small-screen
    preview. Open individual images, not only a contact sheet. Ask: what does
    a reader learn in five seconds, and can every visible number be explained?
+   Regenerate previews from the final exported PNGs, record their source hashes,
+   and verify them before review; stale previews are not evidence about a release.
 4. Fix dense labels, unreadable notes, unsupported emphasis and weak comparisons,
    then rerender and inspect again. Do not call a figure beautiful merely
    because it uses the palette.
+   Keep diagnostic text clear of the zero line and data marks. Preserve frozen
+   releases; publish subsequent design changes as a new version.
 5. Verify the two publication backgrounds preserve all non-background content.
    Read the SVG text as a second check of labels, units and sample sizes.
 6. Deliver complete query/data downloads, not metadata-only packages. Verify

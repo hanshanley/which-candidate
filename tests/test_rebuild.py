@@ -487,3 +487,95 @@ def test_failed_packaging_never_publishes_partial_downloads(tmp_path, monkeypatc
     with pytest.raises(OSError, match="no space"):
         rebuild_package.build(ROOT, tmp_path / "downloads")
     assert not list((tmp_path / "downloads").iterdir())
+
+
+def test_refined_measurement_panels_share_a_centered_scale_without_clipping_intervals():
+    data = {"measurements": read_rows(ROOT / "results/2026-v4/measurement-fits.jsonl.gz")}
+    with plt.rc_context(publication.THEME):
+        fig, rows, _ = rebuild_publication.refined_measurements(data)
+        limits = fig.axes[0].get_xlim()
+        assert all(ax.get_xlim() == limits for ax in fig.axes)
+        assert limits[0] == -limits[1]
+        for ax in fig.axes:
+            assert ax.transData.transform((0, 0))[0] == pytest.approx(
+                ax.bbox.x0 + ax.bbox.width / 2
+            )
+        assert all(limits[0] < 2 * r["ci_low"] < 2 * r["ci_high"] < limits[1] for r in rows)
+        plt.close(fig)
+
+
+@pytest.mark.parametrize(
+    ("key", "source", "builder", "label"),
+    [
+        (
+            "donor",
+            "results/2026-v4/donor-fits.jsonl.gz",
+            rebuild_publication.refined_donor,
+            "Low support; see CSV",
+        ),
+        (
+            "moderation",
+            "results/2026-v3/analysis/moderation-fits.jsonl.gz",
+            rebuild_publication.refined_caucus,
+            "Roster unavailable",
+        ),
+    ],
+)
+def test_refined_diagnostic_labels_are_clear_of_the_zero_line(key, source, builder, label):
+    data = {key: read_rows(ROOT / source)}
+    with plt.rc_context(publication.THEME):
+        fig, _, _ = builder(data)
+        fig.canvas.draw()
+        ax = fig.axes[0]
+        zero_x = ax.transData.transform((0, 0))[0]
+        labels = [text for text in ax.texts if text.get_text() == label]
+        assert labels
+        for text in labels:
+            box = text.get_window_extent(fig.canvas.get_renderer())
+            assert zero_x < box.x0 < box.x1 < ax.bbox.x1
+        assert len(ax.containers) == 4
+        plt.close(fig)
+
+
+def test_visual_revision_preserves_data_and_embeds_complete_versioned_queries(tmp_path):
+    output = tmp_path / "figures"
+    charts = rebuild_publication.build(ROOT, output, version="2026-v5")
+    for chart in charts:
+        name = chart["id"]
+        assert (output / chart["data"]).read_bytes() == (
+            ROOT / "publication/2026-v4" / chart["data"]
+        ).read_bytes()
+        if name not in ("donor-ideology", "ideology-measurement", "caucus-history"):
+            for theme in publication.BACKGROUNDS:
+                relative = f"{theme}/{name}.png"
+                assert (output / relative).read_bytes() == (
+                    ROOT / "publication/2026-v4" / relative
+                ).read_bytes()
+    canonical = ROOT / "publication/2026-v5"
+    for path in output.rglob("*"):
+        if path.is_file():
+            assert path.read_bytes() == (canonical / path.relative_to(output)).read_bytes()
+    downloads = tmp_path / "downloads"
+    rebuild_package.build(ROOT, downloads, version="2026-v5")
+    queries = downloads / "2026-v5-complete-queries.zip"
+    with zipfile.ZipFile(queries) as archive:
+        assert (
+            archive.read("publication/2026-v5/substack/ideology-measurement.png")
+            == (output / "substack/ideology-measurement.png").read_bytes()
+        )
+        assert "results/2026-v4/candidate-queries.jsonl.gz" in archive.namelist()
+        assert "results/2026-v4/biography-facts.jsonl.gz" in archive.namelist()
+        assert (
+            archive.read("publication/2026-v4/substack/ideology-measurement.png")
+            == (ROOT / "publication/2026-v4/substack/ideology-measurement.png").read_bytes()
+        )
+    with zipfile.ZipFile(downloads / "2026-v5-substack-figures.zip") as archive:
+        assert archive.read("complete-query-set.zip") == queries.read_bytes()
+
+
+@pytest.mark.parametrize("builder", [rebuild_publication.build, rebuild_package.build])
+def test_unknown_visual_version_cannot_create_output(builder, tmp_path):
+    output = tmp_path / "invalid"
+    with pytest.raises(ValueError, match="Unknown figure version"):
+        builder(ROOT, output, version="../changed")
+    assert not output.exists()

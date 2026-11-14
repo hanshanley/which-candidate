@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import math
 import textwrap
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -10,7 +11,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MultipleLocator
+from matplotlib.ticker import MaxNLocator, MultipleLocator
 
 from .pipeline import csv_bytes
 from .publication import ACCENT, BLUE, GRID, INK, MUTED, THEME, export_chart
@@ -20,6 +21,7 @@ from .storage import fingerprint, read_rows, write_json
 ROOT = Path(__file__).resolve().parents[1]
 YEARS = (2016, 2018, 2020, 2022, 2024, 2026)
 CLOCK = "2026 counts: November 12-13 provider snapshot; provisional, not certified."
+VERSIONS = ("2026-v4", "2026-v5")
 
 
 def frame(title, subtitle, note, height=6.5):
@@ -498,17 +500,60 @@ BUILDERS = (
 )
 
 
-def build(root=ROOT, output=None):
+def refined_diagnostics(builder, data):
+    fig, rows, caption = builder(data)
+    for ax in fig.axes:
+        for text in ax.texts:
+            if text.get_text() in ("Low support; see CSV", "Roster unavailable", "Held"):
+                text.set_x(0.97)
+                text.set_ha("right")
+    return fig, rows, caption
+
+
+def refined_donor(data):
+    return refined_diagnostics(donor, data)
+
+
+def refined_caucus(data):
+    return refined_diagnostics(caucus, data)
+
+
+def refined_measurements(data):
+    fig, rows, caption = measurements(data)
+    extent = max(
+        1,
+        math.ceil(
+            1.08
+            * max(
+                (
+                    abs(2 * row[key])
+                    for row in rows
+                    for key in ("ci_low", "ci_high")
+                    if row.get(key) is not None
+                ),
+                default=1,
+            )
+        ),
+    )
+    for ax in fig.axes:
+        ax.set_xlim(-extent, extent)
+        ax.xaxis.set_major_locator(MaxNLocator(nbins=5, symmetric=True))
+    return fig, rows, caption
+
+
+def build(root=ROOT, output=None, *, version="2026-v4"):
+    if version not in VERSIONS:
+        raise ValueError(f"Unknown figure version: {version}")
     root = Path(root)
-    output = Path(output) if output else root / "publication/2026-v4"
+    output = Path(output) if output else root / "publication" / version
     with TemporaryDirectory(prefix="which-candidate-charts-") as directory:
         staged = Path(directory)
-        result = _build(root, staged)
+        result = _build(root, staged, version=version)
         persist_directory(staged, output)
     return result
 
 
-def _build(root, output):
+def _build(root, output, *, version="2026-v4"):
     output.mkdir(parents=True, exist_ok=True)
     (output / "plot-data").mkdir(exist_ok=True)
     for directory in ("results/2026-v3/analysis", "results/2026-v4"):
@@ -526,9 +571,24 @@ def _build(root, output):
         "moderation": read_rows(root / "results/2026-v3/analysis/moderation-fits.jsonl.gz"),
     }
     charts = []
-    with plt.rc_context({**THEME, "svg.hashsalt": "which-candidate-v4", "font.size": 11}):
+    refinements = (
+        {
+            "donor-ideology": refined_donor,
+            "caucus-history": refined_caucus,
+            "ideology-measurement": refined_measurements,
+        }
+        if version == "2026-v5"
+        else {}
+    )
+    with plt.rc_context(
+        {
+            **THEME,
+            "svg.hashsalt": f"which-candidate-{version.removeprefix('2026-')}",
+            "font.size": 11,
+        }
+    ):
         for name, builder in BUILDERS:
-            fig, rows, caption = builder(data)
+            fig, rows, caption = refinements.get(name, builder)(data)
             scalars = [
                 {k: v for k, v in row.items() if not isinstance(v, (list, dict))} for row in rows
             ]
@@ -567,7 +627,7 @@ def _build(root, output):
         output / "manifest.json",
         {
             "target_year": 2026,
-            "version": "2026-v4",
+            "version": version,
             "website_publication": "withdrawn",
             "historical_years": list(YEARS[:-1]),
             "charts": charts,
@@ -592,5 +652,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--version", choices=VERSIONS, default="2026-v4")
     args = parser.parse_args()
-    print(f"Built {len(build(args.root, args.output))} redesigned figures")
+    print(f"Built {len(build(args.root, args.output, version=args.version))} redesigned figures")

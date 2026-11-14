@@ -1,9 +1,10 @@
 {
   "target_year": 2026,
   "status": "research_replacement",
-  "active_version": "2026-v4",
+  "active_version": "2026-v5",
   "website_publication": "withdrawn",
-  "archived_versions": ["2026-v2", "2026-v3"],
-  "reason": "Replacement research figures, broader evidence and audit repairs. Website publication remains withdrawn.",
+  "archived_versions": ["2026-v2", "2026-v3", "2026-v4"],
+  "analysis_version": "2026-v4",
+  "reason": "Visual refinement of the unchanged v4 analysis: matching comparison scales and clearer diagnostic labels. Website publication remains withdrawn.",
   "skill": ".github/skills/publication-charts/SKILL.md"
 }
