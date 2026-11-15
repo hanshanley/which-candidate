@@ -17,6 +17,7 @@ from .benchmarks import STATE_NAMES
 from .corrected import same_name
 from .features import FeatureSources, name_matches
 from .house_backgrounds import background_observations, background_profile
+from .incoming_biographies import qualify_identity
 from .incumbents import CUTOFF, historian_profile, incumbent_tables
 from .pipeline import csv_bytes
 from .rebuild import ROOT, district
@@ -818,6 +819,58 @@ def incoming_profiles(candidates, facts, seated, additions, inputs):
     return people, observations
 
 
+def reviewed_incoming_profiles(incoming, payload):
+    index = {r["candidate_id"]: r for r in incoming if r.get("candidate_id")}
+    observations = []
+    for profile in payload["profiles"]:
+        candidate_id = profile["candidate_id"]
+        if candidate_id not in index:
+            raise ValueError(f"Biography has no unique provisional winner: {candidate_id}")
+        row = index[candidate_id]
+        qualify_identity(profile, row)
+        if profile["model_ready"] is not False:
+            raise ValueError("New incoming biographies must remain model-ineligible")
+        evidence = profile["evidence"]
+        if not evidence.get("sha256") or not evidence.get("url"):
+            raise ValueError("Incoming biography requires a pinned source")
+        secondary = "wikipedia.org/" in evidence["url"]
+        previous = json.loads(row.get("reviewed_biography_evidence") or "[]")
+        previous.append(profile)
+        row["reviewed_biography_evidence"] = json.dumps(previous, sort_keys=True)
+        for field, value in profile["fields"].items():
+            target = "education" if field == "education_literal" else field
+            if target == "date_of_birth":
+                date.fromisoformat(value)
+                if row.get(target) and row[target] != value:
+                    raise ValueError(f"Conflicting birth date for {candidate_id}")
+            if target in (
+                "date_of_birth",
+                "education",
+                "professional_history",
+                "military_service",
+                "prior_office",
+            ) and not row.get(target):
+                row[target] = (
+                    json.dumps(value, sort_keys=True) if isinstance(value, list) else value
+                )
+            observations.append(
+                {
+                    "member_id": row["member_id"],
+                    "congress": 120,
+                    "seat_id": row["seat_id"],
+                    "name": row["name"],
+                    "field": field,
+                    "value": json.dumps(value, sort_keys=True),
+                    "source_kind": "reviewed_Wikipedia_biography; secondary"
+                    if secondary
+                    else "reviewed_primary_biography",
+                    "evidence": json.dumps(evidence, sort_keys=True),
+                    "model_ready": False,
+                }
+            )
+    return observations
+
+
 def build(root=ROOT, output=None):
     root = Path(root)
     output = Path(output) if output else root / "results/members"
@@ -829,6 +882,8 @@ def build(root=ROOT, output=None):
     incoming, incoming_observations = incoming_profiles(
         candidates, facts, seated, additions, inputs
     )
+    reviewed = json.loads((root / "data/incoming-member-biographies.json").read_text())
+    incoming_observations.extend(reviewed_incoming_profiles(incoming, reviewed))
     coverage["incoming"] = {
         "seats": len(incoming),
         "statuses": dict(Counter(r["status"] for r in incoming)),
@@ -837,6 +892,17 @@ def build(root=ROOT, output=None):
         ),
         "wikipedia_roster_matches": sum(r["wikipedia_roster_match"] for r in incoming),
         "wikipedia_education_records": sum(bool(r.get("wikipedia_education")) for r in incoming),
+        "reviewed_biography_candidates": len({r["candidate_id"] for r in reviewed["profiles"]}),
+        "reviewed_biography_sources": len(reviewed["sources"]),
+        "with_exact_date_of_birth": sum(bool(r.get("date_of_birth")) for r in incoming),
+        "with_qualified_education": sum(
+            bool(
+                r.get("education")
+                or r.get("wikipedia_education")
+                or r.get("candidate_profile_education")
+            )
+            for r in incoming
+        ),
         "with_core_biography_or_campaign_evidence": sum(
             bool(
                 r.get("education")
@@ -959,6 +1025,8 @@ def build(root=ROOT, output=None):
                 "results/house/biography-facts.jsonl.gz",
                 "data/house-member-profiles.json",
                 "data/congressdata-members.json",
+                "data/incoming-member-biographies.json",
+                "data/incoming-member-biography-sources.json",
             )
         },
         "files": {

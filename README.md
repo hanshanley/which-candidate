@@ -12,6 +12,34 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**Start with the [House findings report](results/house-study/report.md).** For the
+complete local reading experience, open **`publication/report.html`** after
+cloning or extracting either current download. It combines the findings, nine
+figures, and a searchable source-linked browser: all 1,284 election candidates,
+all 435 sitting seats, and all 435 provisional incoming seats. Filter by state,
+party or population, inspect profiles, and download the filtered rows as CSV.
+The report and figures work offline; only opening external source links needs
+network access. No website has been redeployed.
+
+The report brings the six characteristic comparisons into one table, with
+uncertainty and multiple-comparison correction. None clears the six-test Holm
+correction. A separate state-and-person-held-out diagnostic covers 405 qualified
+House comparisons; it is retrospective, not a forward forecast or a causal
+candidate ranking. New biographies remain descriptive rather than silently
+becoming model inputs.
+
+Rebuild the complete current project from pinned normalized inputs:
+
+```bash
+python -m pip install -e '.[test]'
+python -m which_candidate.house_project
+```
+
+Use the existing environment or the pinned dependency instructions below.
+The build requires no new source acquisition and refreshes the same current
+outputs and complete downloads. The [project audit](audits/house-project.md)
+records the findings, repairs, validation and remaining limitations.
+
 **Current scope: House only.** The [complete candidate inventory](results/house/candidates.csv)
 accounts for **1,284 named candidates in all 435 districts**, including Republicans,
 other parties, losers and multiple candidates from the same party. Another 142
@@ -45,6 +73,10 @@ provider reports 426 provisional winners: 319 continuing members, six returning
 former members and 101 others; nine seats remain unresolved. Every reported
 winner has an existing biography or a secondary reported prior-background
 summary, **not universally complete education, religion or exact birth dates**.
+The latest reviewed source pass reduces incoming structured-education gaps from
+75 to **56** and exact-birth-date gaps from 101 to **80**. Those are **19 and 21
+newly filled gaps**, respectively, not the larger count of overlapping source
+records. The remaining fields are explicitly listed in the incoming gap ledger.
 The [coverage audit](results/members/coverage.json) reports actual availability.
 Newcomers do not inherit invented federal votes. The acquired CongressData
 deposit adds 1,045 native historical variables for 368 matched members, through
@@ -94,9 +126,12 @@ are promoted into the election models.
 
 **The [current figures](docs/PUBLICATION.md)** use the unchanged
 [2026-v4 analysis](docs/REBUILD_2026_V4.md):
-eight redesigned House figures, plus the expanded all-party House information
-inventory. The original model inputs and estimates remain unchanged; expanded
-biography coverage is not silently promoted into new verified traits or fits.
+nine House figures, including the new six-trait comparison, plus the expanded
+all-party House information inventory and local report. The integrated
+`results/house-study/` outputs recompute current comparisons with full-rank
+state-deletion checks and add held-out diagnostics; frozen analysis snapshots
+remain unchanged. Expanded biography coverage is not silently promoted into
+new verified model traits.
 
 **The answer depends on the measure and benchmark.** The selected House donor
 association falls from +3.22 to +0.81 margin points when the presidential

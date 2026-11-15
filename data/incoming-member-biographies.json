@@ -1,0 +1,3101 @@
+{
+  "failures": [
+    {
+      "disposition": "not_bypassed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "incoming-primary-220139",
+      "url": "https://olivergilbert.vote/about/"
+    },
+    {
+      "disposition": "not_bypassed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "incoming-primary-220921",
+      "url": "https://ojedafornc.com/about-richard-ojeda/"
+    },
+    {
+      "disposition": "not_bypassed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "id": "incoming-primary-221073",
+      "url": "https://www.nancylacore.com/about"
+    },
+    {
+      "disposition": "not_bypassed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "id": "incoming-primary-221133",
+      "url": "https://www.katyforcongress.com/about-katy"
+    },
+    {
+      "disposition": "not_bypassed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "id": "incoming-primary-221269",
+      "url": "https://cookeforwisconsin.com/meet-rebecca-cooke-2026/"
+    }
+  ],
+  "profiles": [
+    {
+      "candidate_id": "219724",
+      "district": "01",
+      "evidence": {
+        "bytes": 288782,
+        "id": "wiki-51eee9cd9dc61619",
+        "path": "data/raw/house-members-20261114/wiki-51eee9cd9dc61619.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:38.166905+00:00",
+        "sha256": "938c1c3ec0f42de116894dc7ecd7ab149491ea828e5c3f27fcf7a358b9249163",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jerry_Carl"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Jerry Lee Carl Jr. (1958-06-17) June 17, 1958 (age 68) Mobile, Alabama, U.S.",
+        "date_of_birth": "1958-06-17",
+        "education_literal": "Florida Gateway College (attended)",
+        "prior_office_or_background_literal": "U.S. House of Representatives Mobile County Commission"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Jerry Carl",
+      "source_kind": "secondary_wikipedia",
+      "state": "AL"
+    },
+    {
+      "candidate_id": "219764",
+      "district": "01",
+      "evidence": {
+        "bytes": 278020,
+        "id": "wiki-65cc6160c9236d69",
+        "path": "data/raw/house-members-20261114/wiki-65cc6160c9236d69.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:38.548777+00:00",
+        "sha256": "c900d3bae17f300010b36964c63c8c5a0420f12196ef03a514f27640a21d42d9",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amish_Shah"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Amish Mahendra Shah 1977/1978 (age 48\u201349) Chicago, Illinois, U.S.",
+        "education_literal": "Northwestern University (BA, MD) University of California, Berkeley (MPH)",
+        "prior_office_or_background_literal": "Arizona House of Representatives"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Amish Shah",
+      "source_kind": "secondary_wikipedia",
+      "state": "AZ"
+    },
+    {
+      "candidate_id": "219781",
+      "district": "05",
+      "evidence": {
+        "bytes": 205966,
+        "id": "wiki-42f4b2e61c14cfb2",
+        "path": "data/raw/house-members-20261114/wiki-42f4b2e61c14cfb2.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:39.033032+00:00",
+        "sha256": "80e935dc7046de45e9fe441fe17663eee5519a144bccf69643b07a4daa57ead8",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mark_Lamb_(sheriff)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "professional_history": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Mark Lamb (1972-07-14) July 14, 1972 (age 54) Hilo, Hawaii, U.S.",
+        "date_of_birth": "1972-07-14",
+        "prior_office_or_background_literal": "Pinal County Sheriff",
+        "professional_history": [
+          "Businessman \u2022 Enforcement officer \u2022 Politician"
+        ]
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Mark Lamb",
+      "source_kind": "secondary_wikipedia",
+      "state": "AZ"
+    },
+    {
+      "candidate_id": "219782",
+      "district": "06",
+      "evidence": {
+        "bytes": 158044,
+        "id": "wiki-a6d4a006cebbec03",
+        "path": "data/raw/house-members-20261114/wiki-a6d4a006cebbec03.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:39.363562+00:00",
+        "sha256": "407cca5b290967cded29572a6a01539da5fd39715440f687189a4c1e4ba51a03",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/JoAnna_Mendoza"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "military_service": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "1975 or 1976 (age 50\u201351) Eloy, Arizona, U.S.",
+        "education_literal": "American Military University (BA) Grand Canyon University (MS)",
+        "military_service": [
+          "United States Navy (1994\u20131997) United States Marine Corps (1998\u20132016)"
+        ],
+        "prior_office_or_background_literal": "United States Marine Corps"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "JoAnna Mendoza",
+      "source_kind": "secondary_wikipedia",
+      "state": "AZ"
+    },
+    {
+      "candidate_id": "219889",
+      "district": "01",
+      "evidence": {
+        "bytes": 281991,
+        "id": "wiki-91039a2edecd8c4b",
+        "path": "data/raw/house-members-20261114/wiki-91039a2edecd8c4b.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:39.885307+00:00",
+        "sha256": "3ae4b6c50236b5daabe09224ebd08dd0fe5d4b161355b4f3e8844b617b798c48",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mike_McGuire_(politician)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1979-07-21) July 21, 1979 (age 47) Healdsburg, California, U.S.",
+        "date_of_birth": "1979-07-21",
+        "education_literal": "Sonoma State University (BA)",
+        "prior_office_or_background_literal": "California Senate Sonoma County Board of Supervisors"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Mike McGuire",
+      "source_kind": "secondary_wikipedia",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "219965",
+      "district": "06",
+      "evidence": {
+        "bytes": 169808,
+        "id": "wiki-1e5fe5b7d3e81a32",
+        "path": "data/raw/house-members-20261114/wiki-1e5fe5b7d3e81a32.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:40.661497+00:00",
+        "sha256": "67f4ebf510d52758c35befbca6739d6b963ccb7253190693eb679cc2d698d050",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Richard_Pan"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Richard Juien-Dah Pan (1965-10-28) October 28, 1965 (age 61) Yonkers, New York, U.S.",
+        "date_of_birth": "1965-10-28",
+        "education_literal": "Johns Hopkins University (BS) University of Pittsburgh (MD) Harvard University (MPH)",
+        "prior_office_or_background_literal": "California State Senate California State Assembly"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Richard Pan",
+      "source_kind": "secondary_wikipedia",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "219872",
+      "district": "11",
+      "evidence": {
+        "bytes": 758201,
+        "id": "wiki-e5a9c967edcf1b26",
+        "path": "data/raw/house-members-20261114/wiki-e5a9c967edcf1b26.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:41.094761+00:00",
+        "sha256": "d0737000c86992d484b982d94b65349c994dd5209a3828b48a408a1ed254201b",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Scott_Wiener"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Scott David Wiener (1970-05-11) May 11, 1970 (age 56) Philadelphia, Pennsylvania, U.S.",
+        "date_of_birth": "1970-05-11",
+        "education_literal": "Duke University (BA) Harvard University (JD)",
+        "prior_office_or_background_literal": "California State Senate San Francisco Board of Supervisors"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Scott Wiener",
+      "source_kind": "secondary_wikipedia",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "219895",
+      "district": "22",
+      "evidence": {
+        "bytes": 287055,
+        "id": "wiki-1db08872e21dc78f",
+        "path": "data/raw/house-members-20261114/wiki-1db08872e21dc78f.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:41.585709+00:00",
+        "sha256": "8bea50d17832e4054a7fe7b8c1e50d670256687c265fbbefec8ddff674d18a11",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Randy_Villegas"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1994-11-12) November 12, 1994 (age 32) Bakersfield, California, U.S.",
+        "date_of_birth": "1994-11-12",
+        "education_literal": "Bakersfield College (AA) California State University, Bakersfield (BA) University of California, Santa Cruz (MA, PhD)",
+        "prior_office_or_background_literal": "Visalia Unified School District Board of Education"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Randy Villegas",
+      "source_kind": "secondary_wikipedia",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "219903",
+      "district": "26",
+      "evidence": {
+        "bytes": 313004,
+        "id": "wiki-0c97e769e707dadf",
+        "path": "data/raw/house-members-20261114/wiki-0c97e769e707dadf.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:42.089228+00:00",
+        "sha256": "688537d8bdcc5f848fb66f72b30ec84c7bc51d89d51a1cdf5d48473b5fa88947",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jacqui_Irwin"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Jacqueline Van Egmond (1962-01-03) January 3, 1962 (age 64) Los Angeles, California, U.S.",
+        "date_of_birth": "1962-01-03",
+        "education_literal": "University of California, San Diego (BS)",
+        "prior_office_or_background_literal": "California State Assembly"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Jacqui Irwin",
+      "source_kind": "secondary_wikipedia",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "219973",
+      "district": "01",
+      "evidence": {
+        "bytes": 240170,
+        "id": "wiki-342017af6e961cd8",
+        "path": "data/raw/house-members-20261114/wiki-342017af6e961cd8.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:42.957195+00:00",
+        "sha256": "e0a6de5c49dec9438490b955d7427015602d489e75355cec1f4dc0c4efcde443",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Melat_Kiros"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Melat Asfawosen Kiros (1997-05-23) May 23, 1997 (age 29) Addis Ababa, Ethiopia",
+        "date_of_birth": "1997-05-23",
+        "education_literal": "Washington College (BA) University of Notre Dame (JD) University of Colorado, Denver (attended)",
+        "prior_office_or_background_literal": "Lawyer"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Melat Kiros",
+      "source_kind": "secondary_wikipedia",
+      "state": "CO"
+    },
+    {
+      "candidate_id": "220081",
+      "district": "02",
+      "evidence": {
+        "bytes": 102985,
+        "id": "wiki-d1f93e8ab8fd00f4",
+        "path": "data/raw/house-members-20261114/wiki-d1f93e8ab8fd00f4.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:44.044957+00:00",
+        "sha256": "a0cf77e638a9af7854315610487e8baf295d5da2e55d26596104e0859a658a35",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Austin_Rogers_(politician)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Austin James Rogers 1990/1991 (age 35\u201336) Panama City, Florida, U.S.",
+        "education_literal": "Southeastern University (BS) Wheaton College (BA) Duke University (MA, JD)",
+        "prior_office_or_background_literal": "Attorney"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Austin Rogers",
+      "source_kind": "secondary_wikipedia",
+      "state": "FL"
+    },
+    {
+      "candidate_id": "220135",
+      "district": "22",
+      "evidence": {
+        "bytes": 144810,
+        "id": "wiki-cdcbb925a040924b",
+        "path": "data/raw/house-members-20261114/wiki-cdcbb925a040924b.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:45.196366+00:00",
+        "sha256": "4087fabf52a7f7b7d4ed36182fce10014ba7618d2b691e065159a91f9f40cb76",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pia_Dandiya"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1987-05-12) May 12, 1987 (age 39) Palm Beach County, Florida, U.S.",
+        "date_of_birth": "1987-05-12",
+        "education_literal": "Harvard University (BA) Boston University (MEd)",
+        "prior_office_or_background_literal": "Apple Strategic Innovations Group Teach for America"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Pia Dandiya",
+      "source_kind": "secondary_wikipedia",
+      "state": "FL"
+    },
+    {
+      "candidate_id": "220195",
+      "district": "13",
+      "evidence": {
+        "bytes": 173086,
+        "id": "wiki-c90ec9131a815eaf",
+        "path": "data/raw/house-members-20261114/wiki-c90ec9131a815eaf.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:46.249707+00:00",
+        "sha256": "5608b5820ade03b0cb6496f2b7437885994796bf8785f3f2543bc7b1c5cf47af",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jasmine_Clark"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1982-12-26) December 26, 1982 (age 43) Atlanta, Georgia, U.S.",
+        "date_of_birth": "1982-12-26",
+        "education_literal": "University of Tennessee (BS) Emory University (MS, PhD)",
+        "prior_office_or_background_literal": "Georgia House of Representatives"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Jasmine Clark",
+      "source_kind": "secondary_wikipedia",
+      "state": "GA"
+    },
+    {
+      "candidate_id": "220352",
+      "district": "04",
+      "evidence": {
+        "bytes": 91481,
+        "id": "wiki-403c71216671b0e5",
+        "path": "data/raw/house-members-20261114/wiki-403c71216671b0e5.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:48.418357+00:00",
+        "sha256": "f8565bce8ef20806a201f9a14d53c17dbb4e0e03ff6f44360f5703d32fc02ef3",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chris_McGowan"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "December 1966 (age 59) Sioux City, Iowa, U.S.",
+        "education_literal": "St. John's University (BS) Ave Maria School of Law (JD)",
+        "prior_office_or_background_literal": "Siouxland Chamber of Commerce"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Chris McGowan",
+      "source_kind": "secondary_wikipedia",
+      "state": "IA"
+    },
+    {
+      "candidate_id": "220751",
+      "district": "06",
+      "evidence": {
+        "bytes": 167208,
+        "id": "wiki-8d759a3fc1bc194a",
+        "path": "data/raw/house-members-20261114/wiki-8d759a3fc1bc194a.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:49.575903+00:00",
+        "sha256": "8c90195f61c9c9fdbdf5e5537745d4a7580b7bde21f1fa8e8f6e8af27314894b",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dan_Koh"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Daniel Arrigg Koh (1985-01-01) January 1, 1985 (age 41) Andover, Massachusetts, U.S.",
+        "date_of_birth": "1985-01-01",
+        "education_literal": "Harvard University (BA, MBA)",
+        "prior_office_or_background_literal": "Deputy Director of the White House Office of Intergovernmental Affairs"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Dan Koh",
+      "source_kind": "secondary_wikipedia",
+      "state": "MA"
+    },
+    {
+      "candidate_id": "220559",
+      "district": "13",
+      "evidence": {
+        "bytes": 276335,
+        "id": "wiki-daf014c8bafe1239",
+        "path": "data/raw/house-members-20261114/wiki-daf014c8bafe1239.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:50.636296+00:00",
+        "sha256": "4bcdb46980bf74d96e8426f0d6409a2aa847aac44c2bad170f7dde285ce408a6",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Donavan_McKinney"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Donovan Deante McKinney (1992-06-16) June 16, 1992 (age 34) Detroit, Michigan, U.S.",
+        "date_of_birth": "1992-06-16",
+        "education_literal": "University of Michigan (BA)",
+        "prior_office_or_background_literal": "Michigan House of Representatives"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Donavan McKinney",
+      "source_kind": "secondary_wikipedia",
+      "state": "MI"
+    },
+    {
+      "candidate_id": "220674",
+      "district": "01",
+      "evidence": {
+        "bytes": 148074,
+        "id": "wiki-88dc2f76b3e639ff",
+        "path": "data/raw/house-members-20261114/wiki-88dc2f76b3e639ff.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:51.657738+00:00",
+        "sha256": "43c98f0a982f3e89e97ac125d99466b5e2e3d38c2d7c53ab39664521ede85573",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sam_Forstag"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Samuel Kelley Forstag (1994-05-23) May 23, 1994 (age 32) Ohio, U.S.",
+        "date_of_birth": "1994-05-23",
+        "education_literal": "University of Montana (BA)",
+        "prior_office_or_background_literal": "Labor union leader and smokejumper"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Sam Forstag",
+      "source_kind": "secondary_wikipedia",
+      "state": "MT"
+    },
+    {
+      "candidate_id": "220811",
+      "district": "07",
+      "evidence": {
+        "bytes": 161731,
+        "id": "wiki-88992e4a342cd62b",
+        "path": "data/raw/house-members-20261114/wiki-88992e4a342cd62b.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:52.699866+00:00",
+        "sha256": "2f244cb71421dc308fe1985446a33bf6795f9a6a728c04afa4d8015b491e23a1",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rebecca_Bennett_(politician)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "military_service": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1987-03-13) March 13, 1987 (age 39) Granbury, Texas, U.S.",
+        "date_of_birth": "1987-03-13",
+        "education_literal": "Cornell University University of Pennsylvania (MBA)",
+        "military_service": [
+          "United States Navy (2009\u20132019) United States Air Force (2022\u2013present)"
+        ],
+        "prior_office_or_background_literal": "Healthcare executive United States Navy"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Rebecca Bennett",
+      "source_kind": "secondary_wikipedia",
+      "state": "NJ"
+    },
+    {
+      "candidate_id": "220859",
+      "district": "13",
+      "evidence": {
+        "bytes": 542374,
+        "id": "wiki-60f16ae41e777bd1",
+        "path": "data/raw/house-members-20261114/wiki-60f16ae41e777bd1.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:53.812434+00:00",
+        "sha256": "907e5bf571736fea763409cffd36b1b7252cf4ac33e873ae79860483368a144d",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Darializa_Avila_Chevalier"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "1993 or 1994 (age 32\u201333) Florida, U.S.",
+        "education_literal": "Columbia University (BA) City University of New York (MPhil)",
+        "prior_office_or_background_literal": "Community organizer"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Darializa Avila Chevalier",
+      "source_kind": "secondary_wikipedia",
+      "state": "NY"
+    },
+    {
+      "candidate_id": "220913",
+      "district": "06",
+      "evidence": {
+        "bytes": 117422,
+        "id": "wiki-069232fd43429bfa",
+        "path": "data/raw/house-members-20261114/wiki-069232fd43429bfa.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:54.967491+00:00",
+        "sha256": "60d6744d7522ebe9677c2157a750b8ec2d407781803b7d042156408ccf589340",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cyril_Jefferson"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1992-04-09) April 9, 1992 (age 34) Utica, New York, U.S.",
+        "date_of_birth": "1992-04-09",
+        "education_literal": "Howard University (attended) North Carolina A&T State University (BA)",
+        "prior_office_or_background_literal": "Mayor of High Point"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Cyril Jefferson",
+      "source_kind": "secondary_wikipedia",
+      "state": "NC"
+    },
+    {
+      "candidate_id": "220965",
+      "district": "07",
+      "evidence": {
+        "bytes": 135652,
+        "id": "wiki-689baf85974272ce",
+        "path": "data/raw/house-members-20261114/wiki-689baf85974272ce.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:55.980490+00:00",
+        "sha256": "a01de4ab3d4945d26865a59d0e7adbd10b04afe3ab86b731f5f67b7adff0a2ce",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brian_Poindexter"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Brian Keith Poindexter (1979-08-04) August 4, 1979 (age 47) Kentucky, U.S.",
+        "date_of_birth": "1979-08-04",
+        "education_literal": "Cuyahoga Community College (AS)",
+        "prior_office_or_background_literal": "Brook Park City Council Union organizer and ironworker"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Brian Poindexter",
+      "source_kind": "secondary_wikipedia",
+      "state": "OH"
+    },
+    {
+      "candidate_id": "221019",
+      "district": "03",
+      "evidence": {
+        "bytes": 356647,
+        "id": "wiki-b00727bfff45f58c",
+        "path": "data/raw/house-members-20261114/wiki-b00727bfff45f58c.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:57.136108+00:00",
+        "sha256": "709f7ac62e168290daae94d09c89757c875b133bcc6abe97c5424fd3708b9458",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chris_Rabb"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Christopher Murphy Rabb (1970-02-21) February 21, 1970 (age 56) Chicago, Illinois, U.S.",
+        "date_of_birth": "1970-02-21",
+        "education_literal": "Yale University (BA) University of Pennsylvania (MS)",
+        "prior_office_or_background_literal": "Pennsylvania House of Representatives"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Chris Rabb",
+      "source_kind": "secondary_wikipedia",
+      "state": "PA"
+    },
+    {
+      "candidate_id": "221084",
+      "district": "05",
+      "evidence": {
+        "bytes": 144414,
+        "id": "wiki-b1705070728a49bb",
+        "path": "data/raw/house-members-20261114/wiki-b1705070728a49bb.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:58.312876+00:00",
+        "sha256": "63a24cb0c5c0361e9db231ca9a426fa2a78245aa00e2b91bdb7c2b895caf5fbd",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wes_Climer"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "David Wesley Climer (1982-09-26) September 26, 1982 (age 44) Charlotte, North Carolina, U.S.",
+        "date_of_birth": "1982-09-26",
+        "education_literal": "Furman University (BA)",
+        "prior_office_or_background_literal": "South Carolina Senate"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Wes Climer",
+      "source_kind": "secondary_wikipedia",
+      "state": "SC"
+    },
+    {
+      "candidate_id": "221189",
+      "district": "09",
+      "evidence": {
+        "bytes": 197160,
+        "id": "wiki-cb4389699a4486b9",
+        "path": "data/raw/house-members-20261114/wiki-cb4389699a4486b9.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:56:59.518839+00:00",
+        "sha256": "544a262da5be8bfdb59b2353703acd582aef2c5d3b2838765d62ad313a00f970",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brent_Taylor_(Tennessee_politician)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Brent Louis Taylor (1968-08-09) August 9, 1968 (age 58) Batesville, Mississippi, U.S.",
+        "date_of_birth": "1968-08-09",
+        "education_literal": "Northwest Mississippi Community College (AS)",
+        "prior_office_or_background_literal": "Tennessee Senate Memphis City Council"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Brent Taylor",
+      "source_kind": "secondary_wikipedia",
+      "state": "TN"
+    },
+    {
+      "candidate_id": "140476",
+      "district": "08",
+      "evidence": {
+        "bytes": 84594,
+        "id": "wiki-9543bcd1b26213f6",
+        "path": "data/raw/house-members-20261114/wiki-9543bcd1b26213f6.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:04.812490+00:00",
+        "sha256": "6d0f8b190bea78c3aaeaf46d878981c862bdb7377acee1f0add41e23535ed3a1",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jessica_Steinmann"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Jessica Elizabeth Hart (1984-02-05) February 5, 1984 (age 42) Houston, Texas, U.S.",
+        "date_of_birth": "1984-02-05",
+        "education_literal": "University of Texas, Austin (BBA) Baylor University (JD)",
+        "prior_office_or_background_literal": "General counsel for the America First Policy Institute U.S. Department of Justice Office of Victims of Crime"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Jessica Steinmann",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221110",
+      "district": "09",
+      "evidence": {
+        "bytes": 93331,
+        "id": "wiki-f80f99778e56f76b",
+        "path": "data/raw/house-members-20261114/wiki-f80f99778e56f76b.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:05.103979+00:00",
+        "sha256": "94ee15453ab0fb736e23e0a4a59d3e00b4674863bbf82aface61aad912754f42",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Leticia_Gutierrez"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "1972 or 1973 (age 53\u201354) Mexico",
+        "education_literal": "University of St. Thomas (BS)",
+        "prior_office_or_background_literal": "Community outreach organizer for Air Alliance Houston"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Leticia Gutierrez",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "140478",
+      "district": "10",
+      "evidence": {
+        "bytes": 95355,
+        "id": "wiki-77540eebd6b1a392",
+        "path": "data/raw/house-members-20261114/wiki-77540eebd6b1a392.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:05.538394+00:00",
+        "sha256": "c8d82ea26e48f30f1fdaa5f2af92f493c3fde97249fd5f4ca544acb2953d9133",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chris_Gober"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "1979 or 1980 (age 46\u201347)",
+        "education_literal": "Texas A&M University (BS) Harvard University (JD)",
+        "prior_office_or_background_literal": "Lawyer for America PAC National Republican Senatorial Committee Republican National Committee Office of Legal Policy at the U.S. Department of Justice"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Chris Gober",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221121",
+      "district": "15",
+      "evidence": {
+        "bytes": 339228,
+        "id": "wiki-b56731ad739c01eb",
+        "path": "data/raw/house-members-20261114/wiki-b56731ad739c01eb.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:05.904043+00:00",
+        "sha256": "108a159d4c17daa2afa2038db7a106c8ccf9e338d47424f58f16948aa7ff895e",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bobby_Pulido"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Jos\u00e9 Roberto Pulido Jr. (1973-04-25) April 25, 1973 (age 53) Edinburg, Texas, U.S.",
+        "date_of_birth": "1973-04-25",
+        "education_literal": "St. Mary's University, Texas (attended)",
+        "prior_office_or_background_literal": "Tejano musician and actor"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Bobby Pulido",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221128",
+      "district": "19",
+      "evidence": {
+        "bytes": 102290,
+        "id": "wiki-e06f0bf26174d112",
+        "path": "data/raw/house-members-20261114/wiki-e06f0bf26174d112.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:06.326204+00:00",
+        "sha256": "10b5f3d37bcae4ad2dd4cc8189f53a0ec902527fdfe6f91b2b69aaa5bfdd4887",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tom_Sell"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "(1973-01-05) January 5, 1973 (age 53) Lubbock, Texas, U.S.",
+        "date_of_birth": "1973-01-05",
+        "education_literal": "Texas Tech University (BS, JD)",
+        "prior_office_or_background_literal": "Businessman and attorney Deputy staff director to the U.S. States House Committee on Agriculture"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Tom Sell",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221143",
+      "district": "32",
+      "evidence": {
+        "bytes": 104933,
+        "id": "wiki-b926ad7b3758c62d",
+        "path": "data/raw/house-members-20261114/wiki-b926ad7b3758c62d.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:07.309128+00:00",
+        "sha256": "837ce7ff33b3e4037d7f1dee4a044ab92e41c0e1a248f09c2a63f48051630916",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jace_Yarbrough"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Jace Randall Yarbrough August 1986 (age 40) Stephenville, Texas, U.S.",
+        "education_literal": "University of Texas, Austin (BA) Stanford University (JD)",
+        "prior_office_or_background_literal": "Attorney United States Air Force"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Jace Yarbrough",
+      "source_kind": "secondary_wikipedia",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221201",
+      "district": "02",
+      "evidence": {
+        "bytes": 438260,
+        "id": "wiki-e73249507bd49d88",
+        "path": "data/raw/house-members-20261114/wiki-e73249507bd49d88.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:08.671323+00:00",
+        "sha256": "b87d46cb631dc1fb4906be58db312a48db70ea08b83ecf83930e344a40b58649",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elaine_Luria"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "date_of_birth": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "military_service": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Elaine Goodman Luria (1975-08-15) August 15, 1975 (age 51) Birmingham, Alabama, U.S.",
+        "date_of_birth": "1975-08-15",
+        "education_literal": "United States Naval Academy (BS) Old Dominion University (MS)",
+        "military_service": [
+          "United States Navy"
+        ],
+        "prior_office_or_background_literal": "U.S. House of Representatives United States Navy"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Elaine Luria",
+      "source_kind": "secondary_wikipedia",
+      "state": "VA"
+    },
+    {
+      "candidate_id": "221276",
+      "district": "07",
+      "evidence": {
+        "bytes": 142474,
+        "id": "wiki-fbbe5cfa9f3bb7fe",
+        "path": "data/raw/house-members-20261114/wiki-fbbe5cfa9f3bb7fe.html",
+        "publication_date": null,
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-14T20:57:09.510024+00:00",
+        "sha256": "2c663163560a8ca78ca71e2cd279c87c15ebbcbc7bb1f6a8537f03b5d55db8d3",
+        "source_kind": "secondary_wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_Alfonso_(politician)"
+      },
+      "field_audit": {
+        "birth_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "education_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        },
+        "prior_office_or_background_literal": {
+          "status": "parsed_from_secondary_infobox_or_roster"
+        }
+      },
+      "fields": {
+        "birth_literal": "Michael Oliver Alfonso February 2000 (age 26) Vilas County, Wisconsin, U.S.",
+        "education_literal": "University of Wisconsin, Madison (BS)",
+        "prior_office_or_background_literal": "Accountant"
+      },
+      "identity_qualification": "candidate_id_from_native_winner_context; same_state_district_and_name; district-qualified Wikipedia roster link",
+      "model_ready": false,
+      "name": "Michael Alfonso",
+      "source_kind": "secondary_wikipedia",
+      "state": "WI"
+    },
+    {
+      "candidate_id": "219986",
+      "district": "04",
+      "evidence": {
+        "bytes": 892441,
+        "id": "incoming-primary-219986",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-219986.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:06.373812+00:00",
+        "sha256": "ccd674ecd4a500fbdb26b3da0fe69c6472c60e17d2e7e98ccfd5d94e5d2b143c",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://www.eileenforcolorado.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "cfc282b184dceb94705af141b1056f5865b541508033099091c35726be6eb462"
+          ]
+        },
+        "military_service": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "9b941a3455b9b76067ef06b57bf127efbac117279652602bf3ddc2f5d89bab19",
+            "fffbb4208156cca4643b1a499a9764586068b0606f7e8607cb6c6f723e3edd12"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "2a887ff7ff7a7ac98ed3e40a8cb80276dae0d0ec84dc8379cba324f6227c4216",
+            "a44bb09045a09b6ff679c571614e8188a9cd3c530e631b44fb59b4d6cefeae89",
+            "c53c47fd88c3657da76e726167fc8fc9deb797009ba8412011df7a84585e1d0b"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "graduate",
+            "institution": "United States Naval Academy",
+            "literal": "Graduated from the United States Naval Academy in 1990"
+          }
+        ],
+        "military_service": [
+          "Served in the United States Navy for 34 years; retired in October 2024"
+        ],
+        "professional_history": [
+          "Navy intelligence officer",
+          "Senior Defense Official and Defense Attach\u00e9 in India",
+          "National Security Council senior director for South Asia"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Eileen Laubacher",
+      "source_kind": "primary_candidate_biography",
+      "state": "CO"
+    },
+    {
+      "candidate_id": "219990",
+      "district": "05",
+      "evidence": {
+        "bytes": 725792,
+        "id": "incoming-primary-219990",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-219990.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:06.510805+00:00",
+        "sha256": "596510fe4e4532321f2fbfc9ec5b3249b5a934d04ecc3055bd4e5b4a6e982767",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://www.killinforcolorado.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "5cf0445366fdc8f94f5a4721bf597498b097f0a8d670d54f37a668bd32ec6732"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "law degree",
+            "institution": "Georgetown",
+            "literal": "Earned a law degree at Georgetown"
+          }
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Jessica Killin",
+      "source_kind": "primary_candidate_biography",
+      "state": "CO"
+    },
+    {
+      "candidate_id": "220006",
+      "district": "08",
+      "evidence": {
+        "bytes": 434831,
+        "id": "incoming-primary-220006",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220006.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:06.618626+00:00",
+        "sha256": "556deadfa4813a2794442ef2088dc66cb9831a0f1ab80c43b5457dff943dc015",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://www.mannyforcolorado.com/meetmanny"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "cb5abe26c923618977e6d1641504ab854a66b3f17a20e9c187933dba4db49bf6",
+            "11288e41fb54a48b3ca5f40222e0956669fd8cf4c3ba00991b0c38fa2d07e4aa",
+            "986a736268ec6428f555f43d0d9fc086b6e32fc0788884f56d018e370cf0e6fa",
+            "987649a8cbff7a946131a64878ff544a171cac1f4c31ec0f9c7f5e1bf897f8fe"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "law degree",
+            "institution": "Yale Law School",
+            "literal": "Yale Law School law degree"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "master's in economics",
+            "institution": "Johns Hopkins University",
+            "literal": "Johns Hopkins University master's in economics"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "associate's degree",
+            "institution": "community college",
+            "literal": "Earned an associate's degree; institution not stated on source page"
+          }
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Manny Rutinel",
+      "source_kind": "primary_candidate_biography",
+      "state": "CO"
+    },
+    {
+      "candidate_id": "220189",
+      "district": "10",
+      "evidence": {
+        "bytes": 109007,
+        "id": "incoming-primary-220189",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220189.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.040167+00:00",
+        "sha256": "b87a13208b2cf7afa925ab47f31a3d1ee97596a887d254f9be0098702d215b7b",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://houstongaines.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "ae1efd3a4408f609675d26c69d6325a49241c68f5047b0fcb9ea9a36f4828b58",
+            "ce7f3ff4a9dc387508af8b5051a6910a03664c63d6dd8192841407ec1bc7ec83",
+            "89df79e53012b5e6fd6b06493a29b11e7254e6453f978cadebed867200b63dfc"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "4d7bccf23bb2323f87f410800d150c59b15fd7310d2b3920c683a9af1c8860e7"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "source_reports_attendance",
+            "credential": null,
+            "institution": "University of Georgia",
+            "literal": "Attended the University of Georgia; source also identifies him as student body president"
+          }
+        ],
+        "prior_office": [
+          "State House since 2019, representing Barrow, Clarke, Jackson, and Oconee counties"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Houston Gaines",
+      "source_kind": "primary_candidate_biography",
+      "state": "GA"
+    },
+    {
+      "candidate_id": "220344",
+      "district": "01",
+      "evidence": {
+        "bytes": 51205,
+        "id": "incoming-primary-220344",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220344.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.094886+00:00",
+        "sha256": "03c23f657ce264d32c252a885d58dec6f570c8ee5161f27d3a0597b50e896f44",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://bohannanforcongress.com/about/"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "66da05e48bd33a4cf12ae643870f637692c43c55e9cca9f4d3d6b82c506f4d3e",
+            "92a14208174a47e694d1c936b188a3d3d1f3728590000d221c442a3408cf4624"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "ace3aba83572c7a549e7730d5dd06491e08af6a93b4b85e7c25aef7debb5f900"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "graduated; credential_not_stated",
+            "credential": null,
+            "institution": "institution not stated",
+            "literal": "Graduated first in her law-school class"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "degree in environmental engineering",
+            "institution": "unidentified institution",
+            "literal": "Source reports a degree in environmental engineering without naming the institution in the reviewed passage"
+          }
+        ],
+        "prior_office": [
+          "Iowa House of Representatives"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Christina Bohannan",
+      "source_kind": "primary_candidate_biography",
+      "state": "IA"
+    },
+    {
+      "candidate_id": "220351",
+      "district": "03",
+      "evidence": {
+        "bytes": 159456,
+        "id": "incoming-primary-220351",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220351.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.258986+00:00",
+        "sha256": "94a4f06ff9924fc976de297ee1311ac474599bca2cd21cacba6a7dde4c7b97bb",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://sarahforiowa.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "ce6b29fa98dd77de0f641b8dbd737e42946e45f4179c0e40cdbc063388a91cb0"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "b9d2e1378e5261e2f41e257905bce3e474400b0da192b53e33b1813884a3f2e5"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "association_reported; completion_not_stated",
+            "credential": null,
+            "institution": "Harvard Divinity School",
+            "literal": "Her journey continued at Harvard Divinity School"
+          }
+        ],
+        "prior_office": [
+          "State Senator"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Sarah Trone Garriott",
+      "source_kind": "primary_candidate_biography",
+      "state": "IA"
+    },
+    {
+      "candidate_id": "220269",
+      "district": "04",
+      "evidence": {
+        "bytes": 1039222,
+        "id": "incoming-primary-220269",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220269.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.368653+00:00",
+        "sha256": "0b89e23fe0f5df90a7a9ff82398db331381e00cb2007fa35ad46a2f830b8e6a4",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://pattyforillinois.com/meet"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "0c2db2d9c9905217d2d9477c490d5d48ffcc08de4f5c9a2bc157140e41ff45c7",
+            "6030c9de3424ab09f69f8e5594d35286895395afe6512cfa98cad34eadd7a184",
+            "bf3ddd5552577ff02ad6f8d0e7b035c310e94ede2a3a9cb19fa53036b015e2cc"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "PhD in education policy",
+            "institution": "University of Illinois Urbana-Champaign",
+            "literal": "University of Illinois Urbana-Champaign PhD in education policy"
+          }
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Patty Garcia",
+      "source_kind": "primary_candidate_biography",
+      "state": "IL"
+    },
+    {
+      "candidate_id": "220469",
+      "district": "02",
+      "evidence": {
+        "bytes": 14614,
+        "id": "incoming-primary-220469",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220469.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.433722+00:00",
+        "sha256": "2b8be1b29294871794c9d6d1b4900ebc7ce1bbf4cbfcef88a209304da3168eb7",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://lepageforcongress.com/meet-paul"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "1322ac0250395e24a0fb7c1d1ab109e7c5199641c2fb5d88664be4197f781c5c",
+            "6da60a0909417a32ec37a60ade0c794b9eab09f0659d5f346c2e2eede8d60258",
+            "3d9bce2ef3112f947401a06b7202b53f2bc50858a4a2ee31bb664c5cbde648c0"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "91abcb0593c75f0cac4bd3606b5c96395e092aaec237785fb06df2608cb2e58f",
+            "0323f4bddcbbecbf0459b0fedcc45f38c721fb8a8260c1e96a4f5916e0f9279d"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "86baf19b29d7196a986df4b9114e444e063c19f30487c35db6cfe5201ec6dcf8",
+            "78a178cec89968f86a3417bd2bccc52c5552fbf74b24e06cc9570bdd67580506",
+            "933daa325eca925be060b601276b18e09520b5e7accbf5ad1c7a1ee77b303652"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BS in business administration",
+            "institution": "Husson",
+            "literal": "Husson BS in business administration"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "MBA",
+            "institution": "University of Maine",
+            "literal": "University of Maine MBA"
+          }
+        ],
+        "prior_office": [
+          "Governor of Maine",
+          "Mayor of Waterville"
+        ],
+        "professional_history": [
+          "Leadership roles in lumber and paper mills",
+          "Turnaround advisor",
+          "General manager of Marden's"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Paul LePage",
+      "source_kind": "primary_candidate_biography",
+      "state": "ME"
+    },
+    {
+      "candidate_id": "220516",
+      "district": "04",
+      "evidence": {
+        "bytes": 150805,
+        "id": "incoming-primary-220516",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220516.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:07.591737+00:00",
+        "sha256": "12ada25fbd298263aefd5bcc6d37ac99f2930d3b6a936841a20c3bf4da456f27",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://seanmccannforcongress.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "919a5af930c3869b3c5b348bc44c7c1646189156d019205f9aec2e043f355427"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "00aa92dc3c7c5f8c729dbdf052384dff8a077f6e300dc1263cc18df2dac29dc7",
+            "9fb79749d5360c86e68dbcf1f9550dd627c31be8f8d964a496659270ca16255c"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "source_reports_attendance",
+            "credential": null,
+            "institution": "Western Michigan University",
+            "literal": "Attended Western Michigan University"
+          }
+        ],
+        "prior_office": [
+          "State Representative",
+          "State Senator in Southwest Michigan"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Sean McCann",
+      "source_kind": "primary_candidate_biography",
+      "state": "MI"
+    },
+    {
+      "candidate_id": "220549",
+      "district": "11",
+      "evidence": {
+        "bytes": 43982,
+        "id": "incoming-primary-220549",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220549.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:09.515540+00:00",
+        "sha256": "0d7202b557bf9f746edfb1a936b32e28187aeb8453d06a7a7f37033f2e627244",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://votejeremymoss.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "355acff2baf9c183d86f7f103e561d82f128ac5e233165228efa3a62e409fa70"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "94f92ed21df61ab144b6e0cde4b3b31a08db874015f58346221f54a3c4a8dbb7"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "source_reports_study",
+            "credential": null,
+            "institution": "Michigan State University",
+            "literal": "Studied at Michigan State University"
+          }
+        ],
+        "prior_office": [
+          "Michigan Senate",
+          "Michigan House of Representatives"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Jeremy Moss",
+      "source_kind": "primary_candidate_biography",
+      "state": "MI"
+    },
+    {
+      "candidate_id": "220925",
+      "district": "11",
+      "evidence": {
+        "bytes": 322006,
+        "id": "incoming-primary-220925",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220925.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:09.673286+00:00",
+        "sha256": "a0f6c4961f61c6aac55a6dd39c8c20e8fbf615163f609f7454f55ce9c01014bc",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://agerforcongress.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "8d0c8f29203f4c92f687eded8ec08dcd8c28dd963ef7523378e0d1efa2f70ce3",
+            "eec8c52caf0dc60391b50b8666820dffd101339c4b0790f03160977ab6c07a83",
+            "259aa8ef98a8b91de574cd904138ef643240c23080cf24da4793a6f10a43fa9d"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "77defb995cd073ade9bfc1b0ec584c222a73c7980ce4836be417b9a29a1c304b",
+            "447aaf2e9fe26d05d7545c5b93faedc0727601610a37e86b1009e97b9503027c"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "degrees in environmental studies and history",
+            "institution": "Warren Wilson College",
+            "literal": "Warren Wilson College degrees in environmental studies and history"
+          }
+        ],
+        "professional_history": [
+          "Fourth-generation farmer and entrepreneur",
+          "Co-built Hickory Nut Gap, a sustainable meat company"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Jamie Ager",
+      "source_kind": "primary_candidate_biography",
+      "state": "NC"
+    },
+    {
+      "candidate_id": "220931",
+      "district": "13",
+      "evidence": {
+        "bytes": 130390,
+        "id": "incoming-primary-220931",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220931.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:09.740080+00:00",
+        "sha256": "ca083514ed09e3eb1899581489b1fb215a49cc4b073b28cd7ef1c79544595ff2",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://paulbarringer.com/about"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "8fc265d0a13e68b1faa03bd76e6ca6dbb217829add9c6cee95810f7efa15fe18",
+            "7c33cb8eb996b7582f8860d21fb387346df76b3cd28eb4f58263657221f38e84",
+            "3ac23d9d54cb3aa4fa8c64615dfdbbc397e25ab8d063aff0c03e783c19145392",
+            "6630c9a0e21fdcf7f3f46b797f9c6bdac73851bd9ab0dc4474f30c253a3bc15e"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "association_reported; completion_not_stated",
+            "credential": null,
+            "institution": "Davidson College",
+            "literal": "Davidson College"
+          },
+          {
+            "completion_status": "association_reported; completion_not_stated",
+            "credential": null,
+            "institution": "UNC law school",
+            "literal": "UNC law school"
+          },
+          {
+            "completion_status": "association_reported; completion_not_stated",
+            "credential": null,
+            "institution": "School of Public and International Affairs at Princeton University",
+            "literal": "School of Public and International Affairs at Princeton University"
+          }
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Paul Barringer",
+      "source_kind": "primary_candidate_biography",
+      "state": "NC"
+    },
+    {
+      "candidate_id": "220933",
+      "district": "14",
+      "evidence": {
+        "bytes": 596007,
+        "id": "incoming-primary-220933",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-220933.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:09.835737+00:00",
+        "sha256": "616a68ad7a46dde002372624a33b9ceb117444d06c141deaef2c96e435c2a25b",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://www.womack4nc14.com/bio"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "e897b676e22fa06e70bbebaac16e1cd312c9778cc78cc965b6c846a4c749657d",
+            "909c3b9e0b4ea6eeff28f2a2b2dff5ed206e76b0fe1153b2577bfa4834fb6a68",
+            "1d53fc207912de3591b925d56a5404b53603fae348880f8c8050bb6716d31099",
+            "43c0d843686ef6103e658045f0db6861aa7519e6c14f5249a262bc69d0e619d9"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "degree in political science",
+            "institution": "Vanderbilt University",
+            "literal": "Vanderbilt University degree in political science"
+          },
+          {
+            "completion_status": "enrolled_or_pursuing",
+            "credential": "Master of Legal Studies",
+            "institution": "Vanderbilt Law School",
+            "literal": "Pursuing a Master of Legal Studies at Vanderbilt Law School"
+          }
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Lakesha Womack",
+      "source_kind": "primary_candidate_biography",
+      "state": "NC"
+    },
+    {
+      "candidate_id": "221182",
+      "district": "06",
+      "evidence": {
+        "bytes": 51211,
+        "id": "incoming-primary-221182",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-221182.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:10.691046+00:00",
+        "sha256": "0029f3589892107216c1a96f8b0bfedb423ff2832c3699237b4e976c162a0cf6",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://johnnygarrettforcongress.com/meet-johnny/"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "eefe832b2e5c8e018f75736643aa232f19d023304feaae093ac68fc500456c49",
+            "ae8a00ba8028bc7336fbb20d8d1689ffcc3a667c7c95680d0016ac42878e4aac",
+            "624334d18e88f8ed1cbfd554128f44b6ea1310232f9e271ea45575582a640617",
+            "58f675384720554cd6b4fde162eb3db4e7694dc132bee3d5a0a55994368c2495"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "00aa92dc3c7c5f8c729dbdf052384dff8a077f6e300dc1263cc18df2dac29dc7"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BS in general business",
+            "institution": "University of Tennessee at Knoxville",
+            "literal": "University of Tennessee at Knoxville BS in general business"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "JD",
+            "institution": "Nashville School of Law",
+            "literal": "Nashville School of Law JD"
+          }
+        ],
+        "prior_office": [
+          "State Representative"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Johnny Garrett",
+      "source_kind": "primary_candidate_biography",
+      "state": "TN"
+    },
+    {
+      "candidate_id": "140482",
+      "district": "22",
+      "evidence": {
+        "bytes": 125317,
+        "id": "incoming-primary-140482",
+        "path": "data/raw/incoming-members-20261114/incoming-primary-140482.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:10.744839+00:00",
+        "sha256": "9ff8640170926a98ed48ae910fcd0760de7d6001efa654c80c3f9052dc21f760",
+        "source_kind": "primary_candidate_biography",
+        "url": "https://www.trevernehlsforcongress.com/about/"
+      },
+      "field_audit": {
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "864199272bc8ca2bcb0e0cbb904761692bc3f349df3d47484cbe7aa086f4f57b",
+            "a3a12ead5ffb6805740184192e72107eb3dd3392d00cf98a90abcec03b5f152f",
+            "1479d2e13a9d5c7cbca1349c505307382ac4cfd1531e3d2cb7c6166063c2b1b0",
+            "3f4aa44437c187ab1a1e4ef2582c0f9febdfc46aa40f9515477dd9f0ae642007",
+            "4428da89c87414caee325014a125fffd9725068596ff42a1180250b2c2f45758",
+            "33f3dd8a721d9b6825d208c8775e07f922841f5cd91a2d485a59c8b312651316"
+          ]
+        },
+        "military_service": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "1e2ba88be54c8aab919a89eb94626c71a82323cbf047461e5ab2503a0c5e870f",
+            "e2c32632cd53d5e3bbf43d889a373ad7f1bb18265ec7807e7fa20824d998135c",
+            "591d77083a985b291c3b854b85c868e959fed5922e5dc50717adc234e54c94f4"
+          ]
+        }
+      },
+      "fields": {
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "bachelor's in criminal justice and corrections",
+            "institution": "University of Wisconsin\u2013Platteville",
+            "literal": "University of Wisconsin\u2013Platteville bachelor's in criminal justice and corrections"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "master's in public administration",
+            "institution": "Central Michigan University",
+            "literal": "Central Michigan University master's in public administration"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "master's in strategic studies",
+            "institution": "U.S. Army War College",
+            "literal": "U.S. Army War College master's in strategic studies"
+          }
+        ],
+        "military_service": [
+          "More than 33 years in the U.S. Army Reserve, including deployments to Iraq, Afghanistan, and Kuwait"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Trever Nehls",
+      "source_kind": "primary_candidate_biography",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "219724",
+      "district": "01",
+      "evidence": {
+        "bytes": 40248,
+        "id": "incoming-historian-219724",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-219724.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:13.816661+00:00",
+        "sha256": "b1d69741200539b83dc96a5054469f03a0f5ba3ba5ae46d4e48eae9528039642",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Listing/C/CARL,-Jerry-L--(C001054)/"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "ca3e47a187adfd7cce7997c2ebe00cdb5db950e81aca6885a05ccb6688b65758"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "a4ef593c5eb8cf84dc5b18a6422c9b5c60d0caf12832350207e1a65b0bead4d7"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "182ae79c91ca6dd3312925f93bd60c13a2d177fe862d9d9c96bde05a23373106",
+            "694e008a5944e5ac0fc0d3c9e6243fd741f236888f07080cce892ab0fc53e46e"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "965455023c91f19bdc106cc01edf10cda10cb17c75dba642bce277dca3f00351",
+            "4594a1dfbd0c1151f89018e1fc5bfc2633698226e4f441b44356e0da9386660b",
+            "ad07cbfef7058e9de8d59e2787b357fb6cab86a9e82635620b47d02dbfa16fe1"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1958-06-17",
+        "education": [
+          {
+            "completion_status": "attended",
+            "credential": null,
+            "institution": "Lake City Community College",
+            "literal": "Attended Lake City Community College"
+          }
+        ],
+        "prior_office": [
+          "Mobile County commissioner",
+          "U.S. House of Representatives"
+        ],
+        "professional_history": [
+          "Business owner",
+          "Entrepreneur",
+          "Sales representative"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Jerry Carl",
+      "source_kind": "official_house_historian",
+      "state": "AL"
+    },
+    {
+      "candidate_id": "219929",
+      "district": "38",
+      "evidence": {
+        "bytes": 67155,
+        "id": "incoming-historian-219929",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-219929.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:14.525837+00:00",
+        "sha256": "0f3967faf3a6488f15878f70cdd71b318226175798689abc2bfbfeb1ee86ff8d",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Detail/22566"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "508a0acc9fccfeb63e5e06820ed726e9964d0c0b7628f543832d94ffce95c06b"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "280efc5130edf8eb46076ae4e1e408b4b2d8f8231f61a40b24c144592eb46d46",
+            "19c5aae3cb294e4498c4ebb79b49cfa2217601713af968dd19daf7931d42c045"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "5d547ff7fd2f1bd74dfaaeb55d9e08c6246d86b721ddf413f64e358b039981ed",
+            "d2d36e833ac27323057f72f2d0e57430f9935f4cca29ebbdc1be43207b08d842",
+            "fb93523044940e93de8dc7662988ad696f462f240b6d14257d1c68178d243496",
+            "1776e26c2365a16c58f295d0704b26a07a3cfdfc68f3f17e117ab81d6daf1122",
+            "8a5ddb6df2501ef3edce284958116d4148060e979d66d33127ac06a31de9fd63"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1957-10-20",
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BA",
+            "institution": "California Polytechnic University, Pomona",
+            "literal": "California Polytechnic University, Pomona BA"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "MA",
+            "institution": "University of Southern California",
+            "literal": "University of Southern California MA"
+          }
+        ],
+        "prior_office": [
+          "U.S. House of Representatives",
+          "U.S. Secretary of Labor",
+          "California Senate",
+          "California Assembly",
+          "Los Angeles County Board of Supervisors"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Hilda Solis",
+      "source_kind": "official_house_historian",
+      "state": "CA"
+    },
+    {
+      "candidate_id": "220279",
+      "district": "08",
+      "evidence": {
+        "bytes": 57286,
+        "id": "incoming-historian-220279",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-220279.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:14.933702+00:00",
+        "sha256": "e78cb7accf0a35f4490ba14ab261c72bfa0e58f21eab3e7f7c04ac3cfe9462de",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Listing/B/BEAN,-Melissa-L--(B001253)/"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "093a1ded32c98c40c3f01ae5c38bb864f3e5d476cf8c72a456928ba98f1c54b1"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "794e972c6621ca40a08e034647c245d9d3f8aa78000466eb90fc982b504da672",
+            "be8e01a3c646492413e7d0926805b9f17cf8408452f02e936580cb7689203fda"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "e11884631b1d567c07540da6236692377eedf336ce03ef9856ff8f7eeda18c48"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "4087b6426d9adf2bd519bbadbf0b3249274c7fc23b8347efe29f188bb7a4878b",
+            "e8e706d5a8683b5334d6a56ed444b33e17f308afaffdeb0af5c3aec7172bb15a"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1962-01-22",
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "AA",
+            "institution": "Oakton Community College",
+            "literal": "Oakton Community College AA"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "BA",
+            "institution": "Roosevelt University",
+            "literal": "Roosevelt University BA"
+          }
+        ],
+        "prior_office": [
+          "U.S. House of Representatives"
+        ],
+        "professional_history": [
+          "Consultant",
+          "Businesswoman"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Melissa Bean",
+      "source_kind": "official_house_historian",
+      "state": "IL"
+    },
+    {
+      "candidate_id": "221144",
+      "district": "33",
+      "evidence": {
+        "bytes": 45667,
+        "id": "incoming-historian-221144",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-221144.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:15.544571+00:00",
+        "sha256": "d71ef5a6c01915187562914dfdf5ae66b49fa2bad43bf7cd32d25882de347228",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Listing/A/ALLRED,-Colin-(A000376)/"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "6fae76fbd70496236b4fc99efad861f02d4c7e893e862986851d9015f18aa83c"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "05a94da4a7693726df9dc362ffe7399b29511c8e74eb69ade818272aa125e93b",
+            "15a0f86b59e40cb03d2accab419d8cb14b875c6eb33d38299170cbd60d29da21"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "655113b136db792612e60512a78a9fe77c8c1e77c3dbb10fa3703bb1c0a30e17"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "8aaa9099b560d6d0c0cdd7b5718831f6fb8555c91f9be4abae796433d0819b02",
+            "59ce5cb4292752624150ac2963a8aaface10d982e452200b16ea486af094d1e7",
+            "83a70052504733134861af25c442ffd741935da314c948f2e015a93b2d0af6ed"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1983-04-15",
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BA",
+            "institution": "Baylor University",
+            "literal": "Baylor University BA"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "JD",
+            "institution": "University of California, Berkeley",
+            "literal": "University of California, Berkeley JD"
+          }
+        ],
+        "prior_office": [
+          "U.S. House of Representatives"
+        ],
+        "professional_history": [
+          "Professional athlete",
+          "Nonprofit executive",
+          "Lawyer"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Colin Allred",
+      "source_kind": "official_house_historian",
+      "state": "TX"
+    },
+    {
+      "candidate_id": "221191",
+      "district": "01",
+      "evidence": {
+        "bytes": 40246,
+        "id": "incoming-historian-221191",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-221191.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:16.035972+00:00",
+        "sha256": "3921e6f0e48ab09fc8198848f0dc1ebfd17b1bb17cad0a8cf11658ea6a7870c0",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Listing/M/MCADAMS,-Ben-(M001209)/"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "73ac9a0615303f896561585a840b20a4281c8f8bc6683cc5defbb06244935f02"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "3f024d706106073302f9cc65546781d093d9f47696aa45151acb3120fe0a4cf0",
+            "3685c9d9518eb09e912e9049d7a8ea817946a9c1aa71264098b12fe25c9c2041"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "7844828b74941e104be447fac6b36d51a65ccdd3bfd74acc5fbb4120ef0d50aa",
+            "d09bc30af41fc0c4ec55cdb90ef2e0f9e6119fc823580a3c321c71109b4c66fc",
+            "655113b136db792612e60512a78a9fe77c8c1e77c3dbb10fa3703bb1c0a30e17"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "83a70052504733134861af25c442ffd741935da314c948f2e015a93b2d0af6ed",
+            "691783f292cc32e6d2ba0110214bf67a68d73b320c992aa526d0e4214c00a891"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1974-12-05",
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BA",
+            "institution": "University of Utah",
+            "literal": "University of Utah BA"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "JD",
+            "institution": "Columbia University",
+            "literal": "Columbia University JD"
+          }
+        ],
+        "prior_office": [
+          "U.S. House of Representatives",
+          "Mayor of Salt Lake County",
+          "Utah Senate"
+        ],
+        "professional_history": [
+          "Lawyer",
+          "Adjunct professor"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Ben McAdams",
+      "source_kind": "official_house_historian",
+      "state": "UT"
+    },
+    {
+      "candidate_id": "221201",
+      "district": "02",
+      "evidence": {
+        "bytes": 48095,
+        "id": "incoming-historian-221201",
+        "path": "data/raw/incoming-members-20261114/incoming-historian-221201.html",
+        "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+        "retrieved_at": "2026-11-15T00:24:16.477312+00:00",
+        "sha256": "bec44296c3345e755c29b5ebb601f0c7b8fca75c71e9fe00bbddb8a0f9ceb804",
+        "source_kind": "official_house_historian",
+        "url": "https://history.house.gov/People/Detail/25769805224"
+      },
+      "field_audit": {
+        "date_of_birth": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "c6dc166a4b17be64f996ebbe065d8fb44a68d6f30b8e10718a2548ff2723f6f2"
+          ]
+        },
+        "education": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "4e5f4a2df5a68ba6900cf0c1e60a363e1487267d3ea7484d9521f222c335b77b",
+            "2b40342ce4b7d2c188cc3ee6f8d4ea5e47a981d678883457be9115bd92e4783e",
+            "3c054ad834f25274dd1c8cd44ce593d4a117f214646e37b3bc40f1042fe242df"
+          ]
+        },
+        "military_service": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "32b7cd62b739eaebae42584a51ee898c4cbde8a6567506026e399b78bc05dbe0"
+          ]
+        },
+        "prior_office": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "655113b136db792612e60512a78a9fe77c8c1e77c3dbb10fa3703bb1c0a30e17"
+          ]
+        },
+        "professional_history": {
+          "status": "explicit_in_cached_source",
+          "support_fragment_sha256": [
+            "88d59527e6cc85aa4ea941395934819ceda1acbcef40c1c341797051a4f95a3e"
+          ]
+        }
+      },
+      "fields": {
+        "date_of_birth": "1975-08-15",
+        "education": [
+          {
+            "completion_status": "completed",
+            "credential": "BS",
+            "institution": "United States Naval Academy",
+            "literal": "United States Naval Academy BS"
+          },
+          {
+            "completion_status": "attended",
+            "credential": null,
+            "institution": "United States Naval Nuclear Power School",
+            "literal": "Attended United States Naval Nuclear Power School"
+          },
+          {
+            "completion_status": "completed",
+            "credential": "MS",
+            "institution": "Old Dominion University",
+            "literal": "Old Dominion University MS"
+          }
+        ],
+        "military_service": [
+          "United States Navy, 1997\u20132017"
+        ],
+        "prior_office": [
+          "U.S. House of Representatives"
+        ],
+        "professional_history": [
+          "Small-business owner"
+        ]
+      },
+      "identity_qualification": "candidate_id_exact; provisional_winner_context; same_state_district_and_normalized_name",
+      "model_ready": false,
+      "name": "Elaine Luria",
+      "source_kind": "official_house_historian",
+      "state": "VA"
+    }
+  ],
+  "sources": [
+    {
+      "bytes": 40248,
+      "id": "incoming-historian-219724",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-219724.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:13.816661+00:00",
+      "sha256": "b1d69741200539b83dc96a5054469f03a0f5ba3ba5ae46d4e48eae9528039642",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Listing/C/CARL,-Jerry-L--(C001054)/"
+    },
+    {
+      "bytes": 67155,
+      "id": "incoming-historian-219929",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-219929.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:14.525837+00:00",
+      "sha256": "0f3967faf3a6488f15878f70cdd71b318226175798689abc2bfbfeb1ee86ff8d",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Detail/22566"
+    },
+    {
+      "bytes": 57286,
+      "id": "incoming-historian-220279",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-220279.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:14.933702+00:00",
+      "sha256": "e78cb7accf0a35f4490ba14ab261c72bfa0e58f21eab3e7f7c04ac3cfe9462de",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Listing/B/BEAN,-Melissa-L--(B001253)/"
+    },
+    {
+      "bytes": 45667,
+      "id": "incoming-historian-221144",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-221144.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:15.544571+00:00",
+      "sha256": "d71ef5a6c01915187562914dfdf5ae66b49fa2bad43bf7cd32d25882de347228",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Listing/A/ALLRED,-Colin-(A000376)/"
+    },
+    {
+      "bytes": 40246,
+      "id": "incoming-historian-221191",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-221191.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:16.035972+00:00",
+      "sha256": "3921e6f0e48ab09fc8198848f0dc1ebfd17b1bb17cad0a8cf11658ea6a7870c0",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Listing/M/MCADAMS,-Ben-(M001209)/"
+    },
+    {
+      "bytes": 48095,
+      "id": "incoming-historian-221201",
+      "path": "data/raw/incoming-members-20261114/incoming-historian-221201.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:16.477312+00:00",
+      "sha256": "bec44296c3345e755c29b5ebb601f0c7b8fca75c71e9fe00bbddb8a0f9ceb804",
+      "source_kind": "official_house_historian",
+      "url": "https://history.house.gov/People/Detail/25769805224"
+    },
+    {
+      "bytes": 125317,
+      "id": "incoming-primary-140482",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-140482.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:10.744839+00:00",
+      "sha256": "9ff8640170926a98ed48ae910fcd0760de7d6001efa654c80c3f9052dc21f760",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.trevernehlsforcongress.com/about/"
+    },
+    {
+      "bytes": 892441,
+      "id": "incoming-primary-219986",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-219986.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:06.373812+00:00",
+      "sha256": "ccd674ecd4a500fbdb26b3da0fe69c6472c60e17d2e7e98ccfd5d94e5d2b143c",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.eileenforcolorado.com/about"
+    },
+    {
+      "bytes": 725792,
+      "id": "incoming-primary-219990",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-219990.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:06.510805+00:00",
+      "sha256": "596510fe4e4532321f2fbfc9ec5b3249b5a934d04ecc3055bd4e5b4a6e982767",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.killinforcolorado.com/about"
+    },
+    {
+      "bytes": 434831,
+      "id": "incoming-primary-220006",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220006.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:06.618626+00:00",
+      "sha256": "556deadfa4813a2794442ef2088dc66cb9831a0f1ab80c43b5457dff943dc015",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.mannyforcolorado.com/meetmanny"
+    },
+    {
+      "bytes": 109007,
+      "id": "incoming-primary-220189",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220189.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.040167+00:00",
+      "sha256": "b87a13208b2cf7afa925ab47f31a3d1ee97596a887d254f9be0098702d215b7b",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://houstongaines.com/about"
+    },
+    {
+      "bytes": 1039222,
+      "id": "incoming-primary-220269",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220269.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.368653+00:00",
+      "sha256": "0b89e23fe0f5df90a7a9ff82398db331381e00cb2007fa35ad46a2f830b8e6a4",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://pattyforillinois.com/meet"
+    },
+    {
+      "bytes": 51205,
+      "id": "incoming-primary-220344",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220344.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.094886+00:00",
+      "sha256": "03c23f657ce264d32c252a885d58dec6f570c8ee5161f27d3a0597b50e896f44",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://bohannanforcongress.com/about/"
+    },
+    {
+      "bytes": 159456,
+      "id": "incoming-primary-220351",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220351.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.258986+00:00",
+      "sha256": "94a4f06ff9924fc976de297ee1311ac474599bca2cd21cacba6a7dde4c7b97bb",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://sarahforiowa.com/about"
+    },
+    {
+      "bytes": 14614,
+      "id": "incoming-primary-220469",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220469.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.433722+00:00",
+      "sha256": "2b8be1b29294871794c9d6d1b4900ebc7ce1bbf4cbfcef88a209304da3168eb7",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://lepageforcongress.com/meet-paul"
+    },
+    {
+      "bytes": 150805,
+      "id": "incoming-primary-220516",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220516.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:07.591737+00:00",
+      "sha256": "12ada25fbd298263aefd5bcc6d37ac99f2930d3b6a936841a20c3bf4da456f27",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://seanmccannforcongress.com/about"
+    },
+    {
+      "bytes": 43982,
+      "id": "incoming-primary-220549",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220549.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:09.515540+00:00",
+      "sha256": "0d7202b557bf9f746edfb1a936b32e28187aeb8453d06a7a7f37033f2e627244",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://votejeremymoss.com/about"
+    },
+    {
+      "bytes": 296779,
+      "id": "incoming-primary-220774",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220774.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:10.570692+00:00",
+      "sha256": "1da991f9cbe957dfb38a6c807741226c04b8f51eb0c921f0aad98153f5b991fd",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://stefanyshaheen.com/meet-stefany"
+    },
+    {
+      "bytes": 322006,
+      "id": "incoming-primary-220925",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220925.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:09.673286+00:00",
+      "sha256": "a0f6c4961f61c6aac55a6dd39c8c20e8fbf615163f609f7454f55ce9c01014bc",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://agerforcongress.com/about"
+    },
+    {
+      "bytes": 130390,
+      "id": "incoming-primary-220931",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220931.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:09.740080+00:00",
+      "sha256": "ca083514ed09e3eb1899581489b1fb215a49cc4b073b28cd7ef1c79544595ff2",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://paulbarringer.com/about"
+    },
+    {
+      "bytes": 596007,
+      "id": "incoming-primary-220933",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-220933.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:09.835737+00:00",
+      "sha256": "616a68ad7a46dde002372624a33b9ceb117444d06c141deaef2c96e435c2a25b",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.womack4nc14.com/bio"
+    },
+    {
+      "bytes": 182794,
+      "id": "incoming-primary-221144",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-221144.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:11.694791+00:00",
+      "sha256": "c97357ebff91dfaf69b0256a9660caced08643cc6f8f0e2268aad41552063ffc",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://www.colinallred.com/about/"
+    },
+    {
+      "bytes": 51211,
+      "id": "incoming-primary-221182",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-221182.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:10.691046+00:00",
+      "sha256": "0029f3589892107216c1a96f8b0bfedb423ff2832c3699237b4e976c162a0cf6",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://johnnygarrettforcongress.com/meet-johnny/"
+    },
+    {
+      "bytes": 180164,
+      "id": "incoming-primary-221191",
+      "path": "data/raw/incoming-members-20261114/incoming-primary-221191.html",
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-15T00:24:13.033144+00:00",
+      "sha256": "37b42bd0bc74717ef504723c46a9c40105945fd3e334dd610c9b6092308a6b30",
+      "source_kind": "primary_candidate_biography",
+      "url": "https://benmcadamsforcongress.com/about/"
+    },
+    {
+      "bytes": 117422,
+      "id": "wiki-069232fd43429bfa",
+      "path": "data/raw/house-members-20261114/wiki-069232fd43429bfa.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:54.967491+00:00",
+      "sha256": "60d6744d7522ebe9677c2157a750b8ec2d407781803b7d042156408ccf589340",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyril_Jefferson"
+    },
+    {
+      "bytes": 313004,
+      "id": "wiki-0c97e769e707dadf",
+      "path": "data/raw/house-members-20261114/wiki-0c97e769e707dadf.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:42.089228+00:00",
+      "sha256": "688537d8bdcc5f848fb66f72b30ec84c7bc51d89d51a1cdf5d48473b5fa88947",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacqui_Irwin"
+    },
+    {
+      "bytes": 287055,
+      "id": "wiki-1db08872e21dc78f",
+      "path": "data/raw/house-members-20261114/wiki-1db08872e21dc78f.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:41.585709+00:00",
+      "sha256": "8bea50d17832e4054a7fe7b8c1e50d670256687c265fbbefec8ddff674d18a11",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Randy_Villegas"
+    },
+    {
+      "bytes": 169808,
+      "id": "wiki-1e5fe5b7d3e81a32",
+      "path": "data/raw/house-members-20261114/wiki-1e5fe5b7d3e81a32.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:40.661497+00:00",
+      "sha256": "67f4ebf510d52758c35befbca6739d6b963ccb7253190693eb679cc2d698d050",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_Pan"
+    },
+    {
+      "bytes": 240170,
+      "id": "wiki-342017af6e961cd8",
+      "path": "data/raw/house-members-20261114/wiki-342017af6e961cd8.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:42.957195+00:00",
+      "sha256": "e0a6de5c49dec9438490b955d7427015602d489e75355cec1f4dc0c4efcde443",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Melat_Kiros"
+    },
+    {
+      "bytes": 91481,
+      "id": "wiki-403c71216671b0e5",
+      "path": "data/raw/house-members-20261114/wiki-403c71216671b0e5.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:48.418357+00:00",
+      "sha256": "f8565bce8ef20806a201f9a14d53c17dbb4e0e03ff6f44360f5703d32fc02ef3",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_McGowan"
+    },
+    {
+      "bytes": 205966,
+      "id": "wiki-42f4b2e61c14cfb2",
+      "path": "data/raw/house-members-20261114/wiki-42f4b2e61c14cfb2.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:39.033032+00:00",
+      "sha256": "80e935dc7046de45e9fe441fe17663eee5519a144bccf69643b07a4daa57ead8",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mark_Lamb_(sheriff)"
+    },
+    {
+      "bytes": 288782,
+      "id": "wiki-51eee9cd9dc61619",
+      "path": "data/raw/house-members-20261114/wiki-51eee9cd9dc61619.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:38.166905+00:00",
+      "sha256": "938c1c3ec0f42de116894dc7ecd7ab149491ea828e5c3f27fcf7a358b9249163",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jerry_Carl"
+    },
+    {
+      "bytes": 542374,
+      "id": "wiki-60f16ae41e777bd1",
+      "path": "data/raw/house-members-20261114/wiki-60f16ae41e777bd1.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:53.812434+00:00",
+      "sha256": "907e5bf571736fea763409cffd36b1b7252cf4ac33e873ae79860483368a144d",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Darializa_Avila_Chevalier"
+    },
+    {
+      "bytes": 278020,
+      "id": "wiki-65cc6160c9236d69",
+      "path": "data/raw/house-members-20261114/wiki-65cc6160c9236d69.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:38.548777+00:00",
+      "sha256": "c900d3bae17f300010b36964c63c8c5a0420f12196ef03a514f27640a21d42d9",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amish_Shah"
+    },
+    {
+      "bytes": 135652,
+      "id": "wiki-689baf85974272ce",
+      "path": "data/raw/house-members-20261114/wiki-689baf85974272ce.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:55.980490+00:00",
+      "sha256": "a01de4ab3d4945d26865a59d0e7adbd10b04afe3ab86b731f5f67b7adff0a2ce",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brian_Poindexter"
+    },
+    {
+      "bytes": 95355,
+      "id": "wiki-77540eebd6b1a392",
+      "path": "data/raw/house-members-20261114/wiki-77540eebd6b1a392.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:05.538394+00:00",
+      "sha256": "c8d82ea26e48f30f1fdaa5f2af92f493c3fde97249fd5f4ca544acb2953d9133",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_Gober"
+    },
+    {
+      "bytes": 161731,
+      "id": "wiki-88992e4a342cd62b",
+      "path": "data/raw/house-members-20261114/wiki-88992e4a342cd62b.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:52.699866+00:00",
+      "sha256": "2f244cb71421dc308fe1985446a33bf6795f9a6a728c04afa4d8015b491e23a1",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rebecca_Bennett_(politician)"
+    },
+    {
+      "bytes": 148074,
+      "id": "wiki-88dc2f76b3e639ff",
+      "path": "data/raw/house-members-20261114/wiki-88dc2f76b3e639ff.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:51.657738+00:00",
+      "sha256": "43c98f0a982f3e89e97ac125d99466b5e2e3d38c2d7c53ab39664521ede85573",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sam_Forstag"
+    },
+    {
+      "bytes": 167208,
+      "id": "wiki-8d759a3fc1bc194a",
+      "path": "data/raw/house-members-20261114/wiki-8d759a3fc1bc194a.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:49.575903+00:00",
+      "sha256": "8c90195f61c9c9fdbdf5e5537745d4a7580b7bde21f1fa8e8f6e8af27314894b",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dan_Koh"
+    },
+    {
+      "bytes": 281991,
+      "id": "wiki-91039a2edecd8c4b",
+      "path": "data/raw/house-members-20261114/wiki-91039a2edecd8c4b.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:39.885307+00:00",
+      "sha256": "3ae4b6c50236b5daabe09224ebd08dd0fe5d4b161355b4f3e8844b617b798c48",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_McGuire_(politician)"
+    },
+    {
+      "bytes": 84594,
+      "id": "wiki-9543bcd1b26213f6",
+      "path": "data/raw/house-members-20261114/wiki-9543bcd1b26213f6.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:04.812490+00:00",
+      "sha256": "6d0f8b190bea78c3aaeaf46d878981c862bdb7377acee1f0add41e23535ed3a1",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jessica_Steinmann"
+    },
+    {
+      "bytes": 158044,
+      "id": "wiki-a6d4a006cebbec03",
+      "path": "data/raw/house-members-20261114/wiki-a6d4a006cebbec03.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:39.363562+00:00",
+      "sha256": "407cca5b290967cded29572a6a01539da5fd39715440f687189a4c1e4ba51a03",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/JoAnna_Mendoza"
+    },
+    {
+      "bytes": 356647,
+      "id": "wiki-b00727bfff45f58c",
+      "path": "data/raw/house-members-20261114/wiki-b00727bfff45f58c.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:57.136108+00:00",
+      "sha256": "709f7ac62e168290daae94d09c89757c875b133bcc6abe97c5424fd3708b9458",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_Rabb"
+    },
+    {
+      "bytes": 144414,
+      "id": "wiki-b1705070728a49bb",
+      "path": "data/raw/house-members-20261114/wiki-b1705070728a49bb.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:58.312876+00:00",
+      "sha256": "63a24cb0c5c0361e9db231ca9a426fa2a78245aa00e2b91bdb7c2b895caf5fbd",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wes_Climer"
+    },
+    {
+      "bytes": 339228,
+      "id": "wiki-b56731ad739c01eb",
+      "path": "data/raw/house-members-20261114/wiki-b56731ad739c01eb.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:05.904043+00:00",
+      "sha256": "108a159d4c17daa2afa2038db7a106c8ccf9e338d47424f58f16948aa7ff895e",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bobby_Pulido"
+    },
+    {
+      "bytes": 104933,
+      "id": "wiki-b926ad7b3758c62d",
+      "path": "data/raw/house-members-20261114/wiki-b926ad7b3758c62d.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:07.309128+00:00",
+      "sha256": "837ce7ff33b3e4037d7f1dee4a044ab92e41c0e1a248f09c2a63f48051630916",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jace_Yarbrough"
+    },
+    {
+      "bytes": 173086,
+      "id": "wiki-c90ec9131a815eaf",
+      "path": "data/raw/house-members-20261114/wiki-c90ec9131a815eaf.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:46.249707+00:00",
+      "sha256": "5608b5820ade03b0cb6496f2b7437885994796bf8785f3f2543bc7b1c5cf47af",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jasmine_Clark"
+    },
+    {
+      "bytes": 197160,
+      "id": "wiki-cb4389699a4486b9",
+      "path": "data/raw/house-members-20261114/wiki-cb4389699a4486b9.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:59.518839+00:00",
+      "sha256": "544a262da5be8bfdb59b2353703acd582aef2c5d3b2838765d62ad313a00f970",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brent_Taylor_(Tennessee_politician)"
+    },
+    {
+      "bytes": 144810,
+      "id": "wiki-cdcbb925a040924b",
+      "path": "data/raw/house-members-20261114/wiki-cdcbb925a040924b.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:45.196366+00:00",
+      "sha256": "4087fabf52a7f7b7d4ed36182fce10014ba7618d2b691e065159a91f9f40cb76",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pia_Dandiya"
+    },
+    {
+      "bytes": 102985,
+      "id": "wiki-d1f93e8ab8fd00f4",
+      "path": "data/raw/house-members-20261114/wiki-d1f93e8ab8fd00f4.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:44.044957+00:00",
+      "sha256": "a0cf77e638a9af7854315610487e8baf295d5da2e55d26596104e0859a658a35",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Austin_Rogers_(politician)"
+    },
+    {
+      "bytes": 276335,
+      "id": "wiki-daf014c8bafe1239",
+      "path": "data/raw/house-members-20261114/wiki-daf014c8bafe1239.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:50.636296+00:00",
+      "sha256": "4bcdb46980bf74d96e8426f0d6409a2aa847aac44c2bad170f7dde285ce408a6",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Donavan_McKinney"
+    },
+    {
+      "bytes": 102290,
+      "id": "wiki-e06f0bf26174d112",
+      "path": "data/raw/house-members-20261114/wiki-e06f0bf26174d112.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:06.326204+00:00",
+      "sha256": "10b5f3d37bcae4ad2dd4cc8189f53a0ec902527fdfe6f91b2b69aaa5bfdd4887",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Sell"
+    },
+    {
+      "bytes": 758201,
+      "id": "wiki-e5a9c967edcf1b26",
+      "path": "data/raw/house-members-20261114/wiki-e5a9c967edcf1b26.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:56:41.094761+00:00",
+      "sha256": "d0737000c86992d484b982d94b65349c994dd5209a3828b48a408a1ed254201b",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scott_Wiener"
+    },
+    {
+      "bytes": 438260,
+      "id": "wiki-e73249507bd49d88",
+      "path": "data/raw/house-members-20261114/wiki-e73249507bd49d88.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:08.671323+00:00",
+      "sha256": "b87d46cb631dc1fb4906be58db312a48db70ea08b83ecf83930e344a40b58649",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elaine_Luria"
+    },
+    {
+      "bytes": 93331,
+      "id": "wiki-f80f99778e56f76b",
+      "path": "data/raw/house-members-20261114/wiki-f80f99778e56f76b.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:05.103979+00:00",
+      "sha256": "94ee15453ab0fb736e23e0a4a59d3e00b4674863bbf82aface61aad912754f42",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leticia_Gutierrez"
+    },
+    {
+      "bytes": 142474,
+      "id": "wiki-fbbe5cfa9f3bb7fe",
+      "path": "data/raw/house-members-20261114/wiki-fbbe5cfa9f3bb7fe.html",
+      "publication_date": null,
+      "qualification": "retrieved_after_election; descriptive_only; model_ineligible",
+      "retrieved_at": "2026-11-14T20:57:09.510024+00:00",
+      "sha256": "2c663163560a8ca78ca71e2cd279c87c15ebbcbc7bb1f6a8537f03b5d55db8d3",
+      "source_kind": "secondary_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Alfonso_(politician)"
+    }
+  ]
+}

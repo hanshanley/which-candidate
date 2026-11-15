@@ -10,6 +10,7 @@ from which_candidate.house_members import (
     incoming_profiles,
     incoming_service,
     qualified_infobox,
+    reviewed_incoming_profiles,
     wiki_new_members,
 )
 from which_candidate.storage import fingerprint
@@ -214,3 +215,36 @@ def test_actual_member_build_preserves_all_seats_vacancies_provenance_and_histor
     manifest = json.loads((ROOT / "results/members/manifest.json").read_text())
     for name, receipt in manifest["files"].items():
         assert fingerprint(tmp_path / name) == receipt, name
+
+
+def test_reviewed_incoming_fields_preserve_sources_unknowns_and_existing_values():
+    row = {
+        "candidate_id": "candidate-1",
+        "state": "CA",
+        "district": "02",
+        "name": "Bob Example",
+        "member_id": "candidate:candidate-1",
+        "seat_id": "CA:02",
+        "education": "Previously qualified school",
+    }
+    profile = {
+        **{k: row[k] for k in ("candidate_id", "state", "district", "name")},
+        "model_ready": False,
+        "fields": {"education": ["Another school"], "date_of_birth": "1970-01-02"},
+        "evidence": {"id": "test", "sha256": "a" * 64, "url": "https://example.test"},
+    }
+    observations = reviewed_incoming_profiles([row], {"profiles": [profile]})
+    assert row["education"] == "Previously qualified school"
+    assert row["date_of_birth"] == "1970-01-02"
+    assert "military_service" not in row and "religion_literal" not in row
+    assert len(observations) == 2 and all(r["model_ready"] is False for r in observations)
+    assert json.loads(row["reviewed_biography_evidence"])[0] == profile
+    for key, value in (("district", "03"), ("model_ready", True)):
+        changed = deepcopy(profile)
+        changed[key] = value
+        with pytest.raises(ValueError):
+            reviewed_incoming_profiles([row], {"profiles": [changed]})
+    changed = deepcopy(profile)
+    changed["fields"]["date_of_birth"] = "1971-01-02"
+    with pytest.raises(ValueError, match="Conflicting"):
+        reviewed_incoming_profiles([row], {"profiles": [changed]})

@@ -13,6 +13,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator, MultipleLocator
 
+from .house_report import render as render_house_report
+from .house_study import csv_rows
 from .pipeline import csv_bytes
 from .publication import ACCENT, BLUE, GRID, INK, MUTED, THEME, export_chart
 from .storage import fingerprint, read_rows, write_json
@@ -512,7 +514,62 @@ def coverage(data):
     )
 
 
+def characteristics(data):
+    rows = [r for r in data["house_traits"] if r["variant"] == "primary"]
+    passing = sum(r.get("holm_pvalue") is not None and r["holm_pvalue"] < 0.05 for r in rows)
+    fig = frame(
+        "Six traits, no simple candidate formula",
+        "2026 House: separate lean-adjusted associations, not causal effects. "
+        "Incumbency compares nominees; the other five comparisons cover verified D incumbents.",
+        "Dots and whiskers: 95% pointwise state-cluster sensitivity intervals. "
+        f"{passing} of six tests clear Holm correction. Different predictor increments "
+        "are not comparable candidate-quality scores.",
+    )
+    ax = fig.add_axes((0.43, 0.23, 0.37, 0.53))
+    labels = {
+        "incumbency": "Incumbency\nD incumbent vs nonincumbent",
+        "ideology": "Prior voting ideology\n+0.1 conservative",
+        "defection": "Party defection\n+1 percentage point",
+        "age": "Age\n+10 years",
+        "tenure": "House service\n+10 years",
+        "gender": "Source-recorded gender\nFemale vs male",
+    }
+    bounds = [abs(2 * r[k]) for r in rows for k in ("ci_low", "ci_high") if r.get(k) is not None]
+    bound = max(2, 2 * math.ceil(max(bounds, default=2) / 2))
+    ax.set(xlim=(-bound - 0.5, bound + 0.5), ylim=(-0.5, len(rows) - 0.5))
+    ax.axvline(0, color=MUTED, linewidth=1)
+    for i, row in enumerate(rows):
+        y = len(rows) - 1 - i
+        if row.get("publication_status") != "supported_exploratory" or not interval(ax, row, y):
+            ax.text(0, y, "Not supported", color=MUTED, ha="center", size=9)
+        position = 0.23 + 0.53 * (y + 0.5) / len(rows)
+        fig.text(0.065, position, labels[row["model"]], va="center", size=10.4)
+        fig.text(
+            0.835,
+            position,
+            f"n = {row['n']}\n{row['state_clusters']} states",
+            va="center",
+            size=9.6,
+        )
+    ax.set_yticks([])
+    ax.set_xlabel("D-minus-R margin association (pp)", labelpad=12, size=10)
+    ax.xaxis.set_major_locator(MaxNLocator(6))
+    tidy(ax)
+    return (
+        fig,
+        rows,
+        "All six comparisons adjust for district presidential lean and lean squared; "
+        "incumbency also adjusts for Republican incumbency. Party defection uses "
+        "pre-election 119th-Congress party-dividing votes; ideology uses 2023-2024 votes. "
+        "Intervals are twice their vote-share-scale values, with full-rank deletion "
+        f"and sample/leverage gates. {passing} of six primary tests clear Holm p<0.05. "
+        "Pointwise intervals are not multiple-comparison-adjusted. New descriptive "
+        "biographies are not promoted into these models.",
+    )
+
+
 BUILDERS = (
+    ("house-characteristics", characteristics),
     ("seat-baseline", geography),
     ("donor-ideology", donor),
     ("donor-benchmark-sensitivity", donor_benchmarks),
@@ -557,12 +614,21 @@ def build(root=ROOT, output=None):
 def _build(root, output):
     output.mkdir(parents=True, exist_ok=True)
     (output / "plot-data").mkdir(exist_ok=True)
-    for directory in ("results/2026-v3/analysis", "results/2026-v4", "results/house"):
+    for directory in (
+        "results/2026-v3/analysis",
+        "results/2026-v4",
+        "results/house",
+        "results/house-study",
+    ):
         manifest = json.loads((root / directory / "manifest.json").read_text())
         receipts = manifest.get("files", manifest)
         for name, receipt in receipts.items():
             if fingerprint(root / directory / name) != receipt:
                 raise ValueError(f"Changed pinned figure input: {directory}/{name}")
+        if directory == "results/house-study":
+            for name, receipt in manifest["inputs"].items():
+                if fingerprint(root / name) != receipt:
+                    raise ValueError(f"Stale study input: {name}")
     data = {
         "panel": read_rows(root / "results/2026-v4/candidate-queries.jsonl.gz"),
         "donor": read_rows(root / "results/2026-v4/donor-fits.jsonl.gz"),
@@ -570,6 +636,7 @@ def _build(root, output):
         "coverage": json.loads((root / "results/house/coverage.json").read_text()),
         "traits": read_rows(root / "results/2026-v3/analysis/trait-fits.jsonl.gz"),
         "moderation": read_rows(root / "results/2026-v3/analysis/moderation-fits.jsonl.gz"),
+        "house_traits": read_rows(root / "results/house-study/trait-fits.jsonl.gz"),
     }
     charts = []
     with plt.rc_context(
@@ -615,6 +682,17 @@ def _build(root, output):
                 }
             )
     write_json(output / "captions.json", charts)
+    (output / "report.html").write_text(
+        render_house_report(
+            (root / "results/house-study/report.md").read_text(),
+            read_rows(root / "results/house-study/candidate-profiles.jsonl.gz"),
+            charts,
+            {
+                "current": csv_rows(root / "results/members/house-119-seats.csv"),
+                "incoming": csv_rows(root / "results/members/house-120-seats.csv"),
+            },
+        )
+    )
     write_json(
         output / "manifest.json",
         {
@@ -631,6 +709,7 @@ def _build(root, output):
                     "results/2026-v3/analysis/manifest.json",
                     "results/2026-v4/manifest.json",
                     "results/house/manifest.json",
+                    "results/house-study/manifest.json",
                 )
             },
             "files": {

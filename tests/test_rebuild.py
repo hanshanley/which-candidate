@@ -471,6 +471,14 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
                     assert archive.read(path.relative_to(ROOT).as_posix()) == path.read_bytes()
         assert ".github/skills/publication-charts/SKILL.md" in archive.namelist()
         assert "tests/test_rebuild.py" in archive.namelist()
+        assert (
+            archive.read("publication/report.html")
+            == (ROOT / "publication/report.html").read_bytes()
+        )
+        assert "results/house-study/validation-folds.jsonl.gz" in archive.namelist()
+        assert "results/house-study/candidate-profiles.csv" in archive.namelist()
+        assert "data/incoming-member-biographies.json" in archive.namelist()
+        assert "audits/house-project.md" in archive.namelist()
         assert all(not name.startswith("data/raw/") for name in archive.namelist())
         assert all(not name.startswith("publication/2026-") for name in archive.namelist())
         assert all(
@@ -485,6 +493,7 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         )
     with zipfile.ZipFile(output / "substack-figures.zip") as archive:
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
+        assert archive.read("report.html") == (ROOT / "publication/report.html").read_bytes()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())
 

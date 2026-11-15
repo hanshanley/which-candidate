@@ -1,0 +1,62 @@
+# Which Democratic House candidates did better in 2026?
+
+## The answer
+
+Across 405 qualified House comparisons, the evidence does not establish a universal winning candidate type. None of the six primary characteristic comparisons clears the six-test Holm correction. These estimates are not proof that candidate characteristics do not matter.
+
+Historical donor ideology and prior voting ideology point in opposite directions even among the same candidates. A single moderate-versus-progressive label would hide that difference. These are observational associations, not the effect of replacing one nominee with another.
+
+## The main comparisons
+
+Outcome: congressional minus 2024 presidential Democratic two-party share, reported here in D-minus-R margin points (twice the share-point difference). All models adjust for district lean and lean squared. Incumbency also adjusts for Republican incumbency; the other five comparisons are among verified Democratic incumbents only.
+
+| Comparison | Adjusted margin pp [95% pointwise interval] | Candidates | States | Holm p |
+| --- | ---: | ---: | ---: | ---: |
+| Democratic incumbent versus nonincumbent | +1.53 [-0.77, +3.82] | 349 | 46 | 0.587 |
+| Prior voting ideology: +0.1 conservative | -1.62 [-3.23, -0.02] | 131 | 34 | 0.237 |
+| Party defection: +1 percentage point | +0.17 [-0.44, +0.77] | 164 | 36 | 1.000 |
+| Age: +10 years | +0.61 [-0.22, +1.44] | 162 | 36 | 0.587 |
+| House service: +10 years | +1.24 [+0.09, +2.39] | 162 | 36 | 0.213 |
+| Source-recorded female versus male | -1.30 [-5.56, +2.97] | 162 | 36 | 1.000 |
+
+Intervals use the larger of state-cluster CR1 and delete-one-state CV3 standard errors, with t(G-1) critical values. They are pointwise, not simultaneous intervals. Full-rank state deletions and sample/leverage support gates apply. Competitive-seat and identical-sample 2020/2024 benchmark sensitivities are in `trait-fits.csv`.
+
+## Why raw presidential gaps are not a candidate ranking
+
+A midterm national environment can lift or depress many candidates at once. The raw gap also depends on the presidential candidate, constituency map and election-year differences. The separate held-out benchmark learns the 2026 gap-versus-lean curve from other states, excluding the held-out candidate's person identity as well. It intentionally does not adjust away incumbency or the traits under study.
+
+The diagnostic covers **405 candidates in 47 state-held-out folds**. Presidential-baseline mean absolute error is 7.48 share points; the held-out benchmark's is 2.56, with signed bias +0.02. These are retrospective within-cycle errors, not a forward election forecast. Individual residuals are descriptive diagnostics, not causal candidate effects or Split Ticket WAR. 0 unconstrained expected shares fall outside 0-100%; these are explicitly flagged, not silently clipped.
+
+## Ideology depends on what is measured
+
+- Historical donor score, all qualified: +3.54 margin points per +0.5 conservative score units [95% interval +1.48, +5.60] (n=151).
+- Historical donor score, current benchmark common sample: +3.22 margin points per +0.5 conservative score units [95% interval -0.24, +6.68] (n=88).
+- Historical donor score, previous benchmark common sample: +0.81 margin points per +0.5 conservative score units [95% interval -3.47, +5.08] (n=88).
+
+The same-incumbent measurement check holds the people and controls fixed:
+
+| Measure and model | Adjusted margin pp [95% pointwise interval] | Candidates |
+| --- | ---: | ---: |
+| Donor score, +0.5 conservative, separate model | +3.92 [+1.62, +6.21] | 100 |
+| Prior voting, +0.1 conservative, separate model | -2.56 [-4.34, -0.78] | 100 |
+| Donor score, +0.5 conservative, joint model | +3.61 [+1.63, +5.59] | 100 |
+| Prior voting, +0.1 conservative, joint model | -2.40 [-3.92, -0.89] | 100 |
+
+Donor scores describe historical funding coalitions through 2024, not 2026 platforms. Prior voting ideology comes from the 118th Congress (2023-2024). Party defection uses dated 119th-Congress votes before November 3, 2026; absence or abstention is not an opposing vote. Newcomers do not receive zero federal ideology.
+
+## Who is in the project?
+
+- All **1284 named candidates** in all 435 House districts are retained, including Republicans, other parties and losers.
+- **30 contests** remain held from the main two-party comparison. Every hold is downloadable.
+- The sitting roster is a different population: 435 voting seats, 433 named occupants and two vacancies in the November 3 Clerk snapshot retrieved November 13; six nonvoting seats are separate.
+- The incoming roster is provisional, not certified. Continuing and returning members are separated from other reported winners.
+
+The interactive report includes the candidate profile browser. Education, career, military and religion evidence is descriptive, with unknowns preserved. New biographies and unreviewed campaign extractions do not silently enter these models. Religion responses are dated observations, not verified current beliefs. Source files, coverage and gap ledgers are part of the complete download.
+
+## What remains unresolved
+
+Counts are the pinned November 12-13 provisional provider snapshot, not certified outcomes. Most challenger/loser traits are less well documented than incumbents' traits. Education/career evidence cannot establish the association of those characteristics for all nominees while unreviewed fields remain ineligible. Race/ethnicity coverage does not provide a valid complete negative-reference group. District religious composition is unavailable. None of these absences means that a trait has no effect.
+
+## Reproduce
+
+Run `python -m which_candidate.house_project` from the installed project or extracted complete-query download. This rebuilds normalized analysis, candidate/member tables, this study, the current publication and complete downloads without acquiring new sources. Run `pytest -q`, `ruff check .` and `ruff format --check .` for validation. The website remains withdrawn.

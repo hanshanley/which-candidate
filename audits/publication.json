@@ -1,13 +1,15 @@
 {
-  "scope": "Current 2026 House publication, all-candidate inventory and full seated/incoming House profiles",
+  "scope": "Integrated 2026 House findings, six-trait study, offline profile browser and full seated/incoming House profiles",
   "publication": {
     "directory": "publication",
-    "figures": 8,
+    "figures": 9,
+    "offline_report": "publication/report.html",
     "website_status": "withdrawn",
     "superseded_publication_directories_removed": true,
     "downloads_contain_only_current_charts": true,
     "historical_research_files_preserved_byte_for_byte": 126,
-    "existing_performance_models_refitted": false
+    "existing_performance_models_refitted": false,
+    "new_exploratory_house_study": "results/house-study"
   },
   "inventory": {
     "contests": 435,
@@ -35,15 +37,16 @@
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 246,
-    "extracted_download_tests_passed": 240,
+    "checkout_tests_passed": 259,
+    "extracted_download_tests_passed": 253,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 70,
+    "ruff_format_files": 78,
+    "validation_scratch_storage": "Disposable RAM image; disk-backed runs encountered ENOSPC. Complete suites passed without changing tests or research behavior.",
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
     "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
@@ -51,26 +54,41 @@
       "results/2026-v4": 9,
       "results/house": 13,
       "results/members": 10,
-      "publication": 42
+      "results/house-study": 10,
+      "publication": 48
     },
+    "extracted_complete_query_repack": "byte-identical",
     "zip_crc_checks": "passed",
     "zip_member_names_unique": true,
     "embedded_query_zip_matches_standalone": true,
-    "complete_query_zip_members": 278,
-    "substack_zip_members": 27,
+    "complete_query_zip_members": 303,
+    "substack_zip_members": 31,
     "repository_and_personal_chart_skills_match": true,
-    "article_and_mobile_visual_review": "Earlier full eight-figure review retained; updated coverage figure reviewed without clipping or overlap. Detailed labels require enlargement at narrow phone widths.",
+    "article_and_mobile_visual_review": "Earlier full eight-figure review retained. New six-trait figure inspected from final source-hashed 1200px and 390px previews without clipping or overlap; detailed chart labels require enlargement on phones.",
+    "new_chart_png_sha256": "7f44bb05eadd04c833fa0f787bdd2decd07bd57efca80cb275f9c3369a47db72",
+    "offline_report_browser": {
+      "report_sha256": "0d7330ff76dba3b286e24f6ab2be9719836942d62bf648a7cdaf72f4e4c0df06",
+      "viewports": [1280, 390, 320],
+      "images_decoded": 9,
+      "dataset_row_counts": [1284, 435, 435],
+      "filtered_csv_rows": 405,
+      "horizontal_overflow": false,
+      "page_errors": [],
+      "external_requests": [],
+      "search_pagination_empty_states_and_source_links": "passed",
+      "without_javascript": "Findings and all nine figures readable; interactive profile browsing requires JavaScript."
+    },
     "withdrawn_gallery_http_status": 404,
     "withdrawn_manifest_http_status": 404
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 57350171,
-      "sha256": "e5f743cdcbc1499df1368cb1eaa32189dbba0a26ef423c0fd7dd5eb2cf328d8d"
+      "bytes": 60040486,
+      "sha256": "764d705709aa65246de1cd9ef066245538edff6af9412c82d05f294146d53314"
     },
     "substack-figures.zip": {
-      "bytes": 58358158,
-      "sha256": "7ff2ba0da2f8bf6852e84ed59af4c6d0cee89a0dcc0f1fa8b491e5bd8fd4b054"
+      "bytes": 62305358,
+      "sha256": "9db2a432208171519e189b3768d429721ff0e4a5f3ae22aeec23e9c77da6d12e"
     }
   },
   "identity_correction": {
@@ -143,9 +161,42 @@
     "Individual voter-guide publication dates remain unverified; candidate-supplied fields are not independently verified.",
     "Historical donor scores and 2023-2024 voting records are not current campaign ideology.",
     "The full sitting House roster has a November 3 Clerk date; it is not represented as a live November 14 population.",
-    "Incoming member calls remain provisional; individual newcomer education, age and religion are incomplete and explicitly audited.",
+    "Incoming member calls remain provisional; 56 education and 80 exact-birth-date gaps remain among 426 reported winners.",
     "CongressData historical variables and the separately versioned current codebook do not establish current 2026 beliefs.",
     "Existing selective model samples are not expanded by inventory coverage and do not establish causal candidate effects.",
     "Detailed static labels and footnotes require enlargement at narrow phone widths."
-  ]
+  ],
+  "incoming_biography_follow_up": {
+    "baseline_commit": "fdd84173fa048d74ae5359a599698e3a291bc706",
+    "profile_observations": 53,
+    "candidates": 51,
+    "acquired_source_receipts": 24,
+    "education_missing_before": 75,
+    "education_missing_after": 56,
+    "new_education_coverage": 19,
+    "exact_dob_missing_before": 101,
+    "exact_dob_missing_after": 80,
+    "new_exact_dob_coverage": 21,
+    "withdrawn_education_gap_claim": 50,
+    "correction": "The original acquisition claim counted overlapping records, not newly covered candidates. Unsupported education and credential claims were removed or qualified before integration.",
+    "new_evidence_model_ready": false
+  },
+  "integrated_house_study": {
+    "contests_retained": 435,
+    "candidate_records_retained": 1284,
+    "eligible_comparisons": 405,
+    "held_contests": 30,
+    "trait_fits_including_sensitivities": 24,
+    "primary_comparisons": 6,
+    "primary_holm_rejections": 0,
+    "interval_units": "D-minus-R margin percentage points",
+    "held_out_folds": 47,
+    "training_excludes_held_state_and_known_people": true,
+    "presidential_baseline_mae_share_pp": 7.476227870968274,
+    "held_out_mae_share_pp": 2.560001286268584,
+    "held_out_rmse_share_pp": 3.3327493805489103,
+    "held_out_bias_share_pp": 0.018117209053844962,
+    "expected_shares_outside_zero_to_100": 0,
+    "validation_scope": "Retrospective within-cycle adjustment, not forward forecast validation or causal candidate quality."
+  }
 }
