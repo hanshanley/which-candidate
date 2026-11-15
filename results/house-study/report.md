@@ -90,7 +90,7 @@ This is feature availability **and the model's population restriction**, not a c
 - The incoming roster is provisional, not certified. Continuing and returning members are separated from other reported winners.
 
 The interactive report includes the candidate profile browser. Education, career, military and religion evidence is descriptive, with unknowns preserved. New biographies and unreviewed campaign extractions do not silently enter these models. Religion responses are dated observations, not verified current beliefs. Source files, coverage and gap ledgers are part of the complete download.
-The election browser now exposes **27,875 acquired observations for 617 candidates**, including losing candidates, rather than only listing unreviewed field names. Every observation retains its actual value, source kind/year, date, qualification and receipt. Unreviewed extractions are labeled, not presented as verified facts. Individual evidence tables and filtered profiles can both be downloaded.
+The election browser now exposes **27,997 acquired observations for 683 candidates**, including losing candidates, rather than only listing unreviewed field names. Every observation retains its actual value, source kind/year, date, qualification and receipt. Unreviewed extractions are labeled, not presented as verified facts. Individual evidence tables and filtered profiles can both be downloaded.
 
 ## What remains unresolved
 

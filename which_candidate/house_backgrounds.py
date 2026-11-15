@@ -254,10 +254,15 @@ def acquire_background_inputs(root):
         if fingerprint(root / source["path"]) != {key: source[key] for key in ("sha256", "bytes")}:
             raise ValueError(f"Changed original incumbent source: {source['id']}")
     records.update(pinned_inputs(root))
+    from .reviewed_backgrounds import reviewed_inputs
+
+    records.update(reviewed_inputs(root))
     return records
 
 
 def background_profile(candidate, inputs):
+    from .reviewed_backgrounds import matched_profiles
+
     target_id = candidate["identity"]["fec_id"]
     people = [p for p in inputs["people"] if target_id and target_id in p["id"].get("fec", [])]
     legislative = candidate.get("legislative", {})
@@ -311,6 +316,7 @@ def background_profile(candidate, inputs):
         and record.get("fields")
     ]
     return {
+        "reviewed_candidate_profiles": matched_profiles(candidate, inputs),
         "official_candidate_profiles": profiles,
         "official_member_profiles": [
             profile
@@ -368,6 +374,21 @@ def background_observations(candidates, facts):
         )
     for candidate in candidates:
         background = candidate["background"]
+        for profile in background.get("reviewed_candidate_profiles", []):
+            for field, value in sorted(profile["fields"].items()):
+                append(
+                    candidate,
+                    field,
+                    value,
+                    profile["source_kind"],
+                    None,
+                    profile["evidence"]["retrieved_at"],
+                    {
+                        **profile["evidence"],
+                        "supporting_fragments": profile["support"][field],
+                    },
+                    profile["qualification"],
+                )
         for profile in background.get("official_member_profiles", []):
             for field, value in profile["fields"].items():
                 append(

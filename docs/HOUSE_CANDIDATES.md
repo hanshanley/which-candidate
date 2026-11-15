@@ -25,19 +25,21 @@ Current source-qualified coverage:
 | Historical CampaignView biography records | 87 | 34 | 53 | 0 |
 | Historical campaign-site factual extractions | 184 | 95 | 89 | 0 |
 | Official candidate-supplied voter-guide profiles | 30 | 11 | 8 | 11 |
+| Newly reviewed campaign/previous-office profiles | 66 | 34 | 31 | 1 |
 | Dated Pew/CQ religion observations | 352 | 179 | 172 | 1 |
 | Member-authorized or official member backgrounds | 362 | 184 | 177 | 1 |
 | Positive House Historian identifications | 101 | 89 | 12 | 0 |
-| Any downloadable background observations | 617 | 330 | 272 | 15 |
+| Any downloadable background observations | 683 | 364 | 303 | 16 |
 | Name-qualified historical donor scores | 370 | 192 | 178 | 0 |
 | Prior federal voting scores | 293 | 149 | 143 | 1 |
 
-Rows overlap and must not be added. **667 candidates still lack downloadable
+Rows overlap and must not be added. **601 candidates still lack downloadable
 background observations.** An observation can be historical, machine-extracted,
 candidate-supplied or an explicit unknown questionnaire response; it is not a
-complete verified biography. One candidate's current campaign facts were captured
-only after Election Day; those observations are retained but are not pre-election
-features. Native "Write-In" records remain in the other-party denominator even
+complete verified biography. One legacy campaign-corpus record and the separately
+reviewed biographies were captured after Election Day; those observations are
+retained but are not pre-election features. Native "Write-In" records remain
+in the other-party denominator even
 when their dated FEC registration or campaign corpus records a major party.
 
 ### Correction to the previous inventory
@@ -55,7 +57,7 @@ The held historical search contains 244 CampaignView profiles; only 87 candidate
 have a currently qualified nonempty biography from 2024 or earlier. Historical
 issue headings, years, lengths and hashes are supplied, not copyrighted campaign
 text. These pointers do not count as downloadable factual background in the
-617-person denominator unless another source actually supplies observations.
+683-person denominator unless another source actually supplies observations.
 
 `results/house/candidates.csv` is the readable candidate-level table.
 `candidates.jsonl.gz` adds every match decision, source row, campaign URL,
@@ -67,7 +69,8 @@ local roots, including separately flagged historical election years.
 keys, source years, observation dates, page/record references and qualifications
 in a readable long table. Repeated years and sources are not independent people.
 Captures on or after November 3 are not pre-election features.
-Raw evidence quotations and entire campaign pages are not redistributed.
+Entire campaign pages are not redistributed. Reviewed fields include short
+supporting fragments alongside factual paraphrases and source receipts.
 
 `all-choices.jsonl.gz` retains the full native roster, including aggregate
 choices and unverified provider flags. `missing-information.csv` keeps every
@@ -98,7 +101,7 @@ The follow-up acquired Utah's complete **118-page official pamphlet** and its
 amended candidate certification. It adds 14 usable structured profiles, including
 11 previously uncovered candidates, and 66 observations. Party and district are
 checked against the certification before joining a guide profile to a candidate.
-The current long table contains **27,875 observations for 617 candidates**.
+The Utah-stage long table contained **27,875 observations for 617 candidates**.
 Utah contributes occupation, city of residence, literal years-of-residence
 responses, reported age and campaign websites, not inferred religion or ideology.
 Reported age is not converted into age at Election Day; years of residence are
@@ -118,6 +121,44 @@ Ballotpedia's bulk request returned an empty HTTP 202 response. The public
 Wikidata query endpoint returned HTTP 403. Neither was bypassed, acquired as a
 usable candidate database, or counted as background evidence. Source receipts
 record actual successes and failures rather than treating a catalog as data.
+
+### November 15 campaign and previous-office acquisition
+
+The follow-up attempted all 117 uncovered candidates with held campaign URLs,
+then acquired independently located biographies for Clyde Jones, Scott Wiener
+and Hilda Solis. Its 131 unique original HTML snapshots are pinned locally;
+downloads, errors and redirects are retained in `data/candidate-acquisition.json`.
+An HTTP 200 response is not proof of a usable biography or the correct subject:
+one Luke Bronin URL redirected to a restaurant, and several pages were empty,
+script-only or nonbiographical. None of those pages was promoted to evidence.
+
+`data/candidate-reviewed-backgrounds.json` supplies **122 anchored fields for
+66 candidates**, including 34 Democrats, 31 Republicans and one listed write-in.
+These are new acquisitions, not imported vendor catalogs. Fifty of those
+candidates lacked a held education/career/service summary; 16 already had a
+member/incoming summary but no long-table observations. Those 16 are not claimed
+as people for whom the project previously knew nothing.
+
+Each accepted field has supporting fragments, a source hash and retrieval time.
+Cache reconstruction verifies the original bytes and anchors; the normalized
+inputs make the public replay independent of live websites and local originals.
+The strict join checks candidate ID, contest ID, name, state, district and party.
+Campaign credentials remain self-reported, separately labeled from biographies
+published by an office. Attendance and enrollment are not completed degrees.
+Family members' military service, service as a diplomat, and attendance at a
+military academy do not establish the candidate's military service.
+
+The current long table contains **27,997 observations for 683 candidates**.
+The remaining 601 gaps include 85 Democrats, 130 Republicans and 386 candidates
+listed under other parties or write-ins. These are long-table coverage gaps,
+not proof that no public information exists. All newly reviewed records are
+post-election acquisitions with unverified publication dates; they remain
+descriptive/model-ineligible and do not enlarge any frozen model sample.
+
+Optional new acquisition uses `python -m which_candidate.candidate_acquisition`;
+the held campaign URLs and explicit `data/candidate-source-leads.json` drive it.
+Previously attempted URLs are not silently retried. Reproducible research uses
+the normalized inputs, not this live acquisition command.
 
 ## Full House membership and incoming members
 

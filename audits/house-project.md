@@ -49,7 +49,8 @@ not redeployed.
 A second audit found that acquired evidence was not fully connected to the
 browser: losing candidates could have factual values in the long table while
 profiles showed only extracted field names. The browser now exposes every one
-of the 27,875 observations on its exact candidate/contest, including actual
+of the 27,875 observations available at that release on its exact
+candidate/contest, including actual
 values, observation dates, qualification, model eligibility and available
 original/archive receipts. Search includes those values and individual evidence
 downloads retain the receipts. This is repaired access to existing acquisition,
@@ -75,6 +76,33 @@ The new figure uses share-point error gains, not doubled margin-point
 coefficients. The existing nine figures remain byte-identical. The result is
 limited added predictive information in these selected samples, not proof that
 candidate characteristics never matter or a forward forecast.
+
+## Candidate acquisition continuation
+
+A verified analysis/publication milestone did not finish candidate research.
+The November 15 continuation attempted 117 uncovered candidates with held
+campaign URLs and three independently located campaign/previous-office sources.
+It pins 131 distinct HTML originals and preserves every retrieval outcome.
+Successful downloads are not automatically background coverage.
+
+Reviewed facts add 122 observations for 66 previously uncovered long-table
+candidates: 34 Democrats, 31 Republicans and one listed write-in. Fifty lacked
+held education/career/service summaries; 16 already had member/incoming summaries
+and are not counted as people with wholly new information. The resulting long
+table contains 27,997 observations for 683 people; 601 remain uncovered,
+including 85 Democrats and 130 Republicans.
+
+Supporting fragments are checked against exact original hashes. The join rejects
+candidate/contest/name/state/district/party conflicts. Alternate URLs returning
+identical bytes retain their separate retrieval receipts. A restaurant redirect
+is excluded, parental/spousal military service is not assigned to a candidate,
+and Foreign Service work is not military service. Degree completion is not
+inferred from attendance, enrollment or an unspecified credential.
+
+The added records are descriptive, retrieved after the election, with unknown
+publication dates. They do not alter the fixed model samples or research
+snapshots. This is measured acquisition progress, not universal biography
+completion; access failures and remaining gaps are retained.
 
 ## Incoming biography source audit
 

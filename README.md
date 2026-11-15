@@ -35,7 +35,7 @@ improvement.** The joint five-trait incumbent model changes held-out MAE from
 candidate ranking. All paired predictions, folds, full-pipeline state deletions
 and selection diagnostics are downloadable.
 
-Profiles expose the **27,875 acquired observations for 617 candidates**, including
+Profiles expose the **27,997 acquired observations for 683 candidates**, including
 losing candidates, with actual values, dates, source receipts and qualifications.
 Search includes these values; individual evidence CSVs preserve their review
 status. This repairs a display omission, not a new acquisition or a claim that
@@ -65,9 +65,10 @@ coverage and unresolved fields. All current figures are House-only. Older
 House/Senate analysis snapshots remain unchanged for provenance.
 
 The readable [background observations](results/house/background-observations.csv)
-contain factual/source-reported fields for **617 candidates**, not all 1,284.
+contain factual/source-reported fields for **683 candidates**, not all 1,284.
 They include dated religion records and newly acquired official voter-guide
-profiles. **667 candidates still lack these observations.** A null-ID matching
+profiles and anchored campaign/previous-office biographies. **601 candidates still
+lack these observations**, including 85 Democrats and 130 Republicans. A null-ID matching
 bug that assigned 42 unrelated historical biographies has been corrected; the
 audit documents the withdrawn counts and remaining coverage gaps.
 

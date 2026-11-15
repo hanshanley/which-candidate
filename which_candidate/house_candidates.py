@@ -593,6 +593,9 @@ def coverage(candidates):
                 "official_candidate_profile": sum(
                     bool(r["background"]["official_candidate_profiles"]) for r in rows
                 ),
+                "reviewed_candidate_profile": sum(
+                    bool(r["background"].get("reviewed_candidate_profiles")) for r in rows
+                ),
                 "dated_religion_observations": sum(
                     bool(r["background"]["dated_religion_observations"]) for r in rows
                 ),
@@ -614,6 +617,7 @@ def coverage(candidates):
                         or r["background"]["official_candidate_profiles"]
                         or r["background"]["member_authorized_biographies"]
                         or r["background"].get("official_member_profiles")
+                        or r["background"].get("reviewed_candidate_profiles")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )
@@ -626,6 +630,7 @@ def coverage(candidates):
                         or r["background"]["official_candidate_profiles"]
                         or r["background"]["member_authorized_biographies"]
                         or r["background"].get("official_member_profiles")
+                        or r["background"].get("reviewed_candidate_profiles")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )
@@ -698,6 +703,9 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
                 "biography_fields": ";".join(r["pre_election_biography_fields"]),
                 "historical_campaign_fields": ";".join(r["historical_campaign_fields"]),
                 "official_profile_records": len(r["background"]["official_candidate_profiles"]),
+                "reviewed_candidate_profile_records": len(
+                    r["background"].get("reviewed_candidate_profiles", [])
+                ),
                 "dated_religion_observations": len(r["background"]["dated_religion_observations"]),
                 "member_authorized_biography_records": len(
                     r["background"]["member_authorized_biographies"]

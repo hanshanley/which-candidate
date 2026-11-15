@@ -28,24 +28,25 @@
     "dated_religion_observations": 352,
     "member_authorized_background_records": 362,
     "positive_house_historian_identifications": 101,
-    "candidates_with_downloadable_background_observations": 617,
-    "candidates_without_downloadable_background_observations": 667,
-    "downloadable_background_observation_rows": 27875,
+    "candidates_with_downloadable_background_observations": 683,
+    "candidates_without_downloadable_background_observations": 601,
+    "downloadable_background_observation_rows": 27997,
+    "reviewed_campaign_or_previous_office_profiles": 66,
     "name_qualified_historical_donor_scores": 370,
     "prior_federal_voting_scores": 293,
     "historical_profiles_acquired_or_verified": 244,
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 263,
-    "extracted_download_tests_passed": 257,
+    "checkout_tests_passed": 276,
+    "extracted_download_tests_passed": 270,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 79,
+    "ruff_format_files": 82,
     "validation_scratch_storage": "Disk-backed temporary directories; checkout and extracted suites passed with automatic scratch cleanup.",
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
@@ -61,13 +62,13 @@
     "zip_crc_checks": "passed",
     "zip_member_names_unique": true,
     "embedded_query_zip_matches_standalone": true,
-    "complete_query_zip_members": 315,
+    "complete_query_zip_members": 321,
     "substack_zip_members": 34,
     "repository_and_personal_chart_skills_match": true,
-    "article_and_mobile_visual_review": "Earlier nine-figure review retained; all 45 existing plot exports are unchanged. New predictive-value figure inspected from final source-hashed 1200px and 390px previews without clipping or overlap; detailed chart labels require enlargement on phones.",
+    "article_and_mobile_visual_review": "The evidence-coverage figure reflects acquired candidate biographies; the other nine figures are unchanged. All ten images decode offline at desktop and phone widths without horizontal overflow. Prior predictive-value figure review retained; detailed chart labels require enlargement on phones.",
     "new_chart_png_sha256": "79200aeb00dc0e49cac1b949f030b4ff571227dc7aba1eb8327c9f05f1e91a26",
     "offline_report_browser": {
-      "report_sha256": "a901ddbb6fd771ed6473440e28d99de12b23ed2c439b94cb7e4b79494cac2a26",
+      "report_sha256": "e466de14b9972d1b565f9d8466cfa2ca6ec800098120501a9d5cd092f9633b3a",
       "viewports": [1280, 390, 320],
       "images_decoded": 10,
       "dataset_row_counts": [1284, 435, 435],
@@ -77,6 +78,7 @@
       "external_requests": [],
       "search_pagination_empty_states_and_source_links": "passed",
       "losing_candidate_evidence_values_search_receipts_and_csv": "passed",
+      "newly_acquired_Clyde_Jones_education_search_receipts_and_csv": "passed at all three widths",
       "expanded_source_receipts_without_mobile_overflow": true,
       "csv_probe_field_limit": "Raised the Python verification parser limit to read complete long-form evidence cells; no evidence was dropped or truncated.",
       "without_javascript": "Findings and all ten figures readable; interactive profile browsing requires JavaScript."
@@ -86,12 +88,12 @@
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 69907346,
-      "sha256": "7adb7e5b6c7a3a7a78df826282f54fd7f0f1cf3f120cfa2d08674eac87aefb65"
+      "bytes": 70094741,
+      "sha256": "d7a6cae6d472c9997fda318410945c9835db54ab68c139ab2c4c3048b5351ea8"
     },
     "substack-figures.zip": {
-      "bytes": 75401620,
-      "sha256": "ace1d8eec6286dea0b4880d9079ba376b427e4bdfb9f587f7fcad9f644d60542"
+      "bytes": 75615697,
+      "sha256": "00bb7efe796c3b4f115cddc6600c8848fead9ab62eddc59e4ef188ac06b554ad"
     }
   },
   "identity_correction": {
@@ -157,10 +159,10 @@
   },
   "remaining_limitations": [
     "Provider returns are a provisional November 12-13 snapshot, not certified results or a ballot-access census.",
-    "A complete roster is not complete background coverage: 667 candidates lack downloadable observations; only 15 other-party candidates have them.",
+    "A complete roster is not complete background coverage: 601 candidates lack downloadable observations; only 16 other-party candidates have them.",
     "Machine-extracted biography facts require subject verification and remain model-ineligible.",
     "Dated religion responses and official positive identity classifications are retained as observations, not current verified identity labels; no identities are inferred.",
-    "One current campaign record was captured only after Election Day and cannot supply pre-election features.",
+    "One legacy campaign-corpus record and the separately reviewed biographies were captured after Election Day and cannot supply pre-election features.",
     "Individual voter-guide publication dates remain unverified; candidate-supplied fields are not independently verified.",
     "Historical donor scores and 2023-2024 voting records are not current campaign ideology.",
     "The full sitting House roster has a November 3 Clerk date; it is not represented as a live November 14 population.",
@@ -210,8 +212,37 @@
     "joint_incumbent_record_candidates": 131,
     "joint_baseline_mae_share_pp": 2.72220111243684,
     "joint_augmented_mae_share_pp": 2.8810610007763398,
-    "acquired_observations_attached_to_exact_candidate_contest": 27875,
-    "candidates_with_attached_acquired_observations": 617,
+    "acquired_observations_attached_to_exact_candidate_contest": 27997,
+    "candidates_with_attached_acquired_observations": 683,
     "unreviewed_observations_promoted_to_models": false
+  },
+  "candidate_acquisition_continuation": {
+    "attempted_candidates": 120,
+    "distinct_original_html_receipts": 131,
+    "accepted_candidate_profiles": 66,
+    "accepted_fields": 122,
+    "accepted_candidates_with_native_winner_flag": 16,
+    "accepted_candidates_without_native_winner_flag": 50,
+    "absent_native_winner_flag_is_not_certified_loss": true,
+    "new_long_table_candidates_by_listed_party": {
+      "Democratic": 34,
+      "Republican": 31,
+      "Write-In": 1
+    },
+    "without_previous_held_education_career_service_summaries": 50,
+    "with_existing_member_or_incoming_summaries": 16,
+    "remaining_long_table_gaps": 601,
+    "remaining_democrats": 85,
+    "remaining_republicans": 130,
+    "remaining_other_parties": 386,
+    "original_hashes_and_supporting_fragments_checked": true,
+    "strict_candidate_contest_name_state_district_party_join": true,
+    "unrelated_restaurant_redirect_excluded": true,
+    "parental_spousal_service_not_assigned_to_candidates": true,
+    "publication_dates": "unknown; retrieval dates retained",
+    "new_evidence_model_ready": false,
+    "frozen_result_and_predictive_files_checked_unchanged": 114,
+    "acquisition_manifest": "data/candidate-acquisition.json",
+    "reviewed_fields": "data/candidate-reviewed-backgrounds.json"
   }
 }
