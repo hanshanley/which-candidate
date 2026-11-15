@@ -483,6 +483,15 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         assert "results/house-study/research-dispositions.csv" in archive.namelist()
         assert "results/house-study/background-field-coverage.csv" in archive.namelist()
         assert (
+            archive.read("data/participation-source-inputs.json")
+            == (ROOT / "data/participation-source-inputs.json").read_bytes()
+        )
+        assert "docs/PARTICIPATION_CONTEXT.md" in archive.namelist()
+        assert "audits/participation-intake.json" in archive.namelist()
+        assert "results/participation/aggregate-observations.jsonl.gz" in archive.namelist()
+        assert "results/participation/house-source-results.csv" in archive.namelist()
+        assert "results/participation/state-context.jsonl.gz" in archive.namelist()
+        assert (
             archive.read("data/candidate-research-dispositions.json")
             == (ROOT / "data/candidate-research-dispositions.json").read_bytes()
         )

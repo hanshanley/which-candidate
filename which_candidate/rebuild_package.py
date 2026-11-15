@@ -22,8 +22,17 @@ def build(root=ROOT, output=None):
             "results/members",
             "results/house-study",
             "publication",
+            *(
+                ("results/participation",)
+                if (root / "data/participation-source-inputs.json").exists()
+                else ()
+            ),
         )
     }
+    if "results/participation" in manifests:
+        for name, receipt in manifests["results/participation"]["inputs"].items():
+            if fingerprint(root / name) != receipt:
+                raise ValueError(f"Stale participation package input: {name}")
     for folder, manifest in manifests.items():
         for name, receipt in manifest["files"].items():
             if fingerprint(root / folder / name) != receipt:
@@ -69,6 +78,11 @@ def build(root=ROOT, output=None):
         "audits/house-project.md",
         "audits/candidate-research.json",
         "audits/candidate-discovery-repair.json",
+        *(
+            ("audits/participation-intake.json",)
+            if (root / "data/participation-source-inputs.json").exists()
+            else ()
+        ),
     ):
         entries[name] = root / name
     names = ("complete-queries.zip", "substack-figures.zip")

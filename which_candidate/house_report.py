@@ -82,6 +82,7 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding-top:20px}code{fo
 SCRIPT = """
 const electionRows=JSON.parse(document.getElementById('candidate-data').textContent);
 const memberRows=JSON.parse(document.getElementById('member-data').textContent);
+const participationStates=new Map(JSON.parse(document.getElementById('participation-data').textContent).map(r=>[r.state_context_id,r]));
 const $=id=>document.getElementById(id);
 function memberProfile(r){return {...r,name:r.name||'Vacant seat',candidate_id:r.candidate_id||null,
  current_House_member:r.congress==='119'?Boolean(r.bioguide_id):Boolean(r.current_seat_id),
@@ -132,6 +133,26 @@ function showEvidence(box,row){
   table.append(body);wrap.append(table);detail.append(wrap);box.append(detail);
  }
 }
+function showParticipation(box,row){
+ const context=row.participation_source_context;if(!context)return;
+ box.append(el('h3','Participation source context — not candidate background'));
+ box.append(el('p',context.qualification));
+ const state=participationStates.get(context.state_context_id);
+ if(state){
+  box.append(el('p',context.statewide_observations+' statewide observations; '+context.regional_observations+' separate regional rows; '+context.demographic_observations+' aggregate demographic cells. Retained snapshots have different dates. No regional counts have been assigned to this district.'));
+  const detail=el('details');detail.append(el('summary','Statewide count values, definitions and source receipts'));
+  for(const observation of state.statewide_observations){
+   detail.append(el('p',pretty(observation.mode||observation.source_section)+': '+pretty(observation.reported_count)+' source-reported; source date '+pretty(observation.source_date)+'; count-update label '+pretty(observation.source_update_label)));
+   const receipt=el('details');receipt.append(el('summary','Count definition and receipt'),el('pre',JSON.stringify(observation,null,2)));detail.append(receipt);
+  }box.append(detail);
+  if(state.demographic_observations.length){const groups=el('details');groups.append(el('summary','Aggregate demographic cells — not this candidate or district'),el('pre',JSON.stringify(state.demographic_observations,null,2)));box.append(groups)}
+  const decision=el('details');decision.append(el('summary','State intake decision — not a common count date'),el('pre',JSON.stringify(state.source_intake_decision,null,2)));box.append(decision);
+ }
+ if(context.house_source_results.length){
+  const results=el('details');results.append(el('summary','Supplementary House source snapshots — frozen votes unchanged'),el('p','Different snapshots and RCV rounds are not additive or vote transfers. Raw differences are not comparable electoral swings.'),el('pre',JSON.stringify(context.house_source_results,null,2)));box.append(results);
+ }
+ const links=el('ul');for(const url of urls([state?.statewide_observations,state?.demographic_observations,context.house_source_results])){const a=el('a',url);a.href=url;a.rel='noreferrer';const li=el('li');li.append(a);links.append(li)}box.append(links);
+}
 function showProfile(row){
  const box=$('profile');box.replaceChildren(el('h3',row.name+' · '+row.state+'-'+row.district));
  const fields=[
@@ -153,6 +174,7 @@ function showProfile(row){
  for(const [label,value]of fields){const p=el('p');p.append(el('strong',label+': '),document.createTextNode(pretty(value)));box.append(p)}
  box.append(el('p','Newly attached backgrounds remain descriptive and have not been added to the trait models. Unknowns are not negative labels. A provisional winner flag is not certification.'));
  showEvidence(box,row);
+ showParticipation(box,row);
  if(row.background_research){const research=el('details');research.append(el('summary','Research receipts and access outcomes'),el('pre',JSON.stringify(row.background_research,null,2)));box.append(research)}
  if(row.background_discovery_repair?.gap_review){const review=el('details');review.append(el('summary','Reviewed-gap source receipts'),el('pre',JSON.stringify(row.background_discovery_repair.gap_review,null,2)));box.append(review)}
  if(row.background_discovery_repair?.roster_identity_review){const review=el('details');review.append(el('summary','Unresolved write-in identity: preserved roster receipt'),el('pre',JSON.stringify(row.background_discovery_repair.roster_identity_review,null,2)));box.append(review)}
@@ -182,14 +204,14 @@ for(const id of ['search','state','party','scope'])$(id).addEventListener('input
 $('dataset').addEventListener('input',()=>{rows=datasets[$('dataset').value];for(const id of ['search','state','party','scope'])$(id).value='';filter();$('profile').replaceChildren(el('p','Select a name to read the profile.'))});
 $('previous').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});
 $('download').addEventListener('click',()=>{
- const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_discovery_repair','background_model_ready'];
+ const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_discovery_repair','participation_source_context','background_model_ready'];
  downloadCSV(filtered,keys,'house-candidate-profiles.csv');
 });
 render();
 """
 
 
-def render(markdown, profiles, charts, members=None):
+def render(markdown, profiles, charts, members=None, participation=None):
     figures = []
     for chart in charts:
         name = f"substack/{chart['id']}.png"
@@ -204,6 +226,9 @@ def render(markdown, profiles, charts, members=None):
     payload = json.dumps(profiles, ensure_ascii=True, separators=(",", ":")).replace("<", "\\u003c")
     member_payload = json.dumps(
         members or {"current": [], "incoming": []}, ensure_ascii=True, separators=(",", ":")
+    ).replace("<", "\\u003c")
+    participation_payload = json.dumps(
+        participation or [], ensure_ascii=True, separators=(",", ":")
     ).replace("<", "\\u003c")
     return (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
@@ -255,5 +280,6 @@ def render(markdown, profiles, charts, members=None):
         "Missing evidence is never a negative trait label.</p></footer>"
         f'<script id="candidate-data" type="application/json">{payload}</script>'
         f'<script id="member-data" type="application/json">{member_payload}</script>'
+        f'<script id="participation-data" type="application/json">{participation_payload}</script>'
         f"<script>{SCRIPT}</script></main></body></html>\n"
     )

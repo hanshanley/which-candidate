@@ -1,0 +1,69 @@
+{
+  "schema": "which_candidate.participation_intake_audit.v1",
+  "source_packet": "data/participation-source-inputs.json",
+  "summary": "results/participation/summary.json",
+  "source_checkout_dirty": true,
+  "source_revision": "792e3d91609f7ee929c35b5ec15c13710db94be8",
+  "imported_at": "2026-11-15T23:34:04.768255+00:00",
+  "input_packet_pin": {
+    "sha256": "232bbf7121a03725f9fc8505f0417d9642be5586dea654d978fe5c821f2b6656",
+    "bytes": 3334875
+  },
+  "aggregate_observations": 6596,
+  "jurisdictions_with_aggregate_observations": 48,
+  "state_coverage_decisions": 51,
+  "house_result_category_snapshot_observations": 23,
+  "house_districts": 4,
+  "matched_house_observations": 16,
+  "matched_candidate_records": 12,
+  "nonperson_or_unassigned_categories": 7,
+  "new_background_observations": 0,
+  "newly_covered_candidate_records": 0,
+  "background_coverage": {
+    "named_candidate_records": 1284,
+    "covered": 1156,
+    "uncovered": 128,
+    "missing_fields": {
+      "education": 338,
+      "professional_history": 219,
+      "prior_office": 897,
+      "military_service": 1086
+    }
+  },
+  "qualification": "Normalized public source facts, not a new publisher extraction or simultaneous fresh count. Aggregate modes, regions, groups and snapshots are not additive. No district turnout or individual voting behavior is inferred. Frozen analyses and background accounting are preserved.",
+  "website_deployed": false,
+  "validation": {
+    "status": "verified",
+    "pytest_passed": 346,
+    "ruff_lint": "passed",
+    "ruff_formatting": "passed",
+    "ruff_formatted_files": 89,
+    "analysis_baseline": "6aeaa145a56945aa42a34ba55ac004e96bdf4024",
+    "frozen_analysis_files_unchanged": 117,
+    "figure_and_plot_data_files_unchanged": 50,
+    "selected_sibling_source_files_unchanged_since_import": 6,
+    "report_sha256": "776a632f1a47735bfbf7147d89afe09a4c547778cdc12c48c0d9792c1a09345d",
+    "browser": {
+      "widths_px": [1280, 390, 320],
+      "decoded_figures_per_viewport": 10,
+      "horizontal_overflow": false,
+      "page_errors": [],
+      "external_requests": [],
+      "statewide_values_and_receipts_visible": true,
+      "maine_rcv_snapshots_distinct_and_frozen_votes_unchanged": true,
+      "participation_context_exported_in_filtered_csv": true,
+      "without_javascript_findings_and_ten_figures": true
+    },
+    "extracted_replay": {
+      "network_disabled": true,
+      "historical_raw_cache_absent": true,
+      "sibling_checkout_absent": true,
+      "byte_identical_generated_outputs": 112,
+      "byte_identical_complete_query_repack": true,
+      "normalized_existing_background_profiles_preserved": true
+    },
+    "both_downloads_contain_complete_queries": true,
+    "figure_download_embeds_exact_complete_query_archive": true,
+    "download_pins": "downloads/downloads.json"
+  }
+}

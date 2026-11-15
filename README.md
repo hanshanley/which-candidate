@@ -46,6 +46,17 @@ different counts, not complete biographies. The frozen original 601-person
 ledger and separate 701-person discovery/field-gap repair queue preserve the
 old attempts and distinguish sourced facts, reviewed gaps and inadequate searches.
 
+The [participation supplement](docs/PARTICIPATION_CONTEXT.md) imports **6,596
+source-defined aggregate observations across 48 jurisdictions**, plus 51
+coverage decisions and 23 House result-category/snapshot records across four
+districts. Sixteen result observations link to 12 existing candidate records.
+The browser shows statewide counts, definitions, source dates, receipts and
+separately labeled Maine RCV snapshots. These are **not new biographies or
+district turnout**; background coverage, frozen outcomes and all trait models
+are unchanged. The source vintages differ: the November 15 import is not a
+fresh simultaneous collection. Complete normalized inputs and queries are in
+both downloads; replay does not require the sibling project.
+
 Rebuild the complete current project from pinned normalized inputs:
 
 ```bash

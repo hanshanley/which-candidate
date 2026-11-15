@@ -771,6 +771,11 @@ def _build(root, output):
                 "current": csv_rows(root / "results/members/house-119-seats.csv"),
                 "incoming": csv_rows(root / "results/members/house-120-seats.csv"),
             },
+            (
+                read_rows(root / "results/participation/state-context.jsonl.gz")
+                if (root / "results/participation/manifest.json").exists()
+                else []
+            ),
         )
     )
     write_json(
@@ -790,6 +795,11 @@ def _build(root, output):
                     "results/2026-v4/manifest.json",
                     "results/house/manifest.json",
                     "results/house-study/manifest.json",
+                    *(
+                        ("results/participation/manifest.json",)
+                        if (root / "results/participation/manifest.json").exists()
+                        else ()
+                    ),
                 )
             },
             "files": {

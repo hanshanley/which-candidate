@@ -233,6 +233,42 @@ The source registries and full normalized queries are included in both downloads
 This fixes discovery accountability, not the remaining evidence gaps. All new
 facts stay retrospective/model-ineligible; no website deployment is authorized.
 
+## Participation source intake
+
+The November 15 supplement pins six selected normalized public inputs from the
+dirty sibling `voter-participation` checkout, without modifying that worktree.
+Per-file hashes, not its older HEAD, identify the actual imported content.
+It adds 6,596 source-defined aggregate observations across 48 jurisdictions,
+51 coverage decisions, and 23 House source-category/snapshot observations across
+four districts. Sixteen result observations link to 12 existing candidate
+records; seven nonperson/unassigned categories do not. This is zero additional
+biography coverage, not 12 newly covered candidates.
+
+Statewide, regional and aggregate demographic rows retain their native
+definitions, timestamps, URLs, source receipts and normalized-input pointers.
+The browser exposes these separately from candidate evidence and exports
+their context IDs and matched House snapshots. Hawaii/Wyoming confirm pinned
+counts; Maine's initial, provider and later RCV counts are not conflated.
+Unknown final other/blank categories remain null. Source-reported counts are
+not automatically unique voters, and regions are not mapped to districts.
+Modes, snapshots, levels and groups are not additive.
+
+Ordinary rebuilds read the pinned packet, not the sibling checkout or ignored
+historical raw cache. Both complete downloads include it, all context outputs,
+code and tests. The [intake documentation](../docs/PARTICIPATION_CONTEXT.md)
+describes the supported explicit refresh and normalized-fact replay boundary.
+The new receipt is `audits/participation-intake.json`; the earlier discovery
+repair's release-validation hashes describe commit `6aeaa14`, not a claim that
+its older browser report hash identifies this supplemented report.
+
+Verification passed 346 tests, Ruff lint and formatting for 89 files, and
+offline browser checks at 1280, 390 and 320 pixels plus readable no-JavaScript
+findings and ten figures. All 117 pinned analysis files and 50 figure/plotted-data
+files remain byte-identical. An extracted complete download, with networking
+denied and neither historical raw cache nor sibling checkout, reproduced 112
+generated files and the complete-query ZIP byte-for-byte. The figure package
+embeds that exact full-query archive. No website deployment was performed.
+
 ## Validation contract
 
 Focused tests check independent one-percentage-point defection contrasts,

@@ -6,6 +6,7 @@ from . import (
     house_candidates,
     house_members,
     house_study,
+    participation_context,
     rebuild,
     rebuild_package,
     rebuild_publication,
@@ -16,6 +17,7 @@ def build():
     rebuild.replay()
     house_candidates.build()
     house_members.build()
+    participation_context.build()
     summary = house_study.build()
     rebuild_publication.build()
     downloads = rebuild_package.build()

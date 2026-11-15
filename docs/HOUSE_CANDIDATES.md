@@ -42,6 +42,24 @@ retained but are not pre-election features. Native "Write-In" records remain
 in the other-party denominator even
 when their dated FEC registration or campaign corpus records a major party.
 
+### Participation context is not candidate background
+
+The local candidate browser separately exposes the source-pinned
+[voter-participation supplement](PARTICIPATION_CONTEXT.md): 6,596 aggregate
+observations in 48 jurisdictions and 51 coverage decisions. Official
+Hawaii/Wyoming candidate counts confirm existing values; three Maine snapshots
+retain initial, frozen-provider and later RCV major-party counts separately.
+There are 23 result-category/snapshot records across four districts, including
+seven nonperson/unassigned categories. Sixteen observations link to 12 named
+candidate records, not 12 newly covered biographies. Missing final categories
+remain unknown.
+
+Statewide observations and source-region counts are not allocated to districts.
+Demographic cells do not describe the candidate or establish individual voting
+behavior. Different modes, geographic levels, groups and snapshots are not
+additive. All records remain model-ineligible, leaving the 1,156 covered / 128
+uncovered background accounting and all field-gap counts unchanged.
+
 ### Correction to the previous inventory
 
 The previous join allowed missing target FEC IDs to match missing source IDs.

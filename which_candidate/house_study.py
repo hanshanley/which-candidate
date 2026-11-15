@@ -16,6 +16,7 @@ from .house_validation import (
     selection_diagnostics,
 )
 from .models import PRIMARY, available, matrix
+from .participation_context import attach as attach_participation_context
 from .pipeline import csv_bytes
 from .rebuild import ROOT, checked_fit
 from .storage import fingerprint, read_rows, write_json, write_rows
@@ -571,6 +572,26 @@ def render_report(summary, fits, donors, measurements):
                 else ""
             ),
             "",
+            (
+                "The voter-participation supplement adds "
+                f"**{summary['participation_source_intake']['aggregate_observations']:,} "
+                "source-defined aggregate observations** and "
+                f"{summary['participation_source_intake']['house_result_observations']} "
+                "House source-category/snapshot records across "
+                f"{summary['participation_source_intake']['house_districts']} districts. "
+                "Statewide counts, regional early/mail rows and aggregate demographic "
+                "cells retain their different source dates, definitions and receipts. "
+                "Hawaii and Wyoming confirm pinned candidate counts; Maine's later "
+                "RCV counts remain separate from the frozen provider snapshot. "
+                "Unreported final categories remain unknown. These are not candidate "
+                "backgrounds, district turnout, unique people or voter transfers. "
+                "The local browser and `results/participation/` expose the context; "
+                "no frozen outcome, analysis sample, trait input or biography-gap "
+                "count changes."
+                if summary.get("participation_source_intake")
+                else ""
+            ),
+            "",
             "## What remains unresolved",
             "",
             "Counts are the pinned November 12-13 provisional provider snapshot, not "
@@ -627,6 +648,7 @@ def build(root=ROOT, output=None):
     )
     research = attach_dispositions(root, profiles)
     repair = attach_repair(root, profiles)
+    participation = attach_participation_context(root, profiles)
     predictive, paired_predictions, paired_folds, deletions = predictive_comparisons(panel)
     selection = selection_diagnostics(
         panel,
@@ -661,6 +683,7 @@ def build(root=ROOT, output=None):
         "candidates_with_acquired_observations": len(evidence),
         "candidate_background_research": research,
         "candidate_discovery_repair": repair,
+        "participation_source_intake": participation,
         "new_background_fields_used_in_models": False,
         "frozen_analysis_outputs_changed": False,
         "website_publication": "withdrawn",
@@ -767,9 +790,19 @@ def build(root=ROOT, output=None):
                     for name in (
                         "data/candidate-discovery-repair.json",
                         "data/candidate-discovery-baseline.json",
+                        "data/participation-source-inputs.json",
                     )
                     if (root / name).exists()
                 },
+                **(
+                    {
+                        "results/participation/manifest.json": fingerprint(
+                            root / "results/participation/manifest.json"
+                        )
+                    }
+                    if participation
+                    else {}
+                ),
                 **{
                     f"{directory}/manifest.json": fingerprint(root / directory / "manifest.json")
                     for directory in ("results/2026-v4", "results/house", "results/members")
