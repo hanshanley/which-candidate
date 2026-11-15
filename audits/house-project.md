@@ -36,13 +36,45 @@ presidential-baseline MAE is 7.48 share points and state-held-out MAE is 2.56;
 signed held-out bias is +0.02. This measures within-cycle adjustment, not forward
 forecast skill. Residuals are not causal candidate effects or exact WAR.
 
-`publication/report.html` connects the findings, nine figures and source-linked
+`publication/report.html` connects the findings, ten figures and source-linked
 profile browsing. It includes all election candidates, all 435 sitting seats
 and all 435 provisional incoming seats, including vacancies and unresolved
 seats. Filtering, pagination and CSV export work locally. There are no external
 script/font dependencies, and input text is escaped rather than executed.
 The report is bundled with both complete downloads; the withdrawn website is
 not redeployed.
+
+## Substantive completion follow-up
+
+A second audit found that acquired evidence was not fully connected to the
+browser: losing candidates could have factual values in the long table while
+profiles showed only extracted field names. The browser now exposes every one
+of the 27,875 observations on its exact candidate/contest, including actual
+values, observation dates, qualification, model eligibility and available
+original/archive receipts. Search includes those values and individual evidence
+downloads retain the receipts. This is repaired access to existing acquisition,
+not inflated coverage or promotion of unreviewed facts.
+
+Association models also did not establish incremental predictive value.
+An amendment fixed eight comparisons before their results were examined.
+Both models use identical complete-case training/test cohorts, exclude held
+states and repeated held-out people, and pass design-support checks. Intervals
+rerun the entire paired pipeline after removing each state. Rank loss or missing
+folds suppress intervals instead of supplying zero gains.
+
+None of the eight pointwise intervals lies wholly above zero improvement.
+Adding D/R incumbency lowers MAE by 0.076 share points on 349 candidates;
+prior voting ideology lowers it by 0.009 on 131. The joint five-record model
+increases MAE from 2.722 to 2.881 on 131 incumbent candidates. These are different
+cohorts, not ranked candidate types. Both donor models control known D/R
+incumbency. Complete paired predictions, folds, state-deletion diagnostics and
+selection tables by incumbency, district lean and native winner flag are retained.
+The native flag's absence is not a certified loss.
+
+The new figure uses share-point error gains, not doubled margin-point
+coefficients. The existing nine figures remain byte-identical. The result is
+limited added predictive information in these selected samples, not proof that
+candidate characteristics never matter or a forward forecast.
 
 ## Incoming biography source audit
 
@@ -68,6 +100,9 @@ share-to-margin interval conversion, identical alternate-benchmark samples,
 fixed six-test correction, state/person training isolation, all-candidate and
 all-contest retention, source-preserving biography integration and deterministic
 replay. Current chart tests check both backgrounds and exact rendered bytes.
+Added tests check a transferable synthetic signal, held-state/person target
+perturbations, unsupported folds, an independently recomputed deletion, complete
+candidate/contest observation attachment and unscaled predictive chart intervals.
 
 The release receipt in `audits/publication.json` records actual full-suite,
 formatting, browser and network-disabled extracted-replay outcomes. Do not treat

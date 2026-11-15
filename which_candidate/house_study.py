@@ -8,6 +8,11 @@ from pathlib import Path
 
 import numpy as np
 
+from .house_validation import (
+    person_key,
+    predictive_comparisons,
+    selection_diagnostics,
+)
 from .models import PRIMARY, available, matrix
 from .pipeline import csv_bytes
 from .rebuild import ROOT, checked_fit
@@ -88,15 +93,6 @@ def trait_comparisons(panel):
     return results
 
 
-def person_key(row):
-    return (
-        row.get("person_group")
-        or row.get("bioguide_id")
-        or row.get("D_fec_id")
-        or row["D_candidate_election_id"]
-    )
-
-
 def held_out_diagnostics(panel):
     """Fit the electoral-environment benchmark without the held-out state or person."""
     rows = [r for r in panel if r["eligible"]]
@@ -173,7 +169,57 @@ def csv_rows(path):
         return list(csv.DictReader(stream))
 
 
-def candidate_profiles(candidates, panel, seated, incoming, predictions):
+def acquired_evidence(candidates, observations, facts):
+    identities = {(r["candidate_id"], r["contest_id"]): r for r in candidates}
+    if len(identities) != len(candidates):
+        raise ValueError("Duplicate candidate/contest identity")
+    fact_index = {(r["candidate_id"], r["record_id"]): r for r in facts}
+    output = {}
+    for row in observations:
+        key = (row["candidate_id"], row["contest_id"])
+        candidate = identities.get(key)
+        if candidate is None or any(
+            str(candidate[field]) != str(row[field])
+            for field in ("name", "state", "district", "party")
+        ):
+            raise ValueError(f"Unqualified candidate observation identity: {key}")
+        value = json.loads(row["value"])
+        evidence = json.loads(row["evidence"]) if row["evidence"] else None
+        if isinstance(evidence, dict) and evidence.get("record_id"):
+            fact = fact_index.get((row["candidate_id"], evidence["record_id"]))
+            if fact:
+                if fact["field"] != row["field"] or fact["state"] != row["state"]:
+                    raise ValueError(f"Conflicting campaign evidence: {key}")
+                evidence = {
+                    **evidence,
+                    **{
+                        field: fact[field]
+                        for field in (
+                            "original_urls",
+                            "wayback_urls",
+                            "source_text_sha256",
+                            "evidence_sha256",
+                            "captured_before_election",
+                        )
+                        if field in fact
+                    },
+                }
+        output.setdefault(key, []).append(
+            {
+                "field": row["field"],
+                "value": value,
+                "source_kind": row["source_kind"],
+                "source_year": row["source_year"],
+                "observation_date": row["observation_date"] or None,
+                "evidence": evidence,
+                "qualification": row["qualification"],
+                "model_ready": row["model_ready"] == "True",
+            }
+        )
+    return output
+
+
+def candidate_profiles(candidates, panel, seated, incoming, predictions, evidence=None):
     contests = {r["contest_id"]: r for r in panel}
     members = {r["bioguide_id"]: r for r in seated if r["bioguide_id"]}
     newcomers = {r["candidate_id"]: r for r in incoming if r["candidate_id"]}
@@ -241,6 +287,9 @@ def candidate_profiles(candidates, panel, seated, incoming, predictions):
                 ],
                 "campaign_websites": candidate["campaign_websites"],
                 "machine_biography_fields_unreviewed": candidate["pre_election_biography_fields"],
+                "acquired_background_observations": (evidence or {}).get(
+                    (candidate["candidate_id"], candidate["contest_id"]), []
+                ),
                 "background_model_ready": False,
                 "new_background_used_in_trait_models": False,
             }
@@ -256,6 +305,22 @@ def render_report(summary, fits, donors, measurements):
         if passing == 0
         else f"{passing} of the six primary comparisons clear the six-test Holm correction."
     )
+    predictive = summary["predictive_value"]
+    positive = sum(
+        row["gain_ci_low_share_pp"] is not None and row["gain_ci_low_share_pp"] > 0
+        for row in predictive
+    )
+    joint = next(row for row in predictive if row["model"] == "joint_records")
+    joint_description = (
+        f"The joint five-trait incumbent model changes held-out MAE from "
+        f"{joint['baseline_MAE_share_pp']:.3f} to "
+        f"{joint['augmented_MAE_share_pp']:.3f} share points among "
+        f"{joint['paired_predictions']} paired candidates. That point comparison "
+        "must be read with its interval and cohort restriction, not as a selected "
+        "winning model."
+        if joint["baseline_MAE_share_pp"] is not None
+        else "The joint incumbent-record model lacks paired prediction support."
+    )
     lines = [
         "# Which Democratic House candidates did better in 2026?",
         "",
@@ -264,6 +329,13 @@ def render_report(summary, fits, donors, measurements):
         f"Across {summary['eligible_comparisons']} qualified House comparisons, the evidence "
         f"does not establish a universal winning candidate type. {conclusion} "
         "These estimates are not proof that candidate characteristics do not matter.",
+        "",
+        "A practical check compares predictions for held-out states. Comparisons "
+        "with a pointwise uncertainty interval wholly above zero improvement: "
+        f"**{positive}/{len(predictive)}**. A trait can have an in-sample association "
+        "without providing reliable added predictive value for other candidates. "
+        "The paired results below quantify that distinction rather than selecting "
+        "a favorite candidate formula.",
         "",
         "Historical donor ideology and prior voting ideology point in opposite directions "
         "even among the same candidates. A single moderate-versus-progressive label would "
@@ -369,6 +441,83 @@ def render_report(summary, fits, donors, measurements):
             "November 3, 2026; absence or abstention is not an opposing vote. "
             "Newcomers do not receive zero federal ideology.",
             "",
+            "## Do candidate traits improve held-out predictions?",
+            "",
+            "An association is not evidence that a trait improves predictions for "
+            "other candidates. Each comparison below fits a baseline and an augmented "
+            "model on exactly the same people, holds out an entire state and purges "
+            "the held-out people's identities from training. Positive gain means "
+            "lower mean absolute error after adding the trait, in **vote-share** "
+            "points, not margin points. These are retrospective 2026 diagnostics.",
+            "",
+            "| Added information | Paired candidates | Baseline MAE | With traits MAE | MAE gain [95% pointwise interval] |",
+            "| --- | ---: | ---: | ---: | ---: |",
+        ]
+    )
+    for row in summary["predictive_value"]:
+        gain = row["MAE_gain_share_pp"]
+        low, high = row["gain_ci_low_share_pp"], row["gain_ci_high_share_pp"]
+        value = (
+            f"{gain:+.3f} [{low:+.3f}, {high:+.3f}]"
+            if low is not None
+            else f"{gain:+.3f}; interval unsupported"
+            if gain is not None
+            else "Unavailable"
+        )
+        baseline = row["baseline_MAE_share_pp"]
+        augmented = row["augmented_MAE_share_pp"]
+        lines.append(
+            f"| {row['label']} | {row['paired_predictions']}/{row['qualified_candidates']} "
+            f"| {baseline:.3f} | {augmented:.3f} | {value} |"
+            if baseline is not None
+            else f"| {row['label']} | 0/{row['qualified_candidates']} | Unavailable | "
+            "Unavailable | Unavailable |"
+        )
+    lines.extend(
+        [
+            "",
+            "Baselines adjust for lean and lean squared; both donor models also "
+            "include known Democratic and Republican incumbency. The five individual "
+            "record traits and their joint block apply only to verified Democratic "
+            "incumbents. Different rows use different complete-case cohorts and "
+            "must not be ranked as if they were the same population. The joint row "
+            "uses all five record traits together; it is not a selected winning model.",
+            "",
+            "Intervals refit **the entire paired cross-validation pipeline after "
+            "deleting each state**, including both models and every remaining fold. "
+            "They use the state-jackknife standard error and t(G-1) critical value. "
+            "Incomplete folds/deletions suppress intervals. These intervals are "
+            "exploratory and pointwise, not multiple-testing-adjusted discoveries. "
+            "Neither positive gains nor retrospective calibration establish forward "
+            "forecast skill or causal candidate quality. Exact predictions, fold "
+            "membership and deletion diagnostics are downloadable.",
+            "",
+            joint_description,
+            "",
+            "## How selective are these comparisons?",
+            "",
+            "| Information | Included out of all qualified comparisons | Coverage |",
+            "| --- | ---: | ---: |",
+        ]
+    )
+    labels = {r["model"]: r["label"] for r in summary["predictive_value"]}
+    for row in summary["trait_selection"]:
+        if row["partition"] == "all":
+            lines.append(
+                f"| {labels[row['model']]} | {row['included']}/{row['qualified_comparisons']} "
+                f"| {row['included_pct']:.1f}% |"
+            )
+    lines.extend(
+        [
+            "",
+            "This is feature availability **and the model's population restriction**, "
+            "not a claim that every excluded candidate lacks a biography. The complete "
+            "`trait-selection.csv` splits included/excluded candidates by recorded "
+            "incumbency, presidential lean and native provisional winner flag, and "
+            "reports their mean lean and raw gap. Not flagged as a winner does not "
+            "establish a loss. Selection can change the answer: incumbent-only "
+            "voting associations cannot establish the best type of challenger.",
+            "",
             "## Who is in the project?",
             "",
             f"- All **{summary['named_candidates']} named candidates** in all 435 House "
@@ -387,6 +536,13 @@ def render_report(summary, fits, donors, measurements):
             "silently enter these models. Religion responses are dated observations, "
             "not verified current beliefs. Source files, coverage and gap ledgers are "
             "part of the complete download.",
+            f"The election browser now exposes **{summary['acquired_background_observations']:,} "
+            f"acquired observations for {summary['candidates_with_acquired_observations']} "
+            "candidates**, including losing candidates, rather than only listing "
+            "unreviewed field names. Every observation retains its actual value, "
+            "source kind/year, date, qualification and receipt. Unreviewed extractions "
+            "are labeled, not presented as verified facts. Individual evidence "
+            "tables and filtered profiles can both be downloaded.",
             "",
             "## What remains unresolved",
             "",
@@ -427,6 +583,11 @@ def build(root=ROOT, output=None):
     if len(panel) != 435 or len({r["contest_id"] for r in panel}) != 435:
         raise ValueError("The study requires all 435 unique House contests")
     candidates = read_rows(root / "results/house/candidates.jsonl.gz")
+    evidence = acquired_evidence(
+        candidates,
+        csv_rows(root / "results/house/background-observations.csv"),
+        read_rows(root / "results/house/biography-facts.jsonl.gz"),
+    )
     fits = trait_comparisons(panel)
     predictions, folds, metrics = held_out_diagnostics(panel)
     profiles = candidate_profiles(
@@ -435,6 +596,16 @@ def build(root=ROOT, output=None):
         csv_rows(root / "results/members/house-119-seats.csv"),
         csv_rows(root / "results/members/house-120-seats.csv"),
         predictions,
+        evidence,
+    )
+    predictive, paired_predictions, paired_folds, deletions = predictive_comparisons(panel)
+    selection = selection_diagnostics(
+        panel,
+        {
+            r["contest_id"]: r["native_flags_unverified"]["winner"]
+            for r in candidates
+            if r["selected_democratic_analysis_candidate"] is True
+        },
     )
     summary = {
         "year": 2026,
@@ -455,6 +626,10 @@ def build(root=ROOT, output=None):
             for r in fits
         ),
         "held_out_diagnostics": metrics,
+        "predictive_value": predictive,
+        "trait_selection": selection,
+        "acquired_background_observations": sum(len(rows) for rows in evidence.values()),
+        "candidates_with_acquired_observations": len(evidence),
         "new_background_fields_used_in_models": False,
         "frozen_analysis_outputs_changed": False,
         "website_publication": "withdrawn",
@@ -464,10 +639,16 @@ def build(root=ROOT, output=None):
     write_rows(output / "validation-folds.jsonl.gz", folds)
     write_rows(output / "candidate-profiles.jsonl.gz", profiles)
     write_rows(output / "candidate-comparisons.jsonl.gz", panel)
+    write_rows(output / "trait-validation-folds.jsonl.gz", paired_folds)
+    write_rows(output / "trait-validation-predictions.jsonl.gz", paired_predictions)
+    write_rows(output / "trait-validation-deletions.jsonl.gz", deletions)
     for name, rows in (
         ("trait-fits.csv", fits),
         ("held-out-performance.csv", predictions),
         ("candidate-profiles.csv", profiles),
+        ("trait-predictive-value.csv", predictive),
+        ("trait-validation-predictions.csv", paired_predictions),
+        ("trait-selection.csv", selection),
     ):
         (output / name).write_bytes(csv_bytes(rows))
     write_json(output / "summary.json", summary)

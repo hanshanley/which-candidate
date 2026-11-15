@@ -568,8 +568,85 @@ def characteristics(data):
     )
 
 
+def predictive_value(data):
+    rows = data["predictive_value"]
+    fig = frame(
+        "Do candidate traits improve predictions?",
+        "2026 House: change in state-and-person-held-out mean absolute error. "
+        "Each pair uses identical people; different rows cover different populations.",
+        "Positive = lower error; negative = higher error. Vote-share pp, not margin pp. "
+        "95% pointwise intervals refit the entire pipeline after each state deletion; exploratory.",
+    )
+    labels = {
+        "incumbency": "D/R incumbency",
+        "ideology": "Prior voting ideology",
+        "defection": "Party defection",
+        "age": "Age",
+        "tenure": "House service",
+        "gender": "Source-recorded gender",
+        "donor": "Historical donor ideology",
+        "joint_records": "Joint incumbent records",
+    }
+    ax = fig.add_axes((0.34, 0.24, 0.44, 0.53))
+    bounds = [
+        abs(row[key])
+        for row in rows
+        for key in ("MAE_gain_share_pp", "gain_ci_low_share_pp", "gain_ci_high_share_pp")
+        if row.get(key) is not None
+    ]
+    bound = max(0.1, math.ceil(10 * max(bounds, default=0.1)) / 10)
+    ax.set(xlim=(-bound * 1.08, bound * 1.08), ylim=(-0.5, len(rows) - 0.5))
+    ax.axvline(0, color=MUTED, linewidth=1)
+    for i, row in enumerate(rows):
+        y = len(rows) - 1 - i
+        gain, low, high = (
+            row[key]
+            for key in ("MAE_gain_share_pp", "gain_ci_low_share_pp", "gain_ci_high_share_pp")
+        )
+        if row["publication_status"] == "supported_exploratory":
+            ax.errorbar(
+                gain,
+                y,
+                xerr=[[gain - low], [high - gain]],
+                fmt="o",
+                color=ACCENT,
+                markersize=6.2,
+                linewidth=1.5,
+                capsize=3,
+            )
+        else:
+            ax.text(0, y, "Incomplete support; see CSV", ha="center", color=MUTED, size=9)
+        position = 0.24 + 0.53 * (y + 0.5) / len(rows)
+        fig.text(0.065, position, labels[row["model"]], va="center", size=10.4)
+        fig.text(
+            0.82,
+            position,
+            f"n = {row['paired_predictions']}\n{row['state_clusters']} states",
+            va="center",
+            size=9.6,
+        )
+    ax.set_yticks([])
+    ax.set_xlabel("Baseline MAE minus trait-model MAE (vote-share pp)", labelpad=12, size=10)
+    ax.xaxis.set_major_locator(MaxNLocator(5))
+    tidy(ax)
+    return (
+        fig,
+        rows,
+        "These eight exploratory comparisons test added predictive information, not "
+        "causal effects or forward forecast skill. Every comparison uses the same "
+        "training and test people for its baseline and augmented model. Both models "
+        "adjust for district lean and lean squared; both donor models also control "
+        "known D/R incumbency. Individual record traits and their joint block apply "
+        "only to verified Democratic incumbents. Cohorts differ across rows, so this "
+        "is not a ranking of interchangeable candidate types. Intervals use a "
+        "full-pipeline state jackknife, t(G-1) and complete-fold support gates; they "
+        "are not multiple-comparison-adjusted.",
+    )
+
+
 BUILDERS = (
     ("house-characteristics", characteristics),
+    ("house-predictive-value", predictive_value),
     ("seat-baseline", geography),
     ("donor-ideology", donor),
     ("donor-benchmark-sensitivity", donor_benchmarks),
@@ -637,6 +714,9 @@ def _build(root, output):
         "traits": read_rows(root / "results/2026-v3/analysis/trait-fits.jsonl.gz"),
         "moderation": read_rows(root / "results/2026-v3/analysis/moderation-fits.jsonl.gz"),
         "house_traits": read_rows(root / "results/house-study/trait-fits.jsonl.gz"),
+        "predictive_value": json.loads((root / "results/house-study/summary.json").read_text())[
+            "predictive_value"
+        ],
     }
     charts = []
     with plt.rc_context(

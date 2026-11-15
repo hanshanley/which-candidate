@@ -1,8 +1,8 @@
 {
-  "scope": "Integrated 2026 House findings, six-trait study, offline profile browser and full seated/incoming House profiles",
+  "scope": "Integrated 2026 House associations, eight paired predictive-value comparisons, evidence-complete offline profiles and full seated/incoming House rosters",
   "publication": {
     "directory": "publication",
-    "figures": 9,
+    "figures": 10,
     "offline_report": "publication/report.html",
     "website_status": "withdrawn",
     "superseded_publication_directories_removed": true,
@@ -37,16 +37,16 @@
     "historical_profile_endpoint_failures": 0
   },
   "verification": {
-    "checkout_tests_passed": 259,
-    "extracted_download_tests_passed": 253,
+    "checkout_tests_passed": 263,
+    "extracted_download_tests_passed": 257,
     "extracted_download_tests_skipped": 6,
     "extracted_skip_reasons": [
       "Five legacy publication tests require superseded image fixtures intentionally excluded from current downloads.",
       "One repository-only historical byte audit requires its original audit receipt."
     ],
     "ruff_lint": "passed",
-    "ruff_format_files": 78,
-    "validation_scratch_storage": "Disposable RAM image; disk-backed runs encountered ENOSPC. Complete suites passed without changing tests or research behavior.",
+    "ruff_format_files": 79,
+    "validation_scratch_storage": "Disk-backed temporary directories; checkout and extracted suites passed with automatic scratch cleanup.",
     "original_cache_house_reconstruction": "byte-identical",
     "extracted_imports_confirmed_local": true,
     "extracted_replay_network": "connect, connect_ex and getaddrinfo blocked",
@@ -54,41 +54,44 @@
       "results/2026-v4": 9,
       "results/house": 13,
       "results/members": 10,
-      "results/house-study": 10,
-      "publication": 48
+      "results/house-study": 16,
+      "publication": 53
     },
     "extracted_complete_query_repack": "byte-identical",
     "zip_crc_checks": "passed",
     "zip_member_names_unique": true,
     "embedded_query_zip_matches_standalone": true,
-    "complete_query_zip_members": 303,
-    "substack_zip_members": 31,
+    "complete_query_zip_members": 315,
+    "substack_zip_members": 34,
     "repository_and_personal_chart_skills_match": true,
-    "article_and_mobile_visual_review": "Earlier full eight-figure review retained. New six-trait figure inspected from final source-hashed 1200px and 390px previews without clipping or overlap; detailed chart labels require enlargement on phones.",
-    "new_chart_png_sha256": "7f44bb05eadd04c833fa0f787bdd2decd07bd57efca80cb275f9c3369a47db72",
+    "article_and_mobile_visual_review": "Earlier nine-figure review retained; all 45 existing plot exports are unchanged. New predictive-value figure inspected from final source-hashed 1200px and 390px previews without clipping or overlap; detailed chart labels require enlargement on phones.",
+    "new_chart_png_sha256": "79200aeb00dc0e49cac1b949f030b4ff571227dc7aba1eb8327c9f05f1e91a26",
     "offline_report_browser": {
-      "report_sha256": "0d7330ff76dba3b286e24f6ab2be9719836942d62bf648a7cdaf72f4e4c0df06",
+      "report_sha256": "a901ddbb6fd771ed6473440e28d99de12b23ed2c439b94cb7e4b79494cac2a26",
       "viewports": [1280, 390, 320],
-      "images_decoded": 9,
+      "images_decoded": 10,
       "dataset_row_counts": [1284, 435, 435],
       "filtered_csv_rows": 405,
       "horizontal_overflow": false,
       "page_errors": [],
       "external_requests": [],
       "search_pagination_empty_states_and_source_links": "passed",
-      "without_javascript": "Findings and all nine figures readable; interactive profile browsing requires JavaScript."
+      "losing_candidate_evidence_values_search_receipts_and_csv": "passed",
+      "expanded_source_receipts_without_mobile_overflow": true,
+      "csv_probe_field_limit": "Raised the Python verification parser limit to read complete long-form evidence cells; no evidence was dropped or truncated.",
+      "without_javascript": "Findings and all ten figures readable; interactive profile browsing requires JavaScript."
     },
     "withdrawn_gallery_http_status": 404,
     "withdrawn_manifest_http_status": 404
   },
   "downloads": {
     "complete-queries.zip": {
-      "bytes": 60040486,
-      "sha256": "764d705709aa65246de1cd9ef066245538edff6af9412c82d05f294146d53314"
+      "bytes": 69907346,
+      "sha256": "7adb7e5b6c7a3a7a78df826282f54fd7f0f1cf3f120cfa2d08674eac87aefb65"
     },
     "substack-figures.zip": {
-      "bytes": 62305358,
-      "sha256": "9db2a432208171519e189b3768d429721ff0e4a5f3ae22aeec23e9c77da6d12e"
+      "bytes": 75401620,
+      "sha256": "ace1d8eec6286dea0b4880d9079ba376b427e4bdfb9f587f7fcad9f644d60542"
     }
   },
   "identity_correction": {
@@ -197,6 +200,18 @@
     "held_out_rmse_share_pp": 3.3327493805489103,
     "held_out_bias_share_pp": 0.018117209053844962,
     "expected_shares_outside_zero_to_100": 0,
-    "validation_scope": "Retrospective within-cycle adjustment, not forward forecast validation or causal candidate quality."
+    "validation_scope": "Retrospective within-cycle adjustment, not forward forecast validation or causal candidate quality.",
+    "paired_predictive_comparisons": 8,
+    "paired_candidate_predictions": 1412,
+    "paired_main_folds": 297,
+    "full_pipeline_state_deletions": 297,
+    "predictive_intervals_wholly_above_zero_gain": 0,
+    "predictive_interval_units": "Vote-share percentage points of MAE reduction; not margin-point coefficients.",
+    "joint_incumbent_record_candidates": 131,
+    "joint_baseline_mae_share_pp": 2.72220111243684,
+    "joint_augmented_mae_share_pp": 2.8810610007763398,
+    "acquired_observations_attached_to_exact_candidate_contest": 27875,
+    "candidates_with_attached_acquired_observations": 617,
+    "unreviewed_observations_promoted_to_models": false
   }
 }

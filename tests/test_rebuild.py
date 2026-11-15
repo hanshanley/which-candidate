@@ -533,6 +533,26 @@ def test_measurement_panels_share_a_centered_scale_without_clipping_intervals():
         plt.close(fig)
 
 
+def test_predictive_chart_preserves_fixed_order_and_vote_share_gain_intervals():
+    rows = json.loads((ROOT / "results/house-study/summary.json").read_text())["predictive_value"]
+    with plt.rc_context(publication.THEME):
+        fig, exported, _ = rebuild_publication.predictive_value({"predictive_value": rows})
+        ax = fig.axes[0]
+        points = [line for line in ax.lines if line.get_marker() == "o"]
+        assert len(points) == len(rows)
+        assert exported == rows
+        assert [line.get_xdata()[0] for line in points] == pytest.approx(
+            [row["MAE_gain_share_pp"] for row in rows]
+        )
+        for collection, row in zip(ax.collections, rows, strict=True):
+            segment = collection.get_segments()[0]
+            assert segment[:, 0] == pytest.approx(
+                [row["gain_ci_low_share_pp"], row["gain_ci_high_share_pp"]]
+            )
+        assert "vote-share pp" in ax.get_xlabel()
+        plt.close(fig)
+
+
 @pytest.mark.parametrize(
     ("key", "source", "builder", "label"),
     [

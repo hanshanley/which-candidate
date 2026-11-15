@@ -1,6 +1,6 @@
 # Current publication figures
 
-The only chart set is `publication/`, containing nine current figures for
+The only chart set is `publication/`, containing ten current figures for
 Substack and Margin of Error. Superseded plot directories and their download
 bundles have been removed from the checkout; Git history retains them.
 Historical analysis data under `results/` are unchanged; `results/house/` adds the
@@ -10,7 +10,7 @@ seats, provisional incoming members and historical CongressData observations.
 It does not change the election-candidate denominator in the existing charts.
 Website publication remains withdrawn.
 
-All nine figures concern the **House only**, including the seat-baseline
+All ten figures concern the **House only**, including the seat-baseline
 and incumbency-history plots. The evidence figure counts every named candidate,
 not only the selected Democratic analysis candidate. Its all-party denominators
 and coverage are generated directly from `results/house/coverage.json`.
@@ -38,13 +38,27 @@ candidate-quality scores. Pointwise intervals and six-test Holm p-values are
 distinguished. `results/house-study/` supplies the exact current fits, common-map
 benchmark sensitivities and state/person-held-out diagnostics.
 
+The predictive-value figure shows eight fixed, unranked comparisons using
+identical training/test people within each baseline/trait pair. Its outcome is
+the reduction in mean absolute error in **vote-share percentage points**, not
+the margin-point units used in the characteristic-association figure. Intervals
+refit all state/person-held-out folds after each state deletion. They are
+exploratory pointwise intervals, not discovery-adjusted tests. Different rows
+cover different complete-case cohorts; both donor models also control known
+D/R incumbency. None currently has an interval wholly above zero improvement.
+
 `publication/report.html` is a local, offline-capable research report, **not a
 website redeployment**. It contains the findings and figures plus searchable
 candidate, sitting-seat and incoming-seat views. Source evidence and filtered
 CSV exports are available without a server; only external source links require
 network access. The same report is included in both downloads.
 
-Each theme has nine PNG/SVG exports. Shared `plot-data/`, `captions.json` and
+Candidate profiles show the actual acquired background observations, with
+dates, qualifications and expandable source receipts. Unreviewed extractions
+remain separate from member/incoming summaries and remain model-ineligible.
+Search and per-candidate evidence CSVs include their values.
+
+Each theme has ten PNG/SVG exports. Shared `plot-data/`, `captions.json` and
 `manifest.json` provide exact plotted values, captions, alt text and checksums.
 The `publication-charts` skill requires matching scales for comparable panels,
 collision-free labels, fresh source-hashed reading-width previews and one

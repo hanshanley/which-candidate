@@ -4,6 +4,8 @@
 
 Across 405 qualified House comparisons, the evidence does not establish a universal winning candidate type. None of the six primary characteristic comparisons clears the six-test Holm correction. These estimates are not proof that candidate characteristics do not matter.
 
+A practical check compares predictions for held-out states. Comparisons with a pointwise uncertainty interval wholly above zero improvement: **0/8**. A trait can have an in-sample association without providing reliable added predictive value for other candidates. The paired results below quantify that distinction rather than selecting a favorite candidate formula.
+
 Historical donor ideology and prior voting ideology point in opposite directions even among the same candidates. A single moderate-versus-progressive label would hide that difference. These are observational associations, not the effect of replacing one nominee with another.
 
 ## The main comparisons
@@ -44,6 +46,42 @@ The same-incumbent measurement check holds the people and controls fixed:
 
 Donor scores describe historical funding coalitions through 2024, not 2026 platforms. Prior voting ideology comes from the 118th Congress (2023-2024). Party defection uses dated 119th-Congress votes before November 3, 2026; absence or abstention is not an opposing vote. Newcomers do not receive zero federal ideology.
 
+## Do candidate traits improve held-out predictions?
+
+An association is not evidence that a trait improves predictions for other candidates. Each comparison below fits a baseline and an augmented model on exactly the same people, holds out an entire state and purges the held-out people's identities from training. Positive gain means lower mean absolute error after adding the trait, in **vote-share** points, not margin points. These are retrospective 2026 diagnostics.
+
+| Added information | Paired candidates | Baseline MAE | With traits MAE | MAE gain [95% pointwise interval] |
+| --- | ---: | ---: | ---: | ---: |
+| D/R incumbency | 349/349 | 2.580 | 2.504 | +0.076 [-0.019, +0.171] |
+| Prior voting ideology | 131/131 | 2.722 | 2.713 | +0.009 [-0.153, +0.172] |
+| Party defection | 164/164 | 2.686 | 2.716 | -0.030 [-0.108, +0.049] |
+| Age | 162/162 | 2.678 | 2.664 | +0.014 [-0.060, +0.088] |
+| House service | 162/162 | 2.678 | 2.676 | +0.002 [-0.094, +0.098] |
+| Source-recorded gender | 162/162 | 2.678 | 2.718 | -0.040 [-0.191, +0.110] |
+| Historical donor ideology | 151/151 | 2.607 | 2.585 | +0.022 [-0.103, +0.146] |
+| All five incumbent-record traits | 131/131 | 2.722 | 2.881 | -0.159 [-0.405, +0.087] |
+
+Baselines adjust for lean and lean squared; both donor models also include known Democratic and Republican incumbency. The five individual record traits and their joint block apply only to verified Democratic incumbents. Different rows use different complete-case cohorts and must not be ranked as if they were the same population. The joint row uses all five record traits together; it is not a selected winning model.
+
+Intervals refit **the entire paired cross-validation pipeline after deleting each state**, including both models and every remaining fold. They use the state-jackknife standard error and t(G-1) critical value. Incomplete folds/deletions suppress intervals. These intervals are exploratory and pointwise, not multiple-testing-adjusted discoveries. Neither positive gains nor retrospective calibration establish forward forecast skill or causal candidate quality. Exact predictions, fold membership and deletion diagnostics are downloadable.
+
+The joint five-trait incumbent model changes held-out MAE from 2.722 to 2.881 share points among 131 paired candidates. That point comparison must be read with its interval and cohort restriction, not as a selected winning model.
+
+## How selective are these comparisons?
+
+| Information | Included out of all qualified comparisons | Coverage |
+| --- | ---: | ---: |
+| D/R incumbency | 349/405 | 86.2% |
+| Prior voting ideology | 131/405 | 32.3% |
+| Party defection | 164/405 | 40.5% |
+| Age | 162/405 | 40.0% |
+| House service | 162/405 | 40.0% |
+| Source-recorded gender | 162/405 | 40.0% |
+| Historical donor ideology | 151/405 | 37.3% |
+| All five incumbent-record traits | 131/405 | 32.3% |
+
+This is feature availability **and the model's population restriction**, not a claim that every excluded candidate lacks a biography. The complete `trait-selection.csv` splits included/excluded candidates by recorded incumbency, presidential lean and native provisional winner flag, and reports their mean lean and raw gap. Not flagged as a winner does not establish a loss. Selection can change the answer: incumbent-only voting associations cannot establish the best type of challenger.
+
 ## Who is in the project?
 
 - All **1284 named candidates** in all 435 House districts are retained, including Republicans, other parties and losers.
@@ -52,6 +90,7 @@ Donor scores describe historical funding coalitions through 2024, not 2026 platf
 - The incoming roster is provisional, not certified. Continuing and returning members are separated from other reported winners.
 
 The interactive report includes the candidate profile browser. Education, career, military and religion evidence is descriptive, with unknowns preserved. New biographies and unreviewed campaign extractions do not silently enter these models. Religion responses are dated observations, not verified current beliefs. Source files, coverage and gap ledgers are part of the complete download.
+The election browser now exposes **27,875 acquired observations for 617 candidates**, including losing candidates, rather than only listing unreviewed field names. Every observation retains its actual value, source kind/year, date, qualification and receipt. Unreviewed extractions are labeled, not presented as verified facts. Individual evidence tables and filtered profiles can both be downloaded.
 
 ## What remains unresolved
 

@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 from copy import deepcopy
 from pathlib import Path
 
@@ -7,10 +8,13 @@ import pytest
 
 from which_candidate.house_report import render
 from which_candidate.house_study import (
+    acquired_evidence,
     build,
+    csv_rows,
     held_out_diagnostics,
     trait_comparisons,
 )
+from which_candidate.house_validation import paired_predictions, predictive_comparisons
 from which_candidate.models import available, matrix
 from which_candidate.storage import fingerprint, read_rows
 
@@ -117,11 +121,27 @@ def test_real_study_retains_all_candidates_contests_holds_and_exact_replay(tmp_p
     assert {r["contest_id"] for r in comparisons} == {r["contest_id"] for r in profiles}
     assert summary["eligible_comparisons"] + summary["held_comparisons"] == 435
     assert sum(r["comparison_eligible"] for r in profiles) == summary["eligible_comparisons"]
+    observations = csv_rows(ROOT / "results/house/background-observations.csv")
+    expected = Counter((r["candidate_id"], r["contest_id"]) for r in observations)
+    assert sum(len(r["acquired_background_observations"]) for r in profiles) == len(observations)
+    assert summary["candidates_with_acquired_observations"] == len(expected)
     for row in profiles:
+        assert (
+            len(row["acquired_background_observations"])
+            == expected[(row["candidate_id"], row["contest_id"])]
+        )
         assert row["background_model_ready"] is False
         if not row["comparison_eligible"]:
             assert row["held_out_residual_margin_pp"] is None
             assert row["presidential_gap_margin_pp"] is None
+    losing = next(r for r in profiles if r["candidate_id"] == "219731")
+    assert losing["provider_winner_flag"] is False
+    assert any(
+        r["field"] == "education"
+        and "Associate Degree in Nursing" in r["value"]
+        and r["model_ready"] is False
+        for r in losing["acquired_background_observations"]
+    )
     for name, receipt in json.loads((ROOT / "results/house-study/manifest.json").read_text())[
         "files"
     ].items():
@@ -138,3 +158,98 @@ def test_local_report_escapes_embedded_records_and_uses_only_relative_figures():
     assert json.loads(payload) == [{"name": name}]
     assert "https://fonts." not in document
     assert 'id="download"' in document
+
+
+def test_paired_trait_predictions_purge_people_and_detect_transferable_signal():
+    rows = panel()
+    for row in rows:
+        row["D_incumbent"] = row["service_verified_incumbent"] = True
+        row["descriptive_gap_share_pp"] = (
+            12 * (row["source_recorded_gender"] == "F") + row["age_years"] / 100
+        )
+        row["D_two_party_share_pct"] = (
+            row["presidential_D_two_party_share_pct"] + row["descriptive_gap_share_pp"]
+        )
+    rows[0]["person_group"] = rows[8]["person_group"] = "shared-person"
+    predictions, folds = paired_predictions(rows, "gender")
+    for fold in folds:
+        assert fold["held_out_state"] not in fold["training_states"]
+        assert not set(fold["test_people"]) & set(fold["training_people"])
+        assert not set(fold["test_candidate_ids"]) & set(fold["training_candidate_ids"])
+    changed = deepcopy(rows)
+    for row in changed:
+        if row["state"] == "S00" or row["person_group"] == "shared-person":
+            row["descriptive_gap_share_pp"] += 40
+            row["D_two_party_share_pct"] += 40
+    modified, _ = paired_predictions(changed, "gender")
+    for key in ("baseline_expected_D_share_pct", "augmented_expected_D_share_pct"):
+        assert [r[key] for r in predictions if r["state"] == "S00"] == pytest.approx(
+            [r[key] for r in modified if r["state"] == "S00"]
+        )
+    summaries, all_predictions, _, deletions = predictive_comparisons(rows)
+    gender = next(r for r in summaries if r["model"] == "gender")
+    paired = [r for r in all_predictions if r["model"] == "gender"]
+    assert gender["augmented_MAE_share_pp"] < gender["baseline_MAE_share_pp"] / 4
+    assert gender["MAE_gain_share_pp"] == pytest.approx(
+        np.mean([r["absolute_error_gain_share_pp"] for r in paired])
+    )
+    assert gender["gain_ci_low_share_pp"] > 0
+    deleted = next(r for r in deletions if r["model"] == "gender" and r["deleted_state"] == "S00")
+    independent, _ = paired_predictions([r for r in rows if r["state"] != "S00"], "gender")
+    assert deleted["MAE_gain_share_pp"] == pytest.approx(
+        np.mean([r["absolute_error_gain_share_pp"] for r in independent])
+    )
+
+
+def test_missing_fold_support_suppresses_predictive_interval_not_zero_imputation():
+    rows = panel()
+    for row in rows:
+        row["D_incumbent"] = row["service_verified_incumbent"] = True
+        row["source_recorded_gender"] = "F" if row["state"] == "S00" else "M"
+    summaries, _, folds, _ = predictive_comparisons(rows)
+    gender = next(r for r in summaries if r["model"] == "gender")
+    assert gender["paired_predictions"] < gender["qualified_candidates"]
+    assert gender["complete_paired_predictions"] is False
+    assert gender["gain_ci_low_share_pp"] is None
+    assert gender["gain_ci_high_share_pp"] is None
+    assert (
+        next(r for r in folds if r["model"] == "gender" and r["held_out_state"] == "S00")["status"]
+        == "insufficient_training_support"
+    )
+
+
+def test_acquired_profile_values_retain_qualifications_and_reject_wrong_subjects():
+    candidate = {
+        "candidate_id": "1",
+        "contest_id": "contest",
+        "name": "Jane Doe",
+        "state": "AL",
+        "district": "04",
+        "party": "Democratic",
+    }
+    observation = {
+        **candidate,
+        "field": "education",
+        "value": json.dumps("Associate degree"),
+        "source_kind": "campaign_extraction",
+        "source_year": "2026",
+        "observation_date": "20260924030253",
+        "model_ready": "False",
+        "qualification": "machine_extracted; subject_and_field_require_review",
+        "evidence": json.dumps({"record_id": "fact", "parent_document_id": "document"}),
+    }
+    fact = {
+        "candidate_id": "1",
+        "record_id": "fact",
+        "state": "AL",
+        "field": "education",
+        "original_urls": ["https://example.test/biography"],
+        "captured_before_election": True,
+    }
+    result = acquired_evidence([candidate], [observation], [fact])[("1", "contest")][0]
+    assert result["value"] == "Associate degree"
+    assert result["model_ready"] is False
+    assert result["qualification"] == observation["qualification"]
+    assert result["evidence"]["original_urls"] == fact["original_urls"]
+    with pytest.raises(ValueError, match="identity"):
+        acquired_evidence([candidate], [{**observation, "party": "Republican"}], [fact])

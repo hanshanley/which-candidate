@@ -1,5 +1,37 @@
 # Frozen analysis specification
 
+## Current House predictive-value amendment
+
+The current integrated House study adds eight exploratory, retrospective
+predictive comparisons fixed before examining their results: incumbency, prior
+voting ideology, party defection, age, House service, source-recorded gender,
+historical donor ideology, and the joint block of the five incumbent-record
+traits. These do not replace the original six association tests or their fixed
+Holm family, and do not promote new biographies to model inputs.
+
+For each comparison, use the same qualified complete-case people to train and
+test both a lean/lean-squared baseline and its trait-augmented model. The donor
+comparison additionally includes known D/R incumbency in both models, matching
+its existing association controls. Hold out each state and purge the held-out
+people from training. Export every fold, candidate prediction and support
+failure; missing traits are never imputed to enlarge a model's population.
+
+The main predictive contrast is baseline MAE minus augmented MAE, in vote-share
+percentage points, on the identical held-out rows. Positive means lower error,
+not a causal trait effect. Refit the entire cross-validation pipeline after
+deleting each state to estimate a state-jackknife sensitivity interval. Report
+intervals only with complete paired predictions, all deletion replicates,
+at least 30 candidates and at least 10 states. These are pointwise exploratory
+intervals, not multiple-testing-adjusted discovery claims. Suppress unsupported
+intervals rather than drawing missing replicates as zero. Never rank different
+complete-case cohorts as if they were the same population.
+
+Report selection diagnostics against all otherwise qualified Democratic
+comparisons, split by verified incumbency, district lean and the native
+provisional winner flag. An absent winner flag is not a verified loss.
+Retrospective within-cycle error reduction is not forward election forecast
+validation. No model is selected based on these results.
+
 The original historical specification was written before calculating its
 coefficients. The user subsequently clarified that **2026 is the primary
 outcome**, not a future extension. Primary associations now fit 2026 alone.

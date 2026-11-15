@@ -21,6 +21,12 @@ certified final coverage.
 Do not silently expand completed milestones when later data are still missing.
 No website or automatic public publication is part of the initial scope.
 
+The current House extension connects all acquired candidate observations to the
+offline report and adds eight paired predictive-value comparisons, complete
+fold/deletion exports and explicit cohort-selection diagnostics. It does not
+complete verified challenger biographies: the observed null predictive gains
+apply to qualified, selective samples. The website remains withdrawn.
+
 Remaining source limitations are comprehensive challenger biographies, explicitly
 documented White/non-Hispanic reference groups, compatible 2026 district
 religious composition, changed-map district Census composition, and qualified

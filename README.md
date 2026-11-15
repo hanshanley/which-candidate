@@ -14,7 +14,7 @@ remain separate from Democratic nominees.
 
 **Start with the [House findings report](results/house-study/report.md).** For the
 complete local reading experience, open **`publication/report.html`** after
-cloning or extracting either current download. It combines the findings, nine
+cloning or extracting either current download. It combines the findings, ten
 figures, and a searchable source-linked browser: all 1,284 election candidates,
 all 435 sitting seats, and all 435 provisional incoming seats. Filter by state,
 party or population, inspect profiles, and download the filtered rows as CSV.
@@ -27,6 +27,19 @@ correction. A separate state-and-person-held-out diagnostic covers 405 qualified
 House comparisons; it is retrospective, not a forward forecast or a causal
 candidate ranking. New biographies remain descriptive rather than silently
 becoming model inputs.
+
+Eight matched-sample comparisons now test whether traits improve predictions
+beyond district lean. **None has a pointwise 95% interval wholly above zero
+improvement.** The joint five-trait incumbent model changes held-out MAE from
+2.722 to 2.881 vote-share points among 131 candidates; this is not a causal
+candidate ranking. All paired predictions, folds, full-pipeline state deletions
+and selection diagnostics are downloadable.
+
+Profiles expose the **27,875 acquired observations for 617 candidates**, including
+losing candidates, with actual values, dates, source receipts and qualifications.
+Search includes these values; individual evidence CSVs preserve their review
+status. This repairs a display omission, not a new acquisition or a claim that
+all candidates have verified background data.
 
 Rebuild the complete current project from pinned normalized inputs:
 
@@ -126,7 +139,7 @@ are promoted into the election models.
 
 **The [current figures](docs/PUBLICATION.md)** use the unchanged
 [2026-v4 analysis](docs/REBUILD_2026_V4.md):
-nine House figures, including the new six-trait comparison, plus the expanded
+ten House figures, including the six-trait and predictive-value comparisons, plus the expanded
 all-party House information inventory and local report. The integrated
 `results/house-study/` outputs recompute current comparisons with full-rank
 state-deletion checks and add held-out diagnostics; frozen analysis snapshots
