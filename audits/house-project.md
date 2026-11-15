@@ -121,6 +121,50 @@ All observations retain identity context and pinned evidence. Newly attached
 fields remain descriptive/model-ineligible. Existing source observations are
 not overwritten; multiple records remain in the long evidence table.
 
+## Full missing-person research and integration audit
+
+The next request froze the actual missing-person population before further
+acquisition: 1,284 named candidates, 683 covered and 601 uncovered. It did not
+mistake the broader missing-field table for a person queue. All 601 now have
+one exact-context sourced/gap disposition. Direct acquisition attempted 405
+of these people; the other 196 had no safely contextualized lead after the
+recorded directory and individual search pass. Broad searches sometimes
+returned irrelevant first-name hits, so this is not an exhaustive-search claim.
+
+Actual normalized gains are **233 people and 309 observations**, not the 258
+additional source profiles. Coverage is now **916 of 1,284 people**, comprising
+441 Democrats, 396 Republicans and 79 other-party/write-in candidates.
+The 368 remaining gaps comprise eight Democrats, 37 Republicans and 323 others.
+The ledger distinguishes 196 without a contextual lead, 140 captured directories
+or shells without accepted facts, 29 manually reviewed cases without qualifying
+facts/identity, and three inaccessible-source cases. Downloaded pages are not
+silently treated as reviewed or credited evidence.
+
+The incremental ingest validates only changed/new profiles against original
+hashes and supporting fragments, including explicit PDF pages, then merges
+them with preserved normalized evidence via `house_candidates.build(inputs=...)`.
+It does not reconstruct historical inputs from an absent ignored raw cache.
+The next unchanged ingest validated zero profiles and preserved all 324
+normalized source profiles. Historical source observations remain present.
+
+The finalized ledger is checked against current normalized observations and
+the acquisition manifest. Duplicate/omitted people, wrong candidate-contest
+context, stale counts, incomplete/duplicate source outcomes and unsupported
+accepted-source claims fail validation. Unreviewed nonempty pages for uncovered
+candidates need source-scoped dispositions rather than automatic promotion;
+extra pages for covered candidates stay uncredited. The browser, its filtered CSV,
+`research-dispositions.csv` and `background-field-coverage.csv` expose the same
+accounting.
+
+Field gaps remain substantial: education 580, employment 518, prior-office/
+governmental experience 909, military service 1,102, out of all 1,284 candidates.
+Only 54 have observations in all four dimensions, still not necessarily
+complete, current or independently verified biographies. Unknowns, secondary
+paraphrases, self-reports, machine extractions and historical observations
+retain their qualifications. No military/office field is not a negative label.
+Retrospective additions remain model-ineligible, and frozen analysis samples
+and outputs are protected by fingerprint checks.
+
 ## Validation contract
 
 Focused tests check independent one-percentage-point defection contrasts,

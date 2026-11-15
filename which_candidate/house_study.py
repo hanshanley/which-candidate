@@ -8,6 +8,7 @@ from pathlib import Path
 
 import numpy as np
 
+from .candidate_research import attach_dispositions
 from .house_validation import (
     person_key,
     predictive_comparisons,
@@ -544,6 +545,14 @@ def render_report(summary, fits, donors, measurements):
             "are labeled, not presented as verified facts. Individual evidence "
             "tables and filtered profiles can both be downloaded.",
             "",
+            "The frozen missing-person research queue and its candidate-specific "
+            "outcomes are downloadable in `research-dispositions.csv`. The browser "
+            "shows each outcome and the fields still absent from the acquired "
+            "evidence. `background-field-coverage.csv` covers all named candidates. "
+            "An accepted field is not a complete biography; missing service or "
+            "office is not a negative label. Search hits, empty questionnaires, "
+            "failed requests and downloaded-but-unaccepted pages do not count as facts.",
+            "",
             "## What remains unresolved",
             "",
             "Counts are the pinned November 12-13 provisional provider snapshot, not "
@@ -598,6 +607,7 @@ def build(root=ROOT, output=None):
         predictions,
         evidence,
     )
+    research = attach_dispositions(root, profiles)
     predictive, paired_predictions, paired_folds, deletions = predictive_comparisons(panel)
     selection = selection_diagnostics(
         panel,
@@ -630,6 +640,7 @@ def build(root=ROOT, output=None):
         "trait_selection": selection,
         "acquired_background_observations": sum(len(rows) for rows in evidence.values()),
         "candidates_with_acquired_observations": len(evidence),
+        "candidate_background_research": research,
         "new_background_fields_used_in_models": False,
         "frozen_analysis_outputs_changed": False,
         "website_publication": "withdrawn",
@@ -649,6 +660,55 @@ def build(root=ROOT, output=None):
         ("trait-predictive-value.csv", predictive),
         ("trait-validation-predictions.csv", paired_predictions),
         ("trait-selection.csv", selection),
+        (
+            "research-dispositions.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    **row["background_research"],
+                    "background_fields_with_observations": row[
+                        "background_fields_with_observations"
+                    ],
+                    "remaining_background_fields": row["remaining_background_fields"],
+                }
+                for row in profiles
+                if row.get("in_initial_research_queue")
+            ],
+        ),
+        (
+            "background-field-coverage.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    "observation_count": len(row["acquired_background_observations"]),
+                    "background_fields_with_observations": row.get(
+                        "background_fields_with_observations", []
+                    ),
+                    "remaining_background_fields": row.get("remaining_background_fields", []),
+                }
+                for row in profiles
+            ],
+        ),
     ):
         (output / name).write_bytes(csv_bytes(rows))
     write_json(output / "summary.json", summary)

@@ -479,6 +479,13 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         assert "results/house-study/candidate-profiles.csv" in archive.namelist()
         assert "data/incoming-member-biographies.json" in archive.namelist()
         assert "audits/house-project.md" in archive.namelist()
+        assert "audits/candidate-research.json" in archive.namelist()
+        assert "results/house-study/research-dispositions.csv" in archive.namelist()
+        assert "results/house-study/background-field-coverage.csv" in archive.namelist()
+        assert (
+            archive.read("data/candidate-research-dispositions.json")
+            == (ROOT / "data/candidate-research-dispositions.json").read_bytes()
+        )
         assert all(not name.startswith("data/raw/") for name in archive.namelist())
         assert all(not name.startswith("publication/2026-") for name in archive.namelist())
         assert all(

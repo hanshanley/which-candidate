@@ -35,11 +35,12 @@ improvement.** The joint five-trait incumbent model changes held-out MAE from
 candidate ranking. All paired predictions, folds, full-pipeline state deletions
 and selection diagnostics are downloadable.
 
-Profiles expose the **27,997 acquired observations for 683 candidates**, including
+Profiles expose the **28,306 acquired observations for 916 candidates**, including
 losing candidates, with actual values, dates, source receipts and qualifications.
 Search includes these values; individual evidence CSVs preserve their review
-status. This repairs a display omission, not a new acquisition or a claim that
-all candidates have verified background data.
+status. The completed 601-person research pass added **233 newly covered people
+and 309 observations**. All 601 have sourced or explicit remaining-gap dispositions;
+that does not mean all candidates have complete or verified biographies.
 
 Rebuild the complete current project from pinned normalized inputs:
 
@@ -52,6 +53,11 @@ Use the existing environment or the pinned dependency instructions below.
 The build requires no new source acquisition and refreshes the same current
 outputs and complete downloads. The [project audit](audits/house-project.md)
 records the findings, repairs, validation and remaining limitations.
+To ingest newly reviewed evidence without reconstructing missing historical raw
+caches, use `python -m which_candidate.reviewed_backgrounds`, then
+`python -m which_candidate.candidate_research --finalize`, then rebuild.
+Only new or changed profiles require pinned originals; unchanged normalized
+evidence is preserved. See the [research workflow](docs/HOUSE_CANDIDATES.md#incremental-evidence-ingestion-and-replay).
 
 **Current scope: House only.** The [complete candidate inventory](results/house/candidates.csv)
 accounts for **1,284 named candidates in all 435 districts**, including Republicans,
@@ -65,10 +71,16 @@ coverage and unresolved fields. All current figures are House-only. Older
 House/Senate analysis snapshots remain unchanged for provenance.
 
 The readable [background observations](results/house/background-observations.csv)
-contain factual/source-reported fields for **683 candidates**, not all 1,284.
+contain factual/source-reported fields for **916 candidates**, not all 1,284.
 They include dated religion records and newly acquired official voter-guide
-profiles and anchored campaign/previous-office biographies. **601 candidates still
-lack these observations**, including 85 Democrats and 130 Republicans. A null-ID matching
+profiles and anchored campaign/previous-office biographies. **368 candidates still
+lack these observations**, including eight Democrats, 37 Republicans and 323
+other-party/write-in candidates. The [601-person disposition table](results/house-study/research-dispositions.csv)
+preserves the original queue, including people now covered. The separate
+[field audit](results/house-study/background-field-coverage.csv) covers all 1,284:
+580 lack acquired education information, 518 employment, 909 prior-office
+information and 1,102 military-service information. Missing service is not
+nonservice, and one observed field is not a complete biography. A null-ID matching
 bug that assigned 42 unrelated historical biographies has been corrected; the
 audit documents the withdrawn counts and remaining coverage gaps.
 

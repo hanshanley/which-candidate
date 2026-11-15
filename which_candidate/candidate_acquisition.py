@@ -2,6 +2,7 @@
 
 import argparse
 import hashlib
+import html
 import json
 import re
 import urllib.error
@@ -44,6 +45,8 @@ def biography_links(raw, base):
     if not hostname:
         return []
     host = hostname.removeprefix("www.")
+    if host in ("youtube.com", "vote-usa.org"):
+        return []
     found = []
     for href, label in parser.links:
         url = urllib.parse.urljoin(base, href).split("#", 1)[0]
@@ -63,12 +66,39 @@ def biography_links(raw, base):
     return found[:2]
 
 
+def public_questionnaire_links(raw, base):
+    parts = urllib.parse.urlsplit(base)
+    if parts.hostname != "vote-usa.org" or parts.path.lower() != "/intro.aspx":
+        return []
+    candidate_id = urllib.parse.parse_qs(parts.query).get("Id", [None])[0]
+    links = []
+    pattern = (
+        r'<div class="accordion-header[^"]*">([^<]+)</div>'
+        r'<div[^>]*data-ajax="([^"]+)"'
+    )
+    for label, query in re.findall(pattern, raw.decode("utf-8", "replace")):
+        if label not in (
+            "Professional Experience",
+            "Political Experience",
+            "Educational Background",
+            "Military Experience",
+            "Military Service",
+        ):
+            continue
+        query = html.unescape(query)
+        values = urllib.parse.parse_qs(query)
+        if values.get("Content") == ["INTRO"] and values.get("Id") == [candidate_id]:
+            links.append("https://vote-usa.org/AjaxContent.aspx?" + query)
+    return links[:5]
+
+
 def acquire_candidate(candidate, root):
     originals = Path(root) / "data/raw/candidate-backgrounds-20261115"
     originals.mkdir(parents=True, exist_ok=True)
     sources, attempts = [], []
     queue = list(dict.fromkeys(candidate["campaign_websites"]))[:1]
-    while queue and len(attempts) < 3:
+    limit = 3
+    while queue and len(attempts) < limit:
         url = queue.pop(0)
         retrieved = datetime.now(timezone.utc).isoformat()
         attempt = {"url": url, "retrieved_at": retrieved}
@@ -84,16 +114,22 @@ def acquire_candidate(candidate, root):
             attempt.update(http_status=status, resolved_url=resolved)
             if status != 200 or not body or len(body) > 8 * 1024 * 1024:
                 attempt["status"] = "empty_or_unsupported_response"
-            elif "html" not in content_type.casefold():
-                attempt["status"] = "non_html_response"
-            elif any(
+            elif (
+                "html" not in content_type.casefold()
+                and "application/pdf" not in content_type.casefold()
+            ):
+                attempt["status"] = "unsupported_media_type"
+            elif "html" in content_type.casefold() and any(
                 marker in visible_text(body)[:1500].casefold()
                 for marker in ("verify you are human", "access denied", "just a moment...")
             ):
                 attempt["status"] = "access_challenge_not_bypassed"
             else:
                 digest = hashlib.sha256(body).hexdigest()
-                filename = f"{candidate['candidate_id']}-{digest[:20]}.html"
+                pdf = "application/pdf" in content_type.casefold()
+                filename = f"{candidate['candidate_id']}-{digest[:20]}" + (
+                    ".pdf" if pdf else ".html"
+                )
                 path = originals / filename
                 path.write_bytes(body)
                 source_id = f"candidate-bio-{candidate['candidate_id']}-{digest[:20]}"
@@ -108,12 +144,18 @@ def acquire_candidate(candidate, root):
                         "bytes": len(body),
                         "sha256": digest,
                         "source_kind": "downloaded_public_webpage",
+                        "media_type": content_type.split(";")[0].strip().lower(),
                         "qualification": "retrieved_after_election; publication_date_unverified",
                     }
                 )
                 attempt.update(status="acquired_not_yet_reviewed", source_id=source_id)
-                if len(attempts) == 0:
-                    queue.extend(biography_links(body, resolved))
+                if len(attempts) == 0 and not pdf:
+                    questions = public_questionnaire_links(body, resolved)
+                    if questions:
+                        queue.extend(questions)
+                        limit = 1 + len(questions)
+                    else:
+                        queue.extend(biography_links(body, resolved))
         except (urllib.error.URLError, TimeoutError, ValueError, OSError) as error:
             attempt.update(status="retrieval_failed", error=str(error))
         attempts.append(attempt)
@@ -183,39 +225,46 @@ def acquire(root=ROOT):
         by_id = {row["candidate_id"]: row for row in profiles}
         for lead in json.loads(leads_path.read_text()):
             row = by_id[lead["candidate_id"]]
-            if lead["name"] != row["name"]:
+            if any(
+                key in lead and lead[key] != row[key]
+                for key in ("candidate_id", "contest_id", "name", "state", "district", "party")
+            ):
                 raise ValueError("Candidate source lead has conflicting subject")
             if (row["candidate_id"], lead["url"]) not in done:
                 candidates.append({**row, "campaign_websites": [lead["url"]]})
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        pending = {pool.submit(acquire_candidate, row, root): row for row in candidates}
-        for future in as_completed(pending):
-            candidate, sources = future.result()
-            existing = next(
-                (
-                    row
-                    for row in manifest["candidates"]
-                    if row["candidate_id"] == candidate["candidate_id"]
-                ),
-                None,
-            )
-            if existing is None:
-                manifest["candidates"].append(candidate)
-            else:
-                existing["attempts"].extend(candidate["attempts"])
-                existing["source_ids"] = sorted(
-                    set(existing["source_ids"]) | set(candidate["source_ids"])
-                )
-            manifest["sources"] = merge_receipts([*manifest["sources"], *sources])
-            manifest["candidates"].sort(key=lambda row: row["candidate_id"])
-            manifest["sources"].sort(key=lambda row: row["id"])
-            write_json(path, manifest)
-            print(candidate["name"], len(sources), "sources", flush=True)
+    candidates = list(
+        {(row["candidate_id"], row["campaign_websites"][0]): row for row in candidates}.values()
+    )
+    for major in (True, False):
+        group = [
+            row for row in candidates if (row["party"] in ("Democratic", "Republican")) == major
+        ]
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            pending = {pool.submit(acquire_candidate, row, root): row for row in group}
+            for future in as_completed(pending):
+                merge_candidate_result(manifest, *future.result())
+                write_json(path, manifest)
     write_json(path, manifest)
     return {
         "attempted_candidates": len(manifest["candidates"]),
         "sources": len(manifest["sources"]),
     }
+
+
+def merge_candidate_result(manifest, candidate, sources):
+    existing = next(
+        (row for row in manifest["candidates"] if row["candidate_id"] == candidate["candidate_id"]),
+        None,
+    )
+    if existing is None:
+        manifest["candidates"].append(candidate)
+    else:
+        existing["attempts"].extend(candidate["attempts"])
+        existing["source_ids"] = sorted(set(existing["source_ids"]) | set(candidate["source_ids"]))
+    manifest["sources"] = merge_receipts([*manifest["sources"], *sources])
+    manifest["candidates"].sort(key=lambda row: row["candidate_id"])
+    manifest["sources"].sort(key=lambda row: row["id"])
+    print(candidate["name"], len(sources), "sources", flush=True)
 
 
 if __name__ == "__main__":

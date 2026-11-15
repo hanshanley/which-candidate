@@ -125,6 +125,14 @@ def test_real_study_retains_all_candidates_contests_holds_and_exact_replay(tmp_p
     expected = Counter((r["candidate_id"], r["contest_id"]) for r in observations)
     assert sum(len(r["acquired_background_observations"]) for r in profiles) == len(observations)
     assert summary["candidates_with_acquired_observations"] == len(expected)
+    research = summary["candidate_background_research"]
+    assert research["documented_dispositions"] == research["initially_uncovered"] == 601
+    assert research["baseline_with_observations"] + research["newly_covered_people"] == len(
+        expected
+    )
+    assert len(csv_rows(tmp_path / "research-dispositions.csv")) == 601
+    assert len(csv_rows(tmp_path / "background-field-coverage.csv")) == len(profiles)
+    assert sum(row["in_initial_research_queue"] for row in profiles) == 601
     for row in profiles:
         assert (
             len(row["acquired_background_observations"])

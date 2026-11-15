@@ -67,6 +67,7 @@ def build(root=ROOT, output=None):
         "audits/incumbent-backgrounds.json",
         "audits/full-house-members.json",
         "audits/house-project.md",
+        "audits/candidate-research.json",
     ):
         entries[name] = root / name
     names = ("complete-queries.zip", "substack-figures.zip")
