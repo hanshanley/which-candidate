@@ -19,6 +19,8 @@ KINDS = {
     "official_candidate_supplied_ballot_designation",
     "party_published_candidate_biography",
     "professional_institution_biography",
+    "endorsing_organization_biography",
+    "news_reported_biography",
 }
 CONTEXT = ("candidate_id", "contest_id", "name", "state", "district", "party")
 
@@ -122,7 +124,7 @@ def reviewed_inputs(root, *, profiles=None):
                     **({"pdf_pages": pages} if pages is not None else {}),
                     **{
                         key: source[key]
-                        for key in ("media_type", "retrieval_method")
+                        for key in ("media_type", "retrieval_method", "provider_reference")
                         if key in source
                     },
                 },
@@ -193,7 +195,7 @@ def ingest(root, output=None):
                 previous["evidence"].get("pdf_pages") == annotation.get("pdf_pages"),
                 all(
                     previous["evidence"].get(field) == receipt.get(field)
-                    for field in ("media_type", "retrieval_method")
+                    for field in ("media_type", "retrieval_method", "provider_reference")
                 ),
                 all(
                     previous["evidence"][field] == receipt[field]

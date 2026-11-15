@@ -35,12 +35,16 @@ improvement.** The joint five-trait incumbent model changes held-out MAE from
 candidate ranking. All paired predictions, folds, full-pipeline state deletions
 and selection diagnostics are downloadable.
 
-Profiles expose the **28,306 acquired observations for 916 candidates**, including
+Profiles expose the **28,897 acquired observations for 1,156 candidate records**, including
 losing candidates, with actual values, dates, source receipts and qualifications.
 Search includes these values; individual evidence CSVs preserve their review
-status. The completed 601-person research pass added **233 newly covered people
-and 309 observations**. All 601 have sourced or explicit remaining-gap dispositions;
-that does not mean all candidates have complete or verified biographies.
+status. **The earlier claim of an adequate completed search is withdrawn**:
+first-name-only Bible, banking and furniture results were failed discovery.
+The correction adds **240 newly covered records and fills 569 candidate-by-field
+gaps** since `c0fa188`; 145 already-covered candidates gained fields. These are
+different counts, not complete biographies. The frozen original 601-person
+ledger and separate 701-person discovery/field-gap repair queue preserve the
+old attempts and distinguish sourced facts, reviewed gaps and inadequate searches.
 
 Rebuild the complete current project from pinned normalized inputs:
 
@@ -55,34 +59,50 @@ outputs and complete downloads. The [project audit](audits/house-project.md)
 records the findings, repairs, validation and remaining limitations.
 To ingest newly reviewed evidence without reconstructing missing historical raw
 caches, use `python -m which_candidate.reviewed_backgrounds`, then
+`python -m which_candidate.candidate_discovery --finalize` and
 `python -m which_candidate.candidate_research --finalize`, then rebuild.
 Only new or changed profiles require pinned originals; unchanged normalized
 evidence is preserved. See the [research workflow](docs/HOUSE_CANDIDATES.md#incremental-evidence-ingestion-and-replay).
 
 **Current scope: House only.** The [complete candidate inventory](results/house/candidates.csv)
-accounts for **1,284 named candidates in all 435 districts**, including Republicans,
+accounts for **1,284 named candidate-contest records in all 435 districts**, including Republicans,
 other parties, losers and multiple candidates from the same party. Another 142
 aggregate write-in/none-of-the-above choices are retained separately, not invented
 as people. This is the pinned November 12-13 provider roster, not a certified
 ballot-access census or a claim that every person has complete trait data.
+In particular, 88 unresolved New Jersey write-in identities have explicit roster
+holds; a name written on a ballot does not by itself identify a campaigning person.
 
 The [House information audit](docs/HOUSE_CANDIDATES.md) describes the actual source
 coverage and unresolved fields. All current figures are House-only. Older
 House/Senate analysis snapshots remain unchanged for provenance.
 
 The readable [background observations](results/house/background-observations.csv)
-contain factual/source-reported fields for **916 candidates**, not all 1,284.
+contain factual/source-reported fields for **1,156 candidate records**, not all 1,284.
 They include dated religion records and newly acquired official voter-guide
-profiles and anchored campaign/previous-office biographies. **368 candidates still
-lack these observations**, including eight Democrats, 37 Republicans and 323
+profiles and anchored campaign/previous-office biographies. **128 records still
+lack these observations**, including no Democrats, one Republican and 127
 other-party/write-in candidates. The [601-person disposition table](results/house-study/research-dispositions.csv)
 preserves the original queue, including people now covered. The separate
 [field audit](results/house-study/background-field-coverage.csv) covers all 1,284:
-580 lack acquired education information, 518 employment, 909 prior-office
-information and 1,102 military-service information. Missing service is not
+338 lack acquired education information, 219 professional-history information,
+897 prior-office information and 1,086 military-service information. Professional
+history can include explicitly unpaid roles; it does not universally establish
+paid employment. Missing service is not
 nonservice, and one observed field is not a complete biography. A null-ID matching
 bug that assigned 42 unrelated historical biographies has been corrected; the
 audit documents the withdrawn counts and remaining coverage gaps.
+
+The [discovery correction table](results/house-study/discovery-repair-dispositions.csv)
+also includes already-covered candidates missing education or employment.
+All 45 previously uncovered major-party candidates were revisited: 44 gained
+observations; T.P. Nykoriak remains a reviewed source-specific gap. His campaign's
+Ukraine travel and veteran policies do not establish military service, and
+unsuccessful candidacies are not officeholding. The remaining other-party
+discovery pass retains source-specific gaps and unresolved identities, not an
+exhaustive-search claim. All 88 discoveries still flagged inadequate concern
+unresolved New Jersey write-in identities. Among already-covered repair targets,
+192 still lack an original education/professional-history target field.
 
 The [full House roster](results/members/house-119-seats.csv) now accounts for
 **all 435 voting seats: 433 named occupants and two explicit vacancies** in the

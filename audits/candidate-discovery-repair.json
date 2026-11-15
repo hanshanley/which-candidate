@@ -1,0 +1,69 @@
+{
+  "schema": "which_candidate.discovery_repair_audit.v1",
+  "baseline_revision": "c0fa1885b6da83dc0a7c326092975b8da9dff4b5",
+  "baseline_candidates": 1284,
+  "baseline_covered": 916,
+  "original_research_queue": 601,
+  "original_queue_documented_dispositions": 601,
+  "repair_queue": 701,
+  "current_covered": 1156,
+  "observations": 28897,
+  "reviewed_source_profiles": 735,
+  "candidate_records_with_reviewed_profiles": 576,
+  "newly_covered_people": 240,
+  "added_observations": 591,
+  "newly_filled_candidate_fields": 569,
+  "newly_filled_fields": {
+    "education": 242,
+    "professional_history": 299,
+    "prior_office": 12,
+    "military_service": 16
+  },
+  "already_covered_candidates_gaining_fields": 145,
+  "already_covered_targets_still_missing_target_fields": 192,
+  "remaining_uncovered_people": 128,
+  "remaining_field_gaps": {
+    "education": 338,
+    "professional_history": 219,
+    "prior_office": 897,
+    "military_service": 1086
+  },
+  "records_with_all_four_dimensions_observed": 57,
+  "inadequate_discoveries": 88,
+  "uncovered_records_with_roster_identity_holds": 88,
+  "pending_leads_without_explicit_source_review": 0,
+  "denominator_qualification": "Named candidate-contest records, not 1284 independently verified living people. Roster identity holds do not establish a campaigning person's identity.",
+  "prior_search_adequacy_claim": "withdrawn",
+  "research_status": "All original queue records have accounting dispositions; unknown fields, unresolved identities and contextual leads remain open research, not exhaustive public-data absence findings.",
+  "evidence_qualification": "Originals, provider page extractions and reviewed indexed excerpts retain distinct provenance. Self-reported roles, training and historical observations are not universally verified degrees, licenses, paid employment or election-day status.",
+  "new_evidence_model_ready": false,
+  "website_deployed": false,
+  "validation": {
+    "focused_tests_passed": 59,
+    "full_tests_passed": 339,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "frozen_analysis_files_unchanged": 114,
+    "offline_replay": {
+      "network_denied": true,
+      "historical_raw_cache_present": false,
+      "new_or_changed_profiles_requiring_originals": 0,
+      "normalized_review_profiles_preserved": 735,
+      "byte_identical_generated_files": 104,
+      "byte_identical_complete_query_repack": true
+    },
+    "browser": {
+      "report_sha256": "95572242e4376faff5f66f9fb920f12bb4d85492436256b9ce54819a9fb009e0",
+      "viewport_widths": [1280, 390, 320],
+      "decoded_figures_per_viewport": 10,
+      "filtered_comparison_csv_records": 405,
+      "identity_holds_visible_and_exported": true,
+      "idaho_identity_qualification_visible": true,
+      "page_errors": 0,
+      "external_requests": 0,
+      "horizontal_overflow": false,
+      "readable_findings_and_ten_figures_without_javascript": true
+    },
+    "full_release_verification": "passed; accounting and replay do not establish exhaustive successful discovery or complete biographies"
+  }
+}

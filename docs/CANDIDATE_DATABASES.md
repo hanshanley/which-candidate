@@ -5,38 +5,55 @@ behind the **2026** candidate universe; it is not a new election model, approval
 to republish, or a claim that the missing-characteristic problem is solved.
 Frozen v2/v3 outputs remain unchanged.
 
-## November 15: completed missing-person research pass
+## November 15: discovery correction and open research
 
 The recomputed baseline was **1,284 named House candidates, 683 with acquired
 observations and 601 without**. The frozen person queue is
 `data/candidate-research-queue.json`, not the broader missing-field table.
-The completed pass adds **233 newly covered people and 309 observations**:
-current coverage is **916 people / 28,306 observations**, with 368 people
-still lacking observations. All 601 have sourced or explicit remaining-gap
-dispositions. See the [full accounting and field audit](HOUSE_CANDIDATES.md#completed-601-person-research-pass).
+The original milestone added **233 newly covered people and 309 observations**,
+reaching 916 people. Its search-adequacy claim is withdrawn: Bible, banking and
+furniture first-name results were failed discovery, not useful candidate searches.
+The correction preserves those receipts and freezes a separate 701-person queue:
+368 uncovered candidates plus 333 already-covered people missing education or
+employment.
+
+Current coverage is **1,156 candidate records / 28,897 observations**, with 128 records
+still lacking observations. Since `c0fa188`, **240 records newly have observations
+and 569 candidate-by-field gaps were filled**, including fields for 145 candidates
+already covered. All 45 previously uncovered major-party candidates were
+revisited: 44 gained observations and T.P. Nykoriak remains a reviewed
+source-specific gap. Eighty-eight unresolved New Jersey write-in identities
+remain flagged as inadequate discovery rather than inheriting namesake biographies;
+40 other records retain reviewed source-specific gaps. The denominator
+is named candidate-contest records, not a fully resolved census of people. See the
+[correction accounting and field audit](HOUSE_CANDIDATES.md#discovery-and-missing-field-repair).
 
 | Source actually used or checked | Recorded outcome |
 | --- | --- |
-| [Vote-USA nationwide 2026 House directory](https://vote-usa.org/Election.aspx?Election=U320261103GA) and public profile sections | Acquired the directory, contextualized names/state/district/party, recovered campaign URLs and reviewed visible factual biography answers. Compiled campaign paraphrases remain secondary, not automatically candidate-submitted. Empty shells, provider About pages and search snippets receive no factual credit. No bulk CSV purchased. |
+| [Vote-USA nationwide 2026 House directory](https://vote-usa.org/Election.aspx?Election=U320261103GA) and public profile sections | Acquired the directory, contextualized names/state/district/party, recovered campaign URLs and reviewed visible factual biography answers. Compiled campaign paraphrases remain secondary, not automatically candidate-submitted. Empty shells, provider About pages and unreviewed search snippets receive no factual credit. No bulk CSV purchased. |
 | Official previous-office/member biographies | Acquired and anchored sources include Claire Valdez, Micah Lasher, Jasmine Clark, Blake Miguez and Bob Onder. Candidate identity is checked against the pinned election roster; official service is distinct from campaign self-report. |
 | California Secretary of State candidate statements and ballot designations | Acquired original official PDFs; reviewed factual statement/occupation information with explicit source pages and self-reported qualifications. A ballot designation is a short reported occupation, not a complete career history. |
 | Campaign/about and professional-institution biographies | Acquired actual pages and public browser-rendered DOM where ordinary rendering was needed. Supporting fragments, hashes, retrieval clocks and source kinds survive normalized ingestion. Attendance, family credentials and civilian work for military institutions are not promoted to degrees or military service. |
+| BallotReady public candidate pages | Acquired and reviewed exact-name, 2026 state/district House profiles, retaining directory-reported education/employment/office/service fields and original claims. Party remains the pinned roster's value, not independent directory corroboration. Wrong contests, organization About pages and questionable degree/role claims receive no automatic credit. This is public-profile acquisition, not an acquired CivicEngine API export. |
 | Washington state/county guides | State access failures remain recorded. Kitsap's 32-page 2026 local pamphlet was acquired: its sample ballot lists Teresa Fox, but it does not supply her federal biography. Fox's accepted directory-derived fields and Chris D. Chung's secondary guide background are separate evidence, not Washington state-guide acquisition. Whatcom's denied request was not bypassed. |
 | VOTE411 and other denied/limited sources | Located leads and individual access outcomes are retained, but no denied page or unavailable export counts as acquired facts. Tisha Benoit's professional-page identity remains held rather than guessed. |
+| Historical guides, professional portfolios and alternative search/page providers | Reviewed original historical PDFs and candidate-owned portfolios with explicit historical/self-report qualifications. Provider page extractions and reviewed indexed excerpts are labelled as such, never original server HTML. Search-provider failures and access restrictions remain in the receipts. No job title, degree or military service is inferred from a social-media handle, namesake or neighbouring candidate. |
 
-`data/candidate-acquisition.json` records **471 attempted people / 1,501 distinct
-sources** across both November 15 passes. Only **405 of the frozen 601** had
+At `c0fa188`, `data/candidate-acquisition.json` recorded **471 attempted people /
+1,501 distinct sources**. Only **405 of the frozen 601** had
 direct acquisition attempts; the remaining 196 received contextual directory
 and individual search checks without a safely qualified biography lead.
-Some returned broad search hits were irrelevant first-name results. Receipts
-document that limitation rather than claim exhaustive search or nonexistent
-credentials. All 601 final dispositions retain identity context and distinguish
-accepted sources from downloaded-but-uncredited material.
+Some returned broad search hits were irrelevant first-name results. Those
+receipts did not substantiate the old negative-search dispositions; they are
+preserved as failed history and superseded where actual contextual research is
+available. Current individual receipts distinguish reviewed facts, reviewed gaps,
+pending leads and inadequate discovery rather than claim nonexistent credentials.
 
 The registries are included in complete downloads, together with all normalized
 queries. New/changed annotations have a supported incremental-ingestion path
 that does not require the absent historical raw cache:
 `python -m which_candidate.reviewed_backgrounds`, then
+`python -m which_candidate.candidate_discovery --finalize`, then
 `python -m which_candidate.candidate_research --finalize`, then
 `python -m which_candidate.house_project`. All newly reviewed evidence stays
 descriptive/model-ineligible; no website deployment is authorized.

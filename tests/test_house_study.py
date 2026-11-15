@@ -133,6 +133,14 @@ def test_real_study_retains_all_candidates_contests_holds_and_exact_replay(tmp_p
     assert len(csv_rows(tmp_path / "research-dispositions.csv")) == 601
     assert len(csv_rows(tmp_path / "background-field-coverage.csv")) == len(profiles)
     assert sum(row["in_initial_research_queue"] for row in profiles) == 601
+    repair = summary["candidate_discovery_repair"]
+    repair_rows = csv_rows(tmp_path / "discovery-repair-dispositions.csv")
+    assert len(repair_rows) == 701
+    assert repair["current_with_observations"] == len(expected)
+    assert repair["baseline_with_observations"] + repair["newly_covered_people"] == len(expected)
+    assert (
+        sum(row["newly_covered"] == "True" for row in repair_rows) == repair["newly_covered_people"]
+    )
     for row in profiles:
         assert (
             len(row["acquired_background_observations"])

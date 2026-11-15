@@ -28,6 +28,20 @@ def test_biography_links_are_bounded_same_host_and_not_policy_or_donation_pages(
     assert acquisition.biography_links(raw, "/relative") == []
     assert not acquisition.biography_links(raw, "https://youtube.com/@candidate")
     assert not acquisition.biography_links(raw, "https://vote-usa.org/Intro.aspx?Id=CAJane")
+    assert not acquisition.biography_links(raw, "https://lp.org/candidate/jane-smith/")
+
+
+def test_biography_links_find_autobiographies_without_following_social_share_copies():
+    raw = b"""
+    <a href="/bio/?share=twitter">Share</a>
+    <a href="/bio/?share=facebook">Share</a>
+    <a href="/who-am-i">Who Am I</a>
+    <a href="/my-story">My Story</a>
+    """
+    assert acquisition.biography_links(raw, "https://candidate.example/bio/") == [
+        "https://candidate.example/who-am-i",
+        "https://candidate.example/my-story",
+    ]
 
 
 def test_questionnaire_only_loads_declared_public_biography_answers_for_same_person():
@@ -120,6 +134,44 @@ def test_identical_pages_preserve_alternate_retrieval_receipts():
     }
     with pytest.raises(ValueError, match="Conflicting original bytes"):
         acquisition.merge_receipts([receipt, {**alternative, "bytes": 13}])
+
+
+@pytest.mark.parametrize(
+    ("media_type", "accepted"), [("application/pdf", True), ("text/html", False)]
+)
+def test_large_scanned_publications_are_acquired_without_relaxing_html_limits(
+    tmp_path, monkeypatch, media_type, accepted
+):
+    body = b"%PDF-1.4\n" + b" " * (9 * 1024 * 1024)
+
+    class Response:
+        url = "https://example.org/publication"
+        status = 200
+        headers = {"Content-Type": media_type}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return False
+
+        def read(self, size):
+            return body[:size]
+
+    monkeypatch.setattr(acquisition.urllib.request, "urlopen", lambda *args, **kwargs: Response())
+    candidate, _, _ = review_fixture(tmp_path)
+    record, sources = acquisition.acquire_candidate(
+        {**candidate, "campaign_websites": [Response.url]}, tmp_path
+    )
+    assert bool(sources) is accepted
+    assert record["counted_as_background_coverage"] is False
+    if accepted:
+        assert fingerprint(tmp_path / sources[0]["path"]) == {
+            "bytes": len(body),
+            "sha256": hashlib.sha256(body).hexdigest(),
+        }
+    else:
+        assert record["attempts"][0]["status"] == "empty_or_unsupported_response"
 
 
 def review_fixture(root):
@@ -369,7 +421,8 @@ def test_every_accepted_field_becomes_a_qualified_observation_not_a_model_featur
             row
             for row in observations
             if row["candidate_id"] == candidate["candidate_id"]
-            and json.loads(row["evidence"]).get("source_id") == profile["evidence"]["source_id"]
+            and isinstance(evidence := json.loads(row["evidence"]), dict)
+            and evidence.get("source_id") == profile["evidence"]["source_id"]
         ]
         assert {row["field"] for row in records} == set(profile["fields"])
         for row in records:
@@ -381,10 +434,14 @@ def test_every_accepted_field_becomes_a_qualified_observation_not_a_model_featur
     assert "military_service" not in selected["Mark Teixeira"]["fields"]
     assert "military_service" not in selected["Rachel Grage"]["fields"]
     assert "military_service" not in selected["Carmela Conroy"]["fields"]
-    for profile in profiles:
-        if profile["name"] == "Luke Bronin":
-            assert "broninforcongress.com" in profile["evidence"]["url"]
-            assert "Navy intelligence officer" in profile["fields"]["military_service"][0]
+    bronin_campaign = [
+        profile
+        for profile in profiles
+        if profile["name"] == "Luke Bronin"
+        and "broninforcongress.com" in profile["evidence"]["url"]
+    ]
+    assert len(bronin_campaign) == 1
+    assert "Navy intelligence officer" in bronin_campaign[0]["fields"]["military_service"][0]
     assert (
         "degree completion not established" in selected["Rhett Marques"]["fields"]["education"][0]
     )

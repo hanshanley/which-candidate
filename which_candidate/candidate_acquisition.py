@@ -45,7 +45,20 @@ def biography_links(raw, base):
     if not hostname:
         return []
     host = hostname.removeprefix("www.")
-    if host in ("youtube.com", "vote-usa.org"):
+    if host in (
+        "youtube.com",
+        "vote-usa.org",
+        "ballotready.org",
+        "ivoterguide.com",
+        "geears.org",
+        "nycvotes.org",
+        "thefullrecord.org",
+        "votetheperson.org",
+        "branch.vote",
+        "wfyi.org",
+        "news.wttw.com",
+        "lp.org",
+    ):
         return []
     found = []
     for href, label in parser.links:
@@ -55,9 +68,13 @@ def biography_links(raw, base):
             continue
         if parts.hostname.removeprefix("www.") != host:
             continue
+        if {"share", "shared", "replytocom"} & {
+            key.casefold() for key in urllib.parse.parse_qs(parts.query)
+        }:
+            continue
         text = f"{parts.path} {label}".casefold()
         if (
-            re.search(r"\b(?:about|meet|biography|bio)\b", text)
+            re.search(r"\b(?:about|meet|biography|bio|who[\s-]+am[\s-]+i|my[\s-]+story)\b", text)
             and not re.search(r"\b(?:privacy|terms|donate|news|press|issues)\b", text)
             and url.rstrip("/") != base.rstrip("/")
             and url not in found
@@ -108,11 +125,14 @@ def acquire_candidate(candidate, root):
                 headers={"User-Agent": "WhichCandidateResearch/1.0 (candidate biography research)"},
             )
             with urllib.request.urlopen(request, timeout=20) as response:
-                body = response.read(8 * 1024 * 1024 + 1)
                 resolved, status = response.url, response.status
                 content_type = response.headers.get("Content-Type", "")
+                max_bytes = (
+                    (32 if "application/pdf" in content_type.casefold() else 8) * 1024 * 1024
+                )
+                body = response.read(max_bytes + 1)
             attempt.update(http_status=status, resolved_url=resolved)
-            if status != 200 or not body or len(body) > 8 * 1024 * 1024:
+            if status != 200 or not body or len(body) > max_bytes:
                 attempt["status"] = "empty_or_unsupported_response"
             elif (
                 "html" not in content_type.casefold()

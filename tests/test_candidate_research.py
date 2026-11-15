@@ -222,6 +222,47 @@ def test_finalization_accounts_for_accepted_facts_and_empty_answers_and_replays_
 
 
 @pytest.mark.parametrize(
+    "identity,fields,status",
+    [
+        ("contest_not_qualified", {}, "directory_subject_not_qualified"),
+        ("name_and_2026_house_context_matched", {}, "directory_structured_fields_unavailable"),
+        (
+            "name_and_2026_house_context_matched",
+            {"education": ["College listing"]},
+            "source_pending_factual_review",
+        ),
+    ],
+)
+def test_directory_capture_remains_uncredited_with_truthful_source_outcome(
+    tmp_path, identity, fields, status
+):
+    research_fixture(tmp_path)
+    write_json(
+        tmp_path / "data/candidate-discovery-repair.json",
+        {
+            "candidates": [
+                {
+                    "candidate_id": "2",
+                    "discovery_status": "retry_required",
+                    "public_directory_lookup": {
+                        "extracted_profiles": [
+                            {"source_id": "source-2", "identity_status": identity, "fields": fields}
+                        ]
+                    },
+                }
+            ]
+        },
+    )
+    finalize(tmp_path)
+    ledger = json.loads((tmp_path / "data/candidate-research-dispositions.json").read_text())
+    row = ledger["candidates"][1]
+    assert row["source_outcomes"][0]["status"] == status
+    assert row["research_status"] == "discovery_inadequate_retry_required"
+    assert not row["acquired_observations"]
+    assert not row["accepted_source_ids"]
+
+
+@pytest.mark.parametrize(
     "change", ["coverage", "identity", "receipt", "omitted", "duplicate", "promotion"]
 )
 def test_ledger_rejects_stale_counts_wrong_context_and_unsupported_source_claims(tmp_path, change):

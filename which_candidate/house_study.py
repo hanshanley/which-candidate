@@ -8,6 +8,7 @@ from pathlib import Path
 
 import numpy as np
 
+from .candidate_discovery import attach_repair
 from .candidate_research import attach_dispositions
 from .house_validation import (
     person_key,
@@ -552,6 +553,23 @@ def render_report(summary, fits, donors, measurements):
             "An accepted field is not a complete biography; missing service or "
             "office is not a negative label. Search hits, empty questionnaires, "
             "failed requests and downloaded-but-unaccepted pages do not count as facts.",
+            (
+                "The discovery correction retracts the adequacy of the earlier "
+                "first-name-only searches. The separate 701-person repair queue "
+                "includes already-covered people missing education or employment. "
+                f"Since its baseline, {summary['candidate_discovery_repair']['newly_covered_people']} "
+                "people gained observations and "
+                f"{sum(summary['candidate_discovery_repair']['newly_filled_fields'].values())} "
+                "candidate-by-field gaps were filled. "
+                f"{summary['candidate_discovery_repair']['remaining_uncovered_people']} "
+                "people still lack observations; "
+                f"{summary['candidate_discovery_repair']['inadequate_discovery_still_requiring_retry']} "
+                "still require adequate discovery. Individual correction outcomes "
+                "are in `discovery-repair-dispositions.csv`. Documented attempts "
+                "do not establish exhaustive research or complete biographies."
+                if summary.get("candidate_discovery_repair")
+                else ""
+            ),
             "",
             "## What remains unresolved",
             "",
@@ -608,6 +626,7 @@ def build(root=ROOT, output=None):
         evidence,
     )
     research = attach_dispositions(root, profiles)
+    repair = attach_repair(root, profiles)
     predictive, paired_predictions, paired_folds, deletions = predictive_comparisons(panel)
     selection = selection_diagnostics(
         panel,
@@ -641,6 +660,7 @@ def build(root=ROOT, output=None):
         "acquired_background_observations": sum(len(rows) for rows in evidence.values()),
         "candidates_with_acquired_observations": len(evidence),
         "candidate_background_research": research,
+        "candidate_discovery_repair": repair,
         "new_background_fields_used_in_models": False,
         "frozen_analysis_outputs_changed": False,
         "website_publication": "withdrawn",
@@ -660,6 +680,28 @@ def build(root=ROOT, output=None):
         ("trait-predictive-value.csv", predictive),
         ("trait-validation-predictions.csv", paired_predictions),
         ("trait-selection.csv", selection),
+        (
+            "discovery-repair-dispositions.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    **row["background_discovery_repair"],
+                    "remaining_background_fields": row["remaining_background_fields"],
+                }
+                for row in profiles
+                if row.get("background_discovery_repair")
+            ],
+        ),
         (
             "research-dispositions.csv",
             [
@@ -720,8 +762,18 @@ def build(root=ROOT, output=None):
         {
             "schema": "which_candidate.house_study.v1",
             "inputs": {
-                f"{directory}/manifest.json": fingerprint(root / directory / "manifest.json")
-                for directory in ("results/2026-v4", "results/house", "results/members")
+                **{
+                    name: fingerprint(root / name)
+                    for name in (
+                        "data/candidate-discovery-repair.json",
+                        "data/candidate-discovery-baseline.json",
+                    )
+                    if (root / name).exists()
+                },
+                **{
+                    f"{directory}/manifest.json": fingerprint(root / directory / "manifest.json")
+                    for directory in ("results/2026-v4", "results/house", "results/members")
+                },
             },
             "files": {
                 p.name: fingerprint(p)

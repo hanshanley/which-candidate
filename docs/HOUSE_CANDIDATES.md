@@ -25,15 +25,15 @@ Current source-qualified coverage:
 | Historical CampaignView biography records | 87 | 34 | 53 | 0 |
 | Historical campaign-site factual extractions | 184 | 95 | 89 | 0 |
 | Official candidate-supplied voter-guide profiles | 30 | 11 | 8 | 11 |
-| Reviewed campaign/official/directory/institution profiles (people) | 299 | 111 | 124 | 64 |
+| Reviewed campaign/official/directory/institution profiles (candidate records) | 576 | 141 | 173 | 262 |
 | Dated Pew/CQ religion observations | 352 | 179 | 172 | 1 |
 | Member-authorized or official member backgrounds | 362 | 184 | 177 | 1 |
 | Positive House Historian identifications | 101 | 89 | 12 | 0 |
-| Any downloadable background observations | 916 | 441 | 396 | 79 |
+| Any downloadable background observations | 1,156 | 449 | 432 | 275 |
 | Name-qualified historical donor scores | 370 | 192 | 178 | 0 |
 | Prior federal voting scores | 293 | 149 | 143 | 1 |
 
-Rows overlap and must not be added. **368 candidates still lack downloadable
+Rows overlap and must not be added. **128 candidate records still lack downloadable
 background observations.** An observation can be historical, machine-extracted,
 candidate-supplied or an explicit unknown questionnaire response; it is not a
 complete verified biography. One legacy campaign-corpus record and the separately
@@ -57,7 +57,7 @@ The held historical search contains 244 CampaignView profiles; only 87 candidate
 have a currently qualified nonempty biography from 2024 or earlier. Historical
 issue headings, years, lengths and hashes are supplied, not copyrighted campaign
 text. These pointers do not count as downloadable factual background in the
-916-person denominator unless another source actually supplies observations.
+current coverage denominator unless another source actually supplies observations.
 
 `results/house/candidates.csv` is the readable candidate-level table.
 `candidates.jsonl.gz` adds every match decision, source row, campaign URL,
@@ -160,7 +160,7 @@ the held campaign URLs and explicit `data/candidate-source-leads.json` drive it.
 Previously attempted URLs are not silently retried. Reproducible research uses
 the normalized inputs, not this live acquisition command.
 
-### Completed 601-person research pass
+### Original 601-person ledger: search adequacy withdrawn
 
 The queue was recomputed from
 `results/house-study/candidate-profiles.jsonl.gz`, selecting only candidates
@@ -169,21 +169,23 @@ covered, 601 uncovered**. `data/candidate-research-queue.json` freezes those
 601 identities and the baseline profile fingerprint. `missing-information.csv`
 is not this queue: it also includes partially covered people.
 
-Every queued person has a contextual directory check, a saved individual search
-request/result receipt and a final disposition in
+Every queued person had a directory check, a saved individual search
+request/result receipt and a disposition in
 `data/candidate-research-dispositions.json`. Major-party research preceded the
 other parties and named write-ins. Direct source acquisition reached **405 of
 the 601**; the other 196 had no safely contextualized biography lead in this
-bounded pass. Many broad search results were irrelevant first-name matches:
-they remain discovery receipts, never factual evidence or an exhaustive
-assertion that no public biography exists.
+bounded pass. Many searches returned irrelevant first-name matches. Those were
+**failed discovery, not adequate candidate searches**. Merely saving the receipts
+did not establish an adequate completed research pass; that interpretation is
+withdrawn. The original attempts remain as history and the correction below
+supersedes their research-adequacy labels.
 
 Reviewed evidence newly covers **233 people: 77 Democrats, 93 Republicans and
 63 other-party/write-in candidates**, adding **309 observations**. The annotation
-registry now contains 324 source profiles for 299 distinct people and 431
+registry at that milestone contained 324 source profiles for 299 distinct people and 431
 anchored fields, including the preceding 66-person pass. These overlapping
 source/profile counts must not be substituted for newly covered people.
-The current long table has **28,306 observations for 916 people**.
+That milestone's long table had **28,306 observations for 916 people**.
 
 | Final outcome for the frozen queue | People |
 | --- | ---: |
@@ -194,7 +196,7 @@ The current long table has **28,306 observations for 916 people**.
 | Located sources inaccessible in the recorded attempts | 3 |
 | Total documented outcomes | 601 |
 
-The remaining **368 uncovered people** comprise eight Democrats, 37 Republicans
+At that milestone, the **368 uncovered people** comprised eight Democrats, 37 Republicans
 and 323 others. Neither a provider's About page, a campaign shell, a search
 snippet, a downloaded PDF nor an ambiguous military anecdote counts as reviewed
 background. Tisha Benoit's professional page remains held for insufficient
@@ -211,6 +213,82 @@ biographies supplement the directory. Browser-rendered snapshots are identified
 as public DOM captures, not original HTTP response bytes. No paid export was
 purchased and no access denial was bypassed.
 
+### Discovery and missing-field repair
+
+The correction froze `c0fa188` coverage separately in
+`data/candidate-discovery-baseline.json`: 1,284 candidates, 916 covered and
+368 uncovered. The 701-person `data/candidate-discovery-repair.json` queue adds
+333 already-covered candidates who lacked education or employment. The original
+601-person queue is preserved, not redefined.
+
+Current normalized coverage is **28,897 observations for 1,156 candidate records**.
+Compared with `c0fa188`, **240 records newly have observations**, while **569
+candidate-by-field gaps** were filled: education 242, professional history 299,
+prior office 12 and military service 16. **145 previously covered candidates** gained
+fields; 192 previously covered repair targets still lack at least one original
+education/employment target. Multiple sources for one person do not inflate
+the person count.
+
+All 45 previously uncovered Democrats/Republicans were revisited, yielding 44
+newly covered people. T.P. (Taras P.) Nykoriak remains a reviewed gap: his pinned
+campaign and contextual profiles did not establish the four requested categories.
+Ukraine travel and veteran-policy positions are not military service, and
+candidacies are not offices held. Exact-context source-backed gap receipts
+remain separate from factual annotations.
+
+Remaining uncovered records are **zero Democrats, one Republican and 127
+other-party/write-in entries**. Of these, 88 New Jersey write-in entries retain
+roster identity holds and remain explicitly flagged as inadequate discovery;
+the other 40 have reviewed source-specific gaps, not proof
+that a complete public biography does not exist. A failed guessed URL, blocked
+search, irrelevant result or directory shell cannot establish that absence.
+All 601 original queue records have accounting dispositions; this does not
+mean all source discovery succeeded. That original 683-covered baseline has
+gained 473 covered records.
+
+The denominator counts named candidate-contest records, not 1,284 independently
+identified living people. The identity holds preserve the exact roster context
+and vote receipt without assigning a famous namesake's credentials or claiming
+the person campaigned. The local browser and filtered downloads expose the holds.
+
+New sources include the supplied Gies faculty, Dawson campaign, Pericola
+campaign and Rodriguez endorsing-organization biographies. Further reviewed
+sources cover minor-party candidates and education gaps among already-covered
+people. BallotReady public-profile observations remain directory-reported,
+not official transcripts or universally candidate-submitted questionnaires.
+School listing is not graduation, stale employment dates are not election-day
+status, and suspect degree/occupation claims remain held. All new records are
+retrospective/model-ineligible.
+
+Additional native sources include candidate career portfolios, historical
+voter guides and current campaign biographies. Self-reported training is not
+necessarily a college degree; a job-seeking objective or unpaid party role is
+not proof of paid employment. Andrea Townsend's housing work is separately
+reported in Oregon Capital Chronicle and syndicated Statesman Journal reporting;
+the Southern Oregon education administrator with the same name is not joined.
+Ramon Mora's reported nursing education is not treated as an RN license.
+Michelle Craig's acquired campaign and forthcoming-book pages establish neither
+a completed publication nor employment/education credentials and remain a gap.
+
+The original Idaho roster label "Sarah Zabel Peterson" is preserved for
+reconciliation, not asserted as a person's name. Clearwater County's official
+sample ballot (page 1) separately lists Sarah Zabel (Independent) and Kaylee
+Peterson (Democratic); FEC H6ID01318 identifies Sarah Zabel in ID-01. The
+independent entry's newly attached campaign-reported education, work and military
+facts refer only to Sarah Zabel. Both identity originals and the source-specific
+review are retained; the Minnesota school-board namesake is rejected.
+All seven formerly pending lead records now have explicit source reviews,
+including wrong-contest rejections, without turning directory shells or civic
+motivations into credentials.
+
+Some evidence uses explicitly labelled provider page extractions or reviewed
+indexed excerpts rather than original server HTML. Those receipts retain the
+method, provider reference, exact captured fragments and native access failures;
+they are not independent corroboration or silently substituted full originals.
+Ordinary OS-trusted HTTPS recovered several Python certificate-chain failures
+with certificate verification enabled. Denied/paywalled sources were not bypassed.
+The acquisition cap is 32 MiB for PDF guides and 8 MiB for HTML.
+
 #### Remaining requested fields
 
 `results/house-study/background-field-coverage.csv` audits all 1,284 candidates.
@@ -219,12 +297,12 @@ unknown and refused values do not count as substantive field availability.
 
 | Requested dimension | People with acquired observations | People without |
 | --- | ---: | ---: |
-| Education | 704 | 580 |
-| Employment/professional history | 766 | 518 |
-| Prior office/governmental experience | 375 | 909 |
-| Military service | 182 | 1,102 |
+| Education | 946 | 338 |
+| Employment/professional history | 1,065 | 219 |
+| Prior office/governmental experience | 387 | 897 |
+| Military service | 198 | 1,086 |
 
-Only 54 people have observations in all four dimensions; that still does not
+Only 57 candidate records have observations in all four dimensions; that still does not
 establish complete, current or independently verified biographies. Historical
 and machine-extracted fields retain their qualifications. No military section
 does not mean nonservice, and no office observation does not mean never held
@@ -234,6 +312,8 @@ extractions and should not be read as a verified elected-office count.
 `results/house-study/research-dispositions.csv` supplies all 601 frozen identities,
 accepted sources, failed attempts, search receipts and field gaps. The local
 browser exposes these outcomes and permits searching and CSV download of them.
+`discovery-repair-dispositions.csv` separately supplies all 701 correction
+targets, whether previously uncovered or only missing individual fields.
 Both complete downloads contain the registries, normalized evidence, tests,
 code, all candidate queries and the field/disposition tables.
 
@@ -254,6 +334,7 @@ district and party. PDF annotations require explicit one-based source pages.
 python -m which_candidate.candidate_acquisition
 # Review material; update annotations or the gap's review_note and reviewed_source_ids.
 python -m which_candidate.reviewed_backgrounds
+python -m which_candidate.candidate_discovery --finalize
 python -m which_candidate.candidate_research --finalize
 python -m which_candidate.house_project
 ```
@@ -278,6 +359,14 @@ All additions remain retrospective/descriptive and `model_ready: false`.
 Frozen models, samples and historical snapshots are unchanged. Ordinary
 `house_project` replay uses only committed normalized inputs; it makes no live
 acquisition requests and does not deploy the website.
+
+For the discovery repair, `candidate_discovery.record_search` preserves actual
+performed contextual queries, provider references, returned leads and rejected
+irrelevant hits. Generated query suggestions are not performed-search receipts.
+`candidate_discovery.record_gap_review` validates a source-backed gap against
+owned original hashes, exact candidate context and supporting identity fragments,
+without adding factual observations. Unchanged normalized evidence and saved
+gap receipts remain replayable without historical raw pages.
 
 ## Full House membership and incoming members
 

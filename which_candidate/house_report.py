@@ -143,6 +143,10 @@ function showProfile(row){
  ['Religion evidence status',row.religion_status],['Cutoff federal yea/nay votes cast',row.cast_yea_nay_votes],
  ['Background research status',row.background_research?.research_status],
  ['Research disposition',row.background_research?.disposition],
+ ['Discovery correction status',row.background_discovery_repair?.discovery_status],
+ ['Discovery correction disposition',row.background_discovery_repair?.disposition],
+ ['Roster identity hold (not biography evidence)',row.background_discovery_repair?.roster_identity_review?.disposition],
+ ['Previously missing fields filled by the correction',row.background_discovery_repair?.newly_filled_fields],
  ['Requested fields without substantive acquired observations (not negative trait labels)',Array.isArray(row.remaining_background_fields)?(row.remaining_background_fields.length?row.remaining_background_fields:'All four fields have observations; not necessarily complete or verified.'):'Not audited here: this field audit applies to election candidates.'],
  ['Comparison holds',row.comparison_holds.length?row.comparison_holds:'No hold for the selected Democratic comparison, or not the selected Democratic candidate'],
  ['Unreviewed campaign field names — not verified model inputs',row.machine_biography_fields_unreviewed]];
@@ -150,7 +154,9 @@ function showProfile(row){
  box.append(el('p','Newly attached backgrounds remain descriptive and have not been added to the trait models. Unknowns are not negative labels. A provisional winner flag is not certification.'));
  showEvidence(box,row);
  if(row.background_research){const research=el('details');research.append(el('summary','Research receipts and access outcomes'),el('pre',JSON.stringify(row.background_research,null,2)));box.append(research)}
- const sources=urls([row.background_evidence,row.campaign_websites,row.background_research,(row.acquired_background_observations||[]).map(o=>o.evidence)]);box.append(el('h3','Source links'));
+ if(row.background_discovery_repair?.gap_review){const review=el('details');review.append(el('summary','Reviewed-gap source receipts'),el('pre',JSON.stringify(row.background_discovery_repair.gap_review,null,2)));box.append(review)}
+ if(row.background_discovery_repair?.roster_identity_review){const review=el('details');review.append(el('summary','Unresolved write-in identity: preserved roster receipt'),el('pre',JSON.stringify(row.background_discovery_repair.roster_identity_review,null,2)));box.append(review)}
+ const sources=urls([row.background_evidence,row.campaign_websites,row.background_research,row.background_discovery_repair,(row.acquired_background_observations||[]).map(o=>o.evidence)]);box.append(el('h3','Source links'));
  const list=el('ul');for(const url of sources){const a=el('a',url);a.href=url;a.rel='noreferrer';const li=el('li');li.append(a);list.append(li)}box.append(list);
 }
 function number(value){return typeof value==='number'?value.toFixed(2):'—'}
@@ -163,7 +169,7 @@ function render(){
 }
 const searchIndex=new WeakMap();
 function searchText(row){
- if(!searchIndex.has(row))searchIndex.set(row,[row.name,row.state,row.district,row.education,row.professional_history,row.military_service,row.religion_literal,row.background_research?.research_status,row.background_research?.disposition,row.remaining_background_fields,...(row.acquired_background_observations||[]).map(o=>o.value)].filter(v=>v!==null&&v!==undefined).map(pretty).join(' ').toLowerCase());
+ if(!searchIndex.has(row))searchIndex.set(row,[row.name,row.state,row.district,row.education,row.professional_history,row.military_service,row.religion_literal,row.background_research?.research_status,row.background_research?.disposition,row.background_discovery_repair?.discovery_status,row.background_discovery_repair?.disposition,row.remaining_background_fields,...(row.acquired_background_observations||[]).map(o=>o.value)].filter(v=>v!==null&&v!==undefined).map(pretty).join(' ').toLowerCase());
  return searchIndex.get(row);
 }
 function filter(){
@@ -176,7 +182,7 @@ for(const id of ['search','state','party','scope'])$(id).addEventListener('input
 $('dataset').addEventListener('input',()=>{rows=datasets[$('dataset').value];for(const id of ['search','state','party','scope'])$(id).value='';filter();$('profile').replaceChildren(el('p','Select a name to read the profile.'))});
 $('previous').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});
 $('download').addEventListener('click',()=>{
- const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_model_ready'];
+ const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_discovery_repair','background_model_ready'];
  downloadCSV(filtered,keys,'house-candidate-profiles.csv');
 });
 render();

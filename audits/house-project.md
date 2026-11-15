@@ -121,7 +121,7 @@ All observations retain identity context and pinned evidence. Newly attached
 fields remain descriptive/model-ineligible. Existing source observations are
 not overwritten; multiple records remain in the long evidence table.
 
-## Full missing-person research and integration audit
+## Original missing-person ledger: superseded search adequacy
 
 The next request froze the actual missing-person population before further
 acquisition: 1,284 named candidates, 683 covered and 601 uncovered. It did not
@@ -131,8 +131,8 @@ of these people; the other 196 had no safely contextualized lead after the
 recorded directory and individual search pass. Broad searches sometimes
 returned irrelevant first-name hits, so this is not an exhaustive-search claim.
 
-Actual normalized gains are **233 people and 309 observations**, not the 258
-additional source profiles. Coverage is now **916 of 1,284 people**, comprising
+At that milestone, normalized gains were **233 people and 309 observations**, not the 258
+additional source profiles. Coverage was **916 of 1,284 people**, comprising
 441 Democrats, 396 Republicans and 79 other-party/write-in candidates.
 The 368 remaining gaps comprise eight Democrats, 37 Republicans and 323 others.
 The ledger distinguishes 196 without a contextual lead, 140 captured directories
@@ -156,7 +156,7 @@ extra pages for covered candidates stay uncredited. The browser, its filtered CS
 `research-dispositions.csv` and `background-field-coverage.csv` expose the same
 accounting.
 
-Field gaps remain substantial: education 580, employment 518, prior-office/
+At that milestone, field gaps were education 580, employment 518, prior-office/
 governmental experience 909, military service 1,102, out of all 1,284 candidates.
 Only 54 have observations in all four dimensions, still not necessarily
 complete, current or independently verified biographies. Unknowns, secondary
@@ -164,6 +164,74 @@ paraphrases, self-reports, machine extractions and historical observations
 retain their qualifications. No military/office field is not a negative label.
 Retrospective additions remain model-ineligible, and frozen analysis samples
 and outputs are protected by fingerprint checks.
+
+## Discovery correction and field-gap repair
+
+The user correctly identified that several saved searches were first-name-only
+Bible, banking and furniture results. The earlier implication of an adequate
+completed research pass is withdrawn. Recording an attempt and passing pipeline
+tests do not establish adequate source discovery.
+
+The repair preserves the old receipts and freezes the exact `c0fa188` profile
+fingerprint and per-person field baseline. Its separate 701-person queue contains
+368 people without observations and 333 already-covered people missing education
+or employment. The original 601-person queue and historical normalized inputs
+remain intact.
+
+Current normalized coverage is **1,156 of 1,284 candidate records and 28,897 observations**.
+Since `c0fa188`, gains are **240 newly covered records, 591 added observations and
+569 filled candidate-by-field gaps**. These metrics differ: education gained 242,
+professional history 299, prior office 12 and military service 16; 145 previously covered
+candidates gained fields. The original 683-covered baseline has gained 473 records.
+Remaining field gaps are education 338, professional history 219, prior office 897 and
+military service 1,086. Only 57 records have observations in all four dimensions;
+an observed field is not a complete or verified biography. The reviewed registry
+contains 735 source profiles for 576 distinct candidate records, not 735 newly
+covered people.
+
+All 45 formerly uncovered major-party candidates were revisited. Forty-four
+gained facts; T.P. Nykoriak remains a reviewed gap with pinned campaign/contextual
+source receipts. His Detroit roots, Ukraine travel and veteran policies do not
+establish education, employment, an office held or military service. No Democrats,
+one Republican and 127 other-party/write-in records remain uncovered. Of these,
+88 unresolved New Jersey write-in identities remain explicitly flagged for
+inadequate discovery. The remaining 40 have reviewed source-specific gaps,
+not exhaustive public-data absence findings. All original 601
+records have accounting dispositions, which is not the same as successful
+discovery. Another 192 already-covered targets still lack an original
+education/professional-history target field.
+
+The roster denominator is named candidate-contest records, not 1,284 independently
+verified people. Identity holds retain roster provenance without inheriting
+famous or professional namesakes' attributes. Reviewed indexed excerpts and
+public-provider page extractions retain their actual method and limitations;
+they are not native HTML or independent verification. Some Python certificate
+failures were recovered through ordinary OS-trusted HTTPS with verification
+enabled. Access restrictions were not bypassed.
+
+All seven formerly pending-lead records received explicit native-source review.
+Wrong-state/district directory profiles were rejected. The composite Idaho label
+"Sarah Zabel Peterson" is retained for reconciliation, while the official county
+ballot and FEC H6ID01318 support attributing only Sarah Zabel's self-reported
+background to the Independent entry. Kaylee Peterson is a separate Democrat;
+the original label is not silently rewritten and frozen analysis is unchanged.
+
+New contextual institutional, campaign, official and voter-directory acquisitions
+include the four supplied Gies, Dawson, Pericola and Rodriguez sources. Public
+BallotReady fields remain directory-reported and exact-contest qualified.
+Suspect college degree claims and ambiguous occupational labels are held, not
+silently treated as credentials. School listing is not graduation, a candidacy
+is not officeholding and a generic work/military section does not establish
+military service.
+
+Discovery tests reject the original irrelevant results, wrong districts/years,
+changed snapshots, unsupported exclusions and stale person/field accounting.
+New gap reviews verify owned source hashes and supporting fragments without
+creating observations. The local browser and filtered CSV expose the repair
+status and sources; `discovery-repair-dispositions.csv` covers all 701 targets.
+The source registries and full normalized queries are included in both downloads.
+This fixes discovery accountability, not the remaining evidence gaps. All new
+facts stay retrospective/model-ineligible; no website deployment is authorized.
 
 ## Validation contract
 
@@ -176,7 +244,9 @@ Added tests check a transferable synthetic signal, held-state/person target
 perturbations, unsupported folds, an independently recomputed deletion, complete
 candidate/contest observation attachment and unscaled predictive chart intervals.
 
-The release receipt in `audits/publication.json` records actual full-suite,
+The discovery-repair receipt in `audits/candidate-discovery-repair.json` records
+the current research accounting; release verification receipts accompany it in
+the same audit directory. The older `audits/publication.json` records earlier full-suite,
 formatting, browser and network-disabled extracted-replay outcomes. Do not treat
 this validation contract itself as evidence that those checks have passed.
 

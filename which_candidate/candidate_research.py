@@ -93,6 +93,8 @@ BACKGROUND_FIELDS = {
     "military_service": {"military_service"},
 }
 GAP_STATUSES = {
+    "discovery_inadequate_retry_required",
+    "contextual_leads_pending_review",
     "reviewed_no_qualified_facts",
     "questionnaire_fields_unavailable",
     "source_access_failed",
@@ -107,6 +109,9 @@ SOURCE_OUTCOMES = {
     "captured_questionnaire_answer_empty",
     "reviewed_no_qualified_facts",
     "captured_page_without_visible_background",
+    "directory_subject_not_qualified",
+    "directory_structured_fields_unavailable",
+    "source_pending_factual_review",
 }
 
 
@@ -480,6 +485,8 @@ def search_links(body):
 
 
 def discover(root):
+    from .candidate_discovery import assess_results
+
     root = Path(root)
     queue = establish_queue(root)
     directory_receipt, body = public_fetch(DIRECTORY, root, "vote-usa-directory", timeout=60)
@@ -497,20 +504,32 @@ def discover(root):
             "candidates": [],
         }
     )
-    completed = {row["candidate_id"] for row in ledger["candidates"]}
+    completed = {
+        row["candidate_id"]
+        for row in ledger["candidates"]
+        if row.get("acquired_observations")
+        or assess_results(row, row.get("search_result_links", []))["relevant_results"]
+    }
 
     def research(candidate):
         matches = directory_matches(candidate, rows)
         query = f'"{candidate["name"]}" {candidate["state"]} Congress 2026 biography'
         url = "https://www.bing.com/search?" + urllib.parse.urlencode({"q": query})
         receipt, search_body = public_fetch(url, root, f"search-{candidate['candidate_id']}")
+        links = search_links(search_body) if search_body else []
+        quality = assess_results(candidate, links)
         return {
             **{key: candidate[key] for key in CONTEXT},
-            "research_status": "source_discovery_completed; factual_review_pending",
+            "research_status": (
+                "source_discovery_completed; factual_review_pending"
+                if quality["relevant_results"]
+                else "discovery_inadequate_retry_required"
+            ),
             "directory_matches": matches,
             "search_query": query,
             "search_receipt": receipt,
-            "search_result_links": search_links(search_body) if search_body else [],
+            "search_result_links": links,
+            "search_quality": quality,
             "acquired_observations": False,
             "disposition": "No facts credited from directory listings or search snippets.",
         }
@@ -540,7 +559,35 @@ def discover(root):
                                 }
                             )
                             known.add((result["candidate_id"], url))
-                ledger["candidates"].append(result)
+                previous = next(
+                    (
+                        row
+                        for row in ledger["candidates"]
+                        if row["candidate_id"] == result["candidate_id"]
+                    ),
+                    None,
+                )
+                if previous is None:
+                    ledger["candidates"].append(result)
+                else:
+                    history = previous.setdefault("search_history", [])
+                    history.append(
+                        {
+                            key: previous[key]
+                            for key in ("search_query", "search_receipt", "search_result_links")
+                        }
+                    )
+                    previous.update(
+                        {
+                            key: result[key]
+                            for key in (
+                                "search_query",
+                                "search_receipt",
+                                "search_result_links",
+                                "search_quality",
+                            )
+                        }
+                    )
                 write_json(ledger_path, ledger)
                 write_json(leads_path, leads)
                 print(
@@ -563,6 +610,12 @@ def finalize(root):
     ledger_path = root / "data/candidate-research-dispositions.json"
     queue = json.loads(queue_path.read_text())
     ledger = json.loads(ledger_path.read_text())
+    repair_path = root / "data/candidate-discovery-repair.json"
+    repair = (
+        {row["candidate_id"]: row for row in json.loads(repair_path.read_text())["candidates"]}
+        if repair_path.exists()
+        else {}
+    )
     decisions = {row["candidate_id"]: row for row in ledger["candidates"]}
     if len(decisions) != len(ledger["candidates"]) or set(decisions) != {
         row["candidate_id"] for row in queue["candidates"]
@@ -599,6 +652,11 @@ def finalize(root):
         }
         candidate = candidates.get(cid, {"source_ids": [], "attempts": []})
         previous = {row["source_id"]: row for row in decision.get("source_outcomes", [])}
+        follow_up = repair.get(cid, {})
+        directory_profiles = {
+            row["source_id"]: row
+            for row in follow_up.get("public_directory_lookup", {}).get("extracted_profiles", [])
+        }
         outcomes = []
         for sid in candidate["source_ids"]:
             source = sources[sid]
@@ -616,6 +674,21 @@ def finalize(root):
                 status = previous[sid]["status"]
             elif records:
                 status = "additional_source_not_credited"
+            elif sid in directory_profiles:
+                if fingerprint(root / source["path"]) != {
+                    key: source[key] for key in ("bytes", "sha256")
+                }:
+                    raise ValueError("Changed source while finalizing directory disposition")
+                extracted = directory_profiles[sid]
+                status = (
+                    "directory_subject_not_qualified"
+                    if extracted["identity_status"] != "name_and_2026_house_context_matched"
+                    else (
+                        "source_pending_factual_review"
+                        if extracted["fields"]
+                        else "directory_structured_fields_unavailable"
+                    )
+                )
             elif directory and location.path.lower() == "/intro.aspx":
                 status = "directory_listing_not_background"
             elif directory and location.path.lower() == "/ajaxcontent.aspx":
@@ -687,6 +760,25 @@ def finalize(root):
                 "contextual matches; the individual search receipt and returned links "
                 "are discovery-only, not evidence or an exhaustive absence claim."
             )
+        follow_up = repair.get(cid)
+        if not records and follow_up:
+            if follow_up["discovery_status"] == "retry_required":
+                status = "discovery_inadequate_retry_required"
+                note = (
+                    "Earlier first-name-only/irrelevant results are failed discovery, not "
+                    "adequate candidate research. Further contextual source discovery is "
+                    "required; unsuccessful URL lookups do not establish absent biographies."
+                )
+            elif follow_up["discovery_status"] == "leads_pending_source_review":
+                status = "contextual_leads_pending_review"
+                note = (
+                    "The repaired discovery pass located contextual leads that still need "
+                    "source acquisition, identity qualification and factual review. No "
+                    "background fields are credited from search results alone."
+                )
+            elif follow_up["discovery_status"] == "reviewed_gap_documented":
+                status = "reviewed_no_qualified_facts"
+                note = follow_up["disposition"]
         decision.update(
             research_status=status,
             disposition=note,
