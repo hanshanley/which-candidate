@@ -9,6 +9,7 @@ from which_candidate.characteristics_research import reviewed_claims
 from which_candidate.characteristics_v2 import verify_frozen
 from which_candidate.characteristics_v5 import new_rows
 from which_candidate.characteristics_v5_acquisition import BASELINE, QUEUE, freeze
+from which_candidate.house_study import attach_research_history
 from which_candidate.storage import json_bytes, read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,3 +80,16 @@ def test_identity_bridge_requires_literal_authorized_committee_not_nickname_assu
         reviewed_claims(source, receipt, " ".join(fragments))
     fragments.extend(source["claims"][0]["identity_support"])
     assert reviewed_claims(source, receipt, " ".join(fragments))[0]["value"] is False
+
+
+def test_v5_additions_do_not_rewrite_frozen_research_dispositions():
+    profiles = read_rows(ROOT / "results/house-study/candidate-profiles.jsonl.gz")
+    assert any(
+        str(o.get("evidence", {}).get("id", "")).startswith("v5-")
+        for p in profiles
+        for o in p["acquired_background_observations"]
+        if isinstance(o.get("evidence"), dict)
+    )
+    research, repair = attach_research_history(ROOT, profiles)
+    assert research["historical_milestone_not_new_acquisition"]
+    assert repair["historical_milestone_not_new_acquisition"]

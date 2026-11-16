@@ -1,6 +1,31 @@
 # Full candidate-characteristics successor
 
-## Current release: thin-trait acquisition V4
+## Current release: official-biography and identity acquisition V5
+
+Read `results/house-characteristics-v5/report.md` or open
+`publication/characteristics-v5/report.html`. Ten new evidence-yielding originals
+add **27 observations for ten Democrats and 23 candidate-trait fields**.
+Seven previously unknown fields across six candidates receive first observations.
+All 796 earlier normalized claims and V1-V4 outputs remain unchanged.
+
+There are **13 additional analytical fields**: exact age **193→196**, education
+**197→201**, profession **95→96** and federal incumbency **432→437**. Five new
+FEC campaign-name/legal-name links resolve election controls without changing
+verified-service flags; twelve Democratic holds remain. Pearson's explicit but
+undated religious description raises factual coverage **180→181**, not analytical
+coverage. Bounded birth years, missing graduation statements, ambiguous occupations
+and unsupported aliases remain held.
+
+Four affected blocks are recomputed; eleven numerical-input-identical V4 blocks
+are reused. No new trait contrast becomes estimable. Joint D/R incumbency and
+selective historical donor ideology retain their Holm-qualified associations;
+no predictive-gain interval excludes zero. All fifteen traits, fitted samples,
+source exclusions and incumbent/nonincumbent/unresolved breakdowns appear in
+`v4-v5-trait-progress.csv`, the report and complete downloads.
+See `HOUSE_CHARACTERISTICS_V5_SPEC.md` and `HOUSE_CHARACTERISTICS_V5_ACQUISITION.md`.
+**No website deployment.**
+
+## Frozen thin-trait acquisition V4
 
 Read `results/house-characteristics-v4/report.md` or open
 `publication/characteristics-v4/report.html`. V4 ingests **91 observations from

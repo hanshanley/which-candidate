@@ -188,7 +188,7 @@ def build(root=ROOT, output=None):
     names = ("complete-queries.zip", "substack-figures.zip")
     with TemporaryDirectory(prefix=".which-candidate-packages-", dir=output) as directory:
         staged = Path(directory)
-        write_zip(staged / names[0], entries, lzma_text_threshold=8 * 1024 * 1024)
+        write_zip(staged / names[0], entries, lzma_text_threshold=1024 * 1024)
         figures = root / "publication"
         upload = {
             name: figures / name
@@ -199,10 +199,12 @@ def build(root=ROOT, output=None):
         upload["READ-ME.md"] = root / "docs/DOWNLOADS.md"
         # Full trait tables remain in the exact nested complete-query archive;
         # duplicating them here would exceed GitHub's single-file size limit.
-        write_zip(staged / names[1], upload)
+        write_zip(staged / names[1], upload, lzma_text_threshold=1024 * 1024)
         receipts = {name: fingerprint(staged / name) for name in names}
         if any(receipt["bytes"] >= 100 * 1024 * 1024 for receipt in receipts.values()):
-            raise ValueError("Complete download exceeds GitHub's 100-MiB single-file limit")
+            raise ValueError(
+                f"Complete download exceeds GitHub's 100-MiB single-file limit: {receipts}"
+            )
         write_json(staged / "downloads.json", receipts)
         all_names = (*names, "downloads.json")
         for name in all_names:

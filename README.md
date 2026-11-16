@@ -13,25 +13,26 @@ remain separate from Democratic nominees.
 ## Status
 
 **Current full-trait successor:** read the
-[complete characteristics report](results/house-characteristics-v4/report.md)
-or open **`publication/characteristics-v4/report.html`** locally. It covers all
+[complete characteristics report](results/house-characteristics-v5/report.md)
+or open **`publication/characteristics-v5/report.html`** locally. It covers all
 fifteen requested trait blocks, with separate coverage for 1,284 candidates,
 449 Democrats and 405 eligible Democratic performance comparisons. The
 [reviewed dataset and methods](docs/HOUSE_CHARACTERISTICS.md) distinguish
 qualified, dated/reported, uncertain, unknown and inapplicable values.
 
-V4 acquires **91 observations from 11 evidence-yielding originals**, covering
-**27 Democrats and 88 candidate-trait fields**. Six previously unknown fields
-gain first observations; most observations instead fill missing coding/timing
-requirements or corroborate existing evidence. Democratic analytical coverage
-changes: age 192→193, religion 163→168, education 183→197, profession 89→95 and
-positive military values 17→22. A separate held-FEC review resolves seven
-Democratic and three opponent election controls; 17 Democratic holds remain.
-All V1–V3 outputs and 705 earlier reviewed claims are preserved.
+V5 acquires **27 observations from ten evidence-yielding originals**, covering
+**ten Democrats and 23 candidate-trait fields**. Seven previously unknown fields
+across six candidates gain first observations; other observations supply missing
+precision, credentials, historical timing or corroboration. Democratic analytical
+coverage changes: age 193→196, education 197→201, profession 95→96 and federal
+incumbency 432→437. New official FEC campaign-name links resolve five controls,
+not independent federal-service verification; twelve Democratic holds remain.
+An undated explicit religious description adds factual but not analytical coverage.
+All V1–V4 outputs and 796 earlier reviewed claims are preserved.
 
-There are **38 additional Democratic analytical fields but zero newly estimable
+There are **13 additional Democratic analytical fields but zero newly estimable
 trait blocks**. Source coverage and analytical support are different milestones.
-Four input-identical blocks are reused and eleven affected blocks recomputed.
+Eleven input-identical blocks are reused and four affected blocks recomputed.
 Full-cohort failures remain visible: restricted matched prediction does not
 validate unsupported candidates. The complete fifteen-trait before/after table
 and incumbent/challenger breakdowns accompany the report.
@@ -63,6 +64,10 @@ The [V4 validation receipt](audits/house-characteristics-v4-validation.json)
 records 421 passing tests, independent reproduction of eleven associations and
 1,709 matched predictions, desktop/mobile/no-JS browser checks, and exact
 network-denied replay. All 275 protected files, including V1–V3, are unchanged.
+The [V5 validation receipt](audits/house-characteristics-v5-validation.json)
+records 425 passing tests, independent reproduction of eleven associations and
+1,720 matched predictions, responsive/no-JS browser checks and network-denied
+complete-download replay. All 328 protected files, including V1-V4, are unchanged.
 
 ### Earlier frozen House findings and research history
 

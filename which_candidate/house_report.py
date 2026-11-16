@@ -252,6 +252,7 @@ def render(markdown, profiles, charts, members=None, participation=None, traits=
         '<nav><a href="#findings">Read the findings</a><a href="#figures">See the figures</a>'
         '<a href="#browser">Explore every candidate</a>'
         '<a href="characteristics-v5/report.html">New official biographies and identity evidence (V5)</a>'
+        '<a href="characteristics-v4/report.html">Frozen thin-trait acquisition (V4)</a>'
         '<a href="characteristics-v3/report.html">Frozen new-source analysis (V3)</a>'
         '<a href="characteristics-v2/report.html">Frozen evidence review (V2)</a>'
         '<a href="characteristics-v1/report.html">Frozen full-trait v1</a></nav>'

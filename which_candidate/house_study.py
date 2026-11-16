@@ -233,7 +233,7 @@ def attach_research_history(root, profiles):
     supplemental = {
         (o["candidate_id"], o["contest_id"], o["source_id"])
         for o in inputs["reviewed_characteristic_observations"]
-        if o["source_id"].startswith(("v3-", "v4-"))
+        if o["source_id"].startswith(("v3-", "v4-", "v5-"))
     }
     historical = copy.deepcopy(profiles)
     counts = {}
@@ -267,7 +267,7 @@ def attach_research_history(root, profiles):
         if counts[current["candidate_id"]]:
             current["supplemental_v3_observation_count"] = counts[current["candidate_id"]]
             current["background_research"]["historical_disposition_qualification"] = (
-                "Frozen earlier research milestone; later V3 observations remain in the "
+                "Frozen earlier research milestone; later versioned observations remain in the "
                 "current complete evidence table and do not rewrite historical receipts."
             )
     remaining = {

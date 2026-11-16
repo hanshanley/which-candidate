@@ -1,0 +1,69 @@
+{
+  "schema": "which_candidate.characteristics_v5_validation.v1",
+  "baseline_commit": "81c5fcbcd55f2d99cc3e7101881e639ceac3d672",
+  "acquisition_commit": "5889930",
+  "website_deployment": false,
+  "population": {
+    "all_candidates": 1284,
+    "democrats": 449,
+    "eligible_democratic_performance_comparisons": 405
+  },
+  "acquisition": {
+    "new_evidence_yielding_originals": 10,
+    "new_normalized_observations": 27,
+    "source_informed_candidates": 10,
+    "source_informed_candidate_trait_fields": 23,
+    "first_informed_candidate_trait_fields": 7,
+    "first_informed_candidates": 6,
+    "existing_observations_qualified_without_new_acquisition": 0,
+    "new_analytical_democratic_fields": 13,
+    "newly_estimable_trait_blocks": 0,
+    "historical_claims_preserved": 796,
+    "normalized_claims_after": 823,
+    "democratic_incumbency_holds_before": 17,
+    "democratic_incumbency_holds_after": 12,
+    "qualification": "FEC campaign-name links qualify retrospective election classifications, not independently verified federal service. Undated religion remains analytically held."
+  },
+  "integrated_validation": {
+    "tests_passed": 425,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "independent_clustered_associations_checked": 11,
+    "independent_matched_predictions_checked": 1720,
+    "independent_jackknife_interval_widths_checked": 11,
+    "holm_family_size": 15,
+    "state_person_separation_and_full_rank": "passed",
+    "protected_frozen_files_verified": 328
+  },
+  "browser": {
+    "javascript_viewport_widths": [1280, 390, 320],
+    "no_javascript_viewport_widths": [320],
+    "candidate_rows": 1284,
+    "horizontal_overflow": false,
+    "page_errors": false,
+    "filters_sort_source_qualification_new_age_education_and_held_religion": "passed",
+    "complete_downloads_over_HTTP": "hash_verified"
+  },
+  "offline_replay": {
+    "network": "denied",
+    "historical_raw_caches": "absent",
+    "normalized_claims_validated": 823,
+    "pre_receipt_archive_members_byte_identical": 622,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed",
+    "receipt_inclusive_archive_members_expected": 623,
+    "release_protocol": "Rebuild after adding this receipt, then repeat extracted network-denied replay of every archive member and both ZIPs and verify both HTTP download hashes before publishing the final commit. This receipt deliberately excludes circular download hashes."
+  },
+  "interpretation": {
+    "holm_supported_blocks": ["incumbency", "donor_ideology"],
+    "predictive_gain_intervals_wholly_positive": 0,
+    "unavailable_contrasts": ["ethnicity", "prior_elected_office", "other_government", "military"],
+    "race_population": "Explicit historical CAWP Black/White women, not all candidates.",
+    "full_population_failures_retained": {
+      "race": {"predicted": 40, "population": 45},
+      "religion": {"predicted": 121, "population": 123}
+    },
+    "causal_nominee_replacement_effects": false
+  }
+}
