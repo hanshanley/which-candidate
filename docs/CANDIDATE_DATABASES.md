@@ -5,6 +5,35 @@ behind the **2026** candidate universe; it is not a new election model, approval
 to republish, or a claim that the missing-characteristic problem is solved.
 Frozen v2/v3 outputs remain unchanged.
 
+## November 16: full-characteristics successor
+
+The [full-trait research and analysis](HOUSE_CHARACTERISTICS.md) restores age,
+source-defined gender, race/ethnicity, dated religion, education, profession,
+elected/government history, military service, incumbency/tenure, historical
+donor ideology, voting ideology and actual-vote defection as separate fields.
+All 179 Democratic Directory credential/career literals received coding review.
+Twelve new reviewed claims come from seven exact-context source records for
+seven already-covered candidates: four downloaded originals and three explicitly
+labeled public-index extracts after original PDF failures. An eighth official
+source failed and contributes no facts. Historical religious affiliations are
+not automatically current; missing identities/service are never negatives.
+
+The [baseline preservation audit](../data/house-characteristics-baseline.json)
+distinguishes seven first-recorded trait fields, three newly qualified birthdays,
+and two additional office/government observations. Four already-held official
+birthdays are separately qualified, not counted as new research. A namesake and
+an apparent adjacent-biography service extraction remain explicit rejections or
+holds; earlier rejections and all normalized historical evidence are preserved.
+The complete specification preceded successor fits. Newly acquired evidence
+stays descriptive/model-ineligible; explicit retrospective field eligibility
+does not promote it to prospective input. No website deployment.
+
+Validate/replay this batch, including a fresh clone without historical caches:
+`python -m which_candidate.characteristics_research --offline`, then
+`python -m which_candidate.house_project --evidence-only`. Source acquisition,
+fragment/identity validation and normalized merging use the supported
+`house_candidates.build(inputs=...)` path, never a rebuild from missing old HTML.
+
 ## November 15: discovery correction and open research
 
 The recomputed baseline was **1,284 named House candidates, 683 with acquired
@@ -17,7 +46,7 @@ The correction preserves those receipts and freezes a separate 701-person queue:
 368 uncovered candidates plus 333 already-covered people missing education or
 employment.
 
-Current coverage is **1,156 candidate records / 28,981 observations**, with 128 records
+Current coverage is **1,156 candidate records / 28,993 observations**, with 128 records
 still lacking observations. Since `c0fa188`, **240 records newly have observations
 and 636 candidate-by-field gaps were filled**, including fields for 204 candidates
 already covered. All 45 previously uncovered major-party candidates were

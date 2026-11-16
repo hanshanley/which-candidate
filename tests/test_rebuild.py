@@ -1,4 +1,5 @@
 import hashlib
+import io
 import json
 import socket
 import zipfile
@@ -462,6 +463,10 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
     queries = output / "complete-queries.zip"
     with zipfile.ZipFile(queries) as archive:
         assert len(archive.namelist()) == len(set(archive.namelist()))
+        assert (
+            archive.read("audits/house-characteristics-v1-validation.json")
+            == (ROOT / "audits/house-characteristics-v1-validation.json").read_bytes()
+        )
         for folder in ("results", "publication"):
             for path in (ROOT / folder).rglob("*"):
                 if (
@@ -516,10 +521,16 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         )
     with zipfile.ZipFile(output / "substack-figures.zip") as archive:
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
-        assert archive.read("report.html") == (ROOT / "publication/report.html").read_bytes()
+        assert "READ-ME.md" in archive.namelist()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())
         if (ROOT / "results/house-study/democratic-candidate-traits.csv").exists():
-            assert "democratic-candidate-traits.csv" in archive.namelist()
+            with zipfile.ZipFile(io.BytesIO(archive.read("complete-query-set.zip"))) as nested:
+                assert "results/house-study/democratic-candidate-traits.csv" in nested.namelist()
+                assert "results/house-characteristics-v1/candidate-traits.csv" in nested.namelist()
+                assert (
+                    nested.read("publication/report.html")
+                    == (ROOT / "publication/report.html").read_bytes()
+                )
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())
 
 

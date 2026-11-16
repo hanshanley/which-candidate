@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-16",
+  "version": "house-characteristics-v1",
+  "baseline_commit": "5f04a97b77790eb22ebff8a60f44df6df01df2e4",
+  "inventory": {
+    "candidate_contest_records": 1284,
+    "democratic_records": 449,
+    "eligible_democratic_performance_comparisons": 405,
+    "trait_blocks": 15
+  },
+  "research": {
+    "new_reviewed_observations": 12,
+    "already_covered_candidates_with_new_observations": 7,
+    "newly_covered_candidates": 0,
+    "first_recorded_trait_fields": 7,
+    "newly_qualified_birthdays": 3,
+    "additional_office_government_observations": 2,
+    "original_downloads": 4,
+    "explicit_public_index_extracts_not_original_pdfs": 3,
+    "failed_official_request_not_evidence": 1,
+    "historical_observations_preserved": 28981,
+    "current_observations": 28993,
+    "unchanged_protected_files": 154,
+    "provenance": "data/house-characteristics-baseline.json"
+  },
+  "analysis": {
+    "estimated_blocks": 10,
+    "unavailable_blocks": [
+      "race", "ethnicity", "prior_elected_office", "other_government", "military"
+    ],
+    "holm_family_size": 15,
+    "holm_below_005": ["incumbency", "donor_ideology"],
+    "incumbency_test": "Joint D/R block, not Democratic-incumbent coefficient alone",
+    "completed_predictive_improvement_intervals_wholly_above_zero": 0,
+    "independent_normal_equations_and_cluster_covariance": "passed",
+    "independent_omnibus_holm_and_state_person_disjointness": "passed"
+  },
+  "validation": {
+    "pytest": "382 passed",
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "browser_widths": [1280, 390, 320],
+    "browser_no_javascript_widths": [320],
+    "browser_checks": [
+      "1284 rows and fifteen distinct trait columns",
+      "449 Democratic filter, state and name filtering",
+      "qualified district-gap descending sort",
+      "expanded literal evidence and source links",
+      "CSV and JSONL HTTP downloads match original bytes",
+      "two decoded figures",
+      "no document overflow or page errors",
+      "earlier report links to successor"
+    ],
+    "offline_replay": {
+      "network": "denied at socket connection and DNS",
+      "historical_raw_cache": "absent",
+      "normalized_claims_validated": 12,
+      "all_archived_files": "byte-identical",
+      "both_complete_downloads": "byte-identical",
+      "nested_complete_query_zip": "exact",
+      "commands": [
+        "python -m which_candidate.characteristics_research --offline",
+        "python -m which_candidate.house_project --evidence-only"
+      ]
+    }
+  },
+  "limitations": [
+    "Exploratory retrospective associations, not causal nominee replacement effects",
+    "Positive identity/service evidence does not establish negative comparison groups",
+    "Historical affiliations, partial birthdays and uncertain extractions remain qualified",
+    "Research is bounded; remaining-gap reasons do not claim exhaustive discovery",
+    "Education presence is not completed attainment; career is not always paid employment",
+    "Age/gender incomplete predictive folds are diagnostic only"
+  ],
+  "website_deployment": "none"
+}

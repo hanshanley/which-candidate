@@ -665,6 +665,10 @@ def build(root=ROOT, output=None, from_cache=False, inputs=None):
     if len(panel) != 435 or len({r["contest_id"] for r in panel}) != 435:
         raise ValueError("House inventory requires all 435 unique contests")
     candidates, choices, facts = inventory(panel, inputs)
+    if inputs.get("reviewed_characteristic_observations"):
+        from .house_backgrounds import validate_characteristics
+
+        validate_characteristics(inputs["reviewed_characteristic_observations"], candidates)
     output.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(prefix=".house-candidates-", dir=output.parent) as directory:
         staged = Path(directory)

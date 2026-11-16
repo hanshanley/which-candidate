@@ -1,0 +1,31 @@
+trait,included,candidates,states,known_D_incumbents,unknown_D_incumbency,provisional_D_leads,mean_presidential_D_share,lean_bands,reasons
+age,True,147,36,140,0,147,60.42072481395196,"{""40_to_60"": 80, ""above_60"": 67}",{}
+age,False,275,46,34,19,104,43.81552122072328,"{""40_to_60"": 103, ""above_60"": 39, ""below_40"": 133}","{""dated_reported"": 65, ""outcome_hold"": 17, ""unknown"": 166, ""unknown_D_or_R_incumbency_control"": 27}"
+gender,True,141,35,140,0,141,60.67048347912067,"{""40_to_60"": 75, ""above_60"": 66}",{}
+gender,False,281,46,34,19,110,44.04475698503141,"{""40_to_60"": 108, ""above_60"": 40, ""below_40"": 133}","{""outcome_hold"": 17, ""unknown"": 238, ""unknown_D_or_R_incumbency_control"": 26}"
+race,True,0,0,0,0,0,,{},{}
+race,False,422,50,174,19,251,49.599798301776865,"{""40_to_60"": 183, ""above_60"": 106, ""below_40"": 133}","{""dated_reported"": 52, ""outcome_hold"": 17, ""unknown"": 353}"
+ethnicity,True,0,0,0,0,0,,{},{}
+ethnicity,False,422,50,174,19,251,49.599798301776865,"{""40_to_60"": 183, ""above_60"": 106, ""below_40"": 133}","{""dated_reported"": 32, ""outcome_hold"": 17, ""unknown"": 373}"
+religion,True,115,33,115,0,115,60.38487047793394,"{""40_to_60"": 61, ""above_60"": 54}",{}
+religion,False,307,47,59,19,136,45.55978755175062,"{""40_to_60"": 122, ""above_60"": 52, ""below_40"": 133}","{""dated_reported"": 18, ""outcome_hold"": 17, ""sparse_category"": 10, ""unknown"": 239, ""unknown_D_or_R_incumbency_control"": 23}"
+education,True,134,34,134,0,134,60.54431403503746,"{""40_to_60"": 72, ""above_60"": 62}",{}
+education,False,288,46,40,19,117,44.507558342551455,"{""40_to_60"": 111, ""above_60"": 44, ""below_40"": 133}","{""dated_reported"": 150, ""outcome_hold"": 17, ""sparse_category"": 1, ""uncertain"": 93, ""unknown"": 2, ""unknown_D_or_R_incumbency_control"": 25}"
+profession,True,61,26,61,0,61,60.22900201482271,"{""40_to_60"": 30, ""above_60"": 31}",{}
+profession,False,361,48,113,19,190,47.80372786827051,"{""40_to_60"": 153, ""above_60"": 75, ""below_40"": 133}","{""dated_reported"": 199, ""outcome_hold"": 17, ""sparse_category"": 6, ""uncertain"": 125, ""unknown_D_or_R_incumbency_control"": 14}"
+prior_elected_office,True,0,0,0,0,0,,{},{}
+prior_elected_office,False,422,50,174,19,251,49.599798301776865,"{""40_to_60"": 183, ""above_60"": 106, ""below_40"": 133}","{""dated_reported"": 181, ""outcome_hold"": 17, ""uncertain"": 41, ""unknown"": 183}"
+other_government,True,0,0,0,0,0,,{},{}
+other_government,False,422,50,174,19,251,49.599798301776865,"{""40_to_60"": 183, ""above_60"": 106, ""below_40"": 133}","{""dated_reported"": 1, ""outcome_hold"": 17, ""uncertain"": 238, ""unknown"": 166}"
+military,True,0,0,0,0,0,,{},{}
+military,False,422,50,174,19,251,49.599798301776865,"{""40_to_60"": 183, ""above_60"": 106, ""below_40"": 133}","{""dated_reported"": 16, ""fewer_than_two_supported_categories"": 13, ""outcome_hold"": 17, ""uncertain"": 44, ""unknown"": 329, ""unknown_D_or_R_incumbency_control"": 3}"
+incumbency,True,349,46,140,0,200,48.607529879339445,"{""40_to_60"": 155, ""above_60"": 77, ""below_40"": 117}",{}
+incumbency,False,73,31,34,19,51,54.343656924114654,"{""40_to_60"": 28, ""above_60"": 29, ""below_40"": 16}","{""outcome_hold"": 17, ""unknown"": 18, ""unknown_D_or_R_incumbency_control"": 38}"
+house_service,True,140,35,140,0,140,60.62762936066353,"{""40_to_60"": 75, ""above_60"": 65}",{}
+house_service,False,282,46,34,19,111,44.124988556230306,"{""40_to_60"": 108, ""above_60"": 41, ""below_40"": 133}","{""inapplicable"": 223, ""outcome_hold"": 17, ""unknown"": 18, ""unknown_D_or_R_incumbency_control"": 24}"
+donor_ideology,True,151,39,122,0,130,56.725628178791126,"{""40_to_60"": 77, ""above_60"": 57, ""below_40"": 17}",{}
+donor_ideology,False,271,48,52,19,121,45.62931744779476,"{""40_to_60"": 106, ""above_60"": 49, ""below_40"": 116}","{""dated_reported"": 18, ""outcome_hold"": 17, ""unknown"": 213, ""unknown_D_or_R_incumbency_control"": 23}"
+voting_ideology,True,115,32,115,0,115,61.1345563516641,"{""40_to_60"": 58, ""above_60"": 57}",{}
+voting_ideology,False,307,47,59,19,136,45.27896059579306,"{""40_to_60"": 125, ""above_60"": 49, ""below_40"": 133}","{""inapplicable"": 254, ""outcome_hold"": 17, ""unknown"": 18, ""unknown_D_or_R_incumbency_control"": 18}"
+party_unity,True,140,35,140,0,140,60.62762936066353,"{""40_to_60"": 75, ""above_60"": 65}",{}
+party_unity,False,282,46,34,19,111,44.124988556230306,"{""40_to_60"": 108, ""above_60"": 41, ""below_40"": 133}","{""inapplicable"": 223, ""outcome_hold"": 17, ""unknown"": 18, ""unknown_D_or_R_incumbency_control"": 24}"

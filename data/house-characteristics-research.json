@@ -1,0 +1,163 @@
+{
+  "version": "house-characteristics-v1",
+  "scope": "Bounded, exact-context primary-source follow-up after the initial full-trait audit.",
+  "sources": [
+    {
+      "id": "characteristics-moss-manual-2023",
+      "candidate_id": "220549",
+      "contest_id": "2026:house:MI:11:general:source_general",
+      "name": "Jeremy Moss",
+      "state": "MI",
+      "district": "11",
+      "party": "Democratic",
+      "url": "https://www.legislature.mi.gov/documents/2023-2024/michiganmanual/2023-MM-P0169-p0169.pdf",
+      "publication_date": "2023",
+      "kind": "official_previous_office_biography",
+      "reviewed_public_extract": {
+        "provider": "public_web_search_index",
+        "origin_url": "https://www.legislature.mi.gov/documents/2023-2024/michiganmanual/2023-MM-P0169-p0169.pdf",
+        "retrieved_at": "2026-11-16",
+        "text": "JEREMY MOSS. Democrat, of Southfield; born June 23, 1986, in Detroit; Judaism; member, Southfield City Council, 2011 to 2014"
+      },
+      "identity_qualification": "Same full name, Michigan Democratic officeholder, Southfield elected service and Michigan State education match the candidate's existing reviewed history. Prior state Senate district 7 is not confused with current congressional district 11.",
+      "claims": [
+        {"trait": "age", "value": "1986-06-23", "fragment": "born June 23, 1986, in Detroit", "qualification": "Exact birthday in a pre-election official biography."},
+        {"trait": "religion", "value": "Judaism", "fragment": "Judaism", "qualification": "Official 2023 biography's historical religious description; not current faith or a self-identification assertion."},
+        {"trait": "prior_elected_office", "value": true, "fragment": "member, Southfield City Council, 2011 to 2014", "qualification": "Explicit earlier elected municipal office; no inferred negative cases."}
+      ]
+    },
+    {
+      "id": "characteristics-nez-college-2011",
+      "candidate_id": "219770",
+      "contest_id": "2026:house:AZ:02:general:source_general",
+      "name": "Jonathan Nez",
+      "state": "AZ",
+      "district": "02",
+      "party": "Democratic",
+      "url": "https://www.npc.edu/file/download/9107",
+      "publication_date": "2011",
+      "kind": "official_college_profile",
+      "identity_qualification": "Full name, Arizona, Navajo Nation Council and county-supervisor career match the existing candidate history; historical employer/college profile is not a current congressional candidate directory.",
+      "claims": [
+        {"trait": "race", "value": ["Navajo"], "fragment": "Jonathan Michael Nez is Navajo.", "qualification": "Explicit historical tribal identification by the college; not a complete race/ethnicity response or inferred census classification."}
+      ]
+    },
+    {
+      "id": "characteristics-hamawy-campaign",
+      "candidate_id": "220825",
+      "contest_id": "2026:house:NJ:12:general:source_general",
+      "name": "Adam Hamawy",
+      "state": "NJ",
+      "district": "12",
+      "party": "Democratic",
+      "url": "https://hamawyfornj.com/about",
+      "publication_date": null,
+      "kind": "candidate_campaign_self_description",
+      "identity_qualification": "Campaign biography explicitly names the candidate and New Jersey's 12th District; surgeon and Army history agree with existing reviewed records.",
+      "claims": [
+        {"trait": "military", "value": true, "fragment": "I enlisted in the New Jersey Army National Guard, serving until 1991.", "qualification": "Self-reported service, anchored to 1989 in the page chronology; positive evidence does not establish nonservice for others."}
+      ]
+    },
+    {
+      "id": "characteristics-shah-azleg",
+      "candidate_id": "219764",
+      "contest_id": "2026:house:AZ:01:general:source_general",
+      "name": "Amish Shah",
+      "state": "AZ",
+      "district": "01",
+      "party": "Democratic",
+      "url": "https://www.azleg.gov/house-member/?legislator=1908&legislature=54&session=121",
+      "publication_date": null,
+      "kind": "official_previous_office_biography",
+      "identity_qualification": "Official Arizona Democratic state legislator and physician, same full name and Northwestern medical/undergraduate history as the existing candidate record. Prior legislative district 24 is not current congressional district 1.",
+      "claims": [],
+      "rejected_attributions": [
+        {"trait": "religion", "reason": "The Jain and Hindu descriptions apply to the candidate's parents. Catholic schooling is not the candidate's religious affiliation."},
+        {"trait": "age", "reason": "The biography gives birthplace, not an exact birth date. No birthday or exact Election Day age is invented."}
+      ]
+    },
+    {
+      "id": "characteristics-mckinney-manual-2023",
+      "candidate_id": "220559",
+      "contest_id": "2026:house:MI:13:general:source_general",
+      "name": "Donavan McKinney",
+      "state": "MI",
+      "district": "13",
+      "party": "Democratic",
+      "url": "https://www.legislature.mi.gov/documents/2023-2024/michiganmanual/2023-MM-P0253-p0253.pdf",
+      "publication_date": "2023",
+      "kind": "official_previous_office_biography",
+      "reviewed_public_extract": {
+        "provider": "public_web_search_index",
+        "origin_url": "https://www.legislature.mi.gov/documents/2023-2024/michiganmanual/2023-MM-P0253-p0253.pdf",
+        "retrieved_at": "2026-11-16",
+        "text": "DONAVAN McKINNEY. Democrat, of Detroit; born June 16, 1992, in Detroit; Christian; legislative director, Michigan House of Representatives, 2011 to 2015"
+      },
+      "identity_qualification": "Same Detroit Democratic state representative, name, University of Michigan education and labor career as the existing reviewed candidate; legislative district 14 is not congressional district 13.",
+      "claims": [
+        {"trait": "age", "value": "1992-06-16", "fragment": "born June 16, 1992, in Detroit", "qualification": "Exact birthday in a pre-election official biography."},
+        {"trait": "religion", "value": "Christian", "fragment": "Christian", "qualification": "Historical 2023 official biography report, not a current self-description."},
+        {"trait": "other_government", "value": true, "fragment": "legislative director, Michigan House of Representatives, 2011 to 2015", "qualification": "Explicit government staff employment, separate from later election."}
+      ]
+    },
+    {
+      "id": "characteristics-mccann-manual-2021",
+      "candidate_id": "220516",
+      "contest_id": "2026:house:MI:04:general:source_general",
+      "name": "Sean McCann",
+      "state": "MI",
+      "district": "04",
+      "party": "Democratic",
+      "url": "https://www.legislature.mi.gov/documents/2021-2022/michiganmanual/2021-MM-P0166-P0166.pdf",
+      "publication_date": "2021",
+      "kind": "official_previous_office_biography",
+      "reviewed_public_extract": {
+        "provider": "public_web_search_index",
+        "origin_url": "https://www.legislature.mi.gov/documents/2021-2022/michiganmanual/2021-MM-Chapter3.pdf",
+        "retrieved_at": "2026-11-16",
+        "text": "SEAN McCANN. Democrat, of Kalamazoo; born September 21, 1971, in Detroit"
+      },
+      "identity_qualification": "Same Kalamazoo Democratic legislator, Western Michigan education and nonprofit career as the candidate's reviewed biography; historical state Senate district 20 is not congressional district 4.",
+      "claims": [
+        {"trait": "age", "value": "1971-09-21", "fragment": "born September 21, 1971, in Detroit", "qualification": "Exact birthday from the older official edition; newer summary's omission of day is not a contradictory date."}
+      ]
+    },
+    {
+      "id": "characteristics-mendoza-interview-2026",
+      "candidate_id": "219782",
+      "contest_id": "2026:house:AZ:06:general:source_general",
+      "name": "JoAnna Mendoza",
+      "state": "AZ",
+      "district": "06",
+      "party": "Democratic",
+      "url": "https://coppercourier.com/news/politics/joanna-mendoza-az-marine-vet-and-mom-says-shell-represent-her-neighbors-in-congress/",
+      "publication_date": null,
+      "kind": "published_candidate_interview",
+      "identity_qualification": "Article identifies the named Democratic Arizona congressional candidate and her own Navy/Marine career; do not attribute another person's Navajo identification in social-media search results to her.",
+      "claims": [
+        {"trait": "ethnicity", "value": ["Mexican-American"], "fragment": "because I am a Mexican-American woman", "qualification": "Literal quoted self-description; publication date must be verified before analytical use. No race is inferred from this ethnicity."}
+      ],
+      "rejected_attributions": [
+        {"trait": "race", "reason": "A Navajo veteran's social-media endorsement describes the endorser, not the candidate. No Navajo classification is assigned to Mendoza."}
+      ]
+    },
+    {
+      "id": "characteristics-shah-interview-2023",
+      "candidate_id": "219764",
+      "contest_id": "2026:house:AZ:01:general:source_general",
+      "name": "Amish Shah",
+      "state": "AZ",
+      "district": "01",
+      "party": "Democratic",
+      "url": "https://timesofindia.indiatimes.com/nri/us-canada-news/i-hope-to-be-the-sixth-indian-american-in-us-congress-says-dr-amish-shah/articleshow/100093556.cms",
+      "publication_date": "2023",
+      "kind": "published_candidate_interview",
+      "identity_qualification": "First-person Q&A with the Arizona physician and congressional candidate; explicitly discusses his prior Arizona legislative service, unlike religious descriptions of his parents.",
+      "claims": [
+        {"trait": "religion", "value": "thankful for my Jain heritage", "fragment": "I am thankful for my Jain heritage", "qualification": "Literal 2023 self-description of heritage, not independently verified membership, current practice or a categorical Hindu/Jain imputation."},
+        {"trait": "ethnicity", "value": ["Indian American"], "fragment": "I am proud of my Indian American heritage", "qualification": "Explicit first-person heritage description; no census race or negative ethnicity inferred."}
+      ]
+    }
+  ],
+  "remaining_gap_policy": "Every unresolved trait receives a normalized-source review disposition in the successor table. This targeted external pass does not claim an exhaustive search of all missing identities or verified negative service histories."
+}

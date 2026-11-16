@@ -781,6 +781,19 @@ def _build(root, output):
             else [],
         )
     )
+    successor = root / "publication/characteristics-v1"
+    if (successor / "manifest.json").exists():
+        successor_manifest = json.loads((successor / "manifest.json").read_text())
+        for name, receipt in successor_manifest["inputs"].items():
+            if fingerprint(root / name) != receipt:
+                raise ValueError(f"Stale successor publication input: {name}")
+        for name in (*successor_manifest["files"], "manifest.json"):
+            source = successor / name
+            if name != "manifest.json" and fingerprint(source) != successor_manifest["files"][name]:
+                raise ValueError(f"Changed successor publication file: {name}")
+            target = output / "characteristics-v1" / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(source.read_bytes())
     write_json(
         output / "manifest.json",
         {
@@ -808,7 +821,7 @@ def _build(root, output):
             "files": {
                 p.relative_to(output).as_posix(): fingerprint(p)
                 for p in sorted(output.rglob("*"))
-                if p.is_file() and p.name != "manifest.json"
+                if p.is_file() and p != output / "manifest.json"
             },
         },
     )

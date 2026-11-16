@@ -12,6 +12,35 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**Current full-trait successor:** read the
+[complete characteristics report](results/house-characteristics-v1/report.md)
+or open **`publication/characteristics-v1/report.html`** locally. It covers all
+fifteen requested trait blocks, with separate coverage for 1,284 candidates,
+449 Democrats and 405 eligible Democratic performance comparisons. The
+[reviewed dataset and methods](docs/HOUSE_CHARACTERISTICS.md) distinguish
+qualified, dated/reported, uncertain, unknown and inapplicable values.
+
+Historical donor ideology and the **joint D/R-incumbency block** clear the
+declared fifteen-block Holm correction; the Democratic-incumbent coefficient
+alone does not. No completed matched-sample prediction comparison establishes
+improvement with a 95% interval wholly above zero. Race, ethnicity, prior elected
+office, other government experience and military contrasts remain unavailable,
+not null findings. Missing identities/service never supply negative reference
+groups. Donor ideology and voting ideology are distinct measures and cohorts.
+
+This follow-up adds **12 reviewed observations for seven already-covered
+candidates**, including seven first-recorded trait fields and three newly
+qualified birthdays: **zero newly covered people**. All 28,981 earlier observations
+and frozen analyses are preserved; the current total is **28,993**. Three official
+biography sources are explicitly retained public-index extracts, not original
+PDF downloads. The browser, receipts, uncertainties and both complete downloads
+include the successor. **No website deployment.**
+The [release validation receipt](audits/house-characteristics-v1-validation.json)
+records the full tests, independent numerical checks, browser checks and
+network-denied complete-download replay.
+
+### Earlier frozen House findings and research history
+
 **Start with the [House findings report](results/house-study/report.md).** For the
 complete local reading experience, open **`publication/report.html`** after
 cloning or extracting either current download. It combines the findings, ten
@@ -35,7 +64,7 @@ improvement.** The joint five-trait incumbent model changes held-out MAE from
 candidate ranking. All paired predictions, folds, full-pipeline state deletions
 and selection diagnostics are downloadable.
 
-Profiles expose the **28,981 acquired observations for 1,156 candidate records**, including
+Profiles expose the **28,993 acquired observations for 1,156 candidate records**, including
 losing candidates, with actual values, dates, source receipts and qualifications.
 Search includes these values; individual evidence CSVs preserve their review
 status. **The earlier claim of an adequate completed search is withdrawn**:
@@ -73,7 +102,7 @@ Rebuild the complete current project from pinned normalized inputs:
 
 ```bash
 python -m pip install -e '.[test]'
-python -m which_candidate.house_project
+python -m which_candidate.house_project --evidence-only
 ```
 
 Use the existing environment or the pinned dependency instructions below.
@@ -87,8 +116,9 @@ caches, use `python -m which_candidate.reviewed_backgrounds`, then
 `python -m which_candidate.house_project --evidence-only`.
 Only new or changed profiles require pinned originals; unchanged normalized
 evidence is preserved. The evidence-only path refreshes participation dependencies,
-coverage, the local browser and both complete downloads without fitting models
-or redrawing figures. See the [research workflow](docs/HOUSE_CANDIDATES.md#incremental-evidence-ingestion-and-replay).
+coverage, the local browser and both complete downloads without refitting earlier
+frozen analyses or redrawing their figures. The separately versioned full-trait
+successor is rebuilt. See the [research workflow](docs/HOUSE_CANDIDATES.md#incremental-evidence-ingestion-and-replay).
 
 **Current scope: House only.** The [complete candidate inventory](results/house/candidates.csv)
 accounts for **1,284 named candidate-contest records in all 435 districts**, including Republicans,
@@ -112,7 +142,7 @@ other-party/write-in candidates. The [601-person disposition table](results/hous
 preserves the original queue, including people now covered. The separate
 [field audit](results/house-study/background-field-coverage.csv) covers all 1,284:
 296 lack acquired education information, 194 professional-history information,
-897 prior-office information and 1,086 military-service information. Professional
+897 prior-office information and 1,085 military-service information. Professional
 history can include explicitly unpaid roles; it does not universally establish
 paid employment. Missing service is not
 nonservice, and one observed field is not a complete biography. A null-ID matching

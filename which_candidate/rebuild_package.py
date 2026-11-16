@@ -23,6 +23,11 @@ def build(root=ROOT, output=None):
             "results/house-study",
             "publication",
             *(
+                ("results/house-characteristics-v1",)
+                if (root / "results/house-characteristics-v1/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -88,6 +93,11 @@ def build(root=ROOT, output=None):
         "audits/candidate-research.json",
         "audits/candidate-discovery-repair.json",
         *(
+            ("audits/house-characteristics-v1-validation.json",)
+            if (root / "audits/house-characteristics-v1-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -100,17 +110,14 @@ def build(root=ROOT, output=None):
         write_zip(staged / names[0], entries)
         figures = root / "publication"
         upload = {
-            name: figures / name for name in figure_files if Path(name).parts[0] != "marginoferror"
+            name: figures / name
+            for name in figure_files
+            if Path(name).parts[0] != "marginoferror" and name != "report.html"
         }
         upload["complete-query-set.zip"] = staged / names[0]
-        for name in (
-            "democratic-candidate-traits.csv",
-            "democratic-candidate-traits.jsonl.gz",
-            "democratic-candidate-traits-provenance.json",
-        ):
-            path = root / "results/house-study" / name
-            if path.exists():
-                upload[name] = path
+        upload["READ-ME.md"] = root / "docs/DOWNLOADS.md"
+        # Full trait tables remain in the exact nested complete-query archive;
+        # duplicating them here would exceed GitHub's single-file size limit.
         write_zip(staged / names[1], upload)
         receipts = {name: fingerprint(staged / name) for name in names}
         write_json(staged / "downloads.json", receipts)

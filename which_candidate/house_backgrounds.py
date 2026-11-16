@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import re
+from datetime import date
 from pathlib import Path
 
 from pypdf import PdfReader
@@ -260,6 +261,53 @@ def acquire_background_inputs(root):
     return records
 
 
+def validate_characteristics(records, candidates):
+    identities = {(r["contest_id"], r["candidate_id"]): r for r in candidates}
+    seen = set()
+    for record in records:
+        candidate = identities.get((record["contest_id"], record["candidate_id"]))
+        if not candidate or any(
+            candidate[k] != record[k] for k in ("name", "state", "district", "party")
+        ):
+            raise ValueError("Unqualified characteristic identity")
+        if record["observation_id"] in seen:
+            raise ValueError("Duplicate characteristic observation")
+        seen.add(record["observation_id"])
+        if (
+            record["review_status"] != "fragment_and_identity_reviewed"
+            or record["model_ready"] is not False
+            or not record["fragment"].strip()
+            or not record["qualification"].strip()
+            or not record["identity_qualification"].strip()
+        ):
+            raise ValueError("Unreviewed characteristic evidence")
+        if record["trait"] not in {
+            "age",
+            "gender",
+            "race",
+            "ethnicity",
+            "religion",
+            "education",
+            "profession",
+            "military",
+            "prior_elected_office",
+            "other_government",
+        }:
+            raise ValueError("Unsupported acquired characteristic")
+        receipt = record["receipt"]
+        if (
+            not re.fullmatch(r"[a-f0-9]{64}", receipt["sha256"])
+            or receipt["bytes"] <= 0
+            or not receipt["url"].startswith(("https://", "http://"))
+            or not receipt["retrieved_at"]
+        ):
+            raise ValueError("Invalid characteristic receipt")
+        if record["trait"] == "age":
+            birthday = date.fromisoformat(record["value"])
+            if birthday >= date(2026, 11, 3):
+                raise ValueError("Invalid characteristic birthday")
+
+
 def background_profile(candidate, inputs):
     from .reviewed_backgrounds import matched_profiles
 
@@ -330,6 +378,14 @@ def background_profile(candidate, inputs):
         "dated_religion_observations": observations("religion_observations"),
         "member_authorized_biographies": observations("member_biographies"),
         "official_historian_observations": observations("historian_observations"),
+        "reviewed_characteristic_observations": [
+            record
+            for record in inputs.get("reviewed_characteristic_observations", [])
+            if all(
+                str(record[key]) == str(candidate[key])
+                for key in ("candidate_id", "contest_id", "name", "state", "district", "party")
+            )
+        ],
         "interpretation": (
             "Dated source evidence, not current verified identity or new model inputs; "
             "absence is unknown, never a negative classification"
@@ -374,6 +430,25 @@ def background_observations(candidates, facts):
         )
     for candidate in candidates:
         background = candidate["background"]
+        for record in background.get("reviewed_characteristic_observations", []):
+            append(
+                candidate,
+                {
+                    "military": "military_service",
+                    "religion": "religion_literal",
+                    "age": "date_of_birth",
+                }.get(record["trait"], record["trait"]),
+                record["value"],
+                record["source_kind"],
+                int(record["publication_date"][:4]) if record["publication_date"] else None,
+                record["publication_date"],
+                {
+                    **record["receipt"],
+                    "supporting_fragment": record["fragment"],
+                    "identity_qualification": record["identity_qualification"],
+                },
+                record["qualification"] + "; retrospectively_reviewed; descriptive_only",
+            )
         for profile in background.get("reviewed_candidate_profiles", []):
             for field, value in sorted(profile["fields"].items()):
                 append(

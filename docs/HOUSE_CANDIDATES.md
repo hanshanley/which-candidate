@@ -1,5 +1,14 @@
 # All-candidate House information
 
+The current [full-characteristics successor](HOUSE_CHARACTERISTICS.md) separately
+audits every requested trait across all 1,284 candidates, 449 Democrats and 405
+eligible Democratic comparisons. Its five-status coverage is not equivalent to
+the field-presence counts below. The new local report is
+`publication/characteristics-v1/report.html`; earlier fitted results stay frozen.
+The follow-up adds twelve reviewed observations and no newly covered candidates,
+bringing the total to 28,993. Complete normalized evidence and both downloads are
+retained; no website deployment is authorized.
+
 The current research scope is the **2026 House**. The pinned November 12-13
 provider queries contain 1,426 listed choices across all 435 districts:
 1,284 named candidate-contest records and 142 aggregate write-in or

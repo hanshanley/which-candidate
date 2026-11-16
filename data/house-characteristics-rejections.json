@@ -1,0 +1,23 @@
+{
+  "version": "house-characteristics-v1",
+  "records": [
+    {
+      "candidate_id": "220137",
+      "contest_id": "2026:house:FL:23:general:source_general",
+      "name": "Lois Frankel",
+      "trait": "military",
+      "source_id": "congressional_directory_2026",
+      "source_page": 74,
+      "fragment": "enlisted, U.S. Army, 2000–11 (retired with the rank of Staff Sergeant)",
+      "disposition": "suspected_adjacent_biography_extraction_not_candidate_evidence",
+      "reason": "Normalized Frankel profile contains a military section inconsistent with the separate official veteran identity roster. The section resembles an adjacent Florida veteran biography. Preserve the normalized record, withhold attribution and require original-page review; absence from the roster does not prove nonservice."
+    },
+    {
+      "name": "Sean McCann",
+      "trait": "religion",
+      "url": "https://www.ogwn.whatonearthishappening.com/sean-mccann",
+      "disposition": "rejected_namesake",
+      "reason": "Photographer/podcaster biography is not the Kalamazoo state senator and Michigan congressional candidate. Its religious account is not attributed to the candidate."
+    }
+  ]
+}

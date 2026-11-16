@@ -55,7 +55,7 @@ def build():
 
 
 def refresh_evidence(root=ROOT):
-    """Refresh evidence, local report and downloads without fitting or redrawing analyses."""
+    """Refresh evidence and successor while preserving earlier frozen fits and figures."""
     root = Path(root)
     chart_receipts = {
         path.relative_to(root).as_posix(): fingerprint(path)
@@ -63,6 +63,10 @@ def refresh_evidence(root=ROOT):
         if path.is_file() and path.suffix in {".png", ".svg"}
     }
     house_members.build(root)
+    if (root / "data/house-characteristics-review.json").exists():
+        from .house_characteristics import build as build_characteristics
+
+        build_characteristics(root)
     if (root / "data/participation-source-inputs.json").exists():
         participation_context.build(root)
     summary = house_study.refresh_evidence(root)
@@ -91,15 +95,20 @@ def refresh_evidence(root=ROOT):
     manifest["files"] = {
         path.relative_to(publication).as_posix(): fingerprint(path)
         for path in sorted(publication.rglob("*"))
-        if path.is_file() and path.name != "manifest.json"
+        if path.is_file() and path != publication / "manifest.json"
     }
     write_json(publication / "manifest.json", manifest)
     downloads = rebuild_package.build(root)
-    if chart_receipts != {
+    refreshed_charts = {
         path.relative_to(root).as_posix(): fingerprint(path)
         for path in (root / "publication").rglob("*")
         if path.is_file() and path.suffix in {".png", ".svg"}
-    }:
+    }
+    if any(
+        refreshed_charts.get(name) != receipt
+        for name, receipt in chart_receipts.items()
+        if not name.startswith("publication/characteristics-v1/")
+    ):
         raise ValueError("Evidence-only refresh changed publication charts")
     return {"study": summary, "downloads": downloads}
 

@@ -1,0 +1,16 @@
+candidates,cohort,dated_reported,inapplicable,qualified,trait,uncertain,unknown
+449,democrats,70,0,191,age,0,188
+449,democrats,0,0,184,gender,0,265
+449,democrats,58,0,0,race,0,391
+449,democrats,37,0,0,ethnicity,0,412
+449,democrats,19,0,163,religion,0,267
+449,democrats,170,0,173,education,104,2
+449,democrats,230,0,84,profession,135,0
+449,democrats,203,0,0,prior_elected_office,50,196
+449,democrats,1,0,0,other_government,263,185
+449,democrats,18,0,17,military,45,369
+449,democrats,0,0,410,incumbency,0,39
+449,democrats,0,229,181,house_service,0,39
+449,democrats,18,0,192,donor_ideology,0,239
+449,democrats,0,264,146,voting_ideology,0,39
+449,democrats,0,229,180,party_unity,0,40
