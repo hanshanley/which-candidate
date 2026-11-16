@@ -1,0 +1,82 @@
+{
+  "version": "house-characteristics-v2",
+  "review_status": "literal_batch_reviewed",
+  "review_date": "2026-11-16",
+  "baseline_commit": "adbb8e2509390d14485c9fde3d1f8197d8bcccfb",
+  "scope": "Democratic institutional, prior-office, candidate-supplied questionnaire and endorsing-organization profiles already acquired, plus the eleven official candidate profiles. These source families were read before further discovery. Other campaign/directory profiles are not blanket-approved.",
+  "profile_source_kinds": [
+    "professional_institution_biography",
+    "official_previous_office_biography",
+    "candidate_supplied_voter_directory",
+    "official_candidate_supplied_voter_guide",
+    "official_candidate_supplied_ballot_designation",
+    "endorsing_organization_biography"
+  ],
+  "documented_attainment": {
+    "219872": null,
+    "219929": "masters",
+    "219951": "bachelors",
+    "220094": "masters",
+    "220098": "masters",
+    "220146": "bachelors",
+    "220195": "doctoral_or_professional",
+    "220347": "masters",
+    "220265": "bachelors",
+    "220448": null,
+    "220538": null,
+    "220698": null,
+    "220833": "bachelors",
+    "220882": "doctoral_or_professional",
+    "220950": "masters",
+    "221333": null,
+    "221343": "bachelors",
+    "221019": "masters",
+    "221029": "masters",
+    "221033": "bachelors",
+    "140483": null,
+    "221201": "masters",
+    "221234": null,
+    "221251": "masters",
+    "219956": null,
+    "219755": null,
+    "220999": "doctoral_or_professional",
+    "221002": "masters",
+    "221003": "doctoral_or_professional",
+    "221005": "bachelors",
+    "221007": "masters",
+    "221009": "bachelors"
+  },
+  "coding_holds": {
+    "219872": "Completed bachelor's and law degrees are explicit, but the law-degree type is unspecified; do not assume JD.",
+    "219956": "College graduation is explicit; formal credential level remains unspecified.",
+    "219755": "Institutions and fields of study do not establish completed degrees.",
+    "220448": "Attendance only, not a completed credential.",
+    "220538": "School list only, not a completed credential.",
+    "220698": "Voter-guide bachelor's claim conflicts with the professional profile's associate-level account. Preserve both, without choosing the higher claim.",
+    "220950": "Both questionnaire accounts support BA and teaching master's completion. Preserve the subject-wording conflict; it does not negate agreement on credential level.",
+    "221333": "Completed degree of unspecified level; pre-law certificate is not a law degree.",
+    "140483": "Graduation is explicit but degree titles are not. Do not infer JD from law-school attendance/graduation alone.",
+    "221234": "Public-school graduation does not establish a particular diploma level."
+  },
+  "explicit_elected_history": [
+    "219889", "219872", "219929", "220195", "220484",
+    "220549", "220599", "220715", "220844", "220855",
+    "221019", "221188"
+  ],
+  "explicit_other_government": [
+    "219967", "219872", "219929", "220094", "220484",
+    "220509", "220715", "220855", "220884", "221019", "221002"
+  ],
+  "incumbency_resolutions": {
+    "220756": "K000375",
+    "220835": "S001201"
+  },
+  "incumbency_hold_policy": "The other 37 lack a unique federal-service person bridge. A different member in the same district and absent name matches do not alone establish nonincumbency. Preserve these holds.",
+  "qualification_policy": "Qualify literal factual observations separately from completed-attainment coding, paid employment, election-day timing, and contrast estimability. Source status alone neither qualifies nor rejects a claim. Retrospective acquisition remains prospectively ineligible.",
+  "negative_history_review": "No explicit never-served responses were found in held Democratic military, prior-office or government-history fields. Blank questionnaire fields and candidate-did-not-provide responses are not negatives.",
+  "rejected_matches": [
+    {"candidate_id": "220538", "reason": "Ray Pooley's voter guide says work/military information was not provided; this is not nonservice."},
+    {"candidate_id": "219729", "reason": "Opelika's Lee McInnis assistant-city-engineer record lacks a bridge to the AL-03 candidate whose held source reports a communications background. Do not merge a same-name government employee."},
+    {"candidate_id": "221251", "reason": "A partisan commentary's assertion of no previous office is not a candidate questionnaire or sufficient primary evidence; AmeriCorps is not military service."}
+  ]
+}
