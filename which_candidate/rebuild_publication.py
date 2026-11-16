@@ -781,12 +781,20 @@ def _build(root, output):
             else [],
         )
     )
-    for version in ("characteristics-v1", "characteristics-v2"):
+    for version in ("characteristics-v1", "characteristics-v2", "characteristics-v3"):
         successor = root / "publication" / version
         if not (successor / "manifest.json").exists():
             continue
         successor_manifest = json.loads((successor / "manifest.json").read_text())
         if (
+            version != "characteristics-v3"
+            and (root / "data/house-characteristics-v3-baseline.json").exists()
+        ):
+            from .characteristics_acquisition import BASELINE
+            from .characteristics_v2 import verify_frozen
+
+            verify_frozen(root, BASELINE)
+        elif (
             version == "characteristics-v1"
             and (root / "data/house-characteristics-v2-frozen.json").exists()
         ):

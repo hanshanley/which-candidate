@@ -1,0 +1,16 @@
+analysis_eligible,candidates,cohort,dated_reported,factual_qualified,inapplicable,qualified,trait,uncertain,unknown
+192,449,democrats,3,258,0,258,age,0,188
+296,449,democrats,0,296,0,296,gender,0,153
+54,449,democrats,0,102,0,102,race,0,347
+0,449,democrats,0,39,0,39,ethnicity,0,410
+163,449,democrats,0,177,0,177,religion,0,272
+183,449,democrats,141,201,0,201,education,105,2
+89,449,democrats,198,122,0,122,profession,129,0
+0,449,democrats,196,14,0,14,prior_elected_office,47,192
+0,449,democrats,1,12,0,12,other_government,258,178
+17,449,democrats,16,27,0,27,military,38,368
+425,449,democrats,0,425,0,425,incumbency,0,24
+183,449,democrats,0,183,242,183,house_service,0,24
+192,449,democrats,18,192,0,192,donor_ideology,0,239
+148,449,democrats,0,148,277,148,voting_ideology,0,24
+182,449,democrats,0,182,242,182,party_unity,0,25

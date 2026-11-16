@@ -95,8 +95,8 @@ def seal_review(root):
         )
 
 
-def verify_frozen(root):
-    protection = json.loads((root / PROTECTION).read_text())
+def verify_frozen(root, protection_path=PROTECTION):
+    protection = json.loads((root / protection_path).read_text())
     for name, expected in protection["protected_sha256"].items():
         if fingerprint(root / name)["sha256"] != expected:
             raise ValueError(f"Changed frozen characteristics input: {name}")
@@ -537,13 +537,25 @@ def expanded_rows(rows, baseline):
     return result
 
 
-def build(root):
+def build(
+    root,
+    *,
+    version=VERSION,
+    dataset=None,
+    protection=PROTECTION,
+    spec=SPEC,
+    previous=None,
+    summary_update=None,
+    reporter=None,
+    extra_inputs=(),
+):
     root = Path(root)
-    protected = verify_frozen(root)
-    if not (root / SPEC).exists():
+    protected = verify_frozen(root, protection)
+    if not (root / spec).exists():
         raise ValueError("V2 pre-fit specification missing")
-    rows, candidates, panel, baseline = reviewed_rows(root)
-    output = root / OUT
+    rows, candidates, panel, baseline = reviewed_rows(root) if dataset is None else dataset
+    comparison = baseline if previous is None else previous
+    output = root / f"results/{version}"
     output.mkdir(parents=True, exist_ok=True)
     write_rows(output / "candidate-traits.jsonl.gz", rows)
     v1.write_csv(output / "candidate-traits.csv", rows)
@@ -605,7 +617,7 @@ def build(root):
                 pipeline_failures.extend(
                     {
                         "deleted_state": omitted,
-                        "population": "unrestricted_v2_association_cohort",
+                        "population": f"unrestricted_{version.rsplit('-', 1)[-1]}_association_cohort",
                         **fold,
                     }
                     for fold in diagnostic
@@ -618,15 +630,15 @@ def build(root):
             "qualification": "No full-population interval asserted from restricted validation.",
         }
         if fit["trait"] in {"education", "profession"}:
-            previous = {
+            strict_previous = {
                 r["contest_id"]: r
                 for r in baseline
                 if r["trait"] == fit["trait"] and r["performance_eligible"] and r["field_eligible"]
             }
             strict = [
-                {**r, "_value": previous[r["contest_id"]]["value"]}
+                {**r, "_value": strict_previous[r["contest_id"]]["value"]}
                 for r in cohort
-                if r["contest_id"] in previous
+                if r["contest_id"] in strict_previous
             ]
             results[6].append(
                 {
@@ -680,23 +692,24 @@ def build(root):
             )
     v1.write_csv(output / "selection-summary.csv", selection_summary)
     changes = []
-    for row, old in zip(rows, baseline):
-        if row["status"] != old["status"] or row["analysis_eligible"] != old["field_eligible"]:
+    for row, old in zip(rows, comparison):
+        old_eligible = old.get("analysis_eligible", old["field_eligible"])
+        if row["status"] != old["status"] or row["analysis_eligible"] != old_eligible:
             changes.append(
                 {k: row[k] for k in ("candidate_id", "contest_id", "name", "party", "trait")}
                 | {
                     "before_status": old["status"],
                     "after_status": row["status"],
-                    "before_analysis_eligible": old["field_eligible"],
+                    "before_analysis_eligible": old_eligible,
                     "after_analysis_eligible": row["analysis_eligible"],
                     "reason": row["eligibility_reason"],
                 }
             )
     v1.write_csv(output / "qualification-changes.csv", changes)
-    before = v1.coverage(baseline)
+    before = v1.coverage(baseline) if previous is None else coverage(previous)
     after = coverage(rows)
     summary = {
-        "version": VERSION,
+        "version": version,
         "candidate_records": len(candidates),
         "democrats": sum(c["party"] == "Democratic" for c in candidates),
         "eligible_democrats": sum(r["eligible"] for r in panel),
@@ -720,13 +733,19 @@ def build(root):
         "evidence_storage": "baseline_trait_row is a 1-based row reference into immutable "
         "results/house-characteristics-v1/candidate-traits.jsonl.gz; both are in complete downloads.",
     }
+    summary.update(summary_update or {})
     write_json(output / "summary.json", summary)
     from .characteristics_publication import build as publish
     from .characteristics_v2_publication import report
 
-    publish(root, version=VERSION, reporter=report, rows_override=expanded_rows(rows, baseline))
+    publish(
+        root,
+        version=version,
+        reporter=reporter or report,
+        rows_override=expanded_rows(rows, baseline),
+    )
     inputs = (
-        SPEC,
+        spec,
         REVIEW,
         SEAL,
         PROTECTION,
@@ -738,11 +757,11 @@ def build(root):
         "which_candidate/characteristics_v2_publication.py",
         "which_candidate/house_characteristics.py",
         "which_candidate/characteristics_publication.py",
-    )
+    ) + tuple(extra_inputs)
     write_json(
         output / "manifest.json",
         {
-            "version": VERSION,
+            "version": version,
             "inputs": {name: fingerprint(root / name) for name in inputs},
             "files": {
                 p.name: fingerprint(p)
@@ -751,7 +770,7 @@ def build(root):
             },
         },
     )
-    verify_frozen(root)
+    verify_frozen(root, protection)
     return summary
 
 

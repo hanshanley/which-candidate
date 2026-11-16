@@ -33,6 +33,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v3",)
+                if (root / "results/house-characteristics-v3/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -47,10 +52,19 @@ def build(root=ROOT, output=None):
         from .characteristics_v2 import verify_frozen
 
         verify_frozen(root)
-    if "results/house-characteristics-v2" in manifests:
-        for name, receipt in manifests["results/house-characteristics-v2"]["inputs"].items():
+    has_v3 = "results/house-characteristics-v3" in manifests
+    if has_v3:
+        from .characteristics_acquisition import BASELINE
+        from .characteristics_v2 import verify_frozen
+
+        verify_frozen(root, BASELINE)
+    current_version = "v3" if has_v3 else "v2"
+    if f"results/house-characteristics-{current_version}" in manifests:
+        for name, receipt in manifests[f"results/house-characteristics-{current_version}"][
+            "inputs"
+        ].items():
             if fingerprint(root / name) != receipt:
-                raise ValueError(f"Stale v2 characteristics package input: {name}")
+                raise ValueError(f"Stale {current_version} characteristics package input: {name}")
     for folder, manifest in manifests.items():
         for name, receipt in manifest["files"].items():
             if fingerprint(root / folder / name) != receipt:
@@ -84,6 +98,10 @@ def build(root=ROOT, output=None):
         entries[f"publication/{name}"] = root / "publication" / name
     for path in (root / "data").glob("*.json"):
         entries[path.relative_to(root).as_posix()] = path
+    if (root / "data/house-characteristics-v3-queue.csv").exists():
+        entries["data/house-characteristics-v3-queue.csv"] = (
+            root / "data/house-characteristics-v3-queue.csv"
+        )
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -116,6 +134,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v3-validation.json",)
+            if (root / "audits/house-characteristics-v3-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -125,7 +148,7 @@ def build(root=ROOT, output=None):
     names = ("complete-queries.zip", "substack-figures.zip")
     with TemporaryDirectory(prefix=".which-candidate-packages-", dir=output) as directory:
         staged = Path(directory)
-        write_zip(staged / names[0], entries)
+        write_zip(staged / names[0], entries, lzma_text_threshold=32 * 1024 * 1024)
         figures = root / "publication"
         upload = {
             name: figures / name
@@ -138,6 +161,8 @@ def build(root=ROOT, output=None):
         # duplicating them here would exceed GitHub's single-file size limit.
         write_zip(staged / names[1], upload)
         receipts = {name: fingerprint(staged / name) for name in names}
+        if any(receipt["bytes"] >= 100 * 1024 * 1024 for receipt in receipts.values()):
+            raise ValueError("Complete download exceeds GitHub's 100-MiB single-file limit")
         write_json(staged / "downloads.json", receipts)
         all_names = (*names, "downloads.json")
         for name in all_names:

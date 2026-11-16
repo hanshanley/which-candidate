@@ -1,0 +1,31 @@
+trait,included,candidates,states,known_D_incumbents,unknown_D_incumbency,mean_presidential_D_share,provisional_D_leads,reasons
+age,True,151,36,143,0,60.167902408282096,151,{}
+age,False,271,46,33,11,43.711297489665114,100,"{""dated_reported"": 3, ""factual_qualification_without_analytical_eligibility"": 61, ""outcome_hold"": 17, ""unknown"": 166, ""unknown_D_or_R_incumbency_control"": 24}"
+gender,True,242,43,143,0,52.139128924109436,175,{}
+gender,False,180,43,33,11,46.18580935397421,76,"{""outcome_hold"": 17, ""unknown"": 135, ""unknown_D_or_R_incumbency_control"": 28}"
+race,True,45,24,28,0,52.81400999505584,31,{}
+race,False,377,48,148,11,49.2161390810937,220,"{""factual_qualification_without_analytical_eligibility"": 42, ""outcome_hold"": 17, ""unknown"": 311, ""unknown_D_or_R_incumbency_control"": 7}"
+ethnicity,True,0,0,0,0,,0,{}
+ethnicity,False,422,50,176,11,49.599798301776865,251,"{""factual_qualification_without_analytical_eligibility"": 33, ""outcome_hold"": 17, ""unknown"": 372}"
+religion,True,118,33,118,0,60.1253613106317,118,{}
+religion,False,304,47,58,11,45.5142179233398,133,"{""factual_qualification_without_analytical_eligibility"": 13, ""outcome_hold"": 17, ""sparse_category"": 10, ""unknown"": 244, ""unknown_D_or_R_incumbency_control"": 20}"
+education,True,144,34,136,0,59.54677491601491,139,{}
+education,False,278,45,40,11,44.44740753756723,112,"{""dated_reported"": 126, ""factual_qualification_without_analytical_eligibility"": 14, ""outcome_hold"": 17, ""sparse_category"": 1, ""uncertain"": 94, ""unknown"": 2, ""unknown_D_or_R_incumbency_control"": 24}"
+profession,True,66,27,62,0,58.930901417095676,64,{}
+profession,False,356,48,114,11,47.8698746905099,187,"{""dated_reported"": 174, ""factual_qualification_without_analytical_eligibility"": 26, ""outcome_hold"": 17, ""sparse_category"": 6, ""uncertain"": 120, ""unknown_D_or_R_incumbency_control"": 13}"
+prior_elected_office,True,0,0,0,0,,0,{}
+prior_elected_office,False,422,50,176,11,49.599798301776865,251,"{""dated_reported"": 176, ""factual_qualification_without_analytical_eligibility"": 12, ""outcome_hold"": 17, ""uncertain"": 38, ""unknown"": 179}"
+other_government,True,0,0,0,0,,0,{}
+other_government,False,422,50,176,11,49.599798301776865,251,"{""dated_reported"": 1, ""factual_qualification_without_analytical_eligibility"": 9, ""outcome_hold"": 17, ""uncertain"": 234, ""unknown"": 161}"
+military,True,0,0,0,0,,0,{}
+military,False,422,50,176,11,49.599798301776865,251,"{""dated_reported"": 14, ""factual_qualification_without_analytical_eligibility"": 10, ""fewer_than_two_supported_categories"": 13, ""outcome_hold"": 17, ""uncertain"": 37, ""unknown"": 328, ""unknown_D_or_R_incumbency_control"": 3}"
+incumbency,True,362,47,143,0,48.270019055242706,205,{}
+incumbency,False,60,27,33,11,57.622799755866325,46,"{""outcome_hold"": 17, ""unknown"": 10, ""unknown_D_or_R_incumbency_control"": 33}"
+house_service,True,143,35,143,0,60.408396085210036,143,{}
+house_service,False,279,46,33,11,44.0599076815943,108,"{""inapplicable"": 229, ""outcome_hold"": 17, ""unknown"": 10, ""unknown_D_or_R_incumbency_control"": 23}"
+donor_ideology,True,152,39,123,0,56.703044987983525,131,{}
+donor_ideology,False,270,48,53,11,45.60093350065313,120,"{""dated_reported"": 18, ""outcome_hold"": 17, ""unknown"": 213, ""unknown_D_or_R_incumbency_control"": 22}"
+voting_ideology,True,117,32,117,0,60.95378675704213,117,{}
+voting_ideology,False,305,47,59,11,45.24433387795381,134,"{""inapplicable"": 260, ""outcome_hold"": 17, ""unknown"": 10, ""unknown_D_or_R_incumbency_control"": 18}"
+party_unity,True,143,35,143,0,60.408396085210036,143,{}
+party_unity,False,279,46,33,11,44.0599076815943,108,"{""inapplicable"": 229, ""outcome_hold"": 17, ""unknown"": 10, ""unknown_D_or_R_incumbency_control"": 23}"

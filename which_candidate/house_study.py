@@ -1,6 +1,7 @@
 """A coherent House study: qualified comparisons, held-out diagnostics and profiles."""
 
 import argparse
+import copy
 import csv
 import json
 from collections import Counter
@@ -9,7 +10,7 @@ from pathlib import Path
 import numpy as np
 
 from .candidate_discovery import attach_repair
-from .candidate_research import attach_dispositions
+from .candidate_research import BACKGROUND_FIELDS, attach_dispositions, background_field_coverage
 from .democratic_traits import democratic_trait_rows, write_trait_outputs
 from .house_validation import (
     person_key,
@@ -221,6 +222,65 @@ def acquired_evidence(candidates, observations, facts):
             }
         )
     return output
+
+
+def attach_research_history(root, profiles):
+    """Validate frozen research milestones separately from later normalized additions."""
+    root = Path(root)
+    if not (root / "data/house-characteristics-v3-acquisitions.json").exists():
+        return attach_dispositions(root, profiles), attach_repair(root, profiles)
+    inputs = read_rows(root / "results/house/source-inputs.jsonl.gz")[0]
+    supplemental = {
+        (o["candidate_id"], o["contest_id"], o["source_id"])
+        for o in inputs["reviewed_characteristic_observations"]
+        if o["source_id"].startswith("v3-")
+    }
+    historical = copy.deepcopy(profiles)
+    counts = {}
+    for profile in historical:
+        original = profile["acquired_background_observations"]
+        profile["acquired_background_observations"] = [
+            o
+            for o in original
+            if not isinstance(o.get("evidence"), dict)
+            or (
+                profile["candidate_id"],
+                profile["contest_id"],
+                o["evidence"].get("id"),
+            )
+            not in supplemental
+        ]
+        counts[profile["candidate_id"]] = len(original) - len(
+            profile["acquired_background_observations"]
+        )
+    research = attach_dispositions(root, historical)
+    repair = attach_repair(root, historical)
+    for current, old in zip(profiles, historical):
+        for key in (
+            "background_research",
+            "in_initial_research_queue",
+            "background_discovery_repair",
+        ):
+            if key in old:
+                current[key] = old[key]
+        current.update(background_field_coverage(current["acquired_background_observations"]))
+        if counts[current["candidate_id"]]:
+            current["supplemental_v3_observation_count"] = counts[current["candidate_id"]]
+            current["background_research"]["historical_disposition_qualification"] = (
+                "Frozen earlier research milestone; later V3 observations remain in the "
+                "current complete evidence table and do not rewrite historical receipts."
+            )
+    remaining = {
+        field: sum(field in p["remaining_background_fields"] for p in profiles)
+        for field in BACKGROUND_FIELDS
+    }
+    for summary in (research, repair):
+        if summary:
+            summary["historical_remaining_fields"] = summary["remaining_fields"]
+            summary["remaining_fields"] = remaining
+            summary["supplemental_v3_observations"] = sum(counts.values())
+            summary["historical_milestone_not_new_acquisition"] = True
+    return research, repair
 
 
 def candidate_profiles(candidates, panel, seated, incoming, predictions, evidence=None):
@@ -661,8 +721,7 @@ def build(root=ROOT, output=None):
         predictions,
         evidence,
     )
-    research = attach_dispositions(root, profiles)
-    repair = attach_repair(root, profiles)
+    research, repair = attach_research_history(root, profiles)
     participation = attach_participation_context(root, profiles)
     research_path = root / "data/democratic-background-research.json"
     targeted = (
@@ -910,8 +969,7 @@ def refresh_evidence(root=ROOT, output=None):
         list(previous.values()),
         evidence,
     )
-    research = attach_dispositions(root, profiles)
-    repair = attach_repair(root, profiles)
+    research, repair = attach_research_history(root, profiles)
     participation = attach_participation_context(root, profiles)
     research_path = root / "data/democratic-background-research.json"
     targeted = (

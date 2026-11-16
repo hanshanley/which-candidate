@@ -68,6 +68,13 @@ reference. Office, government and military positive histories may be qualified
 facts without a supported service-versus-nonservice contrast. Evaluate support
 before fitting; report unavailable comparisons explicitly.
 
+Implementation qualification: frozen V2 candidate-trait evidence already
+qualifies five Republican incumbent identities whose panel controls were still
+unknown (Nick Begich III, Jim Baird, Mike Lawler, Bob Latta and Mike Turner).
+Reuse those exact qualified native candidate/contest records, retaining V1 row
+references, rather than calling this new acquisition. Four outcomes are
+eligible; Alaska's outcome hold remains. No service-verification flag changes.
+
 Preserve V2 minimum counts, geographic support, full-rank and conditioning
 checks; clustered association uncertainty; matched-sample state-held-out,
 person-purged predictions; training-only preprocessing; common-incumbency-support

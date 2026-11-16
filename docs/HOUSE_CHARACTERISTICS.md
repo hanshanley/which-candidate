@@ -1,6 +1,41 @@
 # Full candidate-characteristics successor
 
-## Current release: evidence-qualified v2
+## Current release: new-source V3
+
+Read `results/house-characteristics-v3/report.md` or open
+`publication/characteristics-v3/report.html`. V3 acquires **five new document
+hashes** (including a methods codebook) and **238 factual observations**, 173
+about Democrats. These cover 119 candidates and 238 candidate-trait cells:
+116 previously unknown fields inform 83 candidates. Other new observations
+corroborate or qualify already reported information; they are not first coverage.
+The byte-identical held CAWP 2026 list is explicitly **not new acquisition**.
+Its newly coded claims help resolve 13 Democratic federal-incumbency holds
+(37 to 24). Existing qualified opponent records also repair five panel controls
+(four eligible outcomes), without changing service verification or outcome holds.
+
+Democratic analytical coverage changes: age 191 to 192; gender 184 to 296;
+education 182 to 183; profession 85 to 89; incumbency 412 to 425.
+The historical CAWP Black-versus-White women-candidate question has 54 eligible
+trait values and 45 association observations across 24 states. It is not an
+all-candidate racial effect. Unknowns never supply a negative reference.
+Ethnicity, prior elected office, other government and military contrasts remain
+unavailable. Current undated religious and service reports remain descriptive;
+they are not automatically pre-election inputs.
+
+All eleven estimable blocks complete matched state/person-held-out predictions
+and full-pipeline deletion intervals on their declared supported populations.
+No predictive-gain interval is wholly positive. The fifteen-block association
+family again identifies joint D/R incumbency and historical donor ideology.
+The new race contrast is inconclusive (Holm p=1). This bounded batch is measured
+source progress, not completion of universal trait research.
+
+See `HOUSE_CHARACTERISTICS_V3_SPEC.md`, the acquisition registry and frozen
+6,735-cell queue, V3 `acquisition-field-changes.csv`, `coverage-by-incumbency.csv`,
+`selection-summary.csv`, all fold/deletion ledgers and both complete downloads.
+All **227 protected historical files**, including V1/V2, remain unchanged.
+No website deployment.
+
+## Frozen evidence-qualified v2
 
 Read `results/house-characteristics-v2/report.md` or open
 `publication/characteristics-v2/report.html`. The sealed held-source review
