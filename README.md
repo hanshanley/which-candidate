@@ -59,6 +59,10 @@ network-denied complete-download replay.
 The [v2 validation receipt](audits/house-characteristics-v2-validation.json)
 records 399 passing tests, independent numerical reproduction, responsive/no-JS
 browser checks and network-denied replay with all 187 protected files unchanged.
+The [V4 validation receipt](audits/house-characteristics-v4-validation.json)
+records 421 passing tests, independent reproduction of eleven associations and
+1,709 matched predictions, desktop/mobile/no-JS browser checks, and exact
+network-denied replay. All 275 protected files, including V1–V3, are unchanged.
 
 ### Earlier frozen House findings and research history
 

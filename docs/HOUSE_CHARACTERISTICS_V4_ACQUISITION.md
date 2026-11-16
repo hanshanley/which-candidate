@@ -107,3 +107,35 @@ prospective availability. Post-election LCV narratives are qualified only for
 explicitly prior roles, multiyear service or credentials preceding prior events;
 its electoral descriptions do not replace the frozen native returns.
 
+## Completed successor and measured limits
+
+The analysis checkpoint is `39d94e7`. The complete fifteen-trait V3→V4 table is
+`results/house-characteristics-v4/v3-v4-trait-progress.csv`; the local report is
+`publication/characteristics-v4/report.html`.
+
+The batch covers 88 cells: 22 incumbent, 54 nonincumbent and 12 unresolved at
+the frozen V3 baseline; 76 belong to eligible performance candidates.
+Democratic analytical coverage gains 38 fields: one incumbent, 25 nonincumbent
+and 12 unresolved-baseline fields. Among eligible nonincumbents, religion grows
+0→5, education 9→19 and profession 4→6; exact age stays 9→9. The one newly exact
+age is outcome-ineligible. Model sample growth can therefore reflect repaired
+election controls rather than newly observed age.
+
+Seven Democratic and three opponent election classifications qualify through a
+separate held-FEC review, aided in two cases by new official alias evidence.
+These are not new-source service observations. Seventeen Democratic incumbency
+holds remain, and verified-service flags are unchanged.
+
+The alternative positive-office question was explicitly assessed: the 17 new
+before-2026 histories include 11 state, nine local and two federal histories,
+with five state/local overlaps. The single-recorded-category groups are only
+six, four and two, and absence of another recorded category does not establish
+exclusive lifetime service. No new contrast is fitted. Office/government/
+military negatives and complete ethnicity contrasts remain unsupported.
+
+Independent checks reproduce eleven clustered associations, 1,709 predictions
+and eleven prediction-gain intervals. All 421 tests and Ruff checks pass.
+All 275 protected files are unchanged. The validation receipt separately
+records responsive/no-JS browser checks and network-denied extracted-download
+replay. Both complete archives retain the frozen outputs; no website is deployed.
+
