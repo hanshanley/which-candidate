@@ -1,0 +1,124 @@
+{
+  "version": "house-characteristics-v3",
+  "validation_date": "2026-11-16",
+  "baseline_commit": "30d8a8c064e694180bb486d982bc1c5db6bdea59",
+  "acquisition_checkpoint": "3a4bca4257f89cce52c1a86964a7670e195e0d47",
+  "implementation_checkpoint": "7fddd4b51d0ac35d70c3d00aea24ab23951d6527",
+  "tests": {
+    "passed": 412,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "packaging_failure_atomicity": "passed after updating the test double for the optional ZIP compression keyword",
+    "source_whitespace_check": "passed; generated Matplotlib SVG path whitespace excluded"
+  },
+  "evidence": {
+    "candidate_records": 1284,
+    "democratic_records": 449,
+    "qualified_performance_comparisons": 405,
+    "frozen_democratic_queue_cells": 6735,
+    "new_original_document_hashes_including_methods_codebook": 5,
+    "new_source_factual_observations": 238,
+    "new_source_democratic_observations": 173,
+    "new_source_candidates": 119,
+    "new_source_democratic_candidates": 85,
+    "new_source_candidate_trait_fields": 238,
+    "previously_unknown_fields_newly_informed": 116,
+    "candidates_with_previously_unknown_fields_newly_informed": 83,
+    "previously_unknown_democratic_fields_newly_informed": 79,
+    "democrats_with_previously_unknown_fields_newly_informed": 55,
+    "held_source_claims_newly_coded": 455,
+    "existing_only_fields_newly_factually_qualified": 180,
+    "existing_only_democratic_fields_newly_factually_qualified": 105,
+    "additional_analytical_fields_all_parties": 294,
+    "additional_democratic_analytical_fields": 185,
+    "democratic_incumbency_holds_before": 37,
+    "democratic_incumbency_holds_after": 24,
+    "incumbency_resolutions_from_newly_coded_held_source_not_new_service_histories": 13,
+    "existing_qualified_opponent_controls_repaired": 5,
+    "eligible_outcomes_with_repaired_opponent_controls": 4,
+    "rejected_automatic_historical_cross_contest_transfers": 5,
+    "new_source_conflicts_recorded": 0,
+    "factual_qualification_separate_from_contrast_eligibility": true,
+    "unknown_identity_and_nonservice_not_imputed": true,
+    "retrospective_evidence_not_promoted_to_prospective_eligibility": true
+  },
+  "democratic_analytical_coverage_before_after": {
+    "age": [191, 192],
+    "gender": [184, 296],
+    "race_restricted_historical_CAWP_women": [0, 54],
+    "ethnicity": [0, 0],
+    "religion": [163, 163],
+    "education": [182, 183],
+    "profession": [85, 89],
+    "prior_elected_office": [0, 0],
+    "other_government": [0, 0],
+    "military_positive_values_without_estimable_contrast": [17, 17],
+    "incumbency": [412, 425],
+    "house_service": [183, 183],
+    "donor_ideology": [192, 192],
+    "voting_ideology": [148, 148],
+    "party_unity": [182, 182]
+  },
+  "democratic_new_source_fields_by_frozen_baseline_incumbency": {
+    "incumbent": 101,
+    "nonincumbent": 63,
+    "unknown_incumbency": 9,
+    "eligible_performance_subset": {
+      "incumbent": 92,
+      "nonincumbent": 61,
+      "unknown_incumbency": 7
+    },
+    "full_trait_by_status_before_after_table": "results/house-characteristics-v3/coverage-by-incumbency.csv"
+  },
+  "numerical_validation": {
+    "independent_clustered_associations_checked": 11,
+    "independent_matched_predictions_checked": 1671,
+    "independent_jackknife_interval_widths_checked": 11,
+    "holm_family_size": 15,
+    "complete_supported_population_comparisons": 11,
+    "newly_estimable_contrasts": [
+      "Explicit historical CAWP Black-versus-White women candidates; not an all-candidate race effect"
+    ],
+    "unavailable_contrasts": [
+      "ethnicity",
+      "prior_elected_office",
+      "other_government",
+      "military"
+    ],
+    "full_cohort_failures_preserved": true,
+    "state_person_separation_and_full_rank": "passed",
+    "training_only_preprocessing": true,
+    "holm_below_005": ["joint_D_R_incumbency", "historical_donor_ideology"],
+    "predictive_gain_intervals_wholly_above_zero": 0,
+    "new_race_comparison_holm_pvalue": 1.0,
+    "democratic_incumbent_coefficient_not_identified_with_joint_block_test": true
+  },
+  "browser": {
+    "javascript_widths": [1280, 390, 320],
+    "no_javascript_widths": [320],
+    "candidate_rows": 1284,
+    "columns": 17,
+    "filters_sort_source_qualification_downloads_overflow": "passed",
+    "both_complete_downloads_via_HTTP": "hash_verified",
+    "figures_visually_inspected": true,
+    "new_race_figure_label_explicitly_restricted": true
+  },
+  "offline_replay": {
+    "network": "denied",
+    "historical_raw_caches": "absent",
+    "normalized_reviewed_claims_validated": 705,
+    "all_archived_files_byte_identical": true,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed",
+    "receipt_packaged_replay_required_before_release": true
+  },
+  "preservation": {
+    "protected_files": 227,
+    "all_protected_bytes_unchanged": true,
+    "complete_archives_below_100_MiB_each": true,
+    "large_text_entries_losslessly_LZMA_compressed": 3,
+    "no_download_members_removed_to_reduce_size": true
+  },
+  "website_deployed": false
+}

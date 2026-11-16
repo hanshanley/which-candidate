@@ -16,7 +16,7 @@ def report(summary, fits, terms, coverage, sources, research):
         "",
         f"All **{summary['candidate_records']:,} candidate-contest records**, "
         f"**{summary['democrats']} Democrats**, **{summary['eligible_democrats']} qualified "
-        "performance comparisons and all **fifteen primary testing-family blocks** remain. "
+        "performance comparisons** and all **fifteen primary testing-family blocks** remain. "
         "The counts are provisional November 12-13 returns, not certified final outcomes. "
         "No causal nominee-replacement effect is identified.",
         "",

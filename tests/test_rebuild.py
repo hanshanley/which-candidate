@@ -542,7 +542,7 @@ def test_failed_packaging_never_publishes_partial_downloads(tmp_path, monkeypatc
         (output / name).write_bytes(b"previous complete download")
     before = {p.name: p.read_bytes() for p in output.iterdir()}
 
-    def fail_second_archive(path, entries):
+    def fail_second_archive(path, entries, **kwargs):
         calls.append(path)
         if len(calls) == 2:
             raise OSError("no space left")

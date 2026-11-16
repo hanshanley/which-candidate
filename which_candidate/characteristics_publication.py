@@ -150,7 +150,12 @@ def charts(output, coverage, fits, *, version=VERSION):
                 )
             ax.set(
                 yticks=y,
-                yticklabels=[BLOCK_LABELS[r["trait"]] for r in selected],
+                yticklabels=[
+                    "Race (historical CAWP women)"
+                    if version == "house-characteristics-v3" and r["trait"] == "race"
+                    else BLOCK_LABELS[r["trait"]]
+                    for r in selected
+                ],
                 xlabel="Baseline MAE minus trait-model MAE (vote-share pp)",
             )
             ax.axvline(0, color=MUTED, lw=1)
@@ -164,6 +169,11 @@ def charts(output, coverage, fits, *, version=VERSION):
                 "Positive = lower error. 95% pointwise intervals refit the full state-held-out/person-purged pipeline. "
                 "* Open dots: incomplete folds or deletion refits; diagnostic only. Provisional returns, not causal effects."
             )
+            if version == "house-characteristics-v3":
+                note += (
+                    " Race compares explicit historical Black/White classifications "
+                    "among CAWP women, not all candidates."
+                )
         fig.text(0.055, 0.925, title, size=21, weight="bold")
         fig.text(0.055, 0.85, "\n".join(textwrap.wrap(subtitle, 110)), size=11, color=MUTED)
         fig.text(0.055, 0.035, "\n".join(textwrap.wrap(note, 125)), size=9, color=MUTED)

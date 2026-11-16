@@ -2,7 +2,7 @@
 
 Exploratory **house-characteristics-v3** adds a bounded new-source acquisition batch to frozen V2. V1, V2 and earlier findings remain unchanged. The question is which Democratic House candidates outperform district partisanship, and how that performance relates to background, ideology, legislative behavior and incumbency.
 
-All **1,284 candidate-contest records**, **449 Democrats**, **405 qualified performance comparisons and all **fifteen primary testing-family blocks** remain. The counts are provisional November 12-13 returns, not certified final outcomes. No causal nominee-replacement effect is identified.
+All **1,284 candidate-contest records**, **449 Democrats**, **405 qualified performance comparisons** and all **fifteen primary testing-family blocks** remain. The counts are provisional November 12-13 returns, not certified final outcomes. No causal nominee-replacement effect is identified.
 
 ## Acquisition, qualification and analytical progress are different
 
