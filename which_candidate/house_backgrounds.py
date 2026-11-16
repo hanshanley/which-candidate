@@ -306,9 +306,19 @@ def validate_characteristics(records, candidates):
         if record["trait"] == "incumbency" and not isinstance(record["value"], bool):
             raise ValueError("Incumbency classification must be an explicit boolean")
         if record["trait"] == "age":
-            birthday = date.fromisoformat(record["value"])
-            if birthday >= date(2026, 11, 3):
-                raise ValueError("Invalid characteristic birthday")
+            value = record["value"]
+            if isinstance(value, dict):
+                if (
+                    set(value) not in ({"birth_year"}, {"birth_year", "birth_month"})
+                    or any(type(v) is not int for v in value.values())
+                    or not 1 <= value["birth_year"] < 2026
+                    or not 1 <= value.get("birth_month", 1) <= 12
+                ):
+                    raise ValueError("Invalid characteristic birth interval")
+            else:
+                birthday = date.fromisoformat(value)
+                if birthday >= date(2026, 11, 3):
+                    raise ValueError("Invalid characteristic birthday")
 
 
 def background_profile(candidate, inputs):
@@ -440,7 +450,9 @@ def background_observations(candidates, facts):
                     "military": "military_service",
                     "religion": "religion_literal",
                     "age": "date_of_birth",
-                }.get(record["trait"], record["trait"]),
+                }.get(record["trait"], record["trait"])
+                if not (record["trait"] == "age" and isinstance(record["value"], dict))
+                else "birth_interval",
                 record["value"],
                 record["source_kind"],
                 int(record["publication_date"][:4]) if record["publication_date"] else None,

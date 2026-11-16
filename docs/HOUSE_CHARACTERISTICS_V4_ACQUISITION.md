@@ -48,3 +48,62 @@ After the batch, freeze a V4 analytical specification using the existing models,
 fifteen-test family and supported validation design. Reuse unchanged fits and
 report all acquisition yields separately from qualification and analytical
 coverage. Refresh only local deliverables, validate, commit and push. No deployment.
+# Executed acquisition checkpoint
+
+The bounded batch has now ingested 91 literal, subject-scoped observations from
+11 evidence-yielding original documents, covering 27 Democratic candidates and
+seven trait blocks. These are acquisitions, not 91 newly discovered people or
+91 newly analytical fields. The 705 historical normalized claims are unchanged.
+The tracked registry contains original hashes, retrieval clocks, methods and
+unsuccessful/discovery-only dispositions; the research journal contains the
+exact supporting fragments and candidate-contest identities.
+
+The source-wide Michigan manual chapters, complete historical legislator table,
+Michigan general-election questionnaire, California 2019-2020 handbook, Iowa
+2025-2026 register and complete November 2026 LCV guide were acquired once.
+Official Pennsylvania and Indiana biographies and a dated multi-candidate NPR
+interview fill particular gaps. Downloaded but unused directories, landing
+pages and failed requests are not counted as trait evidence.
+
+Observed fields: age 14, religion 7, education 22, profession 18, elected office
+17, other government 8, military 5. This includes corroborating observations;
+the successor must separately measure first coverage, factual qualification,
+analytical eligibility and supported fitted contrasts.
+
+Review exclusions are factual, not source prestige rules:
+
+- Michigan's historical gender field can be inferred from names, photographs
+  or pronouns and is not promoted. January 1 default birthdays are excluded;
+  the three used exact birthdays have nondefault days and independently
+  concordant name, office and birth-month/year evidence in the current manual.
+- The Iowa register is text-extractable despite broken words and names.
+  Sarah Trone Garriott and Lindsay James have explicit birth years, completed
+  divinity credentials and clergy affiliations. Their intervals are not
+  invented exact birthdays. Dan Dawson is not Dave Dawson.
+- Callie Barr explicitly reports attorney and teacher experience; this does
+  not justify forcing one historical professional family. Clergy, organizers,
+  nonprofit executives and engineers are not automatically one of the four
+  declared occupation codes. Mike McGuire's explicit graduation without a
+  credential level does not establish a bachelor's degree. Harvie's undated
+  degree report alone does not date completion before the election.
+- Advisory boards, military councils, relatives' service, and veterans'
+  advocacy do not establish paid government employment or military service.
+  LCV's long-service descriptions support retrospective positive service,
+  not nonservice for candidates absent from its selected guide.
+- The CAWP codebook's combined race/ethnicity field explicitly includes
+  Hispanic/Latina, not its non-Hispanic complement. In the linked historical
+  Democratic women cohort, Asian American/Pacific Islander has six records
+  across four states, Native American/Native Alaskan one, and MENA two.
+  Those do not meet the unchanged ten-candidate category gate. Keep the
+  existing restricted Black-versus-White comparison, not a universal model.
+- The Pennsylvania manual's Republican Bob Brooks is not transferred to the
+  Democratic House candidate; California Assembly Robert Garcia is not
+  presumed the House candidate. V3's five rejected cross-contest transfers
+  and their regression cases remain unchanged.
+
+All new sources were retrieved after Election Day. A dated historical fact or
+pre-election edition can support retrospective measurement without proving
+prospective availability. Post-election LCV narratives are qualified only for
+explicitly prior roles, multiyear service or credentials preceding prior events;
+its electoral descriptions do not replace the frozen native returns.
+

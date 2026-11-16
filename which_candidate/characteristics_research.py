@@ -30,6 +30,12 @@ def canonical_receipt(receipt):
 
 
 def reviewed_claims(source, receipt, text=None):
+    if (
+        text is not None
+        and source.get("identity_fragment")
+        and normalized(source["identity_fragment"]) not in normalized(text)
+    ):
+        raise ValueError(f"Unsupported research subject: {source['id']}")
     result = []
     for index, claim in enumerate(source["claims"]):
         if text is not None and normalized(claim["fragment"]) not in normalized(text):
@@ -75,9 +81,26 @@ def source_text(body, source):
     if source.get("format") == "csv":
         records = csv.DictReader(io.StringIO(body.decode(source.get("encoding", "utf-8-sig"))))
         return "\n".join(" | ".join(f"{k}={v}" for k, v in row.items()) for row in records)
+    scope = source.get("text_scope", {})
     if body.startswith(b"%PDF"):
-        return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(body)).pages)
-    return html_text(body.decode("utf-8", errors="replace"))
+        pages = PdfReader(io.BytesIO(body)).pages
+        text = (
+            pages[scope["page"] - 1].extract_text() or ""
+            if "page" in scope
+            else "\n".join(p.extract_text() or "" for p in pages)
+        )
+    else:
+        text = html_text(body.decode("utf-8", errors="replace"))
+    text = normalized(text) if scope else text
+    for boundary in ("start", "end"):
+        if boundary not in scope:
+            continue
+        marker = normalized(scope[boundary])
+        if marker not in text:
+            raise ValueError(f"Missing research subject boundary: {source['id']}:{boundary}")
+        index = text.index(marker)
+        text = text[index:] if boundary == "start" else text[:index]
+    return text
 
 
 def ingest(root, *, offline=False):
@@ -154,7 +177,13 @@ def ingest(root, *, offline=False):
                 }
             receipt = canonical_receipt(receipt)
             body = path.read_bytes()
-            key = (document, receipt["sha256"], source.get("format"), source.get("encoding"))
+            key = (
+                document,
+                receipt["sha256"],
+                source.get("format"),
+                source.get("encoding"),
+                json.dumps(source.get("text_scope", {}), sort_keys=True),
+            )
             if key not in document_texts:
                 document_texts[key] = source_text(body, source)
             text = document_texts[key]

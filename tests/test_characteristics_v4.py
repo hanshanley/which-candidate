@@ -3,10 +3,30 @@ import hashlib
 import json
 from pathlib import Path
 
+import pytest
+
+from which_candidate.characteristics_research import reviewed_claims, source_text
 from which_candidate.characteristics_v4_acquisition import BASELINE, QUEUE, freeze
 from which_candidate.storage import fingerprint, json_bytes, read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_subject_scope_rejects_another_person_degree_or_service():
+    body = b"<p>Jane Doe</p><p>Teacher</p><p>John Doe</p><p>JD and Navy veteran</p>"
+    source = {
+        "id": "test-subject",
+        "text_scope": {"start": "Jane Doe", "end": "John Doe"},
+        "identity_fragment": "Jane Doe",
+        "claims": [{"fragment": "Navy veteran"}],
+    }
+    scoped = source_text(body, source)
+    assert "teacher" in scoped
+    with pytest.raises(ValueError, match="Unsupported research fragment"):
+        reviewed_claims(source, {}, scoped)
+    source["text_scope"]["end"] = "Not in document"
+    with pytest.raises(ValueError, match="Missing research subject boundary"):
+        source_text(body, source)
 
 
 def test_v4_queue_retains_every_democrat_trait_and_incumbency_stratum():
