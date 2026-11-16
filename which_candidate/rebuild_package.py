@@ -38,6 +38,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v4",)
+                if (root / "results/house-characteristics-v4/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -58,7 +63,13 @@ def build(root=ROOT, output=None):
         from .characteristics_v2 import verify_frozen
 
         verify_frozen(root, BASELINE)
-    current_version = "v3" if has_v3 else "v2"
+    has_v4 = "results/house-characteristics-v4" in manifests
+    if has_v4:
+        from .characteristics_v2 import verify_frozen
+        from .characteristics_v4_acquisition import BASELINE
+
+        verify_frozen(root, BASELINE)
+    current_version = "v4" if has_v4 else "v3" if has_v3 else "v2"
     if f"results/house-characteristics-{current_version}" in manifests:
         for name, receipt in manifests[f"results/house-characteristics-{current_version}"][
             "inputs"
@@ -102,6 +113,10 @@ def build(root=ROOT, output=None):
         entries["data/house-characteristics-v3-queue.csv"] = (
             root / "data/house-characteristics-v3-queue.csv"
         )
+    if (root / "data/house-characteristics-v4-queue.csv").exists():
+        entries["data/house-characteristics-v4-queue.csv"] = (
+            root / "data/house-characteristics-v4-queue.csv"
+        )
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -139,6 +154,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v4-validation.json",)
+            if (root / "audits/house-characteristics-v4-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -148,7 +168,7 @@ def build(root=ROOT, output=None):
     names = ("complete-queries.zip", "substack-figures.zip")
     with TemporaryDirectory(prefix=".which-candidate-packages-", dir=output) as directory:
         staged = Path(directory)
-        write_zip(staged / names[0], entries, lzma_text_threshold=32 * 1024 * 1024)
+        write_zip(staged / names[0], entries, lzma_text_threshold=8 * 1024 * 1024)
         figures = root / "publication"
         upload = {
             name: figures / name

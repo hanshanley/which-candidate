@@ -1,0 +1,16 @@
+trait,new_evidence_source_hashes,new_observations,source_informed_candidates,newly_informed_candidates,existing_fields_newly_qualified,factual_before,factual_after,analytical_before,analytical_after,remaining_limitations,fitted_before,fitted_after,estimated_before,estimated_after
+age,6,14,11,0,0,258,258,192,193,Exact age remains incumbent-heavy; year/month intervals are separate.,151,153,True,True
+gender,0,0,0,0,0,296,296,296,296,No new explicit gender classification; inferred historical gender rejected.,242,243,True,True
+race,0,0,0,0,0,102,102,54,54,Restricted historical CAWP women; additional identity groups fail category support.,45,45,True,True
+ethnicity,0,0,0,0,0,39,39,0,0,Positive identities retained; no defensible complementary reference.,0,0,False,False
+religion,4,7,7,3,0,177,180,163,168,Explicit dated descriptions only; new challenger coverage remains selective.,118,123,True,True
+education,9,22,22,0,0,201,215,183,197,"Completed supported level only; attendance, undated timing and contradictions held.",144,156,True,True
+profession,9,18,18,0,0,122,136,89,95,Four historical families only; mixed families and outside occupations held.,66,70,True,True
+prior_elected_office,7,17,17,1,0,14,27,0,0,"New histories are before 2026, not before first House entry; no negative reference.",0,0,False,False
+other_government,5,8,8,2,0,12,18,0,0,Non-elected roles recorded; paid employment not inferred from advisory membership.,0,0,False,False
+military,1,5,5,0,0,27,31,17,22,Positive service support improves; no supported nonservice reference.,0,0,False,False
+incumbency,0,0,0,0,7,425,432,425,432,17 Democratic holds remain; FEC classification is not verified service.,362,367,True,True
+house_service,0,0,0,0,0,183,183,183,183,Verified current federal incumbents only.,143,144,True,True
+donor_ideology,0,0,0,0,0,192,192,192,192,"Selective donor-linked population, not universal moderation.",152,153,True,True
+voting_ideology,0,0,0,0,0,148,148,148,148,Lagged Congress-specific incumbent record; not campaign ideology.,117,118,True,True
+party_unity,0,0,0,0,0,182,182,182,182,Cutoff-qualified current incumbent record; newcomers are not zero.,143,144,True,True

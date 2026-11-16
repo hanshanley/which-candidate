@@ -1,6 +1,7 @@
 """Separately versioned, field-qualified full House characteristics successor."""
 
 import argparse
+import copy
 import csv
 import hashlib
 import io
@@ -801,6 +802,7 @@ def analyze(
     prediction_selector=None,
     categorical_traits=(),
     strict_education=True,
+    reuse_results=None,
 ):
     by_key = {(r["contest_id"], r["trait"]): r for r in dataset if r["performance_eligible"]}
     fits, terms, predictions, folds, deletions, selections, sensitivities = (
@@ -873,6 +875,12 @@ def analyze(
                             included=False, reason="fewer_than_two_supported_categories"
                         )
         selections.extend(decisions)
+        if reuse_results and trait in reuse_results:
+            targets = (fits, terms, predictions, folds, deletions, None, sensitivities)
+            for target, cached in zip(targets, reuse_results[trait]):
+                if target is not None:
+                    target.extend(copy.deepcopy(cached))
+            continue
         result = fit(rows, trait, levels)
         result.update(
             trait=trait,

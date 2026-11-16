@@ -251,7 +251,8 @@ def render(markdown, profiles, charts, members=None, participation=None, traits=
         "records and candidate backgrounds. Evidence first; no universal candidate formula.</p>"
         '<nav><a href="#findings">Read the findings</a><a href="#figures">See the figures</a>'
         '<a href="#browser">Explore every candidate</a>'
-        '<a href="characteristics-v3/report.html">New-source full-trait analysis (V3)</a>'
+        '<a href="characteristics-v4/report.html">New challenger evidence and analysis (V4)</a>'
+        '<a href="characteristics-v3/report.html">Frozen new-source analysis (V3)</a>'
         '<a href="characteristics-v2/report.html">Frozen evidence review (V2)</a>'
         '<a href="characteristics-v1/report.html">Frozen full-trait v1</a></nav>'
         '<p class="muted">Pinned November 12–13, 2026 counts. Provisional, not certified. '

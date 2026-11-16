@@ -537,6 +537,29 @@ def expanded_rows(rows, baseline):
     return result
 
 
+def numerical_input_signature(dataset, panel, trait):
+    observations = {
+        r["contest_id"]: r
+        for r in dataset
+        if r["trait"] == trait and r["performance_eligible"] and r["field_eligible"]
+    }
+    cohort = [
+        {**r, "_value": observations[r["contest_id"]]["value"]}
+        for r in panel
+        if r["D_candidate_election_id"]
+        and r["eligible"]
+        and r["contest_id"] in observations
+        and r["D_incumbent"] is not None
+        and r["R_incumbent"] is not None
+        and (
+            trait not in v1.INCUMBENT_ONLY
+            or r["D_incumbent"] is True
+            and r.get("service_verified_incumbent") is True
+        )
+    ]
+    return digest(cohort)
+
+
 def build(
     root,
     *,
@@ -548,6 +571,7 @@ def build(
     summary_update=None,
     reporter=None,
     extra_inputs=(),
+    reuse_from=None,
 ):
     root = Path(root)
     protected = verify_frozen(root, protection)
@@ -562,12 +586,35 @@ def build(
     v1.write_csv(output / "coverage.csv", coverage(rows))
     write_rows(output / "panel-overlay.jsonl.gz", panel)
     write_json(output / "source-receipts.json", v1.source_catalog(root))
+    names = ("fits", "terms", "predictions", "folds", "state-deletions", "selection", "sensitivity")
+    numerical = analytical_rows(rows)
+    reused, signatures = {}, {}
+    if reuse_from:
+        prior = root / reuse_from
+        prior_rows = analytical_rows(read_rows(prior / "candidate-traits.jsonl.gz"))
+        prior_panel = read_rows(prior / "panel-overlay.jsonl.gz")
+        prior_results = [read_rows(prior / f"{name}.jsonl.gz") for name in names]
+        for trait in v1.TRAITS:
+            before = numerical_input_signature(prior_rows, prior_panel, trait)
+            after = numerical_input_signature(numerical, panel, trait)
+            signatures[trait] = {
+                "before_sha256": before,
+                "after_sha256": after,
+                "reused": before == after,
+                "source_version": str(reuse_from),
+            }
+            if before == after:
+                reused[trait] = [
+                    [r for r in result if r["trait"] == trait] for result in prior_results
+                ]
+        write_json(output / "numerical-input-reuse.json", signatures)
     results = v1.analyze(
-        analytical_rows(rows),
+        numerical,
         panel,
         predictor=paired,
         prediction_selector=common_support,
         strict_education=False,
+        **({"reuse_results": reused} if reuse_from else {}),
     )
     observations = {(r["contest_id"], r["name"], r["trait"]): r for r in rows}
     for decision in results[5]:
@@ -590,9 +637,26 @@ def build(
                 d["reason"] for d in results[5] if d["trait"] == fit["trait"] and not d["included"]
             )
         )
-    names = ("fits", "terms", "predictions", "folds", "state-deletions", "selection", "sensitivity")
     full_diagnostics, full_predictions, pipeline_failures = [], [], []
+    prior_diagnostics = (
+        [
+            read_rows(root / reuse_from / f"{name}.jsonl.gz")
+            for name in (
+                "full-population-folds",
+                "full-population-predictions",
+                "unsupported-pipeline-folds",
+            )
+        ]
+        if reuse_from
+        else []
+    )
     for fit in results[0]:
+        if fit["trait"] in reused:
+            for target, cached in zip(
+                (full_diagnostics, full_predictions, pipeline_failures), prior_diagnostics
+            ):
+                target.extend(r for r in cached if r["trait"] == fit["trait"])
+            continue
         if fit["status"] != "estimated":
             continue
         ids = set(fit["candidate_election_ids"])
@@ -733,7 +797,12 @@ def build(
         "evidence_storage": "baseline_trait_row is a 1-based row reference into immutable "
         "results/house-characteristics-v1/candidate-traits.jsonl.gz; both are in complete downloads.",
     }
-    summary.update(summary_update or {})
+    summary.update(summary_update(results[0]) if callable(summary_update) else summary_update or {})
+    if reuse_from:
+        summary.update(
+            reused_blocks=[t for t in v1.TRAITS if t in reused],
+            recomputed_blocks=[t for t in v1.TRAITS if t not in reused],
+        )
     write_json(output / "summary.json", summary)
     from .characteristics_publication import build as publish
     from .characteristics_v2_publication import report

@@ -152,7 +152,8 @@ def charts(output, coverage, fits, *, version=VERSION):
                 yticks=y,
                 yticklabels=[
                     "Race (historical CAWP women)"
-                    if version == "house-characteristics-v3" and r["trait"] == "race"
+                    if version in {"house-characteristics-v3", "house-characteristics-v4"}
+                    and r["trait"] == "race"
                     else BLOCK_LABELS[r["trait"]]
                     for r in selected
                 ],
@@ -169,7 +170,7 @@ def charts(output, coverage, fits, *, version=VERSION):
                 "Positive = lower error. 95% pointwise intervals refit the full state-held-out/person-purged pipeline. "
                 "* Open dots: incomplete folds or deletion refits; diagnostic only. Provisional returns, not causal effects."
             )
-            if version == "house-characteristics-v3":
+            if version in {"house-characteristics-v3", "house-characteristics-v4"}:
                 note += (
                     " Race compares explicit historical Black/White classifications "
                     "among CAWP women, not all candidates."

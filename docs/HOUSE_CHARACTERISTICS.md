@@ -1,6 +1,45 @@
 # Full candidate-characteristics successor
 
-## Current release: new-source V3
+## Current release: thin-trait acquisition V4
+
+Read `results/house-characteristics-v4/report.md` or open
+`publication/characteristics-v4/report.html`. V4 ingests **91 observations from
+11 evidence-yielding originals**, covering **27 Democrats and 88 candidate-trait
+fields**. Six previously unknown fields across six candidates gain first
+observations; most gains instead supply missing credential, historical timing
+or occupational detail. All 705 earlier normalized reviewed claims remain intact.
+
+Democratic analytical coverage changes: age **192→193**, religion **163→168**,
+education **183→197**, profession **89→95**, positive military values **17→22**
+and federal incumbency **425→432**. The seven incumbency resolutions and three
+opponent-control resolutions are separately reported reviews of held FEC
+records, not new service acquisitions. Verified-service flags do not change.
+Seventeen Democratic incumbency holds remain.
+
+The full fifteen-trait V3→V4 table, fitted sample changes and remaining limits
+are in `results/house-characteristics-v4/v3-v4-trait-progress.csv`.
+`coverage-by-incumbency.csv` retains baseline incumbent, nonincumbent and
+unresolved strata, separately for the 405 eligible comparisons. The new
+religious and credential evidence expands challenger coverage, but does not
+make these cohorts representative. Gender and ideology facts receive no new
+source observations.
+
+No new trait block becomes estimable: ethnicity, prior office, other government
+and military comparisons still lack supported contrasts. The historical CAWP
+Black-versus-White women comparison is unchanged; smaller explicit groups fail
+the unchanged category support gate. Year-only ages remain intervals. Mixed
+careers, undated degree completion and missing negative service references
+are not silently recoded.
+
+V4 retains the existing numerical design and fifteen-test family. Four
+input-identical blocks are reused with hash receipts; eleven affected blocks
+are recomputed, with fresh selection, full-population failure ledgers and
+matched state/person-held-out validation. See `HOUSE_CHARACTERISTICS_V4_SPEC.md`
+and `HOUSE_CHARACTERISTICS_V4_ACQUISITION.md`. V1-V3 and earlier protected
+outputs remain unchanged. Both complete downloads include all releases.
+**No website deployment.**
+
+## Frozen new-source V3
 
 Read `results/house-characteristics-v3/report.md` or open
 `publication/characteristics-v3/report.html`. V3 acquires **five new document
