@@ -776,6 +776,9 @@ def _build(root, output):
                 if (root / "results/participation/manifest.json").exists()
                 else []
             ),
+            read_rows(root / "results/house-study/democratic-candidate-traits.jsonl.gz")
+            if (root / "results/house-study/democratic-candidate-traits.jsonl.gz").exists()
+            else [],
         )
     )
     write_json(

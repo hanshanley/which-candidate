@@ -174,6 +174,7 @@ def test_local_report_escapes_embedded_records_and_uses_only_relative_figures():
     assert json.loads(payload) == [{"name": name}]
     assert "https://fonts." not in document
     assert 'id="download"' in document
+    assert 'id="download-traits"' in document
 
 
 def test_paired_trait_predictions_purge_people_and_detect_transferable_signal():

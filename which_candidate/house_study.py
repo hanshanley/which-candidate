@@ -10,6 +10,7 @@ import numpy as np
 
 from .candidate_discovery import attach_repair
 from .candidate_research import attach_dispositions
+from .democratic_traits import democratic_trait_rows, write_trait_outputs
 from .house_validation import (
     person_key,
     predictive_comparisons,
@@ -301,6 +302,7 @@ def candidate_profiles(candidates, panel, seated, incoming, predictions, evidenc
 
 
 def render_report(summary, fits, donors, measurements):
+    democratic_audit = summary.get("democratic_candidate_traits", {}).get("research_audit")
     primary = [r for r in fits if r["variant"] == "primary"]
     passing = summary["primary_tests_passing_Holm_005"]
     conclusion = (
@@ -555,6 +557,19 @@ def render_report(summary, fits, donors, measurements):
             "office is not a negative label. Search hits, empty questionnaires, "
             "failed requests and downloaded-but-unaccepted pages do not count as facts.",
             (
+                "The targeted Democratic background pass covers all 449 records in the "
+                "standardized trait download. It fills "
+                f"{democratic_audit['newly_filled_fields']['education']} education and "
+                f"{democratic_audit['newly_filled_fields']['professional_history']} "
+                "professional-history gaps, not newly covered people. "
+                f"{democratic_audit['remaining_missing_field_counts']['education']} "
+                "education gaps remain: Kristi Burke and Melissa McDonough. Attendance, "
+                "degree completion, paid versus unpaid roles and conflicting source claims "
+                "remain explicit. These retrospective fields do not change the frozen analyses."
+                if democratic_audit
+                else ""
+            ),
+            (
                 "The discovery correction retracts the adequacy of the earlier "
                 "first-name-only searches. The separate 701-person repair queue "
                 "includes already-covered people missing education or employment. "
@@ -649,6 +664,36 @@ def build(root=ROOT, output=None):
     research = attach_dispositions(root, profiles)
     repair = attach_repair(root, profiles)
     participation = attach_participation_context(root, profiles)
+    research_path = root / "data/democratic-background-research.json"
+    targeted = (
+        {row["candidate_id"]: row for row in json.loads(research_path.read_text())["candidates"]}
+        if research_path.exists()
+        else {}
+    )
+    for profile in profiles:
+        profile["democratic_background_research"] = targeted.get(profile["candidate_id"])
+    traits = democratic_trait_rows(profiles)
+    trait_index = {(row["candidate_id"], row["contest_id"]): row for row in traits}
+    for profile in profiles:
+        profile["standardized_democratic_traits"] = trait_index.get(
+            (profile["candidate_id"], profile["contest_id"])
+        )
+    output.mkdir(parents=True, exist_ok=True)
+    trait_provenance = write_trait_outputs(
+        output,
+        traits,
+        csv_bytes,
+        {
+            name: root / name
+            for name in (
+                "results/house/manifest.json",
+                "results/house/source-inputs.jsonl.gz",
+                "data/democratic-background-gap-baseline.json",
+                "data/democratic-background-research.json",
+            )
+            if (root / name).exists()
+        },
+    )
     predictive, paired_predictions, paired_folds, deletions = predictive_comparisons(panel)
     selection = selection_diagnostics(
         panel,
@@ -684,11 +729,11 @@ def build(root=ROOT, output=None):
         "candidate_background_research": research,
         "candidate_discovery_repair": repair,
         "participation_source_intake": participation,
+        "democratic_candidate_traits": trait_provenance,
         "new_background_fields_used_in_models": False,
         "frozen_analysis_outputs_changed": False,
         "website_publication": "withdrawn",
     }
-    output.mkdir(parents=True, exist_ok=True)
     write_rows(output / "trait-fits.jsonl.gz", fits)
     write_rows(output / "validation-folds.jsonl.gz", folds)
     write_rows(output / "candidate-profiles.jsonl.gz", profiles)
@@ -791,6 +836,7 @@ def build(root=ROOT, output=None):
                         "data/candidate-discovery-repair.json",
                         "data/candidate-discovery-baseline.json",
                         "data/participation-source-inputs.json",
+                        "data/democratic-background-research.json",
                     )
                     if (root / name).exists()
                 },
@@ -818,9 +864,210 @@ def build(root=ROOT, output=None):
     return summary
 
 
+def _verify_protected(root, baseline):
+    for name, sha256 in baseline["protected_analysis_sha256"].items():
+        path = root / name
+        if not path.exists() or fingerprint(path)["sha256"] != sha256:
+            raise ValueError(f"Frozen analysis changed: {name}")
+    for name, sha256 in baseline.get("additional_local_snapshot_sha256", {}).items():
+        path = root / name
+        if path.exists() and fingerprint(path)["sha256"] != sha256:
+            raise ValueError(f"Frozen local snapshot changed: {name}")
+
+
+def refresh_evidence(root=ROOT, output=None):
+    """Refresh descriptive evidence outputs while reusing every fitted analysis artifact."""
+    root = Path(root)
+    output = Path(output) if output else root / "results/house-study"
+    baseline_path = root / "data/democratic-background-gap-baseline.json"
+    baseline = json.loads(baseline_path.read_text())
+    _verify_protected(root, baseline)
+    house_manifest = json.loads((root / "results/house/manifest.json").read_text())
+    for name, receipt in house_manifest["files"].items():
+        if fingerprint(root / "results/house" / name) != receipt:
+            raise ValueError(f"Changed evidence input: results/house/{name}")
+    panel = read_rows(output / "candidate-comparisons.jsonl.gz")
+    candidates = read_rows(root / "results/house/candidates.jsonl.gz")
+    previous_profiles = read_rows(output / "candidate-profiles.jsonl.gz")
+    previous = {
+        row["contest_id"]: {
+            "contest_id": row["contest_id"],
+            "held_out_residual_margin_pp": row["held_out_residual_margin_pp"],
+        }
+        for row in previous_profiles
+        if row["selected_democratic_analysis_candidate"]
+    }
+    evidence = acquired_evidence(
+        candidates,
+        csv_rows(root / "results/house/background-observations.csv"),
+        read_rows(root / "results/house/biography-facts.jsonl.gz"),
+    )
+    profiles = candidate_profiles(
+        candidates,
+        panel,
+        csv_rows(root / "results/members/house-119-seats.csv"),
+        csv_rows(root / "results/members/house-120-seats.csv"),
+        list(previous.values()),
+        evidence,
+    )
+    research = attach_dispositions(root, profiles)
+    repair = attach_repair(root, profiles)
+    participation = attach_participation_context(root, profiles)
+    research_path = root / "data/democratic-background-research.json"
+    targeted = (
+        {row["candidate_id"]: row for row in json.loads(research_path.read_text())["candidates"]}
+        if research_path.exists()
+        else {}
+    )
+    for profile in profiles:
+        profile["democratic_background_research"] = targeted.get(profile["candidate_id"])
+    traits = democratic_trait_rows(profiles)
+    trait_index = {(row["candidate_id"], row["contest_id"]): row for row in traits}
+    for profile in profiles:
+        profile["standardized_democratic_traits"] = trait_index.get(
+            (profile["candidate_id"], profile["contest_id"])
+        )
+    write_rows(output / "candidate-profiles.jsonl.gz", profiles)
+    (output / "candidate-profiles.csv").write_bytes(csv_bytes(profiles))
+    for name, rows in (
+        (
+            "research-dispositions.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    **row["background_research"],
+                    "background_fields_with_observations": row[
+                        "background_fields_with_observations"
+                    ],
+                    "remaining_background_fields": row["remaining_background_fields"],
+                }
+                for row in profiles
+                if row.get("in_initial_research_queue")
+            ],
+        ),
+        (
+            "discovery-repair-dispositions.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    **row["background_discovery_repair"],
+                    "remaining_background_fields": row["remaining_background_fields"],
+                }
+                for row in profiles
+                if row.get("background_discovery_repair")
+            ],
+        ),
+        (
+            "background-field-coverage.csv",
+            [
+                {
+                    **{
+                        key: row[key]
+                        for key in (
+                            "candidate_id",
+                            "contest_id",
+                            "name",
+                            "state",
+                            "district",
+                            "party",
+                        )
+                    },
+                    "observation_count": len(row["acquired_background_observations"]),
+                    "background_fields_with_observations": row[
+                        "background_fields_with_observations"
+                    ],
+                    "remaining_background_fields": row["remaining_background_fields"],
+                }
+                for row in profiles
+            ],
+        ),
+    ):
+        (output / name).write_bytes(csv_bytes(rows))
+    provenance = write_trait_outputs(
+        output,
+        traits,
+        csv_bytes,
+        {
+            "results/house/manifest.json": root / "results/house/manifest.json",
+            "results/house/source-inputs.jsonl.gz": (root / "results/house/source-inputs.jsonl.gz"),
+            "data/democratic-background-gap-baseline.json": baseline_path,
+            **(
+                {"data/democratic-background-research.json": research_path}
+                if research_path.exists()
+                else {}
+            ),
+        },
+    )
+    summary = json.loads((output / "summary.json").read_text())
+    summary.update(
+        {
+            "named_candidates": len(profiles),
+            "parties": dict(Counter(row["party"] for row in profiles)),
+            "acquired_background_observations": sum(len(rows) for rows in evidence.values()),
+            "candidates_with_acquired_observations": len(evidence),
+            "candidate_background_research": research,
+            "candidate_discovery_repair": repair,
+            "participation_source_intake": participation,
+            "democratic_candidate_traits": provenance,
+            "new_background_fields_used_in_models": False,
+            "frozen_analysis_outputs_changed": False,
+        }
+    )
+    write_json(output / "summary.json", summary)
+    (output / "report.md").write_text(
+        render_report(
+            summary,
+            read_rows(output / "trait-fits.jsonl.gz"),
+            read_rows(root / "results/2026-v4/donor-fits.jsonl.gz"),
+            read_rows(root / "results/2026-v4/measurement-fits.jsonl.gz"),
+        )
+    )
+    manifest = json.loads((output / "manifest.json").read_text())
+    manifest["schema"] = "which_candidate.house_study.v2"
+    manifest["inputs"] = {
+        name: fingerprint(root / name)
+        for name in (
+            *manifest["inputs"],
+            "data/democratic-background-gap-baseline.json",
+            "data/democratic-background-research.json",
+        )
+        if (root / name).exists()
+    }
+    manifest["files"] = {
+        path.name: fingerprint(path)
+        for path in sorted(output.iterdir())
+        if path.is_file() and path.name != "manifest.json"
+    }
+    write_json(output / "manifest.json", manifest)
+    _verify_protected(root, baseline)
+    return summary
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--evidence-only", action="store_true")
     args = parser.parse_args()
-    print(json.dumps(build(args.root, args.output), indent=2))
+    function = refresh_evidence if args.evidence_only else build
+    print(json.dumps(function(args.root, args.output), indent=2))

@@ -36,6 +36,9 @@ def assess_results(candidate, results):
     ]
     relevant, rejected = [], []
     for result in results:
+        if result.get("identity_review") == "rejected":
+            rejected.append(result)
+            continue
         title = words(result.get("title", ""))
         url = words(unquote(result.get("url", "")))
         snippet = words(result.get("snippet", ""))
@@ -228,11 +231,14 @@ def record_gap_review(root, candidate_id, *, disposition, source_support):
     }
     ledger_path = root / "data/candidate-research-dispositions.json"
     ledger = json.loads(ledger_path.read_text())
-    decision = next(row for row in ledger["candidates"] if row["candidate_id"] == candidate_id)
-    decision["review_note"] = disposition
-    decision["reviewed_source_ids"] = sorted(
-        set(decision.get("reviewed_source_ids", [])) | set(source_support)
+    decision = next(
+        (row for row in ledger["candidates"] if row["candidate_id"] == candidate_id), None
     )
+    if decision is not None:
+        decision["review_note"] = disposition
+        decision["reviewed_source_ids"] = sorted(
+            set(decision.get("reviewed_source_ids", [])) | set(source_support)
+        )
     write_json(path, report)
     write_json(ledger_path, ledger)
     return candidate["gap_review"]
@@ -248,6 +254,7 @@ def capture_extraction(
     source_kind,
     search_preview=False,
     provider="search",
+    source_observed_at=None,
 ):
     """Pin a provider's extracted page, explicitly not an original HTTP response."""
     from .candidate_acquisition import merge_candidate_result
@@ -264,11 +271,13 @@ def capture_extraction(
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(body)
     source_id = f"candidate-extraction-{candidate['candidate_id']}-{digest[:20]}"
+    imported_at = datetime.now(timezone.utc).isoformat()
     source = {
         "id": source_id,
         "url": url,
         "resolved_url": url,
-        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "retrieved_at": source_observed_at or imported_at,
+        "imported_at": imported_at,
         "publication_date": None,
         "path": relative,
         **fingerprint(path),

@@ -386,6 +386,11 @@ def background_observations(candidates, facts):
                     {
                         **profile["evidence"],
                         "supporting_fragments": profile["support"][field],
+                        **(
+                            {"field_review": profile["field_reviews"][field]}
+                            if field in profile.get("field_reviews", {})
+                            else {}
+                        ),
                     },
                     profile["qualification"],
                 )

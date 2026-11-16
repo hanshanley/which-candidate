@@ -66,6 +66,15 @@ def build(root=ROOT, output=None):
         entries[f"publication/{name}"] = root / "publication" / name
     for path in (root / "data").glob("*.json"):
         entries[path.relative_to(root).as_posix()] = path
+    baseline_path = root / "data/democratic-background-gap-baseline.json"
+    if baseline_path.exists():
+        for name, sha256 in json.loads(baseline_path.read_text())[
+            "protected_analysis_sha256"
+        ].items():
+            path = root / name
+            if fingerprint(path)["sha256"] != sha256:
+                raise ValueError(f"Changed frozen package input: {name}")
+            entries[name] = path
     for name in (
         "README.md",
         "pyproject.toml",
@@ -94,6 +103,14 @@ def build(root=ROOT, output=None):
             name: figures / name for name in figure_files if Path(name).parts[0] != "marginoferror"
         }
         upload["complete-query-set.zip"] = staged / names[0]
+        for name in (
+            "democratic-candidate-traits.csv",
+            "democratic-candidate-traits.jsonl.gz",
+            "democratic-candidate-traits-provenance.json",
+        ):
+            path = root / "results/house-study" / name
+            if path.exists():
+                upload[name] = path
         write_zip(staged / names[1], upload)
         receipts = {name: fingerprint(staged / name) for name in names}
         write_json(staged / "downloads.json", receipts)

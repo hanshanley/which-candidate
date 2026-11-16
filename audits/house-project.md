@@ -178,15 +178,15 @@ fingerprint and per-person field baseline. Its separate 701-person queue contain
 or employment. The original 601-person queue and historical normalized inputs
 remain intact.
 
-Current normalized coverage is **1,156 of 1,284 candidate records and 28,897 observations**.
-Since `c0fa188`, gains are **240 newly covered records, 591 added observations and
-569 filled candidate-by-field gaps**. These metrics differ: education gained 242,
-professional history 299, prior office 12 and military service 16; 145 previously covered
+Current normalized coverage is **1,156 of 1,284 candidate records and 28,981 observations**.
+Since `c0fa188`, gains are **240 newly covered records, 675 added observations and
+636 filled candidate-by-field gaps**. These metrics differ: education gained 284,
+professional history 324, prior office 12 and military service 16; 204 previously covered
 candidates gained fields. The original 683-covered baseline has gained 473 records.
-Remaining field gaps are education 338, professional history 219, prior office 897 and
-military service 1,086. Only 57 records have observations in all four dimensions;
+Remaining field gaps are education 296, professional history 194, prior office 897 and
+military service 1,086. Only 58 records have observations in all four dimensions;
 an observed field is not a complete or verified biography. The reviewed registry
-contains 735 source profiles for 576 distinct candidate records, not 735 newly
+contains 813 source profiles for 601 distinct candidate records, not 813 newly
 covered people.
 
 All 45 formerly uncovered major-party candidates were revisited. Forty-four
@@ -198,7 +198,7 @@ one Republican and 127 other-party/write-in records remain uncovered. Of these,
 inadequate discovery. The remaining 40 have reviewed source-specific gaps,
 not exhaustive public-data absence findings. All original 601
 records have accounting dispositions, which is not the same as successful
-discovery. Another 192 already-covered targets still lack an original
+discovery. Another 133 already-covered targets still lack an original
 education/professional-history target field.
 
 The roster denominator is named candidate-contest records, not 1,284 independently
@@ -232,6 +232,37 @@ status and sources; `discovery-repair-dispositions.csv` covers all 701 targets.
 The source registries and full normalized queries are included in both downloads.
 This fixes discovery accountability, not the remaining evidence gaps. All new
 facts stay retrospective/model-ineligible; no website deployment is authorized.
+
+## Targeted Democratic field completion
+
+The `c23678f` baseline was independently recomputed: 449 Democratic records,
+44 education gaps, 25 professional-history gaps, six overlapping records and
+63 exact-context targets. All 63 have sourced facts or explicit field-specific
+limitations. This pass fills 42 education and all 25 career gaps across 61
+candidates, adding 84 observations and zero newly covered people.
+
+Kristi Burke and Melissa McDonough still lack supported personal academic
+education. Unknowns remain unknown; unrelated namesakes, family credentials,
+staff biographies and adjacent candidates' degrees are excluded. Twenty-two
+identity-match rejection records, failed native requests and source-specific
+limitations remain in `data/democratic-background-research.json`.
+
+All 449 have standardized descriptive trait rows and an auditable field-gain
+table. Mary Allen's 2024 bachelor's enrollment is not completion; Jamie Joyce
+and Darden Copeland retain attendance-only claims; Elizabeth Lee's conflicting
+graduation years survive. Appointed roles, civilian military employment and
+unknown compensation are not converted into elected office, military service
+or paid jobs. Two education, zero career, 238 prior-office and 370 military
+fields remain missing among Democrats. Even populated fields can have
+unresolved institutions, subjects, dates, completion or relationship status.
+
+Incremental ingestion preserved all 735 historical reviewed profiles and added
+78 factual profiles; identity-only pages are not observations. The evidence-only
+orchestrator refreshes member/candidate evidence, participation dependencies,
+report, browser and both complete archives without fitting or redrawing models.
+It protects 154 required analysis/figure files and checks 104 optional historical
+local copies when present. Absent ignored caches are not replay dependencies.
+No website deployment is part of this release.
 
 ## Participation source intake
 

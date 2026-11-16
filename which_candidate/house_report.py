@@ -81,6 +81,7 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding-top:20px}code{fo
 
 SCRIPT = """
 const electionRows=JSON.parse(document.getElementById('candidate-data').textContent);
+const traitRows=JSON.parse(document.getElementById('trait-data').textContent);
 const memberRows=JSON.parse(document.getElementById('member-data').textContent);
 const participationStates=new Map(JSON.parse(document.getElementById('participation-data').textContent).map(r=>[r.state_context_id,r]));
 const $=id=>document.getElementById(id);
@@ -173,6 +174,7 @@ function showProfile(row){
  ['Unreviewed campaign field names — not verified model inputs',row.machine_biography_fields_unreviewed]];
  for(const [label,value]of fields){const p=el('p');p.append(el('strong',label+': '),document.createTextNode(pretty(value)));box.append(p)}
  box.append(el('p','Newly attached backgrounds remain descriptive and have not been added to the trait models. Unknowns are not negative labels. A provisional winner flag is not certification.'));
+ if(row.standardized_democratic_traits){const traits=el('details');traits.open=true;traits.append(el('summary','Standardized descriptive Democratic traits'),el('pre',JSON.stringify(row.standardized_democratic_traits,null,2)));box.append(traits)}
  showEvidence(box,row);
  showParticipation(box,row);
  if(row.background_research){const research=el('details');research.append(el('summary','Research receipts and access outcomes'),el('pre',JSON.stringify(row.background_research,null,2)));box.append(research)}
@@ -204,14 +206,19 @@ for(const id of ['search','state','party','scope'])$(id).addEventListener('input
 $('dataset').addEventListener('input',()=>{rows=datasets[$('dataset').value];for(const id of ['search','state','party','scope'])$(id).value='';filter();$('profile').replaceChildren(el('p','Select a name to read the profile.'))});
 $('previous').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});
 $('download').addEventListener('click',()=>{
- const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_discovery_repair','participation_source_context','background_model_ready'];
+ const keys=['candidate_id','contest_id','name','state','district','party','votes','comparison_eligible','presidential_gap_margin_pp','held_out_residual_margin_pp','date_of_birth','education','professional_history','military_service','religion_literal','religion_status','comparison_holds','background_evidence','acquired_background_observations','standardized_democratic_traits','in_initial_research_queue','background_fields_with_observations','remaining_background_fields','background_research','background_discovery_repair','participation_source_context','background_model_ready'];
  downloadCSV(filtered,keys,'house-candidate-profiles.csv');
+});
+$('download-traits').addEventListener('click',()=>{
+ const visible=new Set(filtered.map(r=>r.candidate_id+'\\0'+r.contest_id));
+ const records=traitRows.filter(r=>visible.has(r.candidate_id+'\\0'+r.contest_id));
+ downloadCSV(records,['candidate_id','contest_id','name','state','district','party','observation_count','background_fields_with_observations','remaining_background_fields','review_status','unknown_claim_count','conflicting_claim_count','standardized_claims','source_qualifications','source_urls','member_or_incoming_background','member_or_incoming_background_evidence','machine_biography_fields_unreviewed','background_research','background_discovery_repair','targeted_background_research','campaign_websites','participation_source_context','descriptive_only','model_ready'],'house-democratic-candidate-traits.csv');
 });
 render();
 """
 
 
-def render(markdown, profiles, charts, members=None, participation=None):
+def render(markdown, profiles, charts, members=None, participation=None, traits=None):
     figures = []
     for chart in charts:
         name = f"substack/{chart['id']}.png"
@@ -230,6 +237,9 @@ def render(markdown, profiles, charts, members=None, participation=None):
     participation_payload = json.dumps(
         participation or [], ensure_ascii=True, separators=(",", ":")
     ).replace("<", "\\u003c")
+    trait_payload = json.dumps(traits or [], ensure_ascii=True, separators=(",", ":")).replace(
+        "<", "\\u003c"
+    )
     return (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -265,7 +275,8 @@ def render(markdown, profiles, charts, members=None, participation=None):
         '<option value="current">Current-member matches</option>'
         '<option value="incoming">Provisional winner flags</option></select></label></div>'
         '<div class="pager"><span id="count" aria-live="polite"></span>'
-        '<button id="download" type="button">Download filtered profiles (CSV)</button></div>'
+        '<button id="download" type="button">Download filtered profiles (CSV)</button>'
+        '<button id="download-traits" type="button">Download filtered Democratic traits (CSV)</button></div>'
         '<div class="table-wrap"><table><thead><tr><th>Name / profile</th><th>District</th>'
         "<th>Party</th><th>Source votes</th><th>Presidential gap<br>(margin pp)</th>"
         '<th>State-held-out residual<br>(margin pp)</th></tr></thead><tbody id="candidates"></tbody></table></div>'
@@ -279,6 +290,7 @@ def render(markdown, profiles, charts, members=None, participation=None):
         "member gap ledgers and exact plotted data. Frozen research is preserved. "
         "Missing evidence is never a negative trait label.</p></footer>"
         f'<script id="candidate-data" type="application/json">{payload}</script>'
+        f'<script id="trait-data" type="application/json">{trait_payload}</script>'
         f'<script id="member-data" type="application/json">{member_payload}</script>'
         f'<script id="participation-data" type="application/json">{participation_payload}</script>'
         f"<script>{SCRIPT}</script></main></body></html>\n"

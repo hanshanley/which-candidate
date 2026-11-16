@@ -17,9 +17,9 @@ The correction preserves those receipts and freezes a separate 701-person queue:
 368 uncovered candidates plus 333 already-covered people missing education or
 employment.
 
-Current coverage is **1,156 candidate records / 28,897 observations**, with 128 records
+Current coverage is **1,156 candidate records / 28,981 observations**, with 128 records
 still lacking observations. Since `c0fa188`, **240 records newly have observations
-and 569 candidate-by-field gaps were filled**, including fields for 145 candidates
+and 636 candidate-by-field gaps were filled**, including fields for 204 candidates
 already covered. All 45 previously uncovered major-party candidates were
 revisited: 44 gained observations and T.P. Nykoriak remains a reviewed
 source-specific gap. Eighty-eight unresolved New Jersey write-in identities
@@ -27,6 +27,15 @@ remain flagged as inadequate discovery rather than inheriting namesake biographi
 40 other records retain reviewed source-specific gaps. The denominator
 is named candidate-contest records, not a fully resolved census of people. See the
 [correction accounting and field audit](HOUSE_CANDIDATES.md#discovery-and-missing-field-repair).
+
+The November 16 [Democratic field-gap pass](HOUSE_CANDIDATES.md#november-16-targeted-democratic-background-research)
+covered all 63 exact-context targets: 42 of 44 education gaps and all 25 career
+gaps were filled, across 61 candidates. Two academic-education gaps remain
+(Kristi Burke and Melissa McDonough), with source-specific dispositions rather
+than invented credentials. All 449 Democrats have a standardized descriptive
+trait row. The registry preserves 22 identity-match rejection records,
+failed requests, source qualifications, contradictory wording and unknowns.
+This adds fields, not newly covered people or model-eligible features.
 
 | Source actually used or checked | Recorded outcome |
 | --- | --- |
@@ -55,8 +64,19 @@ that does not require the absent historical raw cache:
 `python -m which_candidate.reviewed_backgrounds`, then
 `python -m which_candidate.candidate_discovery --finalize`, then
 `python -m which_candidate.candidate_research --finalize`, then
-`python -m which_candidate.house_project`. All newly reviewed evidence stays
+`python -m which_candidate.house_project --evidence-only`. All newly reviewed evidence stays
 descriptive/model-ineligible; no website deployment is authorized.
+
+For a new targeted research batch, prepare actual held originals or explicitly
+labeled provider extracts with exact-context source anchors, then validate with
+`python -m which_candidate.democratic_research --proposals PATH --validate-only`.
+Apply with the same command plus `--apply` instead of `--validate-only`, then run
+the incremental-ingestion/finalization/evidence-only sequence above. The intake
+updates acquisition receipts, reviewed annotations and source leads; it does not
+itself rebuild normalized House inputs. `reviewed_backgrounds` does that through
+`house_candidates.build(inputs=...)`, preserving unchanged historical evidence
+without requiring its absent raw cache. Search-result excerpts remain excerpts;
+blocked/empty results and identity-only pages do not become factual observations.
 
 ## November 14 follow-up: nationwide services and acquired House profiles
 

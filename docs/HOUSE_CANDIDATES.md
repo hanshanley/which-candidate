@@ -25,7 +25,7 @@ Current source-qualified coverage:
 | Historical CampaignView biography records | 87 | 34 | 53 | 0 |
 | Historical campaign-site factual extractions | 184 | 95 | 89 | 0 |
 | Official candidate-supplied voter-guide profiles | 30 | 11 | 8 | 11 |
-| Reviewed campaign/official/directory/institution profiles (candidate records) | 576 | 141 | 173 | 262 |
+| Reviewed campaign/official/directory/institution profiles (candidate records) | 601 | 166 | 173 | 262 |
 | Dated Pew/CQ religion observations | 352 | 179 | 172 | 1 |
 | Member-authorized or official member backgrounds | 362 | 184 | 177 | 1 |
 | Positive House Historian identifications | 101 | 89 | 12 | 0 |
@@ -41,6 +41,75 @@ reviewed biographies were captured after Election Day; those observations are
 retained but are not pre-election features. Native "Write-In" records remain
 in the other-party denominator even
 when their dated FEC registration or campaign corpus records a major party.
+
+### November 16: targeted Democratic background research
+
+The baseline at `c23678f` was independently recomputed from candidate profiles:
+**449 Democratic records, 44 missing education, 25 missing professional history,
+six overlapping gaps and 63 distinct targets**. Exact candidate/contest/name/
+state/district/party identities are pinned in
+`data/democratic-background-gap-baseline.json`, with the complete baseline
+coverage table and frozen-analysis hashes.
+
+All 63 targets now have reviewed source evidence or a field-specific remaining
+gap. **42 education and 25 professional-history gaps were filled across 61
+candidates.** This adds 84 normalized observations from 78 factual source
+annotations; six additional sources supply identity/gap context only. There are
+81 new distinct acquisition receipts, not 81 newly covered people. All Democrats
+already had some acquired background: newly covered people is **zero**.
+
+| Democratic field | Available | Missing |
+| --- | ---: | ---: |
+| Education | 447 | 2 |
+| Professional/career history | 449 | 0 |
+| Prior office | 211 | 238 |
+| Military service | 79 | 370 |
+
+These are field-availability counts, not counts of complete biographies, paid
+jobs, completed degrees, nonservice or never having held office. Kristi Burke
+(TN-01) and Melissa McDonough (TX-38) retain unknown personal academic education
+after contextual source review. McDonough's professional designations, sons'
+education and campaign manager's degrees are not substituted for her academic
+history. Burke's beauty-industry work does not establish a match to a Kentucky
+instructor or unrelated Texas/Idaho education professionals.
+
+Mary Allen's August 2024 local profile separately supports an occupational-
+therapy certification and a bachelor's program then in progress, not a completed
+bachelor's. Jamie Joyce and Darden Copeland retain attendance-only college
+claims. Elizabeth Lee's reported Northwestern State graduation years conflict;
+both sources survive. Jen Mazzuckelli's subject-wording discrepancy is retained
+without treating degree completion as disputed. Becky Stille's two reported
+credentials could both be held; different credential levels alone are not a
+contradiction. Hilda Solis's appointed secretaryship and Brad Meyer's civilian
+Navy employment are not recoded as elected office or military service.
+
+The source audit rejected unsupported proposed details as well as identity
+matches: for example, the refreshed Erik Osberg campaign page did not contain
+the proposed school/graduation-year wording. Only his separately supported
+Hamline degree was accepted. Twenty-two identity-match rejection records remain
+in `data/democratic-background-research.json`; grouped namesakes are not
+misreported as an independently enumerated person count. Nineteen native
+education-source retries succeeded and eight failed; the failures are retained,
+not evidence of no education. Saved provider excerpts are explicitly labeled,
+not passed off as native HTML. Allen's newly found profile was separately
+downloaded and hashed.
+
+The standardized all-449 table is
+`results/house-study/democratic-candidate-traits.csv` / `.jsonl.gz`. It retains
+literal values, exact identities, source URLs/dates/qualifications, supporting
+evidence, explicit review metadata and unknown/conflicting claims. Generic
+`prior_office` is not automatically elected office. Compensation, degree level,
+subject, dates and completion remain unknown unless explicitly supported.
+Source-specific remaining details and failed attempts survive in the research
+registry and `targeted_background_research` column. The separate
+`democratic-background-audit.json` enumerates gains and all remaining fields.
+The browser displays and exports these traits; both complete downloads contain
+the tables, registry, normalized evidence, code and tests.
+
+The evidence-only build checks all 154 pinned committed analysis/figure files;
+104 additional ignored historical snapshot copies are also checked when locally
+present, but are not a fresh-clone dependency. No analysis is refitted, no frozen
+sample changes and no website is deployed.
 
 ### Participation context is not candidate background
 
@@ -239,11 +308,11 @@ The correction froze `c0fa188` coverage separately in
 333 already-covered candidates who lacked education or employment. The original
 601-person queue is preserved, not redefined.
 
-Current normalized coverage is **28,897 observations for 1,156 candidate records**.
-Compared with `c0fa188`, **240 records newly have observations**, while **569
-candidate-by-field gaps** were filled: education 242, professional history 299,
-prior office 12 and military service 16. **145 previously covered candidates** gained
-fields; 192 previously covered repair targets still lack at least one original
+Current normalized coverage is **28,981 observations for 1,156 candidate records**.
+Compared with `c0fa188`, **240 records newly have observations**, while **636
+candidate-by-field gaps** were filled: education 284, professional history 324,
+prior office 12 and military service 16. **204 previously covered candidates** gained
+fields; 133 previously covered repair targets still lack at least one original
 education/employment target. Multiple sources for one person do not inflate
 the person count.
 
@@ -315,8 +384,8 @@ unknown and refused values do not count as substantive field availability.
 
 | Requested dimension | People with acquired observations | People without |
 | --- | ---: | ---: |
-| Education | 946 | 338 |
-| Employment/professional history | 1,065 | 219 |
+| Education | 988 | 296 |
+| Employment/professional history | 1,090 | 194 |
 | Prior office/governmental experience | 387 | 897 |
 | Military service | 198 | 1,086 |
 
@@ -354,7 +423,7 @@ python -m which_candidate.candidate_acquisition
 python -m which_candidate.reviewed_backgrounds
 python -m which_candidate.candidate_discovery --finalize
 python -m which_candidate.candidate_research --finalize
-python -m which_candidate.house_project
+python -m which_candidate.house_project --evidence-only
 ```
 
 The ingest command checks normalized manifest fingerprints, validates originals

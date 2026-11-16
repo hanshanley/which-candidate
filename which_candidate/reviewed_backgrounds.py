@@ -23,10 +23,55 @@ KINDS = {
     "news_reported_biography",
 }
 CONTEXT = ("candidate_id", "contest_id", "name", "state", "district", "party")
+CLAIM_STATUSES = {"supported", "unknown", "conflicting", "review_required"}
+FIELD_REVIEW_VALUES = {
+    "education": {
+        "completion_status": {
+            "degree_earned",
+            "certificate_earned",
+            "attendance_only",
+            "completion_unknown",
+            "conflicting",
+        }
+    },
+    "professional_history": {
+        "relationship_status": {
+            "paid_employment",
+            "self_employment",
+            "unpaid_or_volunteer",
+            "relationship_unknown",
+            "conflicting",
+        }
+    },
+}
 
 
 def normalized(text):
     return re.sub(r"\s+", " ", text.replace("\u2019", "'")).strip().casefold()
+
+
+def validated_field_reviews(fields, reviews):
+    reviews = reviews or {}
+    if not isinstance(reviews, dict) or set(reviews) - set(fields):
+        raise ValueError("Field reviews must apply only to fields on the same source")
+    result = {}
+    for field, review in reviews.items():
+        if not isinstance(review, dict) or not review:
+            raise ValueError("Field review metadata must be a nonempty object")
+        allowed = {"claim_status", "qualification", *FIELD_REVIEW_VALUES.get(field, {})}
+        if set(review) - allowed:
+            raise ValueError(f"Unsupported field review metadata for {field}")
+        if review.get("claim_status") not in CLAIM_STATUSES:
+            raise ValueError(f"Field review requires an explicit claim_status for {field}")
+        if "qualification" in review and (
+            not isinstance(review["qualification"], str) or not review["qualification"].strip()
+        ):
+            raise ValueError("Field review qualification must be a nonempty string")
+        for key, values in FIELD_REVIEW_VALUES.get(field, {}).items():
+            if key in review and review[key] not in values:
+                raise ValueError(f"Unsupported {key} for {field}")
+        result[field] = review
+    return result
 
 
 def reviewed_inputs(root, *, profiles=None):
@@ -97,6 +142,7 @@ def reviewed_inputs(root, *, profiles=None):
                     raise ValueError(
                         f"Reviewed support absent from {source_id}, {field}: {fragment}"
                     )
+        field_reviews = validated_field_reviews(fields, annotation.get("field_reviews"))
         kind = annotation.get("source_kind", "candidate_campaign_self_report")
         if kind not in KINDS:
             raise ValueError("Unsupported reviewed background source kind")
@@ -105,6 +151,7 @@ def reviewed_inputs(root, *, profiles=None):
                 **{key: candidate[key] for key in CONTEXT},
                 "fields": fields,
                 "support": support,
+                "field_reviews": field_reviews,
                 "source_kind": kind,
                 "model_ready": False,
                 "qualification": annotation.get("qualification", review["qualification"]),
@@ -183,6 +230,7 @@ def ingest(root, output=None):
             (
                 previous["fields"] == annotation["fields"],
                 previous["support"] == annotation["support"],
+                previous.get("field_reviews", {}) == annotation.get("field_reviews", {}),
                 previous["source_kind"]
                 == annotation.get("source_kind", "candidate_campaign_self_report"),
                 previous["qualification"]

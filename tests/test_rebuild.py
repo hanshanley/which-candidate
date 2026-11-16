@@ -1,3 +1,4 @@
+import hashlib
 import json
 import socket
 import zipfile
@@ -482,6 +483,8 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         assert "audits/candidate-research.json" in archive.namelist()
         assert "results/house-study/research-dispositions.csv" in archive.namelist()
         assert "results/house-study/background-field-coverage.csv" in archive.namelist()
+        if (ROOT / "results/house-study/democratic-candidate-traits.csv").exists():
+            assert "results/house-study/democratic-candidate-traits.csv" in archive.namelist()
         assert (
             archive.read("data/participation-source-inputs.json")
             == (ROOT / "data/participation-source-inputs.json").read_bytes()
@@ -497,8 +500,12 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         )
         assert all(not name.startswith("data/raw/") for name in archive.namelist())
         assert all(not name.startswith("publication/2026-") for name in archive.namelist())
+        baseline = json.loads((ROOT / "data/democratic-background-gap-baseline.json").read_text())
+        protected = baseline["protected_analysis_sha256"]
+        for name, sha256 in protected.items():
+            assert hashlib.sha256(archive.read(name)).hexdigest() == sha256
         assert all(
-            name.startswith("publication/")
+            name.startswith("publication/") or name in protected
             for name in archive.namelist()
             if Path(name).suffix in (".png", ".svg")
         )
@@ -511,6 +518,8 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
         assert archive.read("report.html") == (ROOT / "publication/report.html").read_bytes()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())
+        if (ROOT / "results/house-study/democratic-candidate-traits.csv").exists():
+            assert "democratic-candidate-traits.csv" in archive.namelist()
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())
 
 
@@ -532,6 +541,32 @@ def test_failed_packaging_never_publishes_partial_downloads(tmp_path, monkeypatc
     with pytest.raises(OSError, match="no space"):
         rebuild_package.build(ROOT, output)
     assert {p.name: p.read_bytes() for p in output.iterdir()} == before
+
+
+def test_evidence_refresh_updates_unplotted_coverage_without_changing_figure_inputs(tmp_path):
+    from which_candidate.house_project import _refresh_coverage_plot_data
+    from which_candidate.house_study import csv_bytes, csv_rows
+
+    plotted = {
+        "cohort": "democrats",
+        "candidates": 449,
+        "factual_background": 449,
+        "donor_score": 100,
+        "prior_federal_voting_score": 50,
+    }
+    path = tmp_path / "publication/plot-data/candidate-evidence.csv"
+    path.parent.mkdir(parents=True)
+    path.write_bytes(csv_bytes([{**plotted, "reviewed_profiles": 141}]))
+    (tmp_path / "results/house").mkdir(parents=True)
+    coverage = tmp_path / "results/house/coverage.json"
+    write_json(coverage, [{**plotted, "reviewed_profiles": 166}])
+    _refresh_coverage_plot_data(tmp_path)
+    assert csv_rows(path)[0]["reviewed_profiles"] == "166"
+    before = path.read_bytes()
+    write_json(coverage, [{**plotted, "factual_background": 448, "reviewed_profiles": 166}])
+    with pytest.raises(ValueError, match="change plotted coverage"):
+        _refresh_coverage_plot_data(tmp_path)
+    assert path.read_bytes() == before
 
 
 def test_measurement_panels_share_a_centered_scale_without_clipping_intervals():

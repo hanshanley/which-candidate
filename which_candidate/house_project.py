@@ -1,6 +1,8 @@
 """Rebuild the complete current House project from pinned, normalized inputs."""
 
+import argparse
 import json
+from pathlib import Path
 
 from . import (
     house_candidates,
@@ -11,6 +13,34 @@ from . import (
     rebuild_package,
     rebuild_publication,
 )
+from .house_report import render as render_house_report
+from .storage import fingerprint, read_rows, write_json
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def _refresh_coverage_plot_data(root):
+    path = root / "publication/plot-data/candidate-evidence.csv"
+    previous = house_study.csv_rows(path)
+    current = {
+        row["cohort"]: row for row in json.loads((root / "results/house/coverage.json").read_text())
+    }
+    plotted = (
+        "cohort",
+        "candidates",
+        "factual_background",
+        "donor_score",
+        "prior_federal_voting_score",
+    )
+    rows = []
+    for row in previous:
+        updated = current[row["cohort"]]
+        if any(str(updated[key]) != row[key] for key in plotted):
+            raise ValueError("Evidence refresh would change plotted coverage; keep frozen figures")
+        rows.append(
+            {key: value for key, value in updated.items() if not isinstance(value, (list, dict))}
+        )
+    path.write_bytes(house_study.csv_bytes(rows))
 
 
 def build():
@@ -24,5 +54,59 @@ def build():
     return {"study": summary, "downloads": downloads}
 
 
+def refresh_evidence(root=ROOT):
+    """Refresh evidence, local report and downloads without fitting or redrawing analyses."""
+    root = Path(root)
+    chart_receipts = {
+        path.relative_to(root).as_posix(): fingerprint(path)
+        for path in (root / "publication").rglob("*")
+        if path.is_file() and path.suffix in {".png", ".svg"}
+    }
+    house_members.build(root)
+    if (root / "data/participation-source-inputs.json").exists():
+        participation_context.build(root)
+    summary = house_study.refresh_evidence(root)
+    _refresh_coverage_plot_data(root)
+    publication = root / "publication"
+    charts = json.loads((publication / "captions.json").read_text())
+    (publication / "report.html").write_text(
+        render_house_report(
+            (root / "results/house-study/report.md").read_text(),
+            read_rows(root / "results/house-study/candidate-profiles.jsonl.gz"),
+            charts,
+            {
+                "current": house_study.csv_rows(root / "results/members/house-119-seats.csv"),
+                "incoming": house_study.csv_rows(root / "results/members/house-120-seats.csv"),
+            },
+            (
+                read_rows(root / "results/participation/state-context.jsonl.gz")
+                if (root / "results/participation/manifest.json").exists()
+                else []
+            ),
+            read_rows(root / "results/house-study/democratic-candidate-traits.jsonl.gz"),
+        )
+    )
+    manifest = json.loads((publication / "manifest.json").read_text())
+    manifest["inputs"] = {name: fingerprint(root / name) for name in manifest["inputs"]}
+    manifest["files"] = {
+        path.relative_to(publication).as_posix(): fingerprint(path)
+        for path in sorted(publication.rglob("*"))
+        if path.is_file() and path.name != "manifest.json"
+    }
+    write_json(publication / "manifest.json", manifest)
+    downloads = rebuild_package.build(root)
+    if chart_receipts != {
+        path.relative_to(root).as_posix(): fingerprint(path)
+        for path in (root / "publication").rglob("*")
+        if path.is_file() and path.suffix in {".png", ".svg"}
+    }:
+        raise ValueError("Evidence-only refresh changed publication charts")
+    return {"study": summary, "downloads": downloads}
+
+
 if __name__ == "__main__":
-    print(json.dumps(build(), indent=2))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--evidence-only", action="store_true")
+    args = parser.parse_args()
+    print(json.dumps(refresh_evidence(args.root) if args.evidence_only else build(), indent=2))

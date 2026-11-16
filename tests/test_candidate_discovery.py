@@ -83,6 +83,19 @@ def test_relevant_institution_result_is_only_a_lead():
     assert "factual identity and source review required" in result["qualification"]
 
 
+def test_manually_rejected_identity_result_never_becomes_a_relevant_lead():
+    rejected = {
+        "url": "https://university.edu/faculty/gies-aaron",
+        "title": "Aaron Gies faculty biography",
+        "identity_review": "rejected",
+        "rejection_reason": "Reviewed namesake, not the candidate.",
+    }
+    result = assess_results({"name": "Aaron Gies", "state": "NY"}, [rejected])
+    assert result["status"] == "failed_irrelevant_or_empty_results"
+    assert result["relevant_results"] == []
+    assert result["rejected_results"] == [rejected]
+
+
 @pytest.mark.parametrize("invalid", [None, "party", "fec_id", "website", "bytes", "context"])
 def test_roster_identity_hold_does_not_invent_biography_or_hide_discovery_gaps(tmp_path, invalid):
     candidate = {

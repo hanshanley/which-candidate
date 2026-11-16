@@ -428,7 +428,7 @@ def test_every_accepted_field_becomes_a_qualified_observation_not_a_model_featur
         for row in records:
             evidence = json.loads(row["evidence"])
             assert evidence["sha256"] == profile["evidence"]["sha256"]
-            assert evidence["publication_date"] is None
+            assert evidence["publication_date"] == profile["evidence"]["publication_date"]
             assert row["model_ready"] is False and row["source_year"] is None
     selected = {row["name"]: row for row in profiles}
     assert "military_service" not in selected["Mark Teixeira"]["fields"]
