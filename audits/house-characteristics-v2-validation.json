@@ -1,0 +1,54 @@
+{
+  "version": "house-characteristics-v2",
+  "validation_date": "2026-11-16",
+  "baseline_commit": "adbb8e2509390d14485c9fde3d1f8197d8bcccfb",
+  "review_checkpoint": "986adfc12e1325abcc1e3974db7428ce91c779ab",
+  "implementation_checkpoint": "b4143c4dbe97b29f9ce4c580311e00b3a17be3c5",
+  "tests": {"passed": 399, "ruff_check": "passed", "ruff_format_check": "passed"},
+  "evidence": {
+    "candidate_records": 1284,
+    "democratic_records": 449,
+    "qualified_performance_comparisons": 405,
+    "newly_acquired_observations": 0,
+    "newly_covered_people": 0,
+    "newly_qualified_existing_fields": 258,
+    "newly_analysis_eligible_fields": 18,
+    "remaining_democratic_federal_incumbency_holds": 37,
+    "newly_estimable_trait_blocks": 0,
+    "qualification_and_contrast_eligibility_separate": true,
+    "unknown_identity_and_nonservice_not_imputed": true,
+    "prospective_eligibility_not_promoted": true
+  },
+  "numerical_validation": {
+    "independent_clustered_associations_checked": 10,
+    "independent_matched_predictions_checked": 1505,
+    "independent_jackknife_intervals_checked": 10,
+    "holm_family_size": 15,
+    "complete_supported_population_comparisons": 10,
+    "unavailable_contrasts": ["race", "ethnicity", "prior_elected_office", "other_government", "military"],
+    "full_cohort_failures_preserved": true,
+    "v1_numerical_ledgers_reproduced_with_default_code": true
+  },
+  "browser": {
+    "javascript_widths": [1280, 390, 320],
+    "no_javascript_widths": [320],
+    "candidate_rows": 1284,
+    "columns": 17,
+    "filters_sort_source_qualification_downloads_overflow": "passed",
+    "individual_final_figures_visually_inspected": true
+  },
+  "offline_replay": {
+    "network": "denied",
+    "historical_raw_caches": "absent",
+    "historical_reviewed_claims_validated": 12,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "receipt_packaged_replay_required_before_release": true
+  },
+  "preservation": {
+    "protected_files": 187,
+    "protection_matches_original_prechange_baseline": true,
+    "all_protected_bytes_unchanged": true
+  },
+  "website_deployed": false
+}

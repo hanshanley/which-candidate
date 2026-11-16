@@ -1,5 +1,35 @@
 # Full candidate-characteristics successor
 
+## Current release: evidence-qualified v2
+
+Read `results/house-characteristics-v2/report.md` or open
+`publication/characteristics-v2/report.html`. The sealed held-source review
+newly qualifies **258 existing candidate-trait fields**, of which **18 become
+additional analytical fields**. It acquires **zero new observations or people**.
+Factual qualification, coding, timing, analytical eligibility and contrast
+support are now separate. Positive identity/service evidence need not establish
+an estimable comparison. Attendance is not completed attainment.
+
+The v2-only service overlay resolves Keating and Suozzi; 37 Democratic federal
+incumbency holds remain, and Keating's unknown opponent control remains held.
+Age/gender validation now completes on explicitly restricted, covariate-supported
+populations; full-population failures are preserved. All ten estimable blocks
+complete their declared matched prediction and full-pipeline deletion checks.
+Five positive-only/reference-incomplete contrasts remain unavailable.
+No predictive-gain interval is wholly positive. The fifteen-test association
+family still identifies historical donor ideology and joint D/R incumbency,
+not the Democratic-incumbent coefficient alone.
+
+See `HOUSE_CHARACTERISTICS_V2_SPEC.md` for the exploratory specification and
+diagnostic amendment, and the v2 `coverage.csv`, `selection-summary.csv`,
+`qualification-changes.csv`, source/coding sensitivities and fold ledgers for
+the complete evidence accounting. The bounded-age sensitivity preserves
+intervals; no birthday is manufactured. The complete downloads include both
+immutable v1 evidence tables and the lossless relational v2 overlay.
+Earlier v1 and 154 previously protected analysis files remain byte-identical.
+
+## Frozen v1 release
+
 `house-characteristics-v1` is an exploratory successor specified after earlier
 results but before these fits. It does not refit or replace the frozen analyses.
 Read `results/house-characteristics-v1/report.md` or open

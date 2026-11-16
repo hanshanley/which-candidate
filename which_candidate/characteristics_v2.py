@@ -516,6 +516,19 @@ def expanded_rows(rows, baseline):
             "additional": row["source_recorded_value"].get("reviewed_facts", []),
         }
         row["evidence"] = [*old["evidence"], *row["evidence"]]
+        if row["analysis_eligible"]:
+            row["display_value"] = str(row["analysis_value"]).replace("_", " ")
+        elif isinstance(row["value"], dict):
+            interval = row["value"].get("age_years_interval")
+            row["display_value"] = (
+                f"{interval[0]}-{interval[1]} years (interval)"
+                if interval
+                else "Qualified observation (expand)"
+            )
+        row["eligibility_reason"] += (
+            f" Analytical value: {row['analysis_value']!r}; "
+            f"coding: {row['coding_status']}; timing: {row['timing_status']}."
+        )
         row["eligibility_reason"] += (
             " Analytical field eligible."
             if row["analysis_eligible"]
@@ -544,8 +557,29 @@ def build(root):
         prediction_selector=common_support,
         strict_education=False,
     )
+    observations = {(r["contest_id"], r["name"], r["trait"]): r for r in rows}
+    for decision in results[5]:
+        observation = observations.get(
+            (decision["contest_id"], decision["name"], decision["trait"])
+        )
+        if observation:
+            decision.update(
+                factual_status=observation["status"],
+                analysis_eligible=observation["analysis_eligible"],
+                field_eligibility_reason=observation["eligibility_reason"],
+                baseline_trait_row=observation["baseline_trait_row"],
+                R_incumbent=observation["R_incumbency_control"],
+            )
+        if decision["reason"] == "qualified":
+            decision["reason"] = "factual_qualification_without_analytical_eligibility"
+    for fit in results[0]:
+        fit["exclusion_counts"] = dict(
+            Counter(
+                d["reason"] for d in results[5] if d["trait"] == fit["trait"] and not d["included"]
+            )
+        )
     names = ("fits", "terms", "predictions", "folds", "state-deletions", "selection", "sensitivity")
-    full_diagnostics = []
+    full_diagnostics, full_predictions, pipeline_failures = [], [], []
     for fit in results[0]:
         if fit["status"] != "estimated":
             continue
@@ -563,6 +597,20 @@ def build(root):
         levels = sorted({r["_value"] for r in cohort}) if fit["reference"] is not None else None
         prediction, folds = paired(cohort, fit["trait"], levels)
         full_diagnostics.extend(folds)
+        full_predictions.extend(prediction)
+        if fit["trait"] in {"age", "gender"}:
+            for omitted in (None, *sorted({r["state"] for r in cohort})):
+                reduced = [r for r in cohort if r["state"] != omitted]
+                _, diagnostic = paired(reduced, fit["trait"], levels)
+                pipeline_failures.extend(
+                    {
+                        "deleted_state": omitted,
+                        "population": "unrestricted_v2_association_cohort",
+                        **fold,
+                    }
+                    for fold in diagnostic
+                    if fold["status"] != "estimated"
+                )
         fit["full_population_prediction"] = {
             "population_candidates": len(cohort),
             "paired_candidates": len(prediction),
@@ -583,12 +631,14 @@ def build(root):
             results[6].append(
                 {
                     "trait": fit["trait"],
-                    "sensitivity": "v1_qualified_values_only",
+                    "variant": "v1_qualified_values_only",
                     "qualification": "Exclude newly qualified analytical education/profession values; retain v2 service controls.",
                     **v1.fit(strict, fit["trait"], levels),
                 }
             )
     write_rows(output / "full-population-folds.jsonl.gz", full_diagnostics)
+    write_rows(output / "full-population-predictions.jsonl.gz", full_predictions)
+    write_rows(output / "unsupported-pipeline-folds.jsonl.gz", pipeline_failures)
     for name, result in zip(names, results):
         write_rows(output / f"{name}.jsonl.gz", result)
         if name != "folds":
@@ -684,6 +734,10 @@ def build(root):
         "results/house/candidates.jsonl.gz",
         "results/house/source-inputs.jsonl.gz",
         "results/house-study/candidate-comparisons.jsonl.gz",
+        "which_candidate/characteristics_v2.py",
+        "which_candidate/characteristics_v2_publication.py",
+        "which_candidate/house_characteristics.py",
+        "which_candidate/characteristics_publication.py",
     )
     write_json(
         output / "manifest.json",

@@ -13,12 +13,21 @@ remain separate from Democratic nominees.
 ## Status
 
 **Current full-trait successor:** read the
-[complete characteristics report](results/house-characteristics-v1/report.md)
-or open **`publication/characteristics-v1/report.html`** locally. It covers all
+[complete characteristics report](results/house-characteristics-v2/report.md)
+or open **`publication/characteristics-v2/report.html`** locally. It covers all
 fifteen requested trait blocks, with separate coverage for 1,284 candidates,
 449 Democrats and 405 eligible Democratic performance comparisons. The
 [reviewed dataset and methods](docs/HOUSE_CHARACTERISTICS.md) distinguish
 qualified, dated/reported, uncertain, unknown and inapplicable values.
+
+The v2 held-source review newly qualifies **258 existing trait fields** and
+adds **18 analytically eligible fields**, with **zero new observations or people**.
+It separates factual qualification from analytical/contrast eligibility and
+resolves two exact federal-service bridges while retaining 37 unknowns.
+All ten estimable blocks now complete matched prediction and deletion validation
+on their explicitly declared supported populations. Full-cohort failures remain
+visible: narrowed prediction populations do not validate unsupported candidates.
+The frozen v1 report and every earlier protected output are preserved.
 
 Historical donor ideology and the **joint D/R-incumbency block** clear the
 declared fifteen-block Holm correction; the Democratic-incumbent coefficient
@@ -28,16 +37,19 @@ office, other government experience and military contrasts remain unavailable,
 not null findings. Missing identities/service never supply negative reference
 groups. Donor ideology and voting ideology are distinct measures and cohorts.
 
-This follow-up adds **12 reviewed observations for seven already-covered
+The preserved v1 follow-up added **12 reviewed observations for seven already-covered
 candidates**, including seven first-recorded trait fields and three newly
 qualified birthdays: **zero newly covered people**. All 28,981 earlier observations
 and frozen analyses are preserved; the current total is **28,993**. Three official
 biography sources are explicitly retained public-index extracts, not original
 PDF downloads. The browser, receipts, uncertainties and both complete downloads
 include the successor. **No website deployment.**
-The [release validation receipt](audits/house-characteristics-v1-validation.json)
+The [v1 validation receipt](audits/house-characteristics-v1-validation.json)
 records the full tests, independent numerical checks, browser checks and
 network-denied complete-download replay.
+The [v2 validation receipt](audits/house-characteristics-v2-validation.json)
+records 399 passing tests, independent numerical reproduction, responsive/no-JS
+browser checks and network-denied replay with all 187 protected files unchanged.
 
 ### Earlier frozen House findings and research history
 

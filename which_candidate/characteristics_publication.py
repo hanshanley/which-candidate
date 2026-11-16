@@ -83,7 +83,12 @@ def charts(output, coverage, fits, *, version=VERSION):
                 left += values
             ax.set(
                 yticks=y,
-                yticklabels=[LABELS[r["trait"]] for r in selected],
+                yticklabels=[
+                    "Education records"
+                    if version != VERSION and r["trait"] == "education"
+                    else LABELS[r["trait"]]
+                    for r in selected
+                ],
                 xlim=(0, 449),
                 xlabel="Democratic candidate-contest records (449 total)",
             )
@@ -504,7 +509,10 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
         for trait in TRAITS:
             row = traits[trait]
             value = row["value"]
-            label = str(value) if value is not None else row["status"].replace("_", " ")
+            label = row.get(
+                "display_value",
+                str(value) if value is not None else row["status"].replace("_", " "),
+            )
             urls = source_urls(row["evidence"], lookup)
             links = "".join(
                 f'<a href="{html.escape(u, quote=True)}" rel="noopener noreferrer">Source {i}</a>'

@@ -39,7 +39,7 @@ def report(summary, fits, terms, coverage, sources, research):
     for r in coverage:
         if r["cohort"] == "democrats":
             lines.append(
-                f"| {LABELS[r['trait']]} | {before[r['trait']]['qualified']} | "
+                f"| {'Education records (attainment separate)' if r['trait'] == 'education' else LABELS[r['trait']]} | {before[r['trait']]['qualified']} | "
                 f"{r['factual_qualified']} | {r['analysis_eligible']} | "
                 + " | ".join(str(r[s]) for s in STATUSES[1:])
                 + " |"
@@ -112,8 +112,11 @@ def report(summary, fits, terms, coverage, sources, research):
         "predictive population contains only joint D/R-incumbency strata represented in "
         "at least three states, selected without outcomes and frozen before deletion refits. "
         "Both models use exactly the same candidates and hold out states and repeated people. "
-        "Constant nuisance terms are handled from training data only; an unseen test stratum "
-        "is still rejected. Focal rank and conditioning checks remain enforced.",
+        "Exactly redundant nuisance terms are reparameterized using training data only, "
+        "and the same relationship must hold in every test row. This also repairs the "
+        "complementary D/R-incumbent nuisance columns exposed in education after the "
+        "unsupported open-seat stratum is removed. An unseen test stratum is still "
+        "rejected. Focal rank and conditioning checks remain enforced.",
         "",
         "The displayed intervals therefore validate a **narrower supported population**, not "
         "the full association cohort. Full-population intervals remain unavailable where "
@@ -121,6 +124,17 @@ def report(summary, fits, terms, coverage, sources, research):
         "Intervals require every supported-population fold and every full-pipeline state "
         "deletion to succeed. They are pointwise exploratory intervals, not a second "
         "multiplicity-adjusted discovery family.",
+        "",
+        "### Bounded-age and coding sensitivities",
+        "",
+        f"The separately labelled age-band sensitivity uses {summary['age_band_sensitivity']['n']} "
+        f"candidates in {summary['age_band_sensitivity']['state_clusters']} states; "
+        f"its exploratory omnibus p is {number(summary['age_band_sensitivity'].get('omnibus_pvalue'), 4)}. "
+        "The bands are under 40, 40-59 and 60 or older. Entire intervals must fit one band. "
+        "This is not the primary exact-age test and is not compared with its different "
+        "sample as if the two were identical. Education/profession sensitivities exclude "
+        "newly qualified analytical values while retaining the v2 service controls; "
+        "competitive-lean and incumbent-only fits are also retained in `sensitivity.csv`.",
         "",
         "## Estimated terms and interpretation",
         "",

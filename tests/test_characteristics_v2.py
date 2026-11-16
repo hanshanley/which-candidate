@@ -7,7 +7,7 @@ import pytest
 
 from which_candidate import characteristics_v2 as v2
 from which_candidate import house_characteristics as v1
-from which_candidate.storage import read_rows
+from which_candidate.storage import json_bytes, read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -175,3 +175,42 @@ def test_frozen_hashes_and_relational_evidence_references(reviewed):
         assert v1.key(row) == v1.key(old) and row["trait"] == old["trait"]
     seal = json.loads((ROOT / v2.SEAL).read_text())
     assert len(seal["profiles"]) > 40
+
+
+def test_changed_profile_requires_explicit_literal_rereview(monkeypatch):
+    original = v2.selected_profiles
+
+    def changed(candidates, review):
+        for candidate, collection, index, profile in original(candidates, review):
+            yield candidate, collection, index, {**profile, "review_status": "changed"}
+
+    monkeypatch.setattr(v2, "selected_profiles", changed)
+    with pytest.raises(ValueError, match="reviewed source profile"):
+        v2.reviewed_rows(ROOT)
+
+
+def test_default_v1_analysis_reproduces_every_frozen_numerical_ledger():
+    dataset = read_rows(ROOT / v1.OUT / "candidate-traits.jsonl.gz")
+    _, panel, _ = v1.sources(ROOT)
+    results = v1.analyze(dataset, panel)
+    for name, result in zip(
+        ("fits", "terms", "predictions", "folds", "state-deletions", "selection", "sensitivity"),
+        results,
+    ):
+        assert json_bytes(result) == json_bytes(read_rows(ROOT / v1.OUT / f"{name}.jsonl.gz")), name
+
+
+def test_released_predictions_are_exact_democratic_candidates_and_complete():
+    output = ROOT / v2.OUT
+    panel = read_rows(output / "panel-overlay.jsonl.gz")
+    expected = {r["contest_id"]: r["D_candidate_election_id"] for r in panel}
+    for row in read_rows(output / "predictions.jsonl.gz"):
+        assert expected[row["contest_id"]] == row["candidate_election_id"]
+    fits = read_rows(output / "fits.jsonl.gz")
+    assert len(fits) == 15
+    supported = [f for f in fits if f["status"] == "estimated"]
+    assert len(supported) == 10
+    assert all(f["prediction"]["complete"] for f in supported)
+    assert all(
+        f["prediction"]["interval_status"] == "full_pipeline_state_jackknife" for f in supported
+    )
