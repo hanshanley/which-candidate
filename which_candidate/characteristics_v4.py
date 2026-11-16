@@ -79,7 +79,13 @@ def office_category_support(observations):
         if value["time_reference"] != "before_2026-11-03":
             raise ValueError("Incompatible V4 office-history time reference")
         history = value["history"].casefold()
-        groups = [group for group, words in categories.items() if any(w in history for w in words)]
+        groups = value.get("supported_categories")
+        if groups is None:
+            groups = [
+                group for group, words in categories.items() if any(w in history for w in words)
+            ]
+        elif not groups or len(set(groups)) != len(groups) or set(groups) - categories.keys():
+            raise ValueError(f"Invalid reviewed office categories: {groups}")
         if not groups:
             raise ValueError(f"Unreviewed positive office category: {observation['candidate_id']}")
         histories.append(
@@ -174,18 +180,23 @@ def held_fec_review(candidates, previous, panel, inputs):
     return reviews
 
 
-def new_rows(root):
+def new_rows(root, *, previous=PREVIOUS, prefix="v4-", held_reviewer=held_fec_review):
     root = Path(root)
-    previous = read_rows(root / PREVIOUS / "candidate-traits.jsonl.gz")
+    release = prefix.rstrip("-")
+    release_label = release.upper()
+    previous_label = f"V{int(release[1:]) - 1}"
+    review_key = f"{release}_review"
+    previous_path = previous
+    previous = read_rows(root / previous_path / "candidate-traits.jsonl.gz")
     rows = copy.deepcopy(previous)
     by_key = {(r["candidate_id"], r["trait"]): r for r in rows}
     candidates = read_rows(root / "results/house/candidates.jsonl.gz")
-    panel = copy.deepcopy(read_rows(root / PREVIOUS / "panel-overlay.jsonl.gz"))
+    panel = copy.deepcopy(read_rows(root / previous_path / "panel-overlay.jsonl.gz"))
     inputs = read_rows(root / "results/house/source-inputs.jsonl.gz")[0]
     observations = [
         r
         for r in inputs["reviewed_characteristic_observations"]
-        if r["source_id"].startswith("v4-")
+        if r["source_id"].startswith(prefix)
     ]
     grouped = defaultdict(list)
     for observation in observations:
@@ -196,18 +207,18 @@ def new_rows(root):
         row = by_key[key]
         row["source_recorded_value"].setdefault("reviewed_facts", []).extend(claims)
         row["evidence"].extend(claims)
-        row["v4_acquisition_observation_ids"] = [c["observation_id"] for c in claims]
-        row["review_status"] = "literal_subject_and_timing_reviewed_v4"
-        row["factual_qualified"] |= any(c["v4_review"]["factual_qualified"] for c in claims)
+        row[f"{release}_acquisition_observation_ids"] = [c["observation_id"] for c in claims]
+        row["review_status"] = f"literal_subject_and_timing_reviewed_{release}"
+        row["factual_qualified"] |= any(c[review_key]["factual_qualified"] for c in claims)
         if row["factual_qualified"]:
             row["status"] = "qualified"
-        row["eligibility_reason"] += " V4: " + " ".join(
+        row["eligibility_reason"] += f" {release_label}: " + " ".join(
             dict.fromkeys(c["qualification"] for c in claims)
         )
         values = [
-            c["v4_review"]["analysis_value"]
+            c[review_key]["analysis_value"]
             for c in claims
-            if c["v4_review"]["analysis_value"] is not None
+            if c[review_key]["analysis_value"] is not None
         ]
         trait = row["trait"]
         chosen = None
@@ -266,27 +277,29 @@ def new_rows(root):
                 value=chosen,
                 analysis_value=chosen,
                 analysis_eligible=True,
-                coding_status="explicit_V4_completed_credential_or_dated_historical_fact",
+                coding_status=f"explicit_{release_label}_completed_credential_or_dated_historical_fact",
                 timing_status="pre_election_fact_retrospectively_acquired",
             )
         if trait in {"prior_elected_office", "other_government"}:
-            row["v4_history_time_reference"] = "before_2026-11-03"
+            row[f"{release}_history_time_reference"] = "before_2026-11-03"
             row["contrast_status"] = "positive_histories_no_explicit_negative_reference"
         if trait == "military":
             row["contrast_status"] = "positive_service_no_explicit_nonservice_reference"
         if not row["analysis_eligible"] and trait != "age":
             row["value"] = {
-                "preserved_V3_value": row["value"],
-                "V4_source_observations": [
+                f"preserved_{previous_label}_value": row["value"],
+                f"{release_label}_source_observations": [
                     {"value": c["value"], "publication_date": c["publication_date"]} for c in claims
                 ],
             }
         row["prospective_model_eligible"] = False
 
-    held = held_fec_review(candidates, previous, panel, inputs)
+    held = held_reviewer(candidates, previous, panel, inputs) if held_reviewer else []
     for review in held:
         row = by_key[(review["candidate_id"], "incumbency")]
-        row["source_recorded_value"].setdefault("held_evidence_reviews_v4", []).append(review)
+        row["source_recorded_value"].setdefault(f"held_evidence_reviews_{release}", []).append(
+            review
+        )
         row["evidence"].append(review)
         row.update(
             value=review["value"],
@@ -297,7 +310,7 @@ def new_rows(root):
             coding_status="explicit_held_FEC_election_classification_person_contest_review",
             timing_status="2026_election_record_not_verified_lifetime_service",
         )
-        row["eligibility_reason"] += " V4 held evidence: " + review["qualification"]
+        row["eligibility_reason"] += f" {release_label} held evidence: " + review["qualification"]
     for outcome in panel:
         for party, label in (("Democratic", "D"), ("Republican", "R")):
             matches = [
@@ -311,9 +324,9 @@ def new_rows(root):
                 row = by_key[(matches[0]["candidate_id"], "incumbency")]
                 if row["analysis_eligible"]:
                     outcome[f"{label}_incumbent"] = row["analysis_value"]
-                    outcome[f"v4_{label}_incumbency_evidence"] = {
+                    outcome[f"{release}_{label}_incumbency_evidence"] = {
                         "candidate_id": row["candidate_id"],
-                        "source": "reviewed_held_FEC",
+                        "source": "reviewed_held_FEC" if held_reviewer else "reviewed_new_FEC",
                         "service_verification_unchanged": True,
                     }
     outcomes = {r["contest_id"]: r for r in panel}
@@ -321,13 +334,26 @@ def new_rows(root):
         row["D_incumbency_control"] = outcomes[row["contest_id"]]["D_incumbent"]
         row["R_incumbency_control"] = outcomes[row["contest_id"]]["R_incumbent"]
         row["field_eligible"] = row["analysis_eligible"]
-        row["incumbency_group_v4"] = incumbent_group(by_key[(row["candidate_id"], "incumbency")])
+        row[f"incumbency_group_{release}"] = incumbent_group(
+            by_key[(row["candidate_id"], "incumbency")]
+        )
     return rows, candidates, panel, previous, observations, conflicts, held
 
 
-def progress(root, rows, previous, observations, conflicts, held):
+def progress(
+    root,
+    rows,
+    previous,
+    observations,
+    conflicts,
+    held,
+    *,
+    out=OUT,
+    acquisition=ACQUISITIONS,
+    limitations_override=None,
+):
     root = Path(root)
-    output = root / OUT
+    output = root / out
     output.mkdir(parents=True, exist_ok=True)
     old = {(r["candidate_id"], r["trait"]): r for r in previous}
     cells = {(r["candidate_id"], r["trait"]) for r in observations}
@@ -397,7 +423,7 @@ def progress(root, rows, previous, observations, conflicts, held):
                     }
                 )
     v1.write_csv(output / "coverage-by-incumbency.csv", groups)
-    acquisition = json.loads((root / ACQUISITIONS).read_text())
+    acquisition = json.loads((root / acquisition).read_text())
     limitations = {
         "age": "Exact age remains incumbent-heavy; year/month intervals are separate.",
         "gender": "No new explicit gender classification; inferred historical gender rejected.",
@@ -415,6 +441,8 @@ def progress(root, rows, previous, observations, conflicts, held):
         "voting_ideology": "Lagged Congress-specific incumbent record; not campaign ideology.",
         "party_unity": "Cutoff-qualified current incumbent record; newcomers are not zero.",
     }
+    if limitations_override:
+        limitations.update(limitations_override)
     trait_progress = []
     for trait in v1.TRAITS:
         subset = [r for r in rows if r["party"] == "Democratic" and r["trait"] == trait]

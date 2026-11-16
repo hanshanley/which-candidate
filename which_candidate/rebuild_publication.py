@@ -786,12 +786,21 @@ def _build(root, output):
         "characteristics-v2",
         "characteristics-v3",
         "characteristics-v4",
+        "characteristics-v5",
     ):
         successor = root / "publication" / version
         if not (successor / "manifest.json").exists():
             continue
         successor_manifest = json.loads((successor / "manifest.json").read_text())
         if (
+            version != "characteristics-v5"
+            and (root / "data/house-characteristics-v5-baseline.json").exists()
+        ):
+            from .characteristics_v2 import verify_frozen
+            from .characteristics_v5_acquisition import BASELINE
+
+            verify_frozen(root, BASELINE)
+        elif (
             version != "characteristics-v4"
             and (root / "data/house-characteristics-v4-baseline.json").exists()
         ):

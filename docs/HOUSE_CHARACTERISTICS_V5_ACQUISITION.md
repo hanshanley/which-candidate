@@ -47,3 +47,33 @@ Build V5 only after the actual evidence batch; reuse unchanged numerical inputs,
 retain unavailable/full-population failures, update local reports and both
 complete downloads, validate and push as the existing Git identity without
 added attribution. No website deployment.
+
+## Reviewed batch yield
+
+The bounded batch acquired ten new evidence-yielding originals and ingested
+27 literal observations for ten candidates. All 796 earlier observations remain
+unchanged. New exact election ages are Biss (birth month/year), Boafo and Pearson;
+Benitez-Thompson retains a 47-48 interval. Completed credentials qualify four
+education fields, and Biss's dated teaching qualifies one profession field.
+
+Five new FEC candidate pages explicitly associate their legal-name record with
+the native campaign-name committee and matching 2026 seat/party. Those links
+resolve five election classifications, not independently verified federal service.
+Williams and Bradstock remain held because surname-only committees do not prove
+the required aliases. Duplicate-ID holds are not resolved by agreement alone.
+
+The Illinois bulk PDFs failed HTTP/2 transport, then timed out on a single
+HTTP/1.1 retry; no evidence is counted. Tennessee's Blue Book and both Navy
+requests were denied and were not retried. The independently Senate-published
+May 22, 2025 Lacore testimony supplies its own dated biography. Seven successful
+FEC page transfers yield five reviewed sources, not seven.
+
+Pearson's live profile is not a historical snapshot merely because its URL
+requests the 114th General Assembly: its body mentions the future 115th.
+The explicit religious description is factual at retrieval but held for
+election-date analysis; Bowdoin attendance is not graduation. Maryland caucus
+memberships are not identity classifications. Social work does not by itself
+establish clinical healthcare practice, and Oracle government affairs is not
+automatically business management. No negative office/government/military
+reference was acquired. The registry records literal exclusions and every
+retrieval disposition.

@@ -644,9 +644,10 @@ def definitions():
     ]
 
 
-def register(root):
+def register(root, *, version="v4", definitions_fn=definitions, source_details=None):
     root = Path(root)
-    work = root / "artifacts/characteristics-v4"
+    work = root / f"artifacts/characteristics-{version}"
+    source_details = source_details or {}
     attempts = json.loads((work / "retrievals.json").read_text())
     candidates = {
         c["candidate_id"]: c for c in read_rows(root / "results/house/candidates.jsonl.gz")
@@ -657,9 +658,9 @@ def register(root):
     receipts = json.loads(receipts_path.read_text())
     sources, documents, errors = [], {}, []
     cache = root / "data/raw/house-characteristics-v1"
-    for key, publication, cid, page, start, end, claims in definitions():
+    for key, publication, cid, page, start, end, claims in definitions_fn():
         candidate = candidates[cid]
-        document = f"v4-{key}"
+        document = f"{version}-{key}"
         scope = {"start": start}
         if page:
             scope["page"] = page
@@ -685,6 +686,7 @@ def register(root):
             "Michigan table full name and birth month/year independently agree with current manual. "
             "Retrieval after election does not establish prospective availability.",
             "claims": claims,
+            **source_details.get(key, {}),
         }
         successful = [
             a for a in attempts if a["id"] == key and a["status"] in {"acquired", "ok", "success"}
@@ -723,10 +725,12 @@ def register(root):
         receipt = source.pop("_receipt")
         document = source["document_id"]
         if not (cache / document).exists():
-            shutil.copyfile(work / document.removeprefix("v4-"), cache / document)
+            shutil.copyfile(work / document.removeprefix(f"{version}-"), cache / document)
         receipts["sources"] = [r for r in receipts["sources"] if r["id"] != source["id"]]
         receipts["sources"].append({**receipt, "status": "acquired_pending_review"})
-    journal["sources"] = [s for s in journal["sources"] if not s["id"].startswith("v4-")] + sources
+    journal["sources"] = [
+        s for s in journal["sources"] if not s["id"].startswith(f"{version}-")
+    ] + sources
     write_json(journal_path, journal)
     write_json(receipts_path, receipts)
     result = {
@@ -738,7 +742,7 @@ def register(root):
         "source_population": "Bounded state-directory, questionnaire and published-interview acquisition; "
         "not representative or exhaustive; post-election new-member guide is selected and retrospective.",
     }
-    write_json(root / "data/house-characteristics-v4-acquisitions.json", result)
+    write_json(root / f"data/house-characteristics-{version}-acquisitions.json", result)
     return result
 
 

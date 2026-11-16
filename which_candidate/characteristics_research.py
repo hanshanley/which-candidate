@@ -40,6 +40,11 @@ def reviewed_claims(source, receipt, text=None):
     for index, claim in enumerate(source["claims"]):
         if text is not None and normalized(claim["fragment"]) not in normalized(text):
             raise ValueError(f"Unsupported research fragment: {source['id']}:{index}")
+        if text is not None and any(
+            normalized(fragment) not in normalized(text)
+            for fragment in claim.get("identity_support", [])
+        ):
+            raise ValueError(f"Unsupported research identity link: {source['id']}:{index}")
         result.append(
             {
                 **{
