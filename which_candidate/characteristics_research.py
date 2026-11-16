@@ -1,6 +1,7 @@
 """Validate new trait receipts and incrementally retain them in normalized inputs."""
 
 import argparse
+import csv
 import io
 import json
 import re
@@ -8,6 +9,7 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+from openpyxl import load_workbook
 from pypdf import PdfReader
 
 from .corrected import text as html_text
@@ -59,6 +61,25 @@ def reviewed_claims(source, receipt, text=None):
     return result
 
 
+def source_text(body, source):
+    if source.get("format") == "xlsx":
+        book = load_workbook(io.BytesIO(body), read_only=True, data_only=True)
+        records = iter(book[source.get("sheet", book.sheetnames[0])].values)
+        columns = next(records)
+        return "\n".join(
+            " | ".join(
+                f"{key}={value if value is not None else ''}" for key, value in zip(columns, row)
+            )
+            for row in records
+        )
+    if source.get("format") == "csv":
+        records = csv.DictReader(io.StringIO(body.decode(source.get("encoding", "utf-8-sig"))))
+        return "\n".join(" | ".join(f"{k}={v}" for k, v in row.items()) for row in records)
+    if body.startswith(b"%PDF"):
+        return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(body)).pages)
+    return html_text(body.decode("utf-8", errors="replace"))
+
+
 def ingest(root, *, offline=False):
     root = Path(root)
     candidates = read_rows(root / "results/house/candidates.jsonl.gz")
@@ -73,6 +94,7 @@ def ingest(root, *, offline=False):
         r["observation_id"]: r for r in inputs.get("reviewed_characteristic_observations", [])
     }
     receipts = []
+    document_texts = {}
     for source in journal["sources"]:
         matches = [
             c
@@ -86,7 +108,10 @@ def ingest(root, *, offline=False):
             raise ValueError(f"Unqualified research identity: {source['id']}")
         if not re.fullmatch(r"[a-z0-9-]+", source["id"]):
             raise ValueError("Unsafe research cache key")
-        path = cache / source["id"]
+        document = source.get("document_id", source["id"])
+        if not re.fullmatch(r"[a-z0-9-]+", document):
+            raise ValueError("Unsafe shared document cache key")
+        path = cache / document
         receipt = old.get(source["id"])
         if receipt and receipt["status"].startswith("reviewed") and not path.exists():
             saved = [r for r in observations.values() if r["source_id"] == source["id"]]
@@ -129,11 +154,10 @@ def ingest(root, *, offline=False):
                 }
             receipt = canonical_receipt(receipt)
             body = path.read_bytes()
-            text = (
-                "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(body)).pages)
-                if body.startswith(b"%PDF")
-                else html_text(body.decode("utf-8", errors="replace"))
-            )
+            key = (document, receipt["sha256"], source.get("format"), source.get("encoding"))
+            if key not in document_texts:
+                document_texts[key] = source_text(body, source)
+            text = document_texts[key]
             checked = reviewed_claims(source, receipt, text)
             observations.update({r["observation_id"]: r for r in checked})
             receipts.append(

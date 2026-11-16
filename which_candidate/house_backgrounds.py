@@ -292,6 +292,7 @@ def validate_characteristics(records, candidates):
             "military",
             "prior_elected_office",
             "other_government",
+            "incumbency",
         }:
             raise ValueError("Unsupported acquired characteristic")
         receipt = record["receipt"]
@@ -302,6 +303,8 @@ def validate_characteristics(records, candidates):
             or not receipt["retrieved_at"]
         ):
             raise ValueError("Invalid characteristic receipt")
+        if record["trait"] == "incumbency" and not isinstance(record["value"], bool):
+            raise ValueError("Incumbency classification must be an explicit boolean")
         if record["trait"] == "age":
             birthday = date.fromisoformat(record["value"])
             if birthday >= date(2026, 11, 3):

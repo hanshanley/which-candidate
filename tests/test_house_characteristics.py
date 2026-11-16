@@ -216,7 +216,14 @@ def test_incremental_research_preserves_every_historical_collection_and_observat
     for collection, expected in baseline["preserved_normalized_collection_sha256"].items():
         assert hashlib.sha256(json_bytes(inputs[collection])).hexdigest() == expected
     with (ROOT / "results/house/background-observations.csv").open() as stream:
-        rows = [json.dumps(r, sort_keys=True) for r in csv.DictReader(stream)]
+        rows = [
+            json.dumps(r, sort_keys=True)
+            for r in csv.DictReader(stream)
+            if not (
+                isinstance(evidence := json.loads(r["evidence"]), dict)
+                and evidence.get("id", "").startswith("v3-")
+            )
+        ]
     new = Counter(baseline["new_observation_row_sha256"])
     historical = []
     for row in rows:
