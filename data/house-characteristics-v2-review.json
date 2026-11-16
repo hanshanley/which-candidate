@@ -58,10 +58,48 @@
     "140483": "Graduation is explicit but degree titles are not. Do not infer JD from law-school attendance/graduation alone.",
     "221234": "Public-school graduation does not establish a particular diploma level."
   },
+  "pre_election_completed_attainment": {
+    "220098": "The highest coded credential is explicitly the completed 2014 MA.",
+    "220195": "The highest coded credential is explicitly the completed 2013 doctorate.",
+    "220265": "The held 2026 election candidate questionnaire reports the completed Howard BA, not completion of the graduate courses.",
+    "220833": "The coded BA is explicitly dated 1975.",
+    "220882": "The highest coded credential is explicitly the completed 2018 PhD.",
+    "221019": "The VOTE411 degree claim dates the completed MS to 2003-2006; the institutional profile alone is insufficient."
+  },
+  "positive_claim_fragments": {
+    "prior_elected_office": {
+      "219889": ["California state senator"],
+      "219872": ["California State Senate"],
+      "219929": ["US House of Representatives"],
+      "220195": ["Georgia House District 108"],
+      "220484": ["Elected Bowie council member"],
+      "220549": ["state senator"],
+      "220599": ["Elected mayor of Lakeville"],
+      "220715": ["12 years in the Nevada Legislature"],
+      "220844": ["New York Assembly District 37"],
+      "220855": ["New York State Assembly"],
+      "221002": ["Oregon State Representative (1997-2003)"],
+      "221019": ["Pennsylvania state representative beginning in 2017"],
+      "221188": ["election and swearing-in as a state representative", "served in the Tennessee House"]
+    },
+    "other_government": {
+      "219967": ["Community Affairs Director work for Councilmember Larry Carr in 2014-2018"],
+      "219872": ["Deputy city attorney"],
+      "219929": ["secretary of labor"],
+      "220094": ["NASA chief of staff"],
+      "220484": ["National press assistant to U.S. Rep. Ruben Kihuen"],
+      "220509": ["former U.S. Senate-advisor"],
+      "220715": ["Worked in county adoption and foster-care programs", "chief of staff in the Nevada Attorney General's Office"],
+      "220855": ["New York State policy director and attorney-general chief of staff"],
+      "220884": ["worked for the Veterans Administration"],
+      "221019": ["former U.S. Senate legislative aide"],
+      "221002": ["US Dept. of Agriculture Rural Policy Advisor (2010-2016)"]
+    }
+  },
   "explicit_elected_history": [
     "219889", "219872", "219929", "220195", "220484",
     "220549", "220599", "220715", "220844", "220855",
-    "221019", "221188"
+    "221019", "221188", "221002"
   ],
   "explicit_other_government": [
     "219967", "219872", "219929", "220094", "220484",

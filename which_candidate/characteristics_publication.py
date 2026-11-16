@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from .house_characteristics import OUT, STATUSES, TRAITS, VERSION, write_csv
+from .house_characteristics import STATUSES, TRAITS, VERSION, write_csv
 from .house_report import article
 from .storage import fingerprint, read_rows, write_json
 
@@ -47,7 +47,7 @@ def number(value, digits=3):
     return "unavailable" if value is None else f"{value:.{digits}f}"
 
 
-def charts(output, coverage, fits):
+def charts(output, coverage, fits, *, version=VERSION):
     plt.rcParams.update(
         {
             "font.family": "DejaVu Serif",
@@ -57,7 +57,7 @@ def charts(output, coverage, fits):
             "axes.edgecolor": "#D6D3CC",
             "xtick.color": MUTED,
             "ytick.color": INK,
-            "svg.hashsalt": VERSION,
+            "svg.hashsalt": version,
         }
     )
     captions = []
@@ -103,6 +103,12 @@ def charts(output, coverage, fits):
                 "Qualified values follow explicit successor rules, not universal verification. "
                 "Positive military listings do not establish nonservice. Identity unknowns are never reference groups."
             )
+            if version != VERSION:
+                subtitle = "2026 House Democrats. Factual qualification is not analytical or contrast eligibility."
+                note = (
+                    "Qualified = explicit factual observation, not necessarily completed attainment, "
+                    "election-day employment or an estimable contrast. Analytical counts are reported separately."
+                )
         else:
             selected = [r for r in fits if r["status"] == "estimated"]
             y = np.arange(len(selected))
@@ -122,7 +128,10 @@ def charts(output, coverage, fits):
                     color="#C85A3D",
                     markerfacecolor="#C85A3D" if complete else PAPER,
                 )
-                label = f"n={row['n']}, {row['state_clusters']} states"
+                label = (
+                    f"n={p.get('population_candidates', row['n'])}, "
+                    f"{p.get('population_states', row['state_clusters'])} states"
+                )
                 if not complete:
                     label += " *"
                 ax.text(
@@ -157,7 +166,7 @@ def charts(output, coverage, fits):
             fig.savefig(
                 output / f"{chart}.{suffix}",
                 dpi=160,
-                metadata={"Date": None} if suffix == "svg" else {"Software": VERSION},
+                metadata={"Date": None} if suffix == "svg" else {"Software": version},
             )
         plt.close(fig)
         captions.append({"id": chart, "title": title, "alt": f"{title}. {subtitle} {note}"})
@@ -425,19 +434,31 @@ filter();
 """
 
 
-def build(root):
+def build(root, *, version=VERSION, reporter=report, rows_override=None):
     root = Path(root)
-    results = root / OUT
-    output = root / "publication/characteristics-v1"
+    out = f"results/{version}"
+    results = root / out
+    output = root / "publication" / version.removeprefix("house-")
     output.mkdir(parents=True, exist_ok=True)
-    rows = read_rows(results / "candidate-traits.jsonl.gz")
+    rows = (
+        rows_override
+        if rows_override is not None
+        else read_rows(results / "candidate-traits.jsonl.gz")
+    )
     fits = read_rows(results / "fits.jsonl.gz")
     terms = read_rows(results / "terms.jsonl.gz")
     summary = json.loads((results / "summary.json").read_text())
     coverage = summary["coverage"]
     catalog = json.loads((results / "source-receipts.json").read_text())
     research = json.loads((root / "data/house-characteristics-receipts.json").read_text())
-    remaining = [r for r in rows if r["status"] not in {"qualified", "inapplicable"}]
+    remaining = [
+        r
+        for r in rows
+        if r["status"] not in {"qualified", "inapplicable"}
+        or version != VERSION
+        and not r["field_eligible"]
+        and r["status"] != "inapplicable"
+    ]
     write_csv(
         results / "remaining-gaps.csv",
         [
@@ -458,9 +479,9 @@ def build(root):
             for r in remaining
         ],
     )
-    markdown = report(summary, fits, terms, coverage, catalog, research)
+    markdown = reporter(summary, fits, terms, coverage, catalog, research)
     (results / "report.md").write_text(markdown)
-    captions = charts(output, coverage, fits)
+    captions = charts(output, coverage, fits, version=version)
     lookup = defaultdict(set)
     for receipt in catalog:
         lookup[receipt.get("id")].add(receipt["url"])
@@ -553,6 +574,13 @@ def build(root):
         + "</tbody></table></div></section>"
         f"<script>{SCRIPT}</script></main></body></html>"
     )
+    if version != VERSION:
+        content = content.replace("house-characteristics-v1/", f"{version}/")
+        content = content.replace(
+            '<nav><a href="../report.html">',
+            '<nav><a href="../characteristics-v1/report.html">Frozen v1</a>'
+            '<a href="../report.html">',
+        )
     (output / "report.html").write_text(content)
     write_csv(output / "trait-coverage.csv", [r for r in coverage if r["cohort"] == "democrats"])
     write_csv(
@@ -566,13 +594,13 @@ def build(root):
     write_json(
         output / "manifest.json",
         {
-            "version": VERSION,
+            "version": version,
             "website_deployed": False,
             "inputs": {
                 name: fingerprint(root / name)
                 for name in (
-                    f"{OUT}/summary.json",
-                    f"{OUT}/candidate-traits.jsonl.gz",
+                    f"{out}/summary.json",
+                    f"{out}/candidate-traits.jsonl.gz",
                     "data/house-characteristics-receipts.json",
                 )
             },

@@ -781,17 +781,27 @@ def _build(root, output):
             else [],
         )
     )
-    successor = root / "publication/characteristics-v1"
-    if (successor / "manifest.json").exists():
+    for version in ("characteristics-v1", "characteristics-v2"):
+        successor = root / "publication" / version
+        if not (successor / "manifest.json").exists():
+            continue
         successor_manifest = json.loads((successor / "manifest.json").read_text())
-        for name, receipt in successor_manifest["inputs"].items():
-            if fingerprint(root / name) != receipt:
-                raise ValueError(f"Stale successor publication input: {name}")
+        if (
+            version == "characteristics-v1"
+            and (root / "data/house-characteristics-v2-frozen.json").exists()
+        ):
+            from .characteristics_v2 import verify_frozen
+
+            verify_frozen(root)
+        else:
+            for name, receipt in successor_manifest["inputs"].items():
+                if fingerprint(root / name) != receipt:
+                    raise ValueError(f"Stale successor publication input: {name}")
         for name in (*successor_manifest["files"], "manifest.json"):
             source = successor / name
             if name != "manifest.json" and fingerprint(source) != successor_manifest["files"][name]:
                 raise ValueError(f"Changed successor publication file: {name}")
-            target = output / "characteristics-v1" / name
+            target = output / version / name
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(source.read_bytes())
     write_json(

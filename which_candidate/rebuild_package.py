@@ -28,6 +28,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v2",)
+                if (root / "results/house-characteristics-v2/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -38,6 +43,14 @@ def build(root=ROOT, output=None):
         for name, receipt in manifests["results/participation"]["inputs"].items():
             if fingerprint(root / name) != receipt:
                 raise ValueError(f"Stale participation package input: {name}")
+    if (root / "data/house-characteristics-v2-frozen.json").exists():
+        from .characteristics_v2 import verify_frozen
+
+        verify_frozen(root)
+    if "results/house-characteristics-v2" in manifests:
+        for name, receipt in manifests["results/house-characteristics-v2"]["inputs"].items():
+            if fingerprint(root / name) != receipt:
+                raise ValueError(f"Stale v2 characteristics package input: {name}")
     for folder, manifest in manifests.items():
         for name, receipt in manifest["files"].items():
             if fingerprint(root / folder / name) != receipt:
@@ -95,6 +108,11 @@ def build(root=ROOT, output=None):
         *(
             ("audits/house-characteristics-v1-validation.json",)
             if (root / "audits/house-characteristics-v1-validation.json").exists()
+            else ()
+        ),
+        *(
+            ("audits/house-characteristics-v2-validation.json",)
+            if (root / "audits/house-characteristics-v2-validation.json").exists()
             else ()
         ),
         *(

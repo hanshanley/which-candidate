@@ -702,7 +702,7 @@ def designs(rows, trait, levels=None):
         for name in ("D_incumbent", "R_incumbent"):
             focal.append([int(r[name]) for r in rows])
             terms.append(name)
-    elif trait in SCALES:
+    elif trait in SCALES and levels is None:
         values = [r["_value"] for r in rows]
         focal.append(
             [
@@ -793,7 +793,15 @@ def paired(rows, trait, levels):
     return predictions, folds
 
 
-def analyze(dataset, panel):
+def analyze(
+    dataset,
+    panel,
+    *,
+    predictor=paired,
+    prediction_selector=None,
+    categorical_traits=(),
+    strict_education=True,
+):
     by_key = {(r["contest_id"], r["trait"]): r for r in dataset if r["performance_eligible"]}
     fits, terms, predictions, folds, deletions, selections, sensitivities = (
         [],
@@ -843,7 +851,7 @@ def analyze(dataset, panel):
                 }
             )
         levels = None
-        if trait not in SCALES and trait != "incumbency":
+        if (trait not in SCALES or trait in categorical_traits) and trait != "incumbency":
             groups = defaultdict(list)
             for row in rows:
                 groups[row["_value"]].append(row)
@@ -896,14 +904,16 @@ def analyze(dataset, panel):
                     "state_clusters": result["state_clusters"],
                 }
             )
-        pred, model_folds = paired(rows, trait, levels)
+        prediction_rows = prediction_selector(rows, trait) if prediction_selector else rows
+        prediction_states = sorted({r["state"] for r in prediction_rows})
+        pred, model_folds = predictor(prediction_rows, trait, levels)
         predictions.extend(pred)
         folds.extend(model_folds)
         metrics = error_metrics(pred)
         replicates = []
-        for state in result["states"]:
-            reduced = [r for r in rows if r["state"] != state]
-            deleted, _ = paired(reduced, trait, levels)
+        for state in prediction_states:
+            reduced = [r for r in prediction_rows if r["state"] != state]
+            deleted, _ = predictor(reduced, trait, levels)
             complete = len(deleted) == len(reduced)
             gain = error_metrics(deleted)["MAE_gain_share_pp"] if complete else None
             deletions.append(
@@ -917,7 +927,11 @@ def analyze(dataset, panel):
             )
             if complete:
                 replicates.append(gain)
-        complete = len(pred) == len(rows) and len(replicates) == len(result["states"])
+        complete = (
+            bool(prediction_rows)
+            and len(pred) == len(prediction_rows)
+            and len(replicates) == len(prediction_states)
+        )
         width = None
         if complete:
             g = len(replicates)
@@ -931,6 +945,17 @@ def analyze(dataset, panel):
             "gain_ci_high": metrics["MAE_gain_share_pp"] + width if width is not None else None,
             "interval_status": "full_pipeline_state_jackknife" if complete else "diagnostic_only",
         }
+        if prediction_selector:
+            result["prediction"].update(
+                population_candidates=len(prediction_rows),
+                population_states=len(prediction_states),
+                population_ids=[r["D_candidate_election_id"] for r in prediction_rows],
+                excluded_ids=sorted(
+                    {r["D_candidate_election_id"] for r in rows}
+                    - {r["D_candidate_election_id"] for r in prediction_rows}
+                ),
+                population_rule="joint_D_R_incumbency_stratum_in_at_least_three_states",
+            )
         competitive = [r for r in rows if 40 <= r["presidential_D_two_party_share_pct"] <= 60]
         sensitivities.append(
             {"trait": trait, "variant": "competitive_40_60", **fit(competitive, trait, levels)}
@@ -952,7 +977,7 @@ def analyze(dataset, panel):
                     ),
                 }
             )
-        if trait == "education":
+        if trait == "education" and strict_education:
             # Source-list degree ordering is not proof of total lifetime attainment.
             strict = [
                 r

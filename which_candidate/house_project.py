@@ -63,7 +63,11 @@ def refresh_evidence(root=ROOT):
         if path.is_file() and path.suffix in {".png", ".svg"}
     }
     house_members.build(root)
-    if (root / "data/house-characteristics-review.json").exists():
+    if (root / "data/house-characteristics-v2-review-seal.json").exists():
+        from .characteristics_v2 import build as build_characteristics
+
+        build_characteristics(root)
+    elif (root / "data/house-characteristics-review.json").exists():
         from .house_characteristics import build as build_characteristics
 
         build_characteristics(root)
@@ -107,7 +111,7 @@ def refresh_evidence(root=ROOT):
     if any(
         refreshed_charts.get(name) != receipt
         for name, receipt in chart_receipts.items()
-        if not name.startswith("publication/characteristics-v1/")
+        if not name.startswith("publication/characteristics-v2/")
     ):
         raise ValueError("Evidence-only refresh changed publication charts")
     return {"study": summary, "downloads": downloads}
