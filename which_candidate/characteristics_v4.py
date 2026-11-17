@@ -32,6 +32,11 @@ def birth_interval(value):
     if isinstance(value, str):
         age = age_at(date.fromisoformat(value))
         return [age, age]
+    if "birth_date_interval" in value:
+        earliest, latest = map(date.fromisoformat, value["birth_date_interval"])
+        if earliest > latest or latest > v1.CUTOFF:
+            raise ValueError("Invalid reported-age birth interval")
+        return [age_at(latest), age_at(earliest)]
     year, month = value["birth_year"], value.get("birth_month")
     earliest = date(year, month or 1, 1)
     latest = date(year, month or 12, calendar.monthrange(year, month or 12)[1])

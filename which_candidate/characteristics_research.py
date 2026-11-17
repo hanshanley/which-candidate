@@ -6,6 +6,7 @@ import io
 import json
 import re
 import unicodedata
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -73,6 +74,27 @@ def reviewed_claims(source, receipt, text=None):
 
 
 def source_text(body, source):
+    if source.get("format") == "zip_csv":
+        with zipfile.ZipFile(io.BytesIO(body)) as archive:
+            member = archive.getinfo(source["member"])
+            if not member.filename.endswith(".csv") or member.file_size > 256 * 1024**2:
+                raise ValueError("Unsupported or oversized research CSV member")
+            records = csv.DictReader(
+                io.StringIO(archive.read(member).decode(source.get("encoding", "utf-8-sig")))
+            )
+            columns = source.get("columns", records.fieldnames)
+            if not set(columns) <= set(records.fieldnames):
+                raise ValueError("Missing research CSV columns")
+            lines = [
+                " | ".join(f"{key}={' '.join(row[key].split())}" for key in columns)
+                for row in records
+            ]
+        row_number = source.get("text_scope", {}).get("csv_row")
+        if row_number is not None:
+            if type(row_number) is not int or not 2 <= row_number <= len(lines) + 1:
+                raise ValueError("Invalid research CSV row")
+            return lines[row_number - 2]
+        return "\n".join(lines)
     if source.get("format") == "xlsx":
         book = load_workbook(io.BytesIO(body), read_only=True, data_only=True)
         records = iter(book[source.get("sheet", book.sheetnames[0])].values)
@@ -96,6 +118,12 @@ def source_text(body, source):
         )
     else:
         text = html_text(body.decode("utf-8", errors="replace"))
+    if source.get("decimal_ascii_glyphs"):
+        text = re.sub(
+            r"/(\d{1,3})(?=/|\s|$)",
+            lambda match: chr(int(match[1])) if 9 <= int(match[1]) <= 126 else match[0],
+            text,
+        )
     text = normalized(text) if scope else text
     for boundary in ("start", "end"):
         if boundary not in scope:
@@ -123,6 +151,7 @@ def ingest(root, *, offline=False):
     }
     receipts = []
     document_texts = {}
+    verified_documents = {}
     for source in journal["sources"]:
         matches = [
             c
@@ -154,7 +183,9 @@ def ingest(root, *, offline=False):
             continue
         try:
             if receipt and path.exists():
-                if fingerprint(path) != {k: receipt[k] for k in ("bytes", "sha256")}:
+                if document not in verified_documents:
+                    verified_documents[document] = fingerprint(path)
+                if verified_documents[document] != {k: receipt[k] for k in ("bytes", "sha256")}:
                     raise ValueError("Changed held characteristic source")
             else:
                 public_extract = source.get("reviewed_public_extract")
@@ -181,17 +212,34 @@ def ingest(root, *, offline=False):
                     **fingerprint(path),
                 }
             receipt = canonical_receipt(receipt)
-            body = path.read_bytes()
             key = (
                 document,
                 receipt["sha256"],
                 source.get("format"),
                 source.get("encoding"),
-                json.dumps(source.get("text_scope", {}), sort_keys=True),
+                source.get("member"),
+                source.get("sheet"),
+                json.dumps(source.get("columns")),
+                json.dumps(
+                    {} if source.get("format") == "zip_csv" else source.get("text_scope", {}),
+                    sort_keys=True,
+                ),
             )
             if key not in document_texts:
-                document_texts[key] = source_text(body, source)
-            text = document_texts[key]
+                body = path.read_bytes()
+                document_texts[key] = (
+                    source_text(body, {**source, "text_scope": {}}).splitlines()
+                    if source.get("format") == "zip_csv"
+                    else source_text(body, source)
+                )
+            if source.get("format") == "zip_csv":
+                row_number = source.get("text_scope", {}).get("csv_row")
+                lines = document_texts[key]
+                if type(row_number) is not int or not 2 <= row_number <= len(lines) + 1:
+                    raise ValueError("Invalid research CSV row")
+                text = lines[row_number - 2]
+            else:
+                text = document_texts[key]
             checked = reviewed_claims(source, receipt, text)
             observations.update({r["observation_id"]: r for r in checked})
             receipts.append(

@@ -261,6 +261,37 @@ def acquire_background_inputs(root):
     return records
 
 
+def validate_reported_age(value):
+    from datetime import timedelta
+
+    if (
+        set(value) != {"reported_age", "reference_date", "birth_date_interval"}
+        or type(value["reported_age"]) is not int
+        or not 0 <= value["reported_age"] <= 125
+        or not isinstance(value["birth_date_interval"], list)
+        or len(value["birth_date_interval"]) != 2
+    ):
+        raise ValueError("Invalid reported-age interval")
+    reference = date.fromisoformat(value["reference_date"])
+    earliest, latest = map(date.fromisoformat, value["birth_date_interval"])
+
+    def age_on_reference(birthday):
+        return (
+            reference.year
+            - birthday.year
+            - ((reference.month, reference.day) < (birthday.month, birthday.day))
+        )
+
+    if (
+        not earliest <= latest <= reference <= date(2026, 11, 3)
+        or age_on_reference(earliest) != value["reported_age"]
+        or age_on_reference(latest) != value["reported_age"]
+        or age_on_reference(earliest - timedelta(days=1)) == value["reported_age"]
+        or age_on_reference(latest + timedelta(days=1)) == value["reported_age"]
+    ):
+        raise ValueError("Unsupported reported-age bounds")
+
+
 def validate_characteristics(records, candidates):
     identities = {(r["contest_id"], r["candidate_id"]): r for r in candidates}
     seen = set()
@@ -308,7 +339,9 @@ def validate_characteristics(records, candidates):
         if record["trait"] == "age":
             value = record["value"]
             if isinstance(value, dict):
-                if (
+                if "reported_age" in value:
+                    validate_reported_age(value)
+                elif (
                     set(value) not in ({"birth_year"}, {"birth_year", "birth_month"})
                     or any(type(v) is not int for v in value.values())
                     or not 1 <= value["birth_year"] < 2026
