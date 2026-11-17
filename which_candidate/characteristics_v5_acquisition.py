@@ -17,31 +17,37 @@ PREVIOUS = "results/house-characteristics-v4"
 BASE_COMMIT = "81c5fcbcd55f2d99cc3e7101881e639ceac3d672"
 
 
-def freeze(root):
+def freeze(root, *, version=5, baseline_commit=BASE_COMMIT):
     root = Path(root)
-    if (root / BASELINE).exists():
-        return json.loads((root / BASELINE).read_text())
-    old = json.loads((root / "data/house-characteristics-v4-baseline.json").read_text())
+    baseline = f"data/house-characteristics-v{version}-baseline.json"
+    queue = f"data/house-characteristics-v{version}-queue.csv"
+    previous_version = version - 1
+    previous = f"results/house-characteristics-v{previous_version}"
+    if (root / baseline).exists():
+        return json.loads((root / baseline).read_text())
+    old = json.loads(
+        (root / f"data/house-characteristics-v{previous_version}-baseline.json").read_text()
+    )
     protected = dict(old["protected_sha256"])
-    for folder in (PREVIOUS, "publication/characteristics-v4"):
+    for folder in (previous, f"publication/characteristics-v{previous_version}"):
         protected.update(
             (p.relative_to(root).as_posix(), fingerprint(p)["sha256"])
             for p in (root / folder).rglob("*")
             if p.is_file()
         )
     for name in (
-        "docs/HOUSE_CHARACTERISTICS_V4_SPEC.md",
-        "docs/HOUSE_CHARACTERISTICS_V4_ACQUISITION.md",
-        "data/house-characteristics-v4-baseline.json",
-        "data/house-characteristics-v4-queue.csv",
-        "data/house-characteristics-v4-acquisitions.json",
-        "audits/house-characteristics-v4-validation.json",
+        f"docs/HOUSE_CHARACTERISTICS_V{previous_version}_SPEC.md",
+        f"docs/HOUSE_CHARACTERISTICS_V{previous_version}_ACQUISITION.md",
+        f"data/house-characteristics-v{previous_version}-baseline.json",
+        f"data/house-characteristics-v{previous_version}-queue.csv",
+        f"data/house-characteristics-v{previous_version}-acquisitions.json",
+        f"audits/house-characteristics-v{previous_version}-validation.json",
     ):
         protected[name] = fingerprint(root / name)["sha256"]
-    traits = read_rows(root / PREVIOUS / "candidate-traits.jsonl.gz")
+    traits = read_rows(root / previous / "candidate-traits.jsonl.gz")
     candidates = read_rows(root / "results/house/candidates.jsonl.gz")
     inputs = read_rows(root / "results/house/source-inputs.jsonl.gz")[0]
-    with (root / PREVIOUS / "selection.csv").open() as stream:
+    with (root / previous / "selection.csv").open() as stream:
         selected = {(r["contest_id"], r["name"], r["trait"]): r for r in csv.DictReader(stream)}
     incumbency = {r["candidate_id"]: r for r in traits if r["trait"] == "incumbency"}
     rows = []
@@ -72,7 +78,7 @@ def freeze(root):
                 and row["status"] not in {"unknown", "inapplicable"},
                 "age_interval_separate": row["uncertainty"].get("age_years_interval"),
                 "factual_requirement": row["eligibility_reason"],
-                "v4_selection_reason": selected.get(
+                f"v{previous_version}_selection_reason": selected.get(
                     (row["contest_id"], row["name"], row["trait"]), {}
                 ).get("reason"),
                 "opponent_incumbency_unresolved": row["R_incumbency_control"] is None,
@@ -93,9 +99,9 @@ def freeze(root):
         )
     )
     assert len(rows) == 449 * len(TRAITS) == 6735
-    write_csv(root / QUEUE, rows)
+    write_csv(root / queue, rows)
     result = {
-        "baseline_commit": BASE_COMMIT,
+        "baseline_commit": baseline_commit,
         "protected_sha256": protected,
         "historical_reviewed_observations": {
             r["observation_id"]: hashlib.sha256(json_bytes(r)).hexdigest()
@@ -133,18 +139,18 @@ def freeze(root):
                 if r["trait"] == "incumbency" and r["performance_eligible"]
             )
         ),
-        "queue": fingerprint(root / QUEUE),
+        "queue": fingerprint(root / queue),
         "baseline_inputs": {
             name: fingerprint(root / name)
             for name in (
-                f"{PREVIOUS}/candidate-traits.jsonl.gz",
-                f"{PREVIOUS}/remaining-gaps.csv",
-                f"{PREVIOUS}/selection.csv",
+                f"{previous}/candidate-traits.jsonl.gz",
+                f"{previous}/remaining-gaps.csv",
+                f"{previous}/selection.csv",
                 "results/house/source-inputs.jsonl.gz",
             )
         },
     }
-    write_json(root / BASELINE, result)
+    write_json(root / baseline, result)
     return result
 
 
