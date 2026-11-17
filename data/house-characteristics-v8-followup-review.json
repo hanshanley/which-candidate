@@ -1,0 +1,113 @@
+{
+  "method": "Second subject-context review of acquired originals. Dates and degree levels are not imputed. Array triples retain the national-review schema.",
+  "sources": {
+    "campaign-220431-bio1": [
+      ["military", "U.S. Navy from 1994–1998", true],
+      ["education", "graduated from Sam Houston High School", {"completed_high_school": true, "reported_credential_category": null}]
+    ],
+    "campaign-140481-bio1": [
+      ["education", "In 2016, I earned my PhD in Animal Behavior from Cornell University", {"reported_credential_category": "doctoral_or_professional", "reference_year": 2016}],
+      ["profession", "middle school science teacher", {"history": "teacher, researcher and science-policy employee; mixed historical occupations"}],
+      ["other_government", "serving in the U.S. Senate (Office of Elizabeth Warren), National Institutes of Health, and the Government Accountability Office", {"history": "Senate staff, NIH and GAO; post-pandemic historical employment"}]
+    ],
+    "campaign-205786-bio1": [
+      ["education", "earned an MBA from Felician University", {"reported_credential_category": "masters"}],
+      ["profession", "Before starting his farm", {"history": "farmer, corporate supervisor and professional baseball player; mixed histories"}]
+    ],
+    "campaign-219790-bio1": [
+      ["education", "attended the University of Arizona on a full-ride Army ROTC scholarship", {"attendance_not_completed_credential": true}],
+      ["profession", "She earned her Commercial Driver’s License in 1997", {"history": "long-haul trucker and trucking-business owner; certificate separately retained"}]
+    ],
+    "campaign-219846-home": [
+      ["profession", "a pastor, and a nonprofit leader", {"history": "pastor and nonprofit leader"}],
+      ["religion", "I'm a neighbor, a pastor, and a nonprofit leader", {"reported_religious_role": "pastor; denomination and reference date unspecified"}]
+    ],
+    "campaign-219891-bio1": [
+      ["profession", "She spent decades as a respiratory therapist", {"history": "respiratory therapist and direct support professional"}]
+    ],
+    "campaign-219973-home": [
+      ["profession", "A lawyer A PhD Student", {"history": "lawyer; PhD student is not a completed credential"}]
+    ],
+    "campaign-220098-home": [
+      ["profession", "Jennifer built her career in education", {"history": "education; exact occupational meaning unresolved"}],
+      ["prior_elected_office", "making national headlines in 2020 when she defeated the co-founder of Moms for Liberty", {"history": "Brevard County School Board election", "time_reference": "before_2026-11-03", "supported_categories": ["local"]}]
+    ],
+    "campaign-220238-bio1": [
+      ["education", "Kaylee enrolled in college", {"attendance_not_completed_credential": true}],
+      ["profession", "from fast food and retail to management", {"history": "service-sector and retail management; mixed occupations"}]
+    ],
+    "campaign-220269-bio1": [
+      ["education", "PhD Education Policy University of Illinois Urbana-Champaign", {"reported_credential_category": "doctoral_or_professional"}],
+      ["other_government", "District Director and Chief of Staff for Congressman Chuy García", {"history": "district director and congressional chief of staff"}]
+    ],
+    "campaign-220318-bio1": [
+      ["education", "I have a BS of Business Administration from the University of Central Florida", {"reported_credential_category": "bachelors"}],
+      ["profession", "co-owner of a concrete contracting company", {"history": "co-owner, concrete contracting company"}]
+    ],
+    "campaign-220448-home": [
+      ["prior_elected_office", "State Representative, Louisiana House District 17 since 2019", {"history": "Louisiana House District 17 since 2019", "time_reference": "before_2026-11-03", "supported_categories": ["state"]}]
+    ],
+    "campaign-220451-home": [
+      ["prior_elected_office", "12 years serving the people of Baton Rouge as an elected member of the Metropolitan Council", {"history": "Baton Rouge Metropolitan Council for 12 years", "time_reference": "before_2026-11-03", "supported_categories": ["local"]}]
+    ],
+    "campaign-220454-home": [
+      ["profession", "Engineer. Public Servant. Leader.", {"history": "engineer and public servant; occupational category and employer require clarification"}]
+    ],
+    "campaign-220484-bio1": [
+      ["race", "first Black President of the Student Government Association", ["Black"]],
+      ["education", "went on to the University of Baltimore", {"attendance_not_completed_credential": true}],
+      ["prior_elected_office", "win a seat on the Bowie City Council, where he served as Mayor Pro Tem", {"history": "Bowie City Council and Maryland House of Delegates; dates not explicit"}]
+    ],
+    "campaign-220549-bio1": [
+      ["education", "A Groves High School graduate", {"credential_description": "high-school graduate; university study is not a documented completed degree"}],
+      ["prior_elected_office", "In 2011, voters in his hometown elected him to the Southfield City Council", {"history": "Southfield City Council from 2011; later Michigan legislature", "time_reference": "before_2026-11-03", "supported_categories": ["local", "state"]}]
+    ],
+    "campaign-220559-bio1": [
+      ["education", "become a college graduate", {"credential_description": "college graduate; credential level unspecified"}],
+      ["prior_elected_office", "In January 2020, two years before his election to the State House", {"history": "Michigan State House election in 2022", "time_reference": "before_2026-11-03", "supported_categories": ["state"]}]
+    ],
+    "campaign-220616-home": [
+      ["profession", "former small business owner, current county employee", {"history": "financial sector, media, trades, business ownership and public employment; mixed occupations"}],
+      ["other_government", "current county employee", {"history": "county employee; exact county, role and dates require clarification"}]
+    ],
+    "campaign-220695-home": [
+      ["profession", "small business owner, former corporate executive", {"history": "small-business owner and corporate executive"}]
+    ],
+    "campaign-221019-home": [
+      ["prior_elected_office", "First elected in 2016, Rep. Chris Rabb (PA-200) is a 5-term state representative", {"history": "Pennsylvania state representative first elected in 2016", "time_reference": "before_2026-11-03", "supported_categories": ["state"]}]
+    ],
+    "campaign-221029-home": [
+      ["prior_elected_office", "Paige Cognetti is the Mayor of Scranton", {"history": "Mayor of Scranton; exact office dates not established by this fragment"}]
+    ],
+    "campaign-221073-bio1": [
+      ["military", "Nancy Lacore served our nation for 35 years in the Navy", true],
+      ["education", "commissioned into the Navy after graduation", {"credential_description": "College of the Holy Cross graduate; level not explicitly named"}],
+      ["profession", "she worked as a defense contractor for 10 years", {"history": "military, defense contractor and nonprofit leadership; contractor does not establish government employment"}]
+    ],
+    "campaign-221173-bio1": [
+      ["profession", "worked in the beauty industry, painted large-scale murals, and built a platform on YouTube", {"history": "beauty industry, muralist and online creator; multiple occupations"}]
+    ],
+    "campaign-221185-home": [
+      ["profession", "business owner and entrepreneur", {"history": "business owner and entrepreneur"}],
+      ["education", "through the University of Richmond", {"attendance_not_completed_credential": true}]
+    ],
+    "campaign-221187-bio1": [
+      ["profession", "26 years of experience in government roles", {"history": "government leadership; elected and employed roles require distinction"}]
+    ],
+    "campaign-221191-bio1": [
+      ["religion", "Ben served an LDS mission in Brazil", {"historical_religious_activity": "LDS mission; not verified current affiliation"}]
+    ],
+    "campaign-221198-home": [
+      ["profession", "Shannon Taylor has spent 14 years as Henrico County’s top prosecutor", {"history": "prosecutor for 14 years"}]
+    ],
+    "campaign-221219-home": [
+      ["profession", "For 25 years at The Roanoke Times, Beth covered the stories", {"history": "newspaper reporter and author for 25 years"}]
+    ],
+    "campaign-221234-home": [
+      ["profession", "fourth-generation cattle farmer, small business owner", {"history": "cattle farmer and business owner; mixed substantive occupations"}]
+    ],
+    "campaign-221343-bio1": [
+      ["profession", "nonprofit development professional, corporate leadership developer, and small business owner", {"history": "nonprofit development, corporate training and business ownership; mixed occupations"}]
+    ]
+  }
+}

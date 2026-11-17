@@ -618,6 +618,7 @@ def coverage(candidates):
                         or r["background"]["member_authorized_biographies"]
                         or r["background"].get("official_member_profiles")
                         or r["background"].get("reviewed_candidate_profiles")
+                        or r["background"].get("reviewed_characteristic_observations")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )
@@ -631,6 +632,7 @@ def coverage(candidates):
                         or r["background"]["member_authorized_biographies"]
                         or r["background"].get("official_member_profiles")
                         or r["background"].get("reviewed_candidate_profiles")
+                        or r["background"].get("reviewed_characteristic_observations")
                         or r["background"]["dated_religion_observations"]
                         or r["background"]["official_historian_observations"]
                     )

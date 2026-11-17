@@ -59,6 +59,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v8",)
+                if (root / "results/house-characteristics-v8/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -103,8 +108,16 @@ def build(root=ROOT, output=None):
         from .characteristics_v7_acquisition import BASELINE
 
         verify_frozen(root, BASELINE)
+    has_v8 = "results/house-characteristics-v8" in manifests
+    if has_v8:
+        from .characteristics_v2 import verify_frozen
+        from .characteristics_v8_acquisition import BASELINE
+
+        verify_frozen(root, BASELINE)
     current_version = (
-        "v7"
+        "v8"
+        if has_v8
+        else "v7"
         if has_v7
         else "v6"
         if has_v6
@@ -175,6 +188,8 @@ def build(root=ROOT, output=None):
         )
     for path in (root / "data").glob("house-characteristics-v7-*.csv"):
         entries[path.relative_to(root).as_posix()] = path
+    for path in (root / "data").glob("house-characteristics-v8-*.csv"):
+        entries[path.relative_to(root).as_posix()] = path
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -232,6 +247,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v8-validation.json",)
+            if (root / "audits/house-characteristics-v8-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -266,12 +286,33 @@ def build(root=ROOT, output=None):
             lzma_names={"complete-query-set.zip"},
         )
         receipts = {name: fingerprint(staged / name) for name in names}
-        if any(receipt["bytes"] >= 100 * 1024 * 1024 for receipt in receipts.values()):
+        if not has_v8 and any(
+            receipt["bytes"] >= 100 * 1024 * 1024 for receipt in receipts.values()
+        ):
             raise ValueError(
                 f"Complete download exceeds GitHub's 100-MiB single-file limit: {receipts}"
             )
         write_json(staged / "downloads.json", receipts)
-        all_names = (*names, "downloads.json")
+        delivery = ()
+        if has_v8:
+            write_json(
+                staged / "release-assets.json",
+                {
+                    "repository": "hanshanley/which-candidate",
+                    "release": "characteristics-v8",
+                    "reason": "Complete archives are release assets, not size-limited Git blobs.",
+                    "assets": {
+                        name: {
+                            **receipt,
+                            "url": "https://github.com/hanshanley/which-candidate/releases/"
+                            f"download/characteristics-v8/{name}",
+                        }
+                        for name, receipt in receipts.items()
+                    },
+                },
+            )
+            delivery = ("release-assets.json",)
+        all_names = (*names, "downloads.json", *delivery)
         for name in all_names:
             target = output / name
             if not target.exists() or fingerprint(target) != fingerprint(staged / name):

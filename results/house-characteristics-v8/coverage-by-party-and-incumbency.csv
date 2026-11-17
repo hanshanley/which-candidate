@@ -1,0 +1,631 @@
+trait,party,baseline_incumbency_group,performance_eligible,candidates,factual_before,factual_after,analysis_before,analysis_after,new_evidence_fields,first_evidence_fields,supplementary_or_unqualified_fields,fitted_after,full_fit_prediction_supported
+age,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+age,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+age,Democratic,incumbent,False,17,17,17,17,17,0,0,0,0,0
+age,Democratic,incumbent,True,166,166,166,166,166,0,0,0,144,144
+age,Democratic,nonincumbent,False,19,5,5,1,1,0,0,0,0,0
+age,Democratic,nonincumbent,True,237,72,73,13,13,2,1,1,12,12
+age,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+age,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+age,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+age,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+age,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+age,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+age,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+age,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+age,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+age,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+age,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+age,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+age,Republican,incumbent,False,176,176,176,176,176,0,0,0,0,0
+age,Republican,nonincumbent,False,46,1,1,1,1,0,0,0,0,0
+age,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+age,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+age,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+age,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+age,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+age,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+age,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+donor_ideology,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+donor_ideology,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+donor_ideology,Democratic,incumbent,False,17,16,16,16,16,0,0,0,0,0
+donor_ideology,Democratic,incumbent,True,166,143,143,143,143,0,0,0,124,124
+donor_ideology,Democratic,nonincumbent,False,19,2,2,2,2,0,0,0,0,0
+donor_ideology,Democratic,nonincumbent,True,237,31,31,31,31,0,0,0,29,29
+donor_ideology,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+donor_ideology,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+donor_ideology,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+donor_ideology,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+donor_ideology,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+donor_ideology,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+donor_ideology,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+donor_ideology,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+donor_ideology,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+donor_ideology,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+donor_ideology,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+donor_ideology,Republican,incumbent,False,176,173,173,173,173,0,0,0,0,0
+donor_ideology,Republican,nonincumbent,False,46,8,8,8,8,0,0,0,0,0
+donor_ideology,Republican,unknown_incumbency,False,211,31,31,31,31,0,0,0,0,0
+donor_ideology,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+donor_ideology,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+donor_ideology,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+donor_ideology,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+donor_ideology,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+donor_ideology,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+education,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+education,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+education,Democratic,incumbent,False,17,13,13,13,13,0,0,0,0,0
+education,Democratic,incumbent,True,166,160,160,160,160,10,0,10,137,137
+education,Democratic,nonincumbent,False,19,4,7,3,3,4,0,4,0,0
+education,Democratic,nonincumbent,True,237,47,89,31,34,52,0,52,30,30
+education,Democratic,unknown_incumbency,False,8,2,3,0,0,2,0,2,0,0
+education,Democratic,unknown_incumbency,True,2,0,1,0,1,1,0,1,1,1
+education,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+education,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+education,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+education,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+education,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+education,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+education,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+education,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+education,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+education,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+education,Republican,incumbent,False,176,0,1,0,1,1,0,1,0,0
+education,Republican,nonincumbent,False,46,0,4,0,2,4,1,3,0,0
+education,Republican,unknown_incumbency,False,211,0,6,0,2,6,2,4,0,0
+education,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+education,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+education,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+education,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+education,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+education,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+ethnicity,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+ethnicity,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+ethnicity,Democratic,incumbent,False,17,12,12,9,9,0,0,0,0,0
+ethnicity,Democratic,incumbent,True,166,107,107,95,95,0,0,0,83,83
+ethnicity,Democratic,nonincumbent,False,19,2,2,1,1,0,0,0,0,0
+ethnicity,Democratic,nonincumbent,True,237,10,10,7,7,0,0,0,6,6
+ethnicity,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+ethnicity,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+ethnicity,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+ethnicity,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+ethnicity,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+ethnicity,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+ethnicity,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+ethnicity,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+ethnicity,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+ethnicity,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+ethnicity,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+ethnicity,Republican,incumbent,False,176,93,93,90,90,0,0,0,0,0
+ethnicity,Republican,nonincumbent,False,46,1,1,0,0,0,0,0,0,0
+ethnicity,Republican,unknown_incumbency,False,211,1,1,1,1,0,0,0,0,0
+ethnicity,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+ethnicity,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+ethnicity,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+ethnicity,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+ethnicity,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+ethnicity,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+gender,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+gender,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+gender,Democratic,incumbent,False,17,17,17,17,17,0,0,0,0,0
+gender,Democratic,incumbent,True,166,166,166,166,166,0,0,0,144,144
+gender,Democratic,nonincumbent,False,19,9,10,9,9,4,1,3,0,0
+gender,Democratic,nonincumbent,True,237,104,104,104,104,0,0,0,99,99
+gender,Democratic,unknown_incumbency,False,8,0,5,0,0,5,5,0,0,0
+gender,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+gender,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+gender,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+gender,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+gender,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Libertarian,unknown_incumbency,False,78,0,2,0,0,2,2,0,0,0
+gender,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+gender,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+gender,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+gender,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+gender,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+gender,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+gender,Republican,incumbent,False,176,176,176,176,176,1,0,1,0,0
+gender,Republican,nonincumbent,False,46,43,43,43,43,2,0,2,0,0
+gender,Republican,unknown_incumbency,False,211,0,10,0,0,10,10,0,0,0
+gender,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+gender,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+gender,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+gender,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+gender,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+gender,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+house_service,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+house_service,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+house_service,Democratic,incumbent,False,17,17,17,17,17,0,0,0,0,0
+house_service,Democratic,incumbent,True,166,166,166,166,166,0,0,0,144,144
+house_service,Democratic,nonincumbent,False,19,0,0,0,0,0,0,0,0,0
+house_service,Democratic,nonincumbent,True,237,0,0,0,0,0,0,0,0,0
+house_service,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+house_service,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+house_service,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+house_service,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+house_service,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+house_service,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+house_service,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+house_service,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+house_service,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+house_service,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+house_service,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+house_service,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+house_service,Republican,incumbent,False,176,176,176,176,176,0,0,0,0,0
+house_service,Republican,nonincumbent,False,46,0,0,0,0,0,0,0,0,0
+house_service,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+house_service,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+house_service,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+house_service,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+house_service,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+house_service,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+house_service,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+incumbency,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+incumbency,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+incumbency,Democratic,incumbent,False,17,17,17,17,17,0,0,0,0,0
+incumbency,Democratic,incumbent,True,166,166,166,166,166,0,0,0,144,144
+incumbency,Democratic,nonincumbent,False,19,19,19,19,19,0,0,0,0,0
+incumbency,Democratic,nonincumbent,True,237,237,237,237,237,0,0,0,229,229
+incumbency,Democratic,unknown_incumbency,False,8,0,6,0,6,6,0,6,0,0
+incumbency,Democratic,unknown_incumbency,True,2,0,1,0,1,1,0,1,1,1
+incumbency,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+incumbency,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+incumbency,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+incumbency,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+incumbency,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+incumbency,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+incumbency,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+incumbency,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+incumbency,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+incumbency,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+incumbency,Republican,incumbent,False,176,176,176,176,176,0,0,0,0,0
+incumbency,Republican,nonincumbent,False,46,46,46,46,46,0,0,0,0,0
+incumbency,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+incumbency,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+incumbency,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+incumbency,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+incumbency,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+incumbency,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+incumbency,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+military,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+military,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+military,Democratic,incumbent,False,17,1,1,1,1,0,0,0,0,0
+military,Democratic,incumbent,True,166,16,16,16,16,0,0,0,0,0
+military,Democratic,nonincumbent,False,19,0,0,0,0,0,0,0,0,0
+military,Democratic,nonincumbent,True,237,14,37,6,15,32,2,30,0,0
+military,Democratic,unknown_incumbency,False,8,0,1,0,1,1,0,1,0,0
+military,Democratic,unknown_incumbency,True,2,0,1,0,1,1,1,0,0,0
+military,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+military,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+military,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+military,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+military,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+military,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+military,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+military,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+military,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+military,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+military,Republican,incumbent,False,176,45,45,45,45,0,0,0,0,0
+military,Republican,nonincumbent,False,46,1,2,0,1,1,0,1,0,0
+military,Republican,unknown_incumbency,False,211,2,4,0,2,2,0,2,0,0
+military,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+military,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+military,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+military,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+military,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+military,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+other_government,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+other_government,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+other_government,Democratic,incumbent,False,17,0,0,0,0,0,0,0,0,0
+other_government,Democratic,incumbent,True,166,1,3,0,0,2,0,2,0,0
+other_government,Democratic,nonincumbent,False,19,3,4,0,0,1,0,1,0,0
+other_government,Democratic,nonincumbent,True,237,18,27,0,0,17,2,15,0,0
+other_government,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+other_government,Democratic,unknown_incumbency,True,2,0,1,0,0,1,1,0,0,0
+other_government,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+other_government,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+other_government,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+other_government,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+other_government,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+other_government,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+other_government,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+other_government,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+other_government,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+other_government,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+other_government,Republican,incumbent,False,176,0,1,0,0,1,0,1,0,0
+other_government,Republican,nonincumbent,False,46,0,1,0,0,1,1,0,0,0
+other_government,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+other_government,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+other_government,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+other_government,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+other_government,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+other_government,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+other_government,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+party_unity,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+party_unity,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+party_unity,Democratic,incumbent,False,17,16,16,16,16,0,0,0,0,0
+party_unity,Democratic,incumbent,True,166,166,166,166,166,0,0,0,144,144
+party_unity,Democratic,nonincumbent,False,19,0,0,0,0,0,0,0,0,0
+party_unity,Democratic,nonincumbent,True,237,0,0,0,0,0,0,0,0,0
+party_unity,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+party_unity,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+party_unity,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+party_unity,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+party_unity,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+party_unity,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+party_unity,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+party_unity,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+party_unity,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+party_unity,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+party_unity,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+party_unity,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+party_unity,Republican,incumbent,False,176,176,176,176,176,0,0,0,0,0
+party_unity,Republican,nonincumbent,False,46,0,0,0,0,0,0,0,0,0
+party_unity,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+party_unity,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+party_unity,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+party_unity,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+party_unity,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+party_unity,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+party_unity,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+prior_elected_office,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+prior_elected_office,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+prior_elected_office,Democratic,incumbent,False,17,9,9,0,0,0,0,0,0,0
+prior_elected_office,Democratic,incumbent,True,166,99,104,0,0,10,0,10,0,0
+prior_elected_office,Democratic,nonincumbent,False,19,3,4,0,0,2,0,2,0,0
+prior_elected_office,Democratic,nonincumbent,True,237,22,27,0,0,11,1,10,0,0
+prior_elected_office,Democratic,unknown_incumbency,False,8,0,1,0,0,1,0,1,0,0
+prior_elected_office,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+prior_elected_office,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+prior_elected_office,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+prior_elected_office,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+prior_elected_office,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+prior_elected_office,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+prior_elected_office,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+prior_elected_office,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+prior_elected_office,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+prior_elected_office,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+prior_elected_office,Republican,incumbent,False,176,91,92,0,0,1,0,1,0,0
+prior_elected_office,Republican,nonincumbent,False,46,0,1,0,0,3,0,3,0,0
+prior_elected_office,Republican,unknown_incumbency,False,211,1,5,0,0,6,3,3,0,0
+prior_elected_office,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+prior_elected_office,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+prior_elected_office,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+prior_elected_office,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+prior_elected_office,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+prior_elected_office,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+profession,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,American Constitution,unknown_incumbency,False,2,0,1,0,0,1,0,1,0,0
+profession,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+profession,Democratic,incumbent,False,17,3,3,3,3,0,0,0,0,0
+profession,Democratic,incumbent,True,166,85,89,82,82,10,0,10,63,63
+profession,Democratic,nonincumbent,False,19,8,8,3,3,0,0,0,0,0
+profession,Democratic,nonincumbent,True,237,48,95,12,17,54,0,54,15,15
+profession,Democratic,unknown_incumbency,False,8,1,2,0,0,1,0,1,0,0
+profession,Democratic,unknown_incumbency,True,2,0,1,0,0,1,0,1,0,0
+profession,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+profession,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+profession,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+profession,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Libertarian,unknown_incumbency,False,78,0,1,0,1,1,1,0,0,0
+profession,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+profession,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+profession,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+profession,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+profession,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+profession,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+profession,Republican,incumbent,False,176,0,1,0,0,1,0,1,0,0
+profession,Republican,nonincumbent,False,46,0,4,0,2,4,1,3,0,0
+profession,Republican,unknown_incumbency,False,211,0,6,0,1,6,0,6,0,0
+profession,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+profession,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+profession,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+profession,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+profession,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+profession,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+race,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+race,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+race,Democratic,incumbent,False,17,14,14,7,7,0,0,0,0,0
+race,Democratic,incumbent,True,166,132,132,90,90,0,0,0,76,76
+race,Democratic,nonincumbent,False,19,1,5,1,1,4,4,0,0,0
+race,Democratic,nonincumbent,True,237,28,29,24,24,1,1,0,23,23
+race,Democratic,unknown_incumbency,False,8,0,5,0,0,5,5,0,0,0
+race,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+race,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+race,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+race,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+race,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Libertarian,unknown_incumbency,False,78,0,2,0,0,2,2,0,0,0
+race,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+race,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+race,No Party Preference,incumbent,False,1,0,0,0,0,0,0,0,0,0
+race,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+race,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+race,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+race,Republican,incumbent,False,176,99,99,93,93,1,0,1,0,0
+race,Republican,nonincumbent,False,46,8,10,7,7,2,2,0,0,0
+race,Republican,unknown_incumbency,False,211,1,11,1,1,10,10,0,0,0
+race,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+race,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+race,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+race,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+race,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+race,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+religion,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+religion,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+religion,Democratic,incumbent,False,17,15,15,15,15,0,0,0,0,0
+religion,Democratic,incumbent,True,166,148,148,148,148,0,0,0,119,119
+religion,Democratic,nonincumbent,False,19,1,2,0,0,1,1,0,0,0
+religion,Democratic,nonincumbent,True,237,20,23,7,7,5,3,2,4,3
+religion,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+religion,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+religion,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+religion,Independent,unknown_incumbency,False,117,0,1,0,0,1,1,0,0,0
+religion,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+religion,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+religion,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+religion,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+religion,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+religion,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+religion,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+religion,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+religion,Republican,incumbent,False,176,168,168,168,168,1,0,1,0,0
+religion,Republican,nonincumbent,False,46,0,1,0,1,1,1,0,0,0
+religion,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+religion,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+religion,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+religion,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+religion,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+religion,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+religion,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0
+voting_ideology,America First,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,American Constitution,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+voting_ideology,Conservative,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Constitution,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+voting_ideology,Democratic,incumbent,False,17,13,13,13,13,0,0,0,0,0
+voting_ideology,Democratic,incumbent,True,166,135,135,135,135,0,0,0,118,118
+voting_ideology,Democratic,nonincumbent,False,19,0,0,0,0,0,0,0,0,0
+voting_ideology,Democratic,nonincumbent,True,237,0,0,0,0,0,0,0,0,0
+voting_ideology,Democratic,unknown_incumbency,False,8,0,0,0,0,0,0,0,0,0
+voting_ideology,Democratic,unknown_incumbency,True,2,0,0,0,0,0,0,0,0,0
+voting_ideology,Florida Forward Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Green,unknown_incumbency,False,29,0,0,0,0,0,0,0,0,0
+voting_ideology,Independent,unknown_incumbency,False,117,0,0,0,0,0,0,0,0,0
+voting_ideology,Independent American,unknown_incumbency,False,4,0,0,0,0,0,0,0,0,0
+voting_ideology,Independent Party of Florida,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Independent/Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Kentucky Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Legal Marijuana Now,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Libertarian,unknown_incumbency,False,78,0,0,0,0,0,0,0,0,0
+voting_ideology,Natural Law,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Nebraska Working People,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,No Labels,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+voting_ideology,No Party Affiliation,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+voting_ideology,No Party Preference,incumbent,False,1,1,1,1,1,0,0,0,0,0
+voting_ideology,No Political Party,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+voting_ideology,Nonpartisan,unknown_incumbency,False,10,0,0,0,0,0,0,0,0,0
+voting_ideology,Other,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Pacific Green,unknown_incumbency,False,2,0,0,0,0,0,0,0,0,0
+voting_ideology,Republican,incumbent,False,176,142,142,142,142,0,0,0,0,0
+voting_ideology,Republican,nonincumbent,False,46,0,0,0,0,0,0,0,0,0
+voting_ideology,Republican,unknown_incumbency,False,211,0,0,0,0,0,0,0,0,0
+voting_ideology,Socialism PSL,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Socialist Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,The Independent Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,U.S. Taxpayers,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+voting_ideology,Unaffiliated,unknown_incumbency,False,6,0,0,0,0,0,0,0,0,0
+voting_ideology,Unenrolled,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Unity,unknown_incumbency,False,3,0,0,0,0,0,0,0,0,0
+voting_ideology,Workers,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Working Class,unknown_incumbency,False,7,0,0,0,0,0,0,0,0,0
+voting_ideology,Working Class Party,unknown_incumbency,False,1,0,0,0,0,0,0,0,0,0
+voting_ideology,Write-In,unknown_incumbency,False,109,0,0,0,0,0,0,0,0,0

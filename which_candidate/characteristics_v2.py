@@ -572,6 +572,8 @@ def build(
     reporter=None,
     extra_inputs=(),
     reuse_from=None,
+    predictor=paired,
+    recompute_traits=(),
 ):
     root = Path(root)
     protected = verify_frozen(root, protection)
@@ -597,13 +599,14 @@ def build(
         for trait in v1.TRAITS:
             before = numerical_input_signature(prior_rows, prior_panel, trait)
             after = numerical_input_signature(numerical, panel, trait)
+            reusable = before == after and trait not in recompute_traits
             signatures[trait] = {
                 "before_sha256": before,
                 "after_sha256": after,
-                "reused": before == after,
+                "reused": reusable,
                 "source_version": str(reuse_from),
             }
-            if before == after:
+            if reusable:
                 reused[trait] = [
                     [r for r in result if r["trait"] == trait] for result in prior_results
                 ]
@@ -611,7 +614,7 @@ def build(
     results = v1.analyze(
         numerical,
         panel,
-        predictor=paired,
+        predictor=predictor,
         prediction_selector=common_support,
         strict_education=False,
         **({"reuse_results": reused} if reuse_from else {}),
@@ -671,13 +674,13 @@ def build(
             if r["D_candidate_election_id"] in ids
         ]
         levels = sorted({r["_value"] for r in cohort}) if fit["reference"] is not None else None
-        prediction, folds = paired(cohort, fit["trait"], levels)
+        prediction, folds = predictor(cohort, fit["trait"], levels)
         full_diagnostics.extend(folds)
         full_predictions.extend(prediction)
         if fit["trait"] in {"age", "gender"}:
             for omitted in (None, *sorted({r["state"] for r in cohort})):
                 reduced = [r for r in cohort if r["state"] != omitted]
-                _, diagnostic = paired(reduced, fit["trait"], levels)
+                _, diagnostic = predictor(reduced, fit["trait"], levels)
                 pipeline_failures.extend(
                     {
                         "deleted_state": omitted,
@@ -727,7 +730,7 @@ def build(
     bands = v1.analyze(
         band_dataset,
         panel,
-        predictor=paired,
+        predictor=predictor,
         prediction_selector=common_support,
         categorical_traits={"age"},
         strict_education=False,

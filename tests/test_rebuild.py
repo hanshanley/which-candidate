@@ -713,6 +713,15 @@ def test_packages_refresh_the_same_filenames_and_reuse_identical_bytes(tmp_path)
     receipts = rebuild_package.build(ROOT, output)
     stamps = {name: (output / name).stat().st_mtime_ns for name in names}
     assert rebuild_package.build(ROOT, output) == receipts
-    assert {p.name for p in output.iterdir()} == set(names)
+    expected_names = set(names)
+    if (ROOT / "results/house-characteristics-v8/manifest.json").exists():
+        expected_names.add("release-assets.json")
+        delivery = json.loads((output / "release-assets.json").read_text())
+        assert delivery["release"] == "characteristics-v8"
+        assert set(delivery["assets"]) == set(receipts)
+        for name, receipt in receipts.items():
+            assert {k: delivery["assets"][name][k] for k in receipt} == receipt
+            assert delivery["assets"][name]["url"].endswith(f"/characteristics-v8/{name}")
+    assert {p.name for p in output.iterdir()} == expected_names
     assert all((output / name).stat().st_mtime_ns == stamps[name] for name in names)
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())

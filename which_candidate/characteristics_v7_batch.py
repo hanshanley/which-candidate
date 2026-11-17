@@ -4,6 +4,7 @@ import json
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 
 from .storage import fingerprint, write_json
 
@@ -98,6 +99,8 @@ def prior_sources(root):
             if isinstance(value, list)
             else (value.get("sources", []) if isinstance(value, dict) else [])
         )
+        if not isinstance(records, list):
+            continue
         for record in records:
             if (
                 isinstance(record, dict)
@@ -109,13 +112,13 @@ def prior_sources(root):
     return result
 
 
-def acquire(root, *, sources=SOURCES):
+def acquire(root, *, sources=SOURCES, workdir="artifacts/characteristics-v7", prior=None):
     root = Path(root)
-    work = root / "artifacts/characteristics-v7"
+    work = root / workdir
     work.mkdir(parents=True, exist_ok=True)
     output = work / "retrievals.json"
     known = {r["id"]: r for r in json.loads(output.read_text())} if output.exists() else {}
-    prior = prior_sources(root)
+    prior = prior_sources(root) if prior is None else prior
     urls = {r[k]: r for r in prior for k in ("url", "origin_url", "resolved_url") if r.get(k)}
     hashes = {r["sha256"]: r for r in prior}
     for key, source in sources.items():
@@ -156,6 +159,11 @@ def acquire(root, *, sources=SOURCES):
                     str(partial),
                     "--write-out",
                     "%{url_effective}",
+                    *(
+                        ["--data", urlencode(source["post_data"], doseq=True)]
+                        if source.get("post_data")
+                        else []
+                    ),
                     source["url"],
                 ],
                 capture_output=True,

@@ -1,0 +1,328 @@
+{
+  "method": "Literal candidate-subject review of original roster-linked campaign biographies. Undated credentials/affiliations are factual reports, not automatically pre-election analytical values. Each triple is trait, literal supporting fragment, reported value. Historical year/length claims are separately timed by the extractor.",
+  "sources": {
+    "campaign-140487-bio1": [
+      ["education", "earning my teaching degree", {"credential_description": "teaching degree; level unspecified"}],
+      ["religion", "Member, Education Committee, First Lockhart Methodist Church", {"reported_church_role": "Member, Education Committee, First Lockhart Methodist Church"}]
+    ],
+    "campaign-205790-home": [
+      ["military", "22-year Army veteran", true]
+    ],
+    "campaign-219731-bio1": [
+      ["age", "Born in 1990 in Ferguson, Missouri", {"birth_year": 1990}],
+      ["education", "completing her Bachelor’s Degree in Nursing", {"reported_credential_category": "bachelors"}],
+      ["profession", "frontline registered nurse with over a decade of clinical shift experience", {"history": "registered nurse; over a decade of clinical work"}]
+    ],
+    "campaign-219733-bio1": [
+      ["profession", "master plumber and gas fitter", {"history": "master plumber and gas fitter; small-business founder/operator"}]
+    ],
+    "campaign-219735-bio1": [
+      ["education", "with a degree in Business Administration", {"credential_description": "business administration degree; level unspecified"}],
+      ["profession", "account executive for a Fortune 500 company", {"history": "account executive; not automatically business owner/executive"}]
+    ],
+    "campaign-219764-bio1": [
+      ["profession", "Shah is an emergency room physician", {"history": "emergency physician"}]
+    ],
+    "campaign-219780-bio1": [
+      ["profession", "I've spent over a decade as a nurse and patient advocate", {"history": "nurse and patient advocate for over a decade"}]
+    ],
+    "campaign-219782-bio1": [
+      ["education", "obtaining her Master’s Degree in Leadership from Grand Canyon University", {"reported_credential_category": "masters"}],
+      ["profession", "nonprofit leader, veteran advocate, congressional staffer, and policy expert", {"history": "nonprofit, congressional staff and policy; multiple roles"}],
+      ["other_government", "congressional staffer", {"history": "congressional staffer; employment dates unspecified"}]
+    ],
+    "campaign-219877-bio1": [
+      ["education", "degree in Political Science, Public Affairs & Administration", {"credential_description": "political science/public affairs degree; level unspecified"}]
+    ],
+    "campaign-219903-bio2": [
+      ["education", "Bachelor of Science in Systems Engineering from UC San Diego", {"reported_credential_category": "bachelors"}]
+    ],
+    "campaign-219910-bio1": [
+      ["education", "Master’s Degree in Organizational Leadership from Woodbury University", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-219951-bio2": [
+      ["profession", "Marni worked as a civil rights attorney", {"history": "civil rights and labor attorney"}],
+      ["other_government", "As Deputy City Attorney in San Diego", {"history": "San Diego deputy city attorney"}]
+    ],
+    "campaign-219965-bio1": [
+      ["education", "earning his medical degree and a master’s degree in public health", {"reported_credential_category": "doctoral_or_professional"}]
+    ],
+    "campaign-219981-bio1": [
+      ["military", "Army Corps of Engineers for seven years", true],
+      ["profession", "small business owner", {"history": "small-business owner and Army engineer officer"}]
+    ],
+    "campaign-219986-bio1": [
+      ["military", "I served in the United States Navy for 34 years", true],
+      ["education", "I graduated from the United States Naval Academy in 1990", {"credential_description": "Naval Academy graduation, 1990; level not explicitly named"}]
+    ],
+    "campaign-219990-home": [
+      ["military", "Army veteran", true]
+    ],
+    "campaign-220006-bio1": [
+      ["education", "Master’s in Economics from Johns Hopkins University", {"reported_credential_category": "masters", "additional_report": "law degree from Yale Law School"}],
+      ["profession", "I’m a longtime advocate and attorney", {"history": "attorney and advocate"}]
+    ],
+    "campaign-220086-bio1": [
+      ["education", "earned a Juris Doctorate", {"reported_credential_category": "doctoral_or_professional"}]
+    ],
+    "campaign-220089-home": [
+      ["education", "earned her bachelor’s and master’s degrees in engineering", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-220094-home": [
+      ["military", "Navy combat veteran", true],
+      ["other_government", "former NASA Chief of Staff", {"history": "NASA chief of staff"}]
+    ],
+    "campaign-220106-bio1": [
+      ["education", "Bachelor of Science, University of Maryland", {"reported_credential_category": "bachelors"}]
+    ],
+    "campaign-220108-bio1": [
+      ["military", "retired Army Brigadier General", true],
+      ["profession", "small business leader, lawyer, and mom", {"history": "lawyer, business leadership and military career; mixed history"}]
+    ],
+    "campaign-220119-bio2": [
+      ["education", "Bachelor’s in Political Science and Spanish", {"reported_credential_category": "bachelors"}]
+    ],
+    "campaign-220125-bio1": [
+      ["profession", "owner and managing attorney of Arias Law Firm since 2002", {"history": "owner/managing attorney, Arias Law Firm, since 2002"}],
+      ["other_government", "Former school-district staff attorney", {"history": "school-district staff attorney"}]
+    ],
+    "campaign-220131-bio1": [
+      ["military", "Coast Guard veteran", true],
+      ["education", "graduated with honors with a degree in Naval Architecture and Marine Engineering", {"credential_description": "naval architecture/marine engineering degree; level unspecified"}]
+    ],
+    "campaign-220135-bio1": [
+      ["profession", "I started my career as a middle and high school teacher", {"history": "middle/high-school teacher; later roles not established by this fragment"}]
+    ],
+    "campaign-220144-bio1": [
+      ["education", "graduated from Santa Clara University School of Law in May 2015", {"credential_description": "law school graduation, May 2015; exact degree not specified in fragment"}]
+    ],
+    "campaign-220176-bio2": [
+      ["other_government", "Atlanta Veterans Affairs Healthcare System", {"history": "clinical work at Atlanta VA; see source context"}]
+    ],
+    "campaign-220184-home": [
+      ["education", "Bachelor of Science", {"reported_credential_category": "bachelors", "reference_year": 2008}],
+      ["education", "2021 Georgia State University College of Law Juris Doctor, summa cum laude", {"reported_credential_category": "doctoral_or_professional", "reference_year": 2021}],
+      ["profession", "Immigration Attorney", {"history": "immigration attorney"}],
+      ["military", "Combat veteran", true]
+    ],
+    "campaign-220190-bio1": [
+      ["military", "Throughout my military service", true],
+      ["religion", "Shiloh Baptist Church", {"reported_community_activity": "volunteering with Shiloh Baptist Church; not proof of affiliation"}]
+    ],
+    "campaign-220192-bio1": [
+      ["profession", "For more than fourteen years, Chris has dedicated his career to helping families navigate some of the most difficult moments of their lives. As a parent defense attorney", {"history": "parent-defense attorney; more than fourteen years"}]
+    ],
+    "campaign-220265-home": [
+      ["prior_elected_office", "As a Cook County Commissioner", {"history": "Cook County commissioner", "supported_categories": ["local"]}]
+    ],
+    "campaign-220281-bio1": [
+      ["education", "completing his Bachelor’s degree at Harvard University and his Ph.D.", {"reported_credential_category": "doctoral_or_professional"}]
+    ],
+    "campaign-220287-bio1": [
+      ["military", "Air Force veteran", true],
+      ["profession", "cancer research scientist", {"history": "cancer research scientist; not automatically clinical healthcare"}]
+    ],
+    "campaign-220293-home": [
+      ["profession", "A Nurse.", {"history": "nurse"}]
+    ],
+    "campaign-220320-bio2": [
+      ["education", "earn a doctorate in music from the University of Illinois", {"reported_credential_category": "doctoral_or_professional"}],
+      ["military", "After completing his military service", true]
+    ],
+    "campaign-220329-home": [
+      ["prior_elected_office", "At-Large City Councilor", {"history": "city councilor", "supported_categories": ["local"]}],
+      ["military", "Army Reserve veteran", true],
+      ["profession", "small business owner", {"history": "small-business owner"}]
+    ],
+    "campaign-220344-bio1": [
+      ["education", "law school, where I graduated first in my class", {"credential_description": "law school graduation; degree title not provided in fragment"}],
+      ["profession", "worked as an engineer specializing in improving water quality", {"history": "environmental engineer; subsequent law-school career also reported"}]
+    ],
+    "campaign-220369-bio1": [
+      ["profession", "an attorney for 28 years", {"history": "attorney for 28 years"}],
+      ["other_government", "Attorney Advisor at the Social Security Administration", {"history": "Social Security Administration attorney adviser; 25+ years of public institutions"}]
+    ],
+    "campaign-220372-bio1": [
+      ["education", "graduated from Kansas State University’s School of Veterinary Medicine", {"credential_description": "veterinary school graduation; degree title not provided"}],
+      ["military", "Army Veteran", true]
+    ],
+    "campaign-220378-home": [
+      ["education", "After earning her law degree", {"credential_description": "completed law degree; exact level unspecified"}],
+      ["profession", "attorney, business owner", {"history": "attorney and business owner; mixed roles"}]
+    ],
+    "campaign-220399-bio2": [
+      ["education", "degree in Automotive Technology", {"credential_description": "automotive technology degree; level unspecified"}]
+    ],
+    "campaign-220404-bio1": [
+      ["education", "completed a master’s degree in Business Administration at Thomas More University", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-220412-home": [
+      ["military", "Navy veteran", true],
+      ["other_government", "as an Assistant United States Attorney", {"history": "assistant United States attorney; federal prosecutor"}]
+    ],
+    "campaign-220422-bio1": [
+      ["education", "a master's degree in English literature from Middlebury's Bread Loaf School of English", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-220455-bio1": [
+      ["education", "earning a Bachelor of Arts in History in 2009", {"reported_credential_category": "bachelors", "reference_year": 2009}]
+    ],
+    "campaign-220468-home": [
+      ["religion", "assistant to the treasurer of his local Episcopal Church", {"reported_church_role": "assistant to church treasurer; Episcopal Church"}]
+    ],
+    "campaign-220502-bio1": [
+      ["education", "a degree in secondary education from Central Michigan University", {"credential_description": "secondary education degree; exact level unspecified"}],
+      ["profession", "mom, teacher, and attorney", {"history": "teacher and attorney; multiple professional families"}]
+    ],
+    "campaign-220516-bio2": [
+      ["prior_elected_office", "Kalamazoo City Commissioner, State Representative and now serves as a State Senator", {"history": "city commissioner, state representative and state senator", "supported_categories": ["local", "state"]}]
+    ],
+    "campaign-220613-bio1": [
+      ["profession", "attorney in private practice specializing in election and ethics law", {"history": "election and ethics lawyer"}]
+    ],
+    "campaign-220646-bio2": [
+      ["military", "22-year Army career", true]
+    ],
+    "campaign-220652-bio1": [
+      ["military", "over 16 years of service in the United States Air Force", true],
+      ["other_government", "Assistant Attorney General for the State of Missouri", {"history": "Missouri assistant attorney general"}],
+      ["education", "earning his J.D.", {"reported_credential_category": "doctoral_or_professional"}]
+    ],
+    "campaign-220677-bio1": [
+      ["age", "born in Cleveland, Ohio in 1972", {"birth_year": 1972}],
+      ["education", "graduated from University of Montana Law School in 2007", {"credential_description": "Montana law-school graduation, 2007"}],
+      ["profession", "civil trial attorney", {"history": "civil trial attorney"}]
+    ],
+    "campaign-220715-bio1": [
+      ["education", "master’s degree in social work from Michigan", {"reported_credential_category": "masters"}],
+      ["other_government", "Chief of Staff to Attorney General Aaron Ford", {"history": "Nevada attorney general chief of staff"}]
+    ],
+    "campaign-220811-bio1": [
+      ["military", "served in the armed forces for over 15 years", true]
+    ],
+    "campaign-220853-bio1": [
+      ["education", "earned his Juris Doctorate", {"reported_credential_category": "doctoral_or_professional"}],
+      ["profession", "civil litigation attorney", {"history": "civil litigation attorney and previous police officer"}],
+      ["other_government", "working full-time as a police officer", {"history": "police officer; agency/date unspecified"}]
+    ],
+    "campaign-220870-home": [
+      ["military", "former active duty Army officer and combat veteran", true]
+    ],
+    "campaign-220878-bio1": [
+      ["education", "earned a degree in agriculture", {"credential_description": "agriculture degree; level unspecified"}]
+    ],
+    "campaign-220884-bio1": [
+      ["military", "combat veteran", true],
+      ["other_government", "working at the Department of Veteran Affairs", {"history": "Department of Veterans Affairs employment; dates/role require clarification"}]
+    ],
+    "campaign-220921-bio1": [
+      ["education", "earning his degree from West Virginia State University", {"credential_description": "completed degree; level unspecified"}],
+      ["military", "military service", true]
+    ],
+    "campaign-220922-bio1": [
+      ["profession", "She's a Physician Associate (PA)", {"history": "physician associate, school teacher and university educator; multiple families"}]
+    ],
+    "campaign-220931-bio1": [
+      ["profession", "attorney, entrepreneur, and executive", {"history": "law and business leadership; mixed families"}]
+    ],
+    "campaign-220933-bio1": [
+      ["education", "earned a degree in Political Science", {"credential_description": "completed political science degree; ongoing legal-studies masters not completed"}]
+    ],
+    "campaign-220940-bio1": [
+      ["military", "I enlisted in the Navy out of high school", true]
+    ],
+    "campaign-220950-bio1": [
+      ["education", "I graduated in '95 with a Bachelor of Arts in English", {"reported_credential_category": "bachelors", "reference_year": 1995}],
+      ["profession", "worked as a High School English Teacher", {"history": "high-school English teacher"}]
+    ],
+    "campaign-220965-bio1": [
+      ["education", "earning an Associate Degree in Applied Industrial Technology", {"reported_credential_category": "associate"}]
+    ],
+    "campaign-220967-bio1": [
+      ["education", "Master of Business Administration (MBA)", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-220971-bio1": [
+      ["military", "Air Force veteran", true],
+      ["profession", "Neuro-Oncology Nurse Practitioner", {"history": "oncology nurse practitioner"}]
+    ],
+    "campaign-220977-home": [
+      ["military", "I'm a Navy veteran", true],
+      ["profession", "software engineer", {"history": "software engineer; outside existing four analytical families"}]
+    ],
+    "campaign-220982-bio2": [
+      ["profession", "Attorney.", {"history": "attorney; dates unspecified"}]
+    ],
+    "campaign-221031-bio1": [
+      ["education", "graduate of Pottsville Area High School", {"credential_description": "completed high school; not a college credential"}]
+    ],
+    "campaign-221035-bio1": [
+      ["education", "Master's, and Doctorate degrees", {"reported_credential_category": "doctoral_or_professional"}],
+      ["profession", "registered nurse and healthcare leader", {"history": "registered nurse and healthcare leadership"}]
+    ],
+    "campaign-221101-bio1": [
+      ["education", "Master's in Business Administration", {"reported_credential_category": "masters", "additional_report": "completed law degree"}]
+    ],
+    "campaign-221103-home": [
+      ["military", "decorated 20-year veteran and combat aviator", true],
+      ["education", "completed his Master’s degree in International Relations & Conflict Resolution", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-221110-bio1": [
+      ["education", "earned a degree in finance", {"credential_description": "finance degree; exact level unspecified"}]
+    ],
+    "campaign-221113-bio1": [
+      ["education", "earned my Juris Doctorate", {"reported_credential_category": "doctoral_or_professional"}]
+    ],
+    "campaign-221125-bio1": [
+      ["education", "graduated from Midway High School near Waco in 1999", {"credential_description": "high school graduation, 1999; not college attainment"}]
+    ],
+    "campaign-221133-bio1": [
+      ["education", "earn my law degree from South Texas College of Law", {"credential_description": "completed law degree"}],
+      ["profession", "an attorney, and a former public school teacher", {"history": "law and education; multiple professional families"}]
+    ],
+    "campaign-221135-bio1": [
+      ["education", "I received my Masters degree from North Carolina State University", {"reported_credential_category": "masters"}]
+    ],
+    "campaign-221144-home": [
+      ["profession", "civil rights attorney", {"history": "civil-rights attorney after professional football"}]
+    ],
+    "campaign-221151-bio1": [
+      ["religion", "Kids Ministry Leader at Salem Lutheran Church", {"reported_church_role": "Salem Lutheran Church kids ministry leader"}]
+    ],
+    "campaign-221177-bio1": [
+      ["education", "Master of Theological Studies", {"reported_credential_category": "masters"}],
+      ["profession", "Director of Creative and Marketing for Top Flight, Inc.", {"history": "creative/marketing director and church work; not automatically narrow business family"}]
+    ],
+    "campaign-221183-bio1": [
+      ["military", "Navy veteran", true],
+      ["other_government", "From 2015 to 2021, while serving as a Tennessee State Park Ranger", {"history": "Tennessee state park ranger, 2015-2021"}]
+    ],
+    "campaign-221197-bio1": [
+      ["military", "Marine Veteran Running for Congress", true]
+    ],
+    "campaign-221201-bio2": [
+      ["military", "As a Navy veteran", true]
+    ],
+    "campaign-221266-home": [
+      ["profession", "Mitchell is a registered nurse", {"history": "registered nurse for 23 years; VA care for more than a decade"}],
+      ["other_government", "over a decade serving veterans, active duty servicemembers, and their families at the VA", {"history": "clinical work at VA for over a decade; employment directly identified in source"}],
+      ["education", "first in his family to graduate from college", {"credential_description": "college graduation; exact degree not specified"}]
+    ],
+    "campaign-221269-bio1": [
+      ["education", "went on to earn her degree", {"credential_description": "completed degree; level unspecified"}]
+    ],
+    "campaign-221275-bio1": [
+      ["military", "veteran, and business leader", true]
+    ],
+    "campaign-221279-bio1": [
+      ["military", "Lieutenant Colonel and Master Army Aviator", true]
+    ],
+    "campaign-221340-home": [
+      ["education", "a law degree from the University of Oklahoma College of Law in 2025", {"credential_description": "law degree, 2025; exact credential not named", "reference_year": 2025}],
+      ["education", "a bachelor's degree from Grand Canyon University in 2019", {"reported_credential_category": "bachelors", "reference_year": 2019}],
+      ["military", "enlisted as a Private First Class in the United States Army in January 2017", true],
+      ["profession", "I am working as a public defender", {"history": "public defender after 2025 law-school graduation"}]
+    ],
+    "campaign-42478026-bio1": [
+      ["education", "MASTER OF BUSINESS ADMINISTRATION (MBA)", {"reported_credential_category": "masters"}]
+    ]
+  }
+}

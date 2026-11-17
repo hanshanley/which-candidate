@@ -111,7 +111,16 @@ def source_text(body, source):
         )
     if source.get("format") == "csv":
         records = csv.DictReader(io.StringIO(body.decode(source.get("encoding", "utf-8-sig"))))
-        return "\n".join(" | ".join(f"{k}={v}" for k, v in row.items()) for row in records)
+        columns = source.get("columns", records.fieldnames)
+        if not records.fieldnames or not set(columns) <= set(records.fieldnames):
+            raise ValueError("Missing research CSV columns")
+        lines = [" | ".join(f"{k}={row[k]}" for k in columns) for row in records]
+        row_number = source.get("text_scope", {}).get("csv_row")
+        if row_number is not None:
+            if type(row_number) is not int or not 2 <= row_number <= len(lines) + 1:
+                raise ValueError("Invalid research CSV row")
+            return lines[row_number - 2]
+        return "\n".join(lines)
     scope = source.get("text_scope", {})
     if body.startswith(b"%PDF"):
         pages = PdfReader(io.BytesIO(body)).pages

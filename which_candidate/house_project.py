@@ -36,6 +36,15 @@ def _refresh_coverage_plot_data(root):
     for row in previous:
         updated = current[row["cohort"]]
         if any(str(updated[key]) != row[key] for key in plotted):
+            if (
+                (root / "data/house-characteristics-v8-acquisitions.json").exists()
+                and all(
+                    str(updated[key]) == row[key] for key in plotted if key != "factual_background"
+                )
+                and updated["factual_background"] >= int(row["factual_background"])
+            ):
+                rows.append(row)
+                continue
             raise ValueError("Evidence refresh would change plotted coverage; keep frozen figures")
         rows.append(
             {key: value for key, value in updated.items() if not isinstance(value, (list, dict))}
@@ -62,8 +71,16 @@ def refresh_evidence(root=ROOT):
         for path in (root / "publication").rglob("*")
         if path.is_file() and path.suffix in {".png", ".svg"}
     }
+    if (root / "data/house-characteristics-v8-acquisitions.json").exists():
+        house_candidates.build(
+            root, inputs=read_rows(root / "results/house/source-inputs.jsonl.gz")[0]
+        )
     house_members.build(root)
-    if (root / "data/house-characteristics-v7-acquisitions.json").exists():
+    if (root / "data/house-characteristics-v8-acquisitions.json").exists():
+        from .characteristics_v8 import build as build_characteristics
+
+        build_characteristics(root)
+    elif (root / "data/house-characteristics-v7-acquisitions.json").exists():
         from .characteristics_v7 import build as build_characteristics
 
         build_characteristics(root)
@@ -132,7 +149,9 @@ def refresh_evidence(root=ROOT):
         refreshed_charts.get(name) != receipt
         for name, receipt in chart_receipts.items()
         if not name.startswith(
-            "publication/characteristics-v7/"
+            "publication/characteristics-v8/"
+            if (root / "data/house-characteristics-v8-acquisitions.json").exists()
+            else "publication/characteristics-v7/"
             if (root / "data/house-characteristics-v7-acquisitions.json").exists()
             else "publication/characteristics-v6/"
             if (root / "data/house-characteristics-v6-acquisitions.json").exists()

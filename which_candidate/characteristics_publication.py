@@ -152,9 +152,11 @@ def charts(output, coverage, fits, *, version=VERSION):
                 yticks=y,
                 yticklabels=[
                     "Race (historical classifications)"
-                    if version == "house-characteristics-v7" and r["trait"] == "race"
+                    if version in {"house-characteristics-v7", "house-characteristics-v8"}
+                    and r["trait"] == "race"
                     else "Historical Latino indicator"
-                    if version == "house-characteristics-v7" and r["trait"] == "ethnicity"
+                    if version in {"house-characteristics-v7", "house-characteristics-v8"}
+                    and r["trait"] == "ethnicity"
                     else "Race (historical CAWP women)"
                     if version
                     in {
@@ -190,7 +192,7 @@ def charts(output, coverage, fits, *, version=VERSION):
                     " Race compares explicit historical Black/White classifications "
                     "among CAWP women, not all candidates."
                 )
-            elif version == "house-characteristics-v7":
+            elif version in {"house-characteristics-v7", "house-characteristics-v8"}:
                 note += (
                     " Race and Latino-indicator comparisons use restricted historical "
                     "source-classified populations, not all nominees."
@@ -619,6 +621,16 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
             '<nav><a href="../report.html">',
             '<nav><a href="../characteristics-v1/report.html">Frozen v1</a>'
             '<a href="../report.html">',
+        )
+    if version == "house-characteristics-v8":
+        content = content.replace(
+            '<a href="../report.html">',
+            "".join(
+                f'<a href="../characteristics-v{i}/report.html">Frozen v{i}</a>'
+                for i in range(2, 8)
+            )
+            + '<a href="../report.html">',
+            1,
         )
     (output / "report.html").write_text(content)
     write_csv(output / "trait-coverage.csv", [r for r in coverage if r["cohort"] == "democrats"])

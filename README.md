@@ -12,7 +12,47 @@ remain separate from Democratic nominees.
 
 ## Status
 
-**Current full-trait successor:** read the
+**Current supported release: V8.** Open
+[`publication/characteristics-v8/report.html`](publication/characteristics-v8/report.html)
+locally for the report, figures and all-candidate evidence browser, or read the
+[text report](results/house-characteristics-v8/report.md). V1-V7 remain frozen.
+The [fifteen-trait V7→V8 table](results/house-characteristics-v8/v7-v8-trait-progress.csv)
+separates factual coverage, analytical eligibility, fit samples, prediction
+support, first evidence and retained-evidence qualification.
+
+Successive national batches register **325 claims from 136 distinct documents**
+for 160 candidates. **65 previously unknown fields across 43 candidates** gain
+qualified first evidence; Democratic nonincumbents known at V7 receive
+**16 fields across 14 candidates**, and six Democrats with unresolved baseline
+incumbency receive twelve. Supplementary claims and qualification of already
+reported facts are not counted as first evidence.
+
+Democratic analytical education coverage rises **207→211**, profession
+**100→105**, military **23→34** (33 positive histories and one explicit negative),
+and incumbency **439→446**. Seven retained FEC controls are qualified with new
+literal identity bridges; only PA14 gains complete outcome controls. Three
+Democratic incumbency holds remain. No new trait contrast becomes estimable.
+Four scoped office negatives and one military negative do not meet the unchanged
+category support requirements.
+
+Religion's full-fit prediction defect is corrected from **121/123 to 122/123**;
+IA03 remains explicitly unsupported. The historical Latino association remains
+restricted to 89 candidates in 27 states, **83 incumbents and six nonincumbents**,
+not all nominees. Joint D/R incumbency, historical donor ideology and that
+restricted Latino block clear Holm correction; no matched predictive-gain
+interval excludes zero. These are observational associations, not causal
+candidate-replacement effects.
+
+See the [V8 acquisition log and reproduction commands](docs/HOUSE_CHARACTERISTICS_V8_ACQUISITION.md),
+[current remaining-work queues](results/house-characteristics-v8/remaining-candidate-trait-queue.csv)
+and [complete-download instructions](docs/DOWNLOADS.md). Complete ZIPs are now
+GitHub release assets because the full historical research no longer fits
+GitHub's single-Git-blob limit. No evidence is dropped; hashes and asset locations
+are tracked in `downloads/`. **No website deployment.**
+
+### Frozen V7 acquisition checkpoint
+
+**Frozen V7 full-trait successor:** read the
 [complete characteristics report](results/house-characteristics-v7/report.md)
 or open **`publication/characteristics-v7/report.html`** locally. It covers all
 fifteen requested trait blocks, with separate coverage for 1,284 candidates,

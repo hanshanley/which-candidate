@@ -357,6 +357,7 @@ def progress(
     out=OUT,
     acquisition=ACQUISITIONS,
     limitations_override=None,
+    office_support_fn=office_category_support,
 ):
     root = Path(root)
     output = root / out
@@ -395,7 +396,7 @@ def progress(
     v1.write_csv(output / "acquisition-field-changes.csv", changes)
     v1.write_csv(output / "source-conflicts.csv", conflicts)
     write_json(output / "held-evidence-reviews.json", held)
-    office_support = office_category_support(observations)
+    office_support = office_support_fn(observations)
     write_json(output / "positive-office-category-support.json", office_support)
     groups = []
     for trait in v1.TRAITS:

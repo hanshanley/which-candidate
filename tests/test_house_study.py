@@ -127,9 +127,13 @@ def test_real_study_retains_all_candidates_contests_holds_and_exact_replay(tmp_p
     assert summary["candidates_with_acquired_observations"] == len(expected)
     research = summary["candidate_background_research"]
     assert research["documented_dispositions"] == research["initially_uncovered"] == 601
-    assert research["baseline_with_observations"] + research["newly_covered_people"] == len(
-        expected
+    assert (
+        research["baseline_with_observations"] + research["newly_covered_people"]
+        == research["historical_with_observations"]
     )
+    assert research["historical_with_observations"] + research[
+        "supplemental_newly_covered_people"
+    ] == len(expected)
     assert len(csv_rows(tmp_path / "research-dispositions.csv")) == 601
     assert len(csv_rows(tmp_path / "background-field-coverage.csv")) == len(profiles)
     assert sum(row["in_initial_research_queue"] for row in profiles) == 601
@@ -137,7 +141,9 @@ def test_real_study_retains_all_candidates_contests_holds_and_exact_replay(tmp_p
     repair_rows = csv_rows(tmp_path / "discovery-repair-dispositions.csv")
     assert len(repair_rows) == 701
     assert repair["current_with_observations"] == len(expected)
-    assert repair["baseline_with_observations"] + repair["newly_covered_people"] == len(expected)
+    assert repair["baseline_with_observations"] + repair["newly_covered_people"] + repair[
+        "supplemental_newly_covered_people"
+    ] == len(expected)
     assert (
         sum(row["newly_covered"] == "True" for row in repair_rows) == repair["newly_covered_people"]
     )

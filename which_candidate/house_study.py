@@ -233,7 +233,7 @@ def attach_research_history(root, profiles):
     supplemental = {
         (o["candidate_id"], o["contest_id"], o["source_id"])
         for o in inputs["reviewed_characteristic_observations"]
-        if o["source_id"].startswith(("v3-", "v4-", "v5-", "v6-", "v7-"))
+        if o["source_id"].startswith(("v3-", "v4-", "v5-", "v6-", "v7-", "v8-"))
     }
     historical = copy.deepcopy(profiles)
     counts = {}
@@ -274,8 +274,26 @@ def attach_research_history(root, profiles):
         field: sum(field in p["remaining_background_fields"] for p in profiles)
         for field in BACKGROUND_FIELDS
     }
+    historical_covered = sum(bool(p["acquired_background_observations"]) for p in historical)
+    current_covered = sum(bool(p["acquired_background_observations"]) for p in profiles)
     for summary in (research, repair):
         if summary:
+            summary["historical_with_observations"] = historical_covered
+            summary["current_with_observations"] = current_covered
+            summary["supplemental_newly_covered_people"] = current_covered - historical_covered
+            summary["historical_remaining_uncovered_people"] = summary["remaining_uncovered_people"]
+            summary["remaining_uncovered_people"] = len(profiles) - current_covered
+            if "remaining_uncovered_by_party" in summary:
+                summary["historical_remaining_uncovered_by_party"] = summary[
+                    "remaining_uncovered_by_party"
+                ]
+                summary["remaining_uncovered_by_party"] = {
+                    party: sum(
+                        p["party"] == party and not p["acquired_background_observations"]
+                        for p in profiles
+                    )
+                    for party in summary["remaining_uncovered_by_party"]
+                }
             summary["historical_remaining_fields"] = summary["remaining_fields"]
             summary["remaining_fields"] = remaining
             summary["supplemental_v3_observations"] = sum(counts.values())
@@ -608,6 +626,16 @@ def render_report(summary, fits, donors, measurements):
             "source kind/year, date, qualification and receipt. Unreviewed extractions "
             "are labeled, not presented as verified facts. Individual evidence "
             "tables and filtered profiles can both be downloaded.",
+            (
+                "The earlier candidate-evidence coverage figure retains its historical "
+                "source snapshot; the V8 report and current coverage tables include "
+                "the later reviewed characteristic evidence. Historical research "
+                "milestone counts below are not silently rewritten as new acquisition."
+                if summary.get("candidate_background_research", {}).get(
+                    "supplemental_newly_covered_people"
+                )
+                else ""
+            ),
             "",
             "The frozen missing-person research queue and its candidate-specific "
             "outcomes are downloadable in `research-dispositions.csv`. The browser "

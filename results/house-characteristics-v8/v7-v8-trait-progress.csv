@@ -1,0 +1,16 @@
+trait,new_evidence_source_hashes,new_observations,source_informed_candidates,newly_informed_candidates,existing_fields_newly_qualified,factual_before,factual_after,analytical_before,analytical_after,remaining_limitations,new_first_qualified_factual_fields,cohort_denominator,unknown_after,fitted_before,fitted_after,prediction_supported,prediction_target
+age,2,2,2,1,0,260,261,197,197,Exact age remains incumbent-heavy; year/month intervals are separate.,1,449,188,156,156,156,156
+gender,1,9,9,6,0,296,302,296,296,Explicit official filing labels retained factually; incompatible source definitions not pooled.,6,449,147,243,243,243,243
+race,2,10,10,10,0,175,185,122,122,New filing classifications are not silently pooled into the historical author Black/White estimand.,10,449,264,99,99,99,99
+ethnicity,0,0,0,0,0,131,131,112,112,Existing restricted historical author-coded Latino indicator only; no universal current contrast.,0,449,318,89,89,89,89
+religion,7,7,6,4,0,184,188,170,170,Explicit dated descriptions only; new challenger coverage remains selective.,4,449,261,123,123,122,123
+education,67,71,69,0,0,226,273,207,211,"Completed supported level only; attendance, undated timing and contradictions held.",47,449,176,164,168,168,168
+profession,63,66,66,0,0,145,198,100,105,Four historical families only; mixed families and outside occupations held.,53,449,251,75,78,78,78
+prior_elected_office,22,25,24,1,0,133,145,0,0,Four scoped guide negatives; insufficient comparison support; undated histories separate.,12,449,304,0,0,0,0
+other_government,21,21,21,3,0,22,35,0,0,"Explicit jobs distinguished from advisory, elected and contractor roles; negative reference absent.",13,449,414,0,0,0,0
+military,35,35,34,3,0,31,56,23,34,Dated positive service and one explicit scoped no-military-background response; the negative category remains below ten candidates in three states.,25,449,393,0,0,0,0
+incumbency,7,7,7,0,7,439,446,439,446,Unique legal-name/authorized-campaign/website bridges only; ambiguous IDs stay held.,0,449,3,373,374,374,374
+house_service,0,0,0,0,0,183,183,183,183,Verified current federal incumbents only.,0,449,266,144,144,144,144
+donor_ideology,0,0,0,0,0,192,192,192,192,"Selective donor-linked population, not universal moderation.",0,449,257,153,153,153,153
+voting_ideology,0,0,0,0,0,148,148,148,148,Lagged Congress-specific incumbent record; not campaign ideology.,0,449,301,118,118,118,118
+party_unity,0,0,0,0,0,182,182,182,182,Cutoff-qualified current incumbent record; newcomers are not zero.,0,449,267,144,144,144,144
