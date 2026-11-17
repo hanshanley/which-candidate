@@ -521,6 +521,7 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
         )
     with zipfile.ZipFile(output / "substack-figures.zip") as archive:
         assert archive.read("complete-query-set.zip") == queries.read_bytes()
+        assert not any(name.endswith(".html") for name in archive.namelist())
         assert "READ-ME.md" in archive.namelist()
         assert all(not name.startswith("marginoferror/") for name in archive.namelist())
         if (ROOT / "results/house-study/democratic-candidate-traits.csv").exists():

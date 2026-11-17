@@ -204,6 +204,32 @@ def build(root):
             }
         )
     facts["party_and_incumbency_coverage"] = party_coverage(root, rows, previous, observations)
+    population = defaultdict(list)
+    for observation in observations:
+        key = (observation["candidate_id"], observation["trait"])
+        population[
+            (
+                observation["party"],
+                overlay.incumbent_group(old[(observation["candidate_id"], "incumbency")]),
+            )
+        ].append(key)
+    facts["source_population_progress"] = [
+        {
+            "party": party,
+            "baseline_incumbency_group": group,
+            "source_candidates": len({k[0] for k in keys}),
+            "new_evidence_fields": len(set(keys)),
+            "first_evidence_fields": sum(old[k]["status"] == "unknown" for k in set(keys)),
+        }
+        for (party, group), keys in sorted(population.items())
+    ]
+    facts["newly_ineligible_D_fields"] = [
+        {k: row[k] for k in ("candidate_id", "name", "trait", "eligibility_reason")}
+        for row in rows
+        if row["party"] == "Democratic"
+        and old[(row["candidate_id"], row["trait"])]["analysis_eligible"]
+        and not row["analysis_eligible"]
+    ]
     facts["positive_office_category_support"]["limitation"] = (
         "Positive categories overlap and recorded single-category histories are incomplete. "
         "Nominal counts do not establish mutually exclusive service histories or a no-office reference."
@@ -275,6 +301,9 @@ def build(root):
             SPEC,
             "data/house-characteristics-v7-identity-decisions.json",
             "docs/HOUSE_CHARACTERISTICS_V7_ACQUISITION.md",
+            "data/house-characteristics-v7-congressdata-audit.json",
+            "data/house-characteristics-v7-congressdata-person-review.csv",
+            "scripts/characteristics-v7-congressdata.R",
             "which_candidate/characteristics_v4.py",
             "which_candidate/characteristics_v7.py",
             "which_candidate/characteristics_v7_extract.py",

@@ -76,19 +76,23 @@ def reviewed_claims(source, receipt, text=None):
 def source_text(body, source):
     if source.get("format") == "zip_csv":
         with zipfile.ZipFile(io.BytesIO(body)) as archive:
-            member = archive.getinfo(source["member"])
+            try:
+                member = archive.getinfo(source["member"])
+            except KeyError as error:
+                raise ValueError("Missing research CSV member") from error
             if not member.filename.endswith(".csv") or member.file_size > 256 * 1024**2:
                 raise ValueError("Unsupported or oversized research CSV member")
             records = csv.DictReader(
                 io.StringIO(archive.read(member).decode(source.get("encoding", "utf-8-sig")))
             )
             columns = source.get("columns", records.fieldnames)
-            if not set(columns) <= set(records.fieldnames):
+            if not records.fieldnames or not set(columns) <= set(records.fieldnames):
                 raise ValueError("Missing research CSV columns")
-            lines = [
-                " | ".join(f"{key}={' '.join(row[key].split())}" for key in columns)
-                for row in records
-            ]
+            lines = []
+            for row in records:
+                if any(row[key] is None for key in columns):
+                    raise ValueError("Malformed research CSV record")
+                lines.append(" | ".join(f"{key}={' '.join(row[key].split())}" for key in columns))
         row_number = source.get("text_scope", {}).get("csv_row")
         if row_number is not None:
             if type(row_number) is not int or not 2 <= row_number <= len(lines) + 1:
@@ -219,6 +223,7 @@ def ingest(root, *, offline=False):
                 source.get("encoding"),
                 source.get("member"),
                 source.get("sheet"),
+                source.get("decimal_ascii_glyphs", False),
                 json.dumps(source.get("columns")),
                 json.dumps(
                     {} if source.get("format") == "zip_csv" else source.get("text_scope", {}),

@@ -1,0 +1,11 @@
+candidate_id,name,state,district,performance_eligible,eligibility_reason
+219755,Eric Hafner,AK,AL,False,No qualified value in normalized sources.
+220431,John Day,LA,03,False,No qualified value in normalized sources.
+220434,Caleb Walker,LA,03,False,No qualified value in normalized sources.
+220436,Conrad Cable,LA,04,False,No qualified value in normalized sources.
+220437,Matt Gromlich,LA,04,False,No qualified value in normalized sources.
+220448,"Patricia ""Pat"" Moore",LA,05,False,No qualified value in normalized sources.
+220449,Antonio Wilson,LA,05,False,No qualified value in normalized sources.
+220454,"Patrick ""Pat"" Forbes",LA,06,False,No qualified value in normalized sources.
+221041,Alan Bradstock,PA,14,True,No qualified value in normalized sources.
+221075,Zyon Khalifa,SC,02,True,No qualified value in normalized sources.

@@ -50,6 +50,45 @@ adds explicitly historical church membership, not verified 2026 affiliation.
 Its numeric PDF glyph encoding is decoded explicitly and fragment-validated.
 The 2022 Nevada biography and Michigan historical directory were already held.
 
+The persisted `data/house-characteristics-v7-congressdata-audit.json` records
+the actual reader version, selected variables, 67,661 member-years and military
+code frequencies. Its candidate-level companion retains every independently
+linked person reviewed, including omissions that cannot qualify nonservice.
+There are no newly eligible Democratic military positives in that review.
+
+## Measured V7 outcome
+
+The five evidence-yielding originals yield 620 observations across 205 candidates
+and 617 fields. First evidence reaches 334 fields across 203 candidates.
+Democrats account for 113 candidates, 344 observations and 341 fields; 166
+fields gain first evidence. Nine source-covered Democrats are nonincumbents.
+This is not representative challenger coverage: 312 Democratic source-informed
+fields are in the incumbent group and only 29 in the nonincumbent group.
+
+Restricted historical race analytical values increase 54→122 and the historical
+author-coded Latino indicator becomes available for 112 Democrats. Education
+increases 206→207. One mixed Black/Asian record moves from the earlier CAWP
+question to a hold under V7's preregistered unmixed comparison; its identities
+remain factual. Therefore 183 newly analytical fields correspond to a net gain
+of 182 after that hold. Dueñas's retained-evidence orthographic resolution adds
+one incumbency value, 438→439, but no eligible performance sample. Ten holds remain.
+
+Race fits expand 45→99; education 163→164. The new historical Latino-indicator
+fit uses 89 candidates/27 states, not all 449 Democrats. Its +4.93 share-pp
+association [2.84, 7.02] clears fifteen-test Holm correction (p=0.000701).
+Its restricted held-out predictions cover 87 candidates and their gain interval
+includes zero; all 89 full-cohort predictions are separately exported without
+claiming a full-cohort uncertainty interval. Religion's full-cohort failure
+remains 121/123. No matched predictive-gain interval excludes zero.
+
+Age, gender, dated-current religion, profession, positive military, House service,
+donor ideology, voting ideology and party unity analytical counts do not increase.
+New reported age is a bound, new church membership is historical, and explicit
+design/marketing does not establish the narrower business-owner family.
+Office/government/military contrasts remain unavailable without explicit negative
+references or defensible mutually exclusive alternative histories. Three affected
+blocks are recomputed; twelve input-identical blocks are reused.
+
 ## The eleven Democratic incumbency holds
 
 | Candidate | Actual retained-evidence cause |
@@ -82,7 +121,12 @@ Rscript scripts/characteristics-v7-congressdata.R \
   artifacts/characteristics-v7/congressdata-current-codebook \
   artifacts/characteristics-v7
 .venv/bin/python -m which_candidate.characteristics_v7_extract
+.venv/bin/python -m which_candidate.characteristics_v7_source_audit
 .venv/bin/python -m which_candidate.characteristics_research --offline
+.venv/bin/python -m which_candidate.house_project --evidence-only
+.venv/bin/python scripts/validate-characteristics-v7.py
+.venv/bin/pytest -q
+.venv/bin/ruff check which_candidate tests scripts
 ```
 
 R/fst are optional acquisition readers, not dependencies of normalized-evidence

@@ -35,6 +35,9 @@ def report(summary, fits, terms, coverage, sources, research):
             "Lublin classifies Middle Eastern origin as White; incompatible explicit "
             "identity definitions are not silently pooled. This is not universal current "
             "racial self-identification.\n\n"
+            "One previously analytical mixed Black/Asian record moves to a hold under "
+            "the preregistered unmixed definition. Its qualified facts remain retained; "
+            "183 newly eligible Democratic fields are a net increase of 182 after this hold.\n\n"
             "The ethnicity block asks a restricted historical author-coded Latino-indicator "
             "question. Actual source zeros, not race labels or missing rows, supply its "
             "reference. Detailed Asian/Pacific origins remain separate. Blanks, conflicting "
@@ -61,6 +64,41 @@ def report(summary, fits, terms, coverage, sources, research):
         )
         + text[end:]
     )
+    start = text.index("## Does evidence extend beyond incumbents?")
+    end = text.index("## Literal review and exclusions")
+    population = [
+        "## Does evidence extend beyond incumbents?",
+        "",
+        "Frozen V6 incumbent/nonincumbent/unresolved groups below retain the 405 "
+        "outcome-eligible Democrats. The full CSV also retains every outcome-ineligible "
+        "record. All-party coverage is in `coverage-by-party-and-incumbency.csv`.",
+        "",
+        "| Trait | Incumbents V6→V7 | Nonincumbents V6→V7 | Unresolved V6→V7 |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for trait in dict.fromkeys(r["trait"] for r in summary["trait_progress"]):
+        counts = {
+            r["baseline_incumbency_group"]: f"{r['before_analysis']}→{r['after_analysis']}"
+            for r in summary["coverage_by_incumbency"]
+            if r["trait"] == trait and r["performance_eligible"]
+        }
+        population.append(
+            f"| {trait} | {counts['incumbent']} | {counts['nonincumbent']} | "
+            f"{counts['unknown_incumbency']} |"
+        )
+    population += [
+        "",
+        "New acquisition by party and fixed baseline incumbency, across all native records:",
+        "",
+        "| Party | Group | Candidates | Source-informed fields | First-evidence fields |",
+        "| --- | --- | ---: | ---: | ---: |",
+    ]
+    for row in summary["source_population_progress"]:
+        population.append(
+            f"| {row['party']} | {row['baseline_incumbency_group']} | "
+            f"{row['source_candidates']} | {row['new_evidence_fields']} | {row['first_evidence_fields']} |"
+        )
+    text = text[:start] + "\n".join(population) + "\n\n" + text[end:]
     text = text.replace(
         "Historical CAWP Black/White women", "Historical source-classified Black/White"
     )

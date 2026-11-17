@@ -1,6 +1,47 @@
 # Full candidate-characteristics successor
 
-## Current release: requirements-led acquisition loops V6
+## Current release: new-source historical classifications V7
+
+Read `results/house-characteristics-v7/report.md` or open
+`publication/characteristics-v7/report.html`. Five evidence-yielding originals
+add **620 observations for 205 candidates and 617 candidate-trait fields**.
+There are 334 first-evidence fields across 203 candidates. Democrats account for
+344 observations, 341 fields and 113 candidates, including nine nonincumbents;
+166 Democratic fields gain first evidence. Source-wide historical tables improve
+missing classifications but remain selective and strongly incumbent-heavy.
+
+Analytical coverage changes: restricted historical race **54→122**,
+historical author-coded Latino indicator **0→112**, education **206→207** and
+incumbency **438→439**. One mixed Black/Asian record leaves the newly declared
+unmixed binary comparison without losing its qualified factual evidence.
+Thus 183 newly eligible Democratic fields correspond to a net gain of 182.
+The accent-only FEC qualification is a separate retained-evidence gain and
+unlocks no performance sample. Ten Democratic incumbency holds remain.
+
+The historical Latino-indicator block becomes estimable at n=89/27 states.
+Its association is +4.93 share pp [pointwise 95% CI 2.84, 7.02], Holm p=0.000701,
+but its matched predictive-gain interval includes zero. This author-classified,
+historical-officeholder population does not establish a universal current
+ethnic-identity effect. Joint D/R incumbency and selective donor ideology also
+retain Holm-qualified associations. No completed predictive-gain interval
+excludes zero. All fifteen tests remain declared; unavailable office, government
+and military contrasts are not null findings.
+
+Gronli's completed BS becomes analytical; her dated age supplies a 53–54 interval
+and her USDA role qualifies factually. Benitez-Thompson's 2011 church membership
+does not establish 2026 affiliation. CongressData's new 1,229-column FST was
+actually read, not treated as identical to the held deposit. Its actual "No
+military service mentioned" category is not a negative, and independently linked
+positive service records add no eligible Democratic military fields.
+
+Three affected blocks are recomputed and twelve input-identical blocks reused.
+Full-population religion prediction failures remain visible. All 859 earlier
+normalized claims, V1–V6 and earlier protected outputs remain unchanged.
+See `v6-v7-trait-progress.csv`, `coverage-by-party-and-incumbency.csv`,
+`HOUSE_CHARACTERISTICS_V7_SPEC.md` and `HOUSE_CHARACTERISTICS_V7_ACQUISITION.md`.
+**No website deployment.**
+
+## Frozen requirements-led acquisition loops V6
 
 Read `results/house-characteristics-v6/report.md` or open
 `publication/characteristics-v6/report.html`. Two acquisition loops yield

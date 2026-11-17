@@ -13,14 +13,45 @@ remain separate from Democratic nominees.
 ## Status
 
 **Current full-trait successor:** read the
-[complete characteristics report](results/house-characteristics-v6/report.md)
-or open **`publication/characteristics-v6/report.html`** locally. It covers all
+[complete characteristics report](results/house-characteristics-v7/report.md)
+or open **`publication/characteristics-v7/report.html`** locally. It covers all
 fifteen requested trait blocks, with separate coverage for 1,284 candidates,
 449 Democrats and 405 eligible Democratic performance comparisons. The
 [reviewed dataset and methods](docs/HOUSE_CHARACTERISTICS.md) distinguish
 qualified, dated/reported, uncertain, unknown and inapplicable values.
 
-V6 completes two requirements-led acquisition loops: **eight new evidence-yielding
+V7 acquires **620 observations from five evidence-yielding originals**, covering
+205 candidates and 617 candidate-trait fields. First evidence reaches 334 fields
+across 203 candidates. The Democratic subset is **113 candidates, 344 observations
+and 341 fields**, including nine nonincumbents; 166 Democratic fields gain first
+evidence. The source population remains strongly incumbent-heavy.
+
+Democratic analytical coverage changes: restricted historical race **54→122**,
+historical author-coded Latino indicator **0→112**, education **206→207** and
+incumbency **438→439**. There are 183 newly eligible fields and one mixed-race
+eligibility hold, a net increase of 182. Age gains a defensible 53–54 interval,
+not an invented birthday; historical church membership is not verified current
+affiliation. Ten incumbency holds remain. The one accent-only FEC qualification
+is retained-evidence review, not new acquisition, and unlocks no outcome sample.
+
+The newly supported **restricted historical Latino-indicator comparison** has
+n=89 across 27 states: +4.93 vote-share pp [pointwise 95% CI 2.84, 7.02],
+Holm p=0.000701 across fifteen blocks. This is a selective historical-officeholder
+association, not universal current ethnic self-identification or a causal
+nominee-replacement effect. No matched predictive-gain interval excludes zero.
+Office, government and military contrasts remain unavailable: source omissions
+never establish nonservice. Three affected blocks are recomputed; twelve
+input-identical V6 blocks are reused. All 859 earlier normalized claims and
+V1–V6 outputs remain protected.
+
+See the [complete V6→V7 table](results/house-characteristics-v7/v6-v7-trait-progress.csv),
+party/incumbency breakdowns, [source-variable audit](data/house-characteristics-v7-congressdata-audit.json)
+and [acquisition log](docs/HOUSE_CHARACTERISTICS_V7_ACQUISITION.md).
+Both complete downloads include all releases. **No website deployment.**
+
+### Frozen V6 acquisition checkpoint
+
+V6 completed two requirements-led acquisition loops: **eight new evidence-yielding
 originals, 36 observations, nine Democrats and 28 candidate-trait fields**.
 Nine previously unknown fields across six candidates receive first observations.
 New factual qualification is separate from **14 newly analytical fields**:

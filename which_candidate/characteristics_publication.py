@@ -151,7 +151,11 @@ def charts(output, coverage, fits, *, version=VERSION):
             ax.set(
                 yticks=y,
                 yticklabels=[
-                    "Race (historical CAWP women)"
+                    "Race (historical classifications)"
+                    if version == "house-characteristics-v7" and r["trait"] == "race"
+                    else "Historical Latino indicator"
+                    if version == "house-characteristics-v7" and r["trait"] == "ethnicity"
+                    else "Race (historical CAWP women)"
                     if version
                     in {
                         "house-characteristics-v3",
@@ -185,6 +189,11 @@ def charts(output, coverage, fits, *, version=VERSION):
                 note += (
                     " Race compares explicit historical Black/White classifications "
                     "among CAWP women, not all candidates."
+                )
+            elif version == "house-characteristics-v7":
+                note += (
+                    " Race and Latino-indicator comparisons use restricted historical "
+                    "source-classified populations, not all nominees."
                 )
         fig.text(0.055, 0.925, title, size=21, weight="bold")
         fig.text(0.055, 0.85, "\n".join(textwrap.wrap(subtitle, 110)), size=11, color=MUTED)

@@ -3,7 +3,9 @@
 import argparse
 import importlib.metadata
 import json
+import lzma
 import shutil
+import struct
 import tempfile
 import textwrap
 import zipfile
@@ -774,8 +776,39 @@ def export_chart(fig, destination, name):
     return files
 
 
-def write_zip(path, entries, *, lzma_text_threshold=None, lzma_names=()):
-    with zipfile.ZipFile(path, "x", compression=zipfile.ZIP_DEFLATED) as archive:
+class _PresetLzmaCompressor(zipfile.LZMACompressor):
+    def __init__(self, preset):
+        super().__init__()
+        self.preset = preset
+
+    def _init(self):
+        filters = [{"id": lzma.FILTER_LZMA1, "preset": self.preset}]
+        properties = lzma._encode_filter_properties(filters[0])
+        self._comp = lzma.LZMACompressor(lzma.FORMAT_RAW, filters=filters)
+        return struct.pack("<BBH", 9, 4, len(properties)) + properties
+
+
+class _TextPresetZipFile(zipfile.ZipFile):
+    def __init__(self, *args, text_preset=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.text_preset = text_preset
+
+    def _open_to_write(self, zinfo, force_zip64=False):
+        handle = super()._open_to_write(zinfo, force_zip64=force_zip64)
+        if (
+            self.text_preset is not None
+            and zinfo.compress_type == zipfile.ZIP_LZMA
+            and Path(zinfo.filename).suffix in {".html", ".csv", ".json", ".svg"}
+        ):
+            # zipfile exposes no LZMA preset; retain its standard framing and ZIP writer.
+            handle._compressor = _PresetLzmaCompressor(self.text_preset)
+        return handle
+
+
+def write_zip(path, entries, *, lzma_text_threshold=None, lzma_names=(), lzma_text_preset=None):
+    with _TextPresetZipFile(
+        path, "x", compression=zipfile.ZIP_DEFLATED, text_preset=lzma_text_preset
+    ) as archive:
         for name, source in sorted(entries.items()):
             info = zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED

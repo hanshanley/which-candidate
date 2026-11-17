@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import lzma
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -53,6 +54,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v7",)
+                if (root / "results/house-characteristics-v7/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -91,8 +97,24 @@ def build(root=ROOT, output=None):
         from .characteristics_v6_acquisition import BASELINE
 
         verify_frozen(root, BASELINE)
+    has_v7 = "results/house-characteristics-v7" in manifests
+    if has_v7:
+        from .characteristics_v2 import verify_frozen
+        from .characteristics_v7_acquisition import BASELINE
+
+        verify_frozen(root, BASELINE)
     current_version = (
-        "v6" if has_v6 else "v5" if has_v5 else "v4" if has_v4 else "v3" if has_v3 else "v2"
+        "v7"
+        if has_v7
+        else "v6"
+        if has_v6
+        else "v5"
+        if has_v5
+        else "v4"
+        if has_v4
+        else "v3"
+        if has_v3
+        else "v2"
     )
     if f"results/house-characteristics-{current_version}" in manifests:
         for name, receipt in manifests[f"results/house-characteristics-{current_version}"][
@@ -111,6 +133,7 @@ def build(root=ROOT, output=None):
         "docs",
         "results",
         ".github/skills/publication-charts",
+        "scripts",
     ):
         for path in (root / folder).rglob("*"):
             if (
@@ -125,6 +148,7 @@ def build(root=ROOT, output=None):
                     ".csv",
                     ".png",
                     ".svg",
+                    ".R",
                 )
             ):
                 entries[path.relative_to(root).as_posix()] = path
@@ -149,6 +173,8 @@ def build(root=ROOT, output=None):
         entries["data/house-characteristics-v6-queue.csv"] = (
             root / "data/house-characteristics-v6-queue.csv"
         )
+    for path in (root / "data").glob("house-characteristics-v7-*.csv"):
+        entries[path.relative_to(root).as_posix()] = path
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -201,6 +227,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v7-validation.json",)
+            if (root / "audits/house-characteristics-v7-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -214,22 +245,24 @@ def build(root=ROOT, output=None):
             staged / names[0],
             entries,
             lzma_text_threshold=64 * 1024,
-            lzma_names={name for name in entries if name.endswith("/folds.jsonl.gz")},
+            lzma_text_preset=9 | lzma.PRESET_EXTREME,
+            lzma_names={name for name in entries if name.endswith(".jsonl.gz")},
         )
         figures = root / "publication"
         upload = {
             name: figures / name
             for name in figure_files
-            if Path(name).parts[0] != "marginoferror" and name != "report.html"
+            if Path(name).parts[0] != "marginoferror" and Path(name).suffix != ".html"
         }
         upload["complete-query-set.zip"] = staged / names[0]
         upload["READ-ME.md"] = root / "docs/DOWNLOADS.md"
-        # Full trait tables remain in the exact nested complete-query archive;
-        # duplicating them here would exceed GitHub's single-file size limit.
+        # Full tables and HTML reports remain in the exact nested complete-query
+        # archive; duplicating them would exceed GitHub's single-file size limit.
         write_zip(
             staged / names[1],
             upload,
             lzma_text_threshold=64 * 1024,
+            lzma_text_preset=9 | lzma.PRESET_EXTREME,
             lzma_names={"complete-query-set.zip"},
         )
         receipts = {name: fingerprint(staged / name) for name in names}
