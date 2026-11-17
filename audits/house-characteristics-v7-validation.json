@@ -1,0 +1,170 @@
+{
+  "schema": "which_candidate.characteristics_v7_validation.v1",
+  "baseline_commit": "02b37ca0093cd75f084c501816b2f61616f38d90",
+  "acquisition_commit": "c5f86c3859665ff0af5ea39546510c5a6624ffbe",
+  "analysis_and_downloads_commit": "55c7f53484482e1e9037586baf0af59ed2ba3355",
+  "website_deployment": false,
+  "population": {
+    "all_candidates": 1284,
+    "democrats": 449,
+    "eligible_democratic_performance_comparisons": 405,
+    "all_party_candidate_trait_queue_cells": 19260
+  },
+  "acquisition": {
+    "attempted_originals": 13,
+    "successfully_downloaded_originals": 10,
+    "new_evidence_yielding_originals": 5,
+    "failed_attempts_not_counted_as_evidence": 3,
+    "new_normalized_observations": 620,
+    "source_informed_candidates": 205,
+    "source_informed_candidate_trait_fields": 617,
+    "first_informed_candidate_trait_fields": 334,
+    "first_informed_candidates": 203,
+    "democratic_observations": 344,
+    "democratic_source_informed_candidates": 113,
+    "democratic_source_informed_fields": 341,
+    "democratic_first_informed_fields": 166,
+    "republican_observations": 276,
+    "republican_source_informed_candidates": 92,
+    "republican_source_informed_fields": 276,
+    "historical_claims_preserved": 859,
+    "normalized_claims_after": 1479,
+    "existing_observations_newly_qualified": 1,
+    "gross_new_analytical_democratic_fields": 183,
+    "gross_new_analytical_fields_from_new_observations": 182,
+    "gross_new_analytical_fields_from_retained_observations": 1,
+    "newly_ineligible_democratic_fields": 1,
+    "net_new_analytical_democratic_fields": 182,
+    "newly_estimable_trait_blocks": 1,
+    "democratic_incumbency_holds_before": 11,
+    "democratic_incumbency_holds_after": 10,
+    "performance_samples_unlocked_by_resolved_controls": 0,
+    "qualification_changes": [
+      "Dueñas's accent-only full-token match qualifies a unique retained FEC classification. This is not new acquisition or independent lifetime-service verification.",
+      "Strickland's mixed Black/Asian evidence remains factual but is outside the preregistered unmixed historical race comparison. V6 bytes are unchanged."
+    ],
+    "fixed_v6_incumbency_strata": {
+      "Democratic_incumbent": {
+        "source_informed_candidates": 104,
+        "source_informed_fields": 312,
+        "first_informed_fields": 147
+      },
+      "Democratic_nonincumbent": {
+        "source_informed_candidates": 9,
+        "source_informed_fields": 29,
+        "first_informed_fields": 19
+      },
+      "Republican_incumbent": {
+        "source_informed_candidates": 91,
+        "source_informed_fields": 273,
+        "first_informed_fields": 165
+      },
+      "Republican_unresolved": {
+        "source_informed_candidates": 1,
+        "source_informed_fields": 3,
+        "first_informed_fields": 3
+      }
+    },
+    "evidence_yielding_originals": [
+      "Lublin U.S. House archive and included codebook",
+      "Lublin state legislative archive and included codebook",
+      "University of Minnesota Gronli interview dated 2023-12-21",
+      "Brookings Register Gronli interview dated 2026-05-01",
+      "Nevada Benitez-Thompson biography dated 2011"
+    ],
+    "other_downloads": [
+      "CongressData 1229-column FST and codebook: actual variables and 67661 member-years reviewed; no additional eligible Democratic military fields",
+      "CAWP database page and FAQ: methods and discovery, not candidate observations",
+      "Minnesota 2019 legislative manual: covered Little fields already qualify; redundant observations not registered"
+    ],
+    "blocked_access": [
+      "Both linked CAWP public exports returned 404",
+      "Ballotpedia survey-completion original returned 403"
+    ],
+    "complete_trait_progress": "results/house-characteristics-v7/v6-v7-trait-progress.csv",
+    "complete_party_and_incumbency_coverage": "results/house-characteristics-v7/coverage-by-party-and-incumbency.csv",
+    "source_population_limitation": "Acquisition is strongly incumbent-heavy. Historical winner classifications and nine newly source-covered Democratic nonincumbents do not establish representative challenger coverage."
+  },
+  "integrated_validation": {
+    "tests_passed": 454,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "independent_primary_clustered_associations_checked": 12,
+    "independent_matched_predictions_checked": 1876,
+    "independent_complete_outer_state_deletions_refitted": 425,
+    "holm_family_size": 15,
+    "state_person_separation_and_full_rank": "passed",
+    "recomputed_primary_trait_blocks": 3,
+    "input_identical_primary_trait_blocks_reused": 12,
+    "protected_frozen_files_verified": 434,
+    "age_band_sensitivity": {
+      "candidates_before": 206,
+      "candidates_after": 207,
+      "states_before": 41,
+      "states_after": 42,
+      "exact_age_analytical_coverage_unchanged": 197,
+      "holm_pvalue": 1,
+      "independent_primary_numerical_check_count_excludes_this_sensitivity": true
+    },
+    "regression_repair": "Frozen research-history validation now excludes validated V7 supplemental observations as well as V3-V6 additions; historical hash and row-count assertions remain intact.",
+    "resource_retry": "Storage-only failures preceded final acceptance. The final complete run uses a dedicated temporary RAM-backed volume, immediate passed-test scratch cleanup and unchanged assertions."
+  },
+  "browser": {
+    "javascript_viewport_widths": [1280, 390, 320],
+    "no_javascript_viewport_widths": [320],
+    "candidate_rows": 1284,
+    "trait_table_columns": 17,
+    "horizontal_overflow": false,
+    "page_errors": false,
+    "filters_sort_literal_sources_new_age_education_and_identity_limits": "passed",
+    "version_links_v1_through_v7": "passed",
+    "affected_predictive_figure_visually_reviewed": true,
+    "pre_receipt_complete_downloads_over_HTTP": "hash_verified"
+  },
+  "offline_replay": {
+    "status": "pre_receipt_passed",
+    "network": "denied",
+    "historical_raw_caches": "absent",
+    "normalized_claims_validated": 1479,
+    "pre_receipt_archive_members_byte_identical": 747,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed",
+    "receipt_inclusive_archive_members_expected": 748,
+    "release_protocol": "After passing pre-receipt replay, add this receipt, rebuild packages and repeat extracted network-denied replay of every archive member and both ZIPs. Verify both final HTTP download hashes before the final commit. This receipt excludes circular archive hashes."
+  },
+  "interpretation": {
+    "holm_supported_blocks": ["ethnicity", "incumbency", "donor_ideology"],
+    "new_restricted_ethnicity_comparison": {
+      "population": "Independently linked historical source-classified officeholders; explicit author-coded Latino 0/1, not universal current ethnic self-identification",
+      "n": 89,
+      "states": 27,
+      "association_share_pp": 4.9323837587,
+      "pointwise_95_percent_ci_share_pp": [2.8414802236, 7.0232872937],
+      "holm_pvalue_rounded": 0.00070098,
+      "restricted_prediction_n": 87,
+      "restricted_predictive_gain_ci_share_pp_rounded": [-0.4202, 1.1165],
+      "full_cohort_prediction_n": 89,
+      "full_cohort_uncertainty_not_established_by_restricted_interval": true
+    },
+    "predictive_gain_intervals_wholly_positive": 0,
+    "unavailable_contrasts": ["prior_elected_office", "other_government", "military"],
+    "positive_office_categories": "Recorded federal/state histories are incomplete and do not establish mutually exclusive categories or a no-office reference.",
+    "military": "No military service mentioned, rank zero, blank fields and absent biography sections are not negative service classifications.",
+    "religion_full_population_prediction_failure": {
+      "predicted": 121,
+      "population": 123
+    },
+    "incumbency": "The joint Democratic/Republican-incumbency block is distinct from the Democratic-incumbent coefficient alone.",
+    "donor_ideology": "Selective historical donor-linked population, not a universal moderation claim.",
+    "causal_nominee_replacement_effects": false
+  },
+  "reproduction_commands": [
+    ".venv/bin/python -m which_candidate.characteristics_research --offline",
+    ".venv/bin/python -m which_candidate.house_project --evidence-only",
+    ".venv/bin/python scripts/validate-characteristics-v7.py",
+    ".venv/bin/pytest -q -o tmp_path_retention_policy=failed",
+    ".venv/bin/ruff check which_candidate tests scripts",
+    ".venv/bin/ruff format --check which_candidate tests scripts"
+  ]
+}

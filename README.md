@@ -49,6 +49,13 @@ party/incumbency breakdowns, [source-variable audit](data/house-characteristics-
 and [acquisition log](docs/HOUSE_CHARACTERISTICS_V7_ACQUISITION.md).
 Both complete downloads include all releases. **No website deployment.**
 
+The [V7 validation receipt](audits/house-characteristics-v7-validation.json)
+records **454 passing tests**, independent reconstruction of twelve primary
+associations, 1,876 matched predictions and 425 complete outer state-deletion
+refits, plus responsive/no-JavaScript and network-denied complete-download checks.
+Separately, interval-compatible age-band sensitivity expands from 206 candidates
+in 41 states to 207 in 42 states (Holm p=1); primary exact-age coverage stays 197.
+
 ### Frozen V6 acquisition checkpoint
 
 V6 completed two requirements-led acquisition loops: **eight new evidence-yielding
