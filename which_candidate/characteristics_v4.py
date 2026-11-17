@@ -115,17 +115,18 @@ def office_category_support(observations):
     }
 
 
-def held_fec_review(candidates, previous, panel, inputs):
+def held_fec_review(candidates, previous, panel, inputs, *, bridges=None, prefix="v4-"):
     old = {(r["candidate_id"], r["trait"]): r for r in previous}
     needed_opponents = {r["contest_id"] for r in panel if r["R_name"] and r["R_incumbent"] is None}
-    bridges = {
-        "220322": ("FORD, JAMES (J.D.) DAVID", "v4-in-ford-2020-220322"),
-        "221015": ("HARVIE, ROBERT J", "v4-pa-harvie-official-221015"),
-    }
+    if bridges is None:
+        bridges = {
+            "220322": ("FORD, JAMES (J.D.) DAVID", "v4-in-ford-2020-220322"),
+            "221015": ("HARVIE, ROBERT J", "v4-pa-harvie-official-221015"),
+        }
     acquired_ids = {
         o["source_id"]
         for o in inputs["reviewed_characteristic_observations"]
-        if o["source_id"].startswith("v4-")
+        if o["source_id"].startswith(prefix)
     }
     reviews = []
     for candidate in candidates:

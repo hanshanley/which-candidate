@@ -157,6 +157,7 @@ def charts(output, coverage, fits, *, version=VERSION):
                         "house-characteristics-v3",
                         "house-characteristics-v4",
                         "house-characteristics-v5",
+                        "house-characteristics-v6",
                     }
                     and r["trait"] == "race"
                     else BLOCK_LABELS[r["trait"]]
@@ -179,6 +180,7 @@ def charts(output, coverage, fits, *, version=VERSION):
                 "house-characteristics-v3",
                 "house-characteristics-v4",
                 "house-characteristics-v5",
+                "house-characteristics-v6",
             }:
                 note += (
                     " Race compares explicit historical Black/White classifications "

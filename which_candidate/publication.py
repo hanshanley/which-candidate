@@ -781,7 +781,7 @@ def write_zip(path, entries, *, lzma_text_threshold=None):
             info.compress_type = zipfile.ZIP_DEFLATED
             if (
                 lzma_text_threshold is not None
-                and source.suffix in {".html", ".csv"}
+                and source.suffix in {".html", ".csv", ".json", ".svg"}
                 and source.stat().st_size >= lzma_text_threshold
             ):
                 info.compress_type = zipfile.ZIP_LZMA

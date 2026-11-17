@@ -83,9 +83,9 @@ for _key, _candidate, _fec in (
     }
 
 
-def acquire(root):
+def acquire(root, *, version="v5", sources=SOURCES):
     root = Path(root)
-    work = root / "artifacts/characteristics-v5"
+    work = root / f"artifacts/characteristics-{version}"
     work.mkdir(parents=True, exist_ok=True)
     output = work / "retrievals.json"
     old = json.loads(output.read_text()) if output.exists() else []
@@ -134,7 +134,7 @@ def acquire(root):
         }
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        results = list(executor.map(fetch, SOURCES.items()))
+        results = list(executor.map(fetch, sources.items()))
     write_json(output, results)
     return results
 

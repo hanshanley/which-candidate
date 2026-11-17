@@ -48,6 +48,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v6",)
+                if (root / "results/house-characteristics-v6/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -80,7 +85,15 @@ def build(root=ROOT, output=None):
         from .characteristics_v5_acquisition import BASELINE
 
         verify_frozen(root, BASELINE)
-    current_version = "v5" if has_v5 else "v4" if has_v4 else "v3" if has_v3 else "v2"
+    has_v6 = "results/house-characteristics-v6" in manifests
+    if has_v6:
+        from .characteristics_v2 import verify_frozen
+        from .characteristics_v6_acquisition import BASELINE
+
+        verify_frozen(root, BASELINE)
+    current_version = (
+        "v6" if has_v6 else "v5" if has_v5 else "v4" if has_v4 else "v3" if has_v3 else "v2"
+    )
     if f"results/house-characteristics-{current_version}" in manifests:
         for name, receipt in manifests[f"results/house-characteristics-{current_version}"][
             "inputs"
@@ -132,6 +145,10 @@ def build(root=ROOT, output=None):
         entries["data/house-characteristics-v5-queue.csv"] = (
             root / "data/house-characteristics-v5-queue.csv"
         )
+    if (root / "data/house-characteristics-v6-queue.csv").exists():
+        entries["data/house-characteristics-v6-queue.csv"] = (
+            root / "data/house-characteristics-v6-queue.csv"
+        )
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -179,6 +196,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v6-validation.json",)
+            if (root / "audits/house-characteristics-v6-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -188,7 +210,7 @@ def build(root=ROOT, output=None):
     names = ("complete-queries.zip", "substack-figures.zip")
     with TemporaryDirectory(prefix=".which-candidate-packages-", dir=output) as directory:
         staged = Path(directory)
-        write_zip(staged / names[0], entries, lzma_text_threshold=1024 * 1024)
+        write_zip(staged / names[0], entries, lzma_text_threshold=64 * 1024)
         figures = root / "publication"
         upload = {
             name: figures / name
@@ -199,7 +221,7 @@ def build(root=ROOT, output=None):
         upload["READ-ME.md"] = root / "docs/DOWNLOADS.md"
         # Full trait tables remain in the exact nested complete-query archive;
         # duplicating them here would exceed GitHub's single-file size limit.
-        write_zip(staged / names[1], upload, lzma_text_threshold=1024 * 1024)
+        write_zip(staged / names[1], upload, lzma_text_threshold=64 * 1024)
         receipts = {name: fingerprint(staged / name) for name in names}
         if any(receipt["bytes"] >= 100 * 1024 * 1024 for receipt in receipts.values()):
             raise ValueError(

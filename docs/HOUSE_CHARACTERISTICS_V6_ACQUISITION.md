@@ -38,3 +38,28 @@ support, state/person separation, training-only preprocessing and complete
 deletion pipeline remain unchanged. No new model search or relaxed support
 gate is justified by weak findings. Local reports and both complete downloads
 must retain all prior frozen releases. No website deployment.
+
+## Completed acquisition loops
+
+Oregon screening found all six education fields already qualified; the Texas
+directory supplied no target nonincumbents. Neither was acquired for a count.
+The RNS original returned 403 and remains failed, without retry or alternate copy.
+
+Loop one acquired Rutgers's 2022 workshop packet, Harvard's alumni questionnaire,
+Yale's 2024 Bronin interview, Creighton's 2023-24 complete catalog, the dated
+PBS/KET 2025 transcript and Golladay's dated statements. Loop two acquired a
+distinct complete 2024 Washington guide and independent Sojourners reporting.
+A ninth successful original, the Convergence course biography, was reviewed but
+not registered as evidence-yielding because stronger evidence already covered
+its useful facts.
+
+The eight evidence-yielding originals have no URL/hash duplicate among prior
+registered evidence. They supply 36 observations for nine candidates. Retain the
+literal alias in Williams's own voice and unique held FEC identity; report the
+resulting held classification separately from the broadcast's new observations.
+All 823 historical normalized claims remain unchanged.
+
+Review preserves unstated degree levels, undated master's completion, mixed
+professions, broad rather than invented denominations, overlapping AAPI labels
+and unqualified family-origin statements. No negative office/government/military
+reference was acquired. Detailed dispositions are in the acquisition registry.
