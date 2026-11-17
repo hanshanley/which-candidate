@@ -1,0 +1,38 @@
+{
+  "schema": "which_candidate.characteristics_v8_release.v1",
+  "repository": "hanshanley/which-candidate",
+  "release": "characteristics-v8",
+  "release_url": "https://github.com/hanshanley/which-candidate/releases/tag/characteristics-v8",
+  "release_target_commit": "128a6af109dd862165490541e6bb990f86d40cb5",
+  "release_draft": false,
+  "release_immutable": true,
+  "download_method": "gh release download from actual GitHub release assets",
+  "assets": {
+    "complete-queries.zip": {
+      "bytes": 109562693,
+      "sha256": "7ff95e849baf997813fe5b011ba766eb08e8b0f7fb5311fd82faca5f7077cac8",
+      "url": "https://github.com/hanshanley/which-candidate/releases/download/characteristics-v8/complete-queries.zip",
+      "asset_id": 761119154,
+      "actual_download_verified": true
+    },
+    "substack-figures.zip": {
+      "bytes": 110275805,
+      "sha256": "f3c0f626611f7d56c8ca6112e043dab2d67a5b0b8e9206c4d77c987c34379d3f",
+      "url": "https://github.com/hanshanley/which-candidate/releases/download/characteristics-v8/substack-figures.zip",
+      "asset_id": 761119152,
+      "actual_download_verified": true
+    }
+  },
+  "receipt_inclusive_offline_replay": {
+    "status": "passed",
+    "network": "Network access denied during complete-download replay",
+    "historical_raw_caches": "absent",
+    "archive_members_byte_identical": 832,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed"
+  },
+  "exact_downloaded_nested_query_zip": true,
+  "website_deployment": false,
+  "circularity_note": "This transport-verification receipt is not a scientific archive input."
+}
