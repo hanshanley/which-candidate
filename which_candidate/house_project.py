@@ -21,6 +21,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def _refresh_coverage_plot_data(root):
     path = root / "publication/plot-data/candidate-evidence.csv"
+    if (root / "data/house-characteristics-v8-acquisitions.json").exists():
+        path.write_bytes(house_study.csv_bytes(rebuild_publication.coverage_inputs(root)))
+        return
     previous = house_study.csv_rows(path)
     current = {
         row["cohort"]: row for row in json.loads((root / "results/house/coverage.json").read_text())
@@ -36,15 +39,6 @@ def _refresh_coverage_plot_data(root):
     for row in previous:
         updated = current[row["cohort"]]
         if any(str(updated[key]) != row[key] for key in plotted):
-            if (
-                (root / "data/house-characteristics-v8-acquisitions.json").exists()
-                and all(
-                    str(updated[key]) == row[key] for key in plotted if key != "factual_background"
-                )
-                and updated["factual_background"] >= int(row["factual_background"])
-            ):
-                rows.append(row)
-                continue
             raise ValueError("Evidence refresh would change plotted coverage; keep frozen figures")
         rows.append(
             {key: value for key, value in updated.items() if not isinstance(value, (list, dict))}

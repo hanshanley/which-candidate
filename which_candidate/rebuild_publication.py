@@ -688,6 +688,37 @@ def build(root=ROOT, output=None):
     return result
 
 
+def coverage_inputs(root):
+    current = {
+        row["cohort"]: row for row in json.loads((root / "results/house/coverage.json").read_text())
+    }
+    if not (root / "data/house-characteristics-v8-acquisitions.json").exists():
+        return list(current.values())
+    plotted = (
+        "cohort",
+        "candidates",
+        "factual_background",
+        "donor_score",
+        "prior_federal_voting_score",
+    )
+    rows = []
+    for row in csv_rows(root / "publication/plot-data/candidate-evidence.csv"):
+        updated = current[row["cohort"]]
+        if any(str(updated[key]) != row[key] for key in plotted):
+            if all(
+                str(updated[key]) == row[key] for key in plotted if key != "factual_background"
+            ) and updated["factual_background"] >= int(row["factual_background"]):
+                rows.append(
+                    {key: value if key == "cohort" else int(value) for key, value in row.items()}
+                )
+                continue
+            raise ValueError("Evidence refresh would change plotted coverage; keep frozen figures")
+        rows.append(
+            {key: value for key, value in updated.items() if not isinstance(value, (list, dict))}
+        )
+    return rows
+
+
 def _build(root, output):
     output.mkdir(parents=True, exist_ok=True)
     (output / "plot-data").mkdir(exist_ok=True)
@@ -710,7 +741,7 @@ def _build(root, output):
         "panel": read_rows(root / "results/2026-v4/candidate-queries.jsonl.gz"),
         "donor": read_rows(root / "results/2026-v4/donor-fits.jsonl.gz"),
         "measurements": read_rows(root / "results/2026-v4/measurement-fits.jsonl.gz"),
-        "coverage": json.loads((root / "results/house/coverage.json").read_text()),
+        "coverage": coverage_inputs(root),
         "traits": read_rows(root / "results/2026-v3/analysis/trait-fits.jsonl.gz"),
         "moderation": read_rows(root / "results/2026-v3/analysis/moderation-fits.jsonl.gz"),
         "house_traits": read_rows(root / "results/house-study/trait-fits.jsonl.gz"),

@@ -28,6 +28,7 @@ def test_new_source_coverage_keeps_earlier_figure_snapshot_without_relaxing_othe
 ):
     from which_candidate.house_project import _refresh_coverage_plot_data
     from which_candidate.pipeline import csv_bytes
+    from which_candidate.rebuild_publication import coverage_inputs
 
     previous = {
         "cohort": "all",
@@ -44,8 +45,11 @@ def test_new_source_coverage_keeps_earlier_figure_snapshot_without_relaxing_othe
     (tmp_path / "data/house-characteristics-v8-acquisitions.json").write_text("{}")
     (tmp_path / "results/house/coverage.json").write_text(json.dumps([{**previous, field: value}]))
     if allowed:
+        assert coverage_inputs(tmp_path) == [previous]
         _refresh_coverage_plot_data(tmp_path)
     else:
+        with pytest.raises(ValueError, match="keep frozen figures"):
+            coverage_inputs(tmp_path)
         with pytest.raises(ValueError, match="keep frozen figures"):
             _refresh_coverage_plot_data(tmp_path)
     assert path.read_bytes() == original
