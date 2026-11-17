@@ -23,11 +23,11 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 219843,2026:house:AR:02:general:source_general,French Hill,AR,02,Republican,117,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 219844,2026:house:AR:02:general:source_general,Chris Jones,AR,02,Democratic,3,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 219845,2026:house:AR:03:general:source_general,Steve Womack,AR,03,Republican,28,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
-219846,2026:house:AR:03:general:source_general,Robb Ryerse,AR,03,Democratic,9,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
+219846,2026:house:AR:03:general:source_general,Robb Ryerse,AR,03,Democratic,11,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 219847,2026:house:AR:03:general:source_general,Bobby Wilson,AR,03,Libertarian,1,"[""professional_history""]","[""education"", ""military_service"", ""prior_office""]"
 219849,2026:house:AR:04:general:source_general,Bruce Westerman,AR,04,Republican,18,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 219848,2026:house:AR:04:general:source_general,James Russell,AR,04,Democratic,26,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
-219764,2026:house:AZ:01:general:source_general,Amish Shah,AZ,01,Democratic,18,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
+219764,2026:house:AZ:01:general:source_general,Amish Shah,AZ,01,Democratic,22,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 219765,2026:house:AZ:01:general:source_general,Jay Feely,AZ,01,Republican,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 219766,2026:house:AZ:01:general:source_general,Monica Alponte,AZ,01,Libertarian,2,"[""military_service"", ""professional_history""]","[""education"", ""prior_office""]"
 219768,2026:house:AZ:01:general:source_general,Gage Dylan Thunder,AZ,01,Other,1,"[""professional_history""]","[""education"", ""military_service"", ""prior_office""]"
@@ -200,7 +200,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 220006,2026:house:CO:08:general:source_general,Manny Rutinel,CO,08,Democratic,21,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 220005,2026:house:CO:08:general:source_general,Gabe Evans,CO,08,Republican,10,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 220007,2026:house:CO:08:general:source_general,Dave Wood,CO,08,Libertarian,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
-220035,2026:house:CT:01:general:source_general,Luke Bronin,CT,01,Democratic,5,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
+220035,2026:house:CT:01:general:source_general,Luke Bronin,CT,01,Democratic,12,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
 220036,2026:house:CT:01:general:source_general,Amy Chai,CT,01,Republican,12,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220037,2026:house:CT:01:general:source_general,Mary L. Sanders,CT,01,Green,1,"[""professional_history""]","[""education"", ""military_service"", ""prior_office""]"
 220038,2026:house:CT:01:general:source_general,Mark Stewart Greenstein,CT,01,Write-In,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
@@ -276,7 +276,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 220132,2026:house:FL:21:general:source_general,Brian Mast,FL,21,Republican,96,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
 220131,2026:house:FL:21:general:source_general,James Martin,FL,21,Democratic,22,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 220133,2026:house:FL:21:general:source_general,Alexander Cooke,FL,21,Independent,3,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
-220135,2026:house:FL:22:general:source_general,Pia Dandiya,FL,22,Democratic,56,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
+220135,2026:house:FL:22:general:source_general,Pia Dandiya,FL,22,Democratic,61,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220134,2026:house:FL:22:general:source_general,Casey Askar,FL,22,Republican,2,"[""military_service"", ""professional_history""]","[""education"", ""prior_office""]"
 220137,2026:house:FL:23:general:source_general,Lois Frankel,FL,23,Democratic,117,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
 220136,2026:house:FL:23:general:source_general,Deborah Adeimy,FL,23,Republican,25,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
@@ -317,7 +317,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 220192,2026:house:GA:11:general:source_general,Chris Harden,GA,11,Democratic,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220193,2026:house:GA:12:general:source_general,Rick Allen,GA,12,Republican,22,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220194,2026:house:GA:12:general:source_general,Ceretta Smith,GA,12,Democratic,4,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
-220195,2026:house:GA:13:general:source_general,Jasmine Clark,GA,13,Democratic,5,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
+220195,2026:house:GA:13:general:source_general,Jasmine Clark,GA,13,Democratic,10,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 220196,2026:house:GA:13:general:source_general,Jonathan Chavez,GA,13,Republican,32,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 220197,2026:house:GA:14:general:source_general,Clay Fuller,GA,14,Republican,23,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 220198,2026:house:GA:14:general:source_general,Shawn Harris,GA,14,Democratic,43,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
@@ -422,7 +422,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 220378,2026:house:KS:04:general:source_general,Katy Tyndell,KS,04,Democratic,4,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220380,2026:house:KS:04:general:source_general,Drew Cranmer,KS,04,Libertarian,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220396,2026:house:KY:01:general:source_general,James Comer,KY,01,Republican,129,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
-220397,2026:house:KY:01:general:source_general,Drew Williams,KY,01,Democratic,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
+220397,2026:house:KY:01:general:source_general,Drew Williams,KY,01,Democratic,4,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220398,2026:house:KY:02:general:source_general,Brett Guthrie,KY,02,Republican,51,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
 220399,2026:house:KY:02:general:source_general,Megan Wingfield,KY,02,Democratic,13,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220400,2026:house:KY:02:general:source_general,Thomas A. Loecken,KY,02,Independent,4,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
@@ -487,7 +487,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 220747,2026:house:MA:04:general:source_general,Jake Auchincloss,MA,04,Democratic,76,"[""education"", ""military_service"", ""prior_office"", ""professional_history""]",[]
 220748,2026:house:MA:04:general:source_general,Thomas Stalcup,MA,04,Republican,7,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 220749,2026:house:MA:05:general:source_general,Katherine M. Clark,MA,05,Democratic,120,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
-220751,2026:house:MA:06:general:source_general,Dan Koh,MA,06,Democratic,3,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
+220751,2026:house:MA:06:general:source_general,Dan Koh,MA,06,Democratic,8,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 220750,2026:house:MA:06:general:source_general,Micah Quinney Jones,MA,06,Republican,28,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 220752,2026:house:MA:07:general:source_general,Ayanna S. Pressley,MA,07,Democratic,106,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 220753,2026:house:MA:08:general:source_general,Stephen F. Lynch,MA,08,Democratic,146,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
@@ -1051,7 +1051,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 23160893,2026:house:TN:02:general:source_general,Bruce Fine,TN,02,Independent,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 23160894,2026:house:TN:02:general:source_general,Adam Heimerman,TN,02,Independent,1,"[""professional_history""]","[""education"", ""military_service"", ""prior_office""]"
 221176,2026:house:TN:03:general:source_general,Chuck Fleischmann,TN,03,Republican,26,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
-221177,2026:house:TN:03:general:source_general,Anna Golladay,TN,03,Democratic,18,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
+221177,2026:house:TN:03:general:source_general,Anna Golladay,TN,03,Democratic,20,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 23160897,2026:house:TN:03:general:source_general,Dean Arnold,TN,03,Independent,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 23160899,2026:house:TN:03:general:source_general,Rodney Joe King,TN,03,Independent,2,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 23160898,2026:house:TN:03:general:source_general,Jean Howard-Hill,TN,03,Independent,1,"[""education""]","[""military_service"", ""prior_office"", ""professional_history""]"
@@ -1242,7 +1242,7 @@ candidate_id,contest_id,name,state,district,party,observation_count,background_f
 221352,2026:house:WA:04:general:source_general,Amanda McKinney,WA,04,Republican,30,"[""prior_office"", ""professional_history""]","[""education"", ""military_service""]"
 221353,2026:house:WA:04:general:source_general,John Duresky,WA,04,Democratic,14,"[""education"", ""military_service"", ""professional_history""]","[""prior_office""]"
 221354,2026:house:WA:05:general:source_general,Michael Baumgartner,WA,05,Republican,98,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
-221355,2026:house:WA:05:general:source_general,Carmela Conroy,WA,05,Democratic,6,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
+221355,2026:house:WA:05:general:source_general,Carmela Conroy,WA,05,Democratic,10,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 221356,2026:house:WA:06:general:source_general,Emily Randall,WA,06,Democratic,102,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"
 221357,2026:house:WA:06:general:source_general,Teresa Fox,WA,06,Republican,4,"[""education"", ""professional_history""]","[""military_service"", ""prior_office""]"
 221358,2026:house:WA:07:general:source_general,Pramila Jayapal,WA,07,Democratic,128,"[""education"", ""prior_office"", ""professional_history""]","[""military_service""]"

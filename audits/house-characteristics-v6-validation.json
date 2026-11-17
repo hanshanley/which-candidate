@@ -1,0 +1,117 @@
+{
+  "schema": "which_candidate.characteristics_v6_validation.v1",
+  "baseline_commit": "9f6713cf126895d1f631e7972bf157229f763861",
+  "baseline_freeze_commit": "a98d8c70b3fdb2c7b3108b15beafcc558d23d49f",
+  "acquisition_commit": "fb6dcfb7e8456923867d4b343f8ad7dfc9edd3bc",
+  "website_deployment": false,
+  "population": {
+    "all_candidates": 1284,
+    "democrats": 449,
+    "eligible_democratic_performance_comparisons": 405
+  },
+  "acquisition": {
+    "requirements_led_loops": 2,
+    "attempted_originals": 10,
+    "successfully_downloaded_originals": 9,
+    "new_evidence_yielding_originals": 8,
+    "redundant_successful_originals_excluded": 1,
+    "denied_attempts_not_counted_as_evidence": 1,
+    "new_normalized_observations": 36,
+    "source_informed_candidates": 9,
+    "source_informed_candidate_trait_fields": 28,
+    "first_informed_candidate_trait_fields": 9,
+    "first_informed_candidates": 6,
+    "newly_covered_people": 0,
+    "existing_observations_newly_qualified": 1,
+    "net_new_factual_democratic_fields": 22,
+    "new_analytical_democratic_fields": 14,
+    "new_analytical_fields_from_new_observations": 13,
+    "new_analytical_fields_from_newly_qualified_held_observations": 1,
+    "newly_estimable_trait_blocks": 0,
+    "historical_claims_preserved": 823,
+    "normalized_claims_after": 859,
+    "democratic_incumbency_holds_before": 12,
+    "democratic_incumbency_holds_after": 11,
+    "qualification": "Williams's literal PBS/KET legal-name and Drew-alias statement independently qualifies the unique held FEC KY01 Democratic Challenger classification. That classification is newly qualified existing evidence, not a new broadcast classification or independently verified lifetime service. First-informed fields include family-origin observations that do not qualify ethnic identity.",
+    "baseline_incumbency_strata": {
+      "incumbent": {
+        "source_informed_candidates": 0,
+        "source_informed_candidate_trait_fields": 0,
+        "new_analytical_fields": 0
+      },
+      "nonincumbent": {
+        "source_informed_candidates": 8,
+        "source_informed_candidate_trait_fields": 26,
+        "new_analytical_fields": 12
+      },
+      "unresolved": {
+        "source_informed_candidates": 1,
+        "source_informed_candidate_trait_fields": 2,
+        "new_analytical_fields": 2
+      }
+    },
+    "all_nine_source_informed_candidates_performance_eligible": true,
+    "complete_trait_progress": "results/house-characteristics-v6/v5-v6-trait-progress.csv",
+    "complete_fixed_baseline_cohort_coverage": "results/house-characteristics-v6/coverage-by-incumbency.csv",
+    "remaining_exclusions": [
+      "No explicit negative office, government or military responses were acquired.",
+      "Broad Christian descriptions are not inferred Protestant labels and do not clear existing religion-category support.",
+      "Overlapping AAPI self-descriptions remain outside the historical CAWP women comparison.",
+      "Family origins do not establish ethnic identity.",
+      "Undated master's completion, unstated degree levels and mixed careers remain held.",
+      "War College credentials do not establish military service.",
+      "Historical office histories before the 2026 election are not office histories before first House entry.",
+      "Denied originals remain failed attempts; redundant corroboration is excluded from evidence-yield counts."
+    ]
+  },
+  "integrated_validation": {
+    "tests_passed": 434,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "independent_clustered_associations_checked": 11,
+    "independent_matched_predictions_checked": 1730,
+    "independent_jackknife_interval_widths_checked": 11,
+    "holm_family_size": 15,
+    "state_person_separation_and_full_rank": "passed",
+    "recomputed_trait_blocks": 6,
+    "input_identical_trait_blocks_reused": 9,
+    "protected_frozen_files_verified": 381,
+    "regression_repair": "The original-history preservation test now excludes independently validated V6 additions as well as V3-V5 additions; original row-count and full historical-hash assertions remain unchanged."
+  },
+  "browser": {
+    "javascript_viewport_widths": [1280, 390, 320],
+    "no_javascript_viewport_widths": [320],
+    "candidate_rows": 1284,
+    "trait_table_columns": 17,
+    "horizontal_overflow": false,
+    "page_errors": false,
+    "filters_sort_literal_sources_new_age_education_profession_and_identity_limits": "passed",
+    "version_links_v1_through_v6": "passed",
+    "affected_figures_visually_reviewed": 2,
+    "complete_downloads_over_HTTP": "hash_verified"
+  },
+  "offline_replay": {
+    "network": "denied",
+    "historical_raw_caches": "absent",
+    "normalized_claims_validated": 859,
+    "pre_receipt_archive_members_byte_identical": 680,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed",
+    "receipt_inclusive_archive_members_expected": 681,
+    "release_protocol": "Rebuild after adding this receipt, then repeat extracted network-denied replay of every archive member and both ZIPs and verify both HTTP download hashes before publishing the final commit. This receipt deliberately excludes circular download hashes."
+  },
+  "interpretation": {
+    "holm_supported_blocks": ["incumbency", "donor_ideology"],
+    "predictive_gain_intervals_wholly_positive": 0,
+    "unavailable_contrasts": ["ethnicity", "prior_elected_office", "other_government", "military"],
+    "race_population": "Explicit historical CAWP Black/White women, not all candidates. New AAPI evidence is retained factually outside that contrast.",
+    "full_population_failures_retained": {
+      "race": {"predicted": 40, "population": 45},
+      "religion": {"predicted": 121, "population": 123}
+    },
+    "incumbency": "The joint Democratic/Republican-incumbency block is distinct from the Democratic-incumbent coefficient alone.",
+    "donor_ideology": "Selective historical donor-linked population, not a universal moderation claim.",
+    "causal_nominee_replacement_effects": false
+  }
+}

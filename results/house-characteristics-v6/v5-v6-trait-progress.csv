@@ -1,0 +1,16 @@
+trait,new_evidence_source_hashes,new_observations,source_informed_candidates,newly_informed_candidates,existing_fields_newly_qualified,factual_before,factual_after,analytical_before,analytical_after,remaining_limitations,fitted_before,fitted_after,estimated_before,estimated_after
+age,1,1,1,0,0,259,259,196,197,Exact age remains incumbent-heavy; year/month intervals are separate.,155,156,True,True
+gender,0,0,0,0,0,296,296,296,296,No new explicit gender classification; inferred historical gender rejected.,243,243,True,True
+race,1,2,2,2,0,102,104,54,54,New undated AAPI self-descriptions remain outside the historical CAWP women contrast.,45,45,True,True
+ethnicity,1,2,2,2,0,39,39,0,0,New family-origin statements do not establish explicit ethnic identity or a complementary reference; no newly qualified identity.,0,0,False,False
+religion,2,2,2,2,0,181,183,168,170,Dated broad Christian descriptions are not inferred Protestant labels; small categories and selective coverage remain support limits.,123,123,True,True
+education,6,15,7,0,0,219,225,201,206,"Completed supported level only; attendance, undated timing and contradictions held.",159,163,True,True
+profession,8,8,8,0,0,137,144,96,100,Four historical families only; mixed families and outside occupations held.,71,75,True,True
+prior_elected_office,2,2,2,0,0,28,29,0,0,"New histories are before 2026, not before first House entry; no negative reference.",0,0,False,False
+other_government,3,3,3,3,0,18,21,0,0,Non-elected roles recorded; paid employment not inferred from advisory membership.,0,0,False,False
+military,1,1,1,0,0,31,31,22,23,Positive service support improves; no supported nonservice reference.,0,0,False,False
+incumbency,0,0,0,0,1,437,438,437,438,"11 Democratic holds remain; one literal broadcast alias qualifies a held FEC election classification, not independently verified lifetime service.",372,373,True,True
+house_service,0,0,0,0,0,183,183,183,183,Verified current federal incumbents only.,144,144,True,True
+donor_ideology,0,0,0,0,0,192,192,192,192,"Selective donor-linked population, not universal moderation.",153,153,True,True
+voting_ideology,0,0,0,0,0,148,148,148,148,Lagged Congress-specific incumbent record; not campaign ideology.,118,118,True,True
+party_unity,0,0,0,0,0,182,182,182,182,Cutoff-qualified current incumbent record; newcomers are not zero.,144,144,True,True

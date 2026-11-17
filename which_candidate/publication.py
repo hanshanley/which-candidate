@@ -774,12 +774,12 @@ def export_chart(fig, destination, name):
     return files
 
 
-def write_zip(path, entries, *, lzma_text_threshold=None):
+def write_zip(path, entries, *, lzma_text_threshold=None, lzma_names=()):
     with zipfile.ZipFile(path, "x", compression=zipfile.ZIP_DEFLATED) as archive:
         for name, source in sorted(entries.items()):
             info = zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
-            if (
+            if name in lzma_names or (
                 lzma_text_threshold is not None
                 and source.suffix in {".html", ".csv", ".json", ".svg"}
                 and source.stat().st_size >= lzma_text_threshold

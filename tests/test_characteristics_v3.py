@@ -140,21 +140,36 @@ def test_historical_research_ledger_remains_strict_with_incremental_evidence():
         attach_research_history(ROOT, profiles)
 
 
-def test_complete_zip_lzma_retains_exact_files_with_standard_library(tmp_path):
+@pytest.mark.parametrize("suffix", (".html", ".csv", ".json", ".svg"))
+def test_complete_zip_lzma_retains_exact_files_with_standard_library(tmp_path, suffix):
     from which_candidate.publication import write_zip
 
-    source = tmp_path / "report.html"
+    source = tmp_path / f"report{suffix}"
     source.write_bytes(b"<p>Complete evidence and report</p>\n" * 100)
     code = tmp_path / "replay.py"
     code.write_text("print('complete replay')\n")
     archive_path = tmp_path / "complete.zip"
-    write_zip(archive_path, {"report.html": source, "replay.py": code}, lzma_text_threshold=1000)
+    write_zip(archive_path, {source.name: source, "replay.py": code}, lzma_text_threshold=1000)
     with zipfile.ZipFile(archive_path) as archive:
-        assert archive.getinfo("report.html").compress_type == zipfile.ZIP_LZMA
+        assert archive.getinfo(source.name).compress_type == zipfile.ZIP_LZMA
         assert archive.getinfo("replay.py").compress_type == zipfile.ZIP_DEFLATED
         archive.extractall(tmp_path / "extracted")
     for path in (source, code):
         assert (tmp_path / "extracted" / path.name).read_bytes() == path.read_bytes()
+
+
+def test_nested_complete_archive_lzma_preserves_exact_inner_bytes(tmp_path):
+    from which_candidate.publication import write_zip
+
+    evidence = tmp_path / "evidence.csv"
+    evidence.write_bytes(b"candidate,evidence\n" * 100)
+    inner = tmp_path / "complete-query-set.zip"
+    write_zip(inner, {evidence.name: evidence})
+    outer = tmp_path / "figures.zip"
+    write_zip(outer, {inner.name: inner}, lzma_names={inner.name})
+    with zipfile.ZipFile(outer) as archive:
+        assert archive.getinfo(inner.name).compress_type == zipfile.ZIP_LZMA
+        assert archive.read(inner.name) == inner.read_bytes()
 
 
 def test_v3_keeps_full_family_and_reports_actual_complete_matched_predictions():

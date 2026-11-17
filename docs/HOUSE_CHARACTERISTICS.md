@@ -1,6 +1,38 @@
 # Full candidate-characteristics successor
 
-## Current release: official-biography and identity acquisition V5
+## Current release: requirements-led acquisition loops V6
+
+Read `results/house-characteristics-v6/report.md` or open
+`publication/characteristics-v6/report.html`. Two acquisition loops yield
+**36 observations from eight new evidence-yielding originals**, covering nine
+Democrats and 28 candidate-trait fields. Nine previously unknown fields across
+six candidates gain first observations. A redundant ninth successful download
+is not counted as evidence-yielding; a denied RNS request remains failed.
+
+Analytical coverage changes: age **196→197**, religion **168→170**, education
+**201→206**, profession **96→100**, positive military **22→23** and incumbency
+**437→438**. One held FEC classification is separately qualified through the
+candidate's literal PBS/KET full-name/alias statement; it is not a new broadcast
+classification. Eleven Democratic incumbency controls remain unresolved.
+
+These are **14 newly analytical fields, zero newly estimable blocks**. Six
+affected blocks are recomputed and nine input-identical V5 blocks reused.
+Fitted samples change for age 155→156, education 159→163, profession 71→75
+and incumbency 372→373. New broad-Christian codes fail category support for
+entering the existing religion fit, whose n=123 remains unchanged.
+New overlapping AAPI self-descriptions are factual only, outside the historical
+CAWP comparison. Family origins do not qualify ethnicity; undated master's
+completion, unstated degree levels and mixed careers remain held.
+
+The full fifteen-trait table is `v5-v6-trait-progress.csv`, with source,
+factual/analytical and fitted-sample gains and remaining limitations.
+`coverage-by-incumbency.csv` retains fixed V5 incumbent/nonincumbent/unknown
+groups and all 449 Democrats, separately identifying the 405 eligible comparisons.
+All 381 protected files and 823 earlier normalized claims remain unchanged.
+See `HOUSE_CHARACTERISTICS_V6_SPEC.md` and `HOUSE_CHARACTERISTICS_V6_ACQUISITION.md`.
+**No website deployment.**
+
+## Frozen official-biography and identity acquisition V5
 
 Read `results/house-characteristics-v5/report.md` or open
 `publication/characteristics-v5/report.html`. Ten new evidence-yielding originals

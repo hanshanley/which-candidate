@@ -13,12 +13,40 @@ remain separate from Democratic nominees.
 ## Status
 
 **Current full-trait successor:** read the
-[complete characteristics report](results/house-characteristics-v5/report.md)
-or open **`publication/characteristics-v5/report.html`** locally. It covers all
+[complete characteristics report](results/house-characteristics-v6/report.md)
+or open **`publication/characteristics-v6/report.html`** locally. It covers all
 fifteen requested trait blocks, with separate coverage for 1,284 candidates,
 449 Democrats and 405 eligible Democratic performance comparisons. The
 [reviewed dataset and methods](docs/HOUSE_CHARACTERISTICS.md) distinguish
 qualified, dated/reported, uncertain, unknown and inapplicable values.
+
+V6 completes two requirements-led acquisition loops: **eight new evidence-yielding
+originals, 36 observations, nine Democrats and 28 candidate-trait fields**.
+Nine previously unknown fields across six candidates receive first observations.
+New factual qualification is separate from **14 newly analytical fields**:
+age 196→197, religion 168→170, education 201→206, profession 96→100,
+positive military 22→23 and incumbency 437→438. One held FEC classification
+is newly qualified through Williams's literal broadcast alias, not counted as
+a new PBS classification. Eleven Democratic incumbency holds remain.
+
+Six affected blocks are recomputed and nine input-identical V5 blocks reused.
+**No new trait block becomes estimable.** New broad Christian descriptions are
+not inferred Protestant labels; AAPI self-descriptions do not expand the
+historical CAWP contrast; family origins do not qualify ethnic identity.
+No negative office/government/military reference was acquired. All 823 earlier
+normalized claims and 381 protected historical files, including V1-V5, remain
+unchanged. See the [complete V5→V6 table](results/house-characteristics-v6/v5-v6-trait-progress.csv)
+and fixed-baseline incumbent/nonincumbent coverage. No website deployment.
+
+The [V6 validation receipt](audits/house-characteristics-v6-validation.json)
+records **434 passing tests**, independent reconstruction of eleven associations
+and 1,730 matched predictions, responsive/no-JavaScript browser checks, and
+network-denied complete-download replay without historical raw caches.
+Joint D/R incumbency and selective historical donor ideology retain their
+Holm-qualified associations; no matched predictive-gain interval is wholly
+above zero. Unsupported contrasts and full-population failures remain visible.
+
+### Frozen V5 acquisition checkpoint
 
 V5 acquires **27 observations from ten evidence-yielding originals**, covering
 **ten Democrats and 23 candidate-trait fields**. Seven previously unknown fields
