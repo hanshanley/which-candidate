@@ -1,0 +1,405 @@
+{
+  "scope": "Additive all-background-trait reading for five retained Florida Democratic nonincumbents. Preserve dated ages, partial affiliations, candidate versus independent reporting, full-time paid fellowship evidence, non-elected government careers, and remaining actionable leads. No pass is declared complete and no frozen scientific fit changes.",
+  "documents": [
+    {
+      "id": "220119-full-retained-campaign-about",
+      "candidate_id": "220119", "name": "Matthew Montavon", "state": "FL", "district": "17", "party": "Democratic", "contest_id": "2026:house:FL:17:general:source_general",
+      "family": "campaign", "url": "https://www.montavonforcongress.com/meet",
+      "source_title": "Complete native campaign biography: completed degrees and multiple service careers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220119-bio2/campaign-220119-bio2",
+      "retained_sha256": "4fcf6f12e00fb966d3bc9dd775cf08b028a1020ede42c62aeeefba24ee9bdd52",
+      "identity_status": "verified", "identity_qualification": "Exact native campaign domain, full name, Democratic congressional disclaimer and District 17 navigation; consistent Indiana degrees and UN career across dated independent profiles.",
+      "identity_fragments": ["Montavon"],
+      "source_excerpts": ["Montavon", "Bachelor’s in Political Science and Spanish", "Masters in Public Administration", "regional planning councils", "UN Food and Agriculture Organization", "Peace Corps"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_named_completed_bachelor_and_mpa", "factual_reference_date": "Degrees before current campaign; graduation photograph caption specifies 1978 for college", "value": "Catholic University of America bachelor's in political science and Spanish; Indiana University Master of Public Administration. Two studies for Indiana government do not by themselves establish employment", "source_fragment": "Masters in Public Administration", "supporting_fragments": ["Bachelor’s in Political Science and Spanish"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_historical_careers_and_service_terms", "factual_reference_date": "Historical careers before 2026 campaign", "value": "Two Peace Corps years; Illinois Migrant Council work; six years across regional-planning, regional-council and public-finance research organizations; 27 years at UN FAO. Volunteering and party leadership are distinct", "source_fragment": "UN Food and Agriculture Organization", "supporting_fragments": ["regional planning councils", "Peace Corps"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_public_and_intergovernmental_work_without_resolved_paid_domestic_employer_relationship", "factual_reference_date": "Historical work; exact domestic payroll relationships unspecified", "value": "Named planning-council and intergovernmental careers retained, but working with councils, commissioned studies and Peace Corps volunteering do not establish the existing paid-government definition", "source_fragment": "regional planning councils"}
+      ],
+      "extraction_review": "Read complete cached About text after hash verification. Same-hash /new-dropdown duplicate is not another original. Catholic university attendance is not affiliation; Hispanic Caucus leadership is not ethnicity; Peace Corps is not military service. No explicit own office or military negative."
+    },
+    {
+      "id": "220119-ballotpedia-own-age-and-earlier-career",
+      "candidate_id": "220119", "name": "Matthew Montavon", "state": "FL", "district": "17", "party": "Democratic", "contest_id": "2026:house:FL:17:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Matthew_Montavon",
+      "source_title": "Current biography and 2025/2023 own survey answers, with unattributed religion header",
+      "publication_date": null, "source_date_note": "Survey submissions December 5, 2025 and December 27, 2023; current header/biography may have changed later.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL17 Democrat, native campaign link and same Catholic University/Indiana degrees, Peace Corps and FAO career; earlier same-person survey is not another nominee.",
+      "identity_fragments": ["Montavon"],
+      "source_excerpts": ["Montavon", "Catholic", "eight years old", "assassination of President Kennedy", "master’s degree in public administration", "Public Administration", "Food and Agriculture Organization"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_childhood_age_recollection_anchored_to_historical_event_not_verified_birth_date", "factual_reference_date": "Kennedy assassination recollection in 2025 and 2023 surveys", "value": "Reports being eight at President Kennedy's assassination. Useful childhood-age evidence, not a verified exact birth date or exact 2026 election age", "source_fragment": "eight years old", "supporting_fragments": ["assassination of President Kennedy"]},
+        {"trait": "religion", "factual_status": "partial", "precision": "undated_publisher_catholic_header_without_dated_own_affiliation_attribution", "factual_reference_date": "Undated header observed November 18, 2026", "value": "Catholic publisher header retained as partial; underlying dated personal affiliation statement not acquired", "source_fragment": "Catholic"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_mpa_and_publisher_named_degree_years", "factual_reference_date": "Bachelor's reported 1978; graduate degree reported 1984", "value": "Own MPA description corroborates campaign's completed Indiana credential; publisher reports Catholic University bachelor's 1978 and Indiana graduate degree 1984", "source_fragment": "master’s degree in public administration"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_and_publisher_historical_public_administration_and_fao_careers", "factual_reference_date": "Historical careers recounted in 2023/2025 responses", "value": "Public administration and retired FAO career, with earlier planning/finance work. Government-related work does not itself settle paid domestic government-employment classification", "source_fragment": "Public Administration", "supporting_fragments": ["Food and Agriculture Organization"]}
+      ],
+      "extraction_review": "Read biography, relevant complete own background answers in current and earlier surveys and submission footnotes, not every unrelated page section. Catholic header remains distinct from explicit own faith. No military negative or no-office answer found in reviewed sections."
+    },
+    {
+      "id": "220119-wslr-dated-age-and-retirement",
+      "candidate_id": "220119", "name": "Matthew Montavon", "state": "FL", "district": "17", "party": "Democratic", "contest_id": "2026:house:FL:17:general:source_general",
+      "family": "local_profile", "url": "https://wslr.org/congressional-candidate-walks-his-district-in-nine-days/",
+      "source_title": "Ramon Lopez WSLR report on Montavon's district walk",
+      "publication_date": "2026-10-02", "source_date_note": "Page publication October 2; explicitly identifies original air date October 1, 2026.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names same FL17 Democrat challenging Greg Steube, earlier 2024 candidacy, Sarasota residence and 27-year FAO career.",
+      "identity_fragments": ["Montavon"],
+      "source_excerpts": ["Montavon", "71-year-old retiree", "27 years", "UN Food and Agriculture Organization", "2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_dated_original_radio_profile", "factual_reference_date": "October 1, 2026 original broadcast; precise age observation day unspecified", "value": "Reported age 71 in dated radio profile; retain age precision rather than manufacture a birthday or exact election-day age", "source_fragment": "71-year-old retiree"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_retired_status_and_historical_fao_term", "factual_reference_date": "October 2026 retirement status; earlier FAO service", "value": "Retiree with 27-year UN FAO career, settling in Sarasota full-time in 2018. Intergovernmental service is not silently recoded as domestic government payroll", "source_fragment": "27 years", "supporting_fragments": ["71-year-old retiree", "UN Food and Agriculture Organization"]}
+      ],
+      "extraction_review": "Read full original textual report and interview quotations. /nine-day-walkathon/ redirects to this canonical original. Audio not independently reviewed; neither walk participation nor retirement supplies military status."
+    },
+    {
+      "id": "220119-earlier-own-ukrainian-heritage-report",
+      "candidate_id": "220119", "name": "Matthew Montavon", "state": "FL", "district": "17", "party": "Democratic", "contest_id": "2026:house:FL:17:general:source_general",
+      "family": "earlier_biography", "url": "https://www.charlottedems.com/ukrainian-americans-make-a-statement-at-steubes-mobile-office/",
+      "source_title": "Party-hosted earlier local report attributing Ukrainian heritage to Montavon himself",
+      "publication_date": null, "source_date_note": "Search identifies December 15, 2023; full public body does not establish a visible publication date. Do not substitute URL/image metadata for verified date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names Matthew Montavon of Sarasota as one of three Democratic FL17 contenders challenging Steube in the earlier cycle; same district, city and subsequent campaign.",
+      "identity_fragments": ["Matthew Montavon"],
+      "source_excerpts": ["Matthew Montavon", "who said he, too, has Ukrainian heritage"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "explicit_report_of_own_ancestry_not_current_ethnic_or_hispanic_binary_classification", "factual_reference_date": "Earlier FL17 campaign described in original; precise publication date unresolved", "value": "Own reported Ukrainian heritage retained as ancestry evidence, not a settled present ethnic identity or non-Hispanic reference label", "source_fragment": "who said he, too, has Ukrainian heritage"}
+      ],
+      "extraction_review": "Read complete original public article body. Distinguish party-hosted news from candidate statement. Military veteran/doctor/Ukrainian veterans membership descriptions belong to other named participants, not Montavon."
+    },
+    {
+      "id": "220125-full-retained-campaign-about",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "campaign", "url": "https://ariasforcongress.us/about",
+      "source_title": "Complete native Arias campaign biography: law firm and school-district employment",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220125-bio1/campaign-220125-bio1",
+      "retained_sha256": "ed29def0f72939880c2f67bcca055e5d160516eaa20b844f95c3ccef626863b8",
+      "identity_status": "verified", "identity_qualification": "Exact native full-name FL19 Democratic congressional campaign and committee disclaimer, Arias Law Firm since 2002 and same Lee/St. Lucie legal employment.",
+      "identity_fragments": ["Victor Arias"],
+      "source_excerpts": ["Victor Arias", "owner and managing attorney", "since 2002", "staff attorney", "Lee County and St. Lucie County school districts"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_current_law_firm_ownership_and_historical_staff_career", "factual_reference_date": "Firm ownership since 2002; previous school-district employment", "value": "Owner/managing attorney of Arias Law Firm since 2002; prior school-district staff attorney. Campaign's verified wording is not independent credential verification", "source_fragment": "owner and managing attorney", "supporting_fragments": ["since 2002"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_school_district_staff_attorney_employment", "factual_reference_date": "Previous Lee and St. Lucie school-district roles; terms unspecified here", "value": "Former staff attorney for Lee County and St. Lucie County school districts; distinct from law-firm work for government clients", "source_fragment": "staff attorney", "supporting_fragments": ["Lee County and St. Lucie County school districts"]}
+      ],
+      "extraction_review": "Read full cached biography after hash verification. Veterans policy is not own service; no birthday, religious/ethnic self-description or explicit no-office/no-service answer. Undated page recounts November 2026 election and cannot establish pre-election publication."
+    },
+    {
+      "id": "220125-retained-alternate-campaign-credentials",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "earlier_biography", "url": "https://votearias.us/",
+      "source_title": "Retained alternate campaign extraction with completed degree wording",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220125-19fd44afd71d5705359a.txt",
+      "retained_sha256": "19fd44afd71d5705359a0c704f8011f9ce275fc51fb33b0b8a6e02178c7d51e2",
+      "identity_status": "verified", "identity_qualification": "Existing reviewed candidate-extraction-220125 ledger bridge, exact FL19 Democrat classification and same Hamilton/SUNY Buffalo law credentials independently corroborated by dated profile and own party biography.",
+      "identity_fragments": ["FL-19", "Democrat"],
+      "source_excerpts": ["FL-19", "Democrat", "earned his degree from Hamilton College", "Juris Doctorate from SUNY Buffalo Law School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_credentials_in_retained_short_extraction", "factual_reference_date": "Degrees before prior campaign; award dates unspecified", "value": "Hamilton completed degree and SUNY Buffalo JD retained separately from Madrid study; this qualifies previously reported education rather than acquiring a previously unknown field", "source_fragment": "Juris Doctorate from SUNY Buffalo Law School", "supporting_fragments": ["earned his degree from Hamilton College"]}
+      ],
+      "extraction_review": "Read all three retained lines and verified hash. This is the preserved short extraction, not a claim to have acquired/read the entire historical website. Current alternate /about/ returned 503; no repeated download used to bypass it."
+    },
+    {
+      "id": "220125-2024-chronicle-complete-profile",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "local_profile", "url": "https://theswflchronicle.com/victor-arias-a-calling-to-serve/",
+      "source_title": "SWFL Chronicle original July 2024 superintendent-candidate biography",
+      "publication_date": "2024-07-02", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full-name Cape Coral Arias Law Firm owner and Lee/St. Lucie school-district attorney, same Hamilton/SUNY degrees, prior Lee superintendent candidacy and native campaign career.",
+      "identity_fragments": ["Victor Arias"],
+      "source_excerpts": ["Victor Arias", "Bachelor of Arts", "Hamilton College", "Juris Doctorate", "Buffalo Law School", "staff attorney", "more than seven years", "Owner and Managing Attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_named_completed_ba_and_jd_distinct_from_spanish_literature_study", "factual_reference_date": "Completed degrees before July 2024 profile", "value": "Hamilton BA and SUNY Buffalo JD; Spanish-literature study in Madrid is not another documented completed credential", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["Hamilton College", "Juris Doctorate", "Buffalo Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_local_law_firm_and_school_law_career", "factual_reference_date": "July 2024 report and earlier careers", "value": "Law-firm owner/managing attorney and school-law career; article includes candidate quotation and biographical reporting, not independent licensing audit", "source_fragment": "Owner and Managing Attorney"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_explicit_two_public_school_district_staff_roles", "factual_reference_date": "More than seven combined years before July 2024", "value": "Former Lee and St. Lucie school-district staff attorney for more than seven years combined", "source_fragment": "staff attorney", "supporting_fragments": ["more than seven years"]}
+      ],
+      "extraction_review": "Read full candidate-specific original. Dominican birthplace/Manhattan upbringing is not inferred Hispanic identity. Superintendent candidacy is not elected office. Unnecessary relative details not collected."
+    },
+    {
+      "id": "220125-lee-party-complete-two-page-biography",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "campaign", "url": "https://leecountydems.org/wp-content/uploads/2026/02/Victor-Arias-19.pdf",
+      "source_title": "Lee County Democratic Party two-page FL19 candidate biography",
+      "publication_date": null, "source_date_note": "2026/02 URL path does not independently establish publication date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "new_original_acquired",
+      "retained_cache_path": "artifacts/biographical-research/victor-arias-lee-party-2026.pdf",
+      "retained_sha256": "157282291ed625768f2060467f495d7c370103d95e4db77e2da45dc6ac66c810",
+      "identity_status": "verified", "identity_qualification": "Exact full name and District 19 House heading, Arias Law Firm, same named law credentials and church membership independently matching his own Candidate Connection response.",
+      "identity_fragments": ["Victor Arias"],
+      "source_excerpts": ["Victor Arias", "Bachelor of Arts", "Hamilton College", "Juris Doctorate", "New York at Buffalo", "Covenant Presbyterian Church since 1999", "Managing Attorney", "School Law"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "named_public_church_membership_claim_with_since_year", "factual_reference_date": "Membership since 1999 as reported in undated 2026 candidate biography", "value": "Reports Covenant Presbyterian Church membership since 1999, elder and trustee service. Party-hosted candidate biography, not independent confirmation of continuous attendance or prediction-time publication", "source_fragment": "Covenant Presbyterian Church since 1999"},
+        {"trait": "education", "factual_status": "qualified", "precision": "party_hosted_named_completed_ba_and_jd", "factual_reference_date": "Completed credentials before biography; award dates unspecified", "value": "Hamilton College BA and State University of New York at Buffalo JD, as reported in candidate biography", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["Hamilton College", "Juris Doctorate", "New York at Buffalo"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_named_firm_role_and_multiple_legal_practices", "factual_reference_date": "Biography's reported current occupation", "value": "Managing attorney, personal-injury, workers' compensation and school-law practice; bar membership is reported, not independently checked", "source_fragment": "Managing Attorney", "supporting_fragments": ["School Law"]}
+      ],
+      "extraction_review": "Hash verified; both PDF pages fully extracted/read. Credit-union board volunteering and governmental-affairs conferences are not government employment. HABA support is not ethnicity. No own military claim/negative."
+    },
+    {
+      "id": "220125-own-2026-questionnaire-church-membership",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Victor_Arias",
+      "source_title": "Own June 2026 Candidate Connection response with explicit church membership",
+      "publication_date": null, "source_date_note": "Own survey submission footnote June 25, 2026; later page/header updates possible.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact native FL19 Democratic nominee with native campaign link, Arias Law Firm Cape Coral and same church and professional biography as party PDF.",
+      "identity_fragments": ["Arias"],
+      "source_excerpts": ["Arias", "I am a member of Covenant Presbyterian Church, since 1999", "Hamilton College, 1985", "Owner and Managing Attorney", "June 25, 2026"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_own_named_church_membership_with_dated_survey_submission", "factual_reference_date": "Own June 25, 2026 response; membership reported since 1999", "value": "Explicit own Covenant Presbyterian membership since 1999, with elder/trustee service. Not an inference from name, birthplace or policy", "source_fragment": "I am a member of Covenant Presbyterian Church, since 1999"},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_named_completed_bachelor_year_corroborating_own_credential", "factual_reference_date": "Hamilton bachelor's reported 1985", "value": "Publisher biography/header records completed Hamilton bachelor's in 1985; separately acquired sources establish JD", "source_fragment": "Hamilton College, 1985"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_2026_law_firm_ownership_and_practice_report", "factual_reference_date": "June 25, 2026 survey", "value": "Own Cape Coral Arias Law Firm owner/managing attorney statement; claimed bar good standing and practice duration not independently audited", "source_fragment": "Owner and Managing Attorney"}
+      ],
+      "extraction_review": "Read actual biography and own response, including explicit church passage and submission footnote, rather than only search snippets. Community/credit-union board service and Hispanic chamber award are not public office, government employment or ethnicity. No scoped own service negative."
+    },
+    {
+      "id": "220125-paradise-dated-age-original",
+      "candidate_id": "220125", "name": "Victor Arias", "state": "FL", "district": "19", "party": "Democratic", "contest_id": "2026:house:FL:19:general:source_general",
+      "family": "local_profile", "url": "https://iris-fuchsia-xj74.squarespace.com/blog-the-paradise-progressive/state-of-the-stampede-collins-coverup-fratto-falls-lauf-leaves-and-more-machinations-in-floridas-19th-congressional-district",
+      "source_title": "David Silverberg original March 2026 FL19 profile with dated Arias age",
+      "publication_date": "2026-03-06", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named FL19 Democratic candidate, Fort Myers attorney, same Hamilton/SUNY law degrees, Lee/St. Lucie staff career and 2024 superintendent candidacy; article links his campaign. Not same-name Texas recruiter.",
+      "identity_fragments": ["Victor Arias"],
+      "source_excerpts": ["Victor Arias, 65", "attorney in Fort Myers", "Hamilton College", "law degree", "school board staff attorney", "Lee County", "St. Lucie County"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_reported_age_in_dated_original_not_verified_birthday", "factual_reference_date": "March 6, 2026 profile; exact age observation day unspecified", "value": "Reported age 65. Retain dated age without an exact birth date or automatically extending it to election day", "source_fragment": "Victor Arias, 65"},
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_local_named_completed_hamilton_and_suny_law_credentials", "factual_reference_date": "Completed degrees before March 2026", "value": "Hamilton bachelor's and SUNY Buffalo law degree; corroborates previously retained education, not a first-evidence field", "source_fragment": "Hamilton College", "supporting_fragments": ["law degree"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_named_attorney_occupation", "factual_reference_date": "March 2026 profile", "value": "Fort Myers attorney, with prior school-board legal career", "source_fragment": "attorney in Fort Myers"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_explicit_two_county_school_board_staff_employment", "factual_reference_date": "Seven years of earlier staff work described in March 2026", "value": "School-board staff attorney in Lee and St. Lucie counties. Prior unsuccessful superintendent race does not establish no lifetime elected office", "source_fragment": "school board staff attorney", "supporting_fragments": ["Lee County", "St. Lucie County"]}
+      ],
+      "extraction_review": "Followed actual single-article original from search rather than accepting archive snippet. Read through complete Arias section, dates/byline and footer. Other candidates' ages, credentials, ministerial status and service never transferred. No private personal details collected."
+    },
+    {
+      "id": "220135-full-retained-campaign-about",
+      "candidate_id": "220135", "name": "Pia Dandiya", "state": "FL", "district": "22", "party": "Democratic", "contest_id": "2026:house:FL:22:general:source_general",
+      "family": "campaign", "url": "https://piaforcongress.com/about",
+      "source_title": "Complete native campaign biography: teaching, fellowship and Apple careers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220135-bio1/campaign-220135-bio1",
+      "retained_sha256": "c13bbd1d1fef1d5f831253431310d6bb3d72f0cba9bfef6a03feae45011522c0",
+      "identity_status": "verified", "identity_qualification": "Exact native campaign full name and congressional disclaimer, Palm Beach roots and same founding-principal/White House Fellow/Apple career as dated official announcement and own interview.",
+      "identity_fragments": ["Pia Dandiya"],
+      "source_excerpts": ["Pia Dandiya", "At 28", "founding principal", "Domestic Policy Council and Department of Education", "working at Apple", "teacher, high school principal"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_age_at_undated_school_founding_not_birth_date", "factual_reference_date": "School founding event; year unspecified in this source", "value": "Own age 28 at high-school founding, without a calendar anchor here; not a new exact age or DOB", "source_fragment": "At 28", "supporting_fragments": ["founding principal"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_education_public_and_private_careers", "factual_reference_date": "Historical career before current campaign", "value": "Teacher and founding high-school principal, then White House Fellow and Apple public-sector work. Apple employment remains private even when serving public agencies", "source_fragment": "teacher, high school principal", "supporting_fragments": ["working at Apple"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_federal_fellowship_corroborated_by_paid_official_appointment", "factual_reference_date": "Historical fellowship before Apple and current campaign", "value": "Own White House Fellow service at Domestic Policy Council and Department of Education under both parties, corroborated by separately retained official paid-fellowship announcement", "source_fragment": "Domestic Policy Council and Department of Education"}
+      ],
+      "extraction_review": "Read complete cached biography after hash verification. Indian parents are not substituted for own ethnic/religious identification. No explicit no-office or military statement. Student outcomes and parenting do not create background categories."
+    },
+    {
+      "id": "220135-official-2020-paid-fellow-appointment",
+      "candidate_id": "220135", "name": "Pia Dandiya", "state": "FL", "district": "22", "party": "Democratic", "contest_id": "2026:house:FL:22:general:source_general",
+      "family": "official_biography", "url": "https://trumpwhitehouse.archives.gov/briefings-statements/white-house-appoints-2020-2021-class-white-house-fellows/",
+      "source_title": "Official 2020-2021 White House Fellow appointment and full Dandiya entry",
+      "publication_date": "2020-10-29", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Pia Dandiya of Jupiter, Florida, same named Democracy Prep founding principal, Harvard/BU credentials and Department of Education fellowship independently matching native campaign.",
+      "identity_fragments": ["Pia Dandiya"],
+      "source_excerpts": ["Pia Dandiya", "full-time, paid fellow", "Department of Education", "Bachelor of Arts in Government", "Harvard University", "Master of Education", "Boston University", "founding principal"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_named_federal_appointment_with_explicit_full_time_paid_program_definition", "factual_reference_date": "2020-2021 fellowship announced October 29, 2020", "value": "Named Department of Education White House Fellow; announcement explicitly defines appointments as full-time paid work. This qualifies retained government evidence, not a new first field", "source_fragment": "full-time, paid fellow", "supporting_fragments": ["Department of Education"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_named_ba_and_med", "factual_reference_date": "Credentials before October 2020 appointment", "value": "Harvard BA in Government and Boston University MEd as documented in official appointment biography", "source_fragment": "Bachelor of Arts in Government", "supporting_fragments": ["Harvard University", "Master of Education", "Boston University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_teaching_school_founder_and_fellowship_career", "factual_reference_date": "Career through October 2020", "value": "Democracy Prep Endurance High School founding principal; earlier math teaching and teacher-leadership work; incoming paid federal fellowship. Other fellows' military careers are not hers", "source_fragment": "founding principal"}
+      ],
+      "extraction_review": "Read program definition and complete named Dandiya entry. School founding age 28 is historical event-age evidence, not DOB; no military, religious or ethnic identity is inferred from this multibiography announcement."
+    },
+    {
+      "id": "220135-own-south-asian-interview-partial-transcript",
+      "candidate_id": "220135", "name": "Pia Dandiya", "state": "FL", "district": "22", "party": "Democratic", "contest_id": "2026:house:FL:22:general:source_general",
+      "family": "local_profile", "url": "https://abhaydandekar.transistor.fm/288/transcript",
+      "source_title": "Own South Asian self-description in June 2026 interview; transcript review explicitly incomplete",
+      "publication_date": "2026-06-23", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named speaker Pia Dandiya, FL22 candidacy, Palm Beach upbringing and same principal/Fellow/Apple career as native campaign and official appointment biography.",
+      "identity_fragments": ["Pia Dandiya"],
+      "source_excerpts": ["Pia Dandiya", "us also both being South Asians"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_own_south_asian_self_description_without_hispanic_binary_reclassification", "factual_reference_date": "June 23, 2026 interview, approximately 20:45", "value": "Own explicit South Asian identification in conversation with host. Preserve literal regional self-description, not inferred ancestry or an analytical Hispanic/non-Hispanic code", "source_fragment": "us also both being South Asians"}
+      ],
+      "extraction_review": "Read first 40,000 text characters, through approximately 35:50 of 38:35 episode; tail not read. A later pagination request returned 403; one repeat of the already-read second chunk also returned 403 and yielded nothing new. No further retry/bypass. Audio not independently reviewed. Undated age-19 recollection does not establish birth date; reviewed career narrative corroborates separately retained careers without new named credentials or service negatives."
+    },
+    {
+      "id": "220139-full-retained-campaign-story",
+      "candidate_id": "220139", "name": "Oliver Gilbert", "state": "FL", "district": "24", "party": "Democratic", "contest_id": "2026:house:FL:24:general:source_general",
+      "family": "campaign", "url": "https://olivergilbert.vote/about",
+      "source_title": "Complete native campaign story, law study and elected local service",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220139-bio1/campaign-220139-bio1",
+      "retained_sha256": "1ba9a976c7eca52dd6dbb1292355bae3f06ae1ab835c1421a28a1222160fbe42",
+      "identity_status": "verified", "identity_qualification": "Native campaign full-name disclaimer, Miami Gardens mayor and county-commission-chair sequence, same FAMU/UM education as official biography.",
+      "identity_fragments": ["Oliver Gilbert"],
+      "source_excerpts": ["Oliver Gilbert", "Mayor of my hometown for eight years", "County Commission", "Florida A&M", "University of Miami School of Law"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "own_named_university_attendance_without_completed_degree_wording_here", "factual_reference_date": "Historical FAMU and law study", "value": "FAMU and University of Miami law study; official biography separately supplies completed degree evidence", "source_fragment": "Florida A&M", "supporting_fragments": ["University of Miami School of Law"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_eight_year_mayoral_and_county_commission_service", "factual_reference_date": "Eight-year Miami Gardens mayoral tenure followed by county service before congressional campaign", "value": "Miami Gardens mayor for eight years and subsequent Miami-Dade county commissioner/chair; elected public service is separate from other government employment", "source_fragment": "Mayor of my hometown for eight years", "supporting_fragments": ["County Commission"]}
+      ],
+      "extraction_review": "Read complete cached My Story after hash verification. Parents' Seventh-day Adventist/Baptist affiliations are not his. Own generic inherited-faith phrase does not establish a named present affiliation; do not inflate first-evidence religion counts. No own military status or scoped negative."
+    },
+    {
+      "id": "220139-complete-official-county-biography",
+      "candidate_id": "220139", "name": "Oliver Gilbert", "state": "FL", "district": "24", "party": "Democratic", "contest_id": "2026:house:FL:24:general:source_general",
+      "family": "official_biography", "url": "https://www.miamidade.gov/global/government/commission/district01/about-commissioner-gilbert.page",
+      "source_title": "Official county biography: completed degrees, legal career and elected service",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Oliver G. Gilbert III county district-1 official, same Miami Gardens mayoral tenure and FAMU/UM legal education as native congressional candidate.",
+      "identity_fragments": ["Gilbert"],
+      "source_excerpts": ["Gilbert", "Bachelor of Arts", "Criminal Justice", "Juris Doctorate", "University of Miami", "adjunct professor", "2012", "December 6, 2022"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_famu_ba_and_um_jd_with_separate_st_thomas_attendance", "factual_reference_date": "Historical completed degrees before county career", "value": "FAMU criminal-justice BA and University of Miami JD with honors; St. Thomas law attendance/transfer is not an additional degree", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["Criminal Justice", "Juris Doctorate", "University of Miami"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_attorney_and_adjunct_teaching_career", "factual_reference_date": "Historical attorney and Miami Dade College adjunct roles; dates unspecified", "value": "Attorney and Miami Dade College adjunct professor. Adjunct title alone does not establish paid-government employment", "source_fragment": "adjunct professor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_dated_mayoral_and_commission_leadership_history", "factual_reference_date": "Mayor elected 2012, eight years; commission chair vote December 6, 2022", "value": "Dated Miami Gardens mayoral and Miami-Dade county commission/chair history, not merely a campaign claim", "source_fragment": "2012", "supporting_fragments": ["December 6, 2022"]}
+      ],
+      "extraction_review": "Read full official biography. It does not document assumed assistant-attorney-general/prosecutor roles; separately acquired named sources are required. Black-law-student/mayors associations are not inferred racial identity. No personal religion or military status supplied."
+    },
+    {
+      "id": "220139-earlier-blackprwire-government-and-race-profile",
+      "candidate_id": "220139", "name": "Oliver Gilbert", "state": "FL", "district": "24", "party": "Democratic", "contest_id": "2026:house:FL:24:general:source_general",
+      "family": "earlier_biography", "url": "https://www.blackprwire.com/profiler/78-city_of_miami_gardens_mayor_oliver_gilbert",
+      "source_title": "Earlier Black PR Wire named mayoral profile: explicit racial classification and state legal employment",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Oliver G. Gilbert, Miami Gardens mayor sworn August 2012, FAMU and UM law graduate with same council/mayoral sequence as current candidate.",
+      "identity_fragments": ["Gilbert"],
+      "source_excerpts": ["Gilbert", "only African-American", "legislative assistant", "Dorothy Bendross-Mindingall", "Assistant State Attorney in Broward County", "August 26, 2008", "honors in 2000"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_named_subject_written_publisher_african_american_classification", "factual_reference_date": "Earlier mayoral profile, after August 2012; exact publication date unknown", "value": "Written profile explicitly describes Gilbert as the only African-American on the League of Cities executive committee. Named publisher classification, not visual inference or membership proxy; no ethnicity/reference-group extrapolation", "source_fragment": "only African-American"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_state_legislative_staff_and_prosecutor_employment", "factual_reference_date": "Historical careers after law graduation in 2000, before/alongside mayoral profile", "value": "Legislative assistant to state Representative Dorothy Bendross-Mindingall and Assistant State Attorney in Broward County. Named staff/legal employment distinct from elected mayoral office or advisory membership", "source_fragment": "Assistant State Attorney in Broward County", "supporting_fragments": ["legislative assistant", "Dorothy Bendross-Mindingall"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_named_legal_and_legislative_staff_careers", "factual_reference_date": "After law graduation 2000 and before dated mayoral service", "value": "Legislative staff and state-prosecutor legal career, in addition to separately documented elected public office", "source_fragment": "legislative assistant", "supporting_fragments": ["Assistant State Attorney in Broward County"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "appointed_then_elected_city_council_distinguished", "factual_reference_date": "Council appointment March 26, 2008; election August 26, 2008; mayor sworn August 30, 2012", "value": "Appointed to vacant council seat before winning a subsequent 2008 election; appointment is not mislabeled as the first election", "source_fragment": "August 26, 2008"},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_completed_um_law_graduation_with_year", "factual_reference_date": "University of Miami law graduation in 2000", "value": "UM law graduation with honors reported 2000, corroborating official completed JD rather than inferring graduation from study", "source_fragment": "honors in 2000"}
+      ],
+      "extraction_review": "Read complete public profile. Explicit written classification and job titles are the evidence, not photographs or generated image descriptions. Male honorific/parenting and organization memberships do not supply separate explicit gender/ethnicity classifications."
+    },
+    {
+      "id": "220139-st-thomas-2020-university-appointment",
+      "candidate_id": "220139", "name": "Oliver Gilbert", "state": "FL", "district": "24", "party": "Democratic", "contest_id": "2026:house:FL:24:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.stu.edu/news/miami-gardens-mayor-oliver-g-gilbert-iii-named-executive-director-of-st-thomas-universitys-center-for-pandemic-disaster-and-quarantine-research/",
+      "source_title": "St. Thomas University announcement of Gilbert research-center directorship",
+      "publication_date": "2020-07-27", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full-name Miami Gardens mayor elected 2012 and then county-commission candidate, same FAMU/UM law education as current native campaign and county biography.",
+      "identity_fragments": ["Gilbert"],
+      "source_excerpts": ["Gilbert", "Executive Director", "elected", "2012", "graduate", "Florida A&M University", "University of Miami School of Law"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_university_announcement_of_research_center_leadership", "factual_reference_date": "Appointment announced July 27, 2020", "value": "Announced executive director of St. Thomas pandemic/disaster/quarantine research center. This private-university role does not establish government employment", "source_fragment": "Executive Director"},
+        {"trait": "education", "factual_status": "qualified", "precision": "university_corroborated_completed_famu_and_um_law_graduation", "factual_reference_date": "Degrees before July 2020", "value": "Named graduate of FAMU and University of Miami School of Law with honors; university affiliation does not establish his religious identity", "source_fragment": "graduate", "supporting_fragments": ["Florida A&M University", "University of Miami School of Law"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_university_corroboration_of_mayoral_election", "factual_reference_date": "Mayor elected 2012 and completing second term in 2020", "value": "University identifies elected 2012 mayor serving second term and then county-commission candidate; candidacy is not assumed to be a completed election", "source_fragment": "elected", "supporting_fragments": ["2012"]}
+      ],
+      "extraction_review": "Read full university announcement. Association titles are not racial self-identification, Catholic university is not religion, and government partnerships do not make a university appointment government payroll. No own military or ethnic statement."
+    },
+    {
+      "id": "220144-full-retained-campaign-chronology",
+      "candidate_id": "220144", "name": "Nicole Locklin", "state": "FL", "district": "26", "party": "Democratic", "contest_id": "2026:house:FL:26:general:source_general",
+      "family": "campaign", "url": "https://locklinforcongress.com/nicole-bio",
+      "source_title": "Complete native campaign chronology: imprecise birth-year lead, degrees and legal careers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220144-bio1/campaign-220144-bio1",
+      "retained_sha256": "3de2156339cdfeabdb8eea81b41edcbe9ca3e04a10c128496aca80b3367639d3",
+      "identity_status": "verified", "identity_qualification": "Exact native Nicole Locklin FL26 congressional campaign, OU/Santa Clara education and Nextdoor/Databricks career independently matching dated interview and own questionnaire.",
+      "identity_fragments": ["Nicole Locklin"],
+      "source_excerpts": ["Nicole Locklin", "(1988 - 2000)", "December 2009", "May 2015", "High Tech Law Certificate with Honors", "litigation associate", "Nextdoor", "Lead Counsel at Databricks"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "campaign_life_chronology_start_year_not_explicit_verified_birth_date", "factual_reference_date": "Opening birth/childhood section headed 1988-2000", "value": "Chronology begins with 1988 above birth/childhood narrative. Retain as imprecise birth-year lead, not a verified birthday or exact 2026 age", "source_fragment": "(1988 - 2000)"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_ou_and_santa_clara_law_graduation_with_months", "factual_reference_date": "OU graduation December 2009; Santa Clara law graduation May 2015", "value": "OU graduate December 2009, Santa Clara law graduate May 2015 and High Tech Law Certificate with Honors. California bar passage November 2015 is a self-report, not current admission verification", "source_fragment": "December 2009", "supporting_fragments": ["May 2015", "High Tech Law Certificate with Honors"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_dated_multiple_private_legal_careers", "factual_reference_date": "Litigation January 2016, Nextdoor March 2020, later tech work May 2022 and Databricks after April 2024 move", "value": "Lerch Sturmer litigation associate, then technology-company legal work including Nextdoor and Databricks lead counsel; preserve multiple roles and chronology rather than one lifetime occupation", "source_fragment": "litigation associate", "supporting_fragments": ["Nextdoor", "Lead Counsel at Databricks"]}
+      ],
+      "extraction_review": "Read complete cached biography after hash verification. Student council is not elected public office. Military careers, Black identity, birthplace and ancestry assigned to relatives are not hers. Relative medical history and personal identifiers not collected. No own military negative or government employment established."
+    },
+    {
+      "id": "220144-own-2026-ballotpedia-biography",
+      "candidate_id": "220144", "name": "Nicole Locklin", "state": "FL", "district": "26", "party": "Democratic", "contest_id": "2026:house:FL:26:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Nicole_Locklin",
+      "source_title": "Own 2026 short biography and Candidate Connection response",
+      "publication_date": null, "source_date_note": "Submission footnote July 20, 2026; page/header may have later updates.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL26 Democrat against Mario Diaz-Balart, native campaign link, matching OU 2009/Santa Clara 2015 degrees and technology-law career.",
+      "identity_fragments": ["Locklin"],
+      "source_excerpts": ["Locklin", "University of Oklahoma, 2009", "Santa Clara University, 2015", "attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_named_completed_bachelor_and_law_degree_years", "factual_reference_date": "Bachelor's 2009; law degree 2015", "value": "OU bachelor's and Santa Clara law degree, corroborating completed credentials in own biography", "source_fragment": "University of Oklahoma, 2009", "supporting_fragments": ["Santa Clara University, 2015"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_attorney_career_across_litigation_technology_and_healthcare", "factual_reference_date": "July 2026 questionnaire and earlier career", "value": "Attorney career spanning litigation, technology, healthcare, privacy and AI; reported occupational expertise, not independent licensure audit", "source_fragment": "attorney"}
+      ],
+      "extraction_review": "Read relevant biography, complete short own survey and submission date. No own age/faith/service-negative answer in reviewed response. Veterans, religious or LGBTQ endorsements are not own service or identity evidence."
+    },
+    {
+      "id": "220144-shannon-watts-interview-text-description",
+      "candidate_id": "220144", "name": "Nicole Locklin", "state": "FL", "district": "26", "party": "Democratic", "contest_id": "2026:house:FL:26:general:source_general",
+      "family": "local_profile", "url": "https://shannonwatts.substack.com/p/nicole-locklin-on-turning-outrage",
+      "source_title": "Shannon Watts and Locklin interview: complete textual episode description only",
+      "publication_date": "2026-08-25", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Locklin campaign coauthor, FL26 Democrat challenging Diaz-Balart, rural Oklahoma origin and Databricks healthcare legal leadership matching native biography.",
+      "identity_fragments": ["Nicole Locklin"],
+      "source_excerpts": ["Nicole Locklin", "Lead Commercial Legal Counsel for Healthcare and Life Sciences at Databricks", "first generation college graduate", "no political background"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_interview_description_named_private_employer_and_legal_role", "factual_reference_date": "August 25, 2026 interview description, most recent occupation", "value": "Databricks lead commercial legal counsel for healthcare and life sciences, with more than a decade of legal experience; private employment", "source_fragment": "Lead Commercial Legal Counsel for Healthcare and Life Sciences at Databricks"},
+        {"trait": "education", "factual_status": "partial", "precision": "named_graduate_status_without_new_credential_details", "factual_reference_date": "College/law graduation before August 2026", "value": "Described as first-generation college graduate and law-degree holder; no new completed-degree dates here", "source_fragment": "first generation college graduate"}
+      ],
+      "extraction_review": "Read all public textual episode description, not recording/transcript. No political background is not a scoped no-prior-elected-office or no-government-employment negative. Recording remains a lead, not a completed review."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220119", "family": "campaign", "query": "Read full hash-verified retained native /meet biography; deduplicate same-hash /new-dropdown", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.montavonforcongress.com/meet"]},
+    {"candidate_id": "220119", "family": "ballotpedia_questionnaire", "query": "Follow exact-person biography and current/earlier Candidate Connection background answers and submission footnotes", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Matthew_Montavon"]},
+    {"candidate_id": "220119", "family": "local_profile", "query": "Read actual WSLR walkathon report and distinguish publication from original air date", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wslr.org/congressional-candidate-walks-his-district-in-nine-days/"]},
+    {"candidate_id": "220119", "family": "earlier_biography", "query": "Follow earlier Ukrainian-American local-event report and read named-subject boundaries", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.charlottedems.com/ukrainian-americans-make-a-statement-at-steubes-mobile-office/"]},
+    {"candidate_id": "220119", "family": "university_employer_professional", "query": "\"Matthew Montavon\" (site:fao.org OR site:indiana.edu OR site:iu.edu OR site:catholic.edu)", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined results not attributable to this exact query; do not claim exhausted institutional research."},
+    {"candidate_id": "220125", "family": "campaign", "query": "Read hash-verified native About and retained alternate-domain credential extraction", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ariasforcongress.us/about", "https://votearias.us/"]},
+    {"candidate_id": "220125", "family": "campaign", "query": "Follow alternate campaign /about/ original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://votearias.us/about/"], "lead_dispositions": {"https://votearias.us/about/": {"status": "access_failure", "reason": "Ordinary public fetch returned 503. Retained short homepage extraction reviewed separately; no bypass or current full-body claim."}}},
+    {"candidate_id": "220125", "family": "local_profile", "query": "Read complete July 2024 SWFL Chronicle candidate-specific original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://theswflchronicle.com/victor-arias-a-calling-to-serve/"]},
+    {"candidate_id": "220125", "family": "campaign", "query": "Follow Lee County party biography PDF; acquire, hash and read both pages", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://leecountydems.org/wp-content/uploads/2026/02/Victor-Arias-19.pdf"]},
+    {"candidate_id": "220125", "family": "ballotpedia_questionnaire", "query": "Read own church-membership response, biography and June 25 survey footnote", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Victor_Arias"]},
+    {"candidate_id": "220125", "family": "local_profile", "query": "\"Victor Arias\" \"65\" \"2026\" \"Paradise\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://iris-fuchsia-xj74.squarespace.com/blog-the-paradise-progressive/state-of-the-stampede-collins-coverup-fratto-falls-lauf-leaves-and-more-machinations-in-floridas-19th-congressional-district"], "qualification": "Selected actual single-article original acquired/read after search; dated age no longer snippet-only. Other result leads not yet systematically investigated."},
+    {"candidate_id": "220135", "family": "campaign", "query": "Read complete hash-verified native campaign biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://piaforcongress.com/about"]},
+    {"candidate_id": "220135", "family": "official_biography", "query": "Read official 2020 appointment, paid full-time program definition and full named Dandiya entry", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://trumpwhitehouse.archives.gov/briefings-statements/white-house-appoints-2020-2021-class-white-house-fellows/"]},
+    {"candidate_id": "220135", "family": "local_profile", "query": "Read public podcast transcript first 40,000 characters; retain explicit own South Asian statement and actual review boundary", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://abhaydandekar.transistor.fm/288/transcript"], "qualification": "Through approximately 35:50 of 38:35; later pagination and repeat of second chunk returned 403. No further retry or alternate access."},
+    {"candidate_id": "220139", "family": "campaign", "query": "Read complete hash-verified native My Story", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://olivergilbert.vote/about"]},
+    {"candidate_id": "220139", "family": "official_biography", "query": "Read full official county biography and distinguish completed degrees, elected office and adjunct employment uncertainty", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.miamidade.gov/global/government/commission/district01/about-commissioner-gilbert.page"]},
+    {"candidate_id": "220139", "family": "earlier_biography", "query": "Read full named mayoral Black PR Wire profile with explicit racial classification and state staff/prosecutor roles", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.blackprwire.com/profiler/78-city_of_miami_gardens_mayor_oliver_gilbert"]},
+    {"candidate_id": "220139", "family": "university_employer_professional", "query": "Read full July 2020 St. Thomas research-center appointment announcement", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.stu.edu/news/miami-gardens-mayor-oliver-g-gilbert-iii-named-executive-director-of-st-thomas-universitys-center-for-pandemic-disaster-and-quarantine-research/"]},
+    {"candidate_id": "220144", "family": "campaign", "query": "Read complete hash-verified native chronology and maintain candidate/relative subject boundaries", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://locklinforcongress.com/nicole-bio"]},
+    {"candidate_id": "220144", "family": "ballotpedia_questionnaire", "query": "Read current biography, complete short own response and July 20 survey submission footnote", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Nicole_Locklin"]},
+    {"candidate_id": "220144", "family": "local_profile", "query": "Read complete public textual Shannon Watts interview description, not recording", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://shannonwatts.substack.com/p/nicole-locklin-on-turning-outrage"]},
+    {"candidate_id": "220144", "family": "local_profile", "query": "Follow actual Vote411 candidate-detail original for indexed age and credential statements", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://onyourballot.vote411.org/candidate-detail.do?id=72940827"], "lead_dispositions": {"https://onyourballot.vote411.org/candidate-detail.do?id=72940827": {"status": "access_failure", "reason": "Underlying page timed out. Indexed age 38 and specific degree labels not accepted from snippets alone; no repeated bypass."}}},
+    {"candidate_id": "220144", "family": "university_employer_professional", "query": "\"Nicole Locklin\" (site:scu.edu OR site:ou.edu)", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No attributable institutional original retained from combined output. Does not establish no record or completed institutional-family pass."}
+  ],
+  "withheld_documents": [
+    {"id": "220144-vote411-age-original-unavailable", "candidate_id": "220144", "url": "https://onyourballot.vote411.org/candidate-detail.do?id=72940827", "status": "access_failure", "traits_pending_verification": ["age", "education"], "reason": "Snippet-only age and credential details; original timed out, so no factual claim accepted."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220119", "details": "Institutional/official employment relationship and explicit personal identity/affiliation gaps remain actionable. Lee party PDF lead has a reportedly inconsistent district heading and needs original review. Do not infer military nonservice, ethnicity from caucus leadership or religion from university."},
+    {"candidate_id": "220125", "details": "Paradise Progressive single-article age original now read and accepted with dated-age precision. Institution/employer originals and explicit own identity/service statements remain actionable. Alternate About 503 does not block independent sources. Texas Victor Arias Jr. is a different person."},
+    {"candidate_id": "220135", "details": "Own interview supports literal South Asian identity, not historical Latino coding. Transcript tail unavailable after 403; other source families remain actionable for own affiliation and service. Official paid appointment qualifies retained employment, not first acquisition."},
+    {"candidate_id": "220139", "details": "Ballotpedia/questionnaire and remaining personal affiliation/gender/ethnicity/service research remain actionable. Earlier explicit publisher racial classification and named state legal employment accepted; parents' faith and generated photograph descriptions excluded."},
+    {"candidate_id": "220144", "details": "Actual interview recording/transcript and official/professional/earlier biographies remain actionable. Vote411 currently inaccessible; find independent dated age original rather than accept snippet or turn chronology heading into exact birthday. Relatives' service/race never transfer."}
+  ],
+  "unaccepted_review_notes": [
+    {"candidate_id": "220139", "url": "https://hylonewsmiami.com/2020/11/01/this-election-dade-county-commission-needs-to-keep-seats-historically-held-by-black-officials/", "details": "Full November 1, 2020 editorial read. Named-group Black-official classification corroborates separately accepted explicit individual profile; no separate duplicated claim added. Later Black man phrase refers to Dennis Moss, not Gilbert."},
+    {"candidate_id": "220125", "details": "Mixed institutional and age searches without explicit result mapping are not counted as completed family searches. Same-name Texas recruiter/Stanford MBA excluded as wrong person."}
+  ]
+}

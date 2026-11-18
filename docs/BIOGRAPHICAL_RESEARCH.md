@@ -11,7 +11,7 @@ no-JavaScript candidate browser exposes accepted facts, partial evidence,
 conflicts, qualifications, source passages, original links and search provenance.
 No website deployment is part of this work.
 
-## Florida person-level checkpoint
+## Florida and national person-level checkpoints
 
 The Holloway/Harp/Grage batch adds 18 reviewed documents and 53 claims relative
 to checkpoint `fc8210b`. Its nine first-evidence fields all concern these three
@@ -30,16 +30,47 @@ are distinct from an adjunct title; his relatives' service is not his own.
 Grage's husband's Army service, private HOA presidency and party-club legislative
 liaison are not her military service, elected public office or government job.
 
-The factual product now has 517 document reviews, 1,390 claims, 219 first-evidence
-fields and 124 first-qualified fields since the frozen factual baseline.
-Overman's specific final followups close her bounded pass: 12 candidates have
-completed passes, 130 are in progress and 1,142 remain unresearched. The three
-new Florida passes remain open, with specific readable-original, affiliation,
-dated-age, institutional and interview leads in their journal. Comprehensive
-biographical acquisition is **not complete**. Continue those leads and the
-national nonincumbent queue; do not treat these dispositions as external
-unavailability or a reason to stop. Frozen analytical samples and predictions
-are unchanged.
+The subsequent Montavon/Arias/Dandiya/Gilbert/Locklin batch adds 20 reviewed
+documents and 53 claims. Its eight first-evidence fields all concern known
+Democratic nonincumbents. Montavon's age, religious header and ancestry, Arias's
+dated age and Locklin's chronology remain partial. Arias's explicit own church
+membership, Dandiya's own South Asian description and Gilbert's explicit written
+racial classification supply three first-qualified fields. Completed degrees,
+legal careers, Dandiya's explicitly paid federal fellowship and Gilbert's named
+state legal jobs qualify retained evidence separately from first acquisition.
+Relatives' faith, identity and military service never transfer to a candidate.
+
+The first national continuation adds ten reviewed documents and 41 claims for
+Biss, Pan, Wiener, Hernandez and von Wilpert. Its five first-evidence fields are
+Biss's own Jewish faith, Pan's source-defined Taiwanese American community
+classification, Wiener's explicit man description and dated Jewish identity,
+and Hernandez's historical event-anchored ages. The first four become qualified
+factual values; Hernandez's ages remain partial. Pan's classification is not
+self-report, an Asian racial imputation or a Latino/non-Hispanic model value.
+Wiener's affiliation observation is from 2022, not automatically 2026.
+Hernandez's county day job qualifies previously retained employment evidence.
+Von Wilpert's complete campaign reading and dated civilian-service profile add
+no first-evidence fields: neither relatives' military service nor a Catholic
+policy guide establishes her own service or affiliation.
+
+Together these two batches add 13 first-evidence and seven first-qualified
+fields, all among ten known Democratic nonincumbents. The factual product now
+has 547 document reviews, 1,484 claims, 232 first-evidence fields and 131
+first-qualified fields since the frozen factual baseline. Twelve candidates
+have completed passes, 140 are in progress and 1,132 remain unresearched.
+Among 449 Democrats, the respective counts are 12, 115 and 322; among the 266
+known Democratic nonincumbents, they are 12, 111 and 143.
+
+All ten new passes remain open. Their journals retain concrete questionnaire,
+institutional, official-biography, interview and explicit identity/service leads.
+Pan's two attempted PDF originals returned 403; von Wilpert's attempted city
+staff path returned 404. Those specific failures do not establish unavailable
+facts or exhausted source families. The selected Hernandez women's political
+alliance questionnaire and Wiener's CBS interview remain unreviewed originals,
+not accepted evidence. Comprehensive biographical acquisition is **not complete**.
+Continue these leads and the national roster; do not treat dispositions or this
+checkpoint as a reason to stop. Frozen analytical samples and predictions are
+unchanged.
 
 ## What counts as research
 
@@ -136,7 +167,7 @@ not a new scientific version or a declaration that the roster pass is complete.
 Retrieve its full archive into a checkout with no existing file of that name:
 
 ```sh
-gh release download biographical-research-2026-11-18 \
+gh release download biographical-research-national-2026-11-18 \
   --repo hanshanley/which-candidate --dir downloads \
   --pattern biographical-research-complete.zip
 ```
