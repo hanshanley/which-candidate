@@ -1,0 +1,210 @@
+{
+  "scope": "Continue Georgia person-level research after f3f88f5. Preserve dated employer chronology, a dated age corroboration, attributed interview identity, retained-original re-extraction and unsuccessful access separately. No candidate pass or frozen scientific analysis is declared complete.",
+  "documents": [
+    {
+      "id": "220195-emory-first-office-2018",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "earlier_biography",
+      "url": "https://news.emory.edu/stories/2018/11/emory-nursing-instructor-wins-district-108",
+      "source_title": "Emory nursing instructor wins District 108",
+      "publication_date": "2018-11-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Emory microbiology doctorate, nursing instruction and first Georgia House District108 election match the official biography and subsequent GA13 campaign; district numbers refer to different offices.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "became an elected official for the first time", "PhD in microbiology from Emory University", "serves as an instructor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_employer_explicit_first_elected_office_in_2018", "factual_reference_date": "2018", "value": "Employer explicitly describes the 2018 Georgia House District108 election as her first elected office", "source_fragment": "became an elected official for the first time", "qualification": "This is not inferred merely from first candidacy, and does not support a no-prior-office category for the 2026 congressional election."},
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_awarding_university_reported_completed_doctorate", "factual_reference_date": "2018-11-14", "value": "Emory reports her completed microbiology PhD", "source_fragment": "PhD in microbiology from Emory University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_employer_reported_historical_teaching_role", "factual_reference_date": "2018-11-14", "value": "Emory nursing-school instructor teaching anatomy/physiology and microbiology prerequisites; Atlanta March for Science director in 2017", "source_fragment": "serves as an instructor"}
+      ],
+      "extraction_review": "Read the complete employer story, excluding unrelated navigation cards. The BSN curriculum is her students' program, not a nursing degree awarded to her. Academic employment and political activism do not establish nonlegislative public employment or a military negative."
+    },
+    {
+      "id": "220195-emory-biology-appointment-2024",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "university_employer_professional",
+      "url": "https://college.emory.edu/stories/new-faculty-2024/",
+      "source_title": "Emory College: New Appointments and Promotions, Fall2024-Spring2025; Jasmine Clark section",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Page labels the 2024-2025 academic cohort and explicitly dates the biology appointment to 2024; exact publication day not established.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Emory2013 microbiology/molecular-genetics doctorate and preceding ten-year nursing-school career corroborate the candidate's official and campaign biographies.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "Assistant Teaching Professor", "completed her PhD in Microbiology and Molecular Genetics", "2013", "Sr. Clinical Instructor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "awarding_university_completed_doctorate_and_year", "factual_reference_date": "2013", "value": "Emory Laney Graduate School PhD in Microbiology and Molecular Genetics,2013", "source_fragment": "completed her PhD in Microbiology and Molecular Genetics", "supporting_fragments": ["2013"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "employer_reported_2024_appointment_and_preceding_role", "factual_reference_date": "2024", "value": "Joined Emory Biology in2024 as assistant teaching professor after ten years as nursing-school senior clinical instructor", "source_fragment": "Assistant Teaching Professor", "supporting_fragments": ["Sr. Clinical Instructor"], "qualification": "Dated career sequence, not a claim that the 2024 title remained her election-day position."}
+      ],
+      "extraction_review": "Read the complete named-candidate section within a long multi-person faculty page. Do not transfer neighboring scholars' degrees, identities or VA careers. Teaching fellowships are not additional degrees or proof of government employment."
+    },
+    {
+      "id": "220195-emory-nursing-return-2025",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "university_employer_professional",
+      "url": "https://news.emory.edu/stories/2025/09/emory-school-nursing-welcomes-new-faculty",
+      "source_title": "Emory School of Nursing welcomes new faculty; Melanie Kieve",
+      "publication_date": "2025-09-02", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, PhD, prior Emory College Biology position and return to nursing teaching match the dated2024 appointment and earlier employer biography.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "Assistant Clinical Professor", "Returns to the School of Nursing", "Biology Department"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_employer_reported_return_and_new_title", "factual_reference_date": "2025-09-02", "value": "Assistant clinical professor returning to Emory Nursing after Biology; teaches microbiology, anatomy/physiology and health/policy", "source_fragment": "Assistant Clinical Professor", "supporting_fragments": ["Returns to the School of Nursing", "Biology Department"], "qualification": "Explains a later position rather than forcing all historical and campaign titles to agree; does not establish a separate government job."}
+      ],
+      "extraction_review": "Read the complete employer announcement and her complete section. An indexed development hostname failed DNS; ordinary search located a public production legacy URL that redirected here. No restriction was bypassed; neighboring faculty's nursing awards and public-hospital positions are not hers."
+    },
+    {
+      "id": "220195-emory-alumni-complete-biography",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "earlier_biography",
+      "url": "https://together.emory.edu/alumni/awards/40-under-forty/jasmine-clark",
+      "source_title": "Emory Alumni: Jasmine Clark13G,40 Under Forty",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Lilburn, Emory2013 doctorate,2017 science march and2018 Georgia House election match the same verified candidate.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "bachelor\u2019s degree in microbiology", "University of Tennessee, Knoxville", "PhD in 2013", "lecturer", "In 2018, she was elected"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_reported_completed_bachelors_doctorate_and_postdoctoral_sequence", "factual_reference_date": null, "value": "Tennessee Knoxville microbiology bachelor's; Emory graduate study began2006, PhD2013, postdoctoral project completed2014", "source_fragment": "bachelor\u2019s degree in microbiology", "supporting_fragments": ["University of Tennessee, Knoxville", "PhD in 2013"], "qualification": "Postdoctoral research is not another completed degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "undated_employer_reported_historical_academic_position", "factual_reference_date": null, "value": "Emory nursing-school lecturer and2017 Atlanta March for Science director", "source_fragment": "lecturer", "qualification": "Undated present-tense role is not automatically her2026 job."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "university_reported_state_house_election_year", "factual_reference_date": "2018", "value": "Elected to Georgia House in2018", "source_fragment": "In 2018, she was elected"}
+      ],
+      "extraction_review": "Read the complete alumni biography. Undated Under-Forty recognition and an image upload path do not establish a precise age reference date; no new age claim or election-time availability inferred."
+    },
+    {
+      "id": "220195-cen-accessible-interview-introduction",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "local_profile",
+      "url": "https://cen.acs.org/people/profiles/jasmine-clark-phd-congress/104/web/2026/06",
+      "source_title": "C&EN, Max Barnhart: Meet Jasmine Clark, the self-described mad scientist running for the US House",
+      "publication_date": "2026-06-11", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, linked native campaign, GA13 Democratic nomination and Emory microbiology career identify the candidate.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "Clark, 43", "PhD microbiologist and professor at Emory University", "then a member of Georgia\u2019s state House of Representatives"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "publisher_dated_reported_age_without_invented_birth_date", "factual_reference_date": "2026-06-11", "value": "Publisher reports age43 in June11,2026 introduction; corroborates rather than newly supplies the retained official birth-date evidence", "source_fragment": "Clark, 43"},
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_professional_publisher_reported_completed_doctorate", "factual_reference_date": "2026-06-11", "value": "Reported microbiology PhD", "source_fragment": "PhD microbiologist and professor at Emory University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_professional_publisher_reported_academic_career", "factual_reference_date": "2026-06-11", "value": "Emory professor and microbiologist; exact academic rank not specified", "source_fragment": "PhD microbiologist and professor at Emory University"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_publisher_reported_existing_state_legislative_service", "factual_reference_date": "2026-06-11", "value": "Georgia House member before the congressional general election", "source_fragment": "then a member of Georgia\u2019s state House of Representatives"}
+      ],
+      "extraction_review": "Read only the publisher's accessible introduction, not the advertised full nine-minute interview. No claims from unseen answers; incomplete body access remains a specific limitation. Candidate age is not an exact birth date inferred from publication."
+    },
+    {
+      "id": "220195-19th-complete-underlying-interview",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "local_profile",
+      "url": "https://19thnews.org/2026/05/georgia-primary-election-jasmine-clark-congress/",
+      "source_title": "The19th, Grace Panetta: Jasmine Clark is poised to be the first Black woman PhD scientist in Congress",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Original returned no visible publication timestamp. URL identifies May2026. Xylom syndication says published May22 and updated August28,2026; those dates are not silently assigned to the original.",
+      "identity_status": "verified",
+      "identity_qualification": "Named Lilburn interviewee, GA13 campaign succeeding David Scott, Emory doctorate and2018 state-house election identify the same person.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "Black woman Ph.D. scientist", "doctorate in microbiology from Emory University", "teaches at the university\u2019s nursing school", "2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_publisher_classification_in_reported_person_interview", "factual_reference_date": "2026-05", "value": "Interview explicitly describes Clark as Black", "source_fragment": "Black woman Ph.D. scientist", "qualification": "Not inferred from appearance, district composition or supporters; does not classify ethnicity."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_publisher_classification_in_reported_person_interview", "factual_reference_date": "2026-05", "value": "Interview explicitly describes Clark as a woman", "source_fragment": "Black woman Ph.D. scientist"},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_completed_named_doctorate", "factual_reference_date": "2026-05", "value": "Completed Emory microbiology doctorate", "source_fragment": "doctorate in microbiology from Emory University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_dated_nursing_school_teaching", "factual_reference_date": "2026-05", "value": "Teaches at Emory's nursing school", "source_fragment": "teaches at the university\u2019s nursing school"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "publisher_reported_state_house_election_year", "factual_reference_date": "2018", "value": "Won a Georgia state-legislative seat in2018", "source_fragment": "2018"}
+      ],
+      "extraction_review": "Read full Xylom syndication, followed its original link and read the complete underlying19th story. Count only the original, not two independent interviews. Federal-grant work does not establish federal employment; other people's ages are not hers."
+    },
+    {
+      "id": "220195-retained-lcv-complete-candidate-section",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "earlier_biography",
+      "url": "https://www.lcv.org/wp-content/uploads/2026/11/LCV_NEWMemberGuide_2026_POST_C.pdf",
+      "source_title": "LCV2026 New Member Guide, printed26/PDF30: Jasmine Clark",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_date_note": "Post-election new-member guide, acquired historically November16,2026; exact publication day unknown. Not contemporaneous pre-election prediction evidence.",
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v4/lcv-newmembers-2026",
+      "retained_sha256": "78f6e49ec6aa085ebe7237a3064e2a2580e58f4301968670cbb446ca1c4746e4",
+      "identity_status": "verified",
+      "identity_qualification": "Explicit Jasmine Clark(D-GA-13) heading, Emory scientist, Georgia House service and David Scott succession identify the native candidate.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "undergraduate degree in microbiology", "PhD", "Emory University", "assistant clinical professor", "Georgia House of", "Representatives"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "post_election_publisher_reported_prior_completed_awards", "factual_reference_date": null, "value": "Microbiology undergraduate degree and Emory PhD; no additional award dates here", "source_fragment": "undergraduate degree in microbiology", "supporting_fragments": ["PhD", "Emory University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "post_election_publisher_reported_academic_career", "factual_reference_date": null, "value": "Research scientist and Emory nursing-school assistant clinical professor; science-march leadership is not elected public office", "source_fragment": "assistant clinical professor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "post_election_publisher_reported_state_legislative_service", "factual_reference_date": null, "value": "Georgia House service, described as four terms; not an independently dated term-by-term record", "source_fragment": "Georgia House of", "supporting_fragments": ["Representatives"]}
+      ],
+      "extraction_review": "Checked existing source ledger first, located retained86-page original by recorded size, verified SHA256 and read her entire printed26 section. This is supplementary re-extraction, not a newly acquired guide. No birthplace, parent-career, gender-pronoun or military-negative inference."
+    },
+    {
+      "id": "220190-town-square-episode105-host-account",
+      "candidate_id": "220190", "name": "Pamela DeLancy", "state": "GA", "district": "10", "party": "Democratic",
+      "contest_id": "2026:house:GA:10:general:source_general", "family": "local_profile",
+      "url": "https://redcircle.com/shows/fb29aa0a-939f-49d9-8f96-a6a2a9c24782/episodes/520a21ea-08ac-4ccf-bfe5-5545ee19f340",
+      "source_title": "The Town Square Podcast105: Pamela DeLancy on Veterans, Healthcare and Georgia's10th District",
+      "publication_date": "2026-10-06", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA10 campaign, linked native campaign, retired Army colonel and registered-nurse careers match the retained person.",
+      "identity_fragments": ["Pamela DeLancy"],
+      "source_excerpts": ["Pamela DeLancy", "as a Black woman in leadership", "39 years, including 31 on active duty", "eight in the Army Reserve", "registered nurse"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_host_account_of_candidates_black_experience", "factual_reference_date": "2026-10-06", "value": "Host-written episode account explicitly reports DeLancy discussing her experience as a Black woman in military leadership", "source_fragment": "as a Black woman in leadership", "qualification": "Attributed account, not a verbatim transcript or independent ancestry/ethnicity classification."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_host_account_of_candidates_woman_experience", "factual_reference_date": "2026-10-06", "value": "Host account explicitly describes her discussion of being a woman in military leadership", "source_fragment": "as a Black woman in leadership"},
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_host_report_of_candidates_corrected_total_and_components", "factual_reference_date": "2026-10-06", "value": "Reports39 total Army years,31 active and eight Reserve; retired colonel", "source_fragment": "39 years, including 31 on active duty", "supporting_fragments": ["eight in the Army Reserve"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_host_reported_clinical_and_military_careers", "factual_reference_date": "2026-10-06", "value": "Registered nurse and retired Army colonel", "source_fragment": "registered nurse"}
+      ],
+      "extraction_review": "Read the full substantive host-written episode page, not the hour-long audio. Public RSS supplies exact episode URL and publication date. Asking for enlistment permission at17 is undated and does not alone give a birth year; no first-age gain counted. Policy proposals and relatives' work are not her government employment."
+    },
+    {
+      "id": "220190-red-black-complete-march2026-interview",
+      "candidate_id": "220190", "name": "Pamela DeLancy", "state": "GA", "district": "10", "party": "Democratic",
+      "contest_id": "2026:house:GA:10:general:source_general", "family": "local_profile",
+      "url": "https://www.redandblack.com/athensnews/district-10-congressional-candidate-pamela-delancy-visits-athens-on-campaign-trail/article_03507ac5-4066-4fee-aa14-27de9125dd72.html",
+      "source_title": "The Red & Black, Gracie Howard: District10 Congressional candidate Pamela DeLancy visits Athens",
+      "publication_date": "2026-03-06", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA10 primary against Lexy Doherty and concordant Army/nursing careers match the retained congressional candidate.",
+      "identity_fragments": ["Pamela DeLancy"],
+      "source_excerpts": ["Pamela DeLancy", "registered nurse", "six years at the Pentagon", "director of medical readiness", "retired from the Army in 2019"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_local_report_of_candidate_service_role_and_retirement_year", "factual_reference_date": "2019", "value": "Reports Army retirement2019 after more than35 years, including six Pentagon years as director of medical readiness", "source_fragment": "retired from the Army in 2019", "supporting_fragments": ["six years at the Pentagon", "director of medical readiness"], "qualification": "More-than35 is compatible with the later39-year account; neither source establishes an exact retirement day."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_local_reported_nursing_and_military_careers", "factual_reference_date": "2026-03-06", "value": "Registered nurse and Army veteran; earlier Pentagon medical-readiness leadership", "source_fragment": "registered nurse", "supporting_fragments": ["director of medical readiness"]}
+      ],
+      "extraction_review": "Read the complete candidate story through its closing remarks, not unrelated recommended stories. This particular public original was accessible; earlier restrictions on different articles remain unchanged. No age, scoped service negative or independent civilian-employment claim supplied."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220195", "family": "university_employer_professional", "query": "\"Jasmine Clark\" Emory faculty biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Query actually executed in a four-query batch after f3f88f5; exact per-query result mapping was not retained. Individually followed originals are recorded separately."},
+    {"candidate_id": "220195", "family": "ballotpedia_questionnaire", "query": "\"Jasmine Clark\" candidate questionnaire military government", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual query, not reconstructed completion evidence; batch result attribution not retained."},
+    {"candidate_id": "220195", "family": "local_profile", "query": "\"Jasmine Clark\" interview biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual query, not reconstructed completion evidence; batch result attribution not retained."},
+    {"candidate_id": "220195", "family": "earlier_biography", "query": "\"Jasmine Clark\" 2018 scientist biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual query, not reconstructed completion evidence; accepted2018 original read separately."},
+    {"candidate_id": "220195", "family": "university_employer_professional", "query": "\"Emory School of Nursing welcomes new faculty\" \"Jasmine\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual three-query batch; subsequent public production-URL follow-up is separately documented."},
+    {"candidate_id": "220195", "family": "official_biography", "query": "\"Jasmine Clark\" \"military service\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No candidate-linked explicit service answer accepted. Unlinked same-name results are not identity bridges or service evidence."},
+    {"candidate_id": "220195", "family": "local_profile", "query": "\"Jasmine Clark\" interview government biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; do not claim a complete unsuccessful search from unmapped output."},
+    {"candidate_id": "220195", "family": "earlier_biography", "query": "Follow and read complete2018 Emory election story and alumni biography discovered in person-level research", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://news.emory.edu/stories/2018/11/emory-nursing-instructor-wins-district-108", "https://together.emory.edu/alumni/awards/40-under-forty/jasmine-clark"]},
+    {"candidate_id": "220195", "family": "university_employer_professional", "query": "Read complete Clark section in2024 appointments; follow public production2025 announcement after indexed development host failed DNS", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://college.emory.edu/stories/new-faculty-2024/", "https://news-dev.drupal.emory.edu/stories/2025/09/emory-school-nursing-welcomes-new-faculty", "https://news.emory.edu/stories/2025/09/son_new_faculty_2025/story.html", "https://news.emory.edu/stories/2025/09/emory-school-nursing-welcomes-new-faculty"], "lead_dispositions": {"https://news-dev.drupal.emory.edu/stories/2025/09/emory-school-nursing-welcomes-new-faculty": {"status": "access_failure", "reason": "DNS/name-resolution failure, no body read; ordinary search independently supplied the public production legacy URL."}, "https://news.emory.edu/stories/2025/09/son_new_faculty_2025/story.html": {"status": "duplicate_reviewed_original", "reason": "Normal public redirect to the accepted canonical2025 employer announcement; not another original."}}},
+    {"candidate_id": "220195", "family": "local_profile", "query": "Follow substantive C&EN introduction and Xylom account; follow Xylom's attribution link and read the complete underlying19th original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cen.acs.org/people/profiles/jasmine-clark-phd-congress/104/web/2026/06", "https://www.thexylom.com/post/georgia-primary-election-jasmine-clark-congress-public-health/", "https://19thnews.org/2026/05/georgia-primary-election-jasmine-clark-congress/"], "lead_dispositions": {"https://www.thexylom.com/post/georgia-primary-election-jasmine-clark-congress-public-health/": {"status": "duplicate_reviewed_original", "reason": "Full syndication read; original19th interview followed and accepted once, not counted as another independent document."}}, "qualification": "C&EN supplied an introduction only, not the full advertised interview."},
+    {"candidate_id": "220195", "family": "ballotpedia_questionnaire", "query": "Read actual Election.org and iVoterGuide questionnaire pages rather than interpreting missing answers from snippets", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://election.org/questionnaire/federal/jasmine-clark", "https://ivoterguide.com/candidate/46820"], "lead_dispositions": {"https://election.org/questionnaire/federal/jasmine-clark": {"status": "reviewed_no_requested_facts", "reason": "Full page read: no verified response published and no invitation recorded as of its October29,2026 FEC record; not refusal or service evidence."}, "https://ivoterguide.com/candidate/46820": {"status": "reviewed_no_requested_facts", "reason": "Full displayed2020 state-House profile read: biography fields candidate-did-not-provide and questionnaire did-not-answer. No military negative or religious affiliation inferred from blanks or publisher ratings."}}},
+    {"candidate_id": "220195", "family": "ballotpedia_questionnaire", "query": "Attempt ordinary matched Ballotpedia simplification, then one normal verified HTTPS diagnostic", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Jasmine_Clark"], "lead_dispositions": {"https://ballotpedia.org/Jasmine_Clark": {"status": "access_failure", "reason": "Simplification supplied no usable body; one normal HTTPS diagnostic returned HTTP202 and zero bytes. Stop retries; no actual biography or survey accepted."}}},
+    {"candidate_id": "220195", "family": "earlier_biography", "query": "Follow exact2020 GwinnettForum candidate-questionnaire PDF discovered in earlier-biography search", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.gwinnettforum.com/wp-content/uploads/2020/10/DemoClark-House108.pdf"], "lead_dispositions": {"https://www.gwinnettforum.com/wp-content/uploads/2020/10/DemoClark-House108.pdf": {"status": "access_failure", "reason": "Page-opening tool returned no usable text; ordinary verified HTTPS request returned HTTP406. No PDF read, no further retry or bypass."}}},
+    {"candidate_id": "220195", "family": "local_profile", "query": "Follow actual Atlanta Civic Circle2022 questionnaire profile lead", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://atlantaciviccircle.org/profile/jasmine-clark/"], "lead_dispositions": {"https://atlantaciviccircle.org/profile/jasmine-clark/": {"status": "access_failure", "reason": "HTTP404; profile body not read and snippet statements not accepted. This is not a sitewide access prohibition."}}},
+    {"candidate_id": "220195", "family": "earlier_biography", "query": "Check existing LCV receipt, locate retained original by exact recorded byte size, hash-verify and read complete printed26 candidate section without reacquisition", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.lcv.org/wp-content/uploads/2026/11/LCV_NEWMemberGuide_2026_POST_C.pdf"], "qualification": "Already acquired inV4 for other candidates. This pass re-extracts only Clark's entire section; not a new guide download or a whole-roster research pass."},
+    {"candidate_id": "220176", "family": "local_profile", "query": "\"Maura Keller\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed four-candidate age query batch returned no retained usable output; no birth year accepted, no exhaustive-search claim."},
+    {"candidate_id": "220190", "family": "local_profile", "query": "\"Pamela DeLancy\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed query, unusable retained batch output; no age accepted."},
+    {"candidate_id": "220192", "family": "local_profile", "query": "\"Chris Harden\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed query, unusable retained batch output; no age accepted."},
+    {"candidate_id": "42478026", "family": "local_profile", "query": "\"Kelly Esti\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed query, unusable retained batch output; no age accepted."},
+    {"candidate_id": "220190", "family": "local_profile", "query": "Read public podcast index, resolve exact candidate episode from its public RSS and read complete host-written episode105 account", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://redcircle.com/shows/fb29aa0a-939f-49d9-8f96-a6a2a9c24782/episodes/520a21ea-08ac-4ccf-bfe5-5545ee19f340"], "qualification": "Discovery index https://redcircle.com/shows/the-town-square-podcast7448 and public RSS https://feeds.redcircle.com/fb29aa0a-939f-49d9-8f96-a6a2a9c24782 are navigation/metadata, not additional evidence documents. The hour-long audio was not listened to."},
+    {"candidate_id": "220190", "family": "local_profile", "query": "Follow exact Red&Black campaign-event story linked from retained native homepage and read full substantive original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.redandblack.com/athensnews/district-10-congressional-candidate-pamela-delancy-visits-athens-on-campaign-trail/article_03507ac5-4066-4fee-aa14-27de9125dd72.html"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220195", "resolved_since_previous_journal": ["Complete2018,2024,2025 employer originals and alumni biography now read; dated teaching-role chronology retained.", "Underlying19th interview and supplementary retained LCV section read; no duplicate syndication acquisition counted.", "Actual Election.org/iVoterGuide blanks reviewed; Ballotpedia202, GwinnettForum406 and Civic Circle404 recorded without bypass."], "leads": ["Nonlegislative government employment and military service still need qualifying positive or explicitly scoped negative evidence.", "C&EN full interview not supplied in the accessible introduction; its unseen answers remain unreviewed.", "Earlier Rutgers workshop original and any permitted substantive interviews remain actionable; do not mark the candidate pass complete."]},
+    {"candidate_id": "220190", "resolved_since_previous_journal": ["Actual Red&Black interview now read: Army retirement2019 and reported Pentagon medical-readiness leadership.", "Dated podcast host account supplies explicit Black/woman classification and corrected39-year Army total; not a verbatim transcript."], "leads": ["Seek a genuinely dated birth/age statement; asking enlistment permission at17 is not a dated birth-year observation.", "Independent official/university originals for credentials and service remain actionable.", "Clarify health-board appointment/election mechanism and compensation, scoped prior-office history and ethnicity without proxies."]}
+  ]
+}

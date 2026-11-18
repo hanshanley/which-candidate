@@ -1,0 +1,308 @@
+{
+  "scope": "Continue national person-level research with seven previously unresearched Democratic federal nonincumbents in Illinois and Indiana. Review all ten background traits together. Preserve actual reading, retained-original re-extraction, first evidence, supplementary facts, scoped questionnaire answers and unresolved degree/date details separately. No candidate pass or scientific fit is declared complete.",
+  "documents": [
+    {
+      "id": "220293-retained-campaign-home",
+      "candidate_id": "220293", "name": "Jennifer Todd", "state": "IL", "district": "15", "party": "Democratic",
+      "contest_id": "2026:house:IL:15:general:source_general", "family": "campaign",
+      "url": "https://www.jentodd2026.us/",
+      "source_title": "Jennifer Todd for Congress: complete retained homepage",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220293-home/campaign-220293-home",
+      "retained_sha256": "4539ae1ce2a98c4008de4f5d7e47635adf96eb251797cf8688581828a96559cf",
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate and named committee on the native campaign domain, with Central Illinois congressional platform, match IL15.",
+      "identity_fragments": ["Jennifer Todd"],
+      "source_excerpts": ["Jennifer Todd for Congress.", "A Nurse. A Mom. A Fighter."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_nursing_career_without_employer_or_dates", "factual_reference_date": null, "value": "Campaign describes Todd as a nurse; no employer, completed credential or employment dates supplied here", "source_fragment": "A Nurse."}
+      ],
+      "extraction_review": "Hash-verified and read the complete visible retained body. Motherhood and pronouns do not supply a gender classification. Live public navigation was separately inspected and its About submenu expanded; no substantive biography link was exposed. Do not claim an About biography was read."
+    },
+    {
+      "id": "220287-retained-campaign-biography",
+      "candidate_id": "220287", "name": "Julie Fortier", "state": "IL", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:IL:12:general:source_general", "family": "campaign",
+      "url": "https://www.juliefortier.org/about",
+      "source_title": "Meet Julie Fortier: complete retained campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220287-bio1/campaign-220287-bio1",
+      "retained_sha256": "c740b7646c47fa33717952af7dbe63818d9b2f1b6fe979170dc66522ff749ad9",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign domain, O'Fallon committee and Southern Illinois congressional campaign identify the retained IL12 candidate.",
+      "identity_fragments": ["Julie Fortier"],
+      "source_excerpts": ["Julie Fortier", "U.S. Air Force veteran", "cancer research scientist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_air_force_service_without_dated_term", "factual_reference_date": null, "value": "Campaign explicitly reports U.S. Air Force veteran status; branch positive, no service dates in this document", "source_fragment": "U.S. Air Force veteran"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_cancer_research_career", "factual_reference_date": null, "value": "Cancer research scientist; employer, precise appointment dates and degree not specified", "source_fragment": "cancer research scientist"}
+      ],
+      "extraction_review": "Read the entire hash-verified body, not the live access-denied homepage. Scientist does not imply a doctorate. More than25 years in Southern Illinois is not dated age evidence. Community volunteering does not establish government employment or public elected office."
+    },
+    {
+      "id": "220320-retained-campaign-story",
+      "candidate_id": "220320", "name": "Drew Cox", "state": "IN", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:IN:04:general:source_general", "family": "campaign",
+      "url": "https://www.drewcox.org/drews-story-1",
+      "source_title": "Drew's Story: complete retained campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220320-bio2/campaign-220320-bio2",
+      "retained_sha256": "a633011ec607f0be6303d8eaeeff43519506413de6e83ba98f65651a214a8022",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain and exact Drew Cox committee/footer connect the named subject's Indiana farm, Marine service and music studies to IN04.",
+      "identity_fragments": ["Drew Cox"],
+      "source_excerpts": ["Drew Cox", "doctorate in music from the University of Illinois", "higher education at Indiana University", "March of 2012", "as a Bandsman", "United States Marine Corps"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_music_doctorate_with_unresolved_awarding_institution", "factual_reference_date": null, "value": "Campaign reports a completed music doctorate from University of Illinois and earlier GI Bill-supported study at Indiana University", "source_fragment": "doctorate in music from the University of Illinois", "supporting_fragments": ["higher education at Indiana University"], "unresolved_details": "The dated April12,2026 Based in Lafayette questionnaire instead names Indiana University for the doctorate. Preserve the shared completed music doctorate, but do not resolve its awarding institution without an awarding-university record. This campaign source alone does not award an Indiana degree."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_branch_and_historical_service_dates", "factual_reference_date": "2012-03", "value": "Joined Marine Corps in2008 as bandsman; reports Kabul deployment2011 and honorable discharge in March2012", "source_fragment": "United States Marine Corps", "supporting_fragments": ["March of 2012"], "qualification": "No birth year inferred from enlistment, discharge or undated teenage farm work."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_military_music_and_farm_work", "factual_reference_date": null, "value": "Marine bandsman and family-farm machinery, grain-hauling and seasonal planting work; not a claim of continuous full-time farm ownership", "source_fragment": "as a Bandsman"}
+      ],
+      "extraction_review": "Read complete hash-verified biography. The requested /about-1 URL resolved to this identical original; duplicate receipt entries are not separate documents. His parent's teaching career is not his government employment. Inspiration to run in2025 is not an explicit no-prior-office answer."
+    },
+    {
+      "id": "220318-retained-campaign-biography",
+      "candidate_id": "220318", "name": "Kelly Thompson", "state": "IN", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:IN:03:general:source_general", "family": "campaign",
+      "url": "https://www.kellythompsonforcongress.com/about-me",
+      "source_title": "Who is Kelly? Complete retained first-person campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220318-bio1/campaign-220318-bio1",
+      "retained_sha256": "72bf1fc8f5f9e2d19c429e0f64bceba54f02b83b9548c47343399567f670c36f",
+      "identity_status": "verified",
+      "identity_qualification": "First-person exact name, native campaign committee and IN03 challenge to Marlin Stutzman match the retained candidate, rather than same-name author or Kentucky judge.",
+      "identity_fragments": ["Kelly Thompson"],
+      "source_excerpts": ["Kelly Thompson", "as a woman", "BS of Business Administration", "University of Central Florida", "co-owner of a concrete contracting company", "non-profit for at risk youth"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_first_person_woman_description", "factual_reference_date": "2020", "value": "Describes herself as a woman in her account of the2020 campaign's origin", "source_fragment": "as a woman", "qualification": "Explicit self-description, not a classification inferred from motherhood, name or pronouns."},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_named_bachelors_degree", "factual_reference_date": null, "value": "BS in Business Administration from University of Central Florida; graduation year not supplied", "source_fragment": "BS of Business Administration", "supporting_fragments": ["University of Central Florida"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_business_ownership_and_nonprofit_founder", "factual_reference_date": null, "value": "Concrete-contracting company co-owner serving northern Indiana, southern Michigan and western Ohio; founded at-risk-youth nonprofit focused on suicide prevention and academic support", "source_fragment": "co-owner of a concrete contracting company", "supporting_fragments": ["non-profit for at risk youth"]}
+      ],
+      "extraction_review": "Read complete hash-verified first-person biography. First campaign and political meetings are not no-prior-office or government-employment evidence. Family counts do not date age. Campaign explanations of redistricting or electoral causation are not independently verified research conclusions."
+    },
+    {
+      "id": "220279-campaign-complete-biography",
+      "candidate_id": "220279", "name": "Melissa Bean", "state": "IL", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:IL:08:general:source_general", "family": "campaign",
+      "url": "https://www.melissabeanforcongress.com/meetmelissa",
+      "source_title": "Meet Melissa: complete current campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, IL08 candidacy, three previous House terms and2010 re-election loss match the native candidate and official House history.",
+      "identity_fragments": ["Melissa Bean"],
+      "source_excerpts": ["Melissa Bean", "earned degrees from both Oakton Community College and Roosevelt University", "three terms serving in the US House of Representatives"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_degrees_without_award_types_or_dates", "factual_reference_date": null, "value": "Completed degrees from Oakton Community College and Roosevelt University; this source does not identify award types, majors or years", "source_fragment": "earned degrees from both Oakton Community College and Roosevelt University"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_three_prior_federal_house_terms", "factual_reference_date": null, "value": "Previously represented IL08 for three House terms, with re-election loss in2010", "source_fragment": "three terms serving in the US House of Representatives", "qualification": "Former service is not current2026 federal incumbency; no frozen control changed."}
+      ],
+      "extraction_review": "Read entire underlying biography after homepage navigation. The Marine Raider was her father, not the candidate. Broad public-sector career wording does not independently establish a nonlegislative government job. Wife/mother wording is not used as gender evidence; causal campaign accounts of her2010 loss are not imported as findings."
+    },
+    {
+      "id": "220322-campaign-complete-biography",
+      "candidate_id": "220322", "name": "J. D. Ford", "state": "IN", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:IN:05:general:source_general", "family": "campaign",
+      "url": "https://www.electjdford.com/about",
+      "source_title": "Meet J.D.: complete current campaign About page",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Campaign punctuation J.D. Ford, IN05 candidacy and Indiana Senate29 service link to native J. D. Ford and the retained official biography.",
+      "identity_fragments": ["J.D. Ford"],
+      "source_excerpts": ["J.D. Ford", "Indiana State Senator", "2018", "Since entering the Indiana Senate in 2019", "nonprofit career"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_existing_state_senate_service_with_start_date_detail_unresolved", "factual_reference_date": null, "value": "Indiana Senate District29 member before the2026 federal election", "source_fragment": "Indiana State Senator", "unresolved_details": "One section says entered the Statehouse in2018 and another says entered the Senate in2019. Could distinguish election and session, but not resolved by this campaign text; retain actual service without inventing a precise start date."},
+        {"trait": "profession", "factual_status": "partial", "precision": "candidate_reported_nonprofit_sector_without_specific_position", "factual_reference_date": null, "value": "Describes a nonprofit career without named employers, titles or dates", "source_fragment": "nonprofit career"}
+      ],
+      "extraction_review": "Read the complete About body including leadership sections. Ignore placeholder Lorem Ipsum. Veterans Affairs committee membership does not prove military service. Parents' jobs and grandparents' offices are not his. Relative youth is not precise age. Do not collect unrelated identity details or import homepage outcome claims into scientific results."
+    },
+    {
+      "id": "220324-campaign-complete-biography",
+      "candidate_id": "220324", "name": "Cinde Wirth", "state": "IN", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:IN:06:general:source_general", "family": "campaign",
+      "url": "https://wirth4congress.com/meet-cinde-wirth/",
+      "source_title": "Meet Dr. Cinde Wirth: complete current campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign's Cynthia/Cinde alias, IN06 candidacy, Columbus teaching and Einstein fellowship match the official Department of Energy biography.",
+      "identity_fragments": ["Cinde Wirth"],
+      "source_excerpts": ["Cinde Wirth", "earned her Ph.D. in 2025", "University of Evansville", "Indiana University", "Ball State University", "Columbus Signature Academy", "research consultant", "2018-19", "business owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_bachelors_masters_and_doctorate_with_years", "factual_reference_date": "2025", "value": "University of Evansville BA biology/Spanish1992; Indiana University MA anthropology2009; Ball State PhD educational policy/STEM education2025", "source_fragment": "earned her Ph.D. in 2025", "supporting_fragments": ["University of Evansville", "Indiana University", "Ball State University"], "qualification": "Do not carry forward an older doctoral-student label as though it disproved a later completed award. Not an independently acquired transcript."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_historical_teaching_business_and_policy_work", "factual_reference_date": null, "value": "More than ten years teaching biology/environmental science at Columbus Signature Academy; Indiana University assistant instruction in underwater courses; more than twenty years as a community business owner; congressional research-consultant fellowship", "source_fragment": "Columbus Signature Academy", "supporting_fragments": ["business owner", "research consultant"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "dated_congressional_fellowship_without_employee_or_compensation_classification", "factual_reference_date": "2018-2019", "value": "Campaign reports science/education policy work for the115th/116th House through an Albert Einstein Distinguished Educator Fellowship in2018-19", "source_fragment": "2018-19", "supporting_fragments": ["research consultant"], "qualification": "Actual government-hosted work retained, but fellowship placement alone does not establish paid federal employment. Teaching employer/public-employment classification also needs qualification. No government-employment model value supplied."}
+      ],
+      "extraction_review": "Followed actual homepage biography link from ordinary public HTML and read the full page. Generation counts, childhood locations and graduation years are not age observations. Earlier campaigns and Capitol Hill fellowship do not prove election to public office. Endorsements and pronouns do not classify identity."
+    },
+    {
+      "id": "220324-doe-einstein-complete-biography",
+      "candidate_id": "220324", "name": "Cinde Wirth", "state": "IN", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:IN:06:general:source_general", "family": "official_biography",
+      "url": "https://science.osti.gov/wdts/einstein/Fellows-Central/Alumni-Fellows/Cynthia-Wirth",
+      "source_title": "Department of Energy: Cynthia Wirth, Einstein alumni fellow",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Historical fellowship cohort indicated by2018-19 image path and campaign chronology, not an exact publication timestamp; present tense describes the historical biography.",
+      "identity_status": "verified",
+      "identity_qualification": "Full Cynthia alias, Columbus hometown, exact teaching school, Evansville/Indiana degrees and House fellowship corroborate the same native Cinde Wirth.",
+      "identity_fragments": ["Cynthia Wirth"],
+      "source_excerpts": ["Cynthia Wirth", "B.A. in biology and Spanish", "M.A. in anthropology/archaeology", "Graduate Certificate in underwater resource management", "currently teaches", "Fellowship Placement: U.S. House of Representative"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_biography_completed_awards_and_certificate_distinguished", "factual_reference_date": null, "value": "Evansville BA biology/Spanish; Indiana MA anthropology/archaeology and graduate certificate in underwater resource management; completed IU Secondary Transition to Teach program", "source_fragment": "B.A. in biology and Spanish", "supporting_fragments": ["M.A. in anthropology/archaeology", "Graduate Certificate in underwater resource management"], "qualification": "Certificate and teacher preparation are not additional degree awards; this older biography's omission does not refute a doctorate earned later."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_teaching_and_field_program_account", "factual_reference_date": null, "value": "Began Spanish teaching2009; biography describes biology/environmental-science teaching at Columbus Signature Academy New Tech and field-course development in2003 and2015", "source_fragment": "currently teaches", "qualification": "Undated historical present tense is not an election-day job assertion."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "officially_confirmed_fellowship_placement_not_paid_employment", "factual_reference_date": null, "value": "DOE confirms House of Representatives fellowship placement", "source_fragment": "Fellowship Placement: U.S. House of Representative", "qualification": "Confirms the host institution, not elected status, civil-service appointment, compensation or a separate government-employment analytical value."}
+      ],
+      "extraction_review": "Read complete federal-program biography. Congressional host, teaching activities and completed credentials are distinct. No age inferred from degree dates, no race from hometown and no military negative from omitted service."
+    },
+    {
+      "id": "220322-retained-official-complete-biography",
+      "candidate_id": "220322", "name": "J. D. Ford", "state": "IN", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:IN:05:general:source_general", "family": "official_biography",
+      "url": "https://www.indianasenatedemocrats.org/wp-content/uploads/2020/05/Ford-Bio-5.pdf",
+      "source_title": "Indiana Senate Democrats: Senator J.D. Ford, complete two-page biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_date_note": "Historical2020/05 URL and2019 task-force entries; exact publication day not established. Reused the existingV4 receipt, not a new official filing.",
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v4/in-ford-2020",
+      "retained_sha256": "6bb779ab7106b9a835cba1620b17e9a4450ff345314e0d7f7274d3dd4f034e77",
+      "identity_status": "verified",
+      "identity_qualification": "Senator J.D. Ford, Indiana District29, matching education and same state-legislative career link the document to native J. D. Ford.",
+      "identity_fragments": ["Senator J.D. Ford"],
+      "source_excerpts": ["Senator J.D. Ford", "Elected on his 36th birthday", "Bachelor of Science", "Akron", "Master of Science", "Purdue University", "higher education", "advisory committees and task forces"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "relative_age_at_election_without_calendar_date_in_document", "factual_reference_date": null, "value": "Official biography says elected on his36th birthday; the election's calendar date is not stated in this PDF", "source_fragment": "Elected on his 36th birthday", "qualification": "Supplementary relative-age observation only; do not manufacture a birth date or replace already qualified age."},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_biography_explicit_completed_bachelors_and_masters", "factual_reference_date": null, "value": "University of Akron BS political science/criminal justice; Purdue MS education with human-services emphasis", "source_fragment": "Bachelor of Science", "supporting_fragments": ["Akron", "Master of Science", "Purdue University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_higher_education_and_nonprofit_career_account", "factual_reference_date": null, "value": "Career in higher education and executive-level Central Indiana nonprofit positions; specific employers and dates not supplied", "source_fragment": "higher education", "qualification": "Sector description alone does not identify public versus private academic employer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_state_senate_role_confirmed_before_federal_election", "factual_reference_date": null, "value": "Indiana Senator, District29, with legislative committee assignments", "source_fragment": "Senator J.D. Ford", "qualification": "His grandparents' local offices are not coded as his."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_advisory_appointments_without_employment_status", "factual_reference_date": "2019", "value": "Official biography reports advisory committees/task forces, including Medicaid, civics, redistricting, jail overcrowding and distressed-unit appeals appointments", "source_fragment": "advisory committees and task forces", "qualification": "Some appointments carry2019 labels, not necessarily every role. Advisory service is retained without asserting paid employment, a civil-service role or election."}
+      ],
+      "extraction_review": "Located existing extensionless original from the receipt, verified SHA256 and read both pages in full. No re-download. Legislative committee membership is not military service. Relatives' careers and unrelated identity details are not requested-trait evidence."
+    },
+    {
+      "id": "220293-wttw-complete-general-questionnaire",
+      "candidate_id": "220293", "name": "Jennifer Todd", "state": "IL", "district": "15", "party": "Democratic",
+      "contest_id": "2026:house:IL:15:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://news.wttw.com/elections/voters-guide/2026-general/jennifer-todd",
+      "source_title": "WTTW2026 General Election: Jennifer Todd, complete candidate Q&A",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Explicit2026 general-election guide; no exact publication date displayed. Current unrelated news cards do not date the candidate's responses.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Democratic IL15 candidacy and link to native jentodd2026.us identify the retained candidate.",
+      "identity_fragments": ["Jennifer Todd"],
+      "source_excerpts": ["Jennifer Todd", "Age: 56", "Occupation: RN, retired", "Political Experience: None"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_age_in_2026_guide_without_exact_observation_day", "factual_reference_date": "2026", "value": "Age56 in the2026 general-election guide; exact observation day and birth date unknown", "source_fragment": "Age: 56", "qualification": "Retain the reported age at its actual precision; not an exact age on November3 or a fabricated birth date."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "questionnaire_reported_registered_nurse_and_retirement", "factual_reference_date": "2026", "value": "Questionnaire reports retired registered nurse", "source_fragment": "Occupation: RN, retired"}
+      ],
+      "extraction_review": "Read full About and all candidate answers. Retain the exact Political Experience: None field as a scoped questionnaire response, not an analytically qualified no-prior-elected-office, no-government-employment or no-military claim. Her father's veteran status is not hers. A discovered school-board lead still requires person and office-mechanism verification. No religion inferred from political or policy language."
+    },
+    {
+      "id": "220279-house-historian-complete-biography",
+      "candidate_id": "220279", "name": "Melissa Bean", "state": "IL", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:IL:08:general:source_general", "family": "official_biography",
+      "url": "https://history.house.gov/People/Detail/10405",
+      "source_title": "House History, Art and Archives: BEAN, Melissa L., complete concise and extended biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact full-name heading, IL federal service2005-2011, Oakton/Roosevelt education and linked Bioguide B001253 agree with the campaign and native former-member identity.",
+      "identity_fragments": ["BEAN, Melissa L."],
+      "source_excerpts": ["BEAN, Melissa L.", "January 22, 1962", "A.A., Oakton Community College", "B.A., Roosevelt University", "consultant; businesswoman", "January 3, 2005-January 3, 2011"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_exact_birth_date", "factual_reference_date": "1962-01-22", "value": "Born January22,1962; age64 at the November3,2026 reference date", "source_fragment": "January 22, 1962", "qualification": "Corroborates existing age, not a new previously unknown field."},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_degrees_with_years_and_bachelors_major", "factual_reference_date": "2002", "value": "Oakton AA1982; Roosevelt BA2002, extended biography specifies political science; Maine East High School graduation1980", "source_fragment": "A.A., Oakton Community College", "supporting_fragments": ["B.A., Roosevelt University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_technology_consulting_and_business_career", "factual_reference_date": null, "value": "Consultant and businesswoman; more than twenty years in technology before Congress, founded consulting firm and later returned to private corporate business", "source_fragment": "consultant; businesswoman", "qualification": "Historical career account, not an assertion of a specific election-day employer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_exact_prior_federal_service_interval", "factual_reference_date": "2005-01-03/2011-01-03", "value": "Elected Democratic House member, January3,2005-January3,2011", "source_fragment": "January 3, 2005-January 3, 2011", "qualification": "Prior federal service does not make her an incumbent at the2026 cutoff."}
+      ],
+      "extraction_review": "Read complete concise and extended biography and supporting bibliography. Existing Historian/Bioguide collections are not presented as newly discovered national datasets. No ancestry, religion, nonlegislative public-employment or military-service inference from family or legislative work."
+    },
+    {
+      "id": "220320-based-in-lafayette-complete-questionnaire",
+      "candidate_id": "220320", "name": "Drew Cox", "state": "IN", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:IN:04:general:source_general", "family": "local_profile",
+      "url": "https://www.basedinlafayette.com/p/2026-primary-candidate-q-and-a-us",
+      "source_title": "Dave Bangert, Based in Lafayette:2026 primary candidate Q&A, U.S. House4th District; complete Cox answers and biography",
+      "publication_date": "2026-04-12", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact Drew Cox Democratic IN04 primary candidacy, native drewcox.org link, Marine service and Purdue faculty role identify the same general-election candidate.",
+      "identity_fragments": ["Drew Cox"],
+      "source_excerpts": ["Drew Cox", "Age: 42", "Faculty at Purdue University", "Doctorate in Music from Indiana University", "Past elected positions, if any: N/A", "As a U.S. Marine"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "dated_candidate_questionnaire_reported_age", "factual_reference_date": "2026-04-12", "value": "Reports age42 in the April12,2026 questionnaire; implies birth between April13,1983 and April12,1984 if age refers to publication date", "source_fragment": "Age: 42", "qualification": "No exact birth date asserted; candidate response could predate publication. Election-day age remains42 or43 under the publication-date interpretation."},
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_music_doctorate_with_unresolved_awarding_institution", "factual_reference_date": "2026-04-12", "value": "Questionnaire reports a completed music doctorate and names Indiana University", "source_fragment": "Doctorate in Music from Indiana University", "unresolved_details": "Campaign instead awards the doctorate to University of Illinois while describing earlier IU study. Retain the shared completed music doctorate but leave the awarding institution unresolved pending an awarding-university record."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_candidate_reported_public_university_faculty_position", "factual_reference_date": "2026-04-12", "value": "Purdue University faculty member in the dated primary questionnaire", "source_fragment": "Faculty at Purdue University"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_public_university_faculty_employment_corroborated_by_employer", "factual_reference_date": "2026-04-12", "value": "Faculty employment at public Purdue University; current employer directory separately confirms visiting music instructor", "source_fragment": "Faculty at Purdue University", "qualification": "A specific faculty role, not inferred from student attendance, a teaching parent or volunteer affiliation. Public-university employment retained factually; not promoted into frozen analytical models."},
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_first_person_branch_self_report", "factual_reference_date": "2026-04-12", "value": "Explicit first-person U.S. Marine veteran account", "source_fragment": "As a U.S. Marine", "qualification": "His assertion that he is the only veteran in the Democratic primary does not establish negatives for other people."}
+      ],
+      "extraction_review": "Read both displayed portions through Cox's entire answer set and the candidate-biography section. N/A in past elected positions is not an explicit negative. Do not transfer Jim Baird's Purdue animal-science degrees or other primary candidates' ages and offices to Cox. Preserve doctorate institution discrepancy without treating the shared award as wholly unsupported."
+    },
+    {
+      "id": "220320-purdue-complete-employer-profile",
+      "candidate_id": "220320", "name": "Drew Cox", "state": "IN", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:IN:04:general:source_general", "family": "university_employer_professional",
+      "url": "https://cla.purdue.edu/directory/profiles/drew-cox.html",
+      "source_title": "Purdue College of Liberal Arts: Drew Cox, complete employer directory profile",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact full name, Purdue music-instructor role and Lafayette location corroborate the candidate's dated questionnaire and music career. Directory is reached through its actual linked faculty entry.",
+      "identity_fragments": ["Drew Cox"],
+      "source_excerpts": ["Drew Cox", "Visiting Instructor", "Music", "Rueff School of Design, Art, and Performance"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "employer_confirmed_current_music_instructor_title", "factual_reference_date": "2026-11-18", "value": "Purdue visiting instructor in Music, Rueff School of Design, Art and Performance", "source_fragment": "Visiting Instructor", "supporting_fragments": ["Music"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "public_university_employer_confirmed_faculty_role", "factual_reference_date": "2026-11-18", "value": "Purdue's own employer directory confirms a faculty instructor position at the public university", "source_fragment": "Visiting Instructor", "qualification": "Current directory alone would not prove pre-election timing; the separate April12,2026 questionnaire supplies earlier role evidence. No tenure, rank beyond listed title or appointment dates inferred."}
+      ],
+      "extraction_review": "Initial /directory/profiles/ supplied only a redirect notice. Followed the actual directory index, extracted the exact named person's real link and read the complete short profile. It does not list degrees, so it cannot resolve the doctorate institution discrepancy."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220293", "family": "campaign", "query": "Hash-verify and read retained native homepage; inspect and expand live About navigation using normal public browser controls", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.jentodd2026.us/"], "qualification": "No substantive About link exposed; homepage nurse banner is not a full biography."},
+    {"candidate_id": "220287", "family": "campaign", "query": "Read complete hash-verified retained About biography rather than repeating an unchanged campaign crawl", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.juliefortier.org/about"]},
+    {"candidate_id": "220320", "family": "campaign", "query": "Read complete hash-verified retained campaign story and deduplicate the old About URL's identical resolved original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.drewcox.org/drews-story-1", "https://www.drewcox.org/about-1"], "lead_dispositions": {"https://www.drewcox.org/about-1": {"status": "duplicate_reviewed_original", "reason": "Recorded public redirect and identical retained SHA256; accepted once under actual story URL."}}},
+    {"candidate_id": "220318", "family": "campaign", "query": "Read complete hash-verified retained first-person About biography, extracting all supported requested traits together", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kellythompsonforcongress.com/about-me"]},
+    {"candidate_id": "220279", "family": "campaign", "query": "Read public campaign homepage, follow actual Meet Melissa link and read full biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.melissabeanforcongress.com/meetmelissa"], "qualification": "Homepage used for identity/navigation, not counted as another independent biographical original."},
+    {"candidate_id": "220322", "family": "campaign", "query": "Read live native campaign homepage and follow its actual About link; read complete biography and leadership sections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.electjdford.com/about"], "qualification": "Homepage campaign outcome claims are not scientific results."},
+    {"candidate_id": "220324", "family": "campaign", "query": "Read campaign homepage and inspect ordinary public HTML for the actual Meet Cinde biography link; follow and read full biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wirth4congress.com/meet-cinde-wirth/"], "qualification": "Homepage video/podcast links discovered but audio/interviews not read; remain actionable."},
+    {"candidate_id": "220324", "family": "ballotpedia_questionnaire", "query": "Follow existing matched BallotReady person-profile lead", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.ballotready.org/people/cinde-wirth"], "lead_dispositions": {"https://www.ballotready.org/people/cinde-wirth": {"status": "access_failure", "reason": "HTTP404; no biography body read. Does not establish absent credentials or service."}}},
+    {"candidate_id": "220293", "family": "ballotpedia_questionnaire", "query": "Follow exact Ballotpedia Jennifer Todd person page discovered in candidate research", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Jennifer_Todd"], "lead_dispositions": {"https://ballotpedia.org/Jennifer_Todd": {"status": "access_failure", "reason": "Simplifier supplied no usable original body. No biography, survey or snippet accepted; no repeated retry or bypass."}}},
+    {"candidate_id": "220293", "family": "ballotpedia_questionnaire", "query": "Follow and read full WTTW general-election candidate About and all Q&A answers", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://news.wttw.com/elections/voters-guide/2026-general/jennifer-todd"]},
+    {"candidate_id": "220324", "family": "official_biography", "query": "Follow and read complete Department of Energy alumni-fellow biography after matching Cynthia/Cinde alias, Columbus school and House fellowship", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://science.osti.gov/wdts/einstein/Fellows-Central/Alumni-Fellows/Cynthia-Wirth"]},
+    {"candidate_id": "220322", "family": "official_biography", "query": "Check existing Ford2020 receipt, locate extensionless retained original, verify SHA256 and read both PDF pages", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.indianasenatedemocrats.org/wp-content/uploads/2020/05/Ford-Bio-5.pdf"], "qualification": "Re-extraction of an existingV4 source, not a newly acquired official dataset."},
+    {"candidate_id": "220279", "family": "official_biography", "query": "Follow exact House Historian person record and read complete concise/extended biography with linked Bioguide identifier", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://history.house.gov/People/Detail/10405"]},
+    {"candidate_id": "220320", "family": "local_profile", "query": "Follow substantive Based in Lafayette primary Q&A; read both content portions including complete Cox answers and candidate-biography block", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.basedinlafayette.com/p/2026-primary-candidate-q-and-a-us"]},
+    {"candidate_id": "220320", "family": "university_employer_professional", "query": "Follow public Purdue directory notice to actual index, locate real Drew Cox profile link and read complete employer profile", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cla.purdue.edu/directory/profiles/drew-cox.html"], "qualification": "Directory index used only to discover actual person link. Complete current profile corroborates employment but does not award degrees."},
+    {"candidate_id": "220318", "family": "ballotpedia_questionnaire", "query": "Follow exact Indiana-specific Ballotpedia Kelly Thompson lead, excluding same-name author/judge results", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Kelly_Thompson_(Indiana)"], "lead_dispositions": {"https://ballotpedia.org/Kelly_Thompson_(Indiana)": {"status": "access_failure", "reason": "No usable original body from simplifier. Search excerpts about age, education and jail ministry are not accepted evidence; do not infer religion or government employment."}}},
+    {"candidate_id": "220318", "family": "local_profile", "query": "Read complete original News Now Warsaw October12 campaign interview rather than infer religion from its headline or a snippet", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://www.newsnowwarsaw.com/3rd-district-candidate-kelly-thompson-says-election-a-matter-of-good-and-evil/"], "lead_dispositions": {"https://www.newsnowwarsaw.com/3rd-district-candidate-kelly-thompson-says-election-a-matter-of-good-and-evil/": {"status": "reviewed_no_requested_facts", "reason": "Complete interview read. Prior2020 candidacy is not prior elected office. Mentioning Jesus and moral political language do not explicitly identify current religious affiliation. Community-service names without employment roles do not qualify another occupation or government job. No new requested-trait claim accepted."}}},
+    {"candidate_id": "220287", "family": "local_profile", "query": "Follow exact County Journal December4,2025 PDF profile lead with one ordinary verified HTTPS request", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://countyjournal.org/december42025.pdf"], "lead_dispositions": {"https://countyjournal.org/december42025.pdf": {"status": "access_failure", "reason": "HTTP403 from ordinary request. No PDF downloaded/read; search passages are discovery only. Do not claim completed degree or service years from the snippet. Stop retries and do not bypass."}}},
+    {"candidate_id": "220293", "family": "local_profile", "query": "Follow discovered State Journal-Register syndication and two distinct dated original local-paper profiles for age and completed education", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://bluewaterhealthyliving.com/news/national-news/illinois/congresswoman-mary-miller-looks-to-stave-off-challenger-jennifer-todd/", "https://www.myjournalcourier.com/news/article/jennifer-todd-challenges-mary-miller-2026-election-20258930.php", "https://www.thetelegraph.com/news/article/illinois-15th-district-democratic-primary-21947299.php"], "lead_dispositions": {"https://bluewaterhealthyliving.com/news/national-news/illinois/congresswoman-mary-miller-looks-to-stave-off-challenger-jennifer-todd/": {"status": "access_failure", "reason": "HTTP403; no original story read. Stop retries."}, "https://www.myjournalcourier.com/news/article/jennifer-todd-challenges-mary-miller-2026-election-20258930.php": {"status": "access_failure", "reason": "Only required-site-component loading notice returned, not article body. No dated age55 or degree evidence accepted from search excerpts."}, "https://www.thetelegraph.com/news/article/illinois-15th-district-democratic-primary-21947299.php": {"status": "access_failure", "reason": "Distinct article returned only required-site-component loading notice, not its body. No original read or degree claim accepted."}}},
+    {"candidate_id": "220287", "family": "campaign", "query": "Attempt current public homepage and prospective press-kit path after reading retained biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.juliefortier.org/", "https://www.juliefortier.org/press-kit"], "lead_dispositions": {"https://www.juliefortier.org/": {"status": "access_failure", "reason": "HTTP403; no live homepage body read. Existing hash-verified retained About body was independently read locally, not fetched around a restriction."}, "https://www.juliefortier.org/press-kit": {"status": "access_failure", "reason": "Prospective navigation path returned403 and was not a verified press-kit document link. No content accepted; stop further live-site attempts."}}},
+    {"candidate_id": "220287", "family": "university_employer_professional", "query": "\"Julie Fortier\" education biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; original-page follow-ups recorded separately. No exhaustive-search inference from batch attribution."},
+    {"candidate_id": "220293", "family": "official_biography", "query": "\"Jennifer Todd\" \"school board\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Batched results include an Angoon, Alaska same-name board member; no identity bridge to Illinois candidate established. Do not transfer that office or treat a search result as a read original. Candidate's own school-board-history lead remains unresolved."},
+    {"candidate_id": "220318", "family": "local_profile", "query": "\"Kelly Thompson\" Indiana candidate age education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed query with mixed same-name and aggregator results; only independently followed originals can supply evidence."},
+    {"candidate_id": "220320", "family": "university_employer_professional", "query": "\"Drew Cox\" \"Purdue\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; actual directory and questionnaire follow-ups separately retained."},
+    {"candidate_id": "220293", "family": "university_employer_professional", "query": "\"Jennifer Todd\" \"nursing\" \"degree\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Do not assign same-name Mississippi, New Jersey or Maryland education/employment records to this candidate. Discovered Illinois articles were followed and their actual access outcomes retained."},
+    {"candidate_id": "220320", "family": "university_employer_professional", "query": "\"Drew Cox\" site:cla.purdue.edu/directory/profiles", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual employer page separately read; batched output is not proof every family was searched."},
+    {"candidate_id": "220324", "family": "local_profile", "query": "\"Cinde Wirth\" \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search surfaced an unsourced user-edited exact birthday. No underlying supporting birth/age original read, no age accepted and no family-obituary inference."},
+    {"candidate_id": "220279", "family": "official_biography", "query": "\"Melissa Bean\" site:history.house.gov", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Exact House record followed and read separately; query provenance does not imply newly acquired national Historian dataset."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220293", "leads": ["Locate an actual substantive campaign biography or public professional/university original for named completed degrees; blocked snippets are not evidence.", "Verify any claimed school-board service with the correct Illinois person, jurisdiction and election/appointment mechanism before interpreting Political Experience: None.", "Seek dated birth/age originals beyond an undated2026 guide and explicit identity/religion/service evidence without family or nursing-career proxies."]},
+    {"candidate_id": "220287", "leads": ["Review existing retained homepage and actual cached press-kit links, if any, without fetching around current403 responses.", "Find independent awarding-university/employer biography for degree completion and research career. County Journal403 prevents reading its actual profile; no snippet-derived award accepted.", "Continue dated age, explicit identity/affiliation, scoped prior-office and civilian-public-employment research; Air Force service already positively supported."]},
+    {"candidate_id": "220279", "leads": ["Follow existing university and professional-employer originals, including Roosevelt/Oakton and public Mesirow biography, for career chronology and independent award corroboration.", "Continue substantive local/earlier questionnaire research for explicit affiliation/identity and scoped service evidence. Father's Marine service is not hers."]},
+    {"candidate_id": "220324", "leads": ["Follow awarding-university2025 dissertation/commencement and historical employer originals; public-school employment mechanism and fellowship compensation remain to be qualified.", "Follow actual campaign-linked WFYI/podcast interviews where permitted. Do not claim audio was listened to.", "Seek a primary dated age/birth source and explicit affiliation/ethnicity/service evidence; user-edited unsupported birthdays and database absence do not qualify."]},
+    {"candidate_id": "220320", "leads": ["Resolve doctorate awarding institution using an awarding-university original: campaign names Illinois, dated questionnaire names Indiana. Shared completed music doctorate retained.", "Follow official military/music and substantive earlier biographies for age corroboration, career timing and explicit requested identities.", "Seek scoped prior-office/military comparison answers; N/A is not an explicit negative."]},
+    {"candidate_id": "220322", "leads": ["Resolve2018 versus2019 service-start wording using dated official service records without changing protected controls.", "Follow matched professional/university and substantive earlier interview originals for higher-education/nonprofit employers and public-employment status.", "Advisory appointments do not resolve paid-government employment or military service; continue explicit requested-identity and affiliation research."]},
+    {"candidate_id": "220318", "leads": ["Seek accessible original Candidate Connection answers or independently cited originals, without retrying empty Ballotpedia responses.", "Follow actual university/employer and earlier2020 campaign originals for dated age, education/career chronology and explicit requested identities.", "Local interview's Jesus quotation and ministry search snippet do not prove current religious affiliation or paid jail employment; continue scoped service/office research."]}
+  ]
+}

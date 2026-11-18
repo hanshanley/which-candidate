@@ -66,10 +66,10 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220188,Caitlyn Gegen,GA,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",8,"[""https://caitlynforgeorgia.com""]"
 220194,Ceretta Smith,GA,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,[]
 220192,Chris Harden,GA,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://www.chrishardenforcongress.com""]"
-220195,Jasmine Clark,GA,13,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
+220195,Jasmine Clark,GA,13,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,[]
 42478026,Kelly Esti,GA,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""university_employer_professional""]",3,"[""https://kellyesti4congress.com""]"
 220176,Maura Keller,GA,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",1,"[""https://www.maurakeller.com""]"
-220190,Pamela DeLancy,GA,10,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",3,"[""https://votepamdelancy.com""]"
+220190,Pamela DeLancy,GA,10,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",5,"[""https://votepamdelancy.com""]"
 220198,Shawn Harris,GA,14,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography"", ""university_employer_professional""]",3,"[""https://www,shawnforgeorgia.com""]"
 220344,Christina Bohannan,IA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.bohannanforcongress.com""]"
 220353,Dave Dawson,IA,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",4,[]
@@ -79,18 +79,18 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220238,Kaylee Peterson,ID,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",1,"[""https://kayleeforcongress.com""]"
 220281,Daniel K. Biss,IL,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.danielbiss.com""]"
 220265,Donna Miller,IL,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://donnaforcongress.com""]"
-220293,Jennifer Todd,IL,15,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://jentodd2026.us""]"
-220287,Julie Fortier,IL,12,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://juliefortier.org""]"
+220293,Jennifer Todd,IL,15,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,"[""https://jentodd2026.us""]"
+220287,Julie Fortier,IL,12,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""https://juliefortier.org""]"
 220277,La Shawn Ford,IL,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",3,[]
-220279,Melissa Bean,IL,08,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220279,Melissa Bean,IL,08,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
 220269,Patty Garcia,IL,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://pattyforillinois.com""]"
 220295,Paul Nolley,IL,16,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://nolleyforcongress.com""]"
 220331,Brad Meyer,IN,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",4,"[""https://bradmeyer.org""]"
-220324,Cinde Wirth,IN,06,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220320,Drew Cox,IN,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.drewcox.org""]"
-220322,J. D. Ford,IN,05,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220324,Cinde Wirth,IN,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",2,[]
+220320,Drew Cox,IN,04,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://www.drewcox.org""]"
+220322,J. D. Ford,IN,05,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
 220315,Jamee Decio,IN,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",9,[]
-220318,Kelly Thompson,IN,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kellythompsonforcongress.com""]"
+220318,Kelly Thompson,IN,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",1,"[""https://kellythompsonforcongress.com""]"
 220329,Mary Allen,IN,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.maryallenforcongress.com""]"
 220372,Don Coover,KS,02,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://doncooverforcongress.com/""]"
 220378,Katy Tyndell,KS,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://katyforkansas.com/""]"
