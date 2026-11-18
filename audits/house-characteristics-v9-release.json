@@ -1,0 +1,47 @@
+{
+  "schema": "which_candidate.characteristics_v9_release.v1",
+  "repository": "hanshanley/which-candidate",
+  "release": "characteristics-v9",
+  "release_id": 449551863,
+  "release_url": "https://github.com/hanshanley/which-candidate/releases/tag/characteristics-v9",
+  "release_target_commit": "88ec49399616dee0d96f2db281060570485e1fd0",
+  "acquisition_checkpoint_commit": "bc9e289f3fa9ee0e3da3938ddc1c70e9f3835006",
+  "immutable_v8_baseline_commit": "818d7fc1ce46e611193daf3afe05015bc395887f",
+  "release_draft": false,
+  "release_immutable": true,
+  "tag_ref_verified_against_scientific_commit": true,
+  "download_method": "gh release download from actual GitHub release assets",
+  "assets": {
+    "complete-queries.zip": {
+      "bytes": 115541959,
+      "sha256": "78447a60c4c1bda80714d6984a706ba7db9dce31bae04fe4fd5526b6aac1aa64",
+      "url": "https://github.com/hanshanley/which-candidate/releases/download/characteristics-v9/complete-queries.zip",
+      "asset_id": 762011274,
+      "actual_download_verified": true,
+      "byte_identical_to_local": true
+    },
+    "substack-figures.zip": {
+      "bytes": 115691617,
+      "sha256": "4bdeb89dbe3b251c2ea62ef235e4a00e77ee6f3b34dbeea98395ac4a91ade9e3",
+      "url": "https://github.com/hanshanley/which-candidate/releases/download/characteristics-v9/substack-figures.zip",
+      "asset_id": 762011278,
+      "actual_download_verified": true,
+      "byte_identical_to_local": true
+    }
+  },
+  "receipt_inclusive_offline_replay": {
+    "status": "passed",
+    "network": "Network access denied during complete-download replay",
+    "historical_raw_caches": "absent",
+    "archive_members_byte_identical": 911,
+    "both_complete_downloads_byte_identical": true,
+    "exact_nested_query_zip": true,
+    "standard_library_LZMA_extraction": "passed"
+  },
+  "actual_downloaded_archive_members": 911,
+  "actual_downloaded_protected_file_hashes_verified": 562,
+  "actual_downloaded_validation_receipt_matches_repository": true,
+  "exact_downloaded_nested_query_zip": true,
+  "website_deployment": false,
+  "circularity_note": "This transport-verification receipt is excluded from current scientific archive inputs. The historical V8 transport receipt is included because it is protected by the V9 baseline."
+}
