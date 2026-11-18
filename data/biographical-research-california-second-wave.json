@@ -1,0 +1,231 @@
+{
+  "scope": "Additive all-background-trait reading for two previously unresearched Democratic nonincumbents, plus substantive outstanding Jamie Joyce originals. No person pass is declared complete and no scientific fit changes.",
+  "documents": [
+    {
+      "id": "219956-campaign-family-and-faith",
+      "candidate_id": "219956", "name": "Eric Jones", "state": "CA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:CA:04:general:source_general", "family": "campaign",
+      "url": "https://www.ericjones.us/meet-eric/family",
+      "source_title": "Eric Jones for Congress: Eric's Family",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Entire living campaign page reviewed. Its observation date does not establish pre-election publication; historical age refers to the 2021 move.",
+      "identity_status": "verified",
+      "identity_qualification": "Same EricJones.us domain identified by the CA04 congressional campaign and county candidate statements; Napa residence, business history and congressional candidacy agree with the dated Patch questionnaire.",
+      "identity_fragments": ["Eric’s Family"],
+      "source_excerpts": ["Eric’s Family", "I was 30 years old", "I'm a Christian", "raised Catholic", "prior life in business"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "self_reported_age_at_year_dated_move", "factual_reference_date": "2021", "value": "Reports being 30 when moving to Napa in 2021", "source_fragment": "I was 30 years old", "qualification": "Neither the move's exact date nor an exact birthday is supplied."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_current_self_identification_separate_from_upbringing", "factual_reference_date": null, "value": "Christian; separately reports Catholic upbringing and childhood confirmation", "source_fragment": "I'm a Christian", "supporting_fragments": ["raised Catholic"], "qualification": "Current Christian self-identification does not establish a current Catholic denominational affiliation. Undated living-page evidence is not automatically prediction-time available."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "self_reported_historical_career_sector", "factual_reference_date": null, "value": "Reports a prior business career", "source_fragment": "prior life in business", "qualification": "Specific roles and organizations are described in the separate questionnaire. Relatives' education and occupations are not assigned to him."}
+      ]
+    },
+    {
+      "id": "219956-patch-background-and-office-questionnaire",
+      "candidate_id": "219956", "name": "Eric Jones", "state": "CA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:CA:04:general:source_general", "family": "local_profile",
+      "url": "https://patch.com/california/napavalley/amp/35071977/meet-congressional-district-4-candidate-eric-jones",
+      "source_title": "Angela Woodall, Napa Valley Patch: Meet Congressional District 4 Candidate Eric Jones",
+      "publication_date": "2026-10-23", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read the article and background questionnaire. Publisher explicitly says responses are reprinted verbatim; candidate responses remain self-reports rather than independent fact checks.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CA04 general-election candidacy, Yale attendance, named businesses and Napa-area campaign agree with the campaign domain.",
+      "identity_fragments": ["Eric Jones"],
+      "source_excerpts": ["Eric Jones, 35", "Yale", "economics and international relations", "business builder", "Medicare (CMS)", "two nonprofits", "appointive or elective", "No, I've never held public office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_reported_age_in_dated_questionnaire", "factual_reference_date": "2026-10-23", "value": "Reported age 35 on October 23, 2026", "source_fragment": "Eric Jones, 35", "qualification": "Retain the dated age without inventing a birthday or precise election-day age."},
+        {"trait": "education", "factual_status": "partial", "precision": "named_university_attendance_subjects_and_scholarship", "factual_reference_date": "2026-10-23", "value": "Reports full scholarship to Yale and study of economics and international relations", "source_fragment": "Yale", "supporting_fragments": ["economics and international relations"], "qualification": "This answer does not explicitly state a completed degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_business_and_nonprofit_roles", "factual_reference_date": "2026-10-23", "value": "Business building involving Maven Clinic, Lyra Health, Chime, Nubank and Duolingo; founded a local nonprofit and American Dream Institute", "source_fragment": "business builder", "supporting_fragments": ["two nonprofits"], "qualification": "The answer does not establish identical employment titles or founder status at each named company."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_negative_answer_to_appointed_or_elected_public_office_question", "factual_reference_date": "2026-10-23", "value": "Explicitly reports never having held appointive or elective public office as of the questionnaire", "source_fragment": "No, I've never held public office", "supporting_fragments": ["appointive or elective"], "qualification": "A scoped candidate-reported negative, not an inference from first candidacy or missing database rows. It does not establish no government employment or military service and does not by itself create a supported analytical contrast."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "reported_federal_program_collaboration_without_employment_relationship", "factual_reference_date": "2026-10-23", "value": "Reports working with CMS to pilot rural senior care", "source_fragment": "Medicare (CMS)", "qualification": "Working with a federal program is not proof of direct government employment. The campaign answers page explicitly describes outside advising."}
+      ]
+    },
+    {
+      "id": "219956-campaign-experience-answers",
+      "candidate_id": "219956", "name": "Eric Jones", "state": "CA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:CA:04:general:source_general", "family": "campaign",
+      "url": "https://www.ericjones.us/answers",
+      "source_title": "Eric Jones for Congress: Questions Answered",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Reviewed background/experience, personal-story, faith and district-ties answers, not every unrelated policy answer. Undated living page.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, same campaign domain, CA04 and challenge to Mike Thompson, Yale attendance, Napa residence and CMS work identify the retained candidate.",
+      "identity_fragments": ["Eric Jones"],
+      "source_excerpts": ["Eric Jones", "At 35", "Yale", "outside expert and operator", "never held public office", "is a Christian", "American Dream Institute", "2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "self_reported_age_at_undated_career_transition", "factual_reference_date": null, "value": "Reports leaving business for public service at age 35", "source_fragment": "At 35", "qualification": "The event is not separately dated; use the dated Patch age rather than treating this as an exact birth date."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_campaign_current_affiliation", "factual_reference_date": null, "value": "Christian", "source_fragment": "is a Christian", "qualification": "No current denomination is supplied."},
+        {"trait": "education", "factual_status": "partial", "precision": "named_university_attendance_and_scholarship", "factual_reference_date": null, "value": "Yale full-scholarship student; refers to junior-year experience", "source_fragment": "Yale", "qualification": "A scholarship and junior-year experience are not a completed credential."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "self_reported_business_and_dated_nonprofit_founding", "factual_reference_date": "2024", "value": "Business career and American Dream Institute founder in 2024; outside expert advising CMS and public officials", "source_fragment": "American Dream Institute", "supporting_fragments": ["2024", "outside expert and operator"], "qualification": "Only nonprofit founding is assigned the 2024 date; other roles have their own unspecified or separately stated dates."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_campaign_negative_public_office_statement", "factual_reference_date": null, "value": "Reports never having held public office before this congressional candidacy", "source_fragment": "never held public office", "qualification": "The dated questionnaire supplies the stronger reference date; no employment or military negative follows."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_outside_adviser_not_identified_as_government_employee", "factual_reference_date": null, "value": "Describes CMS work as outside expert advising; also reports advising Congress during the 2023 banking crisis", "source_fragment": "outside expert and operator", "qualification": "Retain the collaboration fact without promoting it to direct government employment or a universal nonemployment claim."}
+      ]
+    },
+    {
+      "id": "219963-retained-campaign-about",
+      "candidate_id": "219963", "name": "Michael Masuda", "state": "CA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:CA:05:general:source_general", "family": "campaign",
+      "url": "https://www.votemasuda.com/about",
+      "source_title": "Michael Masuda for Congress in CA5: About Michael",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-219963-bio2/campaign-219963-bio2",
+      "sha256": "b3d8611e50abb1b26ebc1c1e2b64150789dfca20500449c9aed6c291bb5da916",
+      "source_date_note": "Read the retained original, originally requested at /about-1 and resolved to /about. No repeated campaign download. Living biography has no publication date.",
+      "identity_status": "verified",
+      "identity_qualification": "Native VoteMasuda.com domain, exact name, CA05, Amador upbringing and AAAS/State Department career match the county statement and Candidate Connection response.",
+      "identity_fragments": ["Michael Masuda"],
+      "source_excerpts": ["Michael Masuda", "pursue an electrical engineering degree", "Johns Hopkins University Applied Physics Laboratory", "Foreign Affairs Officer", "2021", "Amador Creamery"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "named_school_and_university_attendance_without_completion_here", "factual_reference_date": "2007", "value": "Sutter Creek Elementary, Ione Junior High and Amador High attendance; left for Cal Poly San Luis Obispo in 2007 to pursue electrical engineering", "source_fragment": "pursue an electrical engineering degree", "qualification": "Pursuing a degree is not completing it. The separate questionnaire biography reports a completed graduate degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_multiple_career_roles_and_dated_policy_fellowship", "factual_reference_date": null, "value": "Amador Creamery delivery work during school summers; engineer at Johns Hopkins Applied Physics Laboratory; AAAS science-policy fellowship and State Department Foreign Affairs Officer role from 2021", "source_fragment": "Johns Hopkins University Applied Physics Laboratory", "supporting_fragments": ["Foreign Affairs Officer", "2021", "Amador Creamery"], "qualification": "Defense-related civilian engineering is not military service. Parents' military service is not assigned to the candidate."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "dated_agency_placement_with_fellowship_employment_relationship_unresolved", "factual_reference_date": "2021", "value": "Selected for AAAS fellowship and joined the State Department as a Foreign Affairs Officer in 2021", "source_fragment": "Foreign Affairs Officer", "supporting_fragments": ["2021"], "qualification": "Agency work and title are explicit, but the page links entry to an external fellowship and does not establish the direct employment/payroll relationship. Do not equate public placement with independently verified government employment."}
+      ]
+    },
+    {
+      "id": "219963-ballotpedia-complete-questionnaire",
+      "candidate_id": "219963", "name": "Michael Masuda", "state": "CA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:CA:05:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Michael_Masuda",
+      "source_title": "Ballotpedia: Michael Masuda, biography and 2026 Candidate Connection answers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read biography, all displayed survey answers and source note. Footnote dates submitted information April 8, 2026; living page includes later election results, so not an archived pre-election snapshot.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CA05 race, native campaign link, Amador schooling, engineering and State Department career agree across independent source locations.",
+      "identity_fragments": ["Michael Masuda"],
+      "source_excerpts": ["Michael Masuda", "5 days short of my 13th birthday", "2013", "graduate degree", "engineer", "State Department", "Amador Creamery", "president of a neighborhood nonprofit"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "self_reported_age_relative_to_dated_historical_event", "factual_reference_date": "2001-09-11", "value": "Reports being five days short of his thirteenth birthday on September 11, 2001; this implies a 1988 birth year", "source_fragment": "5 days short of my 13th birthday", "qualification": "Retain the actual age/event statement and transparent year implication rather than presenting an independently verified birth certificate or unqualified exact birth date. His separate August 2021 recollection is consistent."},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_biography_reports_completed_graduate_degree_and_year", "factual_reference_date": "2013", "value": "Amador High School graduate; earned a graduate degree at Cal Poly San Luis Obispo in 2013", "source_fragment": "graduate degree", "supporting_fragments": ["2013"], "qualification": "The exact graduate credential is not named here; do not upgrade it to a specific master's or doctorate."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_self_reported_civilian_career_and_nonprofit_roles", "factual_reference_date": null, "value": "Engineer designing tools for the military; State Department policy work; former neighborhood nonprofit president maintaining a Washington DC dog park; first job delivering Amador Creamery products", "source_fragment": "engineer", "supporting_fragments": ["State Department", "Amador Creamery", "president of a neighborhood nonprofit"], "qualification": "Nonprofit presidency is not elected public office. Military engineering and parents' service are not the candidate's military service."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "self_reported_agency_work_with_employment_relationship_unresolved", "factual_reference_date": null, "value": "Reports working at the State Department using science and engineering in foreign policy", "source_fragment": "State Department", "qualification": "Read together with the campaign's AAAS fellowship account; direct employer and compensation arrangement remain unresolved. The answer about whether government experience is beneficial is a policy opinion, not a personal no-experience statement."}
+      ]
+    },
+    {
+      "id": "219963-tuolumne-official-candidate-statement",
+      "candidate_id": "219963", "name": "Michael Masuda", "state": "CA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:CA:05:general:source_general", "family": "official_biography",
+      "url": "https://www.tuolumnecounty.ca.gov/DocumentCenter/View/31666/All-BT-Local-VIG?bidId=",
+      "source_title": "Tuolumne County November 3, 2026 Voter Information Guide: Michael Masuda statement, PDF page 8",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read complete candidate statement and preceding instructions, and visually verified PDF page 8. County says statements are voluntary, candidate-paid and printed as submitted. Election date is not a known age-observation date.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, congressional District 5 heading, VoteMasuda.com link and matching engineering/State Department background identify the native candidate.",
+      "identity_fragments": ["Michael Masuda"],
+      "source_excerpts": ["Michael Masuda", "Occupation: Electrical Engineer Age: 38", "Foreign Affairs", "Officer with the State Department"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "candidate_submitted_official_guide_age_with_unspecified_observation_day", "factual_reference_date": "2026", "value": "Age field: 38 in the November 2026 general-election guide", "source_fragment": "Age: 38", "qualification": "Candidate-submitted, not independently verified. Exact statement submission/reference day is not supplied."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_submitted_occupation_field_and_civilian_role", "factual_reference_date": "2026", "value": "Occupation field: Electrical Engineer; reports previous State Department Foreign Affairs Officer role", "source_fragment": "Occupation: Electrical Engineer", "supporting_fragments": ["Foreign Affairs", "Officer with the State Department"], "qualification": "Official publication is not independent verification of a candidate-paid statement. Designing tools for troops is not military service."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "candidate_submitted_agency_role_without_direct_employment_details", "factual_reference_date": "2026", "value": "Reports serving as a Foreign Affairs Officer with the State Department", "source_fragment": "Officer with the State Department", "qualification": "External AAAS placement remains a concrete employer-relationship question. Calling himself an engineer rather than a politician is not an explicit no-prior-office answer."}
+      ]
+    },
+    {
+      "id": "219874-nara-official-presenter-record",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "official_biography",
+      "url": "https://transforming-classification.blogs.archives.gov/2025/06/13/pidb-executive-session-held-on-may-21-2025/",
+      "source_title": "Public Interest Declassification Board, National Archives: PIDB Executive Session held on May 21, 2025",
+      "publication_date": "2025-06-13", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full official account read. Displays June 13 publication and August 20, 2025 update; event is May 21, 2025.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name and Society Library executive-director role agree with candidate-linked employer page, public resume and her account of presenting to NARA.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "executive director", "Society Library", "provided a presentation"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_official_identification_of_nonprofit_executive_role", "factual_reference_date": "2025-05-21", "value": "Society Library executive director presenting at the PIDB executive session", "source_fragment": "executive director", "supporting_fragments": ["Society Library", "provided a presentation"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "documented_external_presentation_not_public_employment", "factual_reference_date": "2025-05-21", "value": "Presented on digital records and policy insight to the Public Interest Declassification Board", "source_fragment": "provided a presentation", "qualification": "Official attendance/presentation verifies a collaboration, not a government staff appointment, paid public employment or military service."}
+      ]
+    },
+    {
+      "id": "219874-society-library-employer-biography",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.societylibrary.org/team",
+      "source_title": "The Society Library: Executive/Core Team, Jamie Joyce",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read the actual employer team biography. Undated living page; other teammates' credentials and organizational memberships are not attributed to Joyce.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, candidate-linked nonprofit, same executive/founding role and prior international-sustainability COO work match her campaign and public resume.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "President & Executive Director", "COO", "international sustainability organization", "studied sociology"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "employer_reported_subject_of_study_without_credential", "factual_reference_date": null, "value": "Studied sociology", "source_fragment": "studied sociology", "qualification": "No completed degree follows; separate campaign and interview explicitly describe leaving college before degree completion."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "employer_reported_current_and_prior_nonprofit_executive_roles", "factual_reference_date": null, "value": "Society Library president and executive director, directing research/analysis teams; previously COO of an international sustainability organization", "source_fragment": "President & Executive Director", "supporting_fragments": ["COO", "international sustainability organization"]}
+      ]
+    },
+    {
+      "id": "219874-foresight-fellow-biography",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "university_employer_professional",
+      "url": "https://events.foresight.org/fellowship/2022-fellow-jamie-joyce/",
+      "source_title": "Foresight Institute: 2022 Fellow Jamie Joyce",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Earlier rendering timed out; a subsequent ordinary public-page fetch returned the full readable biography. Fellowship year in URL is not asserted as exact publication date.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name in profile URL, Society Library founding/executive role and named projects agree with her campaign-linked fellowship and public resume.",
+      "identity_fragments": ["Jamie", "Society Library"],
+      "source_excerpts": ["Jamie", "Society Library", "founder and Executive Director", "Wikitongues", "United Nations on behalf of the NGO"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "fellowship_profile_reports_multiple_nonprofit_roles", "factual_reference_date": null, "value": "Society Library founder/executive director; international sustainable-development project management; Wikitongues nonprofit board service", "source_fragment": "founder and Executive Director", "supporting_fragments": ["Wikitongues"], "qualification": "Fellowship is not a degree. Living historical profile does not independently establish current board tenure."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_ngo_representation_not_intergovernmental_employment", "factual_reference_date": null, "value": "Represented her NGO at the United Nations", "source_fragment": "United Nations on behalf of the NGO", "qualification": "Representing an NGO at the UN is not employment by the UN or by a government."}
+      ]
+    },
+    {
+      "id": "219874-island-city-beat-full-interview",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "local_profile",
+      "url": "https://islandcitybeat.com/episodes/jamie-joyce/transcript",
+      "source_title": "Laura Thomas, Island City Beat episode 50: Jamie Joyce is a contender for Alameda's congressional seat",
+      "publication_date": "2026-08-17", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full interview transcript read across successive ranges, including previously unread closing passages. Unrelated medical and family material is not retained.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Berkeley residence, CA12 general-election challenge to Lateefah Simon, campaign URL confirmation and Society Library career identify the retained candidate.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "I'm a dropout", "part time gig managing", "artist", "Society Library", "chief prompt engineer", "as an everyday citizen"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_self_reported_college_noncompletion", "factual_reference_date": "2026-08-17", "value": "Explicitly describes herself as a college dropout in response to the college-attendance question", "source_fragment": "I'm a dropout", "qualification": "Preserve noncompletion rather than turning thesis work, fellowships or supervising graduate staff into a completed degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "detailed_self_report_of_multiple_careers", "factual_reference_date": "2026-08-17", "value": "International humanitarian/environmental project work; part-time community-venue management and artist; Society Library founder and research-tool/prompt-engineering leadership", "source_fragment": "part time gig managing", "supporting_fragments": ["artist", "Society Library", "chief prompt engineer"], "qualification": "Explicitly distinguishes her own research-tool work from employment developing frontier models at a large language model company."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "self_described_citizen_advocacy_and_external_agency_presentations", "factual_reference_date": "2025", "value": "Describes independent NARA/DOGE advocacy and invited NARA presentations as an everyday citizen", "source_fragment": "as an everyday citizen", "qualification": "Not government employment. She explicitly says a causal claim that she saved NARA is difficult; do not assert that outcome as an independently verified accomplishment. Respect expressed for another faith is not her religious affiliation."}
+      ]
+    }
+  ],
+  "searches": [],
+  "completed_candidates": [],
+  "withheld_documents": [],
+  "raw_search_batches": [
+    {
+      "candidate_ids": ["219956", "219963"],
+      "status": "executed_queries_unmapped_result_union",
+      "queries": ["\"Eric Jones\" \"Congress\" \"2026\" \"California\"", "\"Michael Masuda\" biography age religion", "\"Eric Jones\" \"Congress\" biography age military", "\"Michael Masuda\" \"veteran\" OR \"born\" OR \"education\"", "\"Michael Masuda\" \"AAAS\"", "\"Michael Masuda\" \"born\" \"1988\"", "\"Eric Jones\" \"Yale\" \"35\"", "\"Eric Jones\" Napa religion ethnicity biography"],
+      "qualification": "Inherited executed discovery queries returned an unmapped union. Accepted evidence above was subsequently read from underlying originals; no query-to-result mapping or family completion is invented."
+    },
+    {
+      "candidate_ids": ["219956", "219963"],
+      "status": "executed_queries_unmapped_result_union",
+      "queries": ["Eric Jones Congress 2026 Patch 35 public office questionnaire", "Michael Masuda 2026 voter guide age Aspen biography"],
+      "selected_originals": ["https://patch.com/california/napavalley/amp/35071977/meet-congressional-district-4-candidate-eric-jones", "https://ballotpedia.org/Michael_Masuda", "https://www.tuolumnecounty.ca.gov/DocumentCenter/View/31666/All-BT-Local-VIG?bidId=", "https://www.ericjones.us/answers"],
+      "qualification": "These executed queries produced a combined result set, not auditable per-query assignments. Selected originals were read; unrelated Colorado voter-guide results were not used."
+    },
+    {
+      "candidate_ids": ["219874"],
+      "status": "executed_queries_unmapped_result_union",
+      "queries": ["\"Jamie Joyce\" birth age religion military", "\"Jamie Joyce\" \"woman\" OR \"race\" OR \"ethnicity\"", "\"Jamie Joyce\" \"elected\" \"office\"", "\"Jamie Joyce\" university biography Society Library"],
+      "selected_originals": ["https://www.societylibrary.org/team", "https://events.foresight.org/fellowship/2022-fellow-jamie-joyce/"],
+      "qualification": "Inherited executed queries returned an unmapped union. Actual follow-ups are distinguished from search snippets; no six-family completion is claimed."
+    }
+  ],
+  "remaining_person_pass_leads": [
+    {"candidate_id": "219956", "status": "in_progress", "next_action": "Read the official Napa/Placer candidate statement and earlier Yale/employer biographies; investigate remaining explicit identity and personal military evidence. Preserve current Christian affiliation separately from Catholic upbringing and direct employment separately from outside advice."},
+    {"candidate_id": "219963", "status": "in_progress", "next_action": "Follow original AAAS/professional and university records to resolve precise credential and agency employer relationship; seek explicit personal identity, affiliation and service evidence. Do not transfer parents' military service or relatives' ancestry to him."},
+    {"candidate_id": "219874", "status": "in_progress", "next_action": "Investigate the named government-funded university laboratory's original employer identity, earlier professional/library biographies and remaining direct identity/service evidence. House hackathon report and earlier professional-interview leads remain unreviewed; summaries asserting no prior office are not accepted negatives."}
+  ]
+}

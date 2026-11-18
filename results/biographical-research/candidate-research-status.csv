@@ -9,25 +9,25 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 219848,James Russell,AR,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,"[""https://www.russellforar.com""]"
 219846,Robb Ryerse,AR,03,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,"[""https://www.robbforcongress.com""]"
 219840,Terri Yarbrough Green,AR,01,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",7,"[""https://www.terrigreenforarkansas.com""]"
-219764,Amish Shah,AZ,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,"[""https://amishforarizona.com""]"
-219790,Bernadette Greene-Placentia,AZ,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,"[""https://www.bgp4az.com""]"
+219764,Amish Shah,AZ,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",3,"[""https://amishforarizona.com""]"
+219790,Bernadette Greene-Placentia,AZ,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",5,"[""https://www.bgp4az.com""]"
 219791,Danielle Sterbinsky,AZ,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,"[""https://sterbinskyforcongress.com""]"
-219780,Elizabeth Lee,AZ,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,"[""https://www.nurselee4az.com""]"
+219780,Elizabeth Lee,AZ,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,"[""https://www.nurselee4az.com""]"
 219782,JoAnna Mendoza,AZ,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""university_employer_professional""]",3,"[""https://www.joannamendoza.com""]"
-219770,Jonathan Nez,AZ,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,"[""https://www.jonathannezforaz.com""]"
+219770,Jonathan Nez,AZ,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",5,"[""https://www.jonathannezforaz.com""]"
 219922,Angela Gonzales-Torres,CA,34,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",7,"[""https://www.angela4congress.com""]"
 219910,Angélica María Dueñas,CA,29,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",7,"[""https://www.angelica4congress.com""]"
-219871,Connie Chan,CA,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://conniechansf.com""]"
-219956,Eric Jones,CA,04,Democratic,nonincumbent,not_yet_researched,[],0,[]
+219871,Connie Chan,CA,11,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",2,"[""https://conniechansf.com""]"
+219956,Eric Jones,CA,04,Democratic,nonincumbent,in_progress,[],3,[]
 219929,Hilda Solis,CA,38,Democratic,nonincumbent,not_yet_researched,[],0,[]
 219903,Jacqui Irwin,CA,26,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://jacquiirwin.com""]"
-219874,Jamie Joyce,CA,12,Democratic,nonincumbent,not_yet_researched,[],0,[]
-219967,Mai Vang,CA,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.maiforus.com""]"
+219874,Jamie Joyce,CA,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography""]",7,[]
+219967,Mai Vang,CA,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""official_biography""]",3,"[""https://www.maiforus.com""]"
 219951,Marni von Wilpert,CA,48,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://marnivonwilpert.com""]"
 219877,Melissa Hernandez,CA,14,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://melissahernandez2026.com/""]"
-219963,Michael Masuda,CA,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.votemasuda.com""]"
+219963,Michael Masuda,CA,05,Democratic,nonincumbent,in_progress,[],3,"[""https://www.votemasuda.com""]"
 219889,Mike McGuire,CA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://www.votemikemcguire.com/""]"
-219895,Randy Villegas,CA,22,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://villegasforcongress.com""]"
+219895,Randy Villegas,CA,22,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://villegasforcongress.com""]"
 219965,Richard Pan,CA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://drpanforcongress.com/""]"
 219928,Samantha Mota,CA,37,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://motaforcongress.com""]"
 219891,Sandra Van Scotter,CA,20,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://sandravanscotterforcongress.com/""]"
@@ -183,10 +183,10 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220982,Maria Jukic,OH,14,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.mariajukicforcongress.com""]"
 220967,Vanessa Enoch,OH,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.enochforcongress.com""]"
 221335,Brandon Wade,OK,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",4,"[""https://wade4okcd2.wixsite.com""]"
-221343,Jena Nelson,OK,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",8,"[""https://jenanelson.com""]"
-221333,John Croisant,OK,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",8,"[""https://www.johncroisant.com""]"
-221340,Mitchell Jacob,OK,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",8,"[""https://mitchelljacob.com""]"
-221338,Suzie Byrd,OK,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,[]
+221343,Jena Nelson,OK,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",11,"[""https://jenanelson.com""]"
+221333,John Croisant,OK,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",10,"[""https://www.johncroisant.com""]"
+221340,Mitchell Jacob,OK,04,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://mitchelljacob.com""]"
+221338,Suzie Byrd,OK,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,[]
 221002,Chris Beck,OR,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://chrisbeckforcongress.com""]"
 221041,Alan Bradstock,PA,14,Democratic,nonincumbent,not_yet_researched,[],0,[]
 221039,Beth Farnham,PA,13,Democratic,nonincumbent,not_yet_researched,[],0,[]
@@ -968,8 +968,8 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220956,Tracey L. Tackett,OH,04,Independent,unresolved,not_yet_researched,[],0,[]
 221345,Austin Nieves,OK,05,Independent,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,[]
 221332,Mark Tedford,OK,01,Republican,unresolved,in_progress,"[""local_profile""]",1,"[""https://www.tedfordforcongress.com""]"
-221344,Robert P. Henri,OK,05,Independent,unresolved,in_progress,"[""local_profile""]",2,[]
-221341,Rocco Bonacci,OK,04,Independent,unresolved,in_progress,"[""local_profile""]",1,[]
+221344,Robert P. Henri,OK,05,Independent,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,[]
+221341,Rocco Bonacci,OK,04,Independent,unresolved,in_progress,"[""local_profile""]",3,[]
 221336,Ronnie Hopkins,OK,02,Independent,unresolved,in_progress,"[""local_profile""]",2,[]
 2668759,Andrea Townsend,OR,05,Pacific Green,unresolved,not_yet_researched,[],0,[]
 221000,Barbara Kahl,OR,01,Republican,unresolved,not_yet_researched,[],0,[]

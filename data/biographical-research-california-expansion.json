@@ -1,0 +1,259 @@
+{
+  "scope": "Additive research on four previously unresearched Democratic nonincumbents. No candidate is declared complete; scientific releases remain frozen.",
+  "documents": [
+    {
+      "id": "219871-campaign-complete-background",
+      "candidate_id": "219871", "name": "Connie Chan", "state": "CA", "district": "11", "party": "Democratic",
+      "contest_id": "2026:house:CA:11:general:source_general", "family": "campaign",
+      "url": "https://www.conniechansf.com/about",
+      "source_title": "Connie Chan for Congress: Opening the doors of opportunity",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated living campaign biography, read in full. Retrieval alone does not establish pre-election availability.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact name, San Francisco District 1 supervisorial service and California 11 congressional race identify the retained candidate.",
+      "identity_fragments": ["Connie Chan"],
+      "source_excerpts": ["Connie Chan", "bachelor’s degree", "University of California", "legislative aide", "community organizer", "First elected in 2020", "first Asian American", "City College of San Francisco"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_campaign_racial_self_description", "factual_reference_date": null, "value": "Asian American", "source_fragment": "first Asian American", "qualification": "Her statement about becoming the first Asian American to represent San Francisco explicitly includes herself in that category. Birthplace and language do not independently supply ethnicity or religion."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_secondary_and_bachelors_credentials", "factual_reference_date": null, "value": "Galileo High School graduate; University of California, Davis bachelor's degree", "source_fragment": "bachelor’s degree", "supporting_fragments": ["University of California"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_work_roles_with_volunteer_distinction", "factual_reference_date": null, "value": "Community organizer for SF SAFE and Community Youth Center; volunteer interpreter for pro bono lawyers; public legislative and communications staff", "source_fragment": "community organizer", "supporting_fragments": ["legislative aide"], "qualification": "Volunteer interpreting is not paid government employment."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_election_year_and_current_local_office", "factual_reference_date": null, "value": "San Francisco District 1 supervisor, first elected in 2020", "source_fragment": "First elected in 2020"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_legislative_and_public_administration_staff_work", "factual_reference_date": null, "value": "Legislative aide to Sophie Maxwell from 2006 and later Aaron Peskin; staff for District Attorney Kamala Harris and Assemblymember Kevin Mullin; administration roles at SF Recreation & Parks and City College of San Francisco", "source_fragment": "legislative aide", "supporting_fragments": ["City College of San Francisco"], "qualification": "These staff roles are distinct from her elected office and volunteer work. Exact dates of every later role are not supplied."}
+      ]
+    },
+    {
+      "id": "219871-standard-launch-interview-2025",
+      "candidate_id": "219871", "name": "Connie Chan", "state": "CA", "district": "11", "party": "Democratic",
+      "contest_id": "2026:house:CA:11:general:source_general", "family": "local_profile",
+      "url": "https://sfstandard.com/2025/11/20/connie-chan-announces-campaign-congress-san-francisco-nancy-pelosi/",
+      "source_title": "Joe Fitzgerald Rodriguez, Gabriel Lorenzo Greschler and Josh Koehn, The San Francisco Standard: Supervisor Connie Chan launches 2026 bid to succeed Nancy Pelosi",
+      "publication_date": "2025-11-20", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Entire article body reviewed, including closing educational/staff history and reelection account. Interview described as Wednesday before Thursday publication.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Pelosi succession race, SF District 1, same campaign-linked article and Maxwell/Peskin staff history identify the retained candidate.",
+      "identity_fragments": ["Connie Chan"],
+      "source_excerpts": ["Connie Chan", "Chan, 47", "bachelor’s degree", "comparative religion and classical Chinese", "legislative aide in 2006", "first elected", "Asian American", "community organizer", "volunteer interpreter"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_dated_personal_interview", "factual_reference_date": "2025-11-19", "value": "Age 47 in the interview reported November 20, 2025", "source_fragment": "Chan, 47", "qualification": "A dated age, not an independently established exact birthday."},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_publisher_racial_classification", "factual_reference_date": "2025-11-20", "value": "Asian American", "source_fragment": "Asian American"},
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_bachelors_degree_with_reported_subjects", "factual_reference_date": "2025-11-20", "value": "Galileo High School graduate; UC Davis bachelor's degree, with comparative religion and classical Chinese reported as majors", "source_fragment": "bachelor’s degree", "supporting_fragments": ["comparative religion and classical Chinese"], "qualification": "An academic subject in religion is not a personal religious affiliation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_organizing_interpreting_and_staff_work", "factual_reference_date": "2025-11-20", "value": "Community organizer, volunteer interpreter for the SF Bar Association and public legislative aide", "source_fragment": "community organizer", "supporting_fragments": ["volunteer interpreter", "legislative aide in 2006"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_local_elections", "factual_reference_date": "2025-11-20", "value": "Elected SF District 1 supervisor in 2020 and reelected in 2024", "source_fragment": "first elected"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_public_legislative_staff_history", "factual_reference_date": "2006", "value": "Started as Sophie Maxwell's legislative aide in 2006, then worked for Aaron Peskin, District Attorney Kamala Harris and Assemblymember Kevin Mullin", "source_fragment": "legislative aide in 2006", "qualification": "Only the first role is explicitly dated to 2006; subsequent employment dates remain unspecified."}
+      ]
+    },
+    {
+      "id": "219967-sacramento-official-biography",
+      "candidate_id": "219967", "name": "Mai Vang", "state": "CA", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:CA:07:general:source_general", "family": "official_biography",
+      "url": "https://www.cityofsacramento.gov/mayor-council/district-8/biography",
+      "source_title": "City of Sacramento: Biography of Councilmember Vang",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Entire biography reviewed after skipping navigation. Undated; the sitewide copyright is not a publication date.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Sacramento District 8, 2016 school-board election, HIP founding and named Larry Carr staff job match the native campaign biography and congressional candidate.",
+      "identity_fragments": ["Mai Vang"],
+      "source_excerpts": ["Mai Vang", "Bachelors’ Degrees", "dual Master's Degrees", "Executive Director", "Community Affairs Director", "2014-2018", "School Board in 2016", "She also teaches", "University of San Francisco"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_multiple_degrees", "factual_reference_date": null, "value": "University of San Francisco biology and sociology bachelor's degrees; UCLA public-health and Asian-American-studies master's degrees", "source_fragment": "Bachelors’ Degrees", "supporting_fragments": ["dual Master's Degrees", "University of San Francisco"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_nonprofit_leadership_teaching_and_public_staff_work", "factual_reference_date": null, "value": "Former Buck Scholars Association executive director; HIP cofounder and community organizer; teaches Ethnic Studies at Sacramento State and Asian American Studies at UC Davis; former City Hall community-affairs director", "source_fragment": "Executive Director", "supporting_fragments": ["She also teaches", "Community Affairs Director"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_elections_to_two_local_offices", "factual_reference_date": null, "value": "Elected Sacramento City School Board member in 2016 and subsequently Sacramento District 8 councilmember", "source_fragment": "School Board in 2016"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_dated_municipal_staff_employment", "factual_reference_date": "2014-2018", "value": "Community Affairs Director for Sacramento Councilmember Larry Carr at City Hall, 2014-2018; separate teaching roles at public universities", "source_fragment": "Community Affairs Director", "supporting_fragments": ["2014-2018"], "qualification": "The dated municipal staff job, not nonprofit advocacy, a university subject, or an elected/advisory appointment, supports the employment fact."}
+      ]
+    },
+    {
+      "id": "219967-abridged-launch-interview-2025",
+      "candidate_id": "219967", "name": "Mai Vang", "state": "CA", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:CA:07:general:source_general", "family": "local_profile",
+      "url": "https://www.abridged.org/news/mai-vang-launches-run-for-congress/",
+      "source_title": "Felicia Alvarez, Abridged by PBS KVIE: Mai Vang launches incredibly personal run for Congress against Doris Matsui",
+      "publication_date": "2025-09-16", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full report and question-and-answer text reviewed. Interview conducted on the eve of the Tuesday announcement; exact age-observation day not separately stated.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Sacramento District 8 council service from December 2020 and 2026 CA07 challenge to Doris Matsui match the retained candidate.",
+      "identity_fragments": ["Mai Vang"],
+      "source_excerpts": ["Mai Vang", "Vang, 40", "first Hmong American in Congress", "my Hmong community", "joined the council in December 2020", "unopposed for re-election in 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "explicit_dated_reported_age", "factual_reference_date": "2025-09-16", "value": "Reported age 40 in September 16, 2025 campaign-launch interview", "source_fragment": "Vang, 40", "qualification": "Retain dated age without an exact birthday or a fabricated election-day age."},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_publisher_classification_and_own_community_identification", "factual_reference_date": "2025-09-16", "value": "Hmong American", "source_fragment": "first Hmong American in Congress", "supporting_fragments": ["my Hmong community"], "qualification": "Explicit classification and her own identification, not an inference from her parents, surname or spouse. No separate racial category follows automatically."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_city_council_service_and_reelection_reporting", "factual_reference_date": "2025-09-16", "value": "Sacramento District 8 council service began December 2020; unopposed reelection in 2024", "source_fragment": "joined the council in December 2020", "supporting_fragments": ["unopposed for re-election in 2024"]}
+      ]
+    },
+    {
+      "id": "219967-retained-campaign-about",
+      "candidate_id": "219967", "name": "Mai Vang", "state": "CA", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:CA:07:general:source_general", "family": "campaign",
+      "url": "https://www.maiforus.com/about",
+      "source_title": "Mai Vang for Congress: About Mai",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-219967-bio2/campaign-219967-bio2",
+      "sha256": "63b2f06c97eccca1e6f99093f3e5873db76f8f2f3d2328b1226c6889cf57eb1d",
+      "source_date_note": "Read the already retained original without repeating its download. The page's reference to a 2016 first Trump administration is not accepted as sound chronology.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact name, HIP founding, Sacramento school board and City Council service identify the retained CA07 candidate.",
+      "identity_fragments": ["Mai Vang"],
+      "source_excerpts": ["Mai Vang", "attend college", "co-founding Hmong Innovating Politics", "school board member", "City Council"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "college_attendance_without_credentials_on_this_page", "factual_reference_date": null, "value": "First in family to attend college; this campaign page does not specify completed credentials", "source_fragment": "attend college", "qualification": "Completed degrees are supplied by the city biography, not manufactured from attendance here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_named_organizing_career", "factual_reference_date": null, "value": "Organizer and cofounder of Hmong Innovating Politics", "source_fragment": "co-founding Hmong Innovating Politics"},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "reported_local_service_without_election_method_here", "factual_reference_date": null, "value": "Sacramento City USD school-board member and City Council service", "source_fragment": "school board member", "supporting_fragments": ["City Council"], "qualification": "Election dates and routes are established by the city biography and dated reporting, not the erroneous administration chronology on this page."}
+      ]
+    },
+    {
+      "id": "219895-retained-campaign-about",
+      "candidate_id": "219895", "name": "Randy Villegas", "state": "CA", "district": "22", "party": "Democratic",
+      "contest_id": "2026:house:CA:22:general:source_general", "family": "campaign",
+      "url": "https://www.villegasforcongress.com/about",
+      "source_title": "Villegas for Congress: Meet Randy",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-219895-bio1/campaign-219895-bio1",
+      "sha256": "f2e29df68ee681bc35aad4f01738a20f3a501009e31023c94a46d86765feff5a",
+      "source_date_note": "Read the retained original, not another download of unchanged campaign text.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact full name in the heading, Kern County upbringing and CA22 campaign against David Valadao match the retained candidate.",
+      "identity_fragments": ["Randy Villegas"],
+      "source_excerpts": ["Randy Villegas", "earn a Ph.D.", "college professor, mentor, and community organizer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_doctorate_without_university_on_this_page", "factual_reference_date": null, "value": "Earned PhD; first in family to do so", "source_fragment": "earn a Ph.D."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_multiple_work_roles", "factual_reference_date": null, "value": "College professor, mentor and community organizer", "source_fragment": "college professor, mentor, and community organizer"}
+      ]
+    },
+    {
+      "id": "219895-lcv-post-election-biography",
+      "candidate_id": "219895", "name": "Randy Villegas", "state": "CA", "district": "22", "party": "Democratic",
+      "contest_id": "2026:house:CA:22:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.lcv.org/bio/randy-villegas/",
+      "source_title": "League of Conservation Voters: Randy Villegas",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full living advocacy-organization profile reviewed; it already includes the 2026 outcome. Not a neutral employer record or verified pre-election snapshot.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CA22 challenge to Valadao, College of the Sequoias teaching and Visalia Unified School Board service match the native candidate.",
+      "identity_fragments": ["Randy", "Villegas"],
+      "source_excerpts": ["Randy", "Villegas", "25 years old", "bachelor’s degree from CSU Bakersfield", "graduate and doctorate degrees", "UC Santa Cruz", "professor", "in 2022 was elected"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "historical_age_at_undated_career_event", "factual_reference_date": null, "value": "Reported as becoming a College of the Sequoias professor at age 25; event year unspecified", "source_fragment": "25 years old", "qualification": "Not current age; cannot establish a birthday or election age without the event date."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_undergraduate_and_graduate_credentials", "factual_reference_date": null, "value": "CSU Bakersfield bachelor's degree; UC Santa Cruz graduate and doctoral degrees", "source_fragment": "bachelor’s degree from CSU Bakersfield", "supporting_fragments": ["graduate and doctorate degrees", "UC Santa Cruz"], "qualification": "No invented graduate-degree subject or award year."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_college_teaching_and_organizing_career", "factual_reference_date": null, "value": "College of the Sequoias political-science professor and community organizer", "source_fragment": "professor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_dated_school_board_election", "factual_reference_date": "2022", "value": "Elected to Visalia Unified School Board in 2022", "source_fragment": "in 2022 was elected", "qualification": "KGET separately reports an initial appointment and subsequent elections. Initial appointment date remains unverified. A post-election federal title does not change baseline incumbency."}
+      ]
+    },
+    {
+      "id": "219895-kget-personal-profile-2026",
+      "candidate_id": "219895", "name": "Randy Villegas", "state": "CA", "district": "22", "party": "Democratic",
+      "contest_id": "2026:house:CA:22:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/race-district-22-one-one-015551000.html",
+      "source_title": "Vincent Demonte, KGET, syndicated by AOL: The race for District 22: A one-on-one with Randy Villegas",
+      "publication_date": "2026-05-07", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Underlying syndicated article, not generated search text. Displayed update is May 7, 2026, 01:55 UTC. Background through the board-appointment account reviewed; later policy discussion remains open.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CA22 opponents Valadao/Bains, Visalia residence and College of the Sequoias teaching match the retained candidate.",
+      "identity_fragments": ["Randy Villegas"],
+      "source_excerpts": ["Randy Villegas", "The 31-year-old", "co-owns", "auto shop", "research assistant", "teaches political science", "UC Santa Cruz", "this appointment", "elected to the board twice", "doing oil changes"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "explicit_dated_reported_candidate_age", "factual_reference_date": "2026-05-07", "value": "Reported age 31 in May 2026 profile; exact interview date unstated", "source_fragment": "The 31-year-old", "qualification": "Age 26 elsewhere refers to his father, not the candidate. No encyclopedia-only birthday imported."},
+        {"trait": "education", "factual_status": "partial", "precision": "named_undergraduate_and_graduate_study_without_completed_credentials_here", "factual_reference_date": "2026-05-07", "value": "CSU Bakersfield undergraduate study and UC Santa Cruz scholarship for graduate study", "source_fragment": "UC Santa Cruz", "qualification": "Encouragement to pursue a doctorate and a scholarship do not independently establish completion."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_current_and_historical_work_roles", "factual_reference_date": "2026-05-07", "value": "Family auto-shop co-owner/operator and mechanic; swap-meet work, high-school teaching, research assistantship and College of the Sequoias political-science teaching", "source_fragment": "co-owns", "supporting_fragments": ["auto shop", "research assistant", "teaches political science", "doing oil changes"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "initial_school_board_appointment_followed_by_reported_elections", "factual_reference_date": "2026-05-07", "value": "Reports initially being appointed to Visalia School Board, then elected twice", "source_fragment": "this appointment", "supporting_fragments": ["elected to the board twice"], "qualification": "Appointment and subsequent elections are distinct. Their dates are not supplied by this interview passage."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "education_work_pending_employer_qualification", "factual_reference_date": "2026-05-07", "value": "College of the Sequoias teaching, earlier Kern high-school teaching and research assistantship", "source_fragment": "teaches political science", "supporting_fragments": ["research assistant"], "qualification": "Public-employer status, terms and timing require an original employer record. Elected board service alone is not a separate staff job."}
+      ]
+    },
+    {
+      "id": "219874-campaign-detailed-background",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "campaign",
+      "url": "https://www.jamiejoyce.com/jamies-background",
+      "source_title": "Jamie Joyce for Congress: Jamie's Background",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full page reviewed, including closing education and fact-correction notes. Undated living page; pre-election availability not established by retrieval.",
+      "identity_status": "verified",
+      "identity_qualification": "Native domain linked by Ballotpedia, exact name, Berkeley, CA12, Society Library founding and Democracy's Library work identify the retained candidate, not an NRC or USC-sport namesake.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "graduated high school", "Laureate Scholars", "left before finishing the degree", "UCF", "nonprofit she founded", "COO", "part-time job", "government briefing", "grants art committee", "artist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_secondary_credential_and_explicit_incomplete_undergraduate_degree", "factual_reference_date": null, "value": "Completed high school in a four-year Laureate Scholars program; attended University of Central Florida and completed an undergraduate thesis but explicitly left before finishing the degree", "source_fragment": "graduated high school", "supporting_fragments": ["Laureate Scholars", "UCF", "left before finishing the degree"], "qualification": "Fellowships, teaching interns and supervising PhD staff do not confer an undergraduate or doctoral degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_self_reported_nonprofit_research_and_community_roles", "factual_reference_date": null, "value": "Society Library founder and research/technical-team leader; Democracy's Library co-lead at Internet Archive; former IDEAS For Us COO; artist and part-time community-venue manager; nonprofit board/advisory roles", "source_fragment": "nonprofit she founded", "supporting_fragments": ["COO", "part-time job", "artist", "grants art committee"], "qualification": "Her correction identifies Sand Mandala art-grants committee service, not board membership, and corrects award attribution; neither mistaken earlier claim is accepted."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "external_government_collaboration_not_employee_status", "factual_reference_date": null, "value": "Reports nonprofit government-contract projects and invited government briefings, including NARA", "source_fragment": "government briefing", "qualification": "An outside contractor's work, invited briefing, advocacy visit or NGO representation does not establish direct government employment or its absence."}
+      ]
+    },
+    {
+      "id": "219874-ballotpedia-questionnaire-2026",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Jamie_Joyce",
+      "source_title": "Ballotpedia: Jamie Joyce, 2026 Candidate Connection",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "All displayed survey answers reviewed. Footnotes list candidate email communications October 10 and 19, 2026, not dates for every individual answer.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Berkeley, CA12 against Lateefah Simon, linked campaign domain and same nonprofit/Internet Archive career identify the retained candidate.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "temp receptionist", "government-funded University lab", "full time head receptionist", "administrator of one of the labs", "paid artist", "nanny"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_first_job_response_and_multiple_historical_careers", "factual_reference_date": null, "value": "Temporary then full-time university-lab receptionist and later lab administrator; earlier paid art, nannying, care and family shoe-store work; nonprofit and AI research leadership", "source_fragment": "temp receptionist", "supporting_fragments": ["full time head receptionist", "administrator of one of the labs", "paid artist", "nanny"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_paid_university_lab_work_without_named_employer", "factual_reference_date": null, "value": "Paid receptionist and administrator at an unnamed government-funded university research/training lab", "source_fragment": "government-funded University lab", "qualification": "University ownership and direct employer remain unresolved. Government funding alone does not establish government employment; a proposed congressional tour of duty is not past military service."}
+      ]
+    },
+    {
+      "id": "219874-native-historical-resume",
+      "candidate_id": "219874", "name": "Jamie Joyce", "state": "CA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:CA:12:general:source_general", "family": "earlier_biography",
+      "url": "https://static1.squarespace.com/static/59d4572d6f4ca3f65e534ee5/t/6192d5ae9bb9e8119b6b8293/1637012911018/Jamie%2BJoyce.Resume.pdf",
+      "source_title": "Jamie Joyce: Activist, Archivist, and Artist, public resume",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full two-page structured resume text reviewed. URL timestamp is not assumed to be publication date; a 2022 fellowship is listed. Unnecessary contact details are not retained.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, JamieJoyce.com attribution, Society Library founding from 2018 and IDEAS For Us COO identify the same person as the campaign biography.",
+      "identity_fragments": ["Jamie Joyce"],
+      "source_excerpts": ["Jamie Joyce", "The Society Library (2018-Present)", "Executive Director and Founder", "Chief Operating Officer: (2017-2018)", "Laser Instructor", "UCF Environmental Arts Scholarship (2013)"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "self_reported_dated_historical_work_and_nonprofit_roles", "factual_reference_date": null, "value": "Society Library founder/executive director from 2018; IDEAS For Us COO 2017-2018, fund chair 2016-2018 and campaign strategist 2016-2017; Familab board secretary/laser instructor 2016-2017; artist and archivist", "source_fragment": "Executive Director and Founder", "supporting_fragments": ["The Society Library (2018-Present)", "Chief Operating Officer: (2017-2018)", "Laser Instructor"]},
+        {"trait": "education", "factual_status": "partial", "precision": "named_scholarship_not_degree_completion", "factual_reference_date": "2013", "value": "UCF Environmental Arts Scholarship listed for 2013", "source_fragment": "UCF Environmental Arts Scholarship (2013)", "qualification": "An award is not a degree. Omitted resume fields do not establish nonservice or no office."}
+      ]
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219871", "family": "campaign", "query_kind": "source_followup", "query": "https://www.conniechansf.com/about", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.conniechansf.com/about"]},
+    {"candidate_id": "219871", "family": "local_profile", "query_kind": "source_followup", "query": "https://sfstandard.com/2025/11/20/connie-chan-announces-campaign-congress-san-francisco-nancy-pelosi/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sfstandard.com/2025/11/20/connie-chan-announces-campaign-congress-san-francisco-nancy-pelosi/"]},
+    {"candidate_id": "219871", "family": "university_employer_professional", "query_kind": "source_followup", "query": "https://apiabiography.sfsu.edu/sites/default/files/documents/CHAN%20Connie%20bw_0.pdf", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://apiabiography.sfsu.edu/sites/default/files/documents/CHAN%20Connie%20bw_0.pdf"], "lead_dispositions": {"https://apiabiography.sfsu.edu/sites/default/files/documents/CHAN%20Connie%20bw_0.pdf": {"status": "access_failure", "reason": "Direct follow-up returns a university missing/moved-page notice rather than the native PDF. No birthday or ethnicity imported solely from earlier discovery text."}}},
+    {"candidate_id": "219967", "family": "campaign", "query_kind": "source_followup", "query": "Read retained native campaign homepage, about and facts originals without repeat downloads", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.maiforus.com", "https://www.maiforus.com/about", "https://www.maiforus.com/facts"]},
+    {"candidate_id": "219967", "family": "official_biography", "query_kind": "source_followup", "query": "https://www.cityofsacramento.gov/mayor-council/district-8/biography", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cityofsacramento.gov/mayor-council/district-8/biography"]},
+    {"candidate_id": "219967", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.abridged.org/news/mai-vang-launches-run-for-congress/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.abridged.org/news/mai-vang-launches-run-for-congress/"]},
+    {"candidate_id": "219895", "family": "campaign", "query_kind": "source_followup", "query": "Read retained native campaign homepage and about originals without repeat downloads", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.villegasforcongress.com/about", "https://villegasforcongress.com"]},
+    {"candidate_id": "219895", "family": "university_employer_professional", "query_kind": "source_followup", "query": "https://www.lcv.org/bio/randy-villegas/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.lcv.org/bio/randy-villegas/"]},
+    {"candidate_id": "219895", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.aol.com/articles/race-district-22-one-one-015551000.html", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/race-district-22-one-one-015551000.html"]},
+    {"candidate_id": "219874", "family": "campaign", "query_kind": "source_followup", "query": "https://www.jamiejoyce.com/jamies-background", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.jamiejoyce.com/jamies-background"]},
+    {"candidate_id": "219874", "family": "ballotpedia_questionnaire", "query_kind": "source_followup", "query": "https://ballotpedia.org/Jamie_Joyce", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Jamie_Joyce"]},
+    {"candidate_id": "219874", "family": "earlier_biography", "query_kind": "source_followup", "query": "https://static1.squarespace.com/static/59d4572d6f4ca3f65e534ee5/t/6192d5ae9bb9e8119b6b8293/1637012911018/Jamie%2BJoyce.Resume.pdf", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://static1.squarespace.com/static/59d4572d6f4ca3f65e534ee5/t/6192d5ae9bb9e8119b6b8293/1637012911018/Jamie%2BJoyce.Resume.pdf"]}
+  ],
+  "search_batches": [
+    {"searched_at": "2026-11-18", "candidate_ids": ["219871", "219967", "219895", "219874"], "queries": ["Connie Chan biography age religion Lincoln University", "Mai Vang biography Hmong education religion", "Randy Villegas biography age education", "Jamie Joyce California 2026 Congress biography age"], "result_mapping": "Raw multi-query batch. Result mapping not retained; no family-completion or absent-fact claim follows. Lincoln University was a discovery hypothesis, not a credential."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219871", "219967", "219895", "219874"], "queries": ["\"Connie Chan\" biography Lincoln University age", "\"Mai Vang\" \"bio\" site:cityofsacramento.gov", "\"Randy Villegas\" site:apsanet.org award", "\"Jamie Joyce\" biography education religion"], "result_mapping": "Unassigned query-result union; independently reviewed originals are mapped by source-followup records."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219967", "219871"], "queries": ["\"Mai Vang\" \"biography\" Sacramento council", "\"Connie Chan\" supervisor biography government"], "result_mapping": "Unassigned union; no no-results or full-family completion claim."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219895", "219967", "219874", "219871"], "queries": ["\"Randy Villegas\" \"born\" \"1994\"", "\"Mai Vang\" \"Hmong American\" UCLA", "\"Jamie Joyce\" \"religion\" \"age\"", "\"Connie Chan\" religion military"], "result_mapping": "Unassigned union. Search-only dates, another person's age and religion inferred from a major were not accepted."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219895", "219967", "219871", "219874"], "queries": ["\"Randy Villegas\" site:cos.edu", "\"Mai Vang\" site:usfca.edu", "\"Connie Chan\" \"religion\" \"supervisor\"", "\"Jamie Joyce\" \"Laureate\""], "result_mapping": "Unassigned union; only separately read originals supply claims."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219874"], "queries": ["\"Jamie Joyce\" congressional candidate interview profile", "\"Jamie Joyce\" government military religion biography"], "result_mapping": "Executed two-query union; exact per-result mappings not retained. Candidate interview and public resume were followed independently; no exhaustive-search assertion."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219895"], "queries": ["\"Randy Villegas\" \"LCV\"", "\"Randy Villegas\" \"born\""], "result_mapping": "Executed two-query union, not attributed to either exact query individually. Encyclopedia DOB was discovery only."}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "219871", "status": "in_progress", "next": "Research official, earlier-biography and questionnaire families. Recover an accessible original or independent corroboration for the unavailable SFSU birthday/ethnicity lead. Religion and military remain unknown, not absent."},
+    {"candidate_id": "219967", "status": "in_progress", "next": "Read and map actual Ballotpedia, university, earlier-profile and explicit identity/religion/service originals. Retained home and facts were read but are not yet exhaustively journaled. Do not infer identity solely from parents or degree subjects."},
+    {"candidate_id": "219895", "status": "in_progress", "next": "Finish KGET policy discussion and follow publisher original. Review official college employer, VUSD and historical questionnaire originals; resolve precise appointment/election timeline. Explicit identity/religion and military evidence remain open."},
+    {"candidate_id": "219874", "status": "in_progress", "next": "Read Island City Beat's August 17, 2026 transcript and independently follow NARA executive-session account, the House hackathon report and professional originals. Identify the lab employer without assuming funding means public employment. Age, explicit identities/religion, prior-office and military remain open."}
+  ],
+  "completed_candidates": [],
+  "withheld_documents": [
+    {"id": "219871-sfsu-native-pdf-unavailable", "candidate_id": "219871", "url": "https://apiabiography.sfsu.edu/sites/default/files/documents/CHAN%20Connie%20bw_0.pdf", "status": "original_unavailable", "traits_pending_verification": ["age", "ethnicity"], "reason": "Direct PDF follow-up returned the university's moved/missing-page notice. No exact birthday or ethnicity accepted solely from earlier discovery/cached metadata; seek an accessible original or independent corroboration."}
+  ]
+}

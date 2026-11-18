@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "221333-rotary-birthday-month-day-2021",
+      "candidate_id": "221333", "name": "John Croisant", "state": "OK", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:OK:01:general:source_general",
+      "family": "earlier_biography",
+      "url": "https://www.dacdb.com/rotary/accounts/6110/Bulletins/2500/Monday%20Message%2001-11-2021.pdf",
+      "source_title": "Rotary Club of Tulsa Monday Message: January birthdays",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "January 2021 is established by the dated speaker schedule. The filename suggests January 11 but is not treated as an independently verified publication day.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name in the Tulsa club's member-birthday list, bridged through the accepted UpliftEd biography identifying the same Tulsa school-board member and Allstate owner as a Tulsa Rotary Club member. The PDF page-2 screenshot confirms the name/date pairing. Photographs were not used for identification or trait classification.",
+      "identity_fragments": ["John Croisant"],
+      "source_excerpts": ["Birthdays", "John Croisant", "January 10th"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "birthday_month_day_only", "factual_reference_date": "2021-01",
+         "value": {"birthday_month": 1, "birthday_day": 10, "birth_year": null},
+         "source_fragment": "January 10th", "supporting_fragments": ["Birthdays", "John Croisant"],
+         "qualification": "No birth year or age appears in this entry. Do not combine this month/day with an undated guide age to manufacture a full birth date or election-day age."}
+      ]
+    },
+    {
+      "id": "221343-national-academies-teacher-workforce",
+      "candidate_id": "221343", "name": "Jena Nelson", "state": "OK", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "university_employer_professional",
+      "url": "https://www.nationalacademies.org/cdn/materials/9fba07e9-5821-4078-b414-6a126e9bd501",
+      "source_title": "National Academies Teacher Workforce Workshop Bios",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated workshop biography, PDF page 2. Historical career descriptions and 2020 award context are not dated 2026 from crawl metadata.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Deer Creek teaching role, 2020 Oklahoma Teacher of the Year award and Louisiana university match the accepted campaign, university and state-board biographies.",
+      "identity_fragments": ["Jena Nelson"],
+      "source_excerpts": ["Jena Nelson", "eighth-grade composition", "Deer Creek", "Bachelor of Arts", "Northwestern State University", "Oklahoma governor\u2019s workforce council", "superintendent\u2019s teacher advisory"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_credential", "factual_reference_date": null,
+         "value": "Bachelor of Arts, Northwestern State University, Natchitoches, Louisiana",
+         "source_fragment": "Bachelor of Arts", "supporting_fragments": ["Northwestern State University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_workshop_biography", "factual_reference_date": null,
+         "value": "Eighth-grade composition and academic-enhancement teacher, Deer Creek Middle School",
+         "source_fragment": "eighth-grade composition", "supporting_fragments": ["Deer Creek"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "advisory_roles_not_proof_of_paid_employment", "factual_reference_date": null,
+         "value": "Governor's workforce council and state education advisory/standards committees",
+         "source_fragment": "Oklahoma governor\u2019s workforce council", "supporting_fragments": ["superintendent\u2019s teacher advisory"],
+         "qualification": "These memberships do not establish election, appointment method or compensation. The biography's Chickasaw Nation award does not establish Native identity."}
+      ]
+    },
+    {
+      "id": "221343-oklahoma-memo-full-interview-2026",
+      "candidate_id": "221343", "name": "Jena Nelson", "state": "OK", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomamemo.com/podcast/s/oklahoma_memo/jena_nelson_on_ai_education_and_her_challenge_to_stephanie_bice",
+      "source_title": "Jena Nelson on AI, education and her challenge to Stephanie Bice",
+      "publication_date": "2026-10-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full transcript reviewed through 46:47. The publisher dates publication October 30; the precise interview day is not established.",
+      "identity_status": "verified",
+      "identity_qualification": "Publisher identifies Jena Nelson, Oklahoma CD5 Democratic candidate, and links her accepted campaign website. The transcript's Gina spelling is a transcription error, not another candidate. Ryan Welton's own education and career are not attributed to Nelson.",
+      "identity_fragments": ["Jena Nelson"],
+      "source_excerpts": ["Jena Nelson", "rural girl at heart", "composition teacher", "I worked for a non-profit", "worked with the Department of Mental Health"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_first_person_self_description", "factual_reference_date": "2026-10",
+         "value": "Self-described as a rural girl", "source_fragment": "rural girl at heart"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_careers_in_candidate_interview", "factual_reference_date": "2026-10",
+         "value": "Former composition teacher; subsequent nonprofit prevention-program work",
+         "source_fragment": "composition teacher", "supporting_fragments": ["I worked for a non-profit"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "nonprofit_collaboration_not_government_employment", "factual_reference_date": "2026-10",
+         "value": "Nonprofit work with the Department of Mental Health",
+         "source_fragment": "worked with the Department of Mental Health",
+         "qualification": "Working with a department is not proof of employment by it. Generic belief and neighbor-love language does not establish a religious affiliation."}
+      ]
+    },
+    {
+      "id": "221341-kswo-nonprofit-work-2026",
+      "candidate_id": "221341", "name": "Rocco Bonacci", "state": "OK", "district": "04", "party": "Independent",
+      "contest_id": "2026:house:OK:04:general:source_general",
+      "family": "local_profile",
+      "url": "https://www.kswo.com/2026/11/02/cole-jacob-bonacci-share-priorities-ahead-oklahoma-4th-district-election/",
+      "source_title": "Cole, Jacob and Bonacci share priorities ahead of Oklahoma 4th District election",
+      "publication_date": "2026-11-01", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Publisher displays November 1 at 7:24 PM CST; the URL's November 2 is not substituted for that displayed date.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact full name, independent affiliation, Oklahoma CD4 and opponents Cole/Jacob match the native general-election contest.",
+      "identity_fragments": ["Rocco Bonacci"],
+      "source_excerpts": ["Rocco Bonacci", "I have 30 years of working with nonprofits."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "partial", "precision": "self_reported_work_experience_without_role_or_pay", "factual_reference_date": "2026-11",
+         "value": "Reports thirty years working with nonprofits", "source_fragment": "I have 30 years of working with nonprofits.",
+         "qualification": "No employer, title, compensation or continuous service interval is established. This could include voluntary work; it is not coded as paid employment."}
+      ]
+    },
+    {
+      "id": "221340-ou-daily-voice-profile-2026",
+      "candidate_id": "221340", "name": "Mitchell Jacob", "state": "OK", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:OK:04:general:source_general",
+      "family": "local_profile",
+      "url": "https://www.oudaily.com/news/oklahoma-elections-u-s-representative-4th-congressional-district-candidates-tom-cole-mitchell-jacob/article_21103ddc-c8f9-48f0-a4df-061b38d754e6.html",
+      "source_title": "Oklahoma elections: Meet candidates running for the state's 4th congressional district",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Oklahoma Voice reporting published by OU Daily; the university newspaper is not a registrar or military service record.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact full name, Democratic affiliation and Oklahoma CD4 candidacy, alongside the native opponents, identify the same person.",
+      "identity_fragments": ["Mitchell Jacob"],
+      "source_excerpts": ["Mitchell Jacob", "Army veteran", "graduated from the University of Oklahoma's law school in 2025"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_completed_law_school", "factual_reference_date": "2025",
+         "value": "University of Oklahoma law-school graduate, 2025", "source_fragment": "graduated from the University of Oklahoma's law school in 2025"},
+        {"trait": "military", "factual_status": "qualified", "precision": "publisher_reported_branch_service", "factual_reference_date": "2026-10-21",
+         "value": "Army veteran", "source_fragment": "Army veteran"}
+      ]
+    },
+    {
+      "id": "221333-constitution-primary-roundup-age-career",
+      "candidate_id": "221333", "name": "John Croisant", "state": "OK", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:OK:01:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1482",
+      "source_title": "U.S. Senate and House Races: John Croisant",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated partisan pre-primary roundup addressing the 2026 cycle. Dynamic sidebar dates are not article dates; the body includes stale material. Shared-original quotations across the four candidate records total 25 words.",
+      "identity_status": "verified",
+      "identity_qualification": "Full name in the CD1 Democratic paragraph, Tulsa school-board service and insurance career match the native nominee and accepted official/employer biographies. Only the surname is retained as a short literal identity fragment.",
+      "identity_fragments": ["Croisant"],
+      "source_excerpts": ["Croisant", "49", "taught", "soccer coach", "insurance agency", "board"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_with_unverified_reference_date", "factual_reference_date": null,
+         "value": {"reported_age": 49, "article_election_context": 2026}, "source_fragment": "49",
+         "qualification": "The guide reports 51. The article may reuse a historical age, so the two cannot be reconciled or converted to an exact birth year without a qualified reference date."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_career_history", "factual_reference_date": null,
+         "value": "Geography teacher and soccer coach; insurance-agency owner after a reported 2018 transition",
+         "source_fragment": "taught", "supporting_fragments": ["soccer coach", "insurance agency"]},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "school_board_service_without_election_method_in_this_source", "factual_reference_date": null,
+         "value": "Tulsa Public Schools board service", "source_fragment": "board",
+         "qualification": "This paragraph establishes the role, not the method of selection; stronger election evidence is retained separately."}
+      ]
+    },
+    {
+      "id": "221338-constitution-primary-roundup-background",
+      "candidate_id": "221338", "name": "Suzie Byrd", "state": "OK", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:OK:03:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1482",
+      "source_title": "U.S. Senate and House Races: Suzie Byrd",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated partisan pre-primary roundup; no age reference day is established. The body contains stale election material.",
+      "identity_status": "verified",
+      "identity_qualification": "Full name in the CD3 Democratic section, Enid reporting career and Oklahoma State attendance match the retained candidate and accepted biographies.",
+      "identity_fragments": ["Byrd"],
+      "source_excerpts": ["Byrd", "71", "reporter", "Oklahoma State University"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_with_unverified_reference_date", "factual_reference_date": null,
+         "value": {"reported_age": 71, "article_election_context": 2026}, "source_fragment": "71"},
+        {"trait": "education", "factual_status": "partial", "precision": "attendance_not_completed_credential", "factual_reference_date": null,
+         "value": "Oklahoma State University attendance", "source_fragment": "Oklahoma State University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_historical_occupation", "factual_reference_date": null,
+         "value": "Former Enid News & Eagle reporter", "source_fragment": "reporter"}
+      ]
+    },
+    {
+      "id": "221341-constitution-primary-roundup-background",
+      "candidate_id": "221341", "name": "Rocco Bonacci", "state": "OK", "district": "04", "party": "Independent",
+      "contest_id": "2026:house:OK:04:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1482",
+      "source_title": "U.S. Senate and House Races: Rocco Bonacci",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated partisan pre-primary roundup; no exact age or service reference day is established.",
+      "identity_status": "verified",
+      "identity_qualification": "Full name, Lawton, independent CD4 candidacy and Lawton Access Board role match the native candidate and accepted voter guide.",
+      "identity_fragments": ["Bonacci"],
+      "source_excerpts": ["Bonacci", "51", "disability advocate", "Lawton Access Board"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_with_unverified_reference_date", "factual_reference_date": null,
+         "value": {"reported_age": 51, "article_election_context": 2026}, "source_fragment": "51"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_reported_public_work_role_not_paid_job", "factual_reference_date": null,
+         "value": "Disability advocate", "source_fragment": "disability advocate",
+         "qualification": "The publisher explicitly describes this work role. No paid employer, compensation or occupational model category is inferred."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "board_membership_not_proof_of_government_employment", "factual_reference_date": null,
+         "value": "Lawton Access Board member", "source_fragment": "Lawton Access Board",
+         "qualification": "No election method, appointment date or compensation is established."}
+      ]
+    },
+    {
+      "id": "221343-constitution-primary-roundup-background",
+      "candidate_id": "221343", "name": "Jena Nelson", "state": "OK", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1482",
+      "source_title": "U.S. Senate and House Races: Jena Nelson",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated partisan pre-primary roundup; publication and age reference days are not established.",
+      "identity_status": "verified",
+      "identity_qualification": "Full name in the CD5 Democratic section, earlier superintendent candidacy and 2020 teaching award match the native nominee and accepted biographies.",
+      "identity_fragments": ["Nelson"],
+      "source_excerpts": ["Nelson", "48", "nonprofit development"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_with_unverified_reference_date", "factual_reference_date": null,
+         "value": {"reported_age": 48, "article_election_context": 2026}, "source_fragment": "48",
+         "qualification": "This agrees with the guide's reported age but does not erase the retained conflicting 2022 newspaper age or establish a birth date."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_multiple_careers", "factual_reference_date": null,
+         "value": "Teacher; nonprofit development and corporate leadership work; Oklahoma Faith Network acting executive director and programs director",
+         "source_fragment": "nonprofit development",
+         "qualification": "Employment by a faith-network organization does not establish religious identity. These historical roles are not treated as necessarily current."}
+      ]
+    }
+  ],
+  "searches": [
+    {"candidate_id": "221333", "family": "earlier_biography", "query_kind": "source_followup", "query": "https://www.dacdb.com/rotary/accounts/6110/Bulletins/2500/Monday%20Message%2001-11-2021.pdf", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.dacdb.com/rotary/accounts/6110/Bulletins/2500/Monday%20Message%2001-11-2021.pdf"]},
+    {"candidate_id": "221343", "family": "university_employer_professional", "query_kind": "source_followup", "query": "https://www.nationalacademies.org/cdn/materials/9fba07e9-5821-4078-b414-6a126e9bd501", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.nationalacademies.org/cdn/materials/9fba07e9-5821-4078-b414-6a126e9bd501"]},
+    {"candidate_id": "221343", "family": "ballotpedia_questionnaire", "query_kind": "source_followup", "query": "https://ivoterguide.com/candidate/73793/race/35077/election/1506", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ivoterguide.com/candidate/73793/race/35077/election/1506"], "lead_dispositions": {"https://ivoterguide.com/candidate/73793/race/35077/election/1506": {"status": "reviewed_no_requested_facts", "reason": "The actual 2026 profile was read. Education, work/military, affiliations and offices-held fields are not provided; spiritual-beliefs question is unanswered. Endorsements and nonresponses are not personal identity or service negatives."}}},
+    {"candidate_id": "221343", "family": "earlier_biography", "query_kind": "source_followup", "query": "https://ivoterguide.com/candidate/73793/race/15104/election/973", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ivoterguide.com/candidate/73793/race/15104/election/973"], "lead_dispositions": {"https://ivoterguide.com/candidate/73793/race/15104/election/973": {"status": "reviewed_no_requested_facts", "reason": "The historical 2022 superintendent profile was read. Background and spiritual-belief fields are unanswered, not explicit negatives; the linked 2026 profile was followed separately."}}},
+    {"candidate_id": "221340", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.thepoliticalgroup.com/who-should-i-vote-for/oklahoma/district-4", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.thepoliticalgroup.com/who-should-i-vote-for/oklahoma/district-4", "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/"], "lead_dispositions": {
+      "https://www.thepoliticalgroup.com/who-should-i-vote-for/oklahoma/district-4": {"status": "reviewed_no_requested_facts", "reason": "Used only to discover the cited original. Its prior-office negative is not accepted without traceable support from the underlying reporting; no ranking, campaign score or absence-of-record inference is imported."},
+      "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/": {"status": "access_failure", "reason": "Following the actual cited link returned HTTP 403. No retry, alternate-host retrieval or search-only factual claim."}
+    }},
+    {"candidate_id": "221340", "family": "local_profile", "query_kind": "source_followup", "query": "https://allciv.com/news/article/oklahoma-4th-district-election-oklahomas", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://allciv.com/news/article/oklahoma-4th-district-election-oklahomas", "https://www.kswo.com/2026/11/02/cole-jacob-bonacci-share-priorities-ahead-oklahoma-4th-district-election/", "https://www.oudaily.com/news/oklahoma-elections-u-s-representative-4th-congressional-district-candidates-tom-cole-mitchell-jacob/article_21103ddc-c8f9-48f0-a4df-061b38d754e6.html"], "lead_dispositions": {
+      "https://allciv.com/news/article/oklahoma-4th-district-election-oklahomas": {"status": "reviewed_no_requested_facts", "reason": "The publisher states its coverage is generated. Used for original-source discovery only; its unsupported prior-office negative was not imported."},
+      "https://www.kswo.com/2026/11/02/cole-jacob-bonacci-share-priorities-ahead-oklahoma-4th-district-election/": {"status": "reviewed_no_requested_facts", "reason": "Full relevant report read. Jacob's policy and general working-life statements add no specific requested biographical field; Bonacci's nonprofit-work statement is accepted for Bonacci separately."}
+    }},
+    {"candidate_id": "221341", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.kswo.com/2026/11/02/cole-jacob-bonacci-share-priorities-ahead-oklahoma-4th-district-election/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kswo.com/2026/11/02/cole-jacob-bonacci-share-priorities-ahead-oklahoma-4th-district-election/"]},
+    {"candidate_id": "221340", "family": "earlier_biography", "query_kind": "source_followup", "query": "https://alpha.creativecirclecdn.com/register/files/20240724-150011-d05-07-25-2024.pdf", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://alpha.creativecirclecdn.com/register/files/20240724-150011-d05-07-25-2024.pdf"], "lead_dispositions": {"https://alpha.creativecirclecdn.com/register/files/20240724-150011-d05-07-25-2024.pdf": {"status": "access_failure", "reason": "The earlier web-reader output did not retain the relevant advertisement passage. The direct original PDF request returned HTTP 403. No further retrieval attempt or factual claim from the advertisement; search-only public-school or moderate descriptions are not accepted."}}},
+    {"candidate_id": "221333", "family": "local_profile", "query_kind": "source_followup", "query": "https://oklahomaconstitution.com/ns.php?nid=1482", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://oklahomaconstitution.com/ns.php?nid=1482"]},
+    {"candidate_id": "221338", "family": "local_profile", "query_kind": "source_followup", "query": "https://oklahomaconstitution.com/ns.php?nid=1482", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://oklahomaconstitution.com/ns.php?nid=1482"]},
+    {"candidate_id": "221341", "family": "local_profile", "query_kind": "source_followup", "query": "https://oklahomaconstitution.com/ns.php?nid=1482", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://oklahomaconstitution.com/ns.php?nid=1482"]},
+    {"candidate_id": "221343", "family": "local_profile", "query_kind": "source_followup", "query": "https://oklahomaconstitution.com/ns.php?nid=1482", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://oklahomaconstitution.com/ns.php?nid=1482"]},
+    {"candidate_id": "221338", "family": "official_biography", "query_kind": "source_followup", "query": "https://oklahoma.gov/content/dam/ok/en/elections/post-election-audits/2026-post-election-audits/2026-jun-primary-post-election-audit.pdf", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://oklahoma.gov/content/dam/ok/en/elections/post-election-audits/2026-post-election-audits/2026-jun-primary-post-election-audit.pdf"], "lead_dispositions": {"https://oklahoma.gov/content/dam/ok/en/elections/post-election-audits/2026-post-election-audits/2026-jun-primary-post-election-audit.pdf": {"status": "reviewed_no_requested_facts", "reason": "Retrieved the official 250-page primary-election audit, identified its election-administration scope and July 31, 2026 report date, and scanned all extracted page text for Byrd without a match. This is a document-scope/text scan, not detailed manual review of every page or evidence of any service negative."}}},
+    {"candidate_id": "221344", "family": "campaign", "query_kind": "source_followup", "query": "https://projectduecourse.org/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://projectduecourse.org/", "https://projectduecourse.org/robert-for-congress"], "lead_dispositions": {
+      "https://projectduecourse.org/": {"status": "reviewed_no_requested_facts", "reason": "Actual campaign homepage read. Robert Patrick Henri and Oklahoma CD5 identify the native candidate, but platform/motivation statements supply no specific requested missing background facts."},
+      "https://projectduecourse.org/robert-for-congress": {"status": "reviewed_no_requested_facts", "reason": "Actual Meet Robert page read. Generic working-class rhetoric, not-a-politician language and his father's choice of a first name establish neither a specific occupation, scoped no-office claim, ancestry nor dated age. All ten background traits considered; no absence-based negatives accepted."}
+    }},
+    {"candidate_id": "221344", "family": "ballotpedia_questionnaire", "query_kind": "source_followup", "query": "https://ballotpedia.org/Robert_Henri", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Robert_Henri"], "lead_dispositions": {"https://ballotpedia.org/Robert_Henri": {"status": "access_failure", "reason": "Underlying page returned a JavaScript/robot challenge. Questionnaire text in a search result was not accepted as underlying evidence; no bypass."}}},
+    {"candidate_id": "221344", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.koco.com/article/oklahoma-5th-district-independent-candidates/74251739", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.koco.com/article/oklahoma-5th-district-independent-candidates/74251739", "https://www.kosu.org/oklahoma-cd5-election-preview-2026"], "lead_dispositions": {
+      "https://www.koco.com/article/oklahoma-5th-district-independent-candidates/74251739": {"status": "access_failure", "reason": "Actual original returned HTTP 402 Payment Required. Search-only automation-engineer description was not accepted for Henri."},
+      "https://www.kosu.org/oklahoma-cd5-election-preview-2026": {"status": "access_failure", "reason": "Actual original returned HTTP 403. No repeat request, alternate-host bypass or snippet-only factual import."}
+    }}
+  ],
+  "search_batches": [
+    {"searched_at": "2026-11-18", "candidate_ids": ["221343"], "queries": ["\"Jena Nelson\" (\"military\" OR \"veteran\" OR \"ethnicity\" OR \"birth\" OR \"elected office\")", "\"Jena Nelson\" biography military"], "result_mapping": "Retained executed queries; original query-to-result mapping was not retained. Actual National Academies and voter-guide follow-ups are recorded separately."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221343", "221333"], "queries": ["\"Jena Nelson\" church religion", "\"John Croisant\" \"birthday\""], "result_mapping": "Results were returned as an unassigned union. Do not reconstruct per-query mappings. The Rotary original was followed and its candidate identity independently bridged."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221333", "221340"], "queries": ["\"John Croisant\" \"gender\"", "\"John Croisant\" \"Rotary\"", "\"Mitchell Jacob\" \"gender\""], "result_mapping": "No per-query mapping retained; no completion-family credit from this batch. Accepted corrections use the actually read original pages."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221340", "221333"], "queries": ["\"Mitchell Jacob\" (\"ethnicity\" OR \"heritage\" OR \"Native American\" OR \"Hispanic\" OR \"Black\")", "\"Mitchell Jacob\" (\"never held\" OR \"offices held\" OR \"elected office\")", "\"John Croisant\" (\"military service\" OR \"veteran\" OR \"race\" OR \"ethnicity\")"], "result_mapping": "No per-query mapping retained; no candidate race, ethnicity or negative-service claim accepted from results."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221340"], "queries": ["\"Mitchell Jacob\" \"ethnicity\"", "\"Mitchell Jacob\" \"race\" \"heritage\"", "\"Mitchell Jacob\" \"elected office\""], "result_mapping": "Result union preserved as source-discovery context, not invented individual mappings. Namesake medical directories and historical indexes were rejected; no candidate identity claim was inferred.",
+     "selected_result_urls": ["https://www.thepoliticalgroup.com/who-should-i-vote-for/oklahoma/district-4", "https://usgovexplained.org/states/ok/voter-information", "https://99chambers.app/candidate/mitchell-jacob-ok", "https://allciv.com/news/article/oklahoma-4th-district-election-oklahomas", "https://alpha.creativecirclecdn.com/register/files/20240724-150011-d05-07-25-2024.pdf"],
+     "rejected_result_note": "Generated and name-matched databases are not evidence of no previous office. Primary-source follow-ups and actual failures are recorded separately."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221340"], "queries": ["\"Mitchell Jacob\" site:nondoc.com", "\"Mitchell Jacob\" site:newcastlepacer.com"], "result_mapping": "Unassigned union; the search tool explicitly reported a non-retryable robots restriction for newcastlepacer.com. Search-result text was not promoted to factual evidence.",
+     "blocked_original_urls": ["https://www.newcastlepacer.com/article/4730%2C3-seek-oklahoma-congressional-district-4", "https://www.newcastlepacer.com/article/3288%2Cjacob-announcing-for-u-s-congress", "https://www.newcastlepacer.com/article/4374%2Cnewcastle-resident-mitchell-jacob-secures-democrat-nomination-for-4th-district-congressional-race-he-ll-face-incumbent-r", "https://www.newcastlepacer.com/article/1272%2Cmitchell-jacob-announces-for-house-district-20-seat"]},
+    {"searched_at": "2026-11-18", "candidate_ids": ["221340"], "queries": ["\"Mitchell Jacob\" \"NonDoc\"", "\"Mitchell Jacob\" \"prior\" \"office\" \"NonDoc\""], "result_mapping": "Unassigned union. The Political Group was opened to identify the actual cited NonDoc link, which returned HTTP 403. Neither generated claims nor search-only reproductions were accepted."}
+  ],
+  "completed_candidates": [
+    {
+      "candidate_id": "221340",
+      "actionable_leads_remaining": false,
+      "trait_findings": {
+        "age": "The 2024 questionnaire explicitly relates the tenth birthday to September 11, 2001: derived birthday October 11, 1991, giving age 35 on November 3, 2026. This is a documented derivation, not a birth-certificate field.",
+        "gender": "Explicit first-person description as a man in the 2024 questionnaire.",
+        "race": "No explicit qualifying race classification found in the reviewed campaign, surveys and other biographies; no inference from photographs or namesakes.",
+        "ethnicity": "No explicit qualifying ethnicity classification found; birthplace and fourth-generation local roots are not ethnicity.",
+        "religion": "Undated Christian: Nondenominational directory classification; dated 2024 questionnaire reports Victory Family Church attendance, without establishing continuous current affiliation.",
+        "education": "Completed credentials through the 2025 OU law degree are documented; the historical 2024 biography describes law-school attendance at that time.",
+        "profession": "Financial-services careers, public defender and earlier work are documented. Historical and current roles are distinguished.",
+        "prior_elected_office": "Prior candidacy and loss do not establish a no-office negative. Generated guides' unsupported negatives were rejected; a linked NonDoc original returned 403.",
+        "other_government": "Accepted official House disclosure establishes Oklahoma Indigent Defense System salary. Announcing acceptance of an earlier internship does not establish completed or paid work.",
+        "military": "Explicit Army service is documented, with reported service interval retained as such."
+      },
+      "extraction_review": "All ten background traits reviewed across the six recorded source families, including both questionnaire vintages and source-linked follow-ups. Relevant accessible originals were reviewed; NonDoc, Newcastle Pacer and the historical newspaper PDF restrictions are specifically retained rather than bypassed. Unknown identities and unqualified prior-office status remain unresolved facts, not negative values. Unmapped search batches do not supply family credit."
+    }
+  ],
+  "withheld_documents": [
+    {"id": "withheld-221340-nondoc-primary-profile", "candidate_id": "221340", "name": "Mitchell Jacob", "family": "local_profile", "status": "withheld_access_failure", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+     "url": "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+     "reason": "Following the original citation returned HTTP 403. No retry, alternate-host retrieval or acceptance of a generated guide's purported prior-office negative.",
+     "traits_pending_verification": ["prior_elected_office"]},
+    {"id": "withheld-221340-newcastle-pacer-background", "candidate_id": "221340", "name": "Mitchell Jacob", "family": "earlier_biography", "status": "withheld_access_failure", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+     "url": "https://www.newcastlepacer.com/article/1272%2Cmitchell-jacob-announces-for-house-district-20-seat",
+     "reason": "The search tool reported a non-retryable robots restriction for the publisher. This records a domain access restriction, not a claim that every returned article received a separate request. Search-only biography text was not accepted.",
+     "traits_pending_verification": ["age", "religion", "education", "profession", "military"]}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "221333", "status": "in_progress", "reason": "The current Croisant Oklahoma Memo rendering contains no transcript body. Exact age/birth year, explicit gender/race/ethnicity and military evidence remain unresolved; the birthday month/day is not a full age value."},
+    {"candidate_id": "221338", "status": "in_progress", "reason": "The official election audit's scope and candidate-text scan are now resolved. Actual Memo transcript passages yielded explicit female self-description, a completed journalism degree and additional historical careers; remaining explicit identity/service searches and unreviewed transcript segments prevent completion."},
+    {"candidate_id": "221343", "status": "in_progress", "reason": "Full Memo transcript, workshop biography and both voter-guide profiles are reviewed. Remaining identity, prior-office and service research is not complete."},
+    {"candidate_id": "221341", "status": "in_progress", "reason": "The nonprofit statement lacks role and pay details. Official Lawton Access Board records and a complete six-family biographical pass remain actionable."},
+    {"candidate_id": "221344", "status": "in_progress", "reason": "Both campaign pages reviewed with no qualifying new background claims; Ballotpedia, KOCO and KOSU access failures recorded. Correct-person FEC/official filing records and independent professional/earlier biography discovery remain actionable. Historical painter namesakes are not this candidate."}
+  ]
+}
