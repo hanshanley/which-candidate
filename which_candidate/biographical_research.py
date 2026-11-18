@@ -86,6 +86,34 @@ def query_kind(search):
     )
 
 
+def unresolved_source_urls(searches, documents):
+    selected = set()
+    resolved = {d["url"] for d in documents}
+    for search in searches:
+        urls = set(search.get("underlying_urls", []))
+        selected.update(urls)
+        if (
+            query_kind(search) == "reconstructed_historical_description"
+            or search["outcome"] == "result_mapping_not_retained"
+        ):
+            continue
+        for url, disposition in search.get("lead_dispositions", {}).items():
+            if (
+                url in urls
+                and isinstance(disposition, dict)
+                and disposition.get("status")
+                in {
+                    "reviewed_no_requested_facts",
+                    "access_failure",
+                    "identity_rejected",
+                    "duplicate_reviewed_original",
+                }
+                and disposition.get("reason")
+            ):
+                resolved.add(url)
+    return sorted(selected - resolved)
+
+
 def freeze(root):
     root = Path(root)
     if (root / BASELINE).exists():
@@ -244,23 +272,8 @@ def research_states(journal, candidates, documents):
             or not completion.get("extraction_review")
         ):
             raise ValueError(f"Unfinished research cannot be called complete: {key}")
-        for search in found:
-            reviewed_urls = {d["url"] for d in reviews.get(key, [])}
-            disposed = {
-                url
-                for url, disposition in search.get("lead_dispositions", {}).items()
-                if isinstance(disposition, dict)
-                and disposition.get("status")
-                in {
-                    "reviewed_no_requested_facts",
-                    "access_failure",
-                    "identity_rejected",
-                    "duplicate_reviewed_original",
-                }
-                and disposition.get("reason")
-            }
-            if not set(search.get("underlying_urls", [])) <= reviewed_urls | disposed:
-                raise ValueError(f"Unreviewed underlying research lead: {key}")
+        if unresolved_source_urls(found, reviews.get(key, [])):
+            raise ValueError(f"Unreviewed underlying research lead: {key}")
         completed.add(key)
     return searches, reviews, completed
 
@@ -526,6 +539,12 @@ def build(root):
             | {
                 "source_families_not_searched": json.dumps(
                     sorted(set(FAMILIES) - set(profile["families_searched"]))
+                ),
+                "selected_urls_without_review_or_disposition": json.dumps(
+                    unresolved_source_urls(
+                        searches.get(profile["candidate_id"], []),
+                        reviews.get(profile["candidate_id"], []),
+                    )
                 ),
                 "background_traits_without_qualified_values": json.dumps(
                     [

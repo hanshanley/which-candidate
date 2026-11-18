@@ -184,6 +184,36 @@ A source-family marker by itself does not establish that all selected
 originals were reviewed or that a family was exhausted. Continue to other
 parties and incumbents through the retained roster. No frozen fit changed.
 
+## Mississippi and North Carolina continuation
+
+The continuation after `8980691` opened all 12 previously untouched Democratic
+nonincumbent passes in Mississippi and North Carolina and reviewed Little's
+selected Minnesota interview. It adds 22 reviews, 79 claims, 17 first-evidence
+fields and nine first-qualified fields, all first fields among known Democratic
+nonincumbents. The current counts are 746 reviews, 2,119 claims, 301 first
+fields and 174 first-qualified fields. Twelve roster passes are complete,
+200 active and 1,072 untouched; among the 449 Democrats the counts are
+12, 172 and 265, and among 266 known Democratic nonincumbents 12, 167 and 87.
+
+The October North Carolina Health News guide provided seven matched profiles:
+some include first-person candidate answers; others are editor compilations
+after nonresponse. Watson's 37/38 descriptions are unresolved, and Womack's
+unattributed age header is separately flagged rather than replacing retained
+evidence. Smith's named service and office are distinct from public-transit
+work with no employer named in the guide. Hardy's public university appointment
+and Ojeda's earlier West Virginia service are supported by matched originals.
+Hulum's high-school completion is separate from college attendance. Chiaradio's
+named contractor work does not establish a government job. None changes frozen
+comparisons, fits or predictions.
+
+The remaining queue now lists `selected_urls_without_review_or_disposition`.
+A valid later disposition resolves the same exact URL for the same candidate
+across journal entries. A different candidate's review, an unstructured note
+or an unmapped search does not resolve it. A zero-length list is not completion:
+the six families, all ten traits and outstanding leads in the journals still
+need attention. Continue the separate near-complete audit and first-pass batches
+through Ohio and the rest of the untouched roster.
+
 ## What counts as research
 
 Campaign-page retrieval is complete as a transport operation, not a person-level

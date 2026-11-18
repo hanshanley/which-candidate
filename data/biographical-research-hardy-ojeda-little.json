@@ -1,0 +1,120 @@
+{
+  "scope": "Open first passes for the two North Carolina Democratic nonincumbents absent from the matched guide links, and follow a selected original on a near-complete Minnesota pass.",
+  "documents": [
+    {
+      "id": "220915-own-nc07-about", "candidate_id": "220915", "name": "Kim Hardy", "state": "NC", "district": "07", "party": "Democratic", "contest_id": "2026:house:NC:07:general:source_general",
+      "family": "campaign", "url": "https://www.kimberlyhardyforcongress.com/meetkimberly", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own NC07 campaign domain matches native candidate and state filing name Kimberly Hardy; employer is independently linked.",
+      "identity_fragments": ["Kimberly Hardy"], "source_excerpts": ["Kimberly Hardy", "social worker", "Bachelors in Social Work", "Masters in Social Work", "PhD in Social Work", "Fayetteville State University", "nominee for NC House 43"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_three_completed_social_work_degrees", "source_fragment": "Bachelors in Social Work", "supporting_fragments": ["Masters in Social Work", "PhD in Social Work"], "factual_reference_date": "Degrees completed before undated campaign biography", "value": "BSW and PhD from Morgan State University, MSW from Ohio State. Earlier community college journalism attendance is not a degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_school_social_work_and_academic_career", "source_fragment": "social worker", "supporting_fragments": ["Fayetteville State University"], "factual_reference_date": "Historical social work and academic work before and during campaign", "value": "School social worker and professor, alongside volunteer and party roles."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_public_university_faculty_job", "source_fragment": "Fayetteville State University", "factual_reference_date": "Campaign states role from 2016; university roster confirms ongoing faculty appointment", "value": "Formal faculty employment at Fayetteville State University, part of UNC. Earlier school social-work employer not identified in this source."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "documented_candidacy_not_win_or_scoped_negative", "source_fragment": "nominee for NC House 43", "factual_reference_date": "2020 state House race", "value": "2020 state House candidacy alone is neither a public office held nor a direct never-elected answer. Party positions are not public office."}
+      ],
+      "extraction_review": "Complete Meet Kimberly biography read. Family military and agency employment are not her own. Religion research, affiliation of a school, and community organizations are not evidence of personal faith or race."
+    },
+    {
+      "id": "220915-uncfsu-social-work-faculty-roster", "candidate_id": "220915", "name": "Kim Hardy", "state": "NC", "district": "07", "party": "Democratic", "contest_id": "2026:house:NC:07:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.uncfsu.edu/academics/colleges-schools-and-departments/college-of-humanities-and-social-sciences/school-of-social-work/faculty-and-staff", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Official employer matches exact full name, social work and the institution identified in campaign biography.",
+      "identity_fragments": ["Dr. Kimberly Hardy"], "source_excerpts": ["Dr. Kimberly Hardy", "Associate Professor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "employers_named_academic_title", "source_fragment": "Associate Professor", "factual_reference_date": "Current roster accessed November 18, 2026", "value": "Associate Professor of Social Work at Fayetteville State University. Does not date promotion."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "formal_public_university_faculty_listing", "source_fragment": "Associate Professor", "factual_reference_date": "Current roster accessed November 18, 2026; campaign dates employment to 2016", "value": "Employer confirms faculty role matching candidate's 2016-onward history. Roster retrieval alone is not proof of pre-election publication."}
+      ],
+      "extraction_review": "Read exact named roster entry and linked individual's name-only page. No degrees or prior jobs attributed from neighboring listings."
+    },
+    {
+      "id": "220921-own-nc09-about-with-service-faq", "candidate_id": "220921", "name": "Richard Ojeda", "state": "NC", "district": "09", "party": "Democratic", "contest_id": "2026:house:NC:09:general:source_general",
+      "family": "campaign", "url": "https://ojedafornc.com/about-richard-ojeda/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own NC09 campaign About and matching West Virginia service, Army career and opponent.",
+      "identity_fragments": ["Richard Ojeda"], "source_excerpts": ["Richard Ojeda", "24 years in the U.S. Army", "teaching JROTC at a local high school", "degree from West Virginia State University", "State Senate"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_west_virginia_state_degree", "source_fragment": "degree from West Virginia State University", "factual_reference_date": "Before officer training", "value": "Completed degree from West Virginia State University; historical questionnaire names degree titles."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_postretirement_rotc_instruction_and_army_roles", "source_fragment": "teaching JROTC at a local high school", "factual_reference_date": "Before state Senate run and after military retirement", "value": "High-school JROTC instructor and retired Army officer, distinct careers."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "school_instructor_without_named_employer", "source_fragment": "teaching JROTC at a local high school", "factual_reference_date": "After military retirement", "value": "High-school instructor role established; exact employer and appointment not given. Not assumed additional active-duty service."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_state_senate_win", "source_fragment": "State Senate", "factual_reference_date": "West Virginia office before return to North Carolina", "value": "Own biography states he ran for and won a West Virginia State Senate seat. Official Blue Book supplies election year."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_twenty_four_year_army_service", "source_fragment": "24 years in the U.S. Army", "factual_reference_date": "Retired before congressional campaign", "value": "24 years U.S. Army including enlisted and commissioned service, retired major."}
+      ],
+      "extraction_review": "Read About through the end of military FAQ, separating candidate's history from family and opponent."
+    },
+    {
+      "id": "220921-wv-legislative-blue-book", "candidate_id": "220921", "name": "Richard Ojeda", "state": "NC", "district": "09", "party": "Democratic", "contest_id": "2026:house:NC:09:general:source_general",
+      "family": "official_biography", "url": "https://www.wvlegislature.gov/legisdocs/publications/bluebook/2017-2018/0331_WVS_BlueBook.pdf", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2017–2018 Blue Book, legislative section p. 346 (PDF page 16). File upload time not source edition date.",
+      "identity_status": "verified", "identity_qualification": "Richard N. Ojeda II, District 7, matches reported Army/JROTC background and prior state office; corroborated by earlier own LWV response.",
+      "identity_fragments": ["Richard N. Ojeda II"], "source_excerpts": ["Richard N. Ojeda II", "Born September 25, 1970", "West Virginia State University; M.A., Webster University", "Retired US Army/Jr. ROTC Instructor", "Elected to the Senate 2016"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_public_directory_recorded_birth_date", "source_fragment": "Born September 25, 1970", "factual_reference_date": "Recorded birth date September 25, 1970; election November 3, 2026", "value": "Blue Book records September 25, 1970 (age 56 on election day from this source). The date is source-recorded, not civil registration verification."},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_biography_reported_degrees", "source_fragment": "West Virginia State University; M.A., Webster University", "factual_reference_date": "Before published 2017–2018 edition", "value": "BA West Virginia State and MA Webster; both also self-reported in LWV answers."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_biography_reported_occupations", "source_fragment": "Retired US Army/Jr. ROTC Instructor", "factual_reference_date": "At directory edition", "value": "Retired Army and Junior ROTC instructor, without named civilian employer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_explicit_state_senate_election", "source_fragment": "Elected to the Senate 2016", "factual_reference_date": "2016", "value": "Elected to West Virginia Senate District 7 in 2016."},
+        {"trait": "military", "factual_status": "qualified", "precision": "official_biography_explicit_retirement", "source_fragment": "Retired US Army/Jr. ROTC Instructor", "factual_reference_date": "Retired before directory edition", "value": "Retired U.S. Army, distinct from subsequent school job."}
+      ],
+      "extraction_review": "Read matched p. 346 block and its boundaries; other legislators' religion fields do not belong to Ojeda. This is not a whole-volume census."
+    },
+    {
+      "id": "220921-own-wv-lwv-2020-answers", "candidate_id": "220921", "name": "Richard Ojeda", "state": "NC", "district": "09", "party": "Democratic", "contest_id": "2026:house:NC:09:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://lwvwv.org/wp-content/uploads/2020/04/State-Primary-2020-US-Senate-website-format2.pdf", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2020 primary guide; exact publication day not established.",
+      "identity_status": "verified", "identity_qualification": "Full name and suffix, Logan district, state senator and retired Army major match current candidate.",
+      "identity_fragments": ["Richard N Ojeda II"], "source_excerpts": ["Richard N Ojeda II", "a BA from WV State University", "a MA from Webster University", "Retired US Army Major", "Former WV State Senator"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_ba_ma_and_staff_college_completion", "source_fragment": "a BA from WV State University", "supporting_fragments": ["a MA from Webster University"], "factual_reference_date": "Completed by 2020 response", "value": "Own BA from WV State, MA from Webster and service-school graduation at Army Command General Staff College; no conferral dates."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_retired_army_profession", "source_fragment": "Retired US Army Major", "factual_reference_date": "As of 2020 response", "value": "Retired Army officer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_former_west_virginia_state_senate_office", "source_fragment": "Former WV State Senator", "factual_reference_date": "Before 2020 Senate campaign", "value": "Former West Virginia state senator; separate from 2020 federal candidacy."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_retired_army_rank", "source_fragment": "Retired US Army Major", "factual_reference_date": "Retired by 2020", "value": "Own U.S. Army service and retired major rank."}
+      ],
+      "extraction_review": "Read complete named biography and three answers. Other people on same guide page, family details and affirmative positions omitted where outside scope."
+    },
+    {
+      "id": "220921-cityview-postelection-interview", "candidate_id": "220921", "name": "Richard Ojeda", "state": "NC", "district": "09", "party": "Democratic", "contest_id": "2026:house:NC:09:general:source_general",
+      "family": "local_profile", "url": "https://www.cityviewnc.com/stories/richard-ojeda-defeats-richard-hudson-us-house/", "publication_date": "2026-11-04", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Paul Woolverton interviews named NC09 candidate in Fayetteville after election.",
+      "identity_fragments": ["Richard Ojeda"], "source_excerpts": ["Richard Ojeda", "Ojeda, 56", "Hispanic congressman", "immigrated from Mexico", "I ran a nonprofit", "worked at the high school level", "retired as a major", "state legislator"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_numeric_age", "source_fragment": "Ojeda, 56", "factual_reference_date": "November 4, 2026", "value": "Reported age 56 the day after the election."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "reporter_explicit_gendered_congressional_title", "source_fragment": "Hispanic congressman", "factual_reference_date": "November 4, 2026 profile", "value": "Publisher explicitly describes candidate as congressman; not a direct self-identification or inferred from image/name."},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_publisher_hispanic_classification_separate_from_reported_ancestry", "source_fragment": "Hispanic congressman", "supporting_fragments": ["immigrated from Mexico"], "factual_reference_date": "November 4, 2026", "value": "Explicit reporter classification as Hispanic. Candidate separately described a Mexican-born grandparent; not used to impute race. Do not rely on claimed district first."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_narrated_nonprofit_and_school_work", "source_fragment": "I ran a nonprofit", "supporting_fragments": ["worked at the high school level"], "factual_reference_date": "Post-retirement West Virginia work", "value": "Nonprofit leadership and high-school work; no named employers in the quotation."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_history_and_reporter_two_year_state_senate_service", "source_fragment": "state legislator", "factual_reference_date": "Before 2020 move to North Carolina", "value": "Former state legislator, reported two years in West Virginia Senate."},
+        {"trait": "military", "factual_status": "qualified", "precision": "independent_interview_recorded_retirement", "source_fragment": "retired as a major", "factual_reference_date": "Retired in 2013", "value": "Army retirement as major after 24 years."}
+      ],
+      "extraction_review": "Read complete original. Opponent's religious remarks, and relative's military employment, are not Ojeda's. Post-election publication does not prove availability before cutoff."
+    },
+    {
+      "id": "220599-mpr-postprimary-written-interview", "candidate_id": "220599", "name": "Matt Little", "state": "MN", "district": "02", "party": "Democratic", "contest_id": "2026:house:MN:02:general:source_general",
+      "family": "local_profile", "url": "https://www.mprnews.org/story/2026/08/12/democrat-matt-little-wins-nomination-to-run-for-competitive-congressional-seat", "publication_date": "2026-08-12", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Explicit Minnesota 2nd District DFL nominee and former Minnesota senator matched to retained candidate.",
+      "identity_fragments": ["Matt Little"], "source_excerpts": ["Matt Little", "Former state Senator", "we met in law school"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "own_law_school_attendance_without_degree", "source_fragment": "we met in law school", "factual_reference_date": "Earlier law school attendance recalled August 2026", "value": "Own law-school attendance established; completed credential from other sources, not this interview."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "publisher_named_former_state_office", "source_fragment": "Former state Senator", "factual_reference_date": "History before August 2026 interview", "value": "Former Minnesota state senator, not serving contemporaneously."}
+      ],
+      "extraction_review": "Read full written questions and answers. Audio not independently reviewed. Spouse's job and origin are not his. Policy on military aid does not establish personal service."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220915", "family": "campaign", "query": "Kimberly Hardy North Carolina 07 biography congress education professor Fayetteville State degree military 2026", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kimberlyhardyforcongress.com/meetkimberly"]},
+    {"candidate_id": "220915", "family": "university_employer_professional", "query": "site:uncfsu.edu Kimberly Hardy faculty social work PhD MSW directory", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.uncfsu.edu/academics/colleges-schools-and-departments/college-of-humanities-and-social-sciences/school-of-social-work/faculty-and-staff", "https://www.uncfsu.edu/academics/colleges-schools-and-departments/college-of-humanities-and-social-sciences/school-of-social-work/faculty-and-staff/hardy-kimberly"], "lead_dispositions": {"https://www.uncfsu.edu/academics/colleges-schools-and-departments/college-of-humanities-and-social-sciences/school-of-social-work/faculty-and-staff/hardy-kimberly": {"status": "reviewed_no_requested_facts", "reason": "Matched linked page shows name only; department roster separately records actual faculty title."}}},
+    {"candidate_id": "220921", "family": "campaign", "query": "Richard Ojeda North Carolina 09 Democrat Congress 2026 biography West Virginia Senate Army Mexican American faith", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ojedafornc.com/about-richard-ojeda/", "https://www.cityviewnc.com/stories/richard-ojeda-defeats-richard-hudson-us-house/", "https://lwvwv.org/wp-content/uploads/2020/04/State-Primary-2020-US-Senate-website-format2.pdf"]},
+    {"candidate_id": "220921", "family": "official_biography", "query": "Richard Ojeda West Virginia Blue Book senator former official biography legislature Richard Neece 2017", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wvlegislature.gov/legisdocs/publications/bluebook/2017-2018/0331_WVS_BlueBook.pdf", "https://www.wvlegislature.gov/bulletin_board/2019/rs/s_journal/sdj2019-01-15-07.pdf"]},
+    {"candidate_id": "220921", "family": "ballotpedia_questionnaire", "query": "Read complete signed-name 2020 LWV response and distinguish neighboring candidates.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://lwvwv.org/wp-content/uploads/2020/04/State-Primary-2020-US-Senate-website-format2.pdf"]},
+    {"candidate_id": "220921", "family": "local_profile", "query": "Open matched CityView original and read through final quotation.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cityviewnc.com/stories/richard-ojeda-defeats-richard-hudson-us-house/"]},
+    {"candidate_id": "220599", "family": "local_profile", "query": "Read complete selected MPR post-primary written interview.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.mprnews.org/story/2026/08/12/democrat-matt-little-wins-nomination-to-run-for-competitive-congressional-seat"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220915", "note": "State returns, oral interview transcript and Ballotpedia earlier answers still actionable. Seek independent age and explicit identity/service evidence. Family federal and military careers are not hers."},
+    {"candidate_id": "220921", "note": "January 2019 Senate Journal resignation letter is a selected follow-up. Find actual school employer/dates, 2026 questionnaires and earlier biographies; no qualified separate nonmilitary public job or religion label yet. Treat the Blue Book birth date as a source record, not a fully adjudicated vital record."},
+    {"candidate_id": "220599", "note": "MPR written original is now reviewed. Other explicit identity/service leads still require a documented check; no new previously unknown field from this interview."}
+  ]
+}

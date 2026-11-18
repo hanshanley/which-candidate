@@ -1,0 +1,138 @@
+{
+  "scope": "Open first passes for the seven untouched Democratic nonincumbents with matched NC Health News guide profiles, plus Watson's linked native About. Matched original paragraphs and all corresponding substantive Q&A entries used for each accepted trait. Candidate answers and publisher compilations kept separate.",
+  "documents": [
+    {
+      "id": "220922-nc-health-news-october-questionnaire", "candidate_id": "220922", "name": "Ashley Bell", "state": "NC", "district": "10", "party": "Democratic", "contest_id": "2026:house:NC:10:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/ashley-bell/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide; individual page publication day not shown.",
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic NC10, health-care work and same native campaign website. Not other candidates named Ashley Bell.",
+      "identity_fragments": ["Ashley Bell"], "source_excerpts": ["Ashley Bell", "56 years old", "physician associate and educator", "I\u2019ve worked in this business for 15 years"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_profile_age_header_without_reference_day", "source_fragment": "56 years old", "factual_reference_date": "2026 general-election guide, header reference day unstated", "value": "Publisher profile displays age 56, not a candidate answer, exact DOB or election-day age."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_named_clinical_and_education_roles_with_own_duration", "source_fragment": "physician associate and educator", "supporting_fragments": ["I\u2019ve worked in this business for 15 years"], "factual_reference_date": "2026 profile; about 15 years of work as reported", "value": "Practiced in emergency departments, primary care, rural clinics and telemedicine; education role stated without named employer in this source."}
+      ],
+      "extraction_review": "Read the profile and all emailed answers. The age header belongs to the publisher. Advocacy and policy descriptions do not establish agency employment or affiliation."
+    },
+    {
+      "id": "220917-nc-health-news-october-profile", "candidate_id": "220917", "name": "Colby Watson", "state": "NC", "district": "08", "party": "Democratic", "contest_id": "2026:house:NC:08:general:source_general",
+      "family": "local_profile", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/colby-watson/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide; individual page publication day not shown.",
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic NC08, same Monroe and native campaign history.",
+      "identity_fragments": ["Colby Watson"], "source_excerpts": ["Colby Watson", "38 years old", "37-year-old small business owner", "never planned on running for Congress", "did not respond to our questions"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "conflicting", "precision": "undated_internal_header_body_age_discrepancy", "source_fragment": "38 years old", "supporting_fragments": ["37-year-old small business owner"], "factual_reference_date": "2026 general-election guide; no separate reference days given", "value": "Header says 38, editorial text 37. Could be different reference dates, but no basis to choose or infer a birthday."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reports_small_business_occupation", "source_fragment": "37-year-old small business owner", "factual_reference_date": "2026 general-election guide", "value": "Small business owner; native biography separately gives earlier trades and farm work."}
+      ],
+      "extraction_review": "Read full candidate entry. Did not respond to guide; copied policy statements are not new answers. Not planning to run for Congress is not a never-elected negative."
+    },
+    {
+      "id": "220917-native-about-chronology", "candidate_id": "220917", "name": "Colby Watson", "state": "NC", "district": "08", "party": "Democratic", "contest_id": "2026:house:NC:08:general:source_general",
+      "family": "campaign", "url": "https://www.colbyforcongress.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own name on native NC08 campaign domain, Union County and matching small-business career.",
+      "identity_fragments": ["Colby Watson"], "source_excerpts": ["Colby Watson", "At 23", "Around 25", "high school diploma through homeschooling", "small business owner", "worked in construction and farming", "My first job was in masonry"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_ages_at_undated_life_events", "source_fragment": "At 23", "supporting_fragments": ["Around 25"], "factual_reference_date": "Earlier life events; calendar years not stated", "value": "Event ages 23 and approximately 25, no birth year or contemporary age established."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_high_school_completion", "source_fragment": "high school diploma through homeschooling", "factual_reference_date": "Before joining workforce", "value": "High-school diploma through homeschooling; no postsecondary credential established."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_earlier_trades_and_business_ownership", "source_fragment": "worked in construction and farming", "supporting_fragments": ["small business owner", "My first job was in masonry"], "factual_reference_date": "Historical work and business ownership for more than a decade at biography date", "value": "Masonry, construction, farming and small business ownership."}
+      ],
+      "extraction_review": "Read complete About. Family roles are not used to infer gender or identity. No explicitly scoped service negatives."
+    },
+    {
+      "id": "220913-retained-nc-health-news-interview", "candidate_id": "220913", "name": "Cyril Jefferson", "state": "NC", "district": "06", "party": "Democratic", "contest_id": "2026:house:NC:06:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/cyril-jefferson/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220913-e6896b2d50e974ad0f9d.html", "retained_sha256": "e6896b2d50e974ad0f9d0fac559a7738c1ad066733c46a776730c31c09fe14d3",
+      "source_date_note": "Linked by October 21, 2026 general-election guide; individual page publication day not shown.",
+      "identity_status": "verified", "identity_qualification": "Full name Cyril Anthony Jefferson, Democratic NC06 challenger, local office and native campaign URL.",
+      "identity_fragments": ["Cyril Jefferson"], "source_excerpts": ["Cyril Jefferson, 34", "mayor of High Point since 2023", "one term on the city council", "bachelor\u2019s degree from N.C. A&T State University", "founded Change Often"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "editorial_age_not_reference_day", "source_fragment": "Cyril Jefferson, 34", "factual_reference_date": "2026 general-election guide", "value": "Reported age 34, reference day unspecified; not an exact DOB."},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_explicit_granted_bachelors", "source_fragment": "bachelor\u2019s degree from N.C. A&T State University", "factual_reference_date": "Completed before guide", "value": "Bachelor's from North Carolina A&T State University; degree field/year unstated. Qualifies retained education evidence."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_firm_founder_and_director", "source_fragment": "founded Change Often", "factual_reference_date": "Before acquisition by Stratagon; industry practice director as of 2026 profile", "value": "Founded Change Often and later held industry practice director role at Stratagon."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "named_municipal_office_sequence", "source_fragment": "mayor of High Point since 2023", "supporting_fragments": ["one term on the city council"], "factual_reference_date": "Council term before mayoralty beginning 2023", "value": "High Point council, then mayor; already supported in baseline."}
+      ],
+      "extraction_review": "Read retained profile and all substantive candidate Q&A. News introduction is publisher reporting; candidate evidence is separately attributed. Mayor's office is not proof of separate nonelected government employment."
+    },
+    {
+      "id": "220925-nc-health-news-october-profile", "candidate_id": "220925", "name": "Jamie Ager", "state": "NC", "district": "11", "party": "Democratic", "contest_id": "2026:house:NC:11:general:source_general",
+      "family": "local_profile", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/jamie-ager/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide.",
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic NC11 and linked native campaign, matching family farm business.",
+      "identity_fragments": ["Jamie Ager"], "source_excerpts": ["Jamie Ager", "Western North Carolina farmer, entrepreneur, and Hickory Nut Gap founder", "degrees in environmental studies and history"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reports_completed_fields_not_institution", "source_fragment": "degrees in environmental studies and history", "factual_reference_date": "Before guide publication", "value": "Publisher reports completed studies with degrees in environmental studies and history; exact number, institution and conferral dates require independently named records."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_named_farm_and_entrepreneurship", "source_fragment": "Western North Carolina farmer, entrepreneur, and Hickory Nut Gap founder", "factual_reference_date": "2026 guide", "value": "Farmer and Hickory Nut Gap business founder; not assumed to be the original founder of the family holding."}
+      ],
+      "extraction_review": "Complete entry read. Editors received no questionnaire response. Proposal for veterans' clinics does not establish candidate service."
+    },
+    {
+      "id": "220933-nc-health-news-october-profile", "candidate_id": "220933", "name": "Lakesha Womack", "state": "NC", "district": "14", "party": "Democratic", "contest_id": "2026:house:NC:14:general:source_general",
+      "family": "local_profile", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/lakesha-womack/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide.",
+      "identity_status": "verified", "identity_qualification": "LaKesha Womack exact name variant, Democratic NC14 and matching campaign and business history.",
+      "identity_fragments": ["LaKesha Womack"], "source_excerpts": ["LaKesha Womack", "56 years old", "founder of Womack Consulting Group", "chief strategy officer for ASPIRE Community Capital", "did not receive a response"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "unattributed_header_conflicts_with_retained_interval", "source_fragment": "56 years old", "factual_reference_date": "2026 guide heading; source of age and reference day unstated", "value": "Header says 56. This is not a candidate answer and does not replace the retained, evidence-backed interval.", "unresolved_details": "Publisher header age 56 does not overlap retained 2026 interval 48–50; independent age/date source needed before recoding."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_consulting_and_community_finance_roles", "source_fragment": "founder of Womack Consulting Group", "supporting_fragments": ["chief strategy officer for ASPIRE Community Capital"], "factual_reference_date": "2026 guide", "value": "Consulting firm founder and community-capital strategy executive. Clients' religious affiliations are not her own."}
+      ],
+      "extraction_review": "Complete candidate entry read. No response; editor summary quotes separately sourced interviews. Client work does not establish religious affiliation or a separate government job. Underlying PBS video remains unreviewed."
+    },
+    {
+      "id": "220931-nc-health-news-october-questionnaire", "candidate_id": "220931", "name": "Paul Barringer", "state": "NC", "district": "13", "party": "Democratic", "contest_id": "2026:house:NC:13:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/paul-barringer/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide.",
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic NC13, linked native campaign, matching Lee County background and health care consulting.",
+      "identity_fragments": ["Paul Barringer"], "source_excerpts": ["Paul Barringer", "making his first run for public office", "an attorney, a health care consultant", "a tree farmer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_mixed_career", "source_fragment": "an attorney, a health care consultant", "supporting_fragments": ["a tree farmer"], "factual_reference_date": "2026 answers describe prior and current roles", "value": "Attorney, consulting career involving Medicaid and other systems, and tree farming. Consulting does not establish a government employer."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "editorial_first_run_not_explicit_never_held_office_answer", "source_fragment": "making his first run for public office", "factual_reference_date": "2026 general-election profile", "value": "Publisher reports first candidacy, distinct from a scoped account of previous officeholding."}
+      ],
+      "extraction_review": "Read full candidate entry and all answers. First-run wording belongs to publisher. No religion, military or educational inference drawn."
+    },
+    {
+      "id": "220904-nc-health-news-october-questionnaire", "candidate_id": "220904", "name": "Raymond Smith Jr.", "state": "NC", "district": "03", "party": "Democratic", "contest_id": "2026:house:NC:03:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.northcarolinahealthnews.org/govpack_profiles/raymond-smith/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Linked by October 21, 2026 general-election guide.",
+      "identity_status": "verified", "identity_qualification": "Named Raymond Edward Smith Jr., Democratic NC03, campaign link and matching state House and school board career.",
+      "identity_fragments": ["Raymond Edward Smith Jr."], "source_excerpts": ["Raymond Edward Smith Jr.", "65 years old", "African American at-large member", "Army Gulf War combat veteran", "Masters degree is in Public Administration", "directing public transportation"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_header_and_own_first_job_chronology", "source_fragment": "65 years old", "factual_reference_date": "2026 general-election guide header", "value": "Reported age 65; own answer separately states age 15 at first job without the calendar year."},
+        {"trait": "race", "factual_status": "qualified", "precision": "publisher_explicit_african_american_classification", "source_fragment": "African American at-large member", "factual_reference_date": "Historical Wayne County school-board service, as reported in 2026", "value": "Explicit African American description by publisher, not a self-report or ethnicity imputation."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_undergraduate_and_graduate_degrees", "source_fragment": "Masters degree is in Public Administration", "factual_reference_date": "Completed prior to 2026 questionnaire", "value": "Own supply-chain management undergraduate degree and MPA; institutions and dates omitted here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_public_transit_and_teaching_work", "source_fragment": "directing public transportation", "factual_reference_date": "Historical occupations before 2026 questionnaire", "value": "Directed public transport and formerly worked as a classroom teacher; own first job described as service station attendant."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "editorial_named_legislative_and_at_large_offices", "source_fragment": "African American at-large member", "factual_reference_date": "State House 2019–2023; Wayne County school board earlier", "value": "Named N.C. House and Wayne County Board of Education public offices, including former board vice chair."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "public_transit_and_teaching_roles_without_employer_in_source", "source_fragment": "directing public transportation", "factual_reference_date": "Historical jobs described in 2026 answers", "value": "Own transit direction and teaching cited; verify named employer rather than assuming either was a direct government job."},
+        {"trait": "military", "factual_status": "qualified", "precision": "publisher_identifies_army_and_own_veteran_description", "source_fragment": "Army Gulf War combat veteran", "factual_reference_date": "Gulf War service before 2026 campaign", "value": "Own combat veteran description, with publisher specifically reporting U.S. Army and military police service."}
+      ],
+      "extraction_review": "Complete substantive profile and answers read. No identity extrapolated from family, pronouns or offices; actual employer and source of gender still require separate evidence."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220922", "family": "ballotpedia_questionnaire", "query": "Match NC Health News 2026 congressional guide index to actual NC10 profile and read emailed answers.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/ashley-bell/"]},
+    {"candidate_id": "220917", "family": "local_profile", "query": "Match NC Health News 2026 congressional guide index to NC08 and read editor's profile and compilations.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/colby-watson/"]},
+    {"candidate_id": "220917", "family": "campaign", "query": "Read native campaign About chronology and career claims.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.colbyforcongress.com/about"]},
+    {"candidate_id": "220913", "family": "ballotpedia_questionnaire", "query": "Match current guide to retained NC06 October profile and read substantive questions and answers.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/cyril-jefferson/"]},
+    {"candidate_id": "220925", "family": "local_profile", "query": "Read NC11 profile linked by NC Health News general-election guide; identify candidate nonresponse.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/jamie-ager/"]},
+    {"candidate_id": "220931", "family": "ballotpedia_questionnaire", "query": "Read NC13 original candidate responses in NC Health News general-election guide.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/paul-barringer/"]},
+    {"candidate_id": "220933", "family": "local_profile", "query": "Read NC14 original guide profile linked by NC Health News; separate editor compilation from absent replies.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/lakesha-womack/"]},
+    {"candidate_id": "220933", "family": "campaign", "query": "Check selected campaign About path.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.womack4nc14.com/about"], "note": "404; homepage is now post-election. Do not treat restricted or missing biography as negative."},
+    {"candidate_id": "220904", "family": "ballotpedia_questionnaire", "query": "Read complete NC03 original profile and substantive responses linked by NC Health News general-election guide.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.northcarolinahealthnews.org/govpack_profiles/raymond-smith/"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220922", "note": "Guide covers clinical work and dated age header. Native About attempt redirects to homepage. Seek university and clinical-employer biographies, independently dated age, explicit identities, and scoped service/office records."},
+    {"candidate_id": "220917", "note": "Resolve 37 vs 38 using independently dated own answer or earlier profile. Continue Ballotpedia, official, employer and local originals; no education beyond explicit diploma assumed."},
+    {"candidate_id": "220913", "note": "Retained profile supplies completed bachelor's. Review retained BallotReady and independent High Point/NC A&T originals, and seek separate government employment and explicit identities."},
+    {"candidate_id": "220925", "note": "Guide is editor summary, not candidate answers. Seek farm employer, university and native campaign biography; reported family work does not establish elected office or military."},
+    {"candidate_id": "220931", "note": "First-run wording not a no-office negative. Seek dated and professional/education originals, former public appointments and explicit identity/service evidence."},
+    {"candidate_id": "220933", "note": "Resolve age discrepancy independently; find official ASPIRE and professional biographies, directory transcripts of addressable PBS interview and earlier source records. Endorsements and references to close supporters' faith not treated as candidate faith."},
+    {"candidate_id": "220904", "note": "Review retained actual questionnaire and own earlier campaign, state election record and transit authority/education employer documentation. Separate publicly funded work from a named paid government job."}
+  ]
+}

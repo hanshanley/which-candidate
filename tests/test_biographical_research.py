@@ -142,6 +142,46 @@ def test_unreviewed_leads_prevent_completion(candidate, document):
         research_states(journal, {"test-1": candidate}, {"test-bio": document})
 
 
+def test_later_followup_resolves_same_candidates_discovery_lead(candidate, document):
+    url = "https://example.org/blocked"
+    searches = [
+        {
+            "candidate_id": "test-1",
+            "family": family,
+            "query": f"Search {family}",
+            "searched_at": "2026-11-18",
+            "outcome": "no_qualifying_results",
+        }
+        for family in FAMILIES
+    ]
+    searches[0].update(outcome="leads_found", underlying_urls=[url])
+    followup = searches[0] | {
+        "candidate_id": "test-2",
+        "query": "Follow selected original",
+        "query_kind": "source_followup",
+        "outcome": "access_failure",
+        "lead_dispositions": {url: {"status": "access_failure", "reason": "HTTP 403"}},
+    }
+    journal = {
+        "searches": [*searches, followup],
+        "completed_candidates": [
+            {
+                "candidate_id": "test-1",
+                "actionable_leads_remaining": False,
+                "extraction_review": "Reviewed source; other originals checked or blocked.",
+            }
+        ],
+    }
+    candidates = {"test-1": candidate, "test-2": candidate | {"candidate_id": "test-2"}}
+    with pytest.raises(ValueError, match="Unreviewed underlying"):
+        research_states(journal, candidates, {"test-bio": document})
+    followup["candidate_id"] = "test-1"
+    assert research_states(journal, candidates, {"test-bio": document})[2] == {"test-1"}
+    followup["underlying_urls"] = ["https://example.org/different"]
+    with pytest.raises(ValueError, match="Unreviewed underlying"):
+        research_states(journal, candidates, {"test-bio": document})
+
+
 @pytest.mark.parametrize("unverified", ["query_text", "result_mapping"])
 def test_unverified_queries_cannot_establish_searched_families(candidate, document, unverified):
     journal = {
