@@ -1,0 +1,742 @@
+{
+  "scope": "Additive person-level research for native Louisiana congressional candidates. Existing Louisiana filing classifications and V9 identity bridges are not new acquisition. All ten background traits reviewed in each accepted document; no candidate is declared complete. Do not equate state/local officeholding with federal incumbency, party office with public elected office, or civilian Defense Department work with military service.",
+  "batch_assessment": {
+    "comparison_commit": "cc78fa093e7c01331234787fbc5586e1730da79f",
+    "reviewed_candidates": 13,
+    "accepted_candidate_document_reviews": 34,
+    "claims": 70,
+    "first_evidence_fields": 10,
+    "first_evidence_democratic_known_nonincumbents": 10,
+    "first_qualified_factual_fields": 6,
+    "previously_reported_fields_newly_qualified": 17,
+    "completed_candidates": 0,
+    "scientific_changes": false,
+    "qualification": "First evidence includes four partial fields: Walker's unnamed theistic statement and task-force membership, plus explicitly reported but incompletely verified prior-office comparisons for Forbes and Garcia. Gonzalez's religion is a source-defined 2024 classification, not a quoted current self-description. Dated and undated age statements retain separate precision. No scientific contrast or prediction failure is resolved by this factual batch.",
+    "remaining_work": "All thirteen people need additional source-family research as detailed in remaining_leads. National roster remains unfinished: nine completed, 108 in progress, 1167 not yet researched after this batch. Do not treat restricted sources as a reason to stop other families or represent journal dispositions as comprehensive coverage."
+  },
+  "documents": [
+    {
+      "id": "220422-retained-complete-campaign-about",
+      "candidate_id": "220422", "name": "Lauren Jewett", "state": "LA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:LA:01:general:source_general",
+      "family": "campaign", "url": "https://www.laurenjewett.com/about",
+      "source_title": "Meet Lauren Jewett: complete retained campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220422-bio1/campaign-220422-bio1",
+      "retained_sha256": "9e3acb6776a68c22aa11b48130d8ec3596ecec62cca4f2d1de18a0358574b831",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name on native LA01 campaign domain, congressional district, Metairie residence, teaching career and earlier school-board candidacies match the retained person.",
+      "identity_fragments": ["Lauren Jewett"],
+      "source_excerpts": ["Lauren Jewett", "Bachelor of Arts", "University of Rochester", "master's degree", "Middlebury's", "special education teacher", "St. John the Baptist Parish Public Schools", "elected at-large member"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_bachelors_and_masters_awards_no_years", "factual_reference_date": null, "value": "Completed BA in history and political science at the University of Rochester and master's in English literature at Middlebury's Bread Loaf School of English; award years unspecified", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["University of Rochester", "master's degree", "Middlebury's"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_education_roles", "factual_reference_date": null, "value": "National Board Certified special-education teacher; also mentor, instructional coach, professional-learning facilitator and special-education administrator", "source_fragment": "special education teacher"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_historical_named_public_school_system_employment", "factual_reference_date": "Career began in 2009; complete tenure unspecified", "value": "Began teaching career with St. John the Baptist Parish Public Schools in 2009. Later charter-school, union, advocacy and volunteer work are not automatically government employment", "source_fragment": "St. John the Baptist Parish Public Schools"},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "elected_party_posts_not_established_public_office", "factual_reference_date": "Since March 2024", "value": "Elected at-large Jefferson Parish Democratic Executive Committee member and District 78A Democratic State Central Committee representative. Party posts are not established public elected office; unsuccessful school-board candidacies do not establish never holding public office", "source_fragment": "elected at-large member"}
+      ],
+      "extraction_review": "Read entire hash-verified About body and actual professional/civic source links. Union leadership, advisory boards, track-club offices, training and volunteering are not paid government employment or completed degrees. The named parish public-school employer supports historical public teaching, not every subsequent charter job. No age inferred from career duration or graduation, and no gender/race/religion inferred from pronouns, name or policy."
+    },
+    {
+      "id": "220448-retained-complete-campaign-home",
+      "candidate_id": "220448", "name": "Patricia \"Pat\" Moore", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "campaign", "url": "https://patmooreforcongress.com/",
+      "source_title": "Pat Moore for Congress: complete retained homepage and About section",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220448-home/campaign-220448-home",
+      "retained_sha256": "79de9c19eb24263b9dde123fdd54e2979488480863b5c6d4131e81fe4680968b",
+      "identity_status": "verified",
+      "identity_qualification": "Native LA05 campaign, exact Pat Moore name, Louisiana House District 17 and linked official House member profile establish identity.",
+      "identity_fragments": ["Pat Moore"],
+      "source_excerpts": ["Pat Moore", "State Representative, Louisiana House District 17 since 2019"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_state_house_office_since_2019", "factual_reference_date": "2019 onward", "value": "Louisiana House District 17 representative since 2019; state office is not incumbent federal House service", "source_fragment": "State Representative, Louisiana House District 17 since 2019"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_state_legislative_role", "factual_reference_date": "2019 onward", "value": "State legislator; other careers are not specified on this campaign homepage", "source_fragment": "State Representative, Louisiana House District 17 since 2019"}
+      ],
+      "extraction_review": "Read complete homepage, About, public-service, policy and disclaimer sections and actual official-profile link. Caucus memberships are retained in source context but not converted into personal gender/race self-identification. Policy support, photographs, family narrative and omissions establish no age, religion or service negative. Elected legislative work is not recoded as other government employment."
+    },
+    {
+      "id": "220451-retained-complete-campaign-home",
+      "candidate_id": "220451", "name": "Chauna Banks", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "campaign", "url": "https://chaunabanksforcongress.vote/",
+      "source_title": "Chauna Banks for Congress: complete retained homepage",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Observed body thanks voters for advancement to the December 12, 2026 runoff; this body is not established pre-November-3 evidence.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220451-home/campaign-220451-home",
+      "retained_sha256": "e936bbe78c118f2396e18cfcf8007c4bf23d82187f4ada7c0c8c1606b3082c70",
+      "identity_status": "verified",
+      "identity_qualification": "Native chaunabanksforcongress.com receipt resolves to this actual campaign domain; exact candidate, LA06 contest and Baton Rouge Metropolitan Council service match.",
+      "identity_fragments": ["Chauna Banks"],
+      "source_excerpts": ["Chauna Banks", "elected member of the Metropolitan Council", "12 years", "Elected three times"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_three_local_council_elections_and_twelve_years", "factual_reference_date": "Historical twelve-year local tenure; dates not supplied on this page", "value": "Three-times-elected Baton Rouge Metropolitan Council member with twelve years of service; not current federal incumbency", "source_fragment": "elected member of the Metropolitan Council", "supporting_fragments": ["12 years", "Elected three times"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_local_elected_public_service", "factual_reference_date": "Historical local council tenure", "value": "Former local elected council member; additional private or civilian government employment not specified on this page", "source_fragment": "elected member of the Metropolitan Council"}
+      ],
+      "extraction_review": "Read entire hash-verified campaign body, including post-election update, biography, complete expanded policy text and footer. Graduation, age, personal religious affiliation, race/ethnicity and military history are not supplied. Advocacy for education/veterans is not personal employment/service. No government-employee claim from elected council office."
+    },
+    {
+      "id": "220454-retained-complete-campaign-home",
+      "candidate_id": "220454", "name": "Patrick \"Pat\" Forbes", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "campaign", "url": "https://www.patforbes.com/",
+      "source_title": "Pat Forbes for Congress: complete retained homepage",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220454-home/campaign-220454-home",
+      "retained_sha256": "0c3bed20329d00429fffa08581aae78b291710390c9648c4279332a56432ef82",
+      "identity_status": "verified",
+      "identity_qualification": "Native LA06 campaign domain, Pat Forbes name and Louisiana disaster-recovery career corroborate the person independently of unrelated same-name records.",
+      "identity_fragments": ["Pat Forbes"],
+      "source_excerpts": ["Pat Forbes", "Engineer. Public Servant. Leader.", "20 years helping Louisiana recover and rebuild"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_engineering_and_disaster_recovery_career", "factual_reference_date": null, "value": "Engineer with approximately twenty years of Louisiana disaster-recovery work; duration is not an age estimate", "source_fragment": "Engineer. Public Servant. Leader.", "supporting_fragments": ["20 years helping Louisiana recover and rebuild"]}
+      ],
+      "extraction_review": "Read full hash-verified homepage and actual links. Endorsements, relationships with governors and public-servant wording do not alone establish employer, elected office, religion or military service. Linked about-pat page currently contains issues rather than a substantive degree/career biography; independent agency and conference originals reviewed separately."
+    },
+    {
+      "id": "220455-retained-complete-campaign-biography",
+      "candidate_id": "220455", "name": "Lindsay Garcia", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "campaign", "url": "https://www.rubiagarcia.com/meet-lindsay",
+      "source_title": "Meet Rubia: complete retained campaign education and career chronology",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220455-bio1/campaign-220455-bio1",
+      "retained_sha256": "4f3521f66d8c941a9a446e73f691c2c14c72f58694dda3182ca8bb10e5765795",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain explicitly joins Lindsay Garcia to Rubia, Louisiana LA06, New Orleans schooling, federal MWR work and Southern University Law Center.",
+      "identity_fragments": ["Lindsay \"Rubia\" Garcia"],
+      "source_excerpts": ["Lindsay \"Rubia\" Garcia", "University of Holy Cross", "Juris Doctor", "Secondary Education", "Department of Defense", "Recreational Specialist and Supervisor", "secondary social studies", "2003 to 2010"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_awards_and_teaching_certification", "factual_reference_date": "2004, 2009, 2011 and May 2025", "value": "Edna Karr High School 2004; University of Holy Cross history BA 2009 and secondary social-studies teaching certification 2011; Southern University Law Center JD May 2025. JD is not bar admission", "source_fragment": "Juris Doctor", "supporting_fragments": ["University of Holy Cross", "Secondary Education"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_federal_recreation_and_teaching_roles", "factual_reference_date": "MWR 2003-2010; teaching stated as 2010-2020 with named employer sequence 2011-2020", "value": "Civilian recreational specialist/supervisor and secondary social-studies teacher; Algiers Charter Schools Association 2011-2018 and New Orleans Military and Maritime Academy 2018-2020. Source's broader teaching start of 2010 is distinct from its named-employer start of 2011", "source_fragment": "secondary social studies", "supporting_fragments": ["Recreational Specialist and Supervisor"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_civilian_defense_department_role", "factual_reference_date": "2003-2010", "value": "Worked for Department of Defense Morale, Welfare and Recreation as recreational specialist and supervisor, 2003-2010. Supporting enlisted personnel is not her military enlistment; charter-school and nonprofit internship roles are not automatically public employment", "source_fragment": "Department of Defense", "supporting_fragments": ["Recreational Specialist and Supervisor", "2003 to 2010"]}
+      ],
+      "extraction_review": "Read complete hash-verified biography, all education/career chronology, awards, advocacy and disclaimers. The source calls a seven-year range nearly a decade; retain the explicit endpoints rather than treating the rounded phrase as another tenure. No veteran negative from the civilian role or military-school employer; no ethnicity from surname, nickname, dance activity or relatives. No age inferred from high-school year, no gender inferred from pronouns, and no elected-office negative from not being a career politician."
+    },
+    {
+      "id": "220448-official-louisiana-house-biography",
+      "candidate_id": "220448", "name": "Patricia \"Pat\" Moore", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "official_biography", "url": "https://house.louisiana.gov/H_Reps/members?ID=17",
+      "source_title": "Louisiana House member 17: Patricia Pat Moore background",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual campaign-linked official District 17 profile names Patricia Pat Moore, matching the native LA05 candidate and Monroe political career.",
+      "identity_fragments": ["Moore"],
+      "source_excerpts": ["Moore", "Year Elected: 2019", "Retired- State Farm Insurance Company", "Wossman High School", "College of Business, Northeast Louisiana University/ULM"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_reported_retired_named_private_employer", "factual_reference_date": null, "value": "Retired from State Farm Insurance Company; not a government employer despite the company name", "source_fragment": "Retired- State Farm Insurance Company"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_state_house_election_year", "factual_reference_date": "2019", "value": "Elected to Louisiana House District 17 in 2019; page says eligible through the 2028 term, which is not a federal incumbency classification", "source_fragment": "Year Elected: 2019"},
+        {"trait": "education", "factual_status": "partial", "precision": "official_named_schools_without_explicit_award", "factual_reference_date": null, "value": "Official education field lists Wossman High School and Northeast Louisiana University/ULM College of Business; this source does not name a completed degree or award year", "source_fragment": "College of Business, Northeast Louisiana University/ULM", "supporting_fragments": ["Wossman High School"]}
+      ],
+      "extraction_review": "Read complete official member background, committees, caucuses and profile. Absence of named degrees is not evidence that no degree was earned. Caucus membership alone is not newly coded identity evidence. No birthday, religious affiliation, military answer or nonelective government-employment history supplied."
+    },
+    {
+      "id": "220451-2023-complete-ivoterguide-questionnaire",
+      "candidate_id": "220451", "name": "Chauna Banks", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ivoterguide.com/candidate/76932",
+      "source_title": "Chauna Banks: 2023 House District 63 candidate profile and full questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Selected race is October 14, 2023 State Representative District 63, not the separately linked 2026 federal race. Exact submission/publication day is not provided. Footer build and copyright dates are not response dates.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate, Baton Rouge council history and linked 2026 LA06 profile join the earlier state-house survey to the native person; no same-name-only match.",
+      "identity_fragments": ["Chauna Banks"],
+      "source_excerpts": ["Chauna Banks", "SOUTHERN UNIVERSITY", "B.S., 1983", "M. A., 1996", "born-again Believer in the Lord Jesus Christ.", "WESTGATE CHURCH, MEMBER", "METROPOLITICAN COUNCILMEMBER"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_candidate_reported_2023_christian_belief_and_named_church", "factual_reference_date": "2023 election profile; exact response date unspecified", "value": "Explicit born-again belief in Jesus Christ; profile lists Westgate Church membership. Historical 2023 self-description, not proven unchanged 2026 affiliation; denomination not supplied", "source_fragment": "born-again Believer in the Lord Jesus Christ.", "supporting_fragments": ["WESTGATE CHURCH, MEMBER"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "profile_reported_completed_bs_and_ma_with_years", "factual_reference_date": "1983 and 1996", "value": "Southern University BS 1983 and MA 1996; subject fields are not named in this profile. Southern University Laboratory School high-school credential listed as 1979", "source_fragment": "B.S., 1983", "supporting_fragments": ["M. A., 1996", "SOUTHERN UNIVERSITY"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "profile_explicit_political_offices_held_field", "factual_reference_date": "2023 election profile", "value": "East Baton Rouge Metropolitan councilmember listed under political offices held; an unexplained trailing 11 is not converted into an election year or tenure", "source_fragment": "METROPOLITICAN COUNCILMEMBER"}
+      ],
+      "extraction_review": "Read entire biography, all questionnaire sections and nonresponses. Spiritual-belief answer is explicit, unlike policy positions. WORK & MILITARY says NONT APPLICABLE, not a defined never-served answer; do not code no military, no work or no government employment. Planning/advisory memberships do not establish paid work. Ratings and contributions are not factual religion or ideology measurements."
+    },
+    {
+      "id": "220454-rescon-complete-speaker-biography",
+      "candidate_id": "220454", "name": "Patrick \"Pat\" Forbes", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "university_employer_professional", "url": "https://resconnola.com/speakers/pat-forbes/",
+      "source_title": "Pat Forbes: ResCon New Orleans speaker biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated speaker page; copyright 2023 is not assumed to be publication date. Roles explicitly describe earlier disaster-recovery service.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Pat Forbes, Louisiana OCD executive-director role and named recovery programs match candidate career and independent state agency leadership record.",
+      "identity_fragments": ["Pat Forbes"],
+      "source_excerpts": ["Pat Forbes", "Executive Director of the Louisiana Office of Community Development", "engineer", "bachelor's degree in mechanical engineering", "master's degree in business administration", "Louisiana State University"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_biography_explicit_completed_engineering_and_business_degrees", "factual_reference_date": "Historical awards; completion dates unspecified", "value": "Earned Louisiana State University bachelor's in mechanical engineering and master's in business administration; exact years unspecified", "source_fragment": "bachelor's degree in mechanical engineering", "supporting_fragments": ["master's degree in business administration", "Louisiana State University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "professional_biography_multiple_private_and_public_careers", "factual_reference_date": "Historical sequence; exact dates unspecified", "value": "Consulting environmental engineer, company owner/operator and Georgia Pacific Port Hudson paper-mill employee before public service; later state engineering and recovery-administration roles", "source_fragment": "engineer", "supporting_fragments": ["Executive Director of the Louisiana Office of Community Development"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "professional_biography_named_state_agency_executive_and_engineering_roles", "factual_reference_date": "Historical service before and after Hurricane Katrina; exact tenure unspecified here", "value": "Louisiana Office of Community Development executive director; previously Louisiana Recovery Authority infrastructure manager and engineer in the Governor's Office of Coastal Activities. These are civilian administrative roles, not elected office or military service", "source_fragment": "Executive Director of the Louisiana Office of Community Development", "supporting_fragments": ["engineer"]}
+      ],
+      "extraction_review": "Read complete short speaker biography. Explicit earned degrees qualify completed credentials. Named state administrative employment is distinct from elected service. No extrapolated birthday, no no-prior-office inference, and no military/religion/identity value from omissions."
+    },
+    {
+      "id": "220454-official-doa-transition-agency-leadership",
+      "candidate_id": "220454", "name": "Patrick \"Pat\" Forbes", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "official_biography", "url": "https://www.doa.la.gov/media/4acesvvh/doa-transition-document.pdf",
+      "source_title": "Louisiana Division of Administration transition: Office of Community Development, PDF pages 37-38",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "FY2023/2024 and incoming-administration transition context; exact publication day not established.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Pat Forbes and Louisiana OCD executive-director role independently match the native candidate's recovery career and professional speaker biography.",
+      "identity_fragments": ["Pat Forbes"],
+      "source_excerpts": ["Executive Director Pat Forbes", "Office of Community Development", "FY 2023/2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_state_agency_named_current_administrative_leadership_in_transition_record", "factual_reference_date": "FY2023/2024 transition context", "value": "Official state transition record names Forbes executive director of the Louisiana Office of Community Development; not a third-party inference from an endorsement or a volunteer advisory position", "source_fragment": "Executive Director Pat Forbes", "supporting_fragments": ["Office of Community Development"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_state_administrative_executive_role", "factual_reference_date": "FY2023/2024 transition context", "value": "State disaster-recovery and resilience agency executive director; not necessarily still in this role at November 2026 election", "source_fragment": "Executive Director Pat Forbes"}
+      ],
+      "extraction_review": "Read full subject-specific agency section across PDF pages 37-38, including mission, programs, functions, staffing priorities and stakeholders, not all 78 pages. Adjacent agency officials' qualifications are not assigned to Forbes. This section supplies no degree, age, religious affiliation, military answer or elected-office history."
+    },
+    {
+      "id": "220451-weekly-press-complete-2026-profile",
+      "candidate_id": "220451", "name": "Chauna Banks", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "local_profile", "url": "https://www.brweeklypress.com/chauna-banks-brings-baton-rouge-experience-and-a-community-first-vision-to-congressional-race/",
+      "source_title": "Chauna Banks brings Baton Rouge experience and a community-first vision to congressional race",
+      "publication_date": "2026-10-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "By Ivory D. Payne; page explicitly says updated October 30, 2026.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact LA06 candidate, former East Baton Rouge Parish District 2 council service and named opponents match the native person.",
+      "identity_fragments": ["Chauna Banks"],
+      "source_excerpts": ["Chauna Banks", "approximately 20 years in education", "represented District 2", "2013 through 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_education_career_without_named_employer", "factual_reference_date": "2026-10-30", "value": "Approximately twenty years in education; exact job titles and employers are not supplied here. This does not independently establish public-school employment", "source_fragment": "approximately 20 years in education"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_reported_district_and_local_council_tenure", "factual_reference_date": "2013-2024", "value": "East Baton Rouge Parish Metro Council District 2 representative from 2013 through 2024", "source_fragment": "represented District 2", "supporting_fragments": ["2013 through 2024"]}
+      ],
+      "extraction_review": "Read complete underlying written profile, not only search preview, including entire public-service, education, policy and campaign sections. Policy discussion is not a personal background fact. Approximate education-career duration is not age, an exact employment interval or proof of a government employer."
+    },
+    {
+      "id": "220451-bayou-progressive-complete-written-interview",
+      "candidate_id": "220451", "name": "Chauna Banks", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "local_profile", "url": "https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/",
+      "source_title": "Chauna Banks Is Betting Her Experience, Faith and Relationships Can Defy Louisiana's New Political Map",
+      "publication_date": "2026-10-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Original written interview names the native LA06 candidate, two Democratic opponents and East Baton Rouge council tenure.",
+      "identity_fragments": ["Chauna Banks"],
+      "source_excerpts": ["Chauna Banks", "only Black Democrat", "Council", "2013 through 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "dated_local_interview_reporter_explicit_classification_not_quoted_self_identification", "factual_reference_date": "2026-10-31", "value": "Black, explicitly classified by the reporter in the candidate interview; not a new self-identification and not an ethnicity or inferred reference-group label", "source_fragment": "only Black Democrat"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_local_interview_named_public_office_and_tenure", "factual_reference_date": "2013-2024", "value": "Metro Council District 2 officeholder, 2013-2024; not a federal House incumbent", "source_fragment": "Council", "supporting_fragments": ["2013 through 2024"]}
+      ],
+      "extraction_review": "Read entire written interview in two contiguous fetches, including concluding section, not the embedded audio/video. Prayer, asking God for guidance and visiting several churches do not independently establish a denomination or specific congregation. Do not transfer opponent Forbes' state-administration career to Banks or infer age from claimed years of party affiliation."
+    },
+    {
+      "id": "220455-complete-2026-candidate-connection",
+      "candidate_id": "220455", "name": "Lindsay Garcia", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Lindsay_Garcia",
+      "source_title": "Lindsay Garcia: complete published 2026 Candidate Connection responses",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2026 survey; response date and exact pre-election availability not established by the current page.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact LA06 candidate page explicitly joins Lindsay to Rubia and links the native rubiagarcia.com campaign; schools and federal MWR role corroborate.",
+      "identity_fragments": ["Lindsay \"Rubia\" Garcia"],
+      "source_excerpts": ["Lindsay \"Rubia\" Garcia", "educator", "Southern University Law Center graduate", "Department of Defense's Morale, Welfare, and Recreation program"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_education_career_in_complete_questionnaire", "factual_reference_date": "2026 survey; date unspecified", "value": "Educator with experience in classrooms, government programs and community organizations; broad duration is not used as an age estimate", "source_fragment": "educator"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_law_center_graduate_not_bar_membership", "factual_reference_date": "By 2026 survey", "value": "Southern University Law Center graduate; named awards and fellowship do not independently establish bar admission or current attorney employment", "source_fragment": "Southern University Law Center graduate"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "survey_describes_federal_program_service_without_employee_mechanism", "factual_reference_date": "Historical service before 2026 survey", "value": "Served military families through the Defense Department MWR program; survey alone does not specify paid employment mechanism or military enlistment. More detailed campaign role evidence retained separately", "source_fragment": "Department of Defense's Morale, Welfare, and Recreation program"}
+      ],
+      "extraction_review": "Read all four published responses: self-biography, three campaign messages, policy passions and endorsements. Ordinary page simplifier returned no content; the already available public page reader supplied actual complete responses, not a restriction workaround. Nonprofit VOTE internship is not government employment. No identity from supporters, surname or pronouns and no military negative from civilian-family support."
+    },
+    {
+      "id": "220431-complete-discovered-campaign-about",
+      "candidate_id": "220431", "name": "John Day", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "campaign", "url": "https://johndayforcongress.com/about-john-day-for-congress/",
+      "source_title": "John Day: full campaign background and experience",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual About link on the hash-verified native LA03 campaign homepage, exact candidate name and congressional district establish the person.",
+      "identity_fragments": ["John Day"],
+      "source_excerpts": ["John Day", "Sam Houston High School", "U.S. Navy (1994–1998)", "professional writer", "insurance and finance"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_high_school_not_highest_credential", "factual_reference_date": null, "value": "Graduated from Sam Houston High School; graduation year and highest completed credential are not supplied here", "source_fragment": "Sam Houston High School"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_private_careers_and_current_writing", "factual_reference_date": "Historical careers and current undated campaign biography", "value": "Professional writer; earlier private business development, consulting, insurance, finance, healthcare, real estate and dining work. Film coordination is described as a project, not a completed credential", "source_fragment": "professional writer", "supporting_fragments": ["insurance and finance"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_navy_service_year_range", "factual_reference_date": "1994-1998", "value": "U.S. Navy service, 1994-1998; exact enlistment and separation dates unspecified", "source_fragment": "U.S. Navy (1994–1998)"}
+      ],
+      "extraction_review": "Read the entire linked About, experience and candidacy text. No age from adult children, career length or service dates. Not a career politician is not an explicit never-held-office answer. Work with tribes, hurricane recovery and private consulting does not establish civilian public employment, race, ethnicity or religious affiliation."
+    },
+    {
+      "id": "220434-complete-discovered-campaign-about",
+      "candidate_id": "220434", "name": "Caleb Walker", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "campaign", "url": "https://www.calebforcongress.com/about",
+      "source_title": "Caleb Walker: complete campaign life and credentials",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate on discovered campaign domain, LA03, November 3 election, Wisner roots, Lafayette residence and military chronology establish the native person; no native campaign URL had been recorded.",
+      "identity_fragments": ["Caleb"],
+      "source_excerpts": ["Caleb", "degree in Christian Leadership", "Lift Leadership Institute", "Sam’s Club", "Student Body President", "Louisiana Task Force for Career Alignment", "United States military"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_named_program_level_unspecified_and_separate_current_study", "factual_reference_date": "Completed program date unspecified; community-college study current on undated page", "value": "Reports earned degree in Christian Leadership from Lift Leadership Institute; level and accreditation not established. Currently pursuing Political Science at South Louisiana Community College, not a completed award", "source_fragment": "degree in Christian Leadership", "supporting_fragments": ["Lift Leadership Institute"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_private_management_and_community_role", "factual_reference_date": "After military service; Lafayette from 2020", "value": "Former Sam's Club department manager and later Lafayette community coordinator; coordinator employer and payment mechanism unspecified", "source_fragment": "Sam’s Club"},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_army_service_rank_and_approximate_duration", "factual_reference_date": "Historical service; endpoints unspecified", "value": "Army veteran, Sergeant First Class E7, approximately ten years, including Afghanistan deployment. Page uses both ten and ten-plus years; no manufactured exact tenure", "source_fragment": "United States military"},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "explicit_student_election_not_established_public_office", "factual_reference_date": "Before 2026 candidacy; election date unspecified", "value": "Elected SOLACC Student Body President, described as first elected office. Student leadership does not establish public elected office or a comprehensive negative public-office history", "source_fragment": "Student Body President"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_policy_task_force_membership_without_employment_mechanism", "factual_reference_date": "Current on undated campaign biography", "value": "Louisiana Task Force for Career Alignment member; appointment, employer, compensation and paid-government-employee status not established. Advisory participation is not qualified government employment", "source_fragment": "Louisiana Task Force for Career Alignment"}
+      ],
+      "extraction_review": "Read full About, journey, credentials and closing text. Do not infer a BA, accreditation, completed political-science credential, paid state job or government office. Christian education and community faith language alone do not establish current religious affiliation. Career duration and 2020 relocation do not establish age."
+    },
+    {
+      "id": "220436-complete-discovered-campaign-meet",
+      "candidate_id": "220436", "name": "Conrad Cable", "state": "LA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:LA:04:general:source_general",
+      "family": "campaign", "url": "https://www.conrad4congress2026.com/meet-conrad",
+      "source_title": "Conrad Cable: complete campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate, congressional campaign, north-Louisiana farm and LA04 page context identify the native person.",
+      "identity_fragments": ["Conrad Cable"],
+      "source_excerpts": ["Conrad Cable", "Conrad graduated from ULM in 2017.", "first-generation farmer", "Union Parish"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_university_graduation_year_without_award_name_or_subject", "factual_reference_date": "2017", "value": "Reports graduating from ULM in 2017. This page does not specify degree title, level or subject; self-taught farming/business skills are not additional degrees", "source_fragment": "Conrad graduated from ULM in 2017."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_farming_career_without_exact_start", "factual_reference_date": "After pandemic job loss; exact farm start unspecified", "value": "First-generation Union Parish farmer operating with his brother; earlier lost job is not identified", "source_fragment": "first-generation farmer", "supporting_fragments": ["Union Parish"]}
+      ],
+      "extraction_review": "Read complete Meet biography and closing campaign text. School closure and relatives' work are not the candidate's government employment. No age from 2017 graduation, elected-office negative from first candidacy, military negative from omission, or affiliation from geographic/community context. Derivative degree summaries remain unaccepted."
+    },
+    {
+      "id": "220436-reuters-dated-age-and-farming-profile",
+      "candidate_id": "220436", "name": "Conrad Cable", "state": "LA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:LA:04:general:source_general",
+      "family": "local_profile",
+      "url": "https://my957.com/2026/08/31/special-report-as-u-s-agriculture-wilts-under-financial-pressure-former-arkansas-farmer-cultivates-u-s-senate-bid/",
+      "source_title": "Reuters farming-candidates report: Conrad Cable section",
+      "publication_date": "2026-08-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Reuters names Conrad Cable, Louisiana farmer challenging Mike Johnson, corroborating native LA04 and the independently read campaign. Public licensed Reuters article by P.J. Huffstutter, not a generated summary.",
+      "identity_fragments": ["Conrad Cable"],
+      "source_excerpts": ["Conrad Cable", "34-year-old", "vegetable farmer", "Farmerville"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "dated_reported_age_with_election_age_interval_not_exact_birthdate", "factual_reference_date": "2026-08-31", "value": "Reported age 34 on August 31, 2026; consistent election-day age is 34-35 on November 3, 2026. Exact birth date and a unique birth year are not supplied", "source_fragment": "34-year-old"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "independent_reported_vegetable_farming", "factual_reference_date": "2026-08-31", "value": "Vegetable farmer in Farmerville, Louisiana", "source_fragment": "vegetable farmer", "supporting_fragments": ["Farmerville"]}
+      ],
+      "extraction_review": "Read complete substantive Reuters article, including the full Cable passage and surrounding candidate context. Other subjects' ages, Christian affiliation, degrees, ancestral history and family facts are not Cable's. Reported age is dated, not an exact birthday or a silently fixed election age. Senate subjects are outside this retained House roster."
+    },
+    {
+      "id": "220449-complete-discovered-campaign-about",
+      "candidate_id": "220449", "name": "Antonio Wilson", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "campaign", "url": "https://wilsonforlouisiana.com/about-us",
+      "source_title": "Antonio Wilson: full campaign background",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual campaign link discovered through the correct Candidate Connection page, exact candidate, Tallulah and Louisiana Fifth District establish identity; not unrelated same-name legal or school records.",
+      "identity_fragments": ["Antonio Wilson"],
+      "source_excerpts": ["Antonio Wilson", "licensed general contractor", "business owner", "Tallulah"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_first_person_contractor_and_business_ownership", "factual_reference_date": "Current undated campaign biography", "value": "Licensed general contractor and business owner from Tallulah; license number and independent current licensing verification not supplied", "source_fragment": "licensed general contractor", "supporting_fragments": ["business owner"]}
+      ],
+      "extraction_review": "Read the entire About and previously read campaign homepage. Work on public facilities, roads and water projects does not make a private contractor a government employee. Collaboration with pastors is not personal religion. No MBA, completed doctorate, age, service answer or officeholding history supplied on these campaign pages."
+    },
+    {
+      "id": "220449-louisiana-first-congressional-profile",
+      "candidate_id": "220449", "name": "Antonio Wilson", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "local_profile", "url": "https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html",
+      "source_title": "Louisiana First: Wilson interview section",
+      "publication_date": "2026-10-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Licensed AOL text credits Griffin Broussard and Louisiana First; displayed updated October 22, 2026 at 14:20 UTC. Original publication time not separately supplied.",
+      "identity_status": "verified",
+      "identity_qualification": "Native person explicitly identified among LA05 candidates. Licensed publisher copy read directly, not a result snippet.",
+      "identity_fragments": ["Wilson"],
+      "source_excerpts": ["Wilson", "construction industry", "400 employees"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_candidate_claim_construction_business_management", "factual_reference_date": "2026-10-22", "value": "Construction-company owner, reporting management of over 400 employees; staffing claim not independently audited", "source_fragment": "construction industry", "supporting_fragments": ["400 employees"]}
+      ],
+      "extraction_review": "Read complete three-candidate article and election explanation. Aggregate quotations across its three reviews total 24 words. Business ownership classification is not automatically personal racial self-identification. Only currently in office is not a never-held-office statement about the other candidates."
+    },
+    {
+      "id": "220447-louisiana-first-congressional-profile",
+      "candidate_id": "220447", "name": "Dan McKay", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "local_profile", "url": "https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html",
+      "source_title": "Louisiana First: McKay interview section",
+      "publication_date": "2026-10-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact native candidate among LA05 contenders; legal and military career corroborated by the candidate-linked campaign masthead.",
+      "identity_fragments": ["McKay"],
+      "source_excerpts": ["McKay", "three years in the Army", "public defender and assistant district attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_legal_career_with_named_civilian_roles", "factual_reference_date": "By October 22, 2026", "value": "Attorney with over forty years of practice, including public defender and assistant district attorney", "source_fragment": "public defender and assistant district attorney"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reported_civilian_assistant_district_attorney_service", "factual_reference_date": "Historical tenure before October 22, 2026; years unspecified", "value": "Former assistant district attorney. Public-defender payment mechanism is not separately assumed", "source_fragment": "public defender and assistant district attorney"},
+        {"trait": "military", "factual_status": "qualified", "precision": "reported_army_service_approximate_duration", "factual_reference_date": "Before legal career; exact endpoints unspecified", "value": "Army veteran with three reported years of service", "source_fragment": "three years in the Army"}
+      ],
+      "extraction_review": "Read the full article, not only McKay excerpt. Civilian prosecution and military service are separate claims; neither establishes elected office. Do not infer current age from career duration or a completed JD merely from attorney occupation. Religion remains unknown without the unavailable questionnaire original."
+    },
+    {
+      "id": "220448-louisiana-first-congressional-profile",
+      "candidate_id": "220448", "name": "Patricia \"Pat\" Moore", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "local_profile", "url": "https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html",
+      "source_title": "Louisiana First: Moore interview section",
+      "publication_date": "2026-10-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Native candidate explicitly named in LA05, consistent with the independently read official House profile.",
+      "identity_fragments": ["Moore"],
+      "source_excerpts": ["Moore", "Ouachita Parish Police Jury", "since 2019"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_state_house_and_prior_local_elected_service", "factual_reference_date": "Louisiana House since 2019; earlier local tenure over a decade", "value": "Louisiana House member since 2019, preceded by more than a decade on the Ouachita Parish Police Jury; exact local-office dates unspecified", "source_fragment": "Ouachita Parish Police Jury", "supporting_fragments": ["since 2019"]}
+      ],
+      "extraction_review": "Full article read. State and local elected service are not federal incumbency or nonelective government employment. Only currently serving contrasts current status, not complete lifetime histories for Wilson or McKay. No unsupported degree, age or affiliation imported."
+    },
+    {
+      "id": "220431-kplc-complete-congressional-interview",
+      "candidate_id": "220431", "name": "John Day", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "local_profile", "url": "https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/",
+      "source_title": "KPLC: John Day interview and background",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact native LA03 candidate in five-candidate KPLC original by Devin Cruice, published October 21 and updated six minutes later.",
+      "identity_fragments": ["John Day"], "source_excerpts": ["John Day", "healthcare, insurance"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_private_healthcare_and_insurance_career", "factual_reference_date": "2026-10-21", "value": "Reported roughly thirty years in healthcare, insurance and private-sector work", "source_fragment": "healthcare, insurance"}
+      ],
+      "extraction_review": "Read entire five-candidate article, all background and policy responses. Career length is not age or government employment. Aggregate quotations across all five candidate reviews are under 25 words."
+    },
+    {
+      "id": "220432-kplc-complete-congressional-interview",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "local_profile", "url": "https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/",
+      "source_title": "KPLC: Priscilla Gonzalez interview and background",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact native LA03 candidate in the same original; caption's Gonzales spelling is not a different person.",
+      "identity_fragments": ["Priscilla Gonzalez"], "source_excerpts": ["Priscilla Gonzalez", "bachelor’s degree in political science", "community legal advocacy program"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_bachelors_subject_without_institution_or_award_year", "factual_reference_date": "By October 21, 2026", "value": "Bachelor's in political science; institution and award year unspecified in this article", "source_fragment": "bachelor’s degree in political science"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_community_legal_advocacy_role_not_licensed_attorney", "factual_reference_date": "2026-10-21", "value": "Runs community legal advocacy assisting women leaving abusive relationships; no attorney license or government employment established", "source_fragment": "community legal advocacy program"}
+      ],
+      "extraction_review": "Read full article and every Gonzalez response. Political-science, pre-law and legal-advocacy descriptions are not a JD or bar admission. Earlier mayoral candidacy is not officeholding or a never-held-office answer. No ancestry or identity inferred from birthplace."
+    },
+    {
+      "id": "220434-kplc-complete-congressional-interview",
+      "candidate_id": "220434", "name": "Caleb Walker", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "local_profile", "url": "https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/",
+      "source_title": "KPLC: Caleb Walker interview and background",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native LA03 candidate, corroborated by independently reviewed campaign chronology.",
+      "identity_fragments": ["Caleb Walker"], "source_excerpts": ["Caleb Walker", "military", "God"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_reported_military_tenure_and_rank", "factual_reference_date": "2026-10-21 reporting historical service", "value": "Ten years' military service, attaining Sergeant First Class", "source_fragment": "military"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_uniformed_equal_opportunity_role_not_civilian_employment", "factual_reference_date": "During historical military service", "value": "Military equal-opportunity representative; not separate civilian government employment", "source_fragment": "military"},
+        {"trait": "religion", "factual_status": "partial", "precision": "explicit_theistic_campaign_calling_without_named_religion_or_affiliation", "factual_reference_date": "2026-10-21", "value": "Explicitly attributes candidacy to God; no religion, denomination or membership specified", "source_fragment": "God"}
+      ],
+      "extraction_review": "Read complete article and all Walker responses. Theistic statement is partial evidence, not a Christian or denominational classification inferred from education. Military equal-opportunity work remains military, not other civilian government employment. No age inferred from service length."
+    },
+    {
+      "id": "220435-kplc-complete-congressional-interview",
+      "candidate_id": "220435", "name": "Tia LeBrun", "state": "LA", "district": "03", "party": "Nonpartisan",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "local_profile", "url": "https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/",
+      "source_title": "KPLC: Tia LeBrun interview and background",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact native LA03 no-party candidate in the original five-candidate interview.",
+      "identity_fragments": ["Tia LeBrun"], "source_excerpts": ["Tia LeBrun", "educator"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_education_career_without_named_employer", "factual_reference_date": "2026-10-21", "value": "Longtime Louisiana educator; named employer and public-employee mechanism unspecified", "source_fragment": "educator"}
+      ],
+      "extraction_review": "Read all LeBrun background and policy answers. Children and grandchildren do not establish age. Teaching in Louisiana does not establish a named public employer, completed credential, gender or religious affiliation."
+    },
+    {
+      "id": "220430-kplc-complete-congressional-interview",
+      "candidate_id": "220430", "name": "Kate Cotten", "state": "LA", "district": "03", "party": "Republican",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "local_profile", "url": "https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/",
+      "source_title": "KPLC: Kate Cotten interview and background",
+      "publication_date": "2026-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact native Republican LA03 candidate among the original's challengers.",
+      "identity_fragments": ["Cotten"], "source_excerpts": ["Cotten", "restaurant"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_family_restaurant_management", "factual_reference_date": "2026-10-21", "value": "Runs Cotten's Downtown, a Lake Charles family restaurant", "source_fragment": "restaurant"}
+      ],
+      "extraction_review": "Read all Cotten background and policy answers. Undated first-job age twelve does not establish birth year or current age. Family business, lifetime party registration and entering a race do not establish other background traits or service negatives."
+    },
+    {
+      "id": "220449-complete-2026-candidate-connection",
+      "candidate_id": "220449", "name": "Antonio Wilson", "state": "LA", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:LA:05:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Antonio_Wilson",
+      "source_title": "Antonio Wilson: complete three-response 2026 Candidate Connection",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2026 survey without a response date; current retrieval does not prove pre-election availability.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native LA05 candidate and party, Madison Parish background, contracting career and actual wilsonforlouisiana.com campaign link agree with the independently read campaign.",
+      "identity_fragments": ["Antonio Wilson"],
+      "source_excerpts": ["Antonio Wilson", "pursued undergraduate studies, earned an MBA, and continued his graduate education through the doctoral level.", "business owner and general contractor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_mba_distinct_from_undergraduate_and_doctoral_study", "factual_reference_date": "By undated 2026 response", "value": "Explicitly reports an earned MBA. Undergraduate study and study through doctoral level do not establish a completed bachelor's or doctorate. Award institution and year unspecified", "source_fragment": "earned an MBA", "supporting_fragments": ["pursued undergraduate studies", "through the doctoral level."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_business_ownership_and_general_contracting", "factual_reference_date": "2026 survey; exact date unspecified", "value": "Business owner and general contractor; private contracting and proposed public infrastructure work do not establish government employment", "source_fragment": "business owner and general contractor"}
+      ],
+      "extraction_review": "Read all published responses contiguously: self-biography, three campaign messages, policy interests and survey disclaimer. Restored the actual bounded literal needed for the education hold. No degree institution, age, service negative or sensitive affiliation inferred. Ordinary page simplifier remained empty; public indexed underlying-page reader supplied the actual survey."
+    },
+    {
+      "id": "220432-complete-campaign-about",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "campaign", "url": "https://prisforcongress.com/about/",
+      "source_title": "Meet Priscilla Gonzalez: complete campaign biography and linked experience",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Reader reports last-modified October 12, 2024. That is not an independently established date for the age assertion or proof this body was available before the 2026 election.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native campaign domain, name, Louisiana district parishes, Herrman and Herrman career, Corpus Christi candidacy and linked Ballotpedia person corroborate identity. Inconsistent State Representative wording is not accepted as a separate office.",
+      "identity_fragments": ["Priscilla Gonzalez"],
+      "source_excerpts": ["Priscilla Gonzalez", "40-year-old", "Herrman & Herrman", "graduated with a degree in political science", "founder of Community Based Legal Logic", "volunteer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "candidate_reported_age_without_independently_dated_reference", "factual_reference_date": null, "value": "Campaign biography calls the candidate forty; reference day not supplied. Do not assign age forty to November 3, 2026 or equate a page modification timestamp with her birthday", "source_fragment": "40-year-old"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_political_science_degree_without_award_level", "factual_reference_date": "Completed before the undated biography", "value": "Reports graduating with a political-science degree; this page alone does not name institution, award year or degree level", "source_fragment": "graduated with a degree in political science"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_private_law_firm_career_and_community_program_founder", "factual_reference_date": "Historical Herrman and Herrman career; CBLL as described in undated biography", "value": "Worked at Herrman and Herrman in Corpus Christi; founded Community Based Legal Logic. Separate RAICES work is explicitly voluntary, not evidence of paid employment, attorney licensing or government employment", "source_fragment": "Herrman & Herrman", "supporting_fragments": ["founder of Community Based Legal Logic", "volunteer"]}
+      ],
+      "extraction_review": "Read the entire biography and all three linked-experience introductions. Daughter of immigrants does not identify ethnicity; parade participation does not identify sexuality or gender. The page's 2021 mayoral-run year differs from the dated 2020 questionnaire, so no mayoral-office tenure or chronology is inferred. State Representative wording conflicts with congressional district/campaign context and is not an officeholding claim."
+    },
+    {
+      "id": "220432-complete-campaign-raices-experience",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "campaign", "url": "https://prisforcongress.com/raices/",
+      "source_title": "RAICES: complete candidate-authored volunteer experience",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Reader reports June 28, 2024 modification; exact volunteer tenure and original publication not established.",
+      "identity_status": "verified",
+      "identity_qualification": "Actual RAICES link from the independently read native campaign About; first-person experience on the same candidate domain.",
+      "identity_fragments": ["volunteer"],
+      "source_excerpts": ["volunteer", "Under the guidance of experienced attorneys and legal experts", "nonprofit organization"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "partial", "precision": "candidate_reported_unpaid_nonprofit_experience_not_established_occupation", "factual_reference_date": "Historical volunteer work; tenure unspecified", "value": "Reports RAICES volunteer legal-aid support under attorneys, outreach, advocacy and resource coordination. Useful experience, not established paid employment or an attorney credential", "source_fragment": "volunteer", "supporting_fragments": ["Under the guidance of experienced attorneys and legal experts", "nonprofit organization"]}
+      ],
+      "extraction_review": "Read all sections through concluding reflection. Explicitly nonprofit volunteering, not government employment, elected office, religious affiliation or an immigration/ethnicity classification of the candidate. Do not infer the candidate's personal immigration status from clients served."
+    },
+    {
+      "id": "220432-complete-campaign-cbll-experience",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "campaign", "url": "https://prisforcongress.com/community-based-legal-logic/",
+      "source_title": "Community Based Legal Logic: complete candidate-authored founder description",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual CBLL link from native campaign About, consistent first-person founder description and same campaign footer.",
+      "identity_fragments": ["founder of Community Based Legal Logic"],
+      "source_excerpts": ["founder of Community Based Legal Logic", "linking volunteers"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_community_legal_assistance_program_founder_not_attorney", "factual_reference_date": "Undated campaign statement", "value": "Founded CBLL to connect people needing legal assistance with volunteers, law students and legal professionals. No compensation, law degree, bar admission or government-employment mechanism established", "source_fragment": "founder of Community Based Legal Logic", "supporting_fragments": ["linking volunteers"]}
+      ],
+      "extraction_review": "Read entire substantive founder, vision, accessibility and concluding description, not only the About excerpt. Program clients, volunteer collaborators and generic website placeholder text are not personal background. Founding a community program is not public office."
+    },
+    {
+      "id": "220432-complete-2020-kris-mayoral-questionnaire",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "earlier_biography", "url": "https://www.kristv.com/corpus-christi-mayoral-race",
+      "source_title": "KRIS 6 Election 2020: complete Gonzalez mayoral questionnaire",
+      "publication_date": "2020-10-08", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Ordinary publisher HTML reports datePublished 2020-10-08T01:21:35-0500 and dateModified 2020-10-16T22:44:08-0500. Individual answer reference days not independently timestamped.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Corpus Christi mayoral candidacy and named Herrman and Herrman employer match the native campaign's earlier-career narrative. Use actual 2020 questionnaire date rather than campaign page's inconsistent 2021 candidacy year.",
+      "identity_fragments": ["PRISCILLA GONZALEZ"],
+      "source_excerpts": ["PRISCILLA GONZALEZ", "What is your age?", "36", "supervisor of the Marketing Department at Herrman & Herrman PLLC.", "I grew up as a missionary."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "self_reported_age_in_dated_2020_questionnaire_not_exact_birth_date", "factual_reference_date": "2020 mayoral campaign; exact response reference day unspecified", "value": "Self-reported thirty-six in the 2020 questionnaire. Birth-year alternatives 1983 or 1984, not a unique birthday; conservative age interval 41-43 on November 3, 2026 if only the response year is used", "source_fragment": "36", "supporting_fragments": ["What is your age?"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_candidate_reported_named_private_employer_and_role", "factual_reference_date": "2020 questionnaire", "value": "Marketing department supervisor at Herrman and Herrman PLLC in 2020; not established current 2026 role or government employment", "source_fragment": "supervisor of the Marketing Department at Herrman & Herrman PLLC."},
+        {"trait": "religion", "factual_status": "partial", "precision": "explicit_missionary_upbringing_not_current_named_affiliation", "factual_reference_date": "Upbringing described in 2020", "value": "Described growing up as a missionary. No named religion or denomination and no current affiliation established by this response", "source_fragment": "I grew up as a missionary."}
+      ],
+      "extraction_review": "Read all seven Gonzalez answers, article's candidate-submission/editing explanation and other candidate headings to prevent row/age borrowing. Missionary upbringing is not a current Christian label. No degree, military negative or never-held-office assertion from campaign experience answers. No private contact or family detail copied."
+    },
+    {
+      "id": "220432-ffrf-december-2024-classification",
+      "candidate_id": "220432", "name": "Priscilla Gonzalez", "state": "LA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:LA:03:general:source_general",
+      "family": "earlier_biography", "url": "https://ffrf.org/uploads/fttoday/2024/FT28_December%202024_ffrf-web.pdf",
+      "source_title": "Freethought Today December 2024 page 10: Gonzalez source-defined classification",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "December 2024 issue; no precise publication day asserted. Table explicitly concerns the 2024 election, not current 2026 affiliation.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Democratic party, Louisiana and congressional District 3 in the publisher's 2024 table match the earlier same-person congressional candidacy documented by the native campaign and previously reviewed Ballotpedia history.",
+      "identity_fragments": ["Priscilla Gonzalez"],
+      "source_excerpts": ["D-LA (District 3)", "Priscilla Gonzalez", "Challenger", "Agnostic"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_dated_publisher_classification_not_quoted_self_identification_or_current_affiliation", "factual_reference_date": "2024 election table, published December 2024", "value": "FFRF's Freethought Today explicitly classifies the 2024 LA03 candidate as agnostic. Retain the publisher-defined historical classification, not a quoted self-description, independently verified current 2026 affiliation or analytical promotion", "source_fragment": "Agnostic", "supporting_fragments": ["D-LA (District 3)", "Priscilla Gonzalez"]}
+      ],
+      "extraction_review": "Read the complete relevant congressional table and continuation context, then visually verify the page-10 row in the actual PDF screenshot. No individual sourcing method is supplied in the table; preserve that limitation. Caucus membership, blanks/N/A and omitted candidates do not establish nonreligion. No other candidate imported by name alone, and no implication of stable affiliation from 2024 to 2026."
+    },
+    {
+      "id": "220454-bayou-progressive-explicit-office-comparison",
+      "candidate_id": "220454", "name": "Patrick \"Pat\" Forbes", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "local_profile", "url": "https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/",
+      "source_title": "Bayou Progressive: explicit three-Democrat prior-office comparison, Forbes",
+      "publication_date": "2026-10-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full original names Pat Forbes and Lindsay Garcia as Banks' two Democratic opponents in native LA06; state-administration career agrees with independently reviewed agency biography.",
+      "identity_fragments": ["Pat Forbes"],
+      "source_excerpts": ["Pat Forbes", "only one of the three"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "explicit_reporter_comparison_scoped_to_named_three_candidate_field", "factual_reference_date": "2026-10-31", "value": "Reporter explicitly says Banks alone among the three named Democrats had previously held elected office, encompassing Forbes. Retain scoped negative evidence with no individual office-history audit or candidate confirmation; do not promote to the frozen no-prior-office contrast", "source_fragment": "only one of the three"}
+      ],
+      "extraction_review": "Re-read full opening comparison and later named-opponent section, with entire original already reviewed through its conclusion. This is explicit comparative reporting, not missing-biography inference. It is not evidence of no government employment or no military service; Forbes' appointed state career is separately established. All three reviews together quote 22 original words."
+    },
+    {
+      "id": "220455-bayou-progressive-explicit-office-comparison",
+      "candidate_id": "220455", "name": "Lindsay Garcia", "state": "LA", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:LA:06:general:source_general",
+      "family": "local_profile", "url": "https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/",
+      "source_title": "Bayou Progressive: explicit three-Democrat prior-office comparison, Garcia",
+      "publication_date": "2026-10-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Original explicitly joins Lindsay to Rubia and names the three native LA06 Democratic candidates; corroborated by the independently reviewed campaign and survey.",
+      "identity_fragments": ["Lindsay"],
+      "source_excerpts": ["Lindsay", "only one of the three"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "explicit_reporter_comparison_scoped_to_named_three_candidate_field", "factual_reference_date": "2026-10-31", "value": "Reporter explicitly identifies Banks as the only previously elected officeholder among Banks, Forbes and Garcia. Retain bounded negative evidence for Garcia without claiming a personally verified exhaustive history or altering frozen analytical eligibility", "source_fragment": "only one of the three"}
+      ],
+      "extraction_review": "Read the actual comparative sentence in its full article context and later identification of both opponents. Do not derive reference race by complement, military nonservice, government nonemployment or age from this comparison. Quotation budget shared with Banks and Forbes, 22 words total."
+    },
+    {
+      "id": "220436-lrn-complete-2025-launch-interview",
+      "candidate_id": "220436", "name": "Conrad Cable", "state": "LA", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:LA:04:general:source_general",
+      "family": "earlier_biography", "url": "https://louisianaradionetwork.com/2025/09/03/43483/",
+      "source_title": "Louisiana Radio Network: complete Joe Gallinaro launch interview",
+      "publication_date": "2025-09-03", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate, Democratic challenge to Mike Johnson in Louisiana District 4 and candidate-provided campaign image align with native person and independently read farming biography.",
+      "identity_fragments": ["Conrad Cable"],
+      "source_excerpts": ["Conrad Cable", "vegetable farmer", "first run for political office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_vegetable_farming_career", "factual_reference_date": "2025-09-03", "value": "Vegetable farmer at congressional campaign announcement in September 2025; dated historical occupational evidence, not an age or completed-degree claim", "source_fragment": "vegetable farmer"}
+      ],
+      "extraction_review": "Read entire short publisher article, all three candidate quotations and concluding electoral context. First run is not an explicit never-held-office answer because office can be acquired without an earlier candidacy. No private finances retained and no sensitive identity inferred. Independent original reviewed, not a workaround for restricted KTBS."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220422", "family": "campaign", "query": "Read complete retained native About biography and actual external professional links; verify source SHA256 before reading", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.laurenjewett.com/about", "https://www.ascd.org/people/lauren-jewett"], "lead_dispositions": {"https://www.ascd.org/people/lauren-jewett": {"status": "reviewed_no_requested_facts", "reason": "Complete short professional-association biography read. Repeats special-education teaching, National Board certification and 2019-2020 fellowship already documented; no requested missing age, service, degree or affiliation detail."}}},
+    {"candidate_id": "220448", "family": "campaign", "query": "Read complete retained native campaign homepage, About section and actual official member-profile link", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://patmooreforcongress.com/", "https://house.louisiana.gov/H_Reps/members?ID=17"]},
+    {"candidate_id": "220451", "family": "campaign", "query": "Read complete hash-verified retained campaign body and verify native-domain redirect before person review", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://chaunabanksforcongress.vote/"]},
+    {"candidate_id": "220454", "family": "campaign", "query": "Read entire retained campaign homepage and follow its actual about-pat link", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.patforbes.com/", "https://www.patforbes.com/about-pat"], "lead_dispositions": {"https://www.patforbes.com/about-pat": {"status": "reviewed_no_requested_facts", "reason": "Actual link currently renders an Issues/Where I Stand page, not a substantive biography. Read opening disaster-recovery context; no new missing trait from this partial policy-page read. Do not describe the entire policy page as reviewed."}}},
+    {"candidate_id": "220455", "family": "campaign", "query": "Read complete hash-verified retained Meet Rubia biography and all career/education chronology", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.rubiagarcia.com/meet-lindsay"]},
+    {"candidate_id": "220451", "family": "official_biography", "query": "\"Chauna Banks\" biography birth education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Chauna_Banks-Daniel", "https://ivoterguide.com/candidate/76932"]},
+    {"candidate_id": "220448", "family": "local_profile", "query": "\"Pat Moore\" Louisiana \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://en.wikipedia.org/wiki/Pat_Moore_(Louisiana_politician)"], "lead_dispositions": {"https://en.wikipedia.org/wiki/Pat_Moore_(Louisiana_politician)": {"status": "reviewed_no_requested_facts", "reason": "Read candidate background and references for original discovery only. Do not accept user-edited 1958 birth year without reading its cited original, which returned a restricted-URL failure. Unrelated obituary and private-person results not used."}}},
+    {"candidate_id": "220422", "family": "local_profile", "query": "\"Lauren Jewett\" \"age\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query returned data-broker and unrelated athlete results. No private-person record or search-only age accepted, and no completed age search claimed."},
+    {"candidate_id": "220455", "family": "local_profile", "query": "\"Rubia Garcia\" birthday biography ethnicity", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Celebrity/SEO summaries and campaign page appeared in batched results. No unsourced birthday, ancestry, inferred identity or snippet-only fact accepted; full campaign body independently read."},
+    {"candidate_id": "220454", "family": "earlier_biography", "query": "\"Pat Forbes\" \"born\" Louisiana", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; unrelated burial/newspaper results do not provide qualified candidate age. No exhaustive-search claim."},
+    {"candidate_id": "220422", "family": "earlier_biography", "query": "\"Lauren Jewett\" \"birthday\" -site:nationalpublicdata.com -site:fastpeoplesearch.com", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; ordinary donor age-eligibility text must not be assigned to the candidate."},
+    {"candidate_id": "220455", "family": "local_profile", "query": "\"Rubia Garcia\" \"40\" Congress", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; returned policy percentages and derivative celebrity biographies are not dated candidate-age evidence."},
+    {"candidate_id": "220451", "family": "local_profile", "query": "\"Chauna Banks\" \"age\" \"2026\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.dailykos.com/stories/2026/11/12/800124555/community/cbc-roundup/"], "lead_dispositions": {"https://www.dailykos.com/stories/2026/11/12/800124555/community/cbc-roundup/": {"status": "reviewed_no_requested_facts", "reason": "Read subject overview and source links as discovery, not the comment thread. Unreviewed-community post explicitly not staff-reviewed; ten-year child-welfare employment assertion not accepted without its supporting original. Followed actual Weekly Press and Bayou Progressive originals separately."}}},
+    {"candidate_id": "220454", "family": "university_employer_professional", "query": "\"Pat Forbes\" biography engineer degree Office Community Development", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://resconnola.com/speakers/pat-forbes/", "https://www.doa.la.gov/media/4acesvvh/doa-transition-document.pdf"]},
+    {"candidate_id": "220448", "family": "earlier_biography", "query": "\"Pat Moore\" \"1958\" biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query. No source-qualified birth year from Wikipedia or unrelated same-year obituary; original follow-up recorded separately."},
+    {"candidate_id": "220422", "family": "earlier_biography", "query": "\"Lauren Jewett\" \"born\" -site:nationalpublicdata.com -site:fastpeoplesearch.com -site:truepeoplesearch.com", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query returned an unrelated Syracuse soccer player; no candidate birthday or same-name professional record accepted."},
+    {"candidate_id": "220455", "family": "university_employer_professional", "query": "\"Lindsay Garcia\" \"Southern\" \"2025\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Lindsay_Garcia"], "qualification": "Actual candidate survey followed and read completely. Search also exposed a commencement-program name with an additional surname; that identity bridge and the actual program are not yet reviewed or accepted."},
+    {"candidate_id": "220451", "family": "local_profile", "query": "Follow actual Weekly Press and Bayou Progressive links in discovered community-post source list; read complete written originals", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.brweeklypress.com/chauna-banks-brings-baton-rouge-experience-and-a-community-first-vision-to-congressional-race/", "https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/"]},
+    {"candidate_id": "220451", "family": "earlier_biography", "query": "Follow actual 2012 Weekly Press PDF result; inspect complete subject article rather than borrowing adjacent officials' biographies", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://helpmegrownational.org/wp-content/uploads/2017/04/WeeklyPressLouisianaHMGVisit.pdf"], "lead_dispositions": {"https://helpmegrownational.org/wp-content/uploads/2017/04/WeeklyPressLouisianaHMGVisit.pdf": {"status": "reviewed_no_requested_facts", "reason": "Read complete November 15, 2012 page's Banks-Daniel Foresters branch-councilor article. Private fraternal-benefit-society election is not public office; no age, credential, religion or paid public employment supplied. Adjacent physicians' degrees and council candidate advertisement are not hers."}}},
+    {"candidate_id": "220451", "family": "official_biography", "query": "Follow exact historical city-biography citation from Ballotpedia footnote 2", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://brgov.com/dept/council/mc02.asp"], "lead_dispositions": {"https://brgov.com/dept/council/mc02.asp": {"status": "access_failure", "reason": "Actual original link returned502 Bad Gateway, no body read. No original-degree or government-employment assertion accepted from the unavailable city biography."}}},
+    {"candidate_id": "220451", "family": "ballotpedia_questionnaire", "query": "Read correct candidate biography, complete 2026/2023/2020 survey-status sections and actual cited originals", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Chauna_Banks-Daniel"], "lead_dispositions": {"https://ballotpedia.org/Chauna_Banks-Daniel": {"status": "reviewed_no_requested_facts", "reason": "Biography and survey-status sections read. No 2026/2023/2020 Candidate Connection responses. Secondary degree/office summaries point to earlier Facebook and now-failing city biography; independently reviewed candidate questionnaire supplies degree years. No absent-survey negatives."}}},
+    {"candidate_id": "220451", "family": "university_employer_professional", "query": "Follow candidate-named LCA PDF result and inspect actual subject context", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.lca.org/aws/LCA/asset_manager/get_file/879627?ver=1"], "lead_dispositions": {"https://www.lca.org/aws/LCA/asset_manager/get_file/879627?ver=1": {"status": "reviewed_no_requested_facts", "reason": "Actual PDF is election-landscape/candidate-list material, not the substantive Chauna Banks biography suggested by its search label. Read candidate context; no new requested personal background supplied."}}},
+    {"candidate_id": "220451", "family": "official_biography", "query": "\"Chauna Banks\" \"child welfare\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query returned the previously read community post. Repetition is not independent confirmation of agency employment."},
+    {"candidate_id": "220451", "family": "official_biography", "query": "\"Chauna Banks\" \"biography\" site:brla.gov", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; no exact official biography result-to-query mapping retained. Historical city citation was independently followed and its502 recorded."},
+    {"candidate_id": "220448", "family": "earlier_biography", "query": "\"Pat Moore\" \"birthday\" Louisiana", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; unrelated birthday lists and private-person records not used as candidate evidence."},
+    {"candidate_id": "220422", "family": "local_profile", "query": "\"Lauren Jewett\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://embed-rech-01.dialog.cm/gambitneworleans/docs/gambit_digital_edition_october_5_2026"], "qualification": "Dated Gambit age appeared in search rendering, but underlying edition failed; no preview-only age accepted."},
+    {"candidate_id": "220422", "family": "local_profile", "query": "\"Lauren Jewett\" \"39-year-old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://embed-rech-01.dialog.cm/gambitneworleans/docs/gambit_digital_edition_october_5_2026"]},
+    {"candidate_id": "220422", "family": "local_profile", "query": "\"Lauren Jewett\" \"2026\" \"Gambit\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://elect.link/c/lauren-jewett", "https://chamberlight.com/articles/nolacom-gambits-election-guide-fall-2026-ig78/lauren-jewett-la-house-01258"], "qualification": "Indexes used only to discover actual publisher link; no generated biography or credibility score treated as factual evidence."},
+    {"candidate_id": "220422", "family": "local_profile", "query": "Open discovered Gambit digital edition and follow actual NOLA original link from citation index; retain real access outcomes", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://embed-rech-01.dialog.cm/gambitneworleans/docs/gambit_digital_edition_october_5_2026", "https://www.nola.com/gambit/news/politics_elections/gambits-election-guide-fall-2026/article_16f5d748-e103-4a0c-9bcd-2345ad0cc6f8.html", "https://elect.link/c/lauren-jewett", "https://chamberlight.com/articles/nolacom-gambits-election-guide-fall-2026-ig78/lauren-jewett-la-house-01258"], "lead_dispositions": {"https://embed-rech-01.dialog.cm/gambitneworleans/docs/gambit_digital_edition_october_5_2026": {"status": "access_failure", "reason": "Original edition returned502, no underlying body read. Search rendering is not accepted. No retry through another copy after publisher restriction."}, "https://www.nola.com/gambit/news/politics_elections/gambits-election-guide-fall-2026/article_16f5d748-e103-4a0c-9bcd-2345ad0cc6f8.html": {"status": "access_failure", "reason": "Actual publisher link returned restricted-URL failure. Stop; no age accepted or alternate-delivery bypass."}, "https://elect.link/c/lauren-jewett": {"status": "reviewed_no_requested_facts", "reason": "Read citation index and source links for original discovery only; automatically assembled biography not accepted."}, "https://chamberlight.com/articles/nolacom-gambits-election-guide-fall-2026-ig78/lauren-jewett-la-house-01258": {"status": "reviewed_no_requested_facts", "reason": "Read source-link/summary context, not accepted as underlying reporting; generated summaries and credibility scores do not qualify a birthday or office negative."}}},
+    {"candidate_id": "220451", "family": "earlier_biography", "query": "\"Chauna Banks\" \"birthday\" -site:nationalpublicdata.com -site:fastpeoplesearch.com", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query surfaced birthday recognitions for others and a belated-birthday agenda reference. No underlying candidate birth year or exact birthday acquired."},
+    {"candidate_id": "220454", "family": "local_profile", "query": "\"Pat Forbes\" \"age\" \"2026\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; aggregator unknown-age pages and unrelated private-person results are not a completed search or age evidence."},
+    {"candidate_id": "220448", "family": "earlier_biography", "query": "Follow exact News Star From Humble Beginnings citation from candidate Wikipedia background", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.thenewsstar.com/story/life/deltastyle/2017/09/02/humble-beginnings/564663001/"], "lead_dispositions": {"https://www.thenewsstar.com/story/life/deltastyle/2017/09/02/humble-beginnings/564663001/": {"status": "access_failure", "reason": "Original returned restricted-URL failure; no body read. Do not accept Wikipedia's1958 birth year from its citation alone or bypass the restriction."}}},
+    {"candidate_id": "220451", "family": "earlier_biography", "query": "\"Chauna Banks-Daniel\" \"education\" \"Biography\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Chauna_Banks-Daniel"]},
+    {"candidate_id": "220451", "family": "official_biography", "query": "\"Chauna Banks\" \"social worker\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query surfaced a same-name payroll aggregator row. No public-employer original or exact identity bridge acquired; no accepted employment fact from a salary preview."},
+    {"candidate_id": "220448", "family": "local_profile", "query": "\"Pat Moore\" \"2019\" \"60\" Louisiana", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query; election percentages and unrelated sports records are not ages."},
+    {"candidate_id": "220455", "family": "earlier_biography", "query": "\"Lindsay Rubia Garcia\" \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed batched query found a reused campaign-biography endorsement lead. No qualifying dated age, identity self-description or independent original read from its preview."},
+    {"candidate_id": "220434", "family": "campaign", "query": "\"Caleb Walker\" \"Louisiana\" Congress biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.calebforcongress.com/", "https://www.calebforcongress.com/about"], "qualification": "Discovered actual previously unrecorded campaign; followed full About. Homepage repeats the accepted original and is not counted as another evidence review.", "lead_dispositions": {"https://www.calebforcongress.com/": {"status": "duplicate_reviewed_original", "reason": "Full homepage read; followed actual About and accepted its more substantive biography. Repeated military and candidacy information not counted twice."}}},
+    {"candidate_id": "220436", "family": "campaign", "query": "\"Conrad Cable\" Louisiana biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.conrad4congress2026.com/meet-conrad"], "qualification": "Actual campaign biography read fully. Derivative KTBS summary supplies an actionable original-source lead, not accepted degree subject or award level."},
+    {"candidate_id": "220449", "family": "campaign", "query": "\"Antonio Wilson\" Louisiana Congress biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Antonio_Wilson", "https://wilsonforlouisiana.com/", "https://wilsonforlouisiana.com/about-us"], "qualification": "Correct three-response Candidate Connection and complete biography read. Follow-up recovered actual earned-MBA literal and resolved the extraction hold; undergraduate and doctoral-level study remain distinct from completed degrees. Full campaign home and About read; home repeated in accepted About review.", "lead_dispositions": {"https://wilsonforlouisiana.com/": {"status": "duplicate_reviewed_original", "reason": "Full homepage repeats contractor/business career retained in the complete About review; do not inflate document count."}}},
+    {"candidate_id": "220432", "family": "campaign", "query": "\"Priscilla Gonzalez\" \"Congress\" Louisiana biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Priscilla_Gonzalez", "https://prisforcongress.com/"], "qualification": "Full campaign homepage and portions of earlier survey read. No 2026 survey; 2024 survey remains only partially read. Entire earlier survey and original explicit identity leads remain actionable.", "lead_dispositions": {"https://prisforcongress.com/": {"status": "reviewed_no_requested_facts", "reason": "Read full homepage. Daughter-of-immigrants language is not ethnicity; advocacy for veterans is not personal enlistment. No new requested missing field beyond the independently accepted substantive KPLC profile."}}},
+    {"candidate_id": "220431", "family": "campaign", "query": "Verify retained homepage SHA256 and follow its actual About John Day link; read complete About and experience", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://johndayforcongress.com/", "https://johndayforcongress.com/about-john-day-for-congress/"], "lead_dispositions": {"https://johndayforcongress.com/": {"status": "duplicate_reviewed_original", "reason": "Complete 79,916-byte retained homepage read; SHA256 cbcaabefce48130cd0eee4a2acea4c265f8dc03d240375030f25a88bf1077a89 matches. Veteran-only repetition not counted separately from the fuller linked About original."}}},
+    {"candidate_id": "220447", "family": "local_profile", "query": "Follow discovered licensed Louisiana First three-candidate profile and read full article, including final election explanation", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html"], "qualification": "Complete permitted licensed publisher article read; no restricted original bypass. Extracted all three native subjects separately, quoting 24 words total under the shared 25-word budget."},
+    {"candidate_id": "220449", "family": "local_profile", "query": "Read Wilson section and full licensed Louisiana First three-candidate article", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html"]},
+    {"candidate_id": "220448", "family": "local_profile", "query": "Read Moore section and full licensed Louisiana First three-candidate article", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/meet-three-democrats-running-louisiana-141302000.html"]},
+    {"candidate_id": "220447", "family": "local_profile", "query": "\"Dan McKay\" \"Congress\" biography education age", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search tool returned no readable result mapping. No search-only law degree or religion accepted. Independently followed native-person Ballotpedia URL and campaign lead; outcomes below."},
+    {"candidate_id": "220436", "family": "earlier_biography", "query": "\"Conrad Cable\" \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search response did not retain a readable result mapping; no complete-search disposition or birthdate inferred."},
+    {"candidate_id": "220434", "family": "local_profile", "query": "\"Caleb Walker\" \"age\" \"Congress\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable result mapping; no accepted candidate age from query alone."},
+    {"candidate_id": "220432", "family": "earlier_biography", "query": "\"Priscilla Gonzalez\" \"2024\" \"age\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable result mapping; an undated first-job age does not establish current age."},
+    {"candidate_id": "220436", "family": "local_profile", "query": "\"Conrad Cable\" farmer \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable response mapping retained. Dated Reuters original independently opened and read below; do not claim a completed age-search family from the query alone."},
+    {"candidate_id": "220434", "family": "local_profile", "query": "\"Caleb Walker\" Congress \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable result mapping; no source-qualified birth evidence."},
+    {"candidate_id": "220447", "family": "earlier_biography", "query": "\"Dan McKay\" Bunkie \"age\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable result mapping. Do not assign private-person or same-name ages or infer from legal-career duration."},
+    {"candidate_id": "220432", "family": "local_profile", "query": "\"Priscilla Gonzalez\" Congress \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No readable result mapping. Independently followed substantive KPLC original below."},
+    {"candidate_id": "220436", "family": "local_profile", "query": "Read complete public licensed Reuters farming-candidates report, specifically Cable's dated age and full surrounding passage", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://my957.com/2026/08/31/special-report-as-u-s-agriculture-wilts-under-financial-pressure-former-arkansas-farmer-cultivates-u-s-senate-bid/"], "qualification": "Complete substantive article read from ordinary public licensed Reuters copy; exact day/month source date visible. Senatorial subject is not added to the retained House cohort."},
+    {"candidate_id": "220447", "family": "ballotpedia_questionnaire", "query": "Open exact Dan McKay page with public reader; after empty parser result make one ordinary public request, stop on non-content response", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Dan_McKay"], "lead_dispositions": {"https://ballotpedia.org/Dan_McKay": {"status": "access_failure", "reason": "Page reader/simplifier returned no readable body. One ordinary urllib request returned HTTP202 with no biography/survey text. Stopped; no alternate endpoint, challenge bypass, snippet-only degree or affiliation claim."}}},
+    {"candidate_id": "220432", "family": "ballotpedia_questionnaire", "query": "Continue missing middle sections of earlier Candidate Connection using ordinary public page reader", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Priscilla_Gonzalez"], "lead_dispositions": {"https://ballotpedia.org/Priscilla_Gonzalez": {"status": "access_failure", "reason": "Simplifier returned no more content; previously read biography and partial earlier survey are not misrepresented as a full survey review. No access workaround or new claim from inaccessible middle."}}},
+    {"candidate_id": "220447", "family": "campaign", "query": "Follow discovered candidate campaign homepage by ordinary public request and inspect actual rendered public page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.mckayforcongress.com/"], "qualification": "Ordinary simplifier and subsequent normal Playwright rendering both inspected. HTTP200 rendered page confirms sparse masthead, veteran/prosecutor/country-lawyer tagline, signup form, donation/privacy/social links, not a hidden substantive biography.", "lead_dispositions": {"https://www.mckayforcongress.com/": {"status": "reviewed_no_requested_facts", "reason": "Complete sparse rendered public campaign inspected. Repeats military/legal career accepted from the substantive Louisiana First interview; no missing age, degree, religion or explicit service negative. No unresolved extraction problem remains on this page."}}},
+    {"candidate_id": "220431", "family": "local_profile", "query": "Read full KPLC five-challenger original and all candidate background/policy responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/"]},
+    {"candidate_id": "220432", "family": "local_profile", "query": "Read full KPLC original including Gonzalez education, career and complete policy responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/"]},
+    {"candidate_id": "220434", "family": "local_profile", "query": "Read full KPLC original including Walker military, faith statement and all policy responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/"]},
+    {"candidate_id": "220435", "family": "local_profile", "query": "Extract all supported LeBrun traits from the complete KPLC original already being reviewed for Democratic challengers", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/"]},
+    {"candidate_id": "220430", "family": "local_profile", "query": "Extract all supported Cotten traits from the complete KPLC original already being reviewed for Democratic challengers", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.acadiananewsfirst.com/2026/10/21/candidates-challenging-rep-higgins-weigh-spacex-carbon-capture-data-centers/"]},
+    {"candidate_id": "220449", "family": "ballotpedia_questionnaire", "query": "Read exact underlying Antonio Wilson page, all three 2026 survey responses and actual campaign identity link; recover missing MBA literal", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Antonio_Wilson"], "qualification": "Complete underlying public reader lines 124-145 read. Simplifier empty response is an extraction limitation, not proof the survey is unavailable. Actual text resolves existing education hold without upgrading undergraduate or doctoral attendance."},
+    {"candidate_id": "220432", "family": "campaign", "query": "Follow actual About, RAICES and CBLL navigation from discovered campaign home; read each complete underlying page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://prisforcongress.com/home/", "https://prisforcongress.com/about/", "https://prisforcongress.com/raices/", "https://prisforcongress.com/community-based-legal-logic/"], "qualification": "Native campaign navigation supplies actual URLs. Preserve explicit volunteer status and employer identity; website modification metadata do not independently date the asserted age. Parade link is not evidence of candidate identity traits."},
+    {"candidate_id": "220432", "family": "earlier_biography", "query": "\"Priscilla Gonzalez\" \"2020\" \"age\" Corpus Christi", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search response lacked readable mapping; independently followed the actual KRIS questionnaire and FFRF PDF below. This query alone is not a completed search or accepted age."},
+    {"candidate_id": "220432", "family": "earlier_biography", "query": "Read complete earlier KRIS candidate questionnaire and ordinary original HTML publication metadata; verify same-person employer and campaign history", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kristv.com/corpus-christi-mayoral-race"], "qualification": "All seven Gonzalez answers and submission explanation read. Ordinary HTTP200 publisher HTML supplied explicit 2020 publication/update timestamps; age answer is not independently timestamped. No age borrowed from neighboring candidates."},
+    {"candidate_id": "220432", "family": "earlier_biography", "query": "Read FFRF December 2024 congressional classification table in original PDF and verify actual row visually, including continuation and table context", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ffrf.org/uploads/fttoday/2024/FT28_December%202024_ffrf-web.pdf"], "qualification": "Original PDF page 10 text and screenshot agree on Priscilla Gonzalez, D-LA03, agnostic in the 2024 table. Source-defined historical classification, not new self-identification, current 2026 affiliation or a census. No sourcing method specified in table; other rows require separate native identity verification."},
+    {"candidate_id": "220454", "family": "local_profile", "query": "Re-read actual explicit prior-office comparison in Banks interview and identify all three named Democratic opponents before considering bounded negative evidence", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/"], "qualification": "Explicit reporter comparison retained only as partial Forbes prior-office evidence; no new model contrast, race-by-complement or government-employment negative."},
+    {"candidate_id": "220455", "family": "local_profile", "query": "Read explicit three-Democrat prior-office comparison and later Lindsay Rubia Garcia identification in the actual Banks interview", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://bayouprogressive.com/2026/10/chauna-banks-is-betting-her-experience-faith-and-relationships-can-defy-louisianas-new-political-map/"], "qualification": "Partial scoped negative from actual affirmative reporting, not omitted service. Individual confirmation/exhaustive history and separate scientific qualification still required."},
+    {"candidate_id": "220436", "family": "local_profile", "query": "site:ktbs.com \"Conrad Cable\" \"Meet\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.ktbs.com/"], "lead_dispositions": {"https://www.ktbs.com/": {"status": "access_failure", "reason": "Public web tool reports non-retryable robots.txt denial for ktbs.com. No publisher body read, repeated retries, alternative-delivery bypass or degree-subject claim accepted."}}},
+    {"candidate_id": "220436", "family": "local_profile", "query": "site:ktbs.com \"Farmer from Farmerville\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.ktbs.com/"], "qualification": "Same batched operation as Meet query; domain robots denial prevents original review. Do not count as two acquired sources."},
+    {"candidate_id": "220436", "family": "local_profile", "query": "Follow retained Candidate Alerts original-link discovery location", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://candidatealerts.com/politicians/p_hdpvf8knn"], "lead_dispositions": {"https://candidatealerts.com/politicians/p_hdpvf8knn": {"status": "reviewed_no_requested_facts", "reason": "Current ordinary fetch redirects to gotv.com/intel generic commercial landing page. No candidate biography or exact original KTBS URL recovered in this follow-up; no generated/opposition-research summary accepted."}}},
+    {"candidate_id": "220436", "family": "earlier_biography", "query": "Read independent Louisiana Radio Network September 3, 2025 campaign-announcement interview, all quotations and concluding context", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://louisianaradionetwork.com/2025/09/03/43483/"], "qualification": "Dated farming corroboration accepted; explicit first run is not never held public office. Not a bypass for blocked KTBS."},
+    {"candidate_id": "220436", "family": "local_profile", "query": "Inspect candidate-authored Reddit introduction and religion question with actual candidate response", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.reddit.com/r/ProgressiveHQ/comments/1s2m1ux/im_conrad_cable_a_farmer_from_louisiana_and_im/"], "lead_dispositions": {"https://www.reddit.com/r/ProgressiveHQ/comments/1s2m1ux/im_conrad_cable_a_farmer_from_louisiana_and_im/": {"status": "reviewed_no_requested_facts", "reason": "Relevant intro/question/response passage read, not whole 591-line thread. Religion question is visible but candidate response addresses other issues without naming religion. Unanswered question is not an atheist/nonreligion claim; relative comment timestamp not a precise publication date."}}}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220422", "leads": ["Continue independent dated interviews or candidate-authored birthday evidence; Gambit publisher is restricted and its digital edition failed, so preview-only age39 remains unaccepted.", "Read actual Understood professional profile and university/alumni originals; follow campaign-linked award/fellowship originals only for concrete missing facts.", "Resolve public-office scope separately from elected party committee posts and unsuccessful school-board runs. Preserve named historical public-school employment without assuming all charter work is governmental.", "Continue explicit ethnicity and military evidence and earlier religious-affiliation qualification without proxy inference."]},
+    {"candidate_id": "220448", "leads": ["Find independent permitted biographical birth-year/dated-age original; News Star2017 source is restricted and Wikipedia1958 is not accepted without its original.", "Seek actual awarding-university biography and explicit historical/current religious affiliation, non-elected government-employment and military answers.", "Continue substantive local questionnaire and earlier professional/official family research; State Farm is a private insurer, not a government agency."]},
+    {"candidate_id": "220451", "leads": ["Locate permitted public-employer or candidate-authored original for child-welfare and East Baton Rouge school-system employment. Community-post/payroll snippets are not sufficient; historical city biography currently fails502.", "Retain2023 explicit born-again belief and Westgate membership with its actual historical context. Seek independently documented2026 affiliation without assigning denomination from church names or visits.", "Continue age, explicit ethnicity and military research. Do not infer age from1979 schooling,47 years of party affiliation, or birthday recognitions for others.", "If a dated professional/university original supplies credential subjects, retain separately from the questionnaire's explicit award years and identify duplicates rather than counting repeated biographies as independent."]},
+    {"candidate_id": "220454", "leads": ["Continue dated age, explicit religious/identity/ethnicity and military sources, and directly scoped prior-public-office evidence; long state employment does not imply never elected.", "Locate LSU awarding/alumni original for exact degree years if public and useful. Conference biography already establishes completed awards, not prediction-time availability.", "Official state transition record establishes historical appointed administrative work, not a complete2026 employment chronology. Read substantive public election questionnaire only if it can resolve missing background rather than duplicate policy positions."]},
+    {"candidate_id": "220455", "leads": ["Read Southern University2025 commencement original only after verifying the additional-surname identity bridge; program candidacy alone is not proof of conferral. Actual candidate-reported JD retained separately.", "Seek dated age/birth original and explicit public gender/race/ethnicity/religion evidence. Unsourced celebrity birthdays and ancestry pages are not accepted; nickname or Latin-dance career is not ethnicity.", "Explicit reporter comparison now retained as partial prior-office negative; seek individual confirmation without promoting a new scientific contrast. Civilian MWR work and a military-named charter school are not military service.", "Resolve2010 versus2011 teaching-start detail if meaningful; source's broader teaching range and specific employer sequence are separately preserved, not silently harmonized."]},
+    {"candidate_id": "220431", "leads": ["Continue actual questionnaire and earlier campaign interviews for dated age, education beyond high school and explicit affiliation/identity evidence.", "Verify any degree-attendance or service-endpoint discrepancy against actual underlying originals before creating a conflict; snippets alone do not contradict the accepted 1994-1998 Navy narrative.", "Seek independently scoped prior-office and civilian-government-employment statements; private careers and not-a-career-politician language establish neither negative."]},
+    {"candidate_id": "220432", "leads": ["Preserve historical age36 in2020 and undated campaign age40 separately; obtain birthday or independently dated2026 age for greater precision, not an inferred exact date.", "FFRF's2024 agnostic classification is historical publisher reporting; seek candidate-authored current affiliation and classification sourcing without treating missionary upbringing as current religion.", "Earlier Ballotpedia survey middle remains inaccessible; do not repeatedly retry. Continue permitted local, official, university/professional and earlier originals.", "Seek explicit ethnicity/gender/race evidence; immigrants, surname, parade participation and clients served are not identity classifications. RAICES volunteering and CBLL founding do not establish paid government employment or attorney licensing."]},
+    {"candidate_id": "220434", "leads": ["Seek dated age and explicit public identity/affiliation statements. Reference to God and Christian-program attendance do not establish a named current religion.", "Resolve completed Christian Leadership program's award level only from actual institutional or candidate original; political-science study remains incomplete.", "Task-force membership and student government do not establish paid government employment or public elected office. Continue professional, official and earlier families for independently scoped service comparisons."]},
+    {"candidate_id": "220436", "leads": ["KTBS originals currently robots-blocked; no degree subject or2020 farm start accepted from derivative summaries. Continue independent university/professional and substantive interview originals.", "Preserve Reuters dated age34 with actual2026 reference date. Ask no proxies of sensitive identity; skipped Reddit religion answer is not nonreligion.", "First candidacy in2025 is not a never-held-office answer. Seek explicit prior-office, civilian-government and military evidence separately.", "Follow actual Granger interview or Bayou Progressive forum original only if accessible and useful; index now redirects to a generic commercial page."]},
+    {"candidate_id": "220447", "leads": ["Ballotpedia returned non-content HTTP202 and campaign rendered page is genuinely sparse; neither is an unresolved biography extraction opportunity.", "Continue permitted official/professional law-career and dated interview originals for completed education and age, without inferring JD from attorney occupation or age from forty years of practice.", "Religion previews remain unaccepted without readable underlying evidence. Army service and assistant district attorney role are documented separately; neither establishes elected office."]},
+    {"candidate_id": "220449", "leads": ["MBA extraction hold resolved from actual complete questionnaire. Institution/year remain unspecified; undergraduate and doctoral-level study are not completed bachelor's/doctorate.", "Continue independently dated age, explicit identity/religion and service-history originals; contracting public infrastructure is not government employment.", "Questionnaire and campaign families now read, but official, professional, earlier and independent local families require further person-level work."]},
+    {"candidate_id": "220430", "leads": ["KPLC private restaurant career is documented. Continue all six families and all missing traits; current federal incumbency group remains unresolved and is not inferred from article calling candidates challengers.", "Undated age at first job does not supply current age. No affiliation, education or service negative inferred from family business or party."]},
+    {"candidate_id": "220435", "leads": ["KPLC educator career is documented without named employer. Seek actual public employer and credential originals rather than assuming all Louisiana teachers are government employees.", "Continue all six families for age, explicit identity/affiliation and separately scoped service history. Native federal incumbency remains unresolved; no inference from no-party status or article grouping."]}
+  ]
+}

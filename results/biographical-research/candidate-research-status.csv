@@ -100,18 +100,18 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220404,Melissa Strange,KY,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,"[""https://www.strangeforky.com""]"
 220408,Ned Pillersdorf,KY,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",3,[]
 220412,Zach Dembo,KY,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",2,"[""https://www.zachdembo.com""]"
-220449,Antonio Wilson,LA,05,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220434,Caleb Walker,LA,03,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220451,Chauna Banks,LA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.chaunabanksforcongress.com""]"
-220436,Conrad Cable,LA,04,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220447,Dan McKay,LA,05,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220431,John Day,LA,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://johndayforcongress.com""]"
-220422,Lauren Jewett,LA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.laurenjewett.com""]"
-220455,Lindsay Garcia,LA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.rubiagarcia.com""]"
+220449,Antonio Wilson,LA,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,[]
+220434,Caleb Walker,LA,03,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",2,[]
+220451,Chauna Banks,LA,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,"[""https://www.chaunabanksforcongress.com""]"
+220436,Conrad Cable,LA,04,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile""]",3,[]
+220447,Dan McKay,LA,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",1,[]
+220431,John Day,LA,03,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",2,"[""https://johndayforcongress.com""]"
+220422,Lauren Jewett,LA,01,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""https://www.laurenjewett.com""]"
+220455,Lindsay Garcia,LA,06,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://www.rubiagarcia.com""]"
 220437,Matt Gromlich,LA,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,"[""https://www.fightersforourfuture.com""]"
-220448,"Patricia ""Pat"" Moore",LA,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://patmooreforcongress.com""]"
-220454,"Patrick ""Pat"" Forbes",LA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://patforbes.com""]"
-220432,Priscilla Gonzalez,LA,03,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220448,"Patricia ""Pat"" Moore",LA,05,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile""]",3,"[""https://patmooreforcongress.com""]"
+220454,"Patrick ""Pat"" Forbes",LA,06,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://patforbes.com""]"
+220432,Priscilla Gonzalez,LA,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",6,[]
 220751,Dan Koh,MA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kohforcongress.com/""]"
 220484,Adrian Boafo,MD,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.adrianboafo.com/""]"
 220475,Dan Schwartz,MD,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://schwartzforcongress.com""]"
@@ -675,7 +675,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220424,"E. ""Liddy"" Glass",LA,01,Nonpartisan,unresolved,not_yet_researched,[],0,[]
 220445,Gabe Firment,LA,05,Republican,unresolved,not_yet_researched,[],0,[]
 220438,Gordon Heslop,LA,04,Republican,unresolved,not_yet_researched,[],0,"[""https://heslopforcongress.com""]"
-220430,Kate Cotten,LA,03,Republican,unresolved,not_yet_researched,[],0,[]
+220430,Kate Cotten,LA,03,Republican,unresolved,in_progress,"[""local_profile""]",1,[]
 220452,Larry Davis,LA,06,Republican,unresolved,not_yet_researched,[],0,"[""https://www.larrydavisforcongress.com/""]"
 220427,Lisa Ballay,LA,02,Libertarian,unresolved,not_yet_researched,[],0,[]
 220444,Michael Echols,LA,05,Republican,unresolved,not_yet_researched,[],0,"[""https://www.michaelechols.com""]"
@@ -689,7 +689,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220459,Rufus Craig,LA,06,Libertarian,unresolved,not_yet_researched,[],0,[]
 220458,Stephen Wagley,LA,06,Republican,unresolved,not_yet_researched,[],0,"[""https://stephenwagley.com""]"
 220441,"Stewart Cathey, Jr.",LA,05,Republican,unresolved,not_yet_researched,[],0,[]
-220435,Tia LeBrun,LA,03,Nonpartisan,unresolved,not_yet_researched,[],0,[]
+220435,Tia LeBrun,LA,03,Nonpartisan,unresolved,in_progress,"[""local_profile""]",1,[]
 220428,"Walter ""Rocky"" Beach",LA,02,Nonpartisan,unresolved,not_yet_researched,[],0,[]
 220746,Dennis R. Conlon,MA,03,Unenrolled,unresolved,not_yet_researched,[],0,[]
 220745,Gary J. Grossi,MA,03,Republican,unresolved,not_yet_researched,[],0,"[""https://www.garygrossi.org""]"

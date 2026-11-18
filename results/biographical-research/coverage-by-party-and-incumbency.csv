@@ -1,8 +1,8 @@
 party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
-all,all,1284,9,95,1180,388,168,94
+all,all,1284,9,108,1167,422,178,100
 all,incumbent,360,0,3,357,3,0,0
-all,nonincumbent,312,9,86,217,373,156,90
-all,unresolved,612,0,6,606,12,12,4
+all,nonincumbent,312,9,97,206,405,166,96
+all,unresolved,612,0,8,604,14,12,4
 America First,all,1,0,0,1,0,0,0
 America First,incumbent,0,0,0,0,0,0,0
 America First,nonincumbent,0,0,0,0,0,0,0
@@ -19,9 +19,9 @@ Constitution,all,4,0,0,4,0,0,0
 Constitution,incumbent,0,0,0,0,0,0,0
 Constitution,nonincumbent,0,0,0,0,0,0,0
 Constitution,unresolved,4,0,0,4,0,0,0
-Democratic,all,449,9,86,354,373,156,90
+Democratic,all,449,9,97,343,405,166,96
 Democratic,incumbent,183,0,0,183,0,0,0
-Democratic,nonincumbent,266,9,86,171,373,156,90
+Democratic,nonincumbent,266,9,97,160,405,166,96
 Democratic,unresolved,0,0,0,0,0,0,0
 Florida Forward Party,all,1,0,0,1,0,0,0
 Florida Forward Party,incumbent,0,0,0,0,0,0,0
@@ -83,10 +83,10 @@ No Political Party,all,3,0,0,3,0,0,0
 No Political Party,incumbent,0,0,0,0,0,0,0
 No Political Party,nonincumbent,0,0,0,0,0,0,0
 No Political Party,unresolved,3,0,0,3,0,0,0
-Nonpartisan,all,10,0,0,10,0,0,0
+Nonpartisan,all,10,0,1,9,1,0,0
 Nonpartisan,incumbent,0,0,0,0,0,0,0
 Nonpartisan,nonincumbent,0,0,0,0,0,0,0
-Nonpartisan,unresolved,10,0,0,10,0,0,0
+Nonpartisan,unresolved,10,0,1,9,1,0,0
 Other,all,1,0,0,1,0,0,0
 Other,incumbent,0,0,0,0,0,0,0
 Other,nonincumbent,0,0,0,0,0,0,0
@@ -95,10 +95,10 @@ Pacific Green,all,2,0,0,2,0,0,0
 Pacific Green,incumbent,0,0,0,0,0,0,0
 Pacific Green,nonincumbent,0,0,0,0,0,0,0
 Pacific Green,unresolved,2,0,0,2,0,0,0
-Republican,all,433,0,4,429,4,2,2
+Republican,all,433,0,5,428,5,2,2
 Republican,incumbent,176,0,3,173,3,0,0
 Republican,nonincumbent,46,0,0,46,0,0,0
-Republican,unresolved,211,0,1,210,1,2,2
+Republican,unresolved,211,0,2,209,2,2,2
 Socialism PSL,all,1,0,0,1,0,0,0
 Socialism PSL,incumbent,0,0,0,0,0,0,0
 Socialism PSL,nonincumbent,0,0,0,0,0,0,0
