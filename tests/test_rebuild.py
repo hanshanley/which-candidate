@@ -463,6 +463,9 @@ def test_public_packages_include_entire_queries_evidence_and_embedded_download(t
     queries = output / "complete-queries.zip"
     with zipfile.ZipFile(queries) as archive:
         assert len(archive.namelist()) == len(set(archive.namelist()))
+        successor = json.loads((ROOT / "data/house-characteristics-v9-baseline.json").read_text())
+        for name, digest in successor["protected_sha256"].items():
+            assert hashlib.sha256(archive.read(name)).hexdigest() == digest, name
         assert (
             archive.read("audits/house-characteristics-v1-validation.json")
             == (ROOT / "audits/house-characteristics-v1-validation.json").read_bytes()
@@ -715,13 +718,16 @@ def test_packages_refresh_the_same_filenames_and_reuse_identical_bytes(tmp_path)
     assert rebuild_package.build(ROOT, output) == receipts
     expected_names = set(names)
     if (ROOT / "results/house-characteristics-v8/manifest.json").exists():
+        version = (
+            "v9" if (ROOT / "results/house-characteristics-v9/manifest.json").exists() else "v8"
+        )
         expected_names.add("release-assets.json")
         delivery = json.loads((output / "release-assets.json").read_text())
-        assert delivery["release"] == "characteristics-v8"
+        assert delivery["release"] == f"characteristics-{version}"
         assert set(delivery["assets"]) == set(receipts)
         for name, receipt in receipts.items():
             assert {k: delivery["assets"][name][k] for k in receipt} == receipt
-            assert delivery["assets"][name]["url"].endswith(f"/characteristics-v8/{name}")
+            assert delivery["assets"][name]["url"].endswith(f"/characteristics-{version}/{name}")
     assert {p.name for p in output.iterdir()} == expected_names
     assert all((output / name).stat().st_mtime_ns == stamps[name] for name in names)
     assert all(fingerprint(output / name) == receipt for name, receipt in receipts.items())

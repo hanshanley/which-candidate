@@ -98,6 +98,16 @@ composition, sensitivities and state deletions. Associations, multiplicity
 and matched predictive performance with uncertainty are separate results.
 Acquisition decisions must not depend on coefficients or significance.
 
+## Factual-only California legal-name qualification
+
+The late retained-source correction requires an already qualified unique native
+FEC identity, its one literal retained candidate-master alternative, matching
+selected FEC ID, exact full legal printed name, California House district,
+party and 2026 election. No unretained FEC row, conflicting identity, middle-name
+guess or fuzzy alias is accepted. Four designation fields become factually
+qualified; no analytical profession category or fit population changes.
+The earlier specification's prohibition on broad name relaxation remains.
+
 ## Delivery
 
 Export fifteen-trait V8-to-V9 progress, all-party fixed-baseline breakdowns,

@@ -6,6 +6,8 @@ This local successor preserves V1-V8 and all 1,284 native candidate-contest reco
 
 V8-to-V9 first evidence fills **25 fields across 21 candidates**, all parties combined. Of these, 21 fields come from newly reviewed extraction of already acquired originals, not new downloads. Previously reported but unqualified fields, supplementary citations and identity-only filings are not counted as first evidence.
 
+The 25 first fields comprise 24 background fields and Walker's incumbency control. Known V8 Democratic nonincumbents gain 19 fields across 19 candidates. Walker's previously unresolved group gains four fields and Bill Hill's nonpartisan group two. Separately, 117 previously reported Democratic fields become factually qualified, and two retained control fields are requalified. These are not new first observations.
+
 Two signed-filing reviews and one dated questionnaire resolve 3 Democratic incumbency controls; 0 remain held. 1 performance-eligible contests gain complete controls. These changes are separate from newly measured background traits.
 
 ## Every trait: V8 to V9
@@ -42,7 +44,7 @@ A 0/0 prediction count means an unavailable contrast, not successful prediction.
 
 The exact retained Louisiana product was the November 3, 2026 Candidate Inquiry House export, election 344, offices 70195-70200: 39 filing rows with Race and Gender columns. Its 41 V8 first fields are not new V9 gains. Source-defined filing labels are not silently pooled with historical race/ethnicity classifications.
 
-California's August 27 certified list supplies 104 congressional candidates across 52 districts and candidate-submitted ballot designations. The reusable parser preserves page, district, party, exact wording and office designations. A designation is not a complete verified career. Unresolved printed/native name variants remain held.
+California's August 27 certified list supplies 104 congressional candidates across 52 districts and candidate-submitted ballot designations. The reusable parser preserves page, district, party, exact wording and office designations. A designation is not a complete verified career. Four printed full legal names are linked by a strict retained FEC candidate-master bridge: unique already-qualified native identity, exact full legal name, House district, state, party and 2026 election. This does not relax fuzzy aliases; seven other printed variants remain held.
 
 Retained national campaign originals were revisited for concrete missed education, dated age, public self-description and career passages, rather than redownloaded en masse. A resolved HTTP redirect plus the named homepage's direct same-host biography link repairs Kelly Esti's previously rejected biography. Dated credentials, a documented Navy role and an explicit own description are distinct claims. A role interval is not represented as the person's complete military career.
 
@@ -191,7 +193,7 @@ Remaining factual gaps need named, explicit original evidence; analytical gaps m
 
 ## Complete research files
 
-The browser below retains every candidate and links claim provenance. Figures have complete plotted CSVs; fitted samples, folds, unsupported predictions, exclusions, source receipts and all-party fixed-V8 breakdowns accompany them. The complete query bundle must include permitted originals and extraction/analysis code, not metadata alone. Research reproduction and acquisition are separate: offline reconstruction must use the pinned originals, never refreshed web content.
+The browser below retains every candidate and links claim provenance. Figures have complete plotted CSVs; fitted samples, folds, unsupported predictions, exclusions, source receipts and all-party fixed-V8 breakdowns accompany them. The complete query bundle must include permitted originals and extraction/analysis code, not metadata alone. Research reproduction and acquisition are separate: offline reconstruction uses the pinned normalized evidence, never refreshed web content. Optional raw-source re-extraction separately needs the hashed original caches; unpermitted raw articles/PDFs are not redistributed. The source-review export records literal factual fields and decisions, not a substitute for unavailable original caches.
 
 ```bash
 .venv/bin/python -m which_candidate.characteristics_v9_acquisition --acquire --audit-cached
@@ -199,4 +201,11 @@ The browser below retains every candidate and links claim provenance. Figures ha
 .venv/bin/python -m which_candidate.characteristics_v9_review
 .venv/bin/python -m which_candidate.characteristics_research --offline
 .venv/bin/python -m which_candidate.characteristics_v9
+OPENBLAS_NUM_THREADS=1 .venv/bin/python -m which_candidate.house_project --evidence-only
+.venv/bin/python scripts/validate-characteristics-v9.py
+.venv/bin/python scripts/check-characteristics-v9-browser.py
+.venv/bin/python scripts/replay-characteristics-v9.py \
+  --archive downloads/complete-queries.zip --workdir /tmp/which-candidate-v9-replay
 ```
+
+The replay work directory must not already exist. Full acquisition parameters, milestone outcomes, download instructions and precise remaining prerequisites are in `docs/HOUSE_CHARACTERISTICS_V9_ACQUISITION.md`. Acceptance and immutable asset transport have separate receipts under `audits/`; transport hashes are excluded from archive inputs to avoid circularity.

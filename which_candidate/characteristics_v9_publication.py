@@ -1,6 +1,19 @@
 """V9 findings with acquisition, qualification and prediction kept separate."""
 
+import html
+
 from .characteristics_publication import LABELS
+from .house_report import article as render_prose
+
+
+def article(markdown):
+    parts = markdown.split("```")
+    return "\n".join(
+        render_prose(part)
+        if index % 2 == 0
+        else f"<pre><code>{html.escape(part.partition(chr(10))[2].rstrip())}</code></pre>"
+        for index, part in enumerate(parts)
+    )
 
 
 def report(summary, fits, terms, coverage, sources, research):
@@ -19,6 +32,12 @@ def report(summary, fits, terms, coverage, sources, research):
         "newly reviewed extraction of already acquired originals, not new downloads. "
         "Previously reported but unqualified fields, supplementary citations and identity-only "
         "filings are not counted as first evidence.",
+        "",
+        "The 25 first fields comprise 24 background fields and Walker's incumbency control. "
+        "Known V8 Democratic nonincumbents gain 19 fields across 19 candidates. Walker's "
+        "previously unresolved group gains four fields and Bill Hill's nonpartisan group two. "
+        "Separately, 117 previously reported Democratic fields become factually qualified, "
+        "and two retained control fields are requalified. These are not new first observations.",
         "",
         f"Two signed-filing reviews and one dated questionnaire resolve "
         f"{summary['resolved_incumbency_controls']} Democratic incumbency controls; "
@@ -71,7 +90,10 @@ def report(summary, fits, terms, coverage, sources, research):
         "California's August 27 certified list supplies 104 congressional candidates across "
         "52 districts and candidate-submitted ballot designations. The reusable parser preserves "
         "page, district, party, exact wording and office designations. A designation is not "
-        "a complete verified career. Unresolved printed/native name variants remain held.",
+        "a complete verified career. Four printed full legal names are linked by a strict "
+        "retained FEC candidate-master bridge: unique already-qualified native identity, exact "
+        "full legal name, House district, state, party and 2026 election. This does not relax "
+        "fuzzy aliases; seven other printed variants remain held.",
         "",
         "Retained national campaign originals were revisited for concrete missed education, "
         "dated age, public self-description and career passages, rather than redownloaded en masse. "
@@ -258,7 +280,10 @@ def report(summary, fits, terms, coverage, sources, research):
         "source receipts and all-party fixed-V8 breakdowns accompany them. "
         "The complete query bundle must include permitted originals and extraction/analysis code, "
         "not metadata alone. Research reproduction and acquisition are separate: offline "
-        "reconstruction must use the pinned originals, never refreshed web content.",
+        "reconstruction uses the pinned normalized evidence, never refreshed web content. "
+        "Optional raw-source re-extraction separately needs the hashed original caches; "
+        "unpermitted raw articles/PDFs are not redistributed. The source-review export records "
+        "literal factual fields and decisions, not a substitute for unavailable original caches.",
         "",
         "```bash",
         ".venv/bin/python -m which_candidate.characteristics_v9_acquisition --acquire --audit-cached",
@@ -266,6 +291,17 @@ def report(summary, fits, terms, coverage, sources, research):
         ".venv/bin/python -m which_candidate.characteristics_v9_review",
         ".venv/bin/python -m which_candidate.characteristics_research --offline",
         ".venv/bin/python -m which_candidate.characteristics_v9",
+        "OPENBLAS_NUM_THREADS=1 .venv/bin/python -m which_candidate.house_project --evidence-only",
+        ".venv/bin/python scripts/validate-characteristics-v9.py",
+        ".venv/bin/python scripts/check-characteristics-v9-browser.py",
+        ".venv/bin/python scripts/replay-characteristics-v9.py \\",
+        "  --archive downloads/complete-queries.zip --workdir /tmp/which-candidate-v9-replay",
         "```",
+        "",
+        "The replay work directory must not already exist. Full acquisition parameters, "
+        "milestone outcomes, download instructions and precise remaining prerequisites are in "
+        "`docs/HOUSE_CHARACTERISTICS_V9_ACQUISITION.md`. Acceptance and immutable asset "
+        "transport have separate receipts under `audits/`; transport hashes are excluded "
+        "from archive inputs to avoid circularity.",
     ]
     return "\n".join(lines) + "\n"

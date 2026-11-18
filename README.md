@@ -12,43 +12,57 @@ remain separate from Democratic nominees.
 
 ## Status
 
-**Current supported release: V8.** Open
-[`publication/characteristics-v8/report.html`](publication/characteristics-v8/report.html)
+**Current supported analysis: V9.** Open
+[`publication/characteristics-v9/report.html`](publication/characteristics-v9/report.html)
 locally for the report, figures and all-candidate evidence browser, or read the
-[text report](results/house-characteristics-v8/report.md). V1-V7 remain frozen.
-The [fifteen-trait V7→V8 table](results/house-characteristics-v8/v7-v8-trait-progress.csv)
+[text report](results/house-characteristics-v9/report.md). V1-V8 remain frozen.
+The [fifteen-trait V8-to-V9 table](results/house-characteristics-v9/v8-v9-trait-progress.csv)
 separates factual coverage, analytical eligibility, fit samples, prediction
 support, first evidence and retained-evidence qualification.
 
-Successive national batches register **325 claims from 136 distinct documents**
-for 160 candidates. **65 previously unknown fields across 43 candidates** gain
-qualified first evidence; Democratic nonincumbents known at V7 receive
-**16 fields across 14 candidates**, and six Democrats with unresolved baseline
-incumbency receive twelve. Supplementary claims and qualification of already
-reported facts are not counted as first evidence.
+The continuation registers **238 literal claims** across 165 candidate-source
+records. **25 previously unknown fields across 21 candidates** gain qualified
+first evidence: 24 background fields and one incumbency control. Known V8
+Democratic nonincumbents receive **19 fields across 19 candidates**.
+Qualification of already reported facts and supplementary evidence remain
+separate; 21 first fields come from retained-original extraction corrections.
 
-Democratic analytical education coverage rises **207→211**, profession
-**100→105**, military **23→34** (33 positive histories and one explicit negative),
-and incumbency **439→446**. Seven retained FEC controls are qualified with new
-literal identity bridges; only PA14 gains complete outcome controls. Three
-Democratic incumbency holds remain. No new trait contrast becomes estimable.
-Four scoped office negatives and one military negative do not meet the unchanged
-category support requirements.
+Democratic analytical education coverage rises **211 to 217**, military
+**34 to 37** (36 positive histories and one explicit negative), and incumbency
+**446 to 449**. All three Democratic incumbency holds are resolved with
+qualified person bridges; only SC02 adds a complete-control eligible contest.
+No new trait contrast becomes estimable. Scoped office negatives, missing
+government-employment negatives and one military negative do not meet the
+unchanged comparison definitions and category support requirements.
 
-Religion's full-fit prediction defect is corrected from **121/123 to 122/123**;
-IA03 remains explicitly unsupported. The historical Latino association remains
+Religion retains **122/123** full-fit predictions;
+IA03 remains explicitly unsupported by its held-out training population.
+The historical Latino association remains
 restricted to 89 candidates in 27 states, **83 incumbents and six nonincumbents**,
 not all nominees. Joint D/R incumbency, historical donor ideology and that
 restricted Latino block clear Holm correction; no matched predictive-gain
 interval excludes zero. These are observational associations, not causal
 candidate-replacement effects.
 
-See the [V8 acquisition log and reproduction commands](docs/HOUSE_CHARACTERISTICS_V8_ACQUISITION.md),
-[current remaining-work queues](results/house-characteristics-v8/remaining-candidate-trait-queue.csv)
+See the [V9 acquisition log and reproduction commands](docs/HOUSE_CHARACTERISTICS_V9_ACQUISITION.md),
+[current remaining-work queues](results/house-characteristics-v9/remaining-candidate-trait-queue.csv)
 and [complete-download instructions](docs/DOWNLOADS.md). Complete ZIPs are now
 GitHub release assets because the full historical research no longer fits
 GitHub's single-Git-blob limit. No evidence is dropped; hashes and asset locations
 are tracked in `downloads/`. **No website deployment.**
+
+V9-V15 denote the requested substantive workstreams, not seven artificial
+releases. The supported continuation is integrated in V9; unknown facts,
+source holds and unsupported comparisons are not represented as universal
+coverage. The acquisition report names remaining evidence and methodological
+prerequisites.
+
+### Frozen V8 acquisition checkpoint
+
+V8 registered 325 claims and 65 first-evidence fields across 43 candidates,
+including 16 fields across 14 known V7 Democratic nonincumbents. Its immutable
+report, outputs, validation and download receipts remain under the V8 paths.
+The continuation does not recount those acquisitions as new work.
 
 ### Frozen V7 acquisition checkpoint
 

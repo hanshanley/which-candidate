@@ -221,7 +221,9 @@ def test_incremental_research_preserves_every_historical_collection_and_observat
             for r in csv.DictReader(stream)
             if not (
                 isinstance(evidence := json.loads(r["evidence"]), dict)
-                and evidence.get("id", "").startswith(("v3-", "v4-", "v5-", "v6-", "v7-", "v8-"))
+                and evidence.get("id", "").startswith(
+                    ("v3-", "v4-", "v5-", "v6-", "v7-", "v8-", "v9-")
+                )
             )
         ]
     new = Counter(baseline["new_observation_row_sha256"])

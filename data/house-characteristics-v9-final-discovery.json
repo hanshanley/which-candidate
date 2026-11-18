@@ -1,0 +1,30 @@
+{
+  "schema": "which_candidate.characteristics_v9_final_discovery.v1",
+  "purpose": "Follow-up leads checked after the 46-request acquisition journal; no new claims or downloaded originals.",
+  "queries": [
+    {
+      "query": "\"Jen Mazzuckelli\" \"jenfor\"",
+      "outcome": "No acquired primary-source bridge resolving the retained homepage/native-name hold."
+    },
+    {
+      "query": "\"April A. Verlato\" \"Congress\" 2026",
+      "outcome": "Secondary profile and previously acquired certified list rediscovered; secondary snippets were not registered as evidence."
+    },
+    {
+      "query": "\"Chuong V. Vo\" \"Congress\" 2026",
+      "outcome": "No acquired primary-source bridge resolving the retained printed-name hold."
+    }
+  ],
+  "public_page_attempts": [
+    {
+      "url": "https://verlatoforcongress.com",
+      "method": "web.open",
+      "network_attempts": 1,
+      "status": "unavailable_not_evidence",
+      "error": "The public page tool returned no usable page content; an HTTP status was not retained.",
+      "action": "No retry, alternate retrieval tool or access bypass."
+    }
+  ],
+  "new_observations": 0,
+  "newly_qualified_fields": 0
+}

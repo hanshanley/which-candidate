@@ -508,3 +508,17 @@ def test_california_parser_preserves_office_labels_and_districts(monkeypatch):
     )
     with pytest.raises(ValueError, match="Incomplete"):
         california_rows("fixture")
+
+
+def test_report_commands_preserve_lines_and_escape_html():
+    from which_candidate.characteristics_v9_publication import article
+
+    rendered = article(
+        "## Rebuild\n\n```bash\npython -m example \\\n  --name '<unsafe>'\n```\n\nDone."
+    )
+    assert "<h2>Rebuild</h2>" in rendered
+    assert (
+        "<pre><code>python -m example \\\n  --name &#x27;&lt;unsafe&gt;&#x27;</code></pre>"
+        in rendered
+    )
+    assert "<p>Done.</p>" in rendered

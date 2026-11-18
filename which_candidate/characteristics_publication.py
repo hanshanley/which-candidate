@@ -598,6 +598,10 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
             for v in sorted(values)
         )
 
+    render_article = article
+    if version == "house-characteristics-v9":
+        from .characteristics_v9_publication import article as render_article
+
     content = (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -607,7 +611,7 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
         '<a href="../../results/house-characteristics-v1/candidate-traits.csv">Complete trait CSV</a>'
         '<a href="../../results/house-characteristics-v1/candidate-traits.jsonl.gz">Complete JSONL</a>'
         "</nav><h1>The full candidate-characteristics question</h1>"
-        + article(markdown)
+        + render_article(markdown)
         + figures
         + '<section id="browser"><h2>Explore all 1,284 candidate records</h2>'
         "<p>Every trait is separate. Expand a cell for its qualification and source links. "
@@ -645,6 +649,10 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
             )
             + '<a href="../report.html">',
             1,
+        )
+    if version == "house-characteristics-v9":
+        content = content.replace(
+            "</style>", "pre{white-space:pre-wrap;overflow-wrap:anywhere}</style>", 1
         )
     (output / "report.html").write_text(content)
     write_csv(output / "trait-coverage.csv", [r for r in coverage if r["cohort"] == "democrats"])

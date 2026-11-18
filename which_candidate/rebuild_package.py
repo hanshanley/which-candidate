@@ -266,6 +266,7 @@ def build(root=ROOT, output=None):
             if (root / "audits/house-characteristics-v8-validation.json").exists()
             else ()
         ),
+        *(("audits/house-characteristics-v8-release.json",) if has_v9 else ()),
         *(
             ("audits/house-characteristics-v9-validation.json",)
             if (root / "audits/house-characteristics-v9-validation.json").exists()
