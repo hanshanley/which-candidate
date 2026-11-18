@@ -19,19 +19,19 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 219910,Angélica María Dueñas,CA,29,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",7,"[""https://www.angelica4congress.com""]"
 219871,Connie Chan,CA,11,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",2,"[""https://conniechansf.com""]"
 219956,Eric Jones,CA,04,Democratic,nonincumbent,in_progress,[],3,[]
-219929,Hilda Solis,CA,38,Democratic,nonincumbent,not_yet_researched,[],0,[]
-219903,Jacqui Irwin,CA,26,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://jacquiirwin.com""]"
+219929,Hilda Solis,CA,38,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,[]
+219903,Jacqui Irwin,CA,26,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",4,"[""https://jacquiirwin.com""]"
 219874,Jamie Joyce,CA,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography""]",7,[]
 219967,Mai Vang,CA,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""official_biography""]",3,"[""https://www.maiforus.com""]"
-219951,Marni von Wilpert,CA,48,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography"", ""university_employer_professional""]",2,"[""https://marnivonwilpert.com""]"
-219877,Melissa Hernandez,CA,14,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""official_biography""]",2,"[""https://melissahernandez2026.com/""]"
+219951,Marni von Wilpert,CA,48,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""official_biography"", ""university_employer_professional""]",5,"[""https://marnivonwilpert.com""]"
+219877,Melissa Hernandez,CA,14,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,"[""https://melissahernandez2026.com/""]"
 219963,Michael Masuda,CA,05,Democratic,nonincumbent,in_progress,[],3,"[""https://www.votemasuda.com""]"
-219889,Mike McGuire,CA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://www.votemikemcguire.com/""]"
+219889,Mike McGuire,CA,01,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",3,"[""http://www.votemikemcguire.com/""]"
 219895,Randy Villegas,CA,22,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://villegasforcongress.com""]"
-219965,Richard Pan,CA,06,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography"", ""university_employer_professional""]",2,"[""https://drpanforcongress.com/""]"
+219965,Richard Pan,CA,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography"", ""university_employer_professional""]",4,"[""https://drpanforcongress.com/""]"
 219928,Samantha Mota,CA,37,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",2,"[""https://motaforcongress.com""]"
 219891,Sandra Van Scotter,CA,20,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://sandravanscotterforcongress.com/""]"
-219872,Scott Wiener,CA,11,Democratic,nonincumbent,in_progress,"[""local_profile""]",1,[]
+219872,Scott Wiener,CA,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""local_profile""]",3,[]
 219898,Tessa Lynn Hodge,CA,23,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,[]
 219981,Dwayne L. Romero,CO,03,Democratic,nonincumbent,in_progress,[],4,"[""https://romeroforcolorado.com/""]"
 219986,Eileen Laubacher,CO,04,Democratic,nonincumbent,in_progress,[],2,"[""https://www.eileenforcolorado.com""]"
@@ -77,13 +77,13 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220351,Sarah Trone Garriott,IA,03,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,"[""https://sarahforiowa.com""]"
 220242,Ellie Gilbreath,ID,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,[]
 220238,Kaylee Peterson,ID,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",1,"[""https://kayleeforcongress.com""]"
-220281,Daniel K. Biss,IL,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography""]",3,"[""https://www.danielbiss.com""]"
-220265,Donna Miller,IL,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://donnaforcongress.com""]"
+220281,Daniel K. Biss,IL,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""official_biography"", ""university_employer_professional""]",8,"[""https://www.danielbiss.com""]"
+220265,Donna Miller,IL,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,"[""https://donnaforcongress.com""]"
 220293,Jennifer Todd,IL,15,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,"[""https://jentodd2026.us""]"
 220287,Julie Fortier,IL,12,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""https://juliefortier.org""]"
 220277,La Shawn Ford,IL,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",3,[]
 220279,Melissa Bean,IL,08,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
-220269,Patty Garcia,IL,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://pattyforillinois.com""]"
+220269,Patty Garcia,IL,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://pattyforillinois.com""]"
 220295,Paul Nolley,IL,16,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://nolleyforcongress.com""]"
 220331,Brad Meyer,IN,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",4,"[""https://bradmeyer.org""]"
 220324,Cinde Wirth,IN,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",2,[]
@@ -91,7 +91,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220322,J. D. Ford,IN,05,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
 220315,Jamee Decio,IN,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",9,[]
 220318,Kelly Thompson,IN,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",1,"[""https://kellythompsonforcongress.com""]"
-220329,Mary Allen,IN,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.maryallenforcongress.com""]"
+220329,Mary Allen,IN,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,"[""https://www.maryallenforcongress.com""]"
 220372,Don Coover,KS,02,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://doncooverforcongress.com/""]"
 220378,Katy Tyndell,KS,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://katyforkansas.com/""]"
 220369,Lauren Reinhold,KS,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,"[""https://www.laurenforkansas.com""]"
@@ -112,24 +112,24 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220448,"Patricia ""Pat"" Moore",LA,05,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile""]",3,"[""https://patmooreforcongress.com""]"
 220454,"Patrick ""Pat"" Forbes",LA,06,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://patforbes.com""]"
 220432,Priscilla Gonzalez,LA,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",6,[]
-220751,Dan Koh,MA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kohforcongress.com/""]"
+220751,Dan Koh,MA,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""university_employer_professional""]",5,"[""https://www.kohforcongress.com/""]"
 220484,Adrian Boafo,MD,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://www.adrianboafo.com/""]"
 220475,Dan Schwartz,MD,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,"[""https://schwartzforcongress.com""]"
 220468,Matthew Dunlap,ME,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://www.mattdunlapforuscongress.com""]"
-220509,Benjamin Ambrose,MI,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.ambrose4congress.com""]"
-220502,Callie Barr,MI,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://callieforcongress.com""]"
-220519,Christian Vukasovich,MI,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://christian4michigan.com""]"
-220544,Christina Hines,MI,10,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220559,Donavan McKinney,MI,13,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.donavanforcongress.com""]"
-220549,Jeremy Moss,MI,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://votejeremymoss.com""]"
-220538,Ray Pooley,MI,09,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220516,Sean McCann,MI,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.seanmccannforcongress.com""]"
-220530,William Lawrence,MI,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://wewill2026.com""]"
-220613,Doug Chapin,MN,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://chapinforcongress.com""]"
-220616,Erik Osberg,MN,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://erikosberg4congress.com""]"
+220509,Benjamin Ambrose,MI,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://www.ambrose4congress.com""]"
+220502,Callie Barr,MI,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",6,"[""https://callieforcongress.com""]"
+220519,Christian Vukasovich,MI,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""university_employer_professional""]",3,"[""https://christian4michigan.com""]"
+220544,Christina Hines,MI,10,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography"", ""university_employer_professional""]",4,[]
+220559,Donavan McKinney,MI,13,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",3,"[""https://www.donavanforcongress.com""]"
+220549,Jeremy Moss,MI,11,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""official_biography""]",3,"[""https://votejeremymoss.com""]"
+220538,Ray Pooley,MI,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",3,[]
+220516,Sean McCann,MI,04,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",3,"[""https://www.seanmccannforcongress.com""]"
+220530,William Lawrence,MI,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,"[""https://wewill2026.com""]"
+220613,Doug Chapin,MN,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",4,"[""http://chapinforcongress.com""]"
+220616,Erik Osberg,MN,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",3,"[""https://erikosberg4congress.com""]"
 220596,Jake Johnson,MN,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,[]
-220599,Matt Little,MN,02,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220619,Trina Swanson,MN,08,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220599,Matt Little,MN,02,Democratic,nonincumbent,in_progress,"[""official_biography""]",1,[]
+220619,Trina Swanson,MN,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,[]
 220649,Bethany Mann,MO,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.bethanymannforcongress.com""]"
 220664,Christopher Reichard,MO,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,[]
 220646,Fred Wellman,MO,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://www.wellmanformo.com/""]"

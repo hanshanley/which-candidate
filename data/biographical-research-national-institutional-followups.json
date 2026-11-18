@@ -1,0 +1,280 @@
+{
+  "scope": "Continue the five open national person-level passes with selected underlying questionnaires, own interviews, institutional histories and earlier official biographies. Source-specific nonresponse and access failures are not trait negatives or exhausted research. No completed pass, frozen scientific change or analytical promotion is claimed.",
+  "documents": [
+    {
+      "id": "219877-own-east-bay-women-questionnaire-2020",
+      "candidate_id": "219877", "name": "Melissa Hernandez", "state": "CA", "district": "14", "party": "Democratic", "contest_id": "2026:house:CA:14:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://d3n8a8pro7vhmx.cloudfront.net/eastbaywpc/pages/1124/attachments/original/1600319329/Melissa_Hernandez.pdf?1600319329=",
+      "source_title": "East Bay Women's Political Alliance: Hernandez's complete three-page mayoral questionnaire",
+      "publication_date": null, "source_date_note": "Earlier mayoral questionnaire references COVID-19 and the 2020 campaign. URL timestamp is not treated as a verified submission day.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "new_original_acquired",
+      "retained_cache_path": "artifacts/biographical-research/hernandez-east-bay-women-political-alliance-2020.pdf",
+      "retained_sha256": "4e1c59de3727188ef349ec3c3d033361672ea6f135ee6f4b29e9fca759b3b024",
+      "identity_status": "verified", "identity_qualification": "Named Democratic Dublin mayoral candidate, prior council/vice-mayor roles, former melissaformayor.com domain and Alameda County Supervisor Scott Haggerty staff role match the native CA14 campaign and independently read 2020 public-agency biography.",
+      "identity_fragments": ["Melissa Hernandez"],
+      "source_excerpts": ["Melissa Hernandez", "first Latina women", "small business manager", "dental and health sector", "assistant to District 1 Supervisor", "Scott Haggerty", "Dublin Councilmember", "Vice Mayor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_explicit_woman_description_not_pronoun_inference", "factual_reference_date": "2020 mayoral campaign", "value": "Own closing response explicitly describes herself as a Latina woman. Retain the source's grammatical wording; the pronoun field alone is not the basis.", "source_fragment": "first Latina women"},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "own_explicit_latina_description_separate_from_race", "factual_reference_date": "2020 mayoral campaign", "value": "Own Latina description corroborates later campaign identification. Parents' identity alone is not substituted for hers; no separate race is assigned.", "source_fragment": "first Latina women"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_private_business_and_county_staff_roles", "factual_reference_date": "Two decades of dental/health management and current county role as reported in 2020", "value": "Reports dental/health-sector small-business management and work as Supervisor Scott Haggerty's assistant for health and human services.", "source_fragment": "small business manager", "supporting_fragments": ["dental and health sector", "assistant to District 1 Supervisor", "Scott Haggerty"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_county_staff_work_corroborating_independent_explicit_day_job", "factual_reference_date": "2020 county role, not later employment with Supervisor Haubert", "value": "County-supervisor staff position corroborates the independently documented day job. Advisory memberships and campaign volunteering are not the employment evidence.", "source_fragment": "assistant to District 1 Supervisor", "supporting_fragments": ["Scott Haggerty"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_prior_dublin_council_and_vice_mayoral_roles", "factual_reference_date": "Dublin council service before the 2020 mayoral election", "value": "Identifies council and former vice-mayoral service. This does not turn later BART appointment into an elected office.", "source_fragment": "Dublin Councilmember", "supporting_fragments": ["Vice Mayor"]}
+      ],
+      "extraction_review": "Read all three pages. Policy answers about religion, race and military-adjacent issues are not personal affiliation or service. Children's ages are not her age; school class-representative volunteering is not her own high-school attendance or employment. No education, faith, military or nonservice claim is supplied by omission."
+    },
+    {
+      "id": "219872-cbs-own-dated-jewish-man-interview",
+      "candidate_id": "219872", "name": "Scott Wiener", "state": "CA", "district": "11", "party": "Democratic", "contest_id": "2026:house:CA:11:general:source_general",
+      "family": "local_profile", "url": "https://www.cbsnews.com/sanfrancisco/news/state-sen-scott-wiener-sounds-alarm-homophobia-antisemitism/",
+      "source_title": "CBS San Francisco: Wiener's own dated identity statements",
+      "publication_date": "2022-11-21", "source_date_note": "Original displays Updated on November 21, 2022 at 5:50 PM PST; exact first-publication time is not separately established.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named San Francisco California state senator, matching the native CA11 candidate and separately read Blade interview. Congregation Emanu-El executive director David Goldman is a different speaker.",
+      "identity_fragments": ["Scott Wiener"],
+      "source_excerpts": ["Scott Wiener", "As a gay Jewish man", "I'm proud to be Jewish."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_explicit_man_description_in_dated_interview", "factual_reference_date": "November 21, 2022 interview/update", "value": "Own explicit man description corroborates the earlier accepted interview. No inference from pronouns or photographs.", "source_fragment": "As a gay Jewish man"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "own_explicit_dated_jewish_identification_not_assumed_denominational_membership", "factual_reference_date": "November 21, 2022 interview/update", "value": "Own proud Jewish identification. The separate temple representative's workplace does not establish Wiener's congregation, denomination, practice or a new 2026 affiliation date.", "source_fragment": "I'm proud to be Jewish."}
+      ],
+      "extraction_review": "Read complete original article through its final own quotation and footer. Other people's temple roles and community classifications are not transferred. This is supplementary explicit own evidence, not another first-evidence field."
+    },
+    {
+      "id": "219965-uc-davis-own-summit-biography",
+      "candidate_id": "219965", "name": "Richard Pan", "state": "CA", "district": "06", "party": "Democratic", "contest_id": "2026:house:CA:06:general:source_general",
+      "family": "university_employer_professional", "url": "https://health.ucdavis.edu/chpr/education/science-for-health-policy-summit",
+      "source_title": "UC Davis Science for Health Policy Summit: named Pan speaker biography",
+      "publication_date": null, "source_date_note": "Event explicitly dated October 29, 2025; present page also links a later report. Event date is not automatically the original page-publication day.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact named physician and former California legislator, UC Davis pediatric residency leadership, Assembly 2010 and Senate 2014-2022 match the native campaign. Adjacent biographies belong to other speakers.",
+      "identity_fragments": ["Richard Pan"],
+      "source_excerpts": ["Richard Pan", "Senior Lecturer", "UC Davis", "Pediatric Residency Program director", "vice chair of Education", "State Assembly beginning in 2010", "2014-2022"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "institution_explicit_current_lecturer_and_historical_pediatric_education_leadership", "factual_reference_date": "October 29, 2025 summit context; earlier pediatric education roles", "value": "Institution identifies senior lectureship in public health and former pediatric residency directorship/education vice-chair. Preserve historical versus current positions.", "source_fragment": "Senior Lecturer", "supporting_fragments": ["UC Davis", "Pediatric Residency Program director", "vice chair of Education"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "confirmed_public_university_appointments_without_resolved_paid_employment_terms", "factual_reference_date": "Summit 2025 role and earlier program leadership; payroll terms unspecified", "value": "Institution corroborates public-university appointments, but does not state their compensation or historical employment terms. Do not silently relax the paid-government qualification.", "source_fragment": "Senior Lecturer", "supporting_fragments": ["UC Davis", "Pediatric Residency Program director"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "institution_explicit_historical_assembly_and_senate_years", "factual_reference_date": "Assembly beginning 2010; Senate 2014-2022", "value": "Confirms Assembly and Senate history; corrects the community archive's stale present-tense Assembly row without altering frozen controls.", "source_fragment": "State Assembly beginning in 2010", "supporting_fragments": ["2014-2022"]}
+      ],
+      "extraction_review": "Read the entire named Pan biography and event context, not all other speakers' biographies or the linked report. Postnominal degrees repeat already established credentials. No neighboring speaker's employment dates, race, religion or personal facts are transferred."
+    },
+    {
+      "id": "219951-epi-former-employer-complete-biography",
+      "candidate_id": "219951", "name": "Marni von Wilpert", "state": "CA", "district": "48", "party": "Democratic", "contest_id": "2026:house:CA:48:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.epi.org/people/marni-von-wilpert/",
+      "source_title": "Economic Policy Institute former employee biography and dated legal employment",
+      "publication_date": null, "source_date_note": "Undated retained former-employee profile explicitly places EPI arrival in 2017 and departure in 2018. Publication-list dates are not biography-publication dates.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full name, Fordham/Berkeley degrees, Mississippi legal partnership, federal legal service and EPI career match the native campaign and the official archival biography.",
+      "identity_fragments": ["Marni von Wilpert"],
+      "source_excerpts": ["Marni von Wilpert", "associate labor counsel", "National Labor Relations Board", "2014–2017", "law clerk", "2013–2014", "J.D.", "Fordham", "B.A.", "Berkeley", "House of Representatives"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "former_employer_named_jd_and_ba_credentials", "factual_reference_date": "Degrees before federal legal career and 2017 EPI arrival", "value": "Completed Fordham law J.D. and UC Berkeley B.A.; named credentials are not mere attendance.", "source_fragment": "J.D.", "supporting_fragments": ["Fordham", "B.A.", "Berkeley"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "former_employer_dated_multiple_legal_jobs", "factual_reference_date": "Fellowship 2011-2013, judicial clerkship 2013-2014, NLRB 2014-2017 and EPI 2017-2018", "value": "Employer documents nonprofit counsel, federal clerkship, agency litigation and congressional detail. EPI's private nonprofit role is distinct from federal employment.", "source_fragment": "associate labor counsel", "supporting_fragments": ["law clerk", "National Labor Relations Board"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "employer_explicit_former_federal_agency_attorney_and_judicial_clerk_jobs", "factual_reference_date": "Federal clerkship 2013-2014 and NLRB attorney 2014-2017; detail during agency service", "value": "Named federal staff jobs establish government employment independently of elected office or unpaid advocacy. Congressional detail is not counted as another simultaneous career.", "source_fragment": "National Labor Relations Board", "supporting_fragments": ["2014–2017", "law clerk", "2013–2014", "House of Representatives"]}
+      ],
+      "extraction_review": "Read complete named biography and education section; appended publication index is not independent review of every linked article. Emerge's women-focused program is not substituted for direct own identity evidence. No military negative follows from civilian federal work."
+    },
+    {
+      "id": "219951-mdah-donor-archival-biography",
+      "candidate_id": "219951", "name": "Marni von Wilpert", "state": "CA", "district": "48", "party": "Democratic", "contest_id": "2026:house:CA:48:general:source_general",
+      "family": "official_biography", "url": "https://finding.mdah.ms.gov/manuscripts/z2417000",
+      "source_title": "Mississippi Department of Archives and History: donor's named biographical history",
+      "publication_date": null, "source_date_note": "Finding aid processed in 2024; donor gift dated October 14, 2024. Neither is silently used as exact web-publication date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact donor name and San Diego origin, same Fordham/Berkeley credentials, Mississippi Center for Justice fellowship, federal attorney career and council history match native CA48 campaign.",
+      "identity_fragments": ["Marni von Wilpert"],
+      "source_excerpts": ["Marni von Wilpert", "Bachelor of Arts", "Juris Doctor", "Skadden Fellowship", "2011 until 2013", "Deputy City Attorney", "2018 to 2020", "city council", "March 5, 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_archivist_explicit_completed_berkeley_ba_and_fordham_jd", "factual_reference_date": "Degrees before fellowship beginning 2011", "value": "Archivist records completed Berkeley peace/conflict-studies bachelor's and Fordham J.D.; volunteer service between schools is not a degree.", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["Juris Doctor"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_archival_dated_nonprofit_and_public_legal_career", "factual_reference_date": "Fellowship 2011-2013; deputy city attorney 2018-2020", "value": "Documents fellowship-supported legal partnership and later city attorney job, corroborating the separate employer history.", "source_fragment": "Skadden Fellowship", "supporting_fragments": ["2011 until 2013", "Deputy City Attorney", "2018 to 2020"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_explicit_dated_deputy_city_attorney_job_not_advisory_membership", "factual_reference_date": "San Diego City Attorney's Office 2018-2020", "value": "Named municipal legal staff job corroborates other-government employment; nonprofit clinic collaboration with a public medical center alone does not.", "source_fragment": "Deputy City Attorney", "supporting_fragments": ["2018 to 2020"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_archival_council_election_and_2024_reelection", "factual_reference_date": "Council election 2020 and reelection March 5, 2024", "value": "Council election and reelection establish prior office. Exact December 2020 accession day differs between secondary records and remains unresolved, not necessary to establish service.", "source_fragment": "city council", "supporting_fragments": ["March 5, 2024"]}
+      ],
+      "extraction_review": "Read complete named biographical section, donor provenance, rights and collection context. Did not examine the underlying manuscripts or every linked item. Other people's or clients' racial, health, religious and gender descriptions are not the candidate's own traits. Manuscript-publication restrictions are preserved; no whole collection is redistributed."
+    },
+    {
+      "id": "219951-fordham-dated-earlier-election-clip",
+      "candidate_id": "219951", "name": "Marni von Wilpert", "state": "CA", "district": "48", "party": "Democratic", "contest_id": "2026:house:CA:48:general:source_general",
+      "family": "earlier_biography", "url": "https://now.fordham.edu/in-the-news/rams-in-the-news-february-7-2020/",
+      "source_title": "Fordham's dated February 2020 compilation: complete named local-election profile excerpt",
+      "publication_date": "2020-02-07", "source_date_note": "Compilation title dates February 7, 2020; named San Diego Tribune clip explicitly dates February 5, 2020. Age refers to the earlier clip.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full name, Scripps Ranch residence/upbringing, San Diego council candidacy, deputy city attorney and Berkeley/Fordham degrees match native CA48 candidate.",
+      "identity_fragments": ["Marni von Wilpert"],
+      "source_excerpts": ["Marni von Wilpert", "37", "deputy city attorney", "bachelor’s degree", "UC Berkeley", "juris doctorate", "Fordham Law School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_earlier_age_37_in_institutionally_reproduced_named_clip_not_birthday", "factual_reference_date": "San Diego Tribune February 5, 2020, reproduced February 7", "value": "Reported age 37 in the explicitly dated earlier local-election clip. Preserve historical age and attribution; do not manufacture a birth date or current age.", "source_fragment": "37"},
+        {"trait": "education", "factual_status": "qualified", "precision": "institutionally_reproduced_explicit_earned_bachelor_and_law_credentials", "factual_reference_date": "Completed degrees reported February 2020", "value": "Named clip reports earned Berkeley bachelor's and Fordham law doctorate, corroborating the complete employer/archival biographies.", "source_fragment": "bachelor’s degree", "supporting_fragments": ["UC Berkeley", "juris doctorate", "Fordham Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_earlier_explicit_municipal_attorney_occupation", "factual_reference_date": "February 2020", "value": "Reports deputy city attorney occupation at the earlier city-council candidacy, not elected council service at that time.", "source_fragment": "deputy city attorney"}
+      ],
+      "extraction_review": "Read complete relevant named excerpt on the university original, not every unrelated person's clip or the linked newspaper original. Religious identities elsewhere on this multiperson page do not transfer. The earlier dated age is supplementary and partial."
+    },
+    {
+      "id": "220281-alpl-2015-official-oral-history-abstract",
+      "candidate_id": "220281", "name": "Daniel K. Biss", "state": "IL", "district": "09", "party": "Democratic", "contest_id": "2026:house:IL:09:general:source_general",
+      "family": "official_biography", "url": "https://presidentlincoln.illinois.gov/Resources/18d77672-f639-4f83-822a-efb36d0a9f51/Biss.pdf",
+      "source_title": "Abraham Lincoln Presidential Library: complete two-page Biss oral-history abstract",
+      "publication_date": null, "source_date_note": "Interview September 28, 2015; accession December 16, 2015. Neither necessarily identifies first web-publication date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "new_original_acquired",
+      "retained_cache_path": "artifacts/biographical-research/biss-illinois-oral-history-abstract.pdf",
+      "retained_sha256": "e3d02529d315792267f26da309982dd4afa14aeec9823cda9af9df4cd47b1605",
+      "identity_status": "verified", "identity_qualification": "Names Illinois senator Daniel Biss, interview ISC-A-L-2015-044, district 9, Harvard/MIT mathematician and prior state representative. These jointly match native Daniel K. Biss, not a name-only join.",
+      "identity_fragments": ["Daniel Biss"],
+      "source_excerpts": ["Daniel Biss", "August 1977", "BA", "Harvard", "1998", "PhD", "Massachusetts Institute of Technology", "2002", "taught mathematics", "2002 to 2008", "elected to the Illinois House", "2010"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "explicit_birth_month_and_year_without_birth_day", "factual_reference_date": "Birth August 1977, documented in 2015 interview abstract", "value": "Official abstract reports August 1977 birth. Preserve month/year rather than invent a day; the broad earlier almost-40 wording has a separate unresolved observation date.", "source_fragment": "August 1977"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_abstract_completed_named_degrees_and_award_years", "factual_reference_date": "Harvard mathematics B.A. 1998; MIT Ph.D. 2002", "value": "Reports completed Harvard bachelor's in 1998 and MIT doctorate in 2002, adding explicit award years to retained degree evidence.", "source_fragment": "BA", "supporting_fragments": ["Harvard", "1998", "PhD", "Massachusetts Institute of Technology", "2002"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_abstract_dated_private_university_teaching_career", "factual_reference_date": "University of Chicago teaching 2002-2008", "value": "Dates mathematics teaching at the private University of Chicago to 2002-2008. Parents' public-university jobs do not establish his government employment.", "source_fragment": "taught mathematics", "supporting_fragments": ["2002 to 2008"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_abstract_state_house_election_year", "factual_reference_date": "Illinois House election 2010, followed by Senate", "value": "Documents successful 2010 House election after unsuccessful 2008 campaign. An earlier loss is not evidence of no office anywhere.", "source_fragment": "elected to the Illinois House", "supporting_fragments": ["2010"]}
+      ],
+      "extraction_review": "Read both pages, including date/scope and explicit no-redeposit restriction. Whole original remains local and excluded from public additive download. The library disclaims factual accuracy of oral history; preserve attribution. No identity traits inferred from district demographics."
+    },
+    {
+      "id": "220281-alpl-2015-own-background-transcript",
+      "candidate_id": "220281", "name": "Daniel K. Biss", "state": "IL", "district": "09", "party": "Democratic", "contest_id": "2026:house:IL:09:general:source_general",
+      "family": "earlier_biography", "url": "https://presidentlincoln.illinois.gov/Resources/f5a597e8-6cc7-44c4-9eb8-c1a65ca1c159/download",
+      "source_title": "Biss's own background answers in 2015 official oral-history transcript",
+      "publication_date": null, "source_date_note": "Interview explicitly September 28, 2015; web upload date is not treated as interview date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "new_original_acquired",
+      "retained_cache_path": "artifacts/biographical-research/biss-illinois-oral-history-transcript.pdf",
+      "retained_sha256": "ca87b40f4ad577b8fbca87660f55c47ab4e0bf9c9cc986da7b0cad3095f3ddb4",
+      "identity_status": "verified", "identity_qualification": "Exact same ISC-A-L-2015-044 interview and senator named in title/caption, native campaign's mathematics career and House/Senate history; introductory transcription typo Daniel Bill is not used as identity evidence.",
+      "identity_fragments": ["Daniel Biss"],
+      "source_excerpts": ["Daniel Biss", "got my Ph.D.", "Massachusetts Institute of Technology", "mathematics faculty", "University of Chicago", "won in 2010", "January of 2011"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_mit_doctorate", "factual_reference_date": "Doctorate before University of Chicago faculty career, recounted September 2015", "value": "Own answer explicitly reports MIT Ph.D.; undergraduate-thesis work with an MIT adviser is not a separate MIT undergraduate credential.", "source_fragment": "got my Ph.D.", "supporting_fragments": ["Massachusetts Institute of Technology"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_private_university_mathematics_faculty_career", "factual_reference_date": "Pre-legislative academic career, recounted September 2015", "value": "Own background answer identifies University of Chicago mathematics faculty work. Private academic work is not government employment.", "source_fragment": "mathematics faculty", "supporting_fragments": ["University of Chicago"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_house_election_and_swearing_in_dates", "factual_reference_date": "Election 2010; swearing-in January 2011; Senate after one House term", "value": "Own account distinguishes election in 2010 from assumption of House office in January 2011.", "source_fragment": "won in 2010", "supporting_fragments": ["January of 2011"]}
+      ],
+      "extraction_review": "Read complete background sequence on pages 1-4; located background terms across all 21 pages but did not read every later pension-policy answer. No complete-transcript reading claimed. Parents' public employment and district percentages are explicitly about other subjects; political volunteering is not automatically paid work. Original no-redeposit restriction preserved."
+    },
+    {
+      "id": "220281-ilga-historical-house-official-biography",
+      "candidate_id": "220281", "name": "Daniel K. Biss", "state": "IL", "district": "09", "party": "Democratic", "contest_id": "2026:house:IL:09:general:source_general",
+      "family": "official_biography", "url": "https://www.ilga.gov/House/Members/Details/1778?GAID=11",
+      "source_title": "Illinois General Assembly: historical House member biography and governor-adviser lead",
+      "publication_date": null, "source_date_note": "Historical GAID=11 record and explicit House term 2011-January 2013; modern site's 104th-General-Assembly wrapper is not a new tenure date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names Daniel Biss, Evanston/Skokie district 17 representative, private-university mathematics career and exact Harvard/MIT degrees, bridging historical state district to native IL09 candidate.",
+      "identity_fragments": ["Daniel Biss"],
+      "source_excerpts": ["Daniel Biss", "Full time legislator", "math professor", "doctorate", "Massachusetts Institute of Technology", "undergraduate degree", "Harvard University", "policy advisor to Governor Quinn", "2011 - January 2013"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "historical_official_explicit_undergraduate_and_doctoral_credentials", "factual_reference_date": "Completed before House service 2011-2013", "value": "Official biography corroborates Harvard undergraduate degree and MIT doctorate.", "source_fragment": "undergraduate degree", "supporting_fragments": ["Harvard University", "doctorate", "Massachusetts Institute of Technology"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_official_private_academic_and_full_time_legislator_occupations", "factual_reference_date": "Former professor and full-time legislator during 2011-2013 term", "value": "Distinguishes former private-university mathematics professor from then-current full-time legislator.", "source_fragment": "math professor", "supporting_fragments": ["Full time legislator"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_governor_policy_adviser_without_resolved_paid_staff_terms", "factual_reference_date": "Governor Quinn advisory service before/as recounted in historical House biography", "value": "Explicit policy-adviser role is a concrete non-elected-government lead. Compensation, appointment terms and dates are not supplied; do not promote advice or volunteering to paid staff employment.", "source_fragment": "policy advisor to Governor Quinn"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_historical_state_house_term_not_current_wrapper", "factual_reference_date": "2011-January 2013", "value": "Explicit historical House term corroborates prior elected service; generic current-session wrapper is not evidence of serving in the 2025-2026 House.", "source_fragment": "2011 - January 2013"}
+      ],
+      "extraction_review": "Read complete named member biography and term details, not every bill in the appended legislative index. Wife's Peace Corps service and doctorate are not his. Volunteer teaching, advisory service and paid employment remain distinct."
+    },
+    {
+      "id": "220281-own-2026-suntimes-background-questionnaire",
+      "candidate_id": "220281", "name": "Daniel K. Biss", "state": "IL", "district": "09", "party": "Democratic", "contest_id": "2026:house:IL:09:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/daniel-biss-illinois-primary-9th-congressional-district",
+      "source_title": "Sun-Times/WBEZ 2026 candidate questionnaire: age, completed degrees and prior experience",
+      "publication_date": null, "source_date_note": "Identifies March 17, 2026 primary; exact publication/submission day not exposed by acquired reader.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names Evanston mayor Daniel Biss for Illinois congressional district 9, links exact native campaign domain, and lists same Harvard/MIT and state-legislative background.",
+      "identity_fragments": ["Daniel Biss"],
+      "source_excerpts": ["Daniel Biss", "48 years old", "Mayor of Evanston", "B.A.", "Harvard University", "1998", "M.A. and Ph.D.", "MIT", "2002", "Illinois State House", "Illinois State Senate"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_2026_primary_age_without_exact_submission_day", "factual_reference_date": "2026 primary questionnaire, before March 17; exact response day unspecified", "value": "Reports age 48 during the primary questionnaire. Do not treat this as age on November 3 or manufacture a birthday.", "source_fragment": "48 years old"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_named_mathematics_credentials_with_award_years", "factual_reference_date": "Harvard B.A. 1998 and MIT M.A./Ph.D. 2002 as reported", "value": "Own background explicitly adds MIT mathematics master's alongside doctorate, with reported award years. These are completed credentials rather than later overseas attendance.", "source_fragment": "M.A. and Ph.D.", "supporting_fragments": ["MIT", "2002", "B.A.", "Harvard University", "1998"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_current_mayoral_occupation_in_primary_questionnaire", "factual_reference_date": "2026 primary campaign", "value": "Lists Evanston mayor as occupation, not an additional non-elected-government job.", "source_fragment": "Mayor of Evanston"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_prior_state_legislative_experience", "factual_reference_date": "Illinois House/Senate before 2026 primary", "value": "Own previous-experience answer names both Illinois chambers.", "source_fragment": "Illinois State House", "supporting_fragments": ["Illinois State Senate"]}
+      ],
+      "extraction_review": "Read complete background header and all seven substantive answers through final pitch. Parents' migration, ancestors' persecution, immigration-policy views and military-alliance policy are not self-reported race, ethnicity or own military service."
+    },
+    {
+      "id": "220281-harvard-club-2022-alumni-event-biography",
+      "candidate_id": "220281", "name": "Daniel K. Biss", "state": "IL", "district": "09", "party": "Democratic", "contest_id": "2026:house:IL:09:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.harvardclubchicago.org/upcoming-events/daniel-biss",
+      "source_title": "Harvard Club of Chicago: complete November 2022 named alumni-event biography",
+      "publication_date": null, "source_date_note": "Event November 3, 2022; exact page publication date is not displayed.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names Mayor Daniel Biss, same Harvard/MIT credentials, Bloomington upbringing and Chicago mathematics career, with a contemporary campaign biography link. Not a name-only match.",
+      "identity_fragments": ["Daniel Biss"],
+      "source_excerpts": ["Daniel Biss", "age of 25", "mathematics faculty", "University of Chicago", "Bachelor’s degree", "Harvard University", "Ph.D. in mathematics", "Massachusetts Institute of Technology", "Mayor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "retrospective_event_anchored_age_at_faculty_arrival", "factual_reference_date": "Age 25 at historical University of Chicago faculty arrival, recounted for November 2022 event", "value": "Reports age 25 at faculty arrival, not age at the 2022 event. This supplements independently dated career chronology without inventing a birth day.", "source_fragment": "age of 25"},
+        {"trait": "education", "factual_status": "qualified", "precision": "alumni_organization_explicit_completed_harvard_bachelor_and_mit_doctorate", "factual_reference_date": "Completed before Chicago faculty appointment", "value": "Alumni organization explicitly describes completed Harvard bachelor's and MIT mathematics doctorate.", "source_fragment": "Bachelor’s degree", "supporting_fragments": ["Harvard University", "Ph.D. in mathematics", "Massachusetts Institute of Technology"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "alumni_organization_historical_private_university_faculty_role", "factual_reference_date": "Academic career before elected office, recounted 2022", "value": "Corroborates private University of Chicago mathematics-faculty employment; spouse's later academic job is separate.", "source_fragment": "mathematics faculty", "supporting_fragments": ["University of Chicago"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_alumni_event_identifies_current_evanston_mayor", "factual_reference_date": "November 3, 2022 event", "value": "Event identifies Biss as Evanston mayor, corroborating historical service rather than a new 2026 tenure claim.", "source_fragment": "Mayor"}
+      ],
+      "extraction_review": "Read complete event page through closing registration and neighboring-event links. Linked campaign profile is not separately downloaded or counted. No race/gender inferred from portrait, and age at faculty arrival is not silently assigned to event date."
+    },
+    {
+      "id": "219965-ballotpedia-biography-and-survey-nonresponse",
+      "candidate_id": "219965", "name": "Richard Pan", "state": "CA", "district": "06", "party": "Democratic", "contest_id": "2026:house:CA:06:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Richard_Pan",
+      "source_title": "Pan's named biography, historical roles and actual Candidate Connection nonresponse",
+      "publication_date": null, "source_date_note": "Current post-election page; historical facts are not automatically prediction-time available.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full name, CA06 campaign link to drpanforcongress.com, same California Senate/Assembly service and medical-academic career distinguish the retained candidate.",
+      "identity_fragments": ["Richard Pan"],
+      "source_excerpts": ["Richard Pan", "B.S.", "Johns Hopkins University", "M.A. in public health", "Harvard University", "MD", "University of Pittsburgh", "physician", "associate professor of pediatrics"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "named_secondary_biography_completed_credentials_with_source_label_preserved", "factual_reference_date": "Completed credentials before historical clinical/academic career; exact award years unspecified", "value": "Lists Hopkins B.S., Harvard public-health master's and Pittsburgh MD. Its master's label is M.A.; other sources use MPH. Preserve labels, do not manufacture a second master's.", "source_fragment": "B.S.", "supporting_fragments": ["Johns Hopkins University", "M.A. in public health", "Harvard University", "MD", "University of Pittsburgh"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_secondary_clinical_and_academic_occupations", "factual_reference_date": "Historical University of California Davis career, not newly dated employment", "value": "Describes physician and associate-professor work. Does not resolve compensation or appointment terms for government-employment qualification.", "source_fragment": "physician", "supporting_fragments": ["associate professor of pediatrics"]}
+      ],
+      "extraction_review": "Read full biography/header and actual survey-response sections: explicitly no completed 2026 or 2024 questionnaire. Search-page survey icons do not supply responses. Do not treat nonresponse as religion, military or no-office negatives. Appended election/committee history is not a new scientific control."
+    },
+    {
+      "id": "219872-ballotpedia-biography-and-survey-nonresponse",
+      "candidate_id": "219872", "name": "Scott Wiener", "state": "CA", "district": "11", "party": "Democratic", "contest_id": "2026:house:CA:11:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Scott_Wiener",
+      "source_title": "Wiener's named biography and actual historical questionnaire nonresponse",
+      "publication_date": null, "source_date_note": "Current page contains 2028 reelection material, not proof of pre-November-2026 availability.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact named CA11 nominee and historical SF supervisor/state senator, Duke/Harvard credentials and municipal legal career match accepted interview and native identity.",
+      "identity_fragments": ["Scott Wiener"],
+      "source_excerpts": ["Scott Wiener", "B.S.", "Duke University", "J.D.", "Harvard University", "clerk", "Supreme Court of New Jersey", "deputy city attorney", "San Francisco City Attorney's Office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "named_completed_duke_bachelor_and_harvard_law_degree", "factual_reference_date": "Before judicial and municipal legal career", "value": "Corroborates completed Duke B.S. and Harvard J.D.; no additional degree from research travel is inferred.", "source_fragment": "B.S.", "supporting_fragments": ["Duke University", "J.D.", "Harvard University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_judicial_clerk_and_municipal_attorney_jobs", "factual_reference_date": "Before state-Senate service; exact job dates unspecified here", "value": "Corroborates New Jersey judicial clerkship and San Francisco deputy city attorney work.", "source_fragment": "clerk", "supporting_fragments": ["Supreme Court of New Jersey", "deputy city attorney"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_municipal_legal_staff_job", "factual_reference_date": "City attorney employment preceding elected service; no new exact date", "value": "Named municipal legal staff job corroborates government employment independently of elected supervisor/senator office.", "source_fragment": "deputy city attorney", "supporting_fragments": ["San Francisco City Attorney's Office"]}
+      ],
+      "extraction_review": "Read full named biography/header and actual survey sections showing no 2026, 2024 or 2020 response. Current 2028 material and generic survey icons do not supply earlier responses. Did not treat policy quotations as service history or infer a military negative."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219877", "family": "ballotpedia_questionnaire", "query": "Follow selected East Bay Women's Political Alliance PDF and read all three pages", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://d3n8a8pro7vhmx.cloudfront.net/eastbaywpc/pages/1124/attachments/original/1600319329/Melissa_Hernandez.pdf?1600319329="]},
+    {"candidate_id": "219872", "family": "local_profile", "query": "Read complete selected CBS November 21, 2022 original interview and distinguish Wiener's statements from temple director's", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cbsnews.com/sanfrancisco/news/state-sen-scott-wiener-sounds-alarm-homophobia-antisemitism/"]},
+    {"candidate_id": "219965", "family": "university_employer_professional", "query": "Follow selected UC Davis summit original; read event dating and entire named Pan biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://health.ucdavis.edu/chpr/education/science-for-health-policy-summit"]},
+    {"candidate_id": "219951", "family": "university_employer_professional", "query": "\"Marni von Wilpert\" biography Fordham Berkeley born", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.epi.org/people/marni-von-wilpert/", "https://finding.mdah.ms.gov/manuscripts/z2417000", "https://now.fordham.edu/in-the-news/rams-in-the-news-february-7-2020/"], "qualification": "Selected former-employer, official archival and dated university clip originals; unselected search results are not claimed reviewed or exhausted."},
+    {"candidate_id": "219951", "family": "official_biography", "query": "Follow valid city staff parent rather than repeat failed biography path; inspect candidate's named entry", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.sandiego.gov/citycouncil/cd5/staff"], "lead_dispositions": {"https://www.sandiego.gov/citycouncil/cd5/staff": {"status": "reviewed_no_requested_facts", "reason": "Named entry confirms council role and own listed pronouns but has no substantive biography or new missing-trait evidence. Pronouns and other staff members' roles are not substituted for requested traits."}}},
+    {"candidate_id": "219951", "family": "official_biography", "query": "Read donor provenance, rights and complete MDAH named biographical section, not underlying manuscripts", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://finding.mdah.ms.gov/manuscripts/z2417000"]},
+    {"candidate_id": "219951", "family": "earlier_biography", "query": "Read complete named February 5, 2020 local-election clip on Fordham February 7 compilation original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://now.fordham.edu/in-the-news/rams-in-the-news-february-7-2020/"]},
+    {"candidate_id": "220281", "family": "official_biography", "query": "\"Daniel Biss\" biography Evanston born military", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ilga.gov/House/Members/Details/1778?GAID=11", "https://presidentlincoln.illinois.gov/Resources/18d77672-f639-4f83-822a-efb36d0a9f51/Biss.pdf", "https://presidentlincoln.illinois.gov/Resources/f5a597e8-6cc7-44c4-9eb8-c1a65ca1c159/download"], "qualification": "Selected matching official member biography, oral-history abstract and transcript; other returned biographies are not claimed exhausted."},
+    {"candidate_id": "220281", "family": "ballotpedia_questionnaire", "query": "Follow newly discovered Sun-Times/WBEZ 2026 original and read all background fields and seven responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://chicago.suntimes.com/elections/2026/candidate-questionnaires/daniel-biss-illinois-primary-9th-congressional-district"]},
+    {"candidate_id": "220281", "family": "university_employer_professional", "query": "Read complete Harvard Club of Chicago November 2022 named alumni-event biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.harvardclubchicago.org/upcoming-events/daniel-biss"]},
+    {"candidate_id": "220281", "family": "university_employer_professional", "query": "\"Daniel Biss\" site:math.uchicago.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.math.uchicago.edu/~may/CV2025.pdf", "https://math.uchicago.edu/~farb/papers/kg.pdf", "https://math.uchicago.edu/~may/NSF/CV2010.pdf"], "qualification": "Single-query discovery from immediately preceding checkpoint; originals remain unread. Do not claim completion or new employment evidence from snippets."},
+    {"candidate_id": "219877", "family": "university_employer_professional", "query": "\"Melissa Hernandez\" site:csueastbay.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "qualification": "Single scoped query explicitly returned no results. Not an exhausted university/professional family; domain variants and dated institutional records remain actionable."},
+    {"candidate_id": "219965", "family": "ballotpedia_questionnaire", "query": "Read named Ballotpedia biography/header and actual 2026/2024 survey sections, not generic completion icons", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Richard_Pan"]},
+    {"candidate_id": "219872", "family": "ballotpedia_questionnaire", "query": "Read named Ballotpedia biography/header and actual 2026/2024/2020 questionnaire nonresponse sections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Scott_Wiener"]},
+    {"candidate_id": "219951", "family": "ballotpedia_questionnaire", "query": "Inspect named Ballotpedia page for actual biography and 2026/2024/2020 Candidate Connection responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Marni_von_Wilpert"], "lead_dispositions": {"https://ballotpedia.org/Marni_von_Wilpert": {"status": "reviewed_no_requested_facts", "reason": "No biography section and explicit noncompletion for 2026, 2024 and 2020. Existing council service repeats retained evidence; no new missing background facts. Exact December 2020 assumption day differs from archival record and is not forced."}}},
+    {"candidate_id": "219877", "family": "ballotpedia_questionnaire", "query": "Inspect named Ballotpedia header and actual 2026 regular/special, 2024 and 2020 questionnaire sections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Melissa_Hernandez"], "lead_dispositions": {"https://ballotpedia.org/Melissa_Hernandez": {"status": "reviewed_no_requested_facts", "reason": "Explicit noncompletion for all inspected campaigns. Header identifies initial BART appointment on May 23, 2024, not proof of election or a separate paid staff job. No new missing background trait accepted."}}},
+    {"candidate_id": "220281", "family": "ballotpedia_questionnaire", "query": "Attempt ordinary public Ballotpedia Daniel Biss original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Daniel_Biss"], "lead_dispositions": {"https://ballotpedia.org/Daniel_Biss": {"status": "access_failure", "reason": "Web reader returned internal error and inaccessible-page outcome. No snippet claim, repeated attempt or assertion of unavailable underlying facts."}}}
+  ],
+  "withheld_documents": [
+    {"id": "220281-ballotpedia-reader-inaccessible", "candidate_id": "220281", "url": "https://ballotpedia.org/Daniel_Biss", "status": "access_failure", "traits_pending_verification": ["gender", "race", "ethnicity", "other_government", "military"], "reason": "Ordinary public web reader returned internal error/inaccessible result; no source content or survey answers accepted. Independent official and original questionnaire research continued."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220281", "details": "Governor Quinn adviser appointment/employment terms and explicit own gender/race/ethnicity/service remain unresolved. Three discovered mathematics originals remain unread; prospective redundant citations are not first gains. Actual current local interview and service questionnaire discovery remain actionable."},
+    {"candidate_id": "219965", "details": "Public-university appointment compensation/employment terms, explicit own gender/race/faith and military evidence remain unresolved. UC Davis directories and linked 2026 summit report remain unread; no 2026/2024 Candidate Connection response on inspected page. Do not retry two previously blocked PDFs."},
+    {"candidate_id": "219872", "details": "CBS own dated identity lead now fully reviewed. Native campaign and official senator biography, institutional and earlier personal accounts, own race/ethnicity and military evidence remain actionable. Survey nonresponse does not establish any trait negative."},
+    {"candidate_id": "219951", "details": "Former-employer and official archival legal careers now reviewed. Dated age retained separately; exact December 2020 accession day varies in sources. Explicit own race/ethnicity/faith/military evidence and substantive earlier/local interviews remain actionable. Do not infer identity or service from clients, relatives, pronouns or Peace Corps."},
+    {"candidate_id": "219877", "details": "Selected 2020 questionnaire now fully reviewed and own Latina/woman description retained. More precise own age, faith/race/military evidence, local interviews and university/employer domain variants remain actionable. Single csueastbay.edu empty result is not an exhausted family."}
+  ]
+}

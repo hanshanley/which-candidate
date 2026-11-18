@@ -1,0 +1,266 @@
+{
+  "scope": "Continue the national person-level queue with five previously unresearched Democratic nonincumbents in Illinois, Indiana, Massachusetts and Michigan. Review all ten background traits together. These passes remain open; source classifications, own identity statements, historical ages, attendance and employment scopes remain separate. No scientific model is changed.",
+  "documents": [
+    {
+      "id": "220265-retained-complete-campaign-biography",
+      "candidate_id": "220265", "name": "Donna Miller", "state": "IL", "district": "02", "party": "Democratic", "contest_id": "2026:house:IL:02:general:source_general",
+      "family": "campaign", "url": "https://donnaforcongress.com/meet-donna", "source_title": "Donna Miller campaign: complete retained Meet Donna biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "Original retrieved November 17, 2026; first publication and pre-election availability are not established by retrieval.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220265-bio1/campaign-220265-bio1", "retained_sha256": "ab9ee9b93716b1e1a20795f44538976ead18d9bc543513bb451856cc8ceb2a47",
+      "identity_status": "verified", "identity_qualification": "Native IL02 campaign domain, exact name, Cook County commissioner role and south-suburban political history match the roster and separately read questionnaires.",
+      "identity_fragments": ["Donna Miller"],
+      "source_excerpts": ["Donna Miller", "Cook County Commissioner", "healthcare, training, and development", "an internship on Capitol Hill"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_county_commissioner_role_corroborated_by_dated_election_questionnaire", "factual_reference_date": "County service before the 2026 congressional election", "value": "Campaign identifies Cook County commissioner service, independently dated to 2018 in the contemporary questionnaire.", "source_fragment": "Cook County Commissioner"},
+        {"trait": "profession", "factual_status": "partial", "precision": "own_industry_experience_without_precise_private_job_title", "factual_reference_date": "Career described in undated retained 2026 campaign biography", "value": "Healthcare, training and development experience is retained without manufacturing a particular professional credential or employer.", "source_fragment": "healthcare, training, and development"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "own_capitol_hill_internship_without_compensation_or_dates", "factual_reference_date": "Undated earlier Capitol Hill internship", "value": "Congressional internship does not establish paid government employment. Public-health collaboration and nonprofit boards do not resolve its terms.", "source_fragment": "an internship on Capitol Hill"}
+      ],
+      "extraction_review": "Read all visible original text after verifying the retained hash. Her father's military career is not hers. Sorority membership, beneficiaries of her policies, relatives and named nonprofit boards do not supply her own race, religion, military service or paid public employment."
+    },
+    {
+      "id": "220269-retained-complete-campaign-biography",
+      "candidate_id": "220269", "name": "Patty Garcia", "state": "IL", "district": "04", "party": "Democratic", "contest_id": "2026:house:IL:04:general:source_general",
+      "family": "campaign", "url": "https://pattyforillinois.com/meet", "source_title": "Patty Garcia campaign: complete retained Meet Patty biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "November 17 retained page explicitly describes the post-election transition and a future January 3 accession. Do not treat it as a pre-election snapshot.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220269-bio1/campaign-220269-bio1", "retained_sha256": "b57af36d558081b73d1d099ddf18bbd9c41bd503387d2ed7c1115d784781d3f2",
+      "identity_status": "verified", "identity_qualification": "Native IL04 campaign domain, exact candidate name, district and Chuy Garcia chief-of-staff role match the roster; no familial relationship to the congressman is assumed.",
+      "identity_fragments": ["Patty"],
+      "source_excerpts": ["Patty", "PhD", "Education Policy", "University of Illinois Urbana-Champaign", "District Director and Chief of Staff", "Congresswoman-elect"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_doctoral_credential_not_attendance", "factual_reference_date": "Completed degree reported in November 2026 transition biography; award year unspecified", "value": "Reports an education-policy PhD at the University of Illinois Urbana-Champaign; no unreported award date is assigned.", "source_fragment": "PhD", "supporting_fragments": ["Education Policy", "University of Illinois Urbana-Champaign"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_congressional_staff_leadership_roles", "factual_reference_date": "More than seven years operating IL04 office before accession", "value": "Congressional district director and chief of staff; organizing and advocacy remain additional activities, not automatically separate paid jobs.", "source_fragment": "District Director and Chief of Staff"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_congressional_staff_jobs_not_elected_office", "factual_reference_date": "Congressman Chuy Garcia's district operation before January 2027", "value": "Named congressional staff jobs support other-government employment, not prior elected office or federal incumbency.", "source_fragment": "District Director and Chief of Staff"}
+      ],
+      "extraction_review": "Read complete retained visible original. Daughter of Mexican immigrants is not substituted for her own ethnic identification. Congresswoman-elect status is not earlier elected service. No explicit negative establishes lack of previous office, government work or military service."
+    },
+    {
+      "id": "220329-retained-complete-campaign-biography",
+      "candidate_id": "220329", "name": "Mary Allen", "state": "IN", "district": "08", "party": "Democratic", "contest_id": "2026:house:IN:08:general:source_general",
+      "family": "campaign", "url": "https://www.maryallenforcongress.com/meetmary", "source_title": "Mary Allen campaign: complete retained Meet Mary biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "Original retrieved November 17, 2026; historical business sale explicitly refers to November 2025.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220329-bio1/campaign-220329-bio1", "retained_sha256": "f739f2ad4c179b69ad6fcfe8a694ae92e844ded2ce5abf2bbc1faa39fa163697",
+      "identity_status": "verified", "identity_qualification": "Native IN08 campaign domain, exact name, Evansville council role, Sixth and Zero and property-business history match the independently read local profile.",
+      "identity_fragments": ["Mary"],
+      "source_excerpts": ["Mary", "At-Large City Councilor", "Sixth and Zero", "November of 2025", "Virginia Street Properties", "military training", "nonprofit urban ministry"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_evansville_at_large_council_and_vice_president_role", "factual_reference_date": "Council service during 2026 campaign", "value": "Reports at-large city council and vice-presidential service; public-board memberships are distinct appointments.", "source_fragment": "At-Large City Councilor"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_businesses_with_explicit_historical_sale_date", "factual_reference_date": "Sixth and Zero ownership through November 2025; property co-ownership reported in campaign", "value": "Former Sixth and Zero owner and property-business co-owner; preserve the sale rather than labeling all occupations current.", "source_fragment": "Sixth and Zero", "supporting_fragments": ["November of 2025", "Virginia Street Properties"]},
+        {"trait": "military", "factual_status": "partial", "precision": "own_military_training_reference_without_branch_or_service_dates", "factual_reference_date": "Earlier military training before return to Evansville; date unspecified", "value": "Training reference is corroborative, not independently a complete branch/service history. The dated local profile supplies explicit Army veteran evidence.", "source_fragment": "military training"}
+      ],
+      "extraction_review": "Read complete retained visible original. Time in nonprofit urban ministry does not establish current religious affiliation, compensation or government employment. Children's and grandchildren's counts do not establish her age. Board service does not become a paid staff job."
+    },
+    {
+      "id": "220751-retained-complete-campaign-biography",
+      "candidate_id": "220751", "name": "Dan Koh", "state": "MA", "district": "06", "party": "Democratic", "contest_id": "2026:house:MA:06:general:source_general",
+      "family": "campaign", "url": "https://www.kohforcongress.com/meet-dan", "source_title": "Dan Koh campaign: complete retained Meet Dan biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "November 17 retained page explicitly says congressman-elect; first publication and pre-election availability remain unverified.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220751-bio1/campaign-220751-bio1", "retained_sha256": "36069652fc074c0cf45f3ef0f22b025e614d406f8b1afc69e19a03b330a8c0c8",
+      "identity_status": "verified", "identity_qualification": "Native MA06 campaign, exact name, Andover upbringing and select board, Boston/Department of Labor chief-of-staff jobs and Harvard credentials match the earlier own interview and 2025 original.",
+      "identity_fragments": ["Dan Koh"],
+      "source_excerpts": ["Dan Koh", "Andover Select Board member", "Chief of Staff", "U.S. Department of Labor", "Chief Operating Officer of HqO", "B.A.", "M.B.A."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_harvard_college_and_business_school_credentials", "factual_reference_date": "Completed degrees before 2026 campaign; award years unspecified", "value": "Explicit Harvard College bachelor's and Harvard Business School MBA; no completion dates are manufactured.", "source_fragment": "B.A.", "supporting_fragments": ["M.B.A."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_private_executive_and_public_staff_roles", "factual_reference_date": "Historical HqO, Huffington Post, city, federal and media-platform work", "value": "Private operating executive and public chief of staff are distinct careers. Media-platform activity is not a federal staff appointment.", "source_fragment": "Chief Operating Officer of HqO", "supporting_fragments": ["Chief of Staff"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_select_board_service_separate_from_federal_staff_jobs", "factual_reference_date": "Andover board service before the 2026 congressional election", "value": "Reports Andover Select Board service; dated election history remains independently corroborated by the retained baseline.", "source_fragment": "Andover Select Board member"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_federal_and_municipal_staff_jobs", "factual_reference_date": "Biden administration Labor/White House service and earlier Boston chief-of-staff role", "value": "Named public staff jobs establish employment independently of local elected office, private employment or relatives' public careers.", "source_fragment": "Chief of Staff", "supporting_fragments": ["U.S. Department of Labor"]}
+      ],
+      "extraction_review": "Read complete retained visible original. His children's composite ancestry and ages are not his identity or age. Family origins alone do not supply his own self-description; the separately read 2018 interview does. No military negative follows from a civilian career."
+    },
+    {
+      "id": "220509-native-campaign-concrete-about-extraction",
+      "candidate_id": "220509", "name": "Benjamin Ambrose", "state": "MI", "district": "02", "party": "Democratic", "contest_id": "2026:house:MI:02:general:source_general",
+      "family": "campaign", "url": "https://www.ambrose4congress.com/about", "source_title": "Ben Ambrose campaign: complete About Ben page after concrete retained-shell extraction problem",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "Current original read November 18, 2026; date of initial posting and pre-election availability not established.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native Benjamin Ambrose campaign domain identifies Ben, the 2026 MI02 Democratic nominee, with Hesperia origin and Marine Corps/consulting career independently corroborated by the dated local original.",
+      "identity_fragments": ["Ben Ambrose"],
+      "source_excerpts": ["Ben Ambrose", "BA in International Affairs", "MBA", "attended Harvard University", "Master's in Anthropology", "Marine Corps", "Staff Sergeant", "federal innovation efforts"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_georgetown_ba_hopkins_mba_separate_from_harvard_attendance", "factual_reference_date": "Degrees and attendance before/current at undated 2026 biography; award years unspecified", "value": "Explicit Georgetown BA and Johns Hopkins MBA; Harvard anthropology is described as attendance for a master's, not proof of completion. Professional certificates are separate.", "source_fragment": "BA in International Affairs", "supporting_fragments": ["MBA", "attended Harvard University", "Master's in Anthropology"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_military_and_federal_innovation_work_without_forced_employment_relationship", "factual_reference_date": "Earlier Marine service and later federal innovation work", "value": "Marine infantry and later veterans/defense innovation work; contractor, employee and advisory relationships are not conflated.", "source_fragment": "Marine Corps", "supporting_fragments": ["federal innovation efforts"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_nearly_twenty_year_marine_infantry_service_and_retired_rank", "factual_reference_date": "Historical Marine Corps service before the 2026 candidacy; precise dates absent", "value": "Explicit nearly two decades of Marine infantry service and retirement as staff sergeant; no service dates are invented.", "source_fragment": "Marine Corps", "supporting_fragments": ["Staff Sergeant"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "own_federal_project_work_not_automatically_civilian_government_employment", "factual_reference_date": "Later VA/Defense projects; staff versus contractor terms unspecified", "value": "Federal innovation work does not by itself establish paid civilian government employment. Military service remains a separate claim.", "source_fragment": "federal innovation efforts"}
+      ],
+      "extraction_review": "Read entire substantive About page. The hash-verified retained home original had no visible body text under ordinary HTML extraction; that concrete shell problem justified following the native About page rather than repeating broad unchanged downloads. Enlistment at 18 has no calendar anchor and is not converted into a birth year. No race, religion, gender or no-office claim is inferred."
+    },
+    {
+      "id": "220265-cawp-illinois-primary-named-row",
+      "candidate_id": "220265", "name": "Donna Miller", "state": "IL", "district": "02", "party": "Democratic", "contest_id": "2026:house:IL:02:general:source_general",
+      "family": "university_employer_professional", "url": "https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois", "source_title": "CAWP Illinois primary results: named IL02 nominee classification",
+      "publication_date": "2026-03-18", "accessed_at": "2026-11-18", "source_date_note": "Page explicitly last updated March 27, 2026, 12:30 PM ET; source-defined primary nominee population, not inferred from present Senate/House membership.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic party, IL02 and open-seat congressional nominee match the native roster; not a name-only join.",
+      "identity_fragments": ["Donna Miller"],
+      "source_excerpts": ["Woman Nominee", "Donna Miller", "Black"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "cawp_documented_positive_black_classification_not_own_self_report", "factual_reference_date": "March 2026 congressional-primary nominee classification", "value": "CAWP classifies the named nominee Black.", "source_fragment": "Black"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "cawp_positive_named_woman_classification_not_pronoun_inference", "factual_reference_date": "March 2026 nominee classification", "value": "CAWP names her among women nominees.", "source_fragment": "Woman Nominee"}
+      ],
+      "source_credit": "Center for American Women and Politics, Eagleton Institute of Politics, Rutgers University. Results from the March 17th Primary in Illinois (2026), accessed November 18, 2026. Noncommercial information reproduction is encouraged with visible credit; no applicable table footnotes are omitted.",
+      "extraction_review": "Read the complete source, including named table, scope, update and reuse notice. Combined Race/Ethnicity header does not erase the racial versus ethnic distinction; no non-Hispanic value follows from Black. Other nominees' traits and source seat-status labels do not change frozen analytical controls."
+    },
+    {
+      "id": "220269-cawp-illinois-primary-named-row",
+      "candidate_id": "220269", "name": "Patty Garcia", "state": "IL", "district": "04", "party": "Democratic", "contest_id": "2026:house:IL:04:general:source_general",
+      "family": "university_employer_professional", "url": "https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois", "source_title": "CAWP Illinois primary results: named IL04 Democratic nominee classification",
+      "publication_date": "2026-03-18", "accessed_at": "2026-11-18", "source_date_note": "Last updated March 27, 2026, 12:30 PM ET; the distinct Republican nominee in the same district is not this person.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic party, IL04 and open-seat nominee match the native roster; distinct from Republican Lupe Castillo and retiring Congressman Chuy Garcia.",
+      "identity_fragments": ["Patty Garcia"],
+      "source_excerpts": ["Woman Nominee", "Patty Garcia", "Latina"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "cawp_documented_positive_latina_classification_not_parental_inference", "factual_reference_date": "March 2026 congressional-primary nominee classification", "value": "CAWP classifies the named nominee Latina.", "source_fragment": "Latina"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "cawp_positive_named_woman_classification", "factual_reference_date": "March 2026 nominee classification", "value": "CAWP names her among women nominees.", "source_fragment": "Woman Nominee"}
+      ],
+      "source_credit": "Center for American Women and Politics, Eagleton Institute of Politics, Rutgers University. Results from the March 17th Primary in Illinois (2026), accessed November 18, 2026. Noncommercial information reproduction is encouraged with visible credit; no applicable table footnotes are omitted.",
+      "extraction_review": "Same fully reviewed original, separately identified person and row. Latina is an ethnic classification, not a racial assignment. No additional nominee records are silently generated; existing acquisitions and frozen historical classifications remain preserved."
+    },
+    {
+      "id": "220329-dated-evansville-living-personal-profile",
+      "candidate_id": "220329", "name": "Mary Allen", "state": "IN", "district": "08", "party": "Democratic", "contest_id": "2026:house:IN:08:general:source_general",
+      "family": "local_profile", "url": "https://www.evansvilleliving.com/mary-allen-finds-strength-in-numbers/", "source_title": "Evansville Living: complete dated Strength in Numbers profile",
+      "publication_date": "2024-08-05", "accessed_at": "2026-11-18", "source_date_note": "Dated August 5, 2024; photograph caption refers to July 2024, not a verified interview day.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Evansville at-large council election, Sixth and Zero business and matching family/property context bridge to the native IN08 campaign.",
+      "identity_fragments": ["Mary Allen"],
+      "source_excerpts": ["Mary Allen", "Age: 49", "Occupational Therapy Training Program certification", "currently pursuing", "Bachelor of Professional Studies", "five-year U.S. Army veteran", "Sixth and Zero", "city councilwoman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_age_49_not_exact_birthday_or_single_election_age", "factual_reference_date": "Profile published August 5, 2024; interview date unspecified", "value": "Reports age 49 in the 2024 profile. Preserve the dated age and interview-date uncertainty rather than fabricating a birthday or precise November 2026 age.", "source_fragment": "Age: 49"},
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_occupational_therapy_certificate_and_separate_in_progress_bachelors", "factual_reference_date": "Credential and current study reported August 2024", "value": "Completed occupational-therapy training certification at the former Academy of Health Sciences; Southern Indiana bachelor's was still in progress, not an earned degree.", "source_fragment": "Occupational Therapy Training Program certification", "supporting_fragments": ["currently pursuing", "Bachelor of Professional Studies"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_business_ownership_not_current_after_later_sale", "factual_reference_date": "Sixth and Zero ownership August 2024", "value": "Business ownership corroborated historically; campaign reports the business was sold in November 2025.", "source_fragment": "Sixth and Zero"},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_army_veteran_and_five_year_duration_not_exact_service_dates", "factual_reference_date": "Earlier service reported in August 2024", "value": "Explicit five-year Army veteran classification corroborates own military-training history.", "source_fragment": "five-year U.S. Army veteran"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_profile_of_2023_at_large_council_election", "factual_reference_date": "November 2023 election and 2024 council service", "value": "Documents November 2023 at-large council election; elected council pay does not establish a separate civilian government staff job.", "source_fragment": "city councilwoman"}
+      ],
+      "extraction_review": "Read complete profile, not just the archive-index excerpt. Do not transfer other officials' education or ages. Her mother-in-law's former poll work is not hers; policy collaboration is not employment or religious affiliation."
+    },
+    {
+      "id": "220751-nextshark-own-2018-background-interview",
+      "candidate_id": "220751", "name": "Dan Koh", "state": "MA", "district": "06", "party": "Democratic", "contest_id": "2026:house:MA:06:general:source_general",
+      "family": "earlier_biography", "url": "https://nextshark.com/dan-koh-first-korean-american-democrat-congress", "source_title": "NextShark: complete 2018 own interview about racial and ethnic background",
+      "publication_date": "2018-02-26", "accessed_at": "2026-11-18", "source_date_note": "Earlier MA03 campaign, not an assertion that the 2026 campaign has the same district.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Boston Mayor Walsh/Huffington chief-of-staff career, Korean/Lebanese background, Andover history and 2018 candidacy match the separately read 2026 native biography and 2025 interview.",
+      "identity_fragments": ["Dan Koh"],
+      "source_excerpts": ["Dan Koh", "Korean and Lebanese kid", "as an Asian American", "Chief of Staff", "Ted Kennedy"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "own_explicit_multiple_korean_and_lebanese_self_description", "factual_reference_date": "Own interview published February 26, 2018", "value": "Explicitly describes himself as Korean and Lebanese in the response about his racial and ethnic background; not inferred solely from parents or surname.", "source_fragment": "Korean and Lebanese kid"},
+        {"trait": "race", "factual_status": "qualified", "precision": "own_explicit_asian_american_self_description", "factual_reference_date": "Own 2018 interview; not a newly observed 2026 affiliation", "value": "Explicit own Asian American description corroborates retained racial evidence; preserve the source's label and historical observation date.", "source_fragment": "as an Asian American"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "earlier_own_public_and_private_chief_of_staff_career", "factual_reference_date": "Career before the 2018 congressional campaign", "value": "Public municipal and private media chief-of-staff roles remain distinct. Earlier summer work for Senator Kennedy is not automatically paid employment.", "source_fragment": "Chief of Staff", "supporting_fragments": ["Ted Kennedy"]}
+      ],
+      "extraction_review": "Read the entire original interview and all answers. His age at an undated childhood meeting does not give a birth year. References to becoming a Congressman, relatives and photographs do not supply additional explicit gender, religion, military or prior-office negatives."
+    },
+    {
+      "id": "220751-yonhap-complete-dated-2025-interview",
+      "candidate_id": "220751", "name": "Dan Koh", "state": "MA", "district": "06", "party": "Democratic", "contest_id": "2026:house:MA:06:general:source_general",
+      "family": "local_profile", "url": "https://en.yna.co.kr/view/AEN20251205000200315", "source_title": "Yonhap: complete dated interview on Koh's MA06 candidacy and public career",
+      "publication_date": "2025-12-05", "accessed_at": "2026-11-18", "source_date_note": "December 5 publication; caption identifies December 3, 2025 interview in Washington.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic 2026 MA06 bid, 2018 candidacy and matching White House/Labor/Boston roles corroborate identity across changing districts.",
+      "identity_fragments": ["Dan Koh"],
+      "source_excerpts": ["Dan Koh", "40-year-old", "deputy Cabinet secretary", "deputy director for Intergovernmental Affairs", "chief of staff", "B.A.", "M.B.A."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_interview_age_40_corroboration_not_birthday", "factual_reference_date": "December 3 interview published December 5, 2025", "value": "Reported age 40 is retained as a dated observation, not a newly manufactured exact birth date.", "source_fragment": "40-year-old"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_original_named_federal_staff_career", "factual_reference_date": "Biden administration service before December 2025 interview", "value": "Documents federal Cabinet/intergovernmental leadership and Labor chief-of-staff work, independently corroborating the later campaign page.", "source_fragment": "deputy Cabinet secretary", "supporting_fragments": ["deputy director for Intergovernmental Affairs", "chief of staff"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_original_explicit_federal_staff_jobs_not_relatives_service", "factual_reference_date": "Labor chief-of-staff appointment in 2021 and later White House roles", "value": "His own named federal staff jobs establish employment; his father's and uncle's public careers are not the basis.", "source_fragment": "chief of staff", "supporting_fragments": ["deputy Cabinet secretary"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_original_explicit_harvard_college_ba_and_business_school_mba", "factual_reference_date": "Degrees held by December 2025", "value": "Reports completed Harvard bachelor's and MBA, distinct from his relatives' degrees.", "source_fragment": "B.A.", "supporting_fragments": ["M.B.A."]}
+      ],
+      "extraction_review": "Read complete interview. Relatives' and children's ancestry is not substituted for his own identification. No faith or military classification follows from foreign-policy views, family, public staff work or silence."
+    },
+    {
+      "id": "220265-wttw-complete-2026-primary-questionnaire",
+      "candidate_id": "220265", "name": "Donna Miller", "state": "IL", "district": "02", "party": "Democratic", "contest_id": "2026:house:IL:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://news.wttw.com/elections/voters-guide/2026-primary/donna-miller", "source_title": "WTTW: complete own 2026 congressional-primary questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "source_date_note": "Guide explicitly covers March 17, 2026 primary; undated page contains later navigation, so exact first-publication day is not invented.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Democratic IL02 candidate, native campaign link and Cook County District 6 commissioner history match the roster and earlier questionnaire.",
+      "identity_fragments": ["Donna Miller"],
+      "source_excerpts": ["Donna Miller", "Age:", "61", "Cook County Commissioner", "since 2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "2026_questionnaire_reported_age_without_explicit_as_of_day", "factual_reference_date": "Reported age in 2026 primary guide; birthday/as-of day unspecified", "value": "Lists age 61. Preserve the source's imprecise reference date rather than assigning a birthday or assuming the primary day is the age reference.", "source_fragment": "61", "supporting_fragments": ["Age:"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_commissioner_since_2018_and_2018_2022_elections", "factual_reference_date": "County commissioner since 2018, including 2022 election", "value": "Own dated commissioner service corroborates prior elected office; not federal incumbency.", "source_fragment": "Cook County Commissioner", "supporting_fragments": ["since 2018"]}
+      ],
+      "extraction_review": "Read entire questionnaire, including final foreign-policy, AI and party answers. Military relatives, veterans policy, religious bias examples and racial constituencies are not her personal service, religion or race."
+    },
+    {
+      "id": "220265-suntimes-complete-own-2018-questionnaire",
+      "candidate_id": "220265", "name": "Donna Miller", "state": "IL", "district": "02", "party": "Democratic", "contest_id": "2026:house:IL:02:general:source_general",
+      "family": "earlier_biography", "url": "https://chicago.suntimes.com/2018/10/4/18476801/cook-county-board-6th-district-democratic-candidate-donna-miller", "source_title": "Chicago Sun-Times: complete own earlier county-election questionnaire",
+      "publication_date": "2018-10-04", "accessed_at": "2026-11-18", "source_date_note": "Dated URL and 2018 guide context; introduction separately dates editorial-board appearance February 21, without transferring that day to publication.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic Cook County District 6 candidacy, healthcare career and GoDonnaGo earlier domain match the later county commissioner and native IL02 campaign.",
+      "identity_fragments": ["Donna Miller"],
+      "source_excerpts": ["Donna Miller", "Healthcare Consultant", "Bachelor of Business Administration", "Howard University (1987)", "Graduate Business Courses", "Pepperdine University (1992)"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_earlier_private_occupation_not_general_healthcare_advocacy", "factual_reference_date": "Occupation reported in 2018 county-election questionnaire", "value": "Explicit healthcare consultant occupation resolves the earlier campaign's nonspecific industry wording without inventing a clinical license.", "source_fragment": "Healthcare Consultant"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_howard_bba_1987_and_separate_pepperdine_graduate_coursework", "factual_reference_date": "Howard degree 1987; Pepperdine courses 1992, reported in 2018", "value": "Completed Howard business bachelor's; Pepperdine graduate business courses are not an MBA or another completed degree.", "source_fragment": "Bachelor of Business Administration", "supporting_fragments": ["Howard University (1987)", "Graduate Business Courses", "Pepperdine University (1992)"]}
+      ],
+      "extraction_review": "Read entire original, including final questions about pensions and relatives' county jobs. Christian Community Health Center board service is not personal Christian affiliation or a staff job. Relatives' judicial employment does not become hers; no military negative follows from omission."
+    },
+    {
+      "id": "220509-lowells-first-look-complete-personal-profile",
+      "candidate_id": "220509", "name": "Benjamin Ambrose", "state": "MI", "district": "02", "party": "Democratic", "contest_id": "2026:house:MI:02:general:source_general",
+      "family": "local_profile", "url": "https://lowellsfirstlook.com/candidate-profile-ben-ambrose-for-congress-2nd-district/", "source_title": "Lowell's First Look: complete dated Ben Ambrose candidate profile",
+      "publication_date": "2026-10-23", "accessed_at": "2026-11-18", "source_date_note": "Dated October 23, 2026; exact interview day unspecified. Photograph date is not automatically age reference day.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Ben/Benjamin alias verified by native campaign link, Democratic MI02 nomination, John Moolenaar opponent, Hesperia, Marine career and matching credentials.",
+      "identity_fragments": ["Ben Ambrose"],
+      "source_excerpts": ["Ben Ambrose", "45-year-old", "Marine Corps infantryman", "a master’s degree in anthropology", "Harvard University", "Senator Ron Wyden’s office", "government consulting"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_age_45_with_unspecified_interview_day_not_birthday", "factual_reference_date": "Profile published October 23, 2026", "value": "Reported age 45 before the general election; interview-date uncertainty precludes an exact birthday or guaranteed election-day age.", "source_fragment": "45-year-old"},
+        {"trait": "military", "factual_status": "qualified", "precision": "independent_named_marine_infantry_and_nearly_two_decades_service", "factual_reference_date": "Earlier Marine service reported October 2026", "value": "Corroborates Marine infantry service and deployments independently of campaign imagery or rank in photographs.", "source_fragment": "Marine Corps infantryman"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_explicit_government_consulting_work_not_automatic_civil_service", "factual_reference_date": "Later government consulting before 2026 election", "value": "Government consultant after military and graduate study; federal clients alone do not establish civil-service employment.", "source_fragment": "government consulting"},
+        {"trait": "education", "factual_status": "partial", "precision": "local_report_of_harvard_completion_requires_credential_verification", "factual_reference_date": "October 2026 profile; credential dates unspecified", "value": "Profile asserts a Harvard anthropology master's; own campaign says attended for a master's. Retain the attributed completion claim without treating attendance as proof, inventing two degrees or declaring the compatible wordings a proven contradiction.", "source_fragment": "a master’s degree in anthropology", "supporting_fragments": ["Harvard University"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "senate_office_work_without_resolved_staff_internship_and_pay_terms", "factual_reference_date": "Graduate-student work for Senator Wyden; exact dates unspecified", "value": "Named Senate office work is useful, but role and pay terms need verification. Later contractor work is distinct from direct public employment.", "source_fragment": "Senator Ron Wyden’s office"}
+      ],
+      "extraction_review": "Read complete profile through its closing quotation and campaign link. First foray into government is not a no-prior-elected-office answer. Reporter pronouns, surname, photograph and rural residence do not supply own gender, race, ethnicity or religious affiliation."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220265", "family": "campaign", "query": "Read full hash-verified retained native Meet Donna original, all ten background traits together.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://donnaforcongress.com/meet-donna"]},
+    {"candidate_id": "220269", "family": "campaign", "query": "Read full hash-verified retained native Meet Patty original and post-election transition context.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://pattyforillinois.com/meet"]},
+    {"candidate_id": "220329", "family": "campaign", "query": "Read full hash-verified retained native Meet Mary original and dated business sale context.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.maryallenforcongress.com/meetmary"]},
+    {"candidate_id": "220751", "family": "campaign", "query": "Read full hash-verified retained native Meet Dan original; separate his facts from relatives and children.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kohforcongress.com/meet-dan"]},
+    {"candidate_id": "220509", "family": "campaign", "query": "Inspected hash-verified retained home HTML with no visible body; read the complete native About page for the concrete extraction problem.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ambrose4congress.com/about"]},
+    {"candidate_id": "220265", "family": "university_employer_professional", "query": "Read CAWP Illinois primary original, exact named IL02 Democratic nominee row, scope, update and reuse terms; checked acquisition JSON for this exact URL before use.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois"]},
+    {"candidate_id": "220269", "family": "university_employer_professional", "query": "Read the same CAWP original's exact IL04 Democratic nominee row separately from its Republican nominee.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois"]},
+    {"candidate_id": "220329", "family": "local_profile", "query": "\"Mary Allen\" Evansville age education church", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.evansvilleliving.com/el-backissues/august-september-2024/", "https://www.evansvilleliving.com/mary-allen-finds-strength-in-numbers/"], "lead_dispositions": {"https://www.evansvilleliving.com/el-backissues/august-september-2024/": {"status": "reviewed_no_requested_facts", "reason": "Read archive index; followed and accepted the full original rather than treating its truncated teaser as evidence."}}},
+    {"candidate_id": "220751", "family": "earlier_biography", "query": "\"Dan Koh\" religion Korean Lebanese", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nextshark.com/dan-koh-first-korean-american-democrat-congress", "https://en.yna.co.kr/view/AEN20251205000200315"]},
+    {"candidate_id": "220509", "family": "local_profile", "query": "\"Ben Ambrose\" Michigan biography age born religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://lowellsfirstlook.com/candidate-profile-ben-ambrose-for-congress-2nd-district/", "https://www.ambrose4congress.com/about"]},
+    {"candidate_id": "220265", "family": "local_profile", "query": "\"Donna Miller\" \"Black woman\" Congress", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois"]},
+    {"candidate_id": "220265", "family": "ballotpedia_questionnaire", "query": "Read full WTTW 2026 primary questionnaire, including its paginated tail, and full 2018 Sun-Times own questionnaire.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://news.wttw.com/elections/voters-guide/2026-primary/donna-miller", "https://chicago.suntimes.com/2018/10/4/18476801/cook-county-board-6th-district-democratic-candidate-donna-miller"]},
+    {"candidate_id": "220265", "family": "local_profile", "query": "\"Donna Miller\" commissioner biography healthcare consultant religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "underlying_urls": [], "note": "Combined three-candidate result output was not retained with per-query attribution; separately read originals are credited separately, not as an exhausted search."},
+    {"candidate_id": "220269", "family": "local_profile", "query": "\"Patty Garcia\" Congress biography education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "underlying_urls": [], "note": "Combined search result mapping not retained. PBS original metadata subsequently read; complete linked public captions later read and accepted in the follow-up journal."},
+    {"candidate_id": "220509", "family": "local_profile", "query": "\"Benjamin Ambrose\" Michigan age biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "underlying_urls": [], "note": "Combined search lacked retained per-query attribution; successful Ben-alias refinement and read original are separately recorded."},
+    {"candidate_id": "220269", "family": "ballotpedia_questionnaire", "query": "Attempted underlying Ballotpedia page in the HTML reader; no readable content returned, not a completed survey search.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Patty_Garcia"], "lead_dispositions": {"https://ballotpedia.org/Patty_Garcia": {"status": "access_failure", "reason": "Reader returned no content; HTTP status and cause not established, no bypass or repeated attempt."}}},
+    {"candidate_id": "220509", "family": "ballotpedia_questionnaire", "query": "Attempted underlying Ballotpedia page in the HTML reader; no readable content returned, not evidence that biography or responses are absent.", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Benjamin_Ambrose"], "lead_dispositions": {"https://ballotpedia.org/Benjamin_Ambrose": {"status": "access_failure", "reason": "Reader returned no content; no HTTP code invented and no bypass or repeated attempt."}}}
+  ],
+  "withheld_documents": [
+    {"id": "220269-ballotpedia-reader-empty", "candidate_id": "220269", "url": "https://ballotpedia.org/Patty_Garcia", "status": "access_failure", "reason": "Underlying HTML reader returned no content. No factual claim or survey noncompletion assertion accepted.", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"]},
+    {"id": "220509-ballotpedia-reader-empty", "candidate_id": "220509", "url": "https://ballotpedia.org/Benjamin_Ambrose", "status": "access_failure", "reason": "Underlying HTML reader returned no content. No factual claim or survey noncompletion assertion accepted.", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220265", "note": "Official county biography and employer/university originals remain actionable. Seek own faith/ethnicity and military evidence; clarify Capitol Hill internship pay and dates. CAWP Black classification is not self-report or a non-Hispanic analytical value."},
+    {"candidate_id": "220269", "url": "https://www.pbs.org/video/congressional-candidate-patty-garcia-on-her-vision-for-the-office-vbzayf/", "note": "Resolved in the follow-up journal: read all publicly linked captions after correcting the simplified reader's omission of the hidden transcript tab. Illinois degree original also accepted. Pursue remaining exact-age, own faith/race, military, official-employment and prior-office leads."},
+    {"candidate_id": "220329", "note": "Official city biography, Southern Indiana credential/completion record, earlier interviews and explicit own religion/identity remain actionable. Dated age 49 is not an exact birth date; nonprofit ministry is not current affiliation."},
+    {"candidate_id": "220751", "note": "Official public-service and Harvard institutional originals remain actionable, as do an actual questionnaire pass and explicit own gender/religion/military evidence. Interview's ethnic self-description is historical, not inferred from children or family."},
+    {"candidate_id": "220509", "note": "University and employer originals, Senate office role/pay, earlier public biography and explicit own gender/race/ethnicity/faith/office-history remain actionable. Verify Harvard completion rather than treating local report and own attendance wording as interchangeable. Dated age remains partial."}
+  ]
+}

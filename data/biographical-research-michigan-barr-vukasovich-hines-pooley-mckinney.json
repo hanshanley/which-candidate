@@ -1,0 +1,278 @@
+{
+  "scope": "Continue five previously unresearched Michigan Democratic federal nonincumbents across all ten background traits. Reuse verified retained originals, qualify existing education/career evidence separately from first acquisition, retain dated age intervals and unverified affiliation headers, and leave incomplete surveys and concrete leads open. No candidate in this batch has a completed research pass.",
+  "documents": [
+    {
+      "id": "220502-retained-complete-native-meet-callie",
+      "candidate_id": "220502", "name": "Callie Barr", "state": "MI", "district": "01", "party": "Democratic", "contest_id": "2026:house:MI:01:general:source_general",
+      "family": "campaign", "url": "https://callieforcongress.com/meet-callie/",
+      "source_title": "Callie Barr: complete retained native campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Complete original retained November 17, 2026 at 22:16 UTC; undated current text is not assumed to be a pre-election snapshot.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220502-bio1/campaign-220502-bio1",
+      "retained_sha256": "4a9cf45b4821413acf02ccbe2b4d2731a9538d0fc4c17e522e2ea5bc02b7aec0",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name on native roster domain, explicit MI-01 congressional campaign, Northern Michigan upbringing and teaching/legal career match the named local interviews and questionnaire.",
+      "identity_fragments": ["Callie Barr"],
+      "source_excerpts": ["Callie Barr", "MI-01", "military spouse", "secondary education", "Central Michigan University", "high school English", "business attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_named_secondary_education_degree_without_inventing_level_from_this_page", "factual_reference_date": "Completed CMU study before teaching career; award year unspecified here", "value": "Reports a completed secondary-education degree at Central Michigan University. Michigan law-school attendance and subsequent attorney work are distinct; actual law graduation is explicit in the separately read interview.", "source_fragment": "secondary education", "supporting_fragments": ["Central Michigan University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_teaching_legal_and_veterans_advocacy_careers", "factual_reference_date": "Historical careers described in undated campaign biography", "value": "Documents high-school English teaching, business-attorney work and military-family advocacy, without assuming that advocacy is federal employment.", "source_fragment": "high school English", "supporting_fragments": ["business attorney"]}
+      ],
+      "extraction_review": "Verified SHA256 and read complete visible retained body using the repository parser. Matt's Marine Corps service is his, not hers. Military spouse/caregiver language supplies neither her personal service nor an explicit no-service statement. Family roots and parenthood are not racial, ethnic or gender classifications."
+    },
+    {
+      "id": "220502-ballotpedia-reviewed-biography-and-initial-survey-only",
+      "candidate_id": "220502", "name": "Callie Barr", "state": "MI", "district": "01", "party": "Democratic", "contest_id": "2026:house:MI:01:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Callie_Barr",
+      "source_title": "Callie Barr: reviewed profile header and initial 2023 Candidate Connection responses",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Survey footnote reports July 25, 2023 submission. The religious header has no independently established observation date or attribution. Only already-read profile/initial response passages are accepted; remaining survey text is not claimed reviewed.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact named MI01 congressional candidate, same native campaign and CMU/Michigan teaching/legal chronology. The 2023 submission is the same verified person, not a 2026 response.",
+      "identity_fragments": ["Callie Barr"],
+      "source_excerpts": ["Callie Barr", "Christian", "2010", "Central Michigan University", "University of Michigan Law School", "attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "unattributed_secondary_religious_header_not_own_current_affiliation", "factual_reference_date": "Undated header observed November 18, 2026; 2023 survey date is not transferred to this header", "value": "Header labels religion Christian, but the reviewed material does not identify an own affiliation statement or classification source/date. Retain the report as partial; do not promote it to self-report or current 2026 affiliation.", "source_fragment": "Christian"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_bachelors_and_law_credentials_in_reviewed_2023_response", "factual_reference_date": "Secondary-education bachelor's 2010 and completed Michigan law degree before July 25, 2023 submission", "value": "Own response describes completed CMU secondary-education bachelor's in 2010 and Michigan law degree with honors. These corroborate retained education rather than constitute a first field.", "source_fragment": "Central Michigan University", "supporting_fragments": ["2010", "University of Michigan Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_reviewed_teaching_nonprofit_advocacy_and_litigation_career_answer", "factual_reference_date": "Career before July 25, 2023 submission", "value": "Reviewed response identifies English teaching, nonprofit military-family advocacy and litigation-attorney work. Relatives' service and interaction with government do not establish her service or federal employment.", "source_fragment": "attorney"}
+      ],
+      "extraction_review": "Read accessible header and initial own-biography, messages, policy and principles responses. This is a bounded partial-survey review, not a complete reading of all appended content. A subsequent ordinary Chromium request returned HTTP 403; no retry or access bypass. Unread survey portions remain unavailable through that attempt."
+    },
+    {
+      "id": "220502-wzmq-complete-july-2026-interview",
+      "candidate_id": "220502", "name": "Callie Barr", "state": "MI", "district": "01", "party": "Democratic", "contest_id": "2026:house:MI:01:general:source_general",
+      "family": "local_profile", "url": "https://wzmq19.com/news/366327/meet-callie-barr/",
+      "source_title": "WZMQ: Meet Callie Barr, complete substantive interview",
+      "publication_date": "2026-07-23", "accessed_at": "2026-11-18",
+      "source_date_note": "Sophia Murphy; July 23 publication and July 29 update as displayed by the original. Historical 2024 nomination is not 2026 federal incumbency.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact MI01 candidate, same native campaign link, Traverse City/Cheboygan upbringing and 2024 candidacy, matching the retained campaign and CMU/Michigan education.",
+      "identity_fragments": ["Callie Barr"],
+      "source_excerpts": ["Callie Barr", "first woman", "teaching degree", "Central Michigan University", "graduated from the University of Michigan Law School", "litigation attorney", "Rosalynn Carter Institute"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_dated_reporter_woman_nominee_classification", "factual_reference_date": "2024 nomination described in July 2026 interview", "value": "Reporter explicitly classifies her as the first woman major-party nominee in the district, corroborating existing gender evidence rather than inferring from family roles or pronouns.", "source_fragment": "first woman"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_teaching_and_law_study_in_dated_interview", "factual_reference_date": "Completed credentials before July 2026 interview; no award years supplied here", "value": "Own account explicitly distinguishes earning a CMU teaching degree and graduating from Michigan Law School, not merely attending law school.", "source_fragment": "teaching degree", "supporting_fragments": ["Central Michigan University", "graduated from the University of Michigan Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_nonprofit_and_litigation_work_history", "factual_reference_date": "Earlier nonprofit and legal careers described July 2026", "value": "Names work for the Rosalynn Carter Institute for Caregiving and several years as a litigation attorney. Contact with federal bureaucracy through advocacy is not direct federal employment.", "source_fragment": "litigation attorney", "supporting_fragments": ["Rosalynn Carter Institute"]}
+      ],
+      "extraction_review": "Read opening biography and entire remaining interview through the last answer and campaign links. The marriage-age pair 18/19 does not unambiguously assign her an age or establish an event year. Husband's and opponent's military histories do not transfer. Policy views are not current federal voting or donor scores."
+    },
+    {
+      "id": "220502-upnorthvoice-complete-october-2026-own-questionnaire",
+      "candidate_id": "220502", "name": "Callie Barr", "state": "MI", "district": "01", "party": "Democratic", "contest_id": "2026:house:MI:01:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.upnorthvoice.com/news/2026/10/first-congresssional-district-q-a-with-callie-barr/",
+      "source_title": "UpNorthVoice: complete October 14 candidate-authored background and policy questionnaire",
+      "publication_date": "2026-10-14", "accessed_at": "2026-11-18",
+      "source_date_note": "Mark Constance, October 14, 2026. Editor states answers are unedited and word limited. Response-submission day is not separately printed; age is anchored to the publication context rather than invented exact birth date.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact named First Congressional District candidate, Grand Traverse residence and same CMU/UM teaching/legal careers match native MI01 and the complete campaign.",
+      "identity_fragments": ["Callie Barr"],
+      "source_excerpts": ["Callie Barr", "I am 40 years old.", "BS from CMU and JD from UM", "teacher", "attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_dated_age_with_publication_context_not_exact_birthday", "factual_reference_date": "Age 40 in questionnaire published October 14, 2026; exact submission day unspecified", "value": "Own answer reports age 40. If interpreted on publication day, birth date lies October 15, 1985-October 14, 1986 and election-day age is 40 or 41. Preserve the dated statement and submission uncertainty, not a fabricated birthday, single birth year or exact November 3 age.", "source_fragment": "I am 40 years old."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_bs_and_jd_with_institutions_resolved_by_independent_read_originals", "factual_reference_date": "Completed before October 2026 response", "value": "Own response explicitly names CMU BS and UM JD, corroborated as Central Michigan and University of Michigan by the separately read campaign/interview. No invented major or award date.", "source_fragment": "BS from CMU and JD from UM"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_dated_teaching_legal_and_veterans_advocacy_career_summary", "factual_reference_date": "Career as recounted in October 2026 response", "value": "Reports teacher, veterans' advocate and attorney careers. Military-spouse status and fighting bureaucracy do not establish personal service or paid government employment.", "source_fragment": "teacher", "supporting_fragments": ["attorney"]}
+      ],
+      "extraction_review": "Read complete original through final response. Preserve the publisher's repeated numbering and mismatched policy question/answer as source limitations rather than silently repairing them. No service negative or current religion follows from omitted fields."
+    },
+    {
+      "id": "220519-complete-public-rendered-native-about",
+      "candidate_id": "220519", "name": "Christian Vukasovich", "state": "MI", "district": "05", "party": "Democratic", "contest_id": "2026:house:MI:05:general:source_general",
+      "family": "campaign", "url": "https://www.christian4michigan.com/about",
+      "source_title": "Christian Vukasovich: complete ordinarily rendered campaign About page",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Undated current page, read through normal public Chromium rendering with HTTP 200. No pre-election availability date assigned.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact Christian A. Vukasovich, native MI05 campaign domain and same media/communication academic career as the institutional award notice. Cached home was only a JavaScript shell, not evidence that biography was absent.",
+      "identity_fragments": ["Vukasovich"],
+      "source_excerpts": ["Vukasovich", "Eastern Michigan University", "Concordia", "Bowling Green", "bricklayer", "substitute teacher"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_bachelors_masters_and_doctorate_separate_from_graduate_attendance", "factual_reference_date": "Completed before current campaign; award years unspecified", "value": "Reports completed bachelor's and master's at Eastern Michigan University and media/communication PhD at Bowling Green State University. Concordia Ann Arbor graduate studies are attendance, not another completed credential.", "source_fragment": "Eastern Michigan University", "supporting_fragments": ["Concordia", "Bowling Green"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_manual_teaching_academic_and_union_careers", "factual_reference_date": "Historical careers and nearly two decades of university teaching described in current campaign", "value": "Describes seasonal bricklaying, Romulus substitute teaching, university teaching across four states and AAUP organizing. Fellowship, exchange, advocacy and environmental-board participation are not assumed elected office, public payroll or military service.", "source_fragment": "bricklayer", "supporting_fragments": ["substitute teacher"]}
+      ],
+      "extraction_review": "Read the full actual About body with ordinary browser rendering after text readers showed the home shell. No access restriction was encountered or bypassed. Name Christian, Concordia attendance, pronouns and family roles supply no religious or gender classification."
+    },
+    {
+      "id": "220519-usm-complete-2021-faculty-award-notice",
+      "candidate_id": "220519", "name": "Christian Vukasovich", "state": "MI", "district": "05", "party": "Democratic", "contest_id": "2026:house:MI:05:general:source_general",
+      "family": "university_employer_professional", "url": "https://usm.maine.edu/news/assistant-professor-vukasovich-wins-best-paper-award/",
+      "source_title": "University of Southern Maine: Assistant Professor Vukasovich Wins Best Paper Award",
+      "publication_date": "2021-01-29", "accessed_at": "2026-11-18",
+      "source_date_note": "Original displays January 29, 2021; later image-upload directory dates are not substituted for publication.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact full-name media/communication scholar and Maine university teaching match the native campaign's distinctive degree, discipline and four-state career, not just surname.",
+      "identity_fragments": ["Christian Vukasovich"],
+      "source_excerpts": ["Christian Vukasovich", "assistant professor of Communication and Media Studies"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_named_institutional_assistant_professor_appointment", "factual_reference_date": "Faculty role at January 29, 2021 publication", "value": "Institution names him assistant professor of Communication and Media Studies. This qualifies the academic career at this institution/date without assigning continuous employment through 2026 or resolving public-payroll status from an award notice alone.", "source_fragment": "assistant professor of Communication and Media Studies"}
+      ],
+      "extraction_review": "Read complete two-paragraph notice through final research description and sharing links. Research about war is not personal military service, research about racial ideology is not his racial self-description, and a collaborator's identity does not transfer."
+    },
+    {
+      "id": "220544-retained-complete-native-home-biography",
+      "candidate_id": "220544", "name": "Christina Hines", "state": "MI", "district": "10", "party": "Democratic", "contest_id": "2026:house:MI:10:general:source_general",
+      "family": "campaign", "url": "https://www.christinahinesforcongress.com/",
+      "source_title": "Christina Hines: complete retained campaign home and embedded biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Retained in the November 15 acquisition family; exact page publication day unspecified. Prior /home extraction failure is not evidence that the actual retained root lacks a biography.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220544-9bc1136a64bfca00323c.html",
+      "retained_sha256": "9bc1136a64bfca00323c69c6dde2607f897c2a88a2014faf0f4b94180adc07d3",
+      "identity_status": "verified",
+      "identity_qualification": "Exact named MI10 congressional candidate, Macomb upbringing and Michigan/Wayne State legal history corroborate native contest, county career and original MI10 financial filing.",
+      "identity_fragments": ["Christina Hines"],
+      "source_excerpts": ["Christina Hines", "10th Congressional District", "attended the University of Michigan", "earned her law degree", "Wayne State University Law School", "prosecutor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_law_degree_separate_from_undergraduate_attendance", "factual_reference_date": "Study before prosecutorial career; exact award years unspecified", "value": "Explicit completed Wayne State law degree. University of Michigan is attendance only on this page, not proof of a completed undergraduate credential. This qualifies existing partial evidence rather than creates a first field.", "source_fragment": "earned her law degree", "supporting_fragments": ["Wayne State University Law School", "attended the University of Michigan"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_prosecutorial_legal_career", "factual_reference_date": "Career after law school described by campaign; no exact employer dates here", "value": "Reports prosecutorial work from immediately after law school and later legal leadership. Not-a-career-politician language is not a scoped no-prior-elected-office statement.", "source_fragment": "prosecutor"}
+      ],
+      "extraction_review": "Read full retained visible body and actual native links after verifying SHA256. Endorsers' offices do not transfer. Motherhood and daughter language are not substituted for explicit gender classification. No religion claim is accepted from a search preview or an unread linked article."
+    },
+    {
+      "id": "220544-original-2025-house-disclosure-own-public-salary",
+      "candidate_id": "220544", "name": "Christina Hines", "state": "MI", "district": "10", "party": "Democratic", "contest_id": "2026:house:MI:10:general:source_general",
+      "family": "official_biography", "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071722.pdf",
+      "source_title": "House Clerk: original Christina Hines MI10 candidate disclosure, requested employment and position fields",
+      "publication_date": "2025-07-29", "accessed_at": "2026-11-18",
+      "source_date_note": "Candidate Report, filing year 2025, filed/signed July 29, 2025, reporting January 1, 2024-April 15, 2025. Own salary entry concerns preceding year 2024, not current 2026 employment. Three-page PDF parsed directly in memory; no retained or redistributed full original is claimed.",
+      "original_bytes_acquired": false,
+      "observed_sha256": "14cbf1a43e5ada4fa85346ad0b615ec1cf318428f3727a49bf4c5f0f5e3605f3",
+      "identity_status": "verified",
+      "identity_qualification": "Original filing names Christina Hines, congressional candidate, MI10, matching exact native contest and campaign. Own My Salary is explicitly separate from spouse salary; no spouse job is attributed to her.",
+      "identity_fragments": ["Christina Hines", "MI10"],
+      "source_excerpts": ["Christina Hines", "MI10", "Wayne County Gov't & Wayne State University", "My Salary", "Mogill & Lemanski, PLLC", "President", "Women of Warren"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_official_filing_explicit_paid_public_employer_entry_not_advisory_membership", "factual_reference_date": "Reported own salary in preceding year 2024; filing signed July 29, 2025", "value": "Own filing explicitly reports salary from the combined Wayne County Gov't & Wayne State University source. This supports historical paid public employment, unlike advisory membership. Do not separate the combined entry into employer-specific amounts or dates, assume both were full-time, or extend it through 2026. It is a candidate-submitted official disclosure, not independent payroll verification.", "source_fragment": "Wayne County Gov't & Wayne State University", "supporting_fragments": ["My Salary"]},
+        {"trait": "profession", "factual_status": "partial", "precision": "own_disclosed_salaried_organization_and_nonprofit_position_without_specific_job_title", "factual_reference_date": "Law-firm salary during 2025 filing period; nonprofit position reported July 2025", "value": "Reports own salaried work for Mogill & Lemanski, PLLC and President of Women of Warren. Salary establishes work at the firm, not a specific legal job title; nonprofit presidency does not establish a paid job or elected public office. Financial amounts, other assets and relatives' details are not retained.", "source_fragment": "Mogill & Lemanski, PLLC", "supporting_fragments": ["President", "Women of Warren"]}
+      ],
+      "extraction_review": "Read all three original pages, concentrating on identity, Schedule C own-versus-spouse earned-income labels and Schedule E positions. Null/N/A fields and absence of another position are not employment, office or military negatives. Unrelated financial and family data are excluded from the journal."
+    },
+    {
+      "id": "220538-retained-complete-rendered-native-home",
+      "candidate_id": "220538", "name": "Ray Pooley", "state": "MI", "district": "09", "party": "Democratic", "contest_id": "2026:house:MI:09:general:source_general",
+      "family": "campaign", "url": "https://www.pooley4congress.com/",
+      "source_title": "Ray Pooley: complete retained rendered campaign home and Meet Ray section",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Retained rendered DOM in the November 15 acquisition family; footer year is not a biography publication date.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220538-920cc9dfc305871a7104.html",
+      "retained_sha256": "920cc9dfc305871a7104dd5e69701e7c098fab0dd23747471784c86c3fec2a01",
+      "identity_status": "verified",
+      "identity_qualification": "Exact named Democrat for Michigan's 9th District, native campaign domain and manufacturing career agree with retained native contest and reviewed own survey.",
+      "identity_fragments": ["Ray Pooley"],
+      "source_excerpts": ["Ray Pooley", "Michigan\u2019s 9th District", "third-generation manufacturer", "CNC machinist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_manufacturing_and_cnc_machinist_occupation", "factual_reference_date": "Current campaign career account; exact employment dates unspecified", "value": "Explicit own third-generation manufacturer and CNC machinist descriptions qualify previously partial occupation evidence. Raising chickens and growing up near farms do not establish commercial farming employment.", "source_fragment": "CNC machinist", "supporting_fragments": ["third-generation manufacturer"]}
+      ],
+      "extraction_review": "Verified retained rendered DOM hash and read all visible home/Meet Ray text, not the earlier unrendered shell. Rural values, endorsers, family occupations and photographs do not supply own identity, degrees, public employment or military service."
+    },
+    {
+      "id": "220538-ballotpedia-reviewed-biography-and-initial-own-survey",
+      "candidate_id": "220538", "name": "Ray Pooley", "state": "MI", "district": "09", "party": "Democratic", "contest_id": "2026:house:MI:09:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Ray_Pooley",
+      "source_title": "Ray Pooley: reviewed biography and initial Candidate Connection response",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Footnote reports own survey submitted April 29, 2026. Only already-read biography and initial own-survey portion accepted; later responses remain unread.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact named MI09 2026 nominee, same manufacturing/CNC career and native campaign match retained cohort identity; not an unrelated same-name person.",
+      "identity_fragments": ["Ray Pooley"],
+      "source_excerpts": ["Ray Pooley", "working class man", "Hartland High School", "CNC"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_explicit_man_description_in_2026_questionnaire", "factual_reference_date": "Own survey submitted April 29, 2026", "value": "Explicit own working class man description, not inferred from name, photograph or pronouns.", "source_fragment": "working class man"},
+        {"trait": "education", "factual_status": "qualified", "precision": "named_secondary_biography_explicit_completed_high_school_diploma", "factual_reference_date": "Completed before current campaign; graduation year unspecified in reviewed text", "value": "Biography explicitly reports Hartland High School diploma. This corroborates existing education; no college degree or analytical degree-category promotion follows.", "source_fragment": "Hartland High School"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_cnc_manufacturing_career_in_reviewed_response", "factual_reference_date": "Fifteen years manufacturing experience recounted in April 2026 survey", "value": "Own reviewed answer identifies CNC machinist/programmer and manufacturing experience. No employer, start day or government-payroll relationship invented.", "source_fragment": "CNC"}
+      ],
+      "extraction_review": "Read biography and first own-survey portion through the reviewed manufacturing/background answer. Subsequent ordinary Chromium access returned HTTP 403; no retry or bypass. Remaining survey questions are not claimed read, and unread office/service answers supply no negatives."
+    },
+    {
+      "id": "220559-retained-complete-native-meet-donavan",
+      "candidate_id": "220559", "name": "Donavan McKinney", "state": "MI", "district": "13", "party": "Democratic", "contest_id": "2026:house:MI:13:general:source_general",
+      "family": "campaign", "url": "https://www.donavanforcongress.com/meet-donavan",
+      "source_title": "Donavan McKinney: complete retained native campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Complete original retained November 17, 2026 at 22:16 UTC. Historical appointment and election descriptions are not dates of initial page availability.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220559-bio1/campaign-220559-bio1",
+      "retained_sha256": "edf90b818b801b53b0f0e40091dfad5c50ba8b0558b58fde436fdc7bfcce6079",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native MI13 congressional campaign and Michigan House District 11/Detroit legislative and union career match the separately read institutional classification.",
+      "identity_fragments": ["Donavan McKinney"],
+      "source_excerpts": ["Donavan McKinney", "college graduate", "SEIU Healthcare Michigan", "State Representative", "January 2020", "Environment Justice Council", "Governor Gretchen Whitmer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "own_college_graduate_description_without_degree_level_major_or_institution_spelled_out", "factual_reference_date": "Graduation before current campaign; year unspecified", "value": "Reports being a college graduate. Go Blue parenthetical does not independently establish a credential level, major, institution or graduation year.", "source_fragment": "college graduate"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_union_coalition_and_organizing_work", "factual_reference_date": "Union work before/as recounted in congressional campaign", "value": "Names SEIU Healthcare Michigan coalition/organizing work, not government employment or relatives' occupations.", "source_fragment": "SEIU Healthcare Michigan"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_state_house_service_and_election_chronology", "factual_reference_date": "State House election two years after January 2020 appointment, as described", "value": "Current state representative and earlier state-House election are distinct from federal incumbency and appointed advisory service.", "source_fragment": "State Representative"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "own_dated_council_appointment_without_compensation_or_employment_terms", "factual_reference_date": "January 2020 gubernatorial appointment as described by campaign", "value": "Names appointment to the state's Environment Justice Council by Governor Whitmer. Preserve the page's label and chronology; advisory appointment alone is not proof of paid public employment. This supplements already retained government evidence, not a first field.", "source_fragment": "Environment Justice Council", "supporting_fragments": ["January 2020", "Governor Gretchen Whitmer"]}
+      ],
+      "extraction_review": "Verified SHA256 and read complete visible retained body. No race, ethnicity or gender inferred from family roles, geography or photographs. Own democratic-socialist label is not a federal voting or donor score. Unrequested health and relatives' personal details are not collected."
+    },
+    {
+      "id": "220559-official-house-black-history-explicit-classification",
+      "candidate_id": "220559", "name": "Donavan McKinney", "state": "MI", "district": "13", "party": "Democratic", "contest_id": "2026:house:MI:13:general:source_general",
+      "family": "official_biography", "url": "https://housedems.com/michigan-house-democrats-celebrate-black-history-month/",
+      "source_title": "Michigan House Democrats: explicit named historical racial and gender classification",
+      "publication_date": "2024-02-01", "accessed_at": "2026-11-18",
+      "source_date_note": "Release dateline and display February 1, 2024; August 21 metadata is not substituted for event date.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact state Rep. Donavan McKinney of Warren/Macomb, Michigan's 102nd Legislature, matches the native candidate's distinctive House/Detroit-area career and campaign biography.",
+      "identity_fragments": ["Donavan McKinney"],
+      "source_excerpts": ["Donavan McKinney", "African-American man", "elected", "Macomb County"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_named_institutional_african_american_classification_not_own_quote", "factual_reference_date": "February 1, 2024 institutional account of state-House milestone", "value": "Official legislative caucus explicitly classifies McKinney African-American in its named milestone list. This is documented source classification, not self-report or inferred ethnicity/non-Hispanic status.", "source_fragment": "African-American man"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_named_institutional_man_classification", "factual_reference_date": "February 1, 2024 institutional account", "value": "Institution explicitly calls him a man in the named milestone, not an inference from name, parenthood, pronouns or photographs.", "source_fragment": "African-American man"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_institutional_confirmation_of_elected_state_house_service", "factual_reference_date": "Michigan 102nd Legislature, February 2024", "value": "Names the state representative as elected from Macomb County. This is prior state office, not 2026 federal incumbency or separate paid appointed employment.", "source_fragment": "elected", "supporting_fragments": ["Macomb County"]}
+      ],
+      "extraction_review": "Read complete release through final informational links. Other legislators' identities and quoted family/history accounts do not transfer to McKinney. The source supplies a positive named classification, not universal reference categories for unlisted candidates."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220502", "family": "campaign", "query": "Verify retained campaign SHA256 and read complete Meet Callie original, not download unchanged campaign again.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://callieforcongress.com/meet-callie/"]},
+    {"candidate_id": "220502", "family": "ballotpedia_questionnaire", "query": "Open native named profile, review accessible biography/initial 2023 responses and inspect actual submission footnote; subsequent ordinary browser request returns 403.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Callie_Barr"], "qualification": "Accepted only already-read bounded passages; remaining survey unread, not bypassed."},
+    {"candidate_id": "220502", "family": "local_profile", "query": "Follow WZMQ original and finish all remaining interview answers, then verify introductory biography passages.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wzmq19.com/news/366327/meet-callie-barr/"]},
+    {"candidate_id": "220502", "family": "ballotpedia_questionnaire", "query": "\"Callie Barr\" \"40\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.upnorthvoice.com/news/2026/10/first-congresssional-district-q-a-with-callie-barr/"], "qualification": "Followed and read complete underlying original; no search-only age accepted."},
+    {"candidate_id": "220502", "family": "official_biography", "query": "\"Callie Barr\" township appointment", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://votetheresume.org/michigan/callie-barr/record/index.html"], "qualification": "Discovery-only secondary pointers. Selected original appointment minutes and identity application still require direct reading; no government service accepted from secondary excerpts."},
+    {"candidate_id": "220502", "family": "university_employer_professional", "query": "\"Callie Barr\" site:law.umich.edu", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "underlying_urls": [], "qualification": "Executed query, but no mapped institutional original reviewed here. Does not establish exhaustion or completion of this family."},
+    {"candidate_id": "220519", "family": "campaign", "query": "Follow native About page and read complete body using ordinary Chromium rendering after cached home/text reader exposes only JavaScript shell.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.christian4michigan.com/about"]},
+    {"candidate_id": "220519", "family": "university_employer_professional", "query": "Follow named University of Southern Maine faculty award original and read complete two-paragraph notice.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://usm.maine.edu/news/assistant-professor-vukasovich-wins-best-paper-award/"]},
+    {"candidate_id": "220519", "family": "university_employer_professional", "query": "\"Christian Vukasovich\" site:edu", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "underlying_urls": [], "qualification": "Search not claimed to establish absence, exhaustive coverage or a paid-public-employment classification."},
+    {"candidate_id": "220544", "family": "campaign", "query": "Locate actual retained candidate-background source by ID/hash and read complete root biography plus actual native links; do not repeat failed /home download.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.christinahinesforcongress.com/"]},
+    {"candidate_id": "220544", "family": "official_biography", "query": "Follow discovery pointers to original House Clerk MI10 filing; read all three PDF pages with own-versus-spouse employment and position labels.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071722.pdf"]},
+    {"candidate_id": "220544", "family": "university_employer_professional", "query": "Follow exact Wayne State faculty profile URL linked by secondary discovery; transport fails, ordinary certificate-validated retrieval identifies certificate-chain error.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://law.wayne.edu/profile/er2008"], "lead_dispositions": {"https://law.wayne.edu/profile/er2008": {"status": "access_failure", "reason": "Reader transport failure; ordinary verified urllib request reports CERTIFICATE_VERIFY_FAILED with self-signed certificate in certificate chain. No disabled verification or factual acceptance from secondary quotations."}}},
+    {"candidate_id": "220538", "family": "campaign", "query": "Locate and hash-verify retained rendered DOM rather than unrendered campaign shell; read all visible Meet Ray text.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.pooley4congress.com/"]},
+    {"candidate_id": "220538", "family": "ballotpedia_questionnaire", "query": "Read accessible named biography/initial own Candidate Connection response and submission footnote; subsequent ordinary Chromium request returns 403.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Ray_Pooley"], "qualification": "Only already-read portion accepted; later survey responses are not claimed reviewed."},
+    {"candidate_id": "220559", "family": "campaign", "query": "Hash-verify and read complete retained Meet Donavan campaign original, extracting all supported requested background traits.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.donavanforcongress.com/meet-donavan"]},
+    {"candidate_id": "220559", "family": "official_biography", "query": "\"Donavan McKinney\" \"Black man\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://housedems.com/michigan-house-democrats-celebrate-black-history-month/"], "qualification": "Read full underlying named institutional classification. Search wording is not substituted for the source's actual African-American man label."}
+  ],
+  "completed_candidates": [],
+  "withheld_documents": [
+    {"id": "220502-ballotpedia-remaining-survey-ordinary-browser-403", "candidate_id": "220502", "url": "https://ballotpedia.org/Callie_Barr", "status": "access_failure", "reason": "Initial profile/survey passages were read in the original reader; subsequent ordinary Chromium access returned HTTP 403. No repeat request or bypass after denial; remaining survey not represented as read.", "traits_pending_verification": ["age", "ethnicity", "religion", "prior_elected_office", "other_government", "military"]},
+    {"id": "220538-ballotpedia-remaining-survey-ordinary-browser-403", "candidate_id": "220538", "url": "https://ballotpedia.org/Ray_Pooley", "status": "access_failure", "reason": "Already-read biography and initial own survey accepted with bounded scope. Later ordinary Chromium access returned HTTP 403; remaining responses not read or inferred, and no retry/bypass.", "traits_pending_verification": ["age", "race", "ethnicity", "religion", "prior_elected_office", "other_government", "military"]},
+    {"id": "220544-wayne-state-faculty-profile-certificate-failure", "candidate_id": "220544", "url": "https://law.wayne.edu/profile/er2008", "status": "access_failure", "reason": "Underlying reader transport fails; normal verified retrieval reports self-signed certificate in certificate chain. Verification was not disabled. Secondary excerpts are discovery only.", "traits_pending_verification": ["education", "profession", "other_government"]}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "220502", "urls": ["https://www.interlochenpublicradio.org/2026-07-18/callie-barr-runs-on-affordability-in-second-bid-for-bergmans-seat"], "note": "Glen Arbor profile and retained guide fields are now read in the follow-up journal. Exact township-minute original returned 403; appointment and application identity bridge remain unverified, not accepted from secondary quotations. Institutional alumni/employer and selected Interlochen originals remain actionable. Age and religious header remain partial; no election-day age, current faith, personal service or no-office negative established."},
+    {"candidate_id": "220519", "note": "Review actual questionnaires, dated local/earlier interviews and additional institutional employment/credential originals. Cached campaign shell is not absence of biography. Public-payroll terms, dated age and explicit own identity/service remain unresolved; name, religion-related university name and war research are not proxies."},
+    {"candidate_id": "220544", "urls": ["https://www.lcv.org/wp-content/uploads/2026/11/LCV_NEWMemberGuide_2026_POST_C.pdf"], "note": "Native Facts and retained LWV guide fields are now read in follow-up journal. Check retention before reading selected LCV member-elect section and follow dated biographical articles. Wayne State profile is certificate-blocked, not accepted from secondary extracts. Education/profession qualify existing fields; public salary is a distinct first field. Seek explicit identity, affiliation and scoped service/office evidence; campaign not-a-career-politician phrase supplies no negative."},
+    {"candidate_id": "220538", "note": "Reuse bounded retained LWV guide and investigate substantive local questionnaires, professional/employer and earlier biographies. Survey remainder is blocked through the recorded attempt, not exhausted. Manufacturing experience does not establish birth age, military negative or no prior elected office."},
+    {"candidate_id": "220559", "note": "Follow full official state biography, university/employer and questionnaire originals; investigate own ethnicity and personal service without proxy or absence inference. Caucus classifications are explicit third-party evidence, not own quotations; advisory appointment is not paid employment."}
+  ]
+}

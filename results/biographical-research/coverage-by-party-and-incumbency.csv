@@ -1,7 +1,7 @@
 party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
-all,all,1284,12,140,1132,547,232,131
+all,all,1284,12,160,1112,633,253,147
 all,incumbent,360,0,7,353,8,1,1
-all,nonincumbent,312,12,113,187,501,198,113
+all,nonincumbent,312,12,133,167,587,219,129
 all,unresolved,612,0,20,592,38,33,17
 America First,all,1,0,0,1,0,0,0
 America First,incumbent,0,0,0,0,0,0,0
@@ -19,9 +19,9 @@ Constitution,all,4,0,0,4,0,0,0
 Constitution,incumbent,0,0,0,0,0,0,0
 Constitution,nonincumbent,0,0,0,0,0,0,0
 Constitution,unresolved,4,0,0,4,0,0,0
-Democratic,all,449,12,115,322,503,197,112
+Democratic,all,449,12,135,302,589,218,128
 Democratic,incumbent,183,0,4,179,5,1,1
-Democratic,nonincumbent,266,12,111,143,498,196,111
+Democratic,nonincumbent,266,12,131,123,584,217,127
 Democratic,unresolved,0,0,0,0,0,0,0
 Florida Forward Party,all,1,0,0,1,0,0,0
 Florida Forward Party,incumbent,0,0,0,0,0,0,0

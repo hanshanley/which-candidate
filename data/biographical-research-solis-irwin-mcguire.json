@@ -1,0 +1,260 @@
+{
+  "scope": "Continue the actual unresearched national queue with three Democratic federal nonincumbents. Read all ten requested background traits together, reuse a verified complete Solis original, and keep historical affiliations, unpaid advisory service and reliable explicit classifications distinct from analytical eligibility. These are open passes, not completed biographies.",
+  "documents": [
+    {
+      "id": "219929-retained-complete-historian-bio-and-own-identity",
+      "candidate_id": "219929", "name": "Hilda Solis", "state": "CA", "district": "38", "party": "Democratic", "contest_id": "2026:house:CA:38:general:source_general",
+      "family": "official_biography", "url": "https://history.house.gov/People/Detail/22566",
+      "source_title": "House Historian: complete retained concise and extended Hilda Solis biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Complete original retained November 15, 2026 at 00:24 UTC; page citation displays November 14, 2026. Individual historical facts and the May 2, 2006 own identity statement retain their earlier reference dates.",
+      "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/incoming-members-20261114/incoming-historian-219929.html",
+      "retained_sha256": "0f3967faf3a6488f15878f70cdd71b318226175798689abc2bfbfeb1ee86ff8d",
+      "identity_status": "verified",
+      "identity_qualification": "Exact full-name alias Hilda Lucia Solis, California House service, Labor secretaryship and LA County supervisor service match the native CA38 candidate and campaign. Former membership is not 2026 federal incumbency.",
+      "identity_fragments": ["Hilda Lucia Solis"],
+      "source_excerpts": ["Hilda Lucia Solis", "October 20, 1957", "as a woman, as a Latina", "BA", "master\u2019s", "management analyst", "Secretary of Labor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_complete_biography_exact_birthdate", "factual_reference_date": "Born October 20, 1957", "value": "Official biography gives 1957-10-20, implying age 69 on November 3, 2026; this corroborates existing age evidence.", "source_fragment": "October 20, 1957"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "official_historian_quotes_own_explicit_woman_description", "factual_reference_date": "House floor statement May 2, 2006, cited at Congressional Record H1945-1946", "value": "Historian quotes her explicit own woman description, not inferred pronouns or relatives.", "source_fragment": "as a woman"},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "own_explicit_latina_description_quoted_in_official_history", "factual_reference_date": "Own May 2, 2006 House statement, not an assumed current exclusive racial category", "value": "Explicit own Latina self-description. This is ethnicity, not an inferred racial classification or a non-Hispanic reference value.", "source_fragment": "as a Latina"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_bachelors_and_public_administration_masters_with_years", "factual_reference_date": "BA 1979 and master's 1981", "value": "Cal Poly Pomona political-science bachelor's in 1979 and USC public-administration master's in 1981; preserve the extended biography's degree/field description rather than inventing additional credentials from the concise MA abbreviation.", "source_fragment": "BA", "supporting_fragments": ["master\u2019s"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_management_analyst_and_student_program_director_history", "factual_reference_date": "OMB role in 1981 and California student-access program direction 1982-1992", "value": "Named federal management-analyst work and student-access program direction supplement political careers. Father's factory work and mother's toy-industry employment are not her occupations.", "source_fragment": "management analyst"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_elected_college_board_state_legislature_house_and_county_chronology", "factual_reference_date": "College board from 1985, state legislature from 1992, House 2001-2009, county supervisor from 2014", "value": "Separate the elected college board, Assembly, state Senate, earlier House and county offices from appointed cabinet service; none makes her a federal incumbent in 2026.", "source_fragment": "Hilda Lucia Solis"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_named_federal_staff_and_appointed_cabinet_jobs", "factual_reference_date": "White House 1980-1981, OMB 1981 and Labor secretary 2009-2013", "value": "Explicit White House/OMB work and appointed Labor secretaryship are distinct from elected office. Board and advisory memberships are not automatically additional paid employment.", "source_fragment": "management analyst", "supporting_fragments": ["Secretary of Labor"]}
+      ],
+      "extraction_review": "Read both complete biographies and the identity quotation's footnote after verifying the original SHA256. The live old URL now redirects to an error page; the retained 67,155-byte HTML contains the actual complete biography, not that error or the separate 134-byte search preview. Parents' Mexican/Nicaraguan origins and trade-union membership are not her race or employment. No religion or military negative follows from omission."
+    },
+    {
+      "id": "219929-native-complete-meet-hilda",
+      "candidate_id": "219929", "name": "Hilda Solis", "state": "CA", "district": "38", "party": "Democratic", "contest_id": "2026:house:CA:38:general:source_general",
+      "family": "campaign", "url": "https://www.hildasolis.com/meet-hilda/",
+      "source_title": "Hilda Solis campaign: complete Meet Hilda biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Undated page contains older county reelection language; image filenames and search indexing dates are not dates of all present text.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Labor secretaryship, earlier Congress and LA County supervisor career match the native candidate and complete official history; old supervisor reelection wording is not treated as a congressional candidacy date.",
+      "identity_fragments": ["Hilda Solis"],
+      "source_excerpts": ["Hilda Solis", "Secretary of Labor", "Supervisor", "first woman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_positive_explicit_woman_award_recipient_description", "factual_reference_date": "2000 Profile in Courage award as described by campaign", "value": "Campaign explicitly identifies her as the first woman to receive this award, corroborating the earlier own statement.", "source_fragment": "first woman"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_county_and_congress_service_separate_from_cabinet_role", "factual_reference_date": "Congressional and county careers before 2026", "value": "Reports earlier Congress and county-supervisor service, without recoding her as a current federal incumbent.", "source_fragment": "Supervisor"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_appointed_federal_secretaryship", "factual_reference_date": "Obama administration Labor secretaryship", "value": "Own biography corroborates appointed Labor Department service, distinct from county elected office.", "source_fragment": "Secretary of Labor"}
+      ],
+      "extraction_review": "Read complete biography, not only the search preview. Daughter-of-immigrants language is not her own ethnic description; school/community investments are not her degrees or jobs. No military negative or current religion supplied."
+    },
+    {
+      "id": "219929-catholic-review-complete-dated-own-faith-interview",
+      "candidate_id": "219929", "name": "Hilda Solis", "state": "CA", "district": "38", "party": "Democratic", "contest_id": "2026:house:CA:38:general:source_general",
+      "family": "earlier_biography", "url": "https://www.archbalt.org/labor-secretary-says-parents-example-of-faith-hard-work-shaped-her/",
+      "source_title": "Catholic Review/Archdiocese of Baltimore: Labor secretary interview about her own faith",
+      "publication_date": "2012-01-19", "accessed_at": "2026-11-18",
+      "source_date_note": "Page displays January 19, 2012, and describes an August 30 telephone interview without printing its year. Do not silently assign the interview to 2012 or extend a historical affiliation to 2026.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Names Secretary of Labor Hilda L. Solis, prior California state and congressional service, and 2000 award; matches the native candidate and complete official biography.",
+      "identity_fragments": ["Hilda L. Solis"],
+      "source_excerpts": ["Hilda L. Solis", "Her Catholic faith", "My faith is what motivates me.", "secretary of Labor", "first woman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "own_explicit_faith_account_in_dated_reported_interview_with_catholic_affiliation_context", "factual_reference_date": "August 30 interview of unspecified year reported on page dated January 19, 2012", "value": "Reporter explicitly identifies her Catholic faith and quotes her own account of its role in her life. Retain historical Catholic affiliation, not a verified November 2026 affiliation; parents' beliefs and church attendance alone would not qualify.", "source_fragment": "Her Catholic faith", "supporting_fragments": ["My faith is what motivates me."]},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_positive_woman_award_recipient_classification", "factual_reference_date": "2000 award reported in historical profile", "value": "Named first woman recipient of the 2000 award, corroborating rather than adding the gender field.", "source_fragment": "first woman"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_contemporaneous_cabinet_occupation", "factual_reference_date": "Interview during Labor secretary service, 2009-2013", "value": "Profile identifies her then-current cabinet job; relatives' labor histories remain separate.", "source_fragment": "secretary of Labor"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_dated_appointed_cabinet_service_not_elected_office", "factual_reference_date": "Labor secretary confirmed in 2009", "value": "Profile explicitly dates confirmation as Labor secretary to 2009. Role models' government service and church employment are not hers.", "source_fragment": "secretary of Labor"}
+      ],
+      "extraction_review": "Read full original interview report through final worker-history paragraph. Own faith account, not religious objects or parents' affiliation, supports the claim. Praying at an Episcopal church does not automatically imply a change of denomination. Military benefits legislation does not establish personal service."
+    },
+    {
+      "id": "219929-cal-poly-complete-institutional-interview-announcement",
+      "candidate_id": "219929", "name": "Hilda Solis", "state": "CA", "district": "38", "party": "Democratic", "contest_id": "2026:house:CA:38:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.cpp.edu/news/content/2014/02/solis-journey-from-cal-poly-pomona-to-washington-d-c/index.shtml",
+      "source_title": "Cal Poly Pomona: Solis' Journey, institutional biography and interview announcement",
+      "publication_date": "2014-02-27", "accessed_at": "2026-11-18",
+      "source_date_note": "Dan Lee, February 27, 2014. Summarizes an embedded video; complete video was not watched or transcribed and is not represented as read.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, former Labor secretary, Cal Poly Pomona alumna, earlier California legislature and House service match the retained official chronology.",
+      "identity_fragments": ["Hilda Solis"],
+      "source_excerpts": ["Hilda Solis", "Cal Poly Pomona alumna", "scholar-in-residence", "first Latina", "State Assembly", "2009 to 2013"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "institutional_alumna_description_without_credential_level_or_year_in_this_article", "factual_reference_date": "Earlier study described February 2014", "value": "Institution confirms alumna relationship; degree details come from the separate complete official history, not this short announcement.", "source_fragment": "Cal Poly Pomona alumna"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "institutional_named_scholar_in_residence_role_not_assumed_payroll_status", "factual_reference_date": "Returned in fall 2013 and serving at February 2014 publication", "value": "University reports scholar-in-residence service. It establishes a role, not compensation, tenure or a completed academic credential.", "source_fragment": "scholar-in-residence"},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "positive_institutional_historical_latina_classification", "factual_reference_date": "Earlier state Senate and 2009 cabinet milestones described February 2014", "value": "Institution explicitly classifies her Latina in named political milestones, corroborating the separately retained own self-description without imputing race.", "source_fragment": "first Latina"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "institutional_named_state_and_federal_elected_service", "factual_reference_date": "Earlier California legislature and 2001-2009 congressional service", "value": "Confirms state Assembly, state Senate and House careers; appointed cabinet service is distinct.", "source_fragment": "State Assembly"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "institutional_explicit_cabinet_service_dates_not_assumed_public_university_employment", "factual_reference_date": "Cabinet service 2009-2013", "value": "Explicit Labor secretary chronology corroborates appointed federal service. Scholar-in-residence title alone is not proof of public-university payroll employment.", "source_fragment": "2009 to 2013"}
+      ],
+      "extraction_review": "Read complete announcement and distinguish its own text from the unreviewed video. No fact from an unseen video is accepted. Latina classification does not supply a racial value; childhood immigration and public-service biographies do not establish nonservice."
+    },
+    {
+      "id": "219903-native-congressional-campaign-complete-home",
+      "candidate_id": "219903", "name": "Jacqui Irwin", "state": "CA", "district": "26", "party": "Democratic", "contest_id": "2026:house:CA:26:general:source_general",
+      "family": "campaign", "url": "https://jacquiirwin.com",
+      "source_title": "Jacqui Irwin: complete native CA26 congressional campaign home page",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Current page explicitly announces the new 26th Congressional District campaign; date of first posting unspecified. Learn-more link has an empty target.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native roster campaign domain explicitly connects Assemblywoman Jacqui Irwin to CA26; state/local engineering and legislative history match the official biographies.",
+      "identity_fragments": ["Jacqui Irwin"],
+      "source_excerpts": ["Jacqui Irwin", "26th Congressional District", "Assemblywoman", "engineer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_engineering_career_description", "factual_reference_date": "Earlier career described in undated congressional campaign", "value": "Explicitly identifies engineering career; detailed employers and dates are separately supported by the official appointment release.", "source_fragment": "engineer"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_state_legislative_role_not_federal_incumbency", "factual_reference_date": "State Assembly service during congressional candidacy", "value": "Explicit Assembly role supports earlier elected state office, not current House incumbency.", "source_fragment": "Assemblywoman"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_explicit_assemblywoman_title_not_name_photo_or_parenthood", "factual_reference_date": "Own campaign title during CA26 candidacy", "value": "Campaign explicitly uses the woman-specific legislative title; no inference is made from the photograph, first name or mother description.", "source_fragment": "Assemblywoman"}
+      ],
+      "extraction_review": "Read full page through endorsements. Endorsers' offices, traits and military service do not transfer. Policy work for homeless veterans does not establish personal service; an empty learn-more link is not a read biography."
+    },
+    {
+      "id": "219903-complete-official-assembly-biography",
+      "candidate_id": "219903", "name": "Jacqui Irwin", "state": "CA", "district": "26", "party": "Democratic", "contest_id": "2026:house:CA:26:general:source_general",
+      "family": "official_biography", "url": "https://irwin.asmdc.org/biography",
+      "source_title": "California Assembly: Jacqui Irwin complete official biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Undated current biography includes committee tenures through 2025; no first-publication day or prediction-time snapshot assigned.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Thousand Oaks mayoral career, engineering employers and Assembly service match the native CA26 campaign. State district 42 is not the congressional district.",
+      "identity_fragments": ["Assemblymember Jacqui Irwin"],
+      "source_excerpts": ["Assemblymember Jacqui Irwin", "Bachelor of Science", "Systems Engineering", "UC San Diego", "Teledyne Systems", "Applied Physics Lab", "Governor\u2019s Military Council", "Woman of the Year"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_ucsd_systems_engineering_bachelors", "factual_reference_date": "Completed degree before state/local public career; award year unspecified", "value": "Explicit UC San Diego systems-engineering BS, not merely attendance or an honorary credential.", "source_fragment": "Bachelor of Science", "supporting_fragments": ["Systems Engineering", "UC San Diego"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_private_and_university_engineering_employers", "factual_reference_date": "Engineering work before public office", "value": "Teledyne and Johns Hopkins Applied Physics Lab engineering roles are separate employers. A federal research client does not make the university job civil service or military service.", "source_fragment": "Teledyne Systems", "supporting_fragments": ["Applied Physics Lab"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_city_council_election_and_two_mayoral_terms_then_assembly", "factual_reference_date": "First council election in 2004, subsequent mayoral and Assembly service", "value": "Official biography dates first Thousand Oaks council election to 2004 and reports two mayoral terms. Election year is distinguished from the appointment release's 2005 service start.", "source_fragment": "Assemblymember Jacqui Irwin"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_named_appointed_boards_without_general_payroll_or_compensation_proof", "factual_reference_date": "Multiple state board appointments before/current at undated biography", "value": "Lists formal state boards and advisory councils, including the Governor's Military Council, but board membership is not automatically paid government employment. The separate 2016 release explicitly says that council appointment is uncompensated.", "source_fragment": "Governor\u2019s Military Council"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "official_positive_named_woman_award_recipient_classification", "factual_reference_date": "Earlier award described in official biography", "value": "Official source explicitly identifies a woman-of-the-year award, corroborating existing gender evidence rather than relying on pronouns.", "source_fragment": "Woman of the Year"}
+      ],
+      "extraction_review": "Read all biography paragraphs including the final appointed-board list. Veterans committee chairmanship, National Guard award and military-family commissions are not personal military service. No own race, ethnicity or religious affiliation is stated."
+    },
+    {
+      "id": "219903-governor-2016-explicit-unpaid-appointment-and-career",
+      "candidate_id": "219903", "name": "Jacqui Irwin", "state": "CA", "district": "26", "party": "Democratic", "contest_id": "2026:house:CA:26:general:source_general",
+      "family": "earlier_biography", "url": "https://archive.gov.ca.gov/archive/gov39/2016/03/21/news19351/index.html",
+      "source_title": "Governor Brown: March 21, 2016 appointments, bounded Jacqui Irwin paragraph",
+      "publication_date": "2016-03-21", "accessed_at": "2026-11-18",
+      "source_date_note": "Contemporaneous dated official appointment release, not a current age or current employment record.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Thousand Oaks, Democratic Assembly member since 2014 and matching two engineering employers identify the native candidate. Other council appointees' military records are not hers.",
+      "identity_fragments": ["Jacqui Irwin"],
+      "source_excerpts": ["Jacqui Irwin, 54", "California State Assembly", "Thousand Oaks City Council", "systems engineer", "Teledyne Systems", "Applied Physics Laboratory", "there is no compensation"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_age_54_at_2016_appointment_not_exact_birthdate", "factual_reference_date": "March 21, 2016", "value": "Official release reports age 54 on its dated appointment announcement; retain as dated age without manufacturing a birthday or precise 2026 age.", "source_fragment": "54"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_dated_systems_engineering_jobs_at_two_nonfederal_employers", "factual_reference_date": "Johns Hopkins APL 1985-1988; Teledyne 1988-1992", "value": "Release dates Johns Hopkins APL systems engineering to 1985-1988 and Teledyne to 1988-1992. Government-related research work is not automatically government employment.", "source_fragment": "systems engineer", "supporting_fragments": ["Teledyne Systems", "Applied Physics Laboratory"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_dated_city_council_and_assembly_service", "factual_reference_date": "Council service 2005-2014 and Assembly from 2014 as reported in 2016", "value": "Named city-council and Assembly service; 2005 service commencement need not contradict a 2004 election.", "source_fragment": "Thousand Oaks City Council", "supporting_fragments": ["California State Assembly"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_scoped_uncompensated_advisory_appointment_not_universal_no_government_employment", "factual_reference_date": "Governor's Military Council appointment March 2016, service since 2015", "value": "Governor explicitly states this formal council appointment has no compensation. This establishes a scoped unpaid role, not paid government employment and not a universal negative about her whole career.", "source_fragment": "there is no compensation"}
+      ],
+      "extraction_review": "Read complete release and isolate the exact Irwin paragraph. Other appointees' Navy/Marine/Air Force service, degrees and civilian federal employment do not transfer. Advisory council membership and its military name do not establish her own military service."
+    },
+    {
+      "id": "219889-native-complete-congressional-about",
+      "candidate_id": "219889", "name": "Mike McGuire", "state": "CA", "district": "01", "party": "Democratic", "contest_id": "2026:house:CA:01:general:source_general",
+      "family": "campaign", "url": "https://www.votemikemcguire.com/about",
+      "source_title": "Mike McGuire: complete native congressional About biography",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Current CA01 congressional campaign page; initial publication and exact update dates not established.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native roster campaign domain explicitly identifies Mike McGuire and the 1st Congressional District, Northern California Senate leadership, county-supervisor and school-board service.",
+      "identity_fragments": ["Mike McGuire"],
+      "source_excerpts": ["Mike McGuire", "At 19", "ran for School Board", "and won", "County Supervisor", "State Senate"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_event_anchored_age_without_election_year_on_this_page", "factual_reference_date": "Age 19 at first school-board election; calendar year not supplied here", "value": "Own biography reports winning a school-board election at age 19. Without its calendar date this is not converted into a birth year or current age.", "source_fragment": "At 19", "supporting_fragments": ["ran for School Board", "and won"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_school_board_county_and_state_legislative_service", "factual_reference_date": "Earlier school-board and county service followed by state Senate", "value": "Explicit prior elected local and state offices. Federal candidacy is not federal incumbency.", "source_fragment": "County Supervisor", "supporting_fragments": ["State Senate"]}
+      ],
+      "extraction_review": "Read the entire linked About page after the home page. Growing up on a family ranch is not automatically his own farming occupation. Helping put himself through college does not establish degree completion. Policy work for firefighters, hospitals or veterans is not personal employment/service; relatives' jobs and identities do not transfer."
+    },
+    {
+      "id": "219889-complete-2014-official-swearing-in-career",
+      "candidate_id": "219889", "name": "Mike McGuire", "state": "CA", "district": "01", "party": "Democratic", "contest_id": "2026:house:CA:01:general:source_general",
+      "family": "official_biography", "url": "https://sd02.senate.ca.gov/news/mike-mcguire-sworn-state-senator",
+      "source_title": "California Senate: Mike McGuire sworn in, December 1, 2014",
+      "publication_date": "2014-12-01", "accessed_at": "2026-11-18",
+      "source_date_note": "Dated official state-Senate release; historical district 2 is not congressional district 1.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, North Coast/Healdsburg-area state senator and matching county-supervisor, mayoral and school-board history establish the same candidate, not John McGuire or unrelated sports coaches.",
+      "identity_fragments": ["Mike McGuire"],
+      "source_excerpts": ["Mike McGuire", "December 1, 2014", "county supervisor, mayor, school board president and small business manager"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_explicit_earlier_small_business_management_role_without_unreported_employer", "factual_reference_date": "Earlier work described at December 2014 swearing-in", "value": "Official release explicitly reports small-business management experience; no employer, dates or ownership stake is invented.", "source_fragment": "small business manager"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_named_local_office_history_and_state_senate_accession", "factual_reference_date": "State Senate oath December 1, 2014, following earlier local offices", "value": "Confirms county supervisor, mayor and school-board presidency before state Senate accession.", "source_fragment": "county supervisor, mayor, school board president", "supporting_fragments": ["December 1, 2014"]}
+      ],
+      "extraction_review": "Read entire release through office listings without collecting contact data. His newly hired staff's jobs are not additional prior government employment for him. No military negative follows from a civilian political career."
+    },
+    {
+      "id": "219889-complete-nspr-calmatters-explicit-gender-and-race",
+      "candidate_id": "219889", "name": "Mike McGuire", "state": "CA", "district": "01", "party": "Democratic", "contest_id": "2026:house:CA:01:general:source_general",
+      "family": "local_profile", "url": "https://www.mynspr.org/news/2024-02-05/mike-mcguire-wants-to-lift-up-every-person-as-new-california-senate-leader",
+      "source_title": "Alexei Koseff/CalMatters via NSPR: McGuire becomes California Senate leader",
+      "publication_date": "2024-02-05", "accessed_at": "2026-11-18",
+      "source_date_note": "NSPR displays February 5, 2024 at 8:01 PM PST. This is historical journalistic classification and contemporary service reporting, not own identity wording or a 2026 current-affiliation record.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Healdsburg Democrat, Sonoma County local offices and Senate leadership match the native CA01 candidate and dated official release. Unrelated architect, basketball-coach and Virginia politicians with similar names are rejected.",
+      "identity_fragments": ["Mike McGuire"],
+      "source_excerpts": ["Mike McGuire", "white man", "local school board at just 19", "Healdsburg city council", "Sonoma County board of supervisors", "Senate president pro tem"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "reliable_explicit_reporter_man_classification_not_photo_or_pronoun_inference", "factual_reference_date": "February 5, 2024 profile", "value": "Reporter explicitly describes McGuire as a man. This is a documented third-party classification, not self-report.", "source_fragment": "white man"},
+        {"trait": "race", "factual_status": "qualified", "precision": "reliable_explicit_reporter_white_classification_not_non_hispanic_imputation", "factual_reference_date": "February 5, 2024 profile", "value": "Reporter explicitly classifies him white. This does not establish non-Hispanic ethnicity or an exclusive analytical reference group.", "source_fragment": "white man"},
+        {"trait": "age", "factual_status": "partial", "precision": "reported_first_school_board_election_age_without_calendar_year_in_this_article", "factual_reference_date": "First local school-board election before February 2024", "value": "Reports age 19 at first school-board election without supplying its year; do not infer a birthdate from an unanchored event.", "source_fragment": "local school board at just 19"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_reporter_local_office_history_and_state_leadership", "factual_reference_date": "Earlier local offices and February 2024 Senate leadership", "value": "Corroborates city-council and county-supervisor roles and state Senate leadership.", "source_fragment": "Healdsburg city council", "supporting_fragments": ["Sonoma County board of supervisors", "Senate president pro tem"]}
+      ],
+      "extraction_review": "Read complete article through its final identity/representation quotation. Use explicit authored body text, not an image description or autogenerated visual-element caption. Other identity details not requested by this project are not collected. Religions of unrelated namesakes and public-policy positions are not his faith."
+    },
+    {
+      "id": "219903-official-2019-military-council-bounded-original",
+      "candidate_id": "219903", "name": "Jacqui Irwin", "state": "CA", "district": "26", "party": "Democratic", "contest_id": "2026:house:CA:26:general:source_general",
+      "family": "official_biography", "url": "https://militarycouncil.ca.gov/wp-content/uploads/sites/81/2019/02/Council-bios-02-04-2019.pdf",
+      "source_title": "Governor's Military Council biographies: bounded Jacqui Irwin subject on PDF page 6",
+      "publication_date": null, "accessed_at": "2026-11-18",
+      "source_date_note": "Filename/path identify February 4, 2019 edition; no printed publication statement located. Historical Assembly district 44 is not CA26.",
+      "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Assembly district 44, Thousand Oaks mayor and council, Teledyne and Johns Hopkins roles agree with campaign and 2016 appointment original.",
+      "identity_fragments": ["Jacqui Irwin"],
+      "source_excerpts": ["Jacqui Irwin", "Mayor of Thousand Oaks", "2004", "Teledyne Systems", "Johns Hopkins University Applied Physics Lab", "Bachelor of Science in Systems Engineering", "UC San Diego"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_bounded_subject_explicit_completed_ucsd_systems_engineering_bs", "factual_reference_date": "Degree completed before council/Assembly career, described in 2019 edition", "value": "Explicitly says graduated with a UC San Diego systems-engineering BS, corroborating the current official biography rather than accepting a search preview.", "source_fragment": "Bachelor of Science in Systems Engineering", "supporting_fragments": ["UC San Diego"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_bounded_subject_two_named_engineering_employers", "factual_reference_date": "Engineering before elected public service", "value": "Names Teledyne employment and Johns Hopkins University Applied Physics Lab engineering. Neighboring federal civil servants and military officers' jobs do not transfer.", "source_fragment": "Teledyne Systems", "supporting_fragments": ["Johns Hopkins University Applied Physics Lab"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_bounded_subject_2004_council_election_and_two_mayoral_terms", "factual_reference_date": "Council election 2004 and later mayor/Assembly service", "value": "Dates election to council to 2004 and reports two mayoral terms. Election date and the separate release's 2005 service-start description remain distinguishable.", "source_fragment": "Mayor of Thousand Oaks", "supporting_fragments": ["2004"]}
+      ],
+      "extraction_review": "Read exact subject on PDF page 6 through the all-four-years swimming sentence, bounded by Imbasciani before and Roth after. This is supplementary evidence from a selected original, not another first field. Council membership does not establish her own military service; Roth's 32 years of Air Force service and other members' religious/academic histories are not hers."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219929", "family": "local_profile", "query": "Hilda Solis Congress 2026 biography religion Catholic", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://history.house.gov/People/Detail/22566", "https://www.hildasolis.com/meet-hilda/"]},
+    {"candidate_id": "219929", "family": "official_biography", "query": "Check existing acquisition ledgers for exact URL, verify retained original hash, read full concise/extended biography and footnotes rather than its separate search preview.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://history.house.gov/People/Detail/22566"], "note": "Live URL redirects to official error page; accepted evidence comes from the independently hash-verified retained complete original, not the live error or a snippet."},
+    {"candidate_id": "219929", "family": "campaign", "query": "Read the selected native Meet Hilda original completely; retain older county reelection context.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.hildasolis.com/meet-hilda/"]},
+    {"candidate_id": "219929", "family": "earlier_biography", "query": "\"Hilda Solis\" \"Catholic\" \"faith\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.archbalt.org/labor-secretary-says-parents-example-of-faith-hard-work-shaped-her/"]},
+    {"candidate_id": "219929", "family": "university_employer_professional", "query": "\"Hilda Solis\" site:cpp.edu biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cpp.edu/news/content/2014/02/solis-journey-from-cal-poly-pomona-to-washington-d-c/index.shtml"]},
+    {"candidate_id": "219903", "family": "official_biography", "query": "Jacqui Irwin biography Navy engineer religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://militarycouncil.ca.gov/wp-content/uploads/sites/81/2019/02/Council-bios-02-04-2019.pdf"], "note": "Followed selected original and read the complete bounded subject on PDF page 6; no military fact accepted from neighboring appointees."},
+    {"candidate_id": "219903", "family": "campaign", "query": "Read full native roster campaign home page and inspect actual Learn more target.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://jacquiirwin.com"]},
+    {"candidate_id": "219903", "family": "earlier_biography", "query": "\"Jacqui Irwin\" \"Navy\" \"engineer\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://archive.gov.ca.gov/archive/gov39/2016/03/21/news19351/index.html"]},
+    {"candidate_id": "219903", "family": "official_biography", "query": "\"Jacqui Irwin\" site:asmdc.org biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://irwin.asmdc.org/biography"]},
+    {"candidate_id": "219903", "family": "local_profile", "query": "\"Jacqui Irwin\" \"religion\" \"military\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": [], "note": "Returned policy/advocacy references did not establish her own religious affiliation or personal service. No absence or universal-negative claim."},
+    {"candidate_id": "219903", "family": "local_profile", "query": "\"Jacqui Irwin\" \"white\" \"Jewish\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": [], "note": "No qualifying own identity or reliable named classification was accepted; this does not establish a negative identity."},
+    {"candidate_id": "219889", "family": "local_profile", "query": "Mike McGuire biography faith Catholic 2026 Congress", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://chico.newsreview.com/2026/05/04/cnrs-interview-with-state-senator-mike-mcguire/"], "lead_dispositions": {"https://chico.newsreview.com/2026/05/04/cnrs-interview-with-state-senator-mike-mcguire/": {"status": "access_failure", "reason": "Underlying reader returned Failed to fetch restricted URL on November 18. No bypass or factual acceptance from snippet."}}},
+    {"candidate_id": "219889", "family": "local_profile", "query": "\"Mike McGuire\" \"white man\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.mynspr.org/news/2024-02-05/mike-mcguire-wants-to-lift-up-every-person-as-new-california-senate-leader"], "note": "Followed and read full authored body. Unrelated coaches/architects and generated photograph descriptions were not accepted classifications."},
+    {"candidate_id": "219889", "family": "earlier_biography", "query": "\"Mike McGuire\" \"Catholic\" -John -basketball -coach", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": [], "note": "Unrelated obituaries and sports references do not establish this candidate's religion. No negative affiliation asserted."},
+    {"candidate_id": "219889", "family": "official_biography", "query": "\"Mike McGuire\" site:senate.ca.gov biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sd02.senate.ca.gov/news/mike-mcguire-sworn-state-senator", "https://democrats.senate.ca.gov/senator/mcguire"], "lead_dispositions": {"https://democrats.senate.ca.gov/senator/mcguire": {"status": "reviewed_no_requested_facts", "reason": "Read full official short biography and distinguish emeritus heading from stale assistant-leader body. No new requested trait fact beyond existing state office and unanchored work-from-16 account. Partner's school job, family farming and unspecified college attendance do not supply his government job, farming occupation or completed degree."}}},
+    {"candidate_id": "219889", "family": "local_profile", "query": "Follow the Sonoma Magazine biographical original actually linked by the read NSPR/CalMatters profile.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.sonomamag.com/mike-mcguire-steps-into-a-powerful-new-role/"], "lead_dispositions": {"https://www.sonomamag.com/mike-mcguire-steps-into-a-powerful-new-role/": {"status": "access_failure", "reason": "Underlying reader returned Failed to fetch restricted URL; no bypass or acceptance from search teaser."}}},
+    {"candidate_id": "219889", "family": "campaign", "query": "Read native roster campaign home and follow its actual About link; read complete About original.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["http://www.votemikemcguire.com/", "https://www.votemikemcguire.com/about"], "lead_dispositions": {"http://www.votemikemcguire.com/": {"status": "reviewed_no_requested_facts", "reason": "Home redirects ordinarily to HTTPS and links the full About page accepted separately. Policy statements add no further requested biographical facts; photographs and relatives are not coded."}}}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "219929", "note": "Read actual 2026 questionnaire originals and the embedded Cal Poly interview before claiming those passes complete. Seek explicit racial/current-religious/military evidence rather than extending a historical Catholic observation or deriving race from Latina. The county biography and institutional student-access employment history remain useful follow-ups."},
+    {"candidate_id": "219903", "note": "Selected 2019 council original is now fully read. Pursue UC San Diego/Johns Hopkins institutional records, dated local interviews and actual questionnaire answers across all ten traits. The explicitly uncompensated council role does not establish universal no-government-employment or personal military service."},
+    {"candidate_id": "219889", "note": "Selected Chico and Sonoma originals returned restricted-reader failures; caucus profile is now read. Seek independent university/employer and actual questionnaire originals, and investigate current faith, personal service and non-elected public-employment gaps. White classification does not supply non-Hispanic ethnicity."}
+  ],
+  "withheld_documents": [
+    {"id": "219889-chico-selected-interview-restricted-reader", "candidate_id": "219889", "url": "https://chico.newsreview.com/2026/05/04/cnrs-interview-with-state-senator-mike-mcguire/", "status": "access_failure", "reason": "Underlying original reader returned Failed to fetch restricted URL on November 18, 2026. No bypass, retry or teaser-derived claims.", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"]},
+    {"id": "219889-sonoma-selected-linked-biography-restricted-reader", "candidate_id": "219889", "url": "https://www.sonomamag.com/mike-mcguire-steps-into-a-powerful-new-role/", "status": "access_failure", "reason": "Underlying original reader returned Failed to fetch restricted URL on November 18, 2026. No bypass, retry or teaser-derived claims.", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"]}
+  ],
+  "unaccepted_review_notes": [
+    {"candidate_id": "219929", "query": "\"Hilda Solis\" questionnaire 2026", "searched_at": "2026-11-18", "note": "Discovery returned an SCNG questionnaire teaser and LCV questionnaire extract. Underlying originals have not been read or accepted; do not treat empty Election.org questions as nonresponse or trait negatives."},
+    {"candidate_id": "219929", "query": "\"Sixty Catholic Democrats\" \"Solis\"", "searched_at": "2026-11-18", "note": "No additional statement original accepted; dated own interview supplies historical affiliation independently."},
+    {"candidate_id": "219889", "query": "\"Mike McGuire\" \"religion\" \"veteran\"", "searched_at": "2026-11-18", "note": "Combined result packet did not retain a qualifying candidate-specific original. No faith/service assertion accepted or exhaustive search claimed."}
+  ]
+}

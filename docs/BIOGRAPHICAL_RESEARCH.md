@@ -53,24 +53,69 @@ Von Wilpert's complete campaign reading and dated civilian-service profile add
 no first-evidence fields: neither relatives' military service nor a Catholic
 policy guide establishes her own service or affiliation.
 
-Together these two batches add 13 first-evidence and seven first-qualified
-fields, all among ten known Democratic nonincumbents. The factual product now
-has 547 document reviews, 1,484 claims, 232 first-evidence fields and 131
-first-qualified fields since the frozen factual baseline. Twelve candidates
-have completed passes, 140 are in progress and 1,132 remain unresearched.
-Among 449 Democrats, the respective counts are 12, 115 and 322; among the 266
-known Democratic nonincumbents, they are 12, 111 and 143.
+Together these two batches added 13 first-evidence and seven first-qualified
+fields, all among ten known Democratic nonincumbents, at checkpoint `61b3c89`.
 
 All ten new passes remain open. Their journals retain concrete questionnaire,
 institutional, official-biography, interview and explicit identity/service leads.
 Pan's two attempted PDF originals returned 403; von Wilpert's attempted city
 staff path returned 404. Those specific failures do not establish unavailable
-facts or exhausted source families. The selected Hernandez women's political
-alliance questionnaire and Wiener's CBS interview remain unreviewed originals,
-not accepted evidence. Comprehensive biographical acquisition is **not complete**.
-Continue these leads and the national roster; do not treat dispositions or this
-checkpoint as a reason to stop. Frozen analytical samples and predictions are
-unchanged.
+facts or exhausted source families. Subsequent institutional follow-ups read
+the selected Hernandez women's political alliance questionnaire and Wiener's
+CBS interview. They are no longer unread leads. Comprehensive biographical
+acquisition is **not complete**. Continue remaining leads and the national
+roster; do not treat dispositions or this checkpoint as a reason to stop.
+Frozen analytical samples and predictions are unchanged.
+
+## Further national and Michigan/Minnesota acquisition
+
+The continuation after `61b3c89` adds 86 document reviews and 277 claims, with
+21 first-evidence fields and 16 first-qualified fields, all among known
+Democratic nonincumbents. First fields comprise five ages, five genders, two
+race classifications, three ethnic identifications, three religious
+observations, one prior-office claim and two government-employment fields.
+These are field counts, not 21 newly researched people or 21 model values.
+
+The Miller/Garcia/Allen/Koh/Ambrose and Solis/Irwin/McGuire journals and
+follow-ups preserve explicit identity and affiliation evidence separately from
+dated ages, ancestry and credentials requiring further verification. Scoped
+never-elected evidence is not a military or government-employment negative.
+Restricted originals remain blocked; they were not replaced with snippets.
+
+The Michigan continuation reads the complete retained campaign biographies
+and re-extracts five matched background blocks from the hash-verified statewide
+League of Women Voters guide. This retained-original work adds no first fields.
+The guide preserves candidate-submitted wording, not independently certified
+credentials. Barr's event-anchored age remains partial; a blocked township
+minute does not establish an appointment. Vukasovich's completed degrees,
+Pooley's college attendance, Hines's prosecutor roles and McKinney's explicit
+bachelor's retain their different precision and employment timing.
+
+The Moss/McCann/Lawrence/Chapin/Osberg/Swanson/Little batch contributes 19
+document reviews and 68 claims. Its five first fields are Moss's and McCann's
+official source-defined gender, Osberg's own election-day age, Swanson's dated
+age and her civilian federal employment. Four become qualified; Swanson's age
+remains a dated interval rather than an invented birth date or exact election
+age. Chapin's degrees and Senate staff role, Osberg's actual secondary-school
+completion and Swanson's education/profession qualify existing reports, not
+first acquisition. Osberg's college attendance does not establish a degree.
+Library blanks and Little's "None Reported" minority field are not negatives.
+Every candidate in these new batches still has an open research pass.
+
+The factual product now has 633 document reviews, 1,761 claims, 253
+first-evidence fields and 147 first-qualified fields since the frozen factual
+baseline. Twelve candidates have completed passes, 160 are in progress and
+1,112 remain unresearched. Among 449 Democrats, the respective counts are
+12, 135 and 302; among 266 known Democratic nonincumbents, they are
+12, 131 and 123. Completed-plus-active is not completed-pass coverage.
+
+Concrete next sources include Little's native campaign site, Chapin's selected
+underlying interview and institutional biography, Osberg's official county and
+university sources, Swanson's agency/alumni biographies, and the remaining
+Michigan questionnaire, local and institutional families. The Carver
+questionnaire and selected Richards Publishing profile timed out; the old
+Osberg campaign path returned 404 and the Detroit Lakes original was restricted.
+These individual failures do not exhaust other sources or the national roster.
 
 ## What counts as research
 
