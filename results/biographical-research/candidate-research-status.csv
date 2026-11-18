@@ -48,10 +48,10 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220131,James Martin,FL,21,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",2,"[""http://jamesmartinforflorida.com/""]"
 220102,James Pericola,FL,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,[]
 220098,Jennifer Jenkins,FL,08,Democratic,nonincumbent,in_progress,[],3,"[""https://www.jenkinsforfl.com""]"
-220117,Kelly Kirschner,FL,16,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kellykirschner.com""]"
-220106,Kimberly Overman,FL,12,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kimberlyoverman.com""]"
+220117,Kelly Kirschner,FL,16,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",11,"[""https://www.kellykirschner.com""]"
+220106,Kimberly Overman,FL,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",14,"[""https://kimberlyoverman.com""]"
 220086,LaShonda Holloway,FL,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.hollowayforcongress.com""]"
-220108,Leela Gray,FL,13,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://leelagray.com""]"
+220108,Leela Gray,FL,13,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://leelagray.com""]"
 220119,Matthew Montavon,FL,17,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.montavonforcongress.com""]"
 220144,Nicole Locklin,FL,26,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://locklinforcongress.com""]"
 220139,Oliver Gilbert,FL,24,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://olivergilbert.vote""]"
@@ -113,9 +113,9 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220454,"Patrick ""Pat"" Forbes",LA,06,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://patforbes.com""]"
 220432,Priscilla Gonzalez,LA,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",6,[]
 220751,Dan Koh,MA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kohforcongress.com/""]"
-220484,Adrian Boafo,MD,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.adrianboafo.com/""]"
-220475,Dan Schwartz,MD,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://schwartzforcongress.com""]"
-220468,Matthew Dunlap,ME,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",4,"[""https://www.mattdunlapforuscongress.com""]"
+220484,Adrian Boafo,MD,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://www.adrianboafo.com/""]"
+220475,Dan Schwartz,MD,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,"[""https://schwartzforcongress.com""]"
+220468,Matthew Dunlap,ME,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://www.mattdunlapforuscongress.com""]"
 220509,Benjamin Ambrose,MI,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.ambrose4congress.com""]"
 220502,Callie Barr,MI,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://callieforcongress.com""]"
 220519,Christian Vukasovich,MI,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://christian4michigan.com""]"
@@ -353,10 +353,10 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220744,Lori Loureiro Trahan,MA,03,Democratic,incumbent,not_yet_researched,[],0,"[""http://www.loritrahan.com""]"
 220741,Richard E. Neal,MA,01,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.nealforcongress.com""]"
 220753,Stephen F. Lynch,MA,08,Democratic,incumbent,not_yet_researched,[],0,"[""https://stephenflynch.com""]"
-220486,April McClain Delaney,MD,06,Democratic,incumbent,not_yet_researched,[],0,"[""https://aprilmcclaindelaneyforcongress.com""]"
-220481,Glenn Ivey,MD,04,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.iveyforcongress.com""]"
-220491,Jamie Raskin,MD,08,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.jamieraskin.com""]"
-220477,Johnny Olszewski,MD,02,Democratic,incumbent,not_yet_researched,[],0,"[""https://gojohnnyo.com/""]"
+220486,April McClain Delaney,MD,06,Democratic,incumbent,in_progress,"[""official_biography""]",2,"[""https://aprilmcclaindelaneyforcongress.com""]"
+220481,Glenn Ivey,MD,04,Democratic,incumbent,in_progress,"[""official_biography""]",1,"[""https://www.iveyforcongress.com""]"
+220491,Jamie Raskin,MD,08,Democratic,incumbent,in_progress,"[""local_profile""]",1,"[""https://www.jamieraskin.com""]"
+220477,Johnny Olszewski,MD,02,Democratic,incumbent,in_progress,"[""campaign""]",1,"[""https://gojohnnyo.com/""]"
 220489,Kweisi Mfume,MD,07,Democratic,incumbent,not_yet_researched,[],0,"[""https://mfumeforcongress.com""]"
 220479,Sarah Elfreth,MD,03,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.elfrethformaryland.com""]"
 220466,Chellie Pingree,ME,01,Democratic,incumbent,not_yet_researched,[],0,"[""http://www.chelliepingree.com""]"
@@ -457,7 +457,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 219974,Christy Peterson,CO,01,Republican,nonincumbent,not_yet_researched,[],0,"[""https://christyforamerica.us""]"
 220036,Amy Chai,CT,01,Republican,nonincumbent,not_yet_researched,[],0,"[""https://chaiforcongress.com/""]"
 220136,Deborah Adeimy,FL,23,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.debadeimy4congress.com""]"
-220116,Sydney Gruters,FL,16,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.grutersforcongress.com""]"
+220116,Sydney Gruters,FL,16,Republican,nonincumbent,in_progress,"[""local_profile""]",1,"[""https://www.grutersforcongress.com""]"
 220268,Angel Oakley,IL,03,Republican,nonincumbent,not_yet_researched,[],0,"[""https://libertyangel.us""]"
 220280,Jennifer Davis,IL,08,Republican,nonincumbent,not_yet_researched,[],0,[]
 220282,John Elleson,IL,09,Republican,nonincumbent,not_yet_researched,[],0,[]
@@ -468,7 +468,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220402,Maria Teresa Rodriguez,KY,03,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.mariaforuscongress.com""]"
 220442,Misti Cordell,LA,05,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.cordellforcongress.com""]"
 220450,Monique Appeaning,LA,06,Republican,nonincumbent,not_yet_researched,[],0,[]
-220492,Cheryl Riley,MD,08,Republican,nonincumbent,not_yet_researched,[],0,[]
+220492,Cheryl Riley,MD,08,Republican,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",2,[]
 220525,Heather Smiley,MI,06,Republican,nonincumbent,not_yet_researched,[],0,"[""https://smileyforcongress.com""]"
 220560,T.P. Nykoriak,MI,13,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.tp313.org""]"
 220514,Terri DeBoer,MI,03,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.terrideboerforcongress.com""]"
@@ -590,7 +590,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220133,Alexander Cooke,FL,21,Independent,unresolved,in_progress,[],1,[]
 220093,Andrew Parrott,FL,06,Libertarian,unresolved,not_yet_researched,[],0,[]
 220081,Austin Rogers,FL,02,Republican,unresolved,not_yet_researched,[],0,"[""https://rogersforflorida.com""]"
-220107,Branden Scrivener,FL,12,Independent,unresolved,not_yet_researched,[],0,[]
+220107,Branden Scrivener,FL,12,Independent,unresolved,in_progress,"[""ballotpedia_questionnaire""]",2,[]
 220128,Brent Andersen,FL,20,Republican,unresolved,not_yet_researched,[],0,[]
 220113,Brian Lambert,FL,14,Libertarian,unresolved,not_yet_researched,[],0,[]
 220134,Casey Askar,FL,22,Republican,unresolved,not_yet_researched,[],0,"[""https://www.caseyaskar.com""]"
@@ -614,7 +614,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220141,Scott Singer,FL,25,Republican,unresolved,not_yet_researched,[],0,"[""https://scottsingerusa.com""]"
 220127,Seth Haskin,FL,19,Independent,unresolved,not_yet_researched,[],0,[]
 220088,Todd Schaefer,FL,04,Independent,unresolved,not_yet_researched,[],0,[]
-220110,Tony D'Arrigo,FL,13,Independent,unresolved,not_yet_researched,[],0,[]
+220110,Tony D'Arrigo,FL,13,Independent,unresolved,in_progress,"[""ballotpedia_questionnaire""]",1,[]
 220079,Tyler L. Davis,FL,01,Independent,unresolved,not_yet_researched,[],0,[]
 220189,Houston Gaines,GA,10,Republican,unresolved,not_yet_researched,[],0,"[""https://www.houstongaines.com""]"
 220178,James Duffie,GA,04,Republican,unresolved,not_yet_researched,[],0,[]
@@ -699,20 +699,20 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220755,Rasheed Nicholas Walters,MA,08,Independent,unresolved,not_yet_researched,[],0,[]
 220754,Robert G. Burke,MA,08,Republican,unresolved,not_yet_researched,[],0,[]
 220748,Thomas Stalcup,MA,04,Republican,unresolved,not_yet_researched,[],0,"[""https://tomstalcup.com""]"
-220480,Berney Flowers,MD,03,Republican,unresolved,not_yet_researched,[],0,[]
-220485,Chris Chaffee,MD,05,Republican,unresolved,not_yet_researched,[],0,[]
-220478,Dave Wallace,MD,02,Republican,unresolved,not_yet_researched,[],0,[]
-39942999,Edward Shlikas,MD,01,Write-In,unresolved,not_yet_researched,[],0,[]
+220480,Berney Flowers,MD,03,Republican,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,[]
+220485,Chris Chaffee,MD,05,Republican,unresolved,in_progress,"[""earlier_biography""]",2,[]
+220478,Dave Wallace,MD,02,Republican,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,[]
+39942999,Edward Shlikas,MD,01,Write-In,unresolved,in_progress,"[""local_profile""]",1,[]
 220482,George McDermott,MD,04,Republican,unresolved,not_yet_researched,[],0,[]
 39943058,Mildred Marie Hall,MD,05,Write-In,unresolved,not_yet_researched,[],0,[]
-220488,Moshe Y. Landman,MD,06,Green,unresolved,not_yet_researched,[],0,[]
-220493,Nancy Wallace,MD,08,Green,unresolved,not_yet_researched,[],0,[]
+220488,Moshe Y. Landman,MD,06,Green,unresolved,in_progress,"[""campaign""]",1,[]
+220493,Nancy Wallace,MD,08,Green,unresolved,in_progress,"[""earlier_biography"", ""local_profile""]",2,[]
 39943048,Robert L. Coffman,MD,03,Write-In,unresolved,not_yet_researched,[],0,[]
 220487,Robin Ficker,MD,06,Republican,unresolved,not_yet_researched,[],0,"[""https://voteficker.com/""]"
-220483,Sam Husseini,MD,04,Green,unresolved,not_yet_researched,[],0,[]
-220490,Scott Collier,MD,07,Republican,unresolved,not_yet_researched,[],0,[]
-220469,Paul LePage,ME,02,Republican,unresolved,not_yet_researched,[],0,"[""https://lepageforcongress.com""]"
-220467,Ronald Russell,ME,01,Republican,unresolved,not_yet_researched,[],0,"[""https://ronrussellforcongress.com""]"
+220483,Sam Husseini,MD,04,Green,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",4,[]
+220490,Scott Collier,MD,07,Republican,unresolved,in_progress,"[""ballotpedia_questionnaire""]",1,[]
+220469,Paul LePage,ME,02,Republican,unresolved,in_progress,"[""campaign"", ""official_biography""]",2,"[""https://lepageforcongress.com""]"
+220467,Ronald Russell,ME,01,Republican,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",4,"[""https://ronrussellforcongress.com""]"
 220548,Andrea L. Kirby,MI,10,Working Class,unresolved,not_yet_researched,[],0,[]
 220553,Anil Kumar,MI,11,No Party Affiliation,unresolved,not_yet_researched,[],0,[]
 220504,Arnett Satterla,MI,01,Libertarian,unresolved,not_yet_researched,[],0,[]

@@ -1,0 +1,263 @@
+{
+  "scope": "Investigate all ten background traits for retained FL12 Democratic nonincumbent Kimberly Overman across campaign, complete current/earlier questionnaire, official record, local profile, professional and earlier biographies. Source-defined Christian header remains partial without direct affiliation provenance; no inference from endorsers or family.",
+  "documents": [
+    {
+      "id": "220106-full-current-campaign-biography",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "campaign", "url": "https://kimberlyoverman.com/meet-kimberly/", "source_title": "Meet Kimberly: complete campaign biography and service lists",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native campaign domain, FL12 candidacy and Hillsborough District 7 commissioner history match exact retained candidate.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Certified Financial Planner designation", "advisory firm", "Hillsborough County Commissioner from 2018 to 2022", "Bachelor of Science", "University of Maryland"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_financial_planning_and_business_career", "factual_reference_date": "Historical careers described in 2026 campaign", "value": "Built financial-advisory firm and held CFP designation; later retirement is documented separately", "source_fragment": "advisory firm", "supporting_fragments": ["Certified Financial Planner designation"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_named_bachelors_and_professional_designation", "factual_reference_date": "Before campaign; no degree year supplied here", "value": "Maryland BS in Agricultural and Resource Economics; earned CFP designation, not a second academic degree", "source_fragment": "Bachelor of Science", "supporting_fragments": ["University of Maryland", "Certified Financial Planner designation"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_explicit_county_office_and_term", "factual_reference_date": "2018-2022", "value": "Hillsborough commissioner and commission chair; listed advisory/liaison boards do not independently establish paid non-elected employment", "source_fragment": "Hillsborough County Commissioner from 2018 to 2022"}
+      ],
+      "extraction_review": "Read full biography, boards and community-leadership lists. Military support, MacDill liaison and caucus memberships do not establish personal military service, religion, race or ethnicity. No age supplied."
+    },
+    {
+      "id": "220106-dated-redistricting-and-retirement-original",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "campaign",
+      "url": "https://kimberlyoverman.com/news-and-events/press-releases/an-important-update-about-the-overman-for-congress-campaign-a-message-from-kimberly-overman-to-supporters/",
+      "source_title": "Own dated district-change statement and biographical retirement clarification",
+      "publication_date": "2026-05-04", "source_date_note": "Visible statement date; biographical boilerplate can be updated later and is not independently archived to May 4.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own statement explicitly bridges earlier FL15 campaign to new FL12; no assumption that district number never changes.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "retired it when she retired from practice", "Certified Financial Planner", "2018 to 2022"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_retired_financial_practice", "factual_reference_date": "Biographical boilerplate observed November 18, 2026; statement dated May 4", "value": "Financial-planning career and formerly held CFP; explicitly retired designation on leaving practice. Do not copy stale current-CFP claims", "source_fragment": "retired it when she retired from practice", "supporting_fragments": ["Certified Financial Planner"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_historical_county_term", "factual_reference_date": "2018-2022", "value": "Former Hillsborough commissioner, District 7 at-large; current FL12 candidacy is not federal incumbency", "source_fragment": "2018 to 2022"}
+      ],
+      "extraction_review": "Full statement and repeated About boilerplate read. Retirement concerns practice/designation, not proof she stopped every nonprofit or public role. No age or service negative."
+    },
+    {
+      "id": "220106-complete-current-and-earlier-candidate-connection",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Kimberly_Overman", "source_title": "Overman: biography, full FL12 answers and earlier FL15 2025 survey",
+      "publication_date": null, "source_date_note": "Footnote dates earlier FL15 submission September 14, 2025; current FL12 answer submission day not established. Header can change.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own campaign district-change original bridges FL15/FL12; exact county commissioner and campaign link match native person.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Christian", "1981", "1988", "Business owner", "As a woman", "U.S. Park Police", "both as an employee and as an elected official", "University of Maryland"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_own_woman_description", "factual_reference_date": "Current FL12 survey recounting early career", "value": "Explicit own woman self-description, not inference from name, photograph or parenthood", "source_fragment": "As a woman"},
+        {"trait": "religion", "factual_status": "partial", "precision": "publisher_header_christian_without_direct_affiliation_provenance", "factual_reference_date": "Undated header observed November 18, 2026", "value": "Header labels Christian; personal affiliation date and underlying attribution are unspecified", "source_fragment": "Christian"},
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_bachelors_and_separate_additional_study", "factual_reference_date": "Bachelor's 1981 here; additional study 1988", "value": "Completed Maryland bachelor's; financial-planning study is not another degree", "source_fragment": "1981", "supporting_fragments": ["University of Maryland", "1988"], "unresolved_details": ["Bachelor's year 1981 here versus 1982 in Courier; completed degree itself is corroborated."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_early_jobs_and_retired_financial_career", "factual_reference_date": "Early jobs and career before current campaign", "value": "Babysitting, stable work, Merrill Lynch and financial-planning/business career; NOAA internship not assumed paid", "source_fragment": "Business owner", "supporting_fragments": ["U.S. Park Police"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_elected_office_separate_from_employment", "factual_reference_date": "Before 2025 survey", "value": "Own elected-office affirmation; county term independently documented", "source_fragment": "both as an employee and as an elected official"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_employee_distinction_and_named_summer_public_job", "factual_reference_date": "Park Police summers during college; employee affirmation in 2025 survey", "value": "Own government-employee affirmation plus Park Police groom/stable work helping pay college; not elected/advisory service", "source_fragment": "both as an employee and as an elected official", "supporting_fragments": ["U.S. Park Police"]}
+      ],
+      "extraction_review": "Both surveys read through ending notices. Childhood-event memories do not supply a dated age. No own race/ethnicity or military negative; endorsements and civilian Park Police work are not military."
+    },
+    {
+      "id": "220106-courier-full-election-profile",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "local_profile", "url": "https://landolakeslutzcourier.com/articles/kimberly-overman-challenges-bilirakis-in-cd-12-race-mvjo9b9u",
+      "source_title": "Kimberly Overman challenges Bilirakis in CD12",
+      "publication_date": "2026-10-23", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL12 Democrat facing retained Bilirakis/Scrivener; biography links actual campaign and county service.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "1982", "1976", "Hillsborough County commissioner from 2018 to 2022", "Housing Leadership Council of Tampa Bay", "The Financial Well"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_bachelors_and_high_school_diploma", "factual_reference_date": "Reports bachelor's 1982 and diploma 1976", "value": "Maryland agricultural-resource economics bachelor's and Woodrow Wilson diploma. Do not derive age from school dates", "source_fragment": "1982", "supporting_fragments": ["1976"], "unresolved_details": ["1982 bachelor's year differs from Ballotpedia's 1981; no silent choice or invented second degree."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_multiple_financial_and_housing_roles", "factual_reference_date": "Historical roles summarized October 2026", "value": "Financial Well/Heights Exchange businesses and Housing Leadership Council leadership; reported current CFP is superseded by own explicit retirement", "source_fragment": "Housing Leadership Council of Tampa Bay", "supporting_fragments": ["The Financial Well"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_county_term_and_chair_role", "factual_reference_date": "2018-2022", "value": "County commission service, including chair; not proof of distinct non-elected government employment", "source_fragment": "Hillsborough County commissioner from 2018 to 2022"}
+      ],
+      "extraction_review": "Read full article including source links and endorsement list. Endorsements, school years and photographer/editor biography not candidate identities or age."
+    },
+    {
+      "id": "220106-own-2018-professional-campaign-biography",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "earlier_biography",
+      "url": "https://www.linkedin.com/pulse/kimberly-overman-runs-hillsborough-county-commission-overman-cfp",
+      "source_title": "Own complete 2018 professional biography and county campaign announcement",
+      "publication_date": "2018-08-02", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named author, exact District 7 campaign, same Financial Well/Heights Exchange businesses and campaign-domain email bridge current nominee.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Certified Financial Planner", "CEO of The Financial Well, Inc.", "The Heights Exchange, LLC", "Bachelor of Science", "University of Maryland"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_named_completed_bachelor_and_professional_credential", "factual_reference_date": "Before August 2018", "value": "Maryland BS in Agricultural and Resource Economics; then CFP. No award year here or additional completed degree inferred", "source_fragment": "Bachelor of Science", "supporting_fragments": ["University of Maryland", "Certified Financial Planner"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_own_named_financial_and_property_businesses", "factual_reference_date": "August 2018", "value": "Financial Well CEO and Heights Exchange owner; historical credential standing not copied as current", "source_fragment": "CEO of The Financial Well, Inc.", "supporting_fragments": ["The Heights Exchange, LLC"]}
+      ],
+      "extraction_review": "Read complete original through paid-for approval. Government advisory roles explicitly framed as volunteering, not paid jobs; no own-service negative or sensitive classification. Running in 2018 does not establish no earlier office."
+    },
+    {
+      "id": "220106-moaa-full-speaker-biography",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.moaatampa.org/wp-content/uploads/2022/03/September-2021.pdf",
+      "source_title": "MOAA Tampa Retrospect: September 2021, page 4 speaker biography",
+      "publication_date": "2021-09", "source_date_note": "Printed issue month; URL's March 2022 upload is distinct.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Hillsborough District 7 vice chair and same Maryland/financial-business career; next speaker's admiral rank is not hers.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "elected to the County Commission in 2018", "Bachelor of Science", "University of Maryland", "Certified Financial Planner", "former CEO", "The Heights Exchange"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_speaker_bio_completed_named_bachelor", "factual_reference_date": "Before September 2021", "value": "Maryland agricultural/resource-economics BS and then CFP standing; no degree year supplied", "source_fragment": "Bachelor of Science", "supporting_fragments": ["University of Maryland", "Certified Financial Planner"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_historical_financial_and_property_roles", "factual_reference_date": "September 2021 reference period", "value": "Financial planning, former investment-firm CEO and Heights Exchange owner", "source_fragment": "former CEO", "supporting_fragments": ["The Heights Exchange"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "named_county_election_year_and_vice_chair", "factual_reference_date": "Elected 2018; vice chair in 2021 issue", "value": "Elected Hillsborough commissioner; guest-speaker appearance is not military service or membership evidence", "source_fragment": "elected to the County Commission in 2018"}
+      ],
+      "extraction_review": "Visually checked complete page 4 and column/subject boundaries. Board liaisons do not establish military or paid civilian employment. Editor's Navy rank, adjacent admiral and MOAA membership rules not assigned to candidate."
+    },
+    {
+      "id": "220106-official-county-chair-certification",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "official_biography", "url": "https://hillsclerk.com/documents/d/guest/annual-local-govt-financial-report-2021?download=true",
+      "source_title": "Official county FY2021 annual financial-report certification: exact elected-chair column",
+      "publication_date": null, "source_date_note": "FY2021 report; certification pages dated June 22/29, 2022. Not a complete biography.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, county and commission chair role match native nominee's term and own campaign; adjacent Cindy Stuart is a different officer.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Chairman/Elected Official", "Chairman, Hillsborough County Board of County Commissioners"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_certification_identifies_elected_county_chair", "factual_reference_date": "June 2022 certification", "value": "County commission chair in elected-official certification column. CFO is Cindy Stuart; do not convert table adjacency into another Overman job", "source_fragment": "Chairman/Elected Official", "supporting_fragments": ["Chairman, Hillsborough County Board of County Commissioners"]}
+      ],
+      "extraction_review": "Visually checked page 1 columns and June certification headings. Primary office corroboration only, not a DOB, personal identity, separate government-employment or military-service record."
+    },
+    {
+      "id": "220106-starrs-complete-personal-background-answer",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://starrs.us/candidate-survey-2026-what-else-would-you-like-us-to-know-about-you/",
+      "source_title": "STARRS question 10: complete Overman FL12 response",
+      "publication_date": "2026-09-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact first/surname, Florida and congressional district in table row; actual own campaign independently bridges county office.",
+      "identity_fragments": ["Kimberly", "Overman"],
+      "source_excerpts": ["Kimberly", "Overman", "small business owner", "financial professional", "former Hillsborough County Commissioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_financial_and_small_business_career", "factual_reference_date": "September 2026 answer", "value": "Own small-business and financial-professional background, supplementary to earlier named businesses", "source_fragment": "financial professional", "supporting_fragments": ["small business owner"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_former_county_office", "factual_reference_date": "Before September 2026", "value": "Former Hillsborough commissioner; veterans policy support is not personal service or explicit nonservice", "source_fragment": "former Hillsborough County Commissioner"}
+      ],
+      "extraction_review": "Read full own row, question and neighboring boundaries. Other respondents' Christian/Native American classifications, ages and military service do not transfer. No service negative or affiliation declared by Overman."
+    },
+    {
+      "id": "220106-underlying-housing-council-board-biography",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "university_employer_professional", "url": "https://hlctb.org/board-members/", "source_title": "Actual Housing Leadership Council board biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, same housing organization, Tampa Bay and financial-planning career; neighboring board members' degrees and government jobs excluded.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Founder/Board Member", "Certified Financial Planner (CFP)", "economist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "organization_original_founder_board_and_financial_career", "factual_reference_date": "Undated directory observed November 18, 2026", "value": "Housing-council founder/board member, economist and financial-planning career; board role not automatically paid. Current-CFP wording may be stale relative to own retirement", "source_fragment": "Founder/Board Member", "supporting_fragments": ["economist", "Certified Financial Planner (CFP)"]}
+      ],
+      "extraction_review": "Read complete own paragraph and headings. Latoria Boyd is directory president; no silent claim Overman still holds that title. No award year, age, personal affiliation or military fact."
+    },
+    {
+      "id": "220106-housing-council-2025-speaker-original",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "university_employer_professional",
+      "url": "https://hlctb.org/events/2025-tampa-bay-regional-affordable-housing-forum/speakers/",
+      "source_title": "2025 housing-forum speaker biography on organization's own site",
+      "publication_date": null, "source_date_note": "Event explicitly labeled 2025; undated page can be updated later.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, housing-council founder, Financial Well and Hillsborough commissioner; next speaker's biography not hers.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "Founder of Housing Leadership Council of Tampa Bay", "President and CEO of The Financial Well, Inc.", "Former County Commissioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "organization_event_bio_distinguishes_two_organizations", "factual_reference_date": "2025 event context, precise update date unknown", "value": "Council founder and Financial Well president/CEO; latter title belongs to advisory firm, not automatically the council. Own later practice retirement retained", "source_fragment": "President and CEO of The Financial Well, Inc.", "supporting_fragments": ["Founder of Housing Leadership Council of Tampa Bay"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "organization_bio_explicit_former_county_office", "factual_reference_date": "Before 2025 forum", "value": "Former Hillsborough county commissioner; no additional office or term year inferred here", "source_fragment": "Former County Commissioner"}
+      ],
+      "extraction_review": "Read full own heading and two paragraphs, not just search excerpt. Other speakers' degrees and jobs excluded; no age or personal sensitive classification."
+    },
+    {
+      "id": "220106-own-professional-profile-credential-and-volunteer-boundaries",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.linkedin.com/in/koverman",
+      "source_title": "Actual public professional profile: visible credentials, education and volunteer roles",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own linked campaign, FL12 candidacy, earlier authored county campaign and exact organization names bridge native person.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "College for Financial Planning", "1986 - 1989", "Issued Jul 1989 Expires Jan 2025", "President and CEO", "May 2023"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "visible_study_dates_and_credential_not_unlabeled_degree_inference", "factual_reference_date": "Financial-planning study 1986-1989; displayed credential July 1989-January 2025", "value": "Visible financial-planning study and CFP dates; hidden university labels prevent assigning displayed 1976-1981/1982 ranges to a particular degree", "source_fragment": "College for Financial Planning", "supporting_fragments": ["1986 - 1989", "Issued Jul 1989 Expires Jan 2025"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_council_role_explicitly_in_volunteer_section", "factual_reference_date": "Lists from May 2023 to present; retrieval is not dated appointment verification", "value": "Housing-council president/CEO listed under volunteer experience, not proof of paid employment. Credential expiry corroborates noncurrent CFP, not exact practice-retirement day", "source_fragment": "President and CEO", "supporting_fragments": ["May 2023", "Issued Jul 1989 Expires Jan 2025"]}
+      ],
+      "extraction_review": "Read visible education, credentials, volunteer roles, projects and memberships; employment labels partly hidden. No login bypass or unlabeled-school assignment. AICP student is not a completed credential; religious-service volunteering not affiliation."
+    },
+    {
+      "id": "220106-professional-housing-roundtable-original",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.stearnsweaver.com/files/Tampa%20Bay%20leaders%20discuss%20affordable%20housing.pdf",
+      "source_title": "AARP-sponsored November 2023 housing roundtable; public participant-hosted PDF",
+      "publication_date": "2023-11-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, housing council, financial-planning profession and own former-county-office statement match. This is sponsored content, not independent credential verification.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "CFP, CEO", "chief operating officer", "former county commissioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_sponsored_roundtable_housing_leadership_with_title_discrepancy", "factual_reference_date": "November 2023", "value": "Housing-council leadership and then financial-planning profession; same article calls role CEO and COO", "source_fragment": "CFP, CEO", "supporting_fragments": ["chief operating officer"], "unresolved_details": ["CEO versus COO occurs within this same dated original, not established promotion chronology. No paid-status inference."]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_roundtable_statement_of_former_county_office", "factual_reference_date": "Before November 2023", "value": "Own former county-commissioner description; no separate paid government job or military status supplied", "source_fragment": "former county commissioner"}
+      ],
+      "extraction_review": "Read actual PDF own contributions and biographical introductions. General over-50 housing population is not candidate age. No full copyrighted PDF redistributed; duplicate /wp-content/uploads URL is same original, not another document."
+    },
+    {
+      "id": "220106-wusf-full-primary-profile",
+      "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "local_profile",
+      "url": "https://wusf.org/text/politics-issues/2026-08-18/pasco-primary-results-2026-kimberly-overman-wins-primary-setting-up-face-off-against-us-rep-gus-bilirakis",
+      "source_title": "WUSF original Nancy Guan primary profile, August 18, 2026",
+      "publication_date": "2026-08-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Explicit FL12 Democratic primary winner and actual campaign link match native person; primary opponent is not the retained nominee.",
+      "identity_fragments": ["Kimberly Overman"],
+      "source_excerpts": ["Kimberly Overman", "certified financial planner", "former Hillsborough County commissioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_publisher_financial_planning_career", "factual_reference_date": "August 2026 summary of career", "value": "Financial-planning career; publisher's active-CFP wording does not override own retired designation", "source_fragment": "certified financial planner"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_publisher_former_county_commissioner", "factual_reference_date": "Before August 2026", "value": "Former Hillsborough commissioner; opponent's Air Surgeon job not hers", "source_fragment": "former Hillsborough County commissioner"}
+      ],
+      "extraction_review": "Read full original. Scrivener's age and Medicare job reviewed separately against his native identity; no inferred age or employment for Overman. Combined original quotation across both people stays below 25 words."
+    },
+    {
+      "id": "220107-wusf-shared-original-age-and-career",
+      "candidate_id": "220107", "name": "Branden Scrivener", "state": "FL", "district": "12", "party": "Independent", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "local_profile",
+      "url": "https://wusf.org/text/politics-issues/2026-08-18/pasco-primary-results-2026-kimberly-overman-wins-primary-setting-up-face-off-against-us-rep-gus-bilirakis",
+      "source_title": "Same WUSF original: separately matched FL12 no-party nominee",
+      "publication_date": "2026-08-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, no-party affiliation, FL12 and Bilirakis/Overman general-election opponents match retained native candidate 220107.",
+      "identity_fragments": ["Branden Scrivener"],
+      "source_excerpts": ["Branden Scrivener", "27", "Medicare case manager"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "dated_age_interval_not_exact_birthdate", "factual_reference_date": "Age 27 reported August 18, 2026; election November 3, 2026", "value": "Reported age 27 implies birth interval August 19, 1998-August 18, 1999, and election age 27-28; exact birthday unknown", "source_fragment": "27"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_named_current_occupation", "factual_reference_date": "August 18, 2026", "value": "Medicare case manager; program name does not establish direct federal employment", "source_fragment": "Medicare case manager"}
+      ],
+      "extraction_review": "Read entire shared article with exact subject boundaries. Occupation is not evidence of government payroll. No full Scrivener person pass claimed."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220106", "family": "campaign", "query": "Follow native homepage and actual Meet Kimberly link; read complete biography and dated district-change statement", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kimberlyoverman.com/meet-kimberly/", "https://kimberlyoverman.com/news-and-events/press-releases/an-important-update-about-the-overman-for-congress-campaign-a-message-from-kimberly-overman-to-supporters/"]},
+    {"candidate_id": "220106", "family": "ballotpedia_questionnaire", "query": "Follow verified Ballotpedia page; read full 2026 FL12 and earlier 2025 FL15 responses, header and submission footnote", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Kimberly_Overman"]},
+    {"candidate_id": "220106", "family": "local_profile", "query": "Follow retained Courier election-profile lead and read complete underlying article", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://landolakeslutzcourier.com/articles/kimberly-overman-challenges-bilirakis-in-cd-12-race-mvjo9b9u"], "qualification": "Actual full source read; exact earlier discovery query not retained. No snippets or AI-generated aggregation accepted."},
+    {"candidate_id": "220106", "family": "official_biography", "query": "Earlier search for official Hillsborough biography; exact query and per-query result mapping not retained", "query_kind": "reconstructed_historical_description", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Does not establish a completed family search. Official clerk original followed and visually checked separately."},
+    {"candidate_id": "220106", "family": "official_biography", "query": "Follow actual Hillsborough Clerk financial-report original to distinguish elected chair from neighboring CFO classification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://hillsclerk.com/documents/d/guest/annual-local-govt-financial-report-2021?download=true"]},
+    {"candidate_id": "220106", "family": "university_employer_professional", "query": "Follow retained MOAA professional speaker-biography PDF; visually read complete page 4 and subject boundaries", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.moaatampa.org/wp-content/uploads/2022/03/September-2021.pdf"], "qualification": "Original professional biography, not university-name mentions treated as alumni verification. Exact earlier discovery query not retained."},
+    {"candidate_id": "220106", "family": "earlier_biography", "query": "Follow actual own 2018 LinkedIn campaign/professional biography and read complete source", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.linkedin.com/pulse/kimberly-overman-runs-hillsborough-county-commission-overman-cfp"]},
+    {"candidate_id": "220106", "family": "ballotpedia_questionnaire", "query": "Follow underlying full STARRS question-10 row and Ballotpedia surveys for personal background rather than neighboring candidates' identities or service", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Kimberly_Overman", "https://starrs.us/candidate-survey-2026-what-else-would-you-like-us-to-know-about-you/"], "qualification": "Complete actual own questionnaire answers reviewed. No direct personal military or denominational answer supplied; policy references not accepted as identity."},
+    {"candidate_id": "220106", "family": "local_profile", "query": "Earlier searches for own age, birth date, public racial/ethnic classification and religious affiliation; verbatim queries/result assignments not retained", "query_kind": "reconstructed_historical_description", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Not evidence of search exhaustion or family completion. Retained originals supply no age, race, ethnicity or own military status; Christian header stays partial. Broker records, relatives' dates and endorsers rejected."},
+    {"candidate_id": "220106", "family": "ballotpedia_questionnaire", "query": "Follow original Florida Politics full candidate questionnaire rather than accept indexed excerpt", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://floridapolitics.com/archives/810756-meet-the-cd-12-democratic-candidates-kimberly-overman/"], "lead_dispositions": {"https://floridapolitics.com/archives/810756-meet-the-cd-12-democratic-candidates-kimberly-overman/": {"status": "access_failure", "reason": "Original returned HTTP 402 Payment Required; no retry or mirror workaround. Indexed answer not accepted."}}},
+    {"candidate_id": "220106", "family": "university_employer_professional", "query": "\"Kimberly Overman\" \"Housing Leadership Council\" CEO COO", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search executed alongside separate 1981/1982 degree-year queries; no fabricated individual result mapping. Selected actual originals reviewed below."},
+    {"candidate_id": "220106", "family": "university_employer_professional", "query": "\"Kimberly Overman\" \"Maryland\" \"1981\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined search response returned existing biographies and underlying public professional profile, not an institutional award record. Degree year remains unresolved."},
+    {"candidate_id": "220106", "family": "university_employer_professional", "query": "\"Kimberly Overman\" \"Maryland\" \"1982\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Do not interpret unlabeled public-profile education rows as resolved degree years or graduate ages."},
+    {"candidate_id": "220106", "family": "university_employer_professional", "query": "Read underlying organization board and 2025 event biographies, actual public professional profile education/credentials/volunteer sections, and public roundtable original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://hlctb.org/board-members/", "https://hlctb.org/events/2025-tampa-bay-regional-affordable-housing-forum/speakers/", "https://www.linkedin.com/in/koverman", "https://www.stearnsweaver.com/files/Tampa%20Bay%20leaders%20discuss%20affordable%20housing.pdf"], "qualification": "One public profile's presidency is explicitly volunteer experience. Original article's CEO/COO discrepancy is within the same date, not an invented promotion."},
+    {"candidate_id": "220106", "family": "local_profile", "query": "Read retained full original WUSF primary profile and separately verify shared-source Branden Scrivener against actual native roster", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wusf.org/text/politics-issues/2026-08-18/pasco-primary-results-2026-kimberly-overman-wins-primary-setting-up-face-off-against-us-rep-gus-bilirakis"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220106", "details": "Person pass remains open pending final identity/age/affiliation search review. Actual housing-council originals and professional profile distinguish founder/board from dated titles, volunteer experience and retired credential; exact historical role dates and paid status remain unproven, not government employment. Degree award year remains 1981/1982; obtain institutional award evidence rather than choose. Separate public-media guide journal now resolves WUSF lead and retains own age 67 with unknown response/reference day. Race, ethnicity, underlying personal religious attribution and own military status remain unknown. Florida Politics questionnaire requires normal authorized article access; do not bypass 402 or count its snippet."},
+    {"candidate_id": "220107", "details": "Shared original yielded age interval and occupation after exact roster verification; all six-family person-level work remains outstanding. Medicare case manager is not automatically government employment."}
+  ]
+}

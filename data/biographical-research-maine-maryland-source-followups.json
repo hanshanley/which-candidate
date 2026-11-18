@@ -1,0 +1,118 @@
+{
+  "scope": "Actual follow-up readings for unresolved Maine/Maryland person-level leads. Dated institutional affiliation is distinct from belief; questionnaire negatives retain the exact question's scope. No new scientific fit or candidate-completion declaration.",
+  "documents": [
+    {
+      "id": "220467-press-herald-complete-voter-questionnaire",
+      "candidate_id": "220467", "name": "Ronald Russell", "state": "ME", "district": "01", "party": "Republican", "contest_id": "2026:house:ME:01:general:source_general",
+      "family": "local_profile", "url": "https://www.pressherald.com/voter-guide/candidates/ronald-russell/",
+      "source_title": "Maine Voter Guide 2026: Ronald Russell complete questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Ronald Russell, Republican ME01 race, Army career and prior 2022 District 134/2024 congressional campaigns match native candidate and independent Ballotpedia history.", "identity_fragments": ["Ronald Russell"],
+      "source_excerpts": ["Ronald Russell", "72", "Retired", "B.S. in Chemical Engineering", "United States Military Academy", "I have not held any elected office.", "Airborne Ranger Green Beret"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_without_individual_submission_or_publication_date", "factual_reference_date": "2026 guide; specific response date unspecified", "value": "Age field reports 72. Preserve reported age, not an exact birthday or automatically election-day age", "source_fragment": "72"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_named_completed_bachelors_major_and_institution", "factual_reference_date": "Historical award; year not supplied here", "value": "BS chemical engineering, United States Military Academy, West Point", "source_fragment": "B.S. in Chemical Engineering", "supporting_fragments": ["United States Military Academy"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "self_reported_retirement_and_prior_business_career", "factual_reference_date": "2026 guide response", "value": "Occupation retired; biography describes Army career followed by founding a North Carolina business", "source_fragment": "Retired"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_candidate_negative_under_previous_offices_held_question", "factual_reference_date": "2026 guide response; exact submission day unspecified", "value": "Explicitly no elected office held, after describing unsuccessful 2022 state House and 2024 congressional campaigns. Not a negative for appointed roles, government employment or military service", "source_fragment": "I have not held any elected office."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_retired_army_airborne_ranger_green_beret", "factual_reference_date": "Historical thirty-year service", "value": "Reports Army retirement after thirty years as Airborne Ranger/Green Beret", "source_fragment": "Airborne Ranger Green Beret"}
+      ],
+      "extraction_review": "Read all fields, previous-office answer, three priorities and every policy answer through the page end. Race label means electoral contest, not racial identity. No personal gender, ethnicity, religion or civilian-government-employment negative."
+    },
+    {
+      "id": "220467-ballotpedia-complete-2026-survey",
+      "candidate_id": "220467", "name": "Ronald Russell", "state": "ME", "district": "01", "party": "Republican", "contest_id": "2026:house:ME:01:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Ronald_Russell_(Maine_congressional_candidate)",
+      "source_title": "Ballotpedia Ronald C. Russell: biography and all 2026 Candidate Connection answers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Footnote dates Candidate Connection submission July 13, 2026; page publication date is not separately established.",
+      "identity_status": "verified", "identity_qualification": "Full Ronald C. Russell, ME01, Fort Fairfield upbringing, 2022 District 134 campaign, Army career and actual native campaign domain match. Not Maine state legislator Ronald B. Russell.", "identity_fragments": ["Ronald C. Russell"],
+      "source_excerpts": ["Ronald C. Russell", "1972 - 2006", "1976 to 2006", "bachelor's degree", "West Point in 1976", "veteran and business owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_and_candidate_submission_completed_bachelors_and_year", "factual_reference_date": "1976 award; July 13, 2026 questionnaire submission", "value": "Bachelor's from West Point in 1976; also reports Fort Fairfield high-school diploma", "source_fragment": "bachelor's degree", "supporting_fragments": ["West Point in 1976"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "corroborated_army_service_with_unresolved_start_boundary", "factual_reference_date": "1972 or 1976 start; retirement 2006", "value": "Army service is positive; prose reports 1976-2006 while personal panel gives 1972-2006", "source_fragment": "1976 to 2006", "supporting_fragments": ["1972 - 2006", "veteran and business owner"], "unresolved_details": ["1972 panel start versus 1976 prose/commission start. Academy enrollment may explain differing boundaries but is not independently established as the explanation. Do not resolve exact start year by assumption."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_self_description", "factual_reference_date": "2026-07-13 submission", "value": "Candidate explicitly describes himself as veteran/business owner; prose describes defense contracting and co-ownership", "source_fragment": "veteran and business owner"}
+      ],
+      "extraction_review": "Read complete biography, personal fields and all four 2026 survey responses, including messages, policy interests and endorsement answer. Survey has no answered age, personal religion, race/ethnicity, gender, government-employment or prior-office-history question. No completed 2024/2022 survey supplied. Failed simplification was an extraction failure, not an access restriction; normal page reader supplied actual text."
+    },
+    {
+      "id": "220469-national-governors-association-biography",
+      "candidate_id": "220469", "name": "Paul LePage", "state": "ME", "district": "02", "party": "Republican", "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "official_biography", "url": "https://www.nga.org/governor/paul-lepage/",
+      "source_title": "National Governors Association: former Gov. Paul LePage",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Maine governor, Waterville mayor, Husson/UMaine awards and Marden's career corroborate native congressional candidate.", "identity_fragments": ["Paul LePage"],
+      "source_excerpts": ["Paul LePage", "Born October 9, 1948", "bachelor\u2019s degree in business administration", "MBA", "mayor of Waterville", "since 1996", "January 5, 2011"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "named_governors_association_exact_birth_date", "factual_reference_date": "1948-10-09; election reference 2026-11-03", "value": "Born October 9, 1948; age 78 at election. Newly qualifies an already reported age field, not first age evidence", "source_fragment": "Born October 9, 1948"},
+        {"trait": "education", "factual_status": "qualified", "precision": "institutional_biography_named_completed_bachelors_and_mba", "factual_reference_date": "Historical awards; conferral years not supplied", "value": "Husson business-administration bachelor's and University of Maine MBA", "source_fragment": "bachelor\u2019s degree in business administration", "supporting_fragments": ["MBA"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_mardens_management_start_not_current_employment", "factual_reference_date": "Marden's management since 1996 as historical biography reports", "value": "Reports Marden's general manager since 1996; undated former-governor page does not establish continued 2026 employment", "source_fragment": "since 1996"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "institutional_mayoral_and_gubernatorial_tenures", "factual_reference_date": "Governor sworn 2011-01-05; second inauguration 2015-01-06", "value": "Waterville mayor and two-term Maine governor; no change to frozen federal-incumbency coding", "source_fragment": "mayor of Waterville", "supporting_fragments": ["January 5, 2011"]}
+      ],
+      "extraction_review": "Read complete actual institutional biography and all header fields. Does not provide a military negative, civilian-government job distinct from elected offices, personal religious affiliation, race/ethnicity or gender classification."
+    },
+    {
+      "id": "220468-diocese-2024-original-parish-record",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic", "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "earlier_biography", "url": "https://episcopalmaine.org/wp-content/uploads/2024/10/DioME-Proposed-Resolutions-2024.pdf",
+      "source_title": "Episcopal Diocese of Maine 2024 proposed resolutions: special commission supplemental information",
+      "publication_date": "2024-10-23", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Resolution version explicitly dated 10-23-24; relevant listing PDF page 8, printed supplemental page 2. Text and visual page both reviewed.",
+      "identity_status": "verified", "identity_qualification": "Matthew/Matt Dunlap, St. James Old Town and chair of Indian Relations match the same Old Town auditor's explicitly named diocesan role in the independent 2025 speaker biography.", "identity_fragments": ["Matthew Dunlap"],
+      "source_excerpts": ["Matthew Dunlap", "St. James,\u2019 Old Town", "Chair of Committee on Indian Relations; CO-CHAIR", "Contact person: Matt Dunlap"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "dated_primary_denominational_record_of_parish_affiliation_not_current_belief", "factual_reference_date": "2024-10-23 version; commission formed after 2023 convention", "value": "Diocese explicitly identifies Dunlap with St. James, Old Town, and Indian Relations chairmanship/co-chair role. Qualifies documented 2024 Episcopal parish/organizational affiliation only, not current 2026 belief, baptism, upbringing or doctrinal adherence", "source_fragment": "St. James,\u2019 Old Town", "supporting_fragments": ["Chair of Committee on Indian Relations; CO-CHAIR"]}
+      ],
+      "extraction_review": "Read the entire relevant resolution, explanation, membership list and submission form; visually checked PDF index 7. Other congregants' racial-justice/creation-care roles are not Dunlap's racial/ethnic identity. Ecclesiastical committee service is not paid government employment. Qualified affiliation is explicitly dated/scoped; frozen religion model remains unchanged."
+    },
+    {
+      "id": "220468-2025-independent-speaker-biography",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic", "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "university_employer_professional", "url": "https://fomb.org/pages/what_we_do/events/Speaker_Series_2025_2026/Voter_ID/Voter_ID.htm",
+      "source_title": "Friends of Merrymeeting Bay: Voter ID, October 8, 2025 speaker biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Actual event names Matt Dunlap of Old Town, Maine's 23rd auditor, seven-term secretary and four-term state representative matching native ME02 person.", "identity_fragments": ["Matt Dunlap of Old Town"],
+      "source_excerpts": ["Matt Dunlap of Old Town", "Maine\u2019s 23rd State Auditor", "Chair of the Episcopal Diocesan Council on Indigenous Relations", "award-winning columnist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "dated_named_diocesan_role_not_standalone_current_personal_belief", "factual_reference_date": "2025-10-08 event", "value": "Reports Episcopal Diocesan Council on Indigenous Relations chairmanship. A named role alone does not establish current personal belief; separately reviewed 2024 diocesan record explicitly supplies parish association", "source_fragment": "Chair of the Episcopal Diocesan Council on Indigenous Relations"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_speaker_biography_public_office_and_journalism", "factual_reference_date": "2025-10-08 event", "value": "State auditor, former Sportsman's Alliance executive director and Northwoods Sporting Journal columnist", "source_fragment": "Maine\u2019s 23rd State Auditor", "supporting_fragments": ["award-winning columnist"]}
+      ],
+      "extraction_review": "Read complete event description and Dunlap speaker biography using normal reader after simplifier returned only header. Government advisory commission and boards do not establish paid government employment; Indigenous-relations activity does not establish personal Indigenous identity."
+    },
+    {
+      "id": "220475-ffiec-2017-csbs-representative-context",
+      "candidate_id": "220475", "name": "Dan Schwartz", "state": "MD", "district": "01", "party": "Democratic", "contest_id": "2026:house:MD:01:general:source_general",
+      "family": "official_biography", "url": "https://www.ffiec.gov/sites/default/files/data/publications/annrpt17.pdf",
+      "source_title": "FFIEC 2017 Annual Report: organizational personnel listing as of December 31, 2017",
+      "publication_date": "2018-03-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "March 30, 2018 transmittal; personnel as of December 31, 2017. Printed page 81, PDF index 90 visually checked.",
+      "identity_status": "verified", "identity_qualification": "Exact Dan Schwartz plus CSBS professional affiliation and 2017 timing match the native candidate's independently retained 2011-2025 CSBS career. Unlike same-name Nevada politician or cardiologist, the employer/industry/chronology corroborate identity.", "identity_fragments": ["Dan Schwartz"],
+      "source_excerpts": ["Dan Schwartz", "(SLC Representative/CSBS)", "Task Force on Consumer Compliance"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_dated_private_association_representative_listing", "factual_reference_date": "2017-12-31", "value": "Listed as SLC representative from CSBS to FFIEC Task Force on Consumer Compliance. Affiliation is CSBS, not any neighboring listed federal agency", "source_fragment": "(SLC Representative/CSBS)", "supporting_fragments": ["Task Force on Consumer Compliance"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "public_body_external_representation_without_government_employer_or_pay_evidence", "factual_reference_date": "2017-12-31", "value": "Documents external CSBS representation in an interagency task force, not established FFIEC/federal employment or paid government appointment. Does not settle existing partial government-employment evidence", "source_fragment": "(SLC Representative/CSBS)"}
+      ],
+      "extraction_review": "Read relevant personnel heading and surrounding task-force entries, then visually checked the two-column PDF page. Neighboring CFPB/OCC/FDIC/NCUA/FRB jobs belong to other named people. No age-conflict resolution, religion identification, degree, military answer or elected-office claim."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220467", "family": "local_profile", "query": "Ron Russell Maine Congress biography age military West Point", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.pressherald.com/voter-guide/candidates/ronald-russell/", "https://www.mainepublic.org/politics/2026-04-17/your-vote-2026-profile-ron-russell-republican-for-1st-district", "https://www.wmtw.com/article/ron-russell-maine-congressional-candidate-republican-cd1/71222587", "https://video.mainepublic.org/video/congressional-district-1-debate-z5jutj/"], "lead_dispositions": {"https://www.mainepublic.org/politics/2026-04-17/your-vote-2026-profile-ron-russell-republican-for-1st-district": {"status": "reviewed_no_requested_facts", "reason": "Read complete background, ten long answers and ten lightning items. No age field supplied. West Point and defense-contracting fields repeat existing evidence; policy answers do not identify religion, race, ethnicity, gender or personal service negatives."}}},
+    {"candidate_id": "220467", "family": "ballotpedia_questionnaire", "query": "Follow mapped actual Ronald Russell Maine congressional candidate page; read biography and every 2026 survey response", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Ronald_Russell_(Maine_congressional_candidate)"]},
+    {"candidate_id": "220469", "family": "official_biography", "query": "Paul LePage biography born Catholic University Maine", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.nga.org/governor/paul-lepage/", "https://www.husson.edu/alumni/_assets/husson-alumni-ledger-6-2011.pdf", "https://ballotpedia.org/Paul_LePage"], "qualification": "NGA original read completely. University alumni original and Ballotpedia remain actual separate review leads. No religious classification accepted from this query's snippets."},
+    {"candidate_id": "220468", "family": "earlier_biography", "query": "Follow actual October 2024 diocesan resolution; read entire relevant resolution and visually verify parish listing", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://episcopalmaine.org/wp-content/uploads/2024/10/DioME-Proposed-Resolutions-2024.pdf"]},
+    {"candidate_id": "220468", "family": "university_employer_professional", "query": "Read actual October 8, 2025 Friends of Merrymeeting Bay full speaker biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://fomb.org/pages/what_we_do/events/Speaker_Series_2025_2026/Voter_ID/Voter_ID.htm"]},
+    {"candidate_id": "220475", "family": "official_biography", "query": "Follow mapped 2017 FFIEC annual report; read relevant personnel list and visually inspect PDF index 90", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ffiec.gov/sites/default/files/data/publications/annrpt17.pdf"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220467", "details": "New explicit no-elected-office answer is usable factual evidence for this Republican, not a newly estimable Democratic contrast. Age 72 remains undated. Read actual WMTW profile, local debate's relevant personal narrative, SOAA professional biography, earlier 2024 interview and official service/university records; investigate explicit identity/affiliation gaps without surname/photo inference."},
+    {"candidate_id": "220469", "details": "Exact birth date now qualifies existing reported age. Husson alumni PDF, Ballotpedia and substantive local questionnaire remain actionable; military, other-government employment and explicit current identity/affiliation questions unresolved."},
+    {"candidate_id": "220468", "details": "Dated primary parish affiliation now documented, distinct from current belief; journal's earlier undated Ballotpedia classification remains partial. Dated-age comparison and service/identity research still unfinished. Independent review does not justify exact birthday or model promotion."},
+    {"candidate_id": "220475", "details": "FFIEC representative row reviewed and qualified to same CSBS professional; it does not supply government employment. Age conflict and religious-source qualification remain unresolved; continue independent originals."}
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "scope": "Full six-family, ten-background-trait pass for retained Democratic nonincumbent Kelly Kirschner. Include the other retained nominee's supported employment from the same useful joint profile. A completed search is not factual completeness; preserve unknown identities, religious affiliation and personal military service.",
+  "documents": [
+    {
+      "id": "220117-complete-campaign-about", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "campaign", "url": "https://kellykirschner.com/", "source_title": "Kelly Kirschner campaign homepage: full About, service and career sections",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "FL16 congressional campaign matches native name, Sarasota mayoral service, Georgetown and Eckerd employment and actual Candidate Connection campaign link. Not similarly named occupational therapist or North Carolina school principal.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "bachelor's and master's degrees", "Georgetown University", "1999", "Peace Corps", "Commissioner and Mayor", "Bio-Pro Research", "UnidosNow", "Vice President", "Eckerd College"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_explicit_completed_bachelors_and_masters", "factual_reference_date": "Degrees before joining Peace Corps in 1999; no award years supplied here", "value": "Reports completed bachelor's and master's degrees from Georgetown; scholarship and team-management role do not establish another credential", "source_fragment": "bachelor's and master's degrees", "supporting_fragments": ["Georgetown University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_multiple_historical_business_nonprofit_and_academic_roles", "factual_reference_date": "Historical careers described in 2026 campaign", "value": "Family fruit business, Bio-Pro sales work, UnidosNow institution-building and Eckerd vice-presidential educational leadership. Four-year Guatemala Peace Corps stint began 1999; volunteer service is not military or proof of paid agency employment", "source_fragment": "Bio-Pro Research", "supporting_fragments": ["UnidosNow", "Vice President", "Eckerd College", "Peace Corps", "1999"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_city_commission_election_and_mayoral_service", "factual_reference_date": "Before 2026 candidacy", "value": "Reports election to Sarasota City Commission and later mayoral service; mayoral selection method and exact term are qualified by independent historical sources", "source_fragment": "Commissioner and Mayor"}
+      ],
+      "extraction_review": "Read full page through complete About biography. Brother's Army service, veterans' endorsements, Jewish/LGBTQ caucus endorsements, Spanish fluency and work with Mayan families do not classify candidate military service, religion, gender, race or ethnicity. School/family/local roots are not sensitive self-identifications."
+    },
+    {
+      "id": "220117-complete-campaign-faq", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "campaign", "url": "https://kellykirschner.com/frequently-asked-questions/", "source_title": "Kelly Kirschner: complete campaign FAQ and explicit military-connection question",
+      "publication_date": "2026-10-25", "source_date_note": "Visible last-updated date, not established first-publication day or archived availability of every sentence.", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Self-published FL16 FAQ names exact candidate, election and same Sarasota/Georgetown/Eckerd biography as native-linked homepage.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "bachelor's and master's degrees", "Georgetown University", "City Commissioner", "Mayor of Sarasota", "Vice President and Dean", "executive and continuing education", "Eckerd College"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_completed_degrees_not_just_attendance", "factual_reference_date": "Before 2026 FAQ update", "value": "Confirms Georgetown bachelor's and master's degrees without independent award dates", "source_fragment": "bachelor's and master's degrees", "supporting_fragments": ["Georgetown University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_historical_academic_and_business_roles", "factual_reference_date": "Before October 25, 2026 FAQ update", "value": "Former Eckerd vice president/dean, Bio-Pro business work and UnidosNow cofounding; no assumption that historical college role remains current", "source_fragment": "Vice President and Dean", "supporting_fragments": ["executive and continuing education", "Eckerd College"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_yes_to_prior_elected_office_question", "factual_reference_date": "Before 2026", "value": "Answers yes to prior elected-office question and identifies Sarasota commissioner/mayor roles. Does not establish other paid government employment", "source_fragment": "City Commissioner", "supporting_fragments": ["Mayor of Sarasota"]}
+      ],
+      "extraction_review": "Read every FAQ through last-updated line. Military-connection answer names older brother, not candidate; neither positive nor negative own military value accepted. Peace Corps is volunteering, not armed forces. Single father is not used as a personal gender declaration. Opponent's biography/financial discussion is not this candidate's."
+    },
+    {
+      "id": "220117-complete-candidate-connection", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Kelly_Kirschner", "source_title": "Kelly Kirschner: actual education header and complete four-question 2026 Candidate Connection",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL16 Democrat, native election/party and actual campaign link. Full survey, not opponent row or another similarly named person.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "Georgetown University, 1998", "Higher education administration", "Peace Corps volunteer", "Commissioner and Mayor", "Cardinal Mooney Catholic High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_graduate_school_year_and_named_high_school", "factual_reference_date": "Graduate credential 1998; high-school date unspecified", "value": "Graduate heading lists Georgetown 1998; high school listed as Cardinal Mooney. Degree type is independently supplied by professional biography; high-school religious name is not personal affiliation", "source_fragment": "Georgetown University, 1998", "supporting_fragments": ["Cardinal Mooney Catholic High School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_occupation_and_candidate_nonprofit_work", "factual_reference_date": "2026 campaign biography", "value": "Higher-education administration and candidate-described nonprofit-building work; Peace Corps is explicitly volunteer service", "source_fragment": "Higher education administration", "supporting_fragments": ["Peace Corps volunteer"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_described_local_office", "factual_reference_date": "Before 2026 candidacy", "value": "Own survey describes Sarasota commissioner and mayor service; no prior-office negative or personal military answer appears", "source_fragment": "Commissioner and Mayor"}
+      ],
+      "extraction_review": "Read education/occupation header and all four actual survey answers, including endorsement list, through source footer. Survey has no birth date, direct sensitive classification, paid non-elected government appointment or scoped military negative. No exact survey submission day supplied."
+    },
+    {
+      "id": "220117-official-sarasota-mayoral-term", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "official_biography", "url": "https://www.sarasotafl.gov/Department-Pages/City-Commission/Former-Mayors", "source_title": "City of Sarasota: actual former-mayors table and occupation row",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Kelly Kirschner row is distinct from Kerry G. Kirschner's 1986-87/1990-91 rows; native candidate's earlier commissioner profile and campaign independently bridge person.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "Product Manager", "2010-2011"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_named_local_mayoral_term", "factual_reference_date": "2010-2011", "value": "Officially listed Sarasota mayor 2010-2011; commission election and mayoral selection remain distinct. Do not copy father's terms", "source_fragment": "2010-2011"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_occupation_classification", "factual_reference_date": "Occupation associated with former mayor's 2010-2011 row", "value": "City classifies historical occupation as product manager; no current-employment claim", "source_fragment": "Product Manager"}
+      ],
+      "extraction_review": "Read table headers and exact candidate row, with earlier Kerry rows to prevent cross-generation joins. No age, personal identities, degrees, non-elected government employment or military classification provided."
+    },
+    {
+      "id": "220117-eckerd-employer-directory", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "university_employer_professional", "url": "https://directory.apps2.eckerd.edu/view/depart/staff/fac/0/61000/", "source_title": "Eckerd College: Executive and Continuing Education faculty/staff directory",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name and ECE deanship match candidate's campaign, local press and independent professional speaker biography.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "Dean, Division of ECE"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "independent_employer_named_deanship_with_undated_directory", "factual_reference_date": "Undated directory role; not proven current in November 2026", "value": "Employer directory corroborates ECE dean role. Later October 2026 profile calls him an independent consultant; undated directory may be stale rather than conflicting employment evidence", "source_fragment": "Dean, Division of ECE"}
+      ],
+      "extraction_review": "Read complete short directory and candidate row. Private-college employment is not government employment. No individual credential, age, service or sensitive-trait classification supplied. An initially guessed OLLI leadership URL redirected to a generic course page, not another candidate biography."
+    },
+    {
+      "id": "220117-tiger-bay-professional-bio", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.manateetigerbay.org/wp-content/uploads/Krischner-BIO.pdf", "source_title": "Manatee Tiger Bay professional speaker biography, Kelly Krischner heading",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "One-page biography spells Kirschner correctly in body and matches Sarasota mayor, UnidosNow chair and Eckerd dean; transposed Krischner in heading is not a different person.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "M.A. in Latin American studies", "Georgetown University", "dean of executive and special programs", "Chair"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_named_masters_credential", "factual_reference_date": "Undated historical speaker biography", "value": "Explicit Georgetown MA in Latin American studies, not simply attendance; no award year independently given here", "source_fragment": "M.A. in Latin American studies", "supporting_fragments": ["Georgetown University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_dean_and_nonprofit_leadership_roles", "factual_reference_date": "Undated biography reference period", "value": "Eckerd executive/special-programs dean and UnidosNow cofounder/chair. Chair role does not establish paid employment; Spanish fluency and immigration expertise do not classify ethnicity", "source_fragment": "dean of executive and special programs", "supporting_fragments": ["Chair"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "independent_professional_biography_former_mayor", "factual_reference_date": "Before undated speaker biography", "value": "Biography identifies former Sarasota mayor; exact mayoral term separately supplied by City", "source_fragment": "Kelly Kirschner"}
+      ],
+      "extraction_review": "Read all one-page narrative, no table/column ambiguity. Central/South American work, language ability and constituency served are not personal race or ethnicity; no affiliation or military fact."
+    },
+    {
+      "id": "220117-2004-dated-philanthropy-profile", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "earlier_biography", "url": "https://www.sarasotamagazine.com/news-and-profiles/2004/04/missions-of-mercy", "source_title": "Missions of Mercy: complete Kelly Kirschner profile with separate subjects",
+      "publication_date": "2004-04-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Same Sarasota Bio-Pro manager, Georgetown/Guatemala Peace Corps and scholarship nonprofit career later recounted in actual 2007 commissioner profile and 2026 campaign.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "28-year-old", "hired by USAID", "degree in Latin American studies", "Bio-Pro Research", "Peace Corps"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_published_age_with_unknown_interview_reference_day", "factual_reference_date": "Age 28 reported April 30, 2004; underlying interview date unspecified", "value": "Published age 28 is useful historical evidence, but unknown interview date prevents deriving exact DOB or tightening independently reported 1975 birth year to a fabricated birthday", "source_fragment": "28-year-old"},
+        {"trait": "education", "factual_status": "qualified", "precision": "journalistic_completed_degree_description", "factual_reference_date": "Before 2004", "value": "Reports degree in Latin American studies after Georgetown; professional original independently specifies MA. No additional degree inferred", "source_fragment": "degree in Latin American studies"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_business_and_nonprofit_career", "factual_reference_date": "2004 and earlier Guatemala work", "value": "Bio-Pro product manager and founder/administrator of scholarship nonprofit SANK; earlier Peace Corps municipal-development service is volunteering", "source_fragment": "Bio-Pro Research", "supporting_fragments": ["Peace Corps"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "reported_usaid_hire_with_unspecified_employment_or_contract_basis", "factual_reference_date": "After Peace Corps and before 2004 profile", "value": "Reporter says USAID hired him to work with Idaho State on a protected-land project. Retain the agency-work fact, but direct federal appointment versus contracted/project employment is unresolved", "source_fragment": "hired by USAID"}
+      ],
+      "extraction_review": "Read full four-person original and exact Deep Philanthropic Roots subsection. Dr. Pecoraro's explicit religious motivation, Rushing's Commerce role and others' biographies are not Kirschner facts. Mayan/Indian project beneficiaries do not classify his ethnicity."
+    },
+    {
+      "id": "220117-2007-full-commissioner-profile", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "local_profile", "url": "https://www.sarasotamagazine.com/news-and-profiles/2007/07/boy-the-hoods", "source_title": "Boy & the Hoods: complete substantive commissioner biography",
+      "publication_date": "2007-07-01", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Sarasota commissioner with matching Georgetown/Guatemala/Bio-Pro history, distinct from father Kerry.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "in 1975", "an ambitious young man", "degree in foreign service studies", "Georgetown University", "product manager", "Bio-Pro Research", "vice mayor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "explicit_reported_birth_year_not_exact_date", "factual_reference_date": "Born 1975; 2026-11-03 election reference", "value": "Explicit birth year 1975: election age 50-51, birthday unknown. Different publication/interview/scene dates do not justify intersecting ages into exact DOB", "source_fragment": "in 1975"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "dated_reliable_publisher_explicit_man_classification", "factual_reference_date": "2007 profile, not a contemporaneous 2026 self-report", "value": "Explicit historical publisher-attributed man classification, not current self-report, biological sex or inference from appearance/pronouns", "source_fragment": "an ambitious young man"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_foreign_service_degree", "factual_reference_date": "Before 2007", "value": "Georgetown foreign-service degree and Cardinal Mooney schooling; school type does not establish current religion", "source_fragment": "degree in foreign service studies", "supporting_fragments": ["Georgetown University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_business_occupation", "factual_reference_date": "2007 scene and earlier work", "value": "Bio-Pro product manager, with earlier Peace Corps community development. Not a current-role assumption", "source_fragment": "product manager", "supporting_fragments": ["Bio-Pro Research"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_2007_commission_election_and_internal_vice_mayoral_selection", "factual_reference_date": "2007 city swearing-in described by July profile", "value": "Won Sarasota commission seat and was selected vice mayor at inaugural meeting. Father Kerry's mayoral offices are separate; 2010-11 mayoral term independently supplied by City", "source_fragment": "vice mayor"}
+      ],
+      "extraction_review": "Read complete long profile including biography, swearing-in and family sections. Historical man classification is explicit text, not appearance. No racial/ethnic classification, personal religious affiliation, own military service or distinct paid non-elected government role appears."
+    },
+    {
+      "id": "220117-full-wslr-election-interview", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "local_profile", "url": "https://wslr.org/district-16-congressional-race-kelly-kirschner/", "source_title": "WSLR extended candidate interview: complete published transcript",
+      "publication_date": "2026-07-11", "source_date_note": "Page date July 11; original air date July 10, 2026.", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL16 Democrat, same mayoral/citrus/Georgetown/Eckerd/Peace Corps history and campaign photographs; reporter questions and candidate answers distinguished.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "city commissioner and mayor", "Unidos Now", "dean at Eckerd College", "Peace Corps volunteer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reporter_and_candidate_historical_career", "factual_reference_date": "July 2026 discussion of prior employment/volunteering", "value": "Nonprofit Unidos Now leadership and more than a decade at Eckerd; own account distinguishes Peace Corps volunteering in Guatemala municipal development from paid government appointment", "source_fragment": "dean at Eckerd College", "supporting_fragments": ["Unidos Now", "Peace Corps volunteer"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "independent_dated_profile_and_own_commission_account", "factual_reference_date": "Former offices before July 2026", "value": "Former Sarasota city commissioner and mayor with direct discussion of first election and commission work. Reporter's elapsed-years shorthand is not substituted for official term dates", "source_fragment": "city commissioner and mayor"}
+      ],
+      "extraction_review": "Read all transcript through reporter signoff. Immigrant advocacy, Hispanic population statistics and Cuba/Guatemala policy are not candidate ethnicity. No DOB, own religious affiliation, military-service answer or distinct paid non-elected government role. Not every linked policy source is a biography lead."
+    },
+    {
+      "id": "220117-dated-october-career-update", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "local_profile", "url": "https://floridapolitics.com/archives/827035-sydney-gruters-kelly-kirschner-duke-it-out-in-open-cd-16-contest/",       "source_title": "Florida Politics: Kirschner career update",
+      "publication_date": "2026-10-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "FL16 Democrat with matching Sarasota/Eckerd history; opponent's federal jobs kept separate.",
+      "identity_fragments": ["Kelly Kirschner"],
+      "source_excerpts": ["Kelly Kirschner", "independent consultant", "Eckerd College", "Sarasota City Commission", "Cardinal Mooney Catholic High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_current_role_distinct_from_historical_college_role", "factual_reference_date": "2026-10-30", "value": "Current consultant after 13 years at Eckerd, most recently VP/dean; undated directory may be stale", "source_fragment": "independent consultant", "supporting_fragments": ["Eckerd College"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "independent_prior_local_elected_service", "factual_reference_date": "Before 2026", "value": "Four-year Sarasota commission tenure including mayoral service, not separate non-elected employment", "source_fragment": "Sarasota City Commission"},
+        {"trait": "education", "factual_status": "partial", "precision": "reported_high_school_attendance_without_graduation_claim", "factual_reference_date": "Historical schooling", "value": "High-school attendance, not completed credential or personal affiliation", "source_fragment": "Cardinal Mooney Catholic High School"}
+      ],
+      "extraction_review": "Full joint original reviewed; preserve chronology and subject boundaries. No own military or sensitive-identity fact."
+    },
+    {
+      "id": "220116-shared-october-government-career", "candidate_id": "220116", "name": "Sydney Gruters", "state": "FL", "district": "16", "party": "Republican", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "local_profile", "url": "https://floridapolitics.com/archives/827035-sydney-gruters-kelly-kirschner-duke-it-out-in-open-cd-16-contest/",       "source_title": "Florida Politics: Gruters's federal roles",
+      "publication_date": "2026-10-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "FL16 Republican opponent, distinct from husband Joe.",
+      "identity_fragments": ["Sydney Gruters"],
+      "source_excerpts": ["Sydney Gruters", "State Director", "U.S. Department of Agriculture", "District Director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reported_named_federal_agency_and_congressional_staff_roles", "factual_reference_date": "Before October 2026", "value": "USDA Florida/USVI state director; Steube district director and Buchanan staffer. Appointed/staff jobs, not elected office", "source_fragment": "State Director", "supporting_fragments": ["U.S. Department of Agriculture", "District Director"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_federal_administration_and_legislative_staff_career", "factual_reference_date": "Before 2026 election", "value": "Federal rural-development and congressional-staff careers; no separate credential or service inference", "source_fragment": "District Director", "supporting_fragments": ["State Director"]}
+      ],
+      "extraction_review": "Same reviewed original; 24 quoted words across both people. Husband's offices not transferred; Sydney's comprehensive person pass remains open."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220117", "family": "campaign", "query": "Follow native campaign URL and read entire homepage About and full linked FAQ", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kellykirschner.com/", "https://kellykirschner.com/frequently-asked-questions/"]},
+    {"candidate_id": "220117", "family": "ballotpedia_questionnaire", "query": "Follow exact candidate page and read complete actual 2026 survey, education, career and campaign identity link", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Kelly_Kirschner"]},
+    {"candidate_id": "220117", "family": "official_biography", "query": "\"Kelly Kirschner\" site:sarasotafl.gov", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.sarasotafl.gov/Department-Pages/City-Commission/Former-Mayors"], "qualification": "Selected actual municipal biographical table; official election/finance hits are identity context, not independent missing-trait evidence."},
+    {"candidate_id": "220117", "family": "university_employer_professional", "query": "\"Kelly Kirschner\" site:eckerd.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed in a multi-query response; exact per-query URL assignment was not retained. Independent original follow-ups are recorded separately."},
+    {"candidate_id": "220117", "family": "university_employer_professional", "query": "Read actual Eckerd ECE directory and full one-page professional speaker biography mapped by the multi-query search response", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://directory.apps2.eckerd.edu/view/depart/staff/fac/0/61000/", "https://www.manateetigerbay.org/wp-content/uploads/Krischner-BIO.pdf"]},
+    {"candidate_id": "220117", "family": "earlier_biography", "query": "Follow actual 2004 philanthropy and 2007 first-commission biographies for birth year, earlier age, degrees, occupations and agency work", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.sarasotamagazine.com/news-and-profiles/2004/04/missions-of-mercy", "https://www.sarasotamagazine.com/news-and-profiles/2007/07/boy-the-hoods"]},
+    {"candidate_id": "220117", "family": "local_profile", "query": "Follow actual extended WSLR transcript and October 30 joint election profile; read full originals", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wslr.org/district-16-congressional-race-kelly-kirschner/", "https://floridapolitics.com/archives/827035-sydney-gruters-kelly-kirschner-duke-it-out-in-open-cd-16-contest/"]},
+    {"candidate_id": "220117", "family": "earlier_biography", "query": "Follow actual 2012 interfaith-trip profile to test affiliation rather than infer religion from tour participants", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sarasotanewsleader.com/interfaith-group-finds-positive-news-in-the-real-israel/"], "lead_dispositions": {"https://sarasotanewsleader.com/interfaith-group-finds-positive-news-in-the-real-israel/": {"status": "reviewed_no_requested_facts", "reason": "Full article names him among an interfaith delegation but assigns no personal denomination; other participants' clerical titles/beliefs are not his. No requested new age, degree, occupation or service fact."}}},
+    {"candidate_id": "220117", "family": "local_profile", "query": "\"Kelly Kirschner\" (\"religion\" OR \"Catholic\" OR \"Jewish\")", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kellykirschner.com/", "https://floridapolitics.com/archives/827035-sydney-gruters-kelly-kirschner-duke-it-out-in-open-cd-16-contest/"], "qualification": "Actual reviewed originals do not classify personal affiliation. Catholic school and Jewish caucus endorsement do not establish religion. Search-result excerpts not accepted as facts."},
+    {"candidate_id": "220117", "family": "local_profile", "query": "\"Kelly Kirschner\" (\"white\" OR \"male\" OR \"ethnicity\" OR \"Hispanic\")", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kellykirschner.com/"], "qualification": "Visible combined search response offered no qualifying own racial/ethnic classification; actual biography's constituency and language statements are not identity. Earlier detailed profile separately supplies explicit historical man classification. No empty result represented as exhaustion."},
+    {"candidate_id": "220117", "family": "ballotpedia_questionnaire", "query": "\"Kelly Kirschner\" (\"military service\" OR \"veteran\" OR \"never served\")", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kellykirschner.com/", "https://getvotebook.com/us/fl/kelly-kirschner"], "lead_dispositions": {"https://getvotebook.com/us/fl/kelly-kirschner": {"status": "reviewed_no_requested_facts", "reason": "Actual current page has no readable background/position payload. Search-index text under Kelly heading instead named Mark Davis and cited his campaign; not accepted as Kirschner military evidence or an independently verified current-page error."}}, "qualification": "Campaign describes brother's service. No explicit own-service negative found in actual reviewed sources; Peace Corps not coded military."},
+    {"candidate_id": "220117", "family": "local_profile", "query": "Follow original October 9 Tampa Bay recommendations for reported age instead of accepting indexed or archived excerpt", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.tampabay.com/viewpoints/2026/10/09/congress-candidates-recommendations-florida/"], "lead_dispositions": {"https://www.tampabay.com/viewpoints/2026/10/09/congress-candidates-recommendations-florida/": {"status": "access_failure", "reason": "Web reader returned non-retryable tool error; normal same-URL fetch returned headline/authors and subscriber shell without article body. No age accepted from snippet; no archive/paywall workaround attempted."}}},
+    {"candidate_id": "220116", "family": "local_profile", "query": "Extract own supported federal jobs from same fully read joint congressional profile, keeping spouses and opponents separate", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://floridapolitics.com/archives/827035-sydney-gruters-kelly-kirschner-duke-it-out-in-open-cd-16-contest/"]}
+  ],
+  "completed_candidates": [
+    {
+      "candidate_id": "220117",
+      "actionable_leads_remaining": false,
+      "extraction_review": "All ten traits investigated together across six actual source families; full campaign/FAQ/survey, official mayoral row, employer/professional biographies, substantive interview and historical profiles reviewed. Selected actionable originals resolved; Tampa Bay body specifically access-limited. Birth year retained without fabricated date; historical explicit man classification dated and attributed. Race, ethnicity, religion and personal military service remain unknown, not unavailable. USAID employment basis remains partial. This bounded completed person pass is not universal factual coverage or a claim that no future evidence can exist."
+    }
+  ],
+  "remaining_leads": [
+    {"candidate_id": "220117", "details": "Completed bounded person pass. Unknown race/ethnicity/religion require explicit personal statement or reliable classification; no inference from school, language, relatives or endorsements. Personal military comparison needs own service record or scoped explicit negative. Separate public-media guide followup now identifies USAID contractor status in own response, qualifying older reporter's hire wording; no direct-federal-employment positive or universal negative inferred. Exact DOB remains unresolved; 1975 year is retained. Tampa Bay age passage is not accessible in normal article body and was not promoted from search index."},
+    {"candidate_id": "220116", "details": "Shared original adds named federal agency and congressional employment; full six-family/ten-trait person pass remains uncompleted. Continue native queue rather than count one shared profile as comprehensive research."}
+  ]
+}

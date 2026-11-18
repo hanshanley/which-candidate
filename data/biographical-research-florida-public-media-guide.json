@@ -1,0 +1,109 @@
+{
+  "scope": "Follow original WUSF guide lead through its ordinary public browser widget; extract all supported requested background facts for five independently matched retained candidates. This is a useful questionnaire family, not a completed roster or person pass for the independently matched opponents.",
+  "source_acquisition": {
+    "reader_url": "https://www.wusf.org/2026-voter-guide",
+    "original_url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot",
+    "method": "Ordinary Chromium public Browse full guide without filtering, Section US House of Representatives. Actual loaded response URL observed in browser, then cached once; no address, login, private endpoint or access-control bypass.",
+    "original_cache_path": "artifacts/biographical-research/wusf-2026-ballot.json", "original_bytes": 676553, "original_sha256": "1cc3caf2d3fb1b00febdcb42ad91fca4c3276a09b1a9f8b72833e8fe8998fb2f",
+    "schema": "ballot.sections: section id 3030/us-house-of-representatives, blocks[0].groups candidate IDs and districts; blocks[0].topics question IDs and responses keyed by candidate ID. Topic 6802 age, 6804 educational background, 6806 occupation. Read complete remaining eight issue answers for all five selected candidates.",
+    "timing_qualification": "Guide title is 2026; no individual response submission/reference dates supplied. Retrieval November 18 does not prove pre-election public availability or exact age on November 3.",
+    "reuse_qualification": "Do not redistribute full copyrighted guide or API payload. Curated facts, bounded literal excerpts, original query, field locators, hash and coding decisions are reproducible inputs.",
+    "extraction_review": "Plain HTML contained introduction but not answers. Successfully rendered normal public widget, selected congressional section, read all congressional background rows and all remaining answers for five selected candidates. Nonrespondent publisher substitutions, no-response entries and wrong-field answers are not candidate self-reports. Laurel Lee's publisher age 37 is an apparent age/degree chronology defect and is not accepted. Robert People's education field describes military service, not a credential. Other congressional candidates remain additional targeted leads, not completed person passes."
+  },
+  "documents": [
+    {
+      "id": "220106-public-media-complete-questionnaire", "candidate_id": "220106", "name": "Kimberly Overman", "state": "FL", "district": "12", "party": "Democratic", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot", "source_title": "WUSF/Florida public media: Kimberly Overman full original questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_field_locator": "section 3030, group district-12, candidate 15250; topics 6802/6804/6806 and all remaining own responses",
+      "identity_status": "verified", "identity_qualification": "Exact surname/given name, Democrat, FL12 and Bilirakis/Scrivener opponents match native candidate and own dated district-change statement. Not earlier FL15 contest.",
+      "identity_fragments": ["Overman"], "source_excerpts": ["Overman", "67", "Science", "retired", "Commissioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_guide_age_with_unspecified_response_reference_date", "factual_reference_date": "Age 67 in 2026 guide; response/reference day unspecified", "value": "Own age response reports 67. Preserve useful imprecise age without inventing birthday, exact birth year or November 3 election age", "source_fragment": "67"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_named_bachelor_of_science", "factual_reference_date": "Completed before 2026 questionnaire; award year unspecified", "value": "BS Agricultural and Resource Economics, University of Maryland; does not resolve independently retained 1981/1982 award-year discrepancy", "source_fragment": "Science"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_current_and_retired_career_distinction", "factual_reference_date": "2026 guide response", "value": "Small-business owner and caregiver, retired financial planner and former county commissioner. Explicitly retired designation, not assertion of a current CFP credential", "source_fragment": "retired"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_former_county_commissioner_description", "factual_reference_date": "Before 2026; term independently documented", "value": "Former Hillsborough county commissioner; no new term date or separate government-employment claim", "source_fragment": "Commissioner"}
+      ],
+      "extraction_review": "Read all eleven own answers including age, credentials, occupation and every issue question. Generic pregnancy/family/faith discussion is not her personal denomination. No own race/ethnicity, military status or new paid-government employment supplied. Shared-original excerpts across the five records total 25 words."
+    },
+    {
+      "id": "220108-public-media-complete-questionnaire", "candidate_id": "220108", "name": "Leela Gray", "state": "FL", "district": "13", "party": "Democratic", "contest_id": "2026:house:FL:13:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot", "source_title": "WUSF/Florida public media: Leela J. Gray full original questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_field_locator": "section 3030, group district-13, candidate 15256; topics 6802/6804/6806 and all remaining own responses",
+      "identity_status": "verified", "identity_qualification": "Exact Leela J. Gray, Democrat, FL13, Luna/D'Arrigo opponents and same four-degree/retired-Army biography as native-linked campaign and actual Candidate Connection.",
+      "identity_fragments": ["Gray"], "source_excerpts": ["Gray", "59", "Juris", "General"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_age_without_response_day_or_birthday", "factual_reference_date": "Own age 59 in 2026 guide; exact response/reference date not supplied", "value": "Candidate explicitly reports age 59; consistent with dated 2024 issuer age 57, but neither establishes exact DOB or exact election age without reference-day assumptions", "source_fragment": "59"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_four_completed_credentials_not_attendance", "factual_reference_date": "Completed before undated 2026 guide response", "value": "Bachelor's mass communications Elon; master's journalism Ball State; MSS Army War College; JD Stetson College of Law. No award dates supplied by this response", "source_fragment": "Juris"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_retired_military_occupation", "factual_reference_date": "2026 guide response", "value": "Occupation given as retired Army brigadier general; retirement is not current active-duty status", "source_fragment": "General"},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_army_general_service", "factual_reference_date": "Retired before 2026 response", "value": "Own retired Army general service, not father's or husband's service", "source_fragment": "General"}
+      ],
+      "extraction_review": "Read all eleven own answers. Daughter's 25 years is not candidate age; policy discussion of immigrants is not candidate ethnicity or nationality; issue statements do not document personal religious affiliation or a prior-office negative."
+    },
+    {
+      "id": "220117-public-media-complete-questionnaire", "candidate_id": "220117", "name": "Kelly Kirschner", "state": "FL", "district": "16", "party": "Democratic", "contest_id": "2026:house:FL:16:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot", "source_title": "WUSF/Florida public media: Kelly Kirschner full questionnaire and explicit USAID contractor wording",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_field_locator": "section 3030, group district-16, candidate 15278; topics 6802/6804/6806 and all remaining own responses",
+      "identity_status": "verified", "identity_qualification": "Exact FL16 Democrat, Gruters/Davis opponents, Sarasota/Eckerd/Georgetown career and own full questionnaire match retained native candidate; not father Kerry.",
+      "identity_fragments": ["Kirschner"], "source_excerpts": ["Kirschner", "51", "Science", "USAID contractor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_guide_age_not_exact_dob", "factual_reference_date": "Own age 51 in undated 2026 guide response", "value": "Reports age 51, consistent with independently retained 1975 birth year; no exact birthday or intersection of unmatched observation days", "source_fragment": "51"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_named_degrees_separate_from_study_and_development_programs", "factual_reference_date": "Before 2026 guide; no award years here", "value": "Georgetown MA Latin American studies and BS Foreign Service, environmental/international-politics major. Ecuador study and leadership/presidential-vocation programs are not additional completed academic degrees", "source_fragment": "Science"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_current_consultancy_and_multiple_historical_careers", "factual_reference_date": "Current organizational strategy consulting; earlier academic/nonprofit/project work", "value": "Organizational strategy consulting; former Eckerd VP/dean, UnidosNow cofounder, Peace Corps volunteer and USAID contractor in Guatemala. Neither volunteering nor contracting establishes direct agency payroll", "source_fragment": "USAID contractor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_former_sarasota_commissioner_and_mayor", "factual_reference_date": "Prior to 2026; terms independently retained", "value": "Again identifies former Sarasota commissioner/mayor; no new exact term dates", "source_fragment": "Kirschner"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_own_usaid_contracting_not_direct_federal_employment", "factual_reference_date": "Historical Guatemala agricultural-development work", "value": "Own description identifies USAID contractor status, resolving employment-basis ambiguity for this project toward contracted work. Does not establish direct federal employee status or a universal no-government-employment negative", "source_fragment": "USAID contractor"}
+      ],
+      "extraction_review": "Read all eleven own answers. Explicit contractor wording qualifies earlier reporter's USAID hire description; not automatically contradictory. Spanish study, Latin American degree and Guatemala work are not racial/ethnic identity; Catholic-named study institution is not personal religion. No own military positive or explicit negative."
+    },
+    {
+      "id": "220107-public-media-complete-questionnaire", "candidate_id": "220107", "name": "Branden Scrivener", "state": "FL", "district": "12", "party": "Independent", "contest_id": "2026:house:FL:12:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot", "source_title": "WUSF/Florida public media: Branden Scrivener full original questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_field_locator": "section 3030, group district-12, candidate 15249; topics 6802/6804/6806 and all remaining own responses",
+      "identity_status": "verified", "identity_qualification": "Exact FL12 no-party nominee, Bilirakis/Overman opponents and matching case-management occupation agree with native person and full WUSF primary article.",
+      "identity_fragments": ["Scrivener"], "source_excerpts": ["Scrivener", "27", "bachelors", "case", "As a man"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_guide_age_without_exact_reference_day", "factual_reference_date": "Own age 27 in 2026 guide; response date unspecified", "value": "Own age 27 corroborates dated August 18 profile but supplies no new birthday or tighter interval", "source_fragment": "27"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_public_own_man_self_description", "factual_reference_date": "2026 guide abortion-restrictions response", "value": "Explicitly self-describes as a man in own answer, not inferred from name, photograph or family", "source_fragment": "As a man"},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_bachelors_field_without_institution", "factual_reference_date": "Completed before 2026 response", "value": "Bachelor's in human services; institution and award date unspecified. Listed placements are internships, not additional degrees", "source_fragment": "bachelors"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_current_case_manager_assistant_not_assumed_federal_employee", "factual_reference_date": "2026 guide response", "value": "Case-manager assistant helping Medicare patients navigate insurance; federal program name and internships at service organizations do not establish direct paid government employment", "source_fragment": "case"}
+      ],
+      "extraction_review": "Read every answer and subject boundary. Charity/agency internships are not automatically paid employment. Statements about minority communities, public education, veterans or choice are not candidate race/ethnicity/religion/military status. Full six-family person pass not claimed."
+    },
+    {
+      "id": "220110-public-media-complete-questionnaire", "candidate_id": "220110", "name": "Tony D'Arrigo", "state": "FL", "district": "13", "party": "Independent", "contest_id": "2026:house:FL:13:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot", "source_title": "WUSF/Florida public media: Tony D'Arrigo complete original questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_field_locator": "section 3030, group district-13, candidate 15252; topics 6802/6804/6806 and all remaining own responses",
+      "identity_status": "verified", "identity_qualification": "Exact no-party FL13 nominee alongside Luna/Gray matches native candidate 220110. Not Gray's husband Tony or a different D'Arrigo.",
+      "identity_fragments": ["D'Arrigo"], "source_excerpts": ["D'Arrigo", "41", "Attended", "GM"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_reported_age_without_response_reference_day", "factual_reference_date": "Own age 41 in 2026 guide; response date unspecified", "value": "Explicit own age 41; do not manufacture DOB, birth year or exact election age", "source_fragment": "41"},
+        {"trait": "education", "factual_status": "partial", "precision": "own_explicit_university_attendance_without_completed_credential", "factual_reference_date": "Before 2026 response", "value": "Seton Hall attendance, not a completed degree or specified award year", "source_fragment": "Attended"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_current_hospitality_consulting_and_restaurant_management", "factual_reference_date": "2026 guide response", "value": "Hospitality business-management consultant and general manager of an unnamed restaurant franchise; no invented employer", "source_fragment": "GM"}
+      ],
+      "extraction_review": "Read all eleven own answers. Omitted credentials/service are not negatives; policies about gender, immigration and faith do not establish own sensitive traits. No full six-family pass claimed."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220106", "family": "ballotpedia_questionnaire", "query": "Follow original WUSF article's public voter guide; ordinary browser Browse full guide, congressional section, actual loaded public ballot response, all Overman answers", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot"]},
+    {"candidate_id": "220108", "family": "ballotpedia_questionnaire", "query": "Read all actual Leela J. Gray responses from original public guide after exact FL13 roster verification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot"]},
+    {"candidate_id": "220117", "family": "ballotpedia_questionnaire", "query": "Read all actual Kelly Kirschner guide answers, distinguish credentials from attendance and USAID contractor from direct employee", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot"]},
+    {"candidate_id": "220107", "family": "ballotpedia_questionnaire", "query": "Read all actual Branden Scrivener guide answers after native FL12 identity match, including own man self-description", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot"]},
+    {"candidate_id": "220110", "family": "ballotpedia_questionnaire", "query": "Read all actual Tony D'Arrigo guide answers after native FL13/no-party identity verification; do not transfer Gray's family identity", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://app.electup.com/api/v2/embed/890ca2ae-7369-4ea6-976c-1e09bede8c1e/ballot"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220106", "details": "WUSF questionnaire lead resolved with complete actual answers; age now partially documented as own reported 67, not exact DOB. Existing source-year conflict, personal religion, race/ethnicity and own military status remain unresolved; no new blocked-source retry."},
+    {"candidate_id": "220117", "details": "Own USAID contractor wording now qualifies older employment-basis ambiguity for Guatemala work; direct government employment remains unsupported, not an inferred negative."},
+    {"candidate_id": "220107", "details": "Age/education/profession and explicit man self-description retained. Continue remaining five source families; questionnaire is not comprehensive research."},
+    {"candidate_id": "220110", "details": "Age and university attendance remain imprecise; occupation supported. Continue full person-level pass and missing identities/service histories rather than assume negatives."}
+  ]
+}

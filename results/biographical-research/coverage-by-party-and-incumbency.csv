@@ -1,8 +1,8 @@
 party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
-all,all,1284,9,108,1167,422,178,100
-all,incumbent,360,0,3,357,3,0,0
-all,nonincumbent,312,9,97,206,405,166,96
-all,unresolved,612,0,8,604,14,12,4
+all,all,1284,11,128,1145,499,210,121
+all,incumbent,360,0,7,353,8,1,1
+all,nonincumbent,312,11,101,200,453,176,103
+all,unresolved,612,0,20,592,38,33,17
 America First,all,1,0,0,1,0,0,0
 America First,incumbent,0,0,0,0,0,0,0
 America First,nonincumbent,0,0,0,0,0,0,0
@@ -19,22 +19,22 @@ Constitution,all,4,0,0,4,0,0,0
 Constitution,incumbent,0,0,0,0,0,0,0
 Constitution,nonincumbent,0,0,0,0,0,0,0
 Constitution,unresolved,4,0,0,4,0,0,0
-Democratic,all,449,9,97,343,405,166,96
-Democratic,incumbent,183,0,0,183,0,0,0
-Democratic,nonincumbent,266,9,97,160,405,166,96
+Democratic,all,449,11,103,335,455,175,102
+Democratic,incumbent,183,0,4,179,5,1,1
+Democratic,nonincumbent,266,11,99,156,450,174,101
 Democratic,unresolved,0,0,0,0,0,0,0
 Florida Forward Party,all,1,0,0,1,0,0,0
 Florida Forward Party,incumbent,0,0,0,0,0,0,0
 Florida Forward Party,nonincumbent,0,0,0,0,0,0,0
 Florida Forward Party,unresolved,1,0,0,1,0,0,0
-Green,all,29,0,0,29,0,0,0
+Green,all,29,0,3,26,7,5,2
 Green,incumbent,0,0,0,0,0,0,0
 Green,nonincumbent,0,0,0,0,0,0,0
-Green,unresolved,29,0,0,29,0,0,0
-Independent,all,117,0,5,112,11,10,2
+Green,unresolved,29,0,3,26,7,5,2
+Independent,all,117,0,7,110,14,13,4
 Independent,incumbent,0,0,0,0,0,0,0
 Independent,nonincumbent,0,0,0,0,0,0,0
-Independent,unresolved,117,0,5,112,11,10,2
+Independent,unresolved,117,0,7,110,14,13,4
 Independent American,all,4,0,0,4,0,0,0
 Independent American,incumbent,0,0,0,0,0,0,0
 Independent American,nonincumbent,0,0,0,0,0,0,0
@@ -95,10 +95,10 @@ Pacific Green,all,2,0,0,2,0,0,0
 Pacific Green,incumbent,0,0,0,0,0,0,0
 Pacific Green,nonincumbent,0,0,0,0,0,0,0
 Pacific Green,unresolved,2,0,0,2,0,0,0
-Republican,all,433,0,5,428,5,2,2
+Republican,all,433,0,13,420,21,17,13
 Republican,incumbent,176,0,3,173,3,0,0
-Republican,nonincumbent,46,0,0,46,0,0,0
-Republican,unresolved,211,0,2,209,2,2,2
+Republican,nonincumbent,46,0,2,44,3,2,2
+Republican,unresolved,211,0,8,203,15,15,11
 Socialism PSL,all,1,0,0,1,0,0,0
 Socialism PSL,incumbent,0,0,0,0,0,0,0
 Socialism PSL,nonincumbent,0,0,0,0,0,0,0
@@ -139,7 +139,7 @@ Working Class Party,all,1,0,0,1,0,0,0
 Working Class Party,incumbent,0,0,0,0,0,0,0
 Working Class Party,nonincumbent,0,0,0,0,0,0,0
 Working Class Party,unresolved,1,0,0,1,0,0,0
-Write-In,all,109,0,0,109,0,0,0
+Write-In,all,109,0,1,108,1,0,0
 Write-In,incumbent,0,0,0,0,0,0,0
 Write-In,nonincumbent,0,0,0,0,0,0,0
-Write-In,unresolved,109,0,0,109,0,0,0
+Write-In,unresolved,109,0,1,108,1,0,0

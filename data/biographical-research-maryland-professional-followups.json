@@ -1,0 +1,72 @@
+{
+  "scope": "Follow independent actual originals for two unresolved Maryland employment/affiliation questions. National questionnaire discovery is not national acquisition completion; respondents must match the retained general-election roster. Preserve historical fits and blocked campaign access.",
+  "documents": [
+    {
+      "id": "220480-starrs-explicit-civil-service-answer",
+      "candidate_id": "220480", "name": "Berney Flowers", "state": "MD", "district": "03", "party": "Republican", "contest_id": "2026:house:MD:03:general:source_general",
+      "family": "ballotpedia_questionnaire",
+      "url": "https://starrs.us/candidate-survey-2026-why-do-you-want-to-serve-in-the-office-for-which-you-are-running/",
+      "source_title": "STARRS 2026 candidate survey, question 9: Berney Flowers MD03 response",
+      "publication_date": "2026-09-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual table row names Berney Flowers, Maryland and Congress District 3. Military/civilian career aligns with separately reviewed campaign biography; adjacent Felix Seier's Navy service is a different person.",
+      "identity_fragments": ["Berney", "Flowers"],
+      "source_excerpts": ["Berney", "Flowers", "my military service", "my civil service career", "nearly 34 years"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_civil_service_career_separate_from_military", "factual_reference_date": "Career described in September 18, 2026 questionnaire", "value": "Candidate explicitly distinguishes civil-service career from military service. This supports a scoped civilian-government career fact; it does not supply individual agency appointment dates or establish the employment basis of every defense assignment", "source_fragment": "my civil service career"},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_candidate_own_military_service", "factual_reference_date": "Before 2026 questionnaire", "value": "Affirms own military service. Nearly 34 years is combined government service, not military tenure; Air Force duration/rank comes from separate campaign biography", "source_fragment": "my military service", "supporting_fragments": ["nearly 34 years"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_military_and_civil_service_careers", "factual_reference_date": "Before September 2026", "value": "Self-described military and civilian public-service careers; no new named job title or pay inferred", "source_fragment": "my civil service career", "supporting_fragments": ["my military service"]}
+      ],
+      "extraction_review": "Read actual survey introduction, exact question and complete Flowers row with neighboring boundaries. Politically oriented publisher hosts candidate-submitted wording, not independent personnel verification. Other respondents' degrees/service are not Flowers's; no sensitive identity, age or personal service negative."
+    },
+    {
+      "id": "220483-actual-personal-professional-cv",
+      "candidate_id": "220483", "name": "Sam Husseini", "state": "MD", "district": "04", "party": "Green", "contest_id": "2026:house:MD:04:general:source_general",
+      "family": "university_employer_professional",
+      "url": "https://husseini.posthaven.com/sam-hussein-cv",
+      "source_title": "Sam Husseini: personal professional CV and dated career chronology",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Page labels last updated 2020, but current Substack links may be later. Do not treat this label as independently archived availability of every present sentence.",
+      "identity_status": "verified",
+      "identity_qualification": "Personal CV links the Husseini Substack and gives the same IPA/FAIR/ADC career and Carnegie Mellon background as the actual native MD04 questionnaire, despite truncated Hussein in CV title. No expanded legal name or FEC bridge accepted.",
+      "identity_fragments": ["Husseini"],
+      "source_excerpts": ["Husseini", "1987: Graduated from", "Carnegie-Mellon University", "New York City public school system", "1988 to 1989", "Communications Director and Senior Analyst"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_graduation_year_and_double_major", "factual_reference_date": "1987 graduation; later art attendance not completed credentials", "value": "Reports Carnegie Mellon graduation in 1987 with applied-math and logic/computation double major; not two independently awarded bachelor's degrees. Later Hunter/SVA art study is attendance only", "source_fragment": "1987: Graduated from", "supporting_fragments": ["Carnegie-Mellon University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_self_reported_public_private_media_and_art_careers", "factual_reference_date": "Moody's 1987-88; teaching/shelter 1988-89; FAIR 1990-96; ADC 1996-97; IPA from 1997", "value": "Dated CV distinguishes programming, substitute math teaching, shelter management, journalism/media work and art. IPA present means CV reference period, not proof of unchanged 2026 employment", "source_fragment": "Communications Director and Senior Analyst", "supporting_fragments": ["1988 to 1989"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_dated_named_public_school_system_teaching_work", "factual_reference_date": "1988-1989", "value": "Explicit substitute math-teaching stints in the New York City public school system during 1988-89, lasting a day to several months. Scope limited to reported public-system teaching; exact appointment/payroll classification not supplied", "source_fragment": "New York City public school system", "supporting_fragments": ["1988 to 1989"]}
+      ],
+      "extraction_review": "Read complete chronological career/education narrative and selected-writing headings, not every linked publication. Catholic Worker shelter management does not establish personal Catholic belief. Military/nuclear reporting is not own service. No DOB, racial/ethnic self-description, elected-office negative or personal gender classification supplied."
+    },
+    {
+      "id": "220483-personal-spiritual-practice-essay",
+      "candidate_id": "220483", "name": "Sam Husseini", "state": "MD", "district": "04", "party": "Green", "contest_id": "2026:house:MD:04:general:source_general",
+      "family": "earlier_biography",
+      "url": "https://husseini.substack.com/p/lent-ramadan-and-facing-the-world",
+      "source_title": "Lent, Ramadan and Facing the World: complete personal essay",
+      "publication_date": "2026-03-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Sam Husseini byline on actual personal Substack linked by native candidate questionnaire; art, Durban trip and public-accuracy journalist context match same person.",
+      "identity_fragments": ["Sam Husseini"],
+      "source_excerpts": ["Sam Husseini", "my own spiritual practice of the last several years", "technically became a Muslim"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "explicit_personal_spiritual_practices_without_unambiguous_denomination", "factual_reference_date": "2026-03-14 and described prior years", "value": "Documents personal directional/nature-centered spiritual practice and Ramadan fasting/interfaith participation. Contextual remark about technically becoming Muslim concerns reciting a declaration to gain site access; do not code categorical Muslim, Christian, nonreligious or another denomination", "source_fragment": "my own spiritual practice of the last several years", "supporting_fragments": ["technically became a Muslim"]}
+      ],
+      "extraction_review": "Read full original essay through author footnote, separating third-party comments. Visiting/speaking at a mosque or Methodist congregation is not membership; parents' reported Christianity is not used. Retain the explicit personal practices rather than force a binary faith label or religious conversion."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220480", "family": "ballotpedia_questionnaire", "query": "Follow mapped STARRS question 9 original, locate Flowers and read exact question and complete Maryland row", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://starrs.us/candidate-survey-2026-why-do-you-want-to-serve-in-the-office-for-which-you-are-running/"], "qualification": "Actual original row reviewed; discovery query/result mapping was not retained, so this is not represented as an executed search."},
+    {"candidate_id": "220483", "family": "university_employer_professional", "query": "Follow actual personal CV result and read entire dated career/education chronology", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://husseini.posthaven.com/sam-hussein-cv"]},
+    {"candidate_id": "220483", "family": "earlier_biography", "query": "Follow actual authored religion/spiritual-practice essay and read complete context rather than classify from search snippet", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://husseini.substack.com/p/lent-ramadan-and-facing-the-world"]},
+    {"candidate_id": "220483", "family": "local_profile", "query": "Read actual 2018 Guardian interview for dated age rather than mistake video duration for age", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.theguardian.com/world/2018/jul/18/activist-tells-of-detention-for-disrupting-trump-putin-summit"], "lead_dispositions": {"https://www.theguardian.com/world/2018/jul/18/activist-tells-of-detention-for-disrupting-trump-putin-summit": {"status": "reviewed_no_requested_facts", "reason": "Read complete actual interview; no age or birthday. Media career already corroborated; no new requested background field. Video duration is not age, interview subjects are not personal religious or service facts."}}}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220480", "details": "Explicit civil-service self-description now qualifies a scoped civilian-government career fact independently of ambiguous campaign title. Agency appointment history, exact dates, completed education, age, personal identities and scoped elected-office response remain actionable. National STARRS questionnaire is newly discovered; match actual general-election roster before further extraction."},
+    {"candidate_id": "220483", "details": "Dated NYC public-system teaching and college graduation supported by actual CV; spiritual essay remains partial rather than forced denomination. Artist-catalogue lead subsequently resolved in biographical-research-husseini-catalogue-followup.json without DOB/year or own sensitive classification. Other independent originals remain actionable; reject unrelated Perth-born tourism businessman and preserve campaign 403."}
+  ]
+}

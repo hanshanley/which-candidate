@@ -1,0 +1,196 @@
+{
+  "scope": "Follow actual Maryland campaign and questionnaire originals for missing backgrounds across parties, including write-in nominees. These are additive factual reviews, not completed person passes or amendments to frozen analyses. Shared-page quotations total no more than 25 words across candidate entries.",
+  "documents": [
+    {
+      "id": "220492-campaign-explicit-christian-statement",
+      "candidate_id": "220492", "name": "Cheryl Riley", "state": "MD", "district": "08", "party": "Republican", "contest_id": "2026:house:MD:08:general:source_general",
+      "family": "campaign", "url": "https://www.cheryl4maryland.com/",
+      "source_title": "Cheryl Riley for Congress MD08: campaign biography and personal statement",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Candidate-linked domain from actual Maryland Matters MD08 questionnaire; page identifies Cheryl Riley, MD08 and opponent Jamie Raskin.",
+      "identity_fragments": ["Cheryl Riley"],
+      "source_excerpts": ["Cheryl Riley", "a proud Christian", "Congresswoman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_candidate_first_person_christian_affiliation", "factual_reference_date": "Undated statement observed 2026-11-18", "value": "Candidate explicitly describes herself as Christian. No denomination or pre-election publication date established", "source_fragment": "a proud Christian"}
+      ],
+      "extraction_review": "Read campaign statements, full personal introduction, endorsements and news links. A gendered prospective office title is not promoted to a personal gender declaration. Veterans advocacy, policy views and references to other people's crimes or family do not establish military history, identity or occupations. Independent education and career questionnaire recorded separately."
+    },
+    {
+      "id": "220492-maryland-matters-2024-complete-questionnaire",
+      "candidate_id": "220492", "name": "Cheryl Riley", "state": "MD", "district": "08", "party": "Republican", "contest_id": "2026:house:MD:08:general:source_general",
+      "family": "local_profile", "url": "https://marylandmatters.org/race-details/u-s-house-8th-district/",
+      "source_title": "Maryland Matters 2024 MD08 voter guide: Cheryl Riley responses",
+      "publication_date": "2024-09-26", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Cheryl Riley heading, Republican MD08 race and linked cheryl4maryland.com domain bridge actual earlier candidate responses to native nominee. Biography misspells first name Cherly once; headings and campaign link agree.",
+      "identity_fragments": ["Cheryl Riley"],
+      "source_excerpts": ["Cheryl Riley", "University of Maryland", "public relations firm"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "named_college_attendance_without_completed_award", "factual_reference_date": "Before 2024-09-26", "value": "Reports Montgomery College and University of Maryland attendance; no completed degree, credential type or year stated", "source_fragment": "University of Maryland"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_public_relations_business", "factual_reference_date": "2024-09-26 questionnaire", "value": "Reports managing her own public-relations firm. Historical questionnaire does not alone establish unchanged 2026 employment", "source_fragment": "public relations firm"}
+      ],
+      "extraction_review": "Read biography and every motivation, priorities, quality-of-life, productivity, reproductive-rights, energy and hobbies response through original page end. No DOB, religious self-description or explicit personal service/office answer; do not borrow Nancy Wallace's age or Jamie Raskin's career."
+    },
+    {
+      "id": "220493-maryland-matters-2024-complete-questionnaire",
+      "candidate_id": "220493", "name": "Nancy Wallace", "state": "MD", "district": "08", "party": "Green", "contest_id": "2026:house:MD:08:general:source_general",
+      "family": "local_profile", "url": "https://marylandmatters.org/race-details/u-s-house-8th-district/",
+      "source_title": "Maryland Matters 2024 MD08 voter guide: Nancy Wallace responses",
+      "publication_date": "2024-09-26", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Nancy Wallace, Green MD08, Whitman/Yale political-science background and ecological-data career match native candidate and earlier gubernatorial biography, not same-name environmentalist or economist.",
+      "identity_fragments": ["Nancy Wallace"],
+      "source_excerpts": ["Nancy Wallace", "68", "Yale University in 1976", "data coordinator"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "dated_age_interval_not_exact_birth_date", "factual_reference_date": "Age 68 in 2024-09-26 questionnaire, conditional on age current at publication", "value": "Age 68 at publication supports birth interval 1955-09-27 through 1956-09-26 and election age 70-71. Individual submission day unspecified. Separately reported campaign birth year 1956 overlaps; neither source establishes an exact birthday", "source_fragment": "68"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_explicit_university_graduation_and_year", "factual_reference_date": "1976", "value": "Reports Yale graduation in political science in 1976; earlier campaign biography identifies bachelor's, not a law degree", "source_fragment": "Yale University in 1976"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_ecological_data_and_environmental_advocacy_careers", "factual_reference_date": "2024-09-26 questionnaire", "value": "Reports ecological-restoration data coordination supporting Commerce, 14 years of environmental/health advocacy and five years as Sierra Club program director. Historical current-work language not automatically current in 2026", "source_fragment": "data coordinator"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "federal_client_support_without_direct_employment_basis", "factual_reference_date": "2024-09-26 questionnaire", "value": "Supports Commerce ecological-restoration projects as data coordinator; does not identify a federal civil-service appointment or distinguish contractor employer. Advocacy to Congress is not congressional employment", "source_fragment": "data coordinator"}
+      ],
+      "extraction_review": "Read every candidate response across all eight topics through hobbies. Advocacy for women/girls and reproductive rights is not personal gender classification. No personal military or elected-office negative, racial/ethnic self-description or religious declaration."
+    },
+    {
+      "id": "220491-maryland-matters-2024-complete-questionnaire",
+      "candidate_id": "220491", "name": "Jamie Raskin", "state": "MD", "district": "08", "party": "Democratic", "contest_id": "2026:house:MD:08:general:source_general",
+      "family": "local_profile", "url": "https://marylandmatters.org/race-details/u-s-house-8th-district/",
+      "source_title": "Maryland Matters 2024 MD08 voter guide: Jamie Raskin responses",
+      "publication_date": "2024-09-26", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Jamie Raskin, incumbent MD08, linked jamieraskin.com campaign, Maryland Senate and American University law career match native candidate.",
+      "identity_fragments": ["Jamie Raskin"],
+      "source_excerpts": ["Jamie Raskin", "professor", "three-term State Senator"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_named_university_law_professorship_and_authorship", "factual_reference_date": "University teaching before Congress; questionnaire 2024", "value": "Reports American University constitutional-law professorship and authorship. Private university is not public employment", "source_fragment": "professor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_state_senate_service_before_congress", "factual_reference_date": "Three state Senate terms before Congress", "value": "Reports three Maryland Senate terms before federal service; retain distinction between earlier elected office and other government employment", "source_fragment": "three-term State Senator"}
+      ],
+      "extraction_review": "Read all eight-topic answers and biography on the shared original, extracting requested personal background separately from policy, constituent service and other candidates. No own military answer, DOB, religious or racial/ethnic self-description; obtaining veterans' benefits is not own military service."
+    },
+    {
+      "id": "220490-ballotpedia-biography-and-survey-declarations",
+      "candidate_id": "220490", "name": "Scott Collier", "state": "MD", "district": "07", "party": "Republican", "contest_id": "2026:house:MD:07:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Scott_Collier_(Maryland)",
+      "source_title": "Scott Collier: biography, earlier biographical submission and survey declarations",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Scott Collier, Republican MD07, earlier Dundalk/state Senate candidacies and linked scottcollier.org campaign establish native identity despite earlier independent affiliation.",
+      "identity_fragments": ["Scott Collier"],
+      "source_excerpts": ["Scott Collier", "graduated from Dundalk High School in 1981", "structural steel painter", "home improvement specialist", "media entrepreneur (DundalkTV)"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_submitted_high_school_graduation_and_year", "factual_reference_date": "1981; biography submission 2018-09-07", "value": "Dundalk High School graduate, 1981. Do not infer college degree or age from graduation year", "source_fragment": "graduated from Dundalk High School in 1981"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_submitted_multiple_trade_and_media_careers", "factual_reference_date": "Career reported in earlier biographical submission; current employment not established", "value": "Structural-steel painter, home-improvement specialist and DundalkTV media entrepreneur", "source_fragment": "structural steel painter", "supporting_fragments": ["home improvement specialist", "media entrepreneur (DundalkTV)"]}
+      ],
+      "extraction_review": "Read actual personal/biography sections, all 2026/2024/2022/2020 noncompletion declarations and full brief 2018 philosophy submission with dated footnote. No military/firefighter history appears; no negative office claim follows from losing earlier campaigns. Campaign and independent professional leads remain actionable."
+    },
+    {
+      "id": "39942999-wboc-complete-election-profile",
+      "candidate_id": "39942999", "name": "Edward Shlikas", "state": "MD", "district": "01", "party": "Write-In", "contest_id": "2026:house:MD:01:general:source_general",
+      "family": "local_profile", "url": "https://www.wboc.com/elections/election-results/edward-shlikas/candidate_e0ecd868-340a-4f20-a4c9-1138092d00c9.html",
+      "source_title": "WBOC 2026 Maryland House District 1: Edward Shlikas candidate profile",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Edward Shlikas, Jarrettsville and actual MD01 2026 general-election candidate row establish person. Publisher describes unaffiliated candidacy; frozen native roster retains Write-In ballot category.",
+      "identity_fragments": ["Edward Shlikas"],
+      "source_excerpts": ["Edward Shlikas", "horticulturalist", "bachelor's degree from the University of Delaware", "New MB HomeCare Office", "Glen Meadows Continuing Care Retirement Community"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "local_publisher_reported_completed_named_university_bachelors", "factual_reference_date": "Before 2026 profile; award year unspecified", "value": "WBOC reports a completed University of Delaware bachelor's. No major, exact degree type or year inferred; underlying university verification remains a lead", "source_fragment": "bachelor's degree from the University of Delaware"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "local_publisher_multiple_career_roles", "factual_reference_date": "Profile's current horticulture description and earlier home-care management", "value": "Horticulturalist with business-operations/organizational-management background; previously led a home-care office at Glen Meadows retirement community. Do not assume public employer", "source_fragment": "horticulturalist", "supporting_fragments": ["New MB HomeCare Office", "Glen Meadows Continuing Care Retirement Community"]}
+      ],
+      "extraction_review": "Read full four-paragraph profile and actual candidate/race mapping. Stale photo alternative labels in opponent rows are not identity classifications. Do not import results into frozen outcomes or infer gender from image/pronouns. No personal service, age, religion or race/ethnicity assertion."
+    },
+    {
+      "id": "220485-2022-catholic-conference-self-description",
+      "candidate_id": "220485", "name": "Chris Chaffee", "state": "MD", "district": "05", "party": "Republican", "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "earlier_biography", "url": "https://thedialog.nyc3.digitaloceanspaces.com/wp-content/uploads/2022/06/2022.MD.CANDIDATE.RESPONSES.pdf",
+      "source_title": "Maryland Catholic Conference 2022 candidate responses: Chris Chaffee Senate statement, PDF page 9",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2022 primary publication, before July 19 election. URL June directory is not an exact publication day. PDF index 8 visually checked for candidate-row alignment.",
+      "identity_status": "verified", "identity_qualification": "Named Republican Chris Chaffee, 2022 Maryland Senate candidacy and business/family background align with native MD05 candidate's documented earlier statewide campaign.",
+      "identity_fragments": ["Chris Chaffee"],
+      "source_excerpts": ["Chris Chaffee", "As a Catholic", "Catholic business owner", "son of a veteran"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_candidate_first_person_catholic_affiliation_in_2022", "factual_reference_date": "2022 primary candidate statement", "value": "Candidate explicitly identifies as Catholic in his own statement. Retain dated affiliation rather than assuming unchanged 2026 belief", "source_fragment": "As a Catholic"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_explicit_business_owner_description", "factual_reference_date": "2022 primary statement", "value": "Self-described business owner, with no business name, industry or exact tenure supplied in this statement", "source_fragment": "Catholic business owner"}
+      ],
+      "extraction_review": "Read full actual Chaffee statement, Senate heading, question and neighboring candidate boundaries; visually verified PDF index 8. Father's veteran status is not candidate military service. Responding to Catholic voters alone is not affiliation; accepted religion relies on explicit first-person self-description."
+    },
+    {
+      "id": "220485-2018-league-qualifications",
+      "candidate_id": "220485", "name": "Chris Chaffee", "state": "MD", "district": "05", "party": "Republican", "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "earlier_biography", "url": "https://d3n8a8pro7vhmx.cloudfront.net/lwvmaryland/pages/597/attachments/original/1528852447/2018PrimaryElectionVG5counties3LWV.pdf?1528852447=",
+      "source_title": "League of Women Voters 2018 primary guide: Chris Chaffee Senate qualifications, printed page 6",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2018 primary guide before June 26 election; exact publication day not established. PDF index 5 visually checked to separate columns and candidate statements.",
+      "identity_status": "verified", "identity_qualification": "Chris Chaffee, Republican Maryland Senate candidate, campaign chrischaffeeforussenate.com and Catholic/business-owner background agree with his documented 2018/2022 statewide campaigns and native later MD05 identity.",
+      "identity_fragments": ["Chris Chaffee"],
+      "source_excerpts": ["Chris Chaffee", "Catholic, coach, union", "worker, state worker, business owner, volunteer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "candidate_explicit_catholic_description_in_2018", "factual_reference_date": "2018 primary candidate qualifications", "value": "Explicit Catholic self-description in qualifications response; no present-day continuity assumed", "source_fragment": "Catholic, coach, union"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_multiple_worker_business_and_coaching_roles", "factual_reference_date": "2018 primary qualifications; individual job dates unspecified", "value": "Self-described union worker, state worker, business owner and coach. Volunteer is a separate listed role, not the basis for paid-government classification", "source_fragment": "worker, state worker, business owner, volunteer"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_state_worker_self_description_scoped_to_2018", "factual_reference_date": "2018 qualifications response; agency and tenure not supplied", "value": "Explicit state-worker description supports a scoped government-work fact, not a named agency, current job, specific pay grade or elected-office role. Independent employment details remain a research lead", "source_fragment": "state worker"}
+      ],
+      "extraction_review": "Read exact qualifications question and full qualification paragraph, then visually checked page/column boundaries. Listed veteran relatives are not his service; no military negative or never-elected answer. National American identity is not a racial or ethnic classification."
+    },
+    {
+      "id": "220478-ballotpedia-complete-background",
+      "candidate_id": "220478", "name": "Dave Wallace", "state": "MD", "district": "02", "party": "Republican", "contest_id": "2026:house:MD:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Dave_Wallace_(Maryland)",
+      "source_title": "Dave Wallace: actual personal, biography, career and source-footnote sections",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Dave Wallace, Republican MD02, Salisbury biology, Chesapeake Kitchen Wholesalers and actual linked davewallace.us campaign distinguish native nominee.",
+      "identity_fragments": ["Dave Wallace"],
+      "source_excerpts": ["Dave Wallace", "B.S. in biology from Salisbury University", "immunological cancer research", "National Institute of Health", "Chesapeake Kitchen Wholesalers", "1981"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_reported_completed_named_bs_and_major", "factual_reference_date": "Historical completed award; year unspecified", "value": "Salisbury BS biology, corroborating generic completed biology degree in actual current campaign biography. South Carroll high school graduation separately reported", "source_fragment": "B.S. in biology from Salisbury University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_research_and_business_careers", "factual_reference_date": "Historical research; business started 1981", "value": "Reports immunological cancer research and Chesapeake Kitchen Wholesalers founding in 1981; Restore America's Mission founded 2008. Research employer basis needs separate verification", "source_fragment": "immunological cancer research", "supporting_fragments": ["Chesapeake Kitchen Wholesalers", "1981"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "agency_research_without_staff_vs_contractor_or_training_status", "factual_reference_date": "Earlier career; exact dates unspecified", "value": "Reports research for NIH but does not establish direct federal employee versus contractor, student or other appointment. Citation points to campaign page as accessed in 2024; actual current biography no longer supplies the research detail", "source_fragment": "National Institute of Health"}
+      ],
+      "extraction_review": "Read actual personal/biography/career and footnote sections; degree and agency references are not accepted from snippets. Current campaign original already reviewed separately. Other survey/policy answers and archived prior campaign original remain actionable; no complete-person or complete-questionnaire declaration."
+    },
+    {
+      "id": "220483-ballotpedia-complete-2026-questionnaire",
+      "candidate_id": "220483", "name": "Sam Husseini", "state": "MD", "district": "04", "party": "Green", "contest_id": "2026:house:MD:04:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Sam_Husseini",
+      "source_title": "Sam Husseini: biography and complete 2026 Candidate Connection answers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Footnote dates candidate submission October 1, 2026; page publication and unchanged historical availability not independently established.",
+      "identity_status": "verified", "identity_qualification": "Exact Sam Husseini, Green MD04 and linked samhusseini.com campaign, journalist/Institute for Public Accuracy background match native nominee; no FEC person match forced.",
+      "identity_fragments": ["Sam Husseini"],
+      "source_excerpts": ["Sam Husseini", "bachelor's degree from Carnegie Mellon University in 1987", "independent journalist", "substitute teacher in public schools", "Moody's Investor Service"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_submitted_completed_bachelors_and_year", "factual_reference_date": "1987; submission 2026-10-01", "value": "Carnegie Mellon bachelor's 1987 and Bronx High School of Science diploma. Major and exact award type not supplied", "source_fragment": "bachelor's degree from Carnegie Mellon University in 1987"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_first_person_multiple_media_technical_finance_and_teaching_roles", "factual_reference_date": "Multiple historical roles through 2026 submission", "value": "Journalist, FAIR/ADC/Institute for Public Accuracy work, visual art, earlier Moody's year, programming, shelter management and public-school substitute teaching. Do not treat declined job offer as employment", "source_fragment": "independent journalist", "supporting_fragments": ["Moody's Investor Service", "substitute teacher in public schools"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "public_school_substitute_teaching_without_named_employer_or_appointment_basis", "factual_reference_date": "Earlier career; dates unspecified", "value": "Explicit public-school substitute teaching is useful factual evidence; no named school district, direct appointment or staffing-agency distinction. Retain partial government-employment qualification pending corroboration", "source_fragment": "substitute teacher in public schools"}
+      ],
+      "extraction_review": "Read actual education/career fields, full personal narrative and all three 2026 survey responses through closing note and dated source footnote. Advocacy, employer name and journalist reporting subjects are not ethnic/religious identification, government employment or military service. No personal age, identity or service negative."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220492", "family": "campaign", "query": "Follow actual campaign link from Maryland Matters MD08 candidate guide and read campaign personal statement", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cheryl4maryland.com/"]},
+    {"candidate_id": "220492", "family": "local_profile", "query": "Read all actual 2024 MD08 candidate questionnaire responses through hobbies and publisher date", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://marylandmatters.org/race-details/u-s-house-8th-district/"]},
+    {"candidate_id": "220493", "family": "local_profile", "query": "Read full Nancy Wallace responses, not only biography, on actual 2024 MD08 questionnaire", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://marylandmatters.org/race-details/u-s-house-8th-district/"]},
+    {"candidate_id": "220491", "family": "local_profile", "query": "Extract requested Jamie Raskin background from all actual responses in shared 2024 MD08 guide", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://marylandmatters.org/race-details/u-s-house-8th-district/"]},
+    {"candidate_id": "220490", "family": "ballotpedia_questionnaire", "query": "Follow and read actual Scott Collier personal/biography, all survey declarations, full 2018 submission and dated footnotes", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Scott_Collier_(Maryland)"]},
+    {"candidate_id": "39942999", "family": "local_profile", "query": "Read actual WBOC Edward Shlikas biography and MD01 election/person mapping", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wboc.com/elections/election-results/edward-shlikas/candidate_e0ecd868-340a-4f20-a4c9-1138092d00c9.html"]},
+    {"candidate_id": "220485", "family": "earlier_biography", "query": "Read actual 2022 Catholic Conference Senate candidate statement; visually inspect PDF index 8", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://thedialog.nyc3.digitaloceanspaces.com/wp-content/uploads/2022/06/2022.MD.CANDIDATE.RESPONSES.pdf"]},
+    {"candidate_id": "220485", "family": "earlier_biography", "query": "Read actual 2018 League Senate qualifications question and response; visually inspect PDF index 5 and distinguish veteran relatives", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://d3n8a8pro7vhmx.cloudfront.net/lwvmaryland/pages/597/attachments/original/1528852447/2018PrimaryElectionVG5counties3LWV.pdf?1528852447="]},
+    {"candidate_id": "220478", "family": "ballotpedia_questionnaire", "query": "Read actual Dave Wallace biography, career, personal and footnote sections for Salisbury award and agency-research employment qualification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Dave_Wallace_(Maryland)"]},
+    {"candidate_id": "220483", "family": "ballotpedia_questionnaire", "query": "Read actual Sam Husseini biography, complete 2026 survey and source footnote; extract all supported background fields", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Sam_Husseini"]},
+    {"candidate_id": "220483", "family": "campaign", "query": "Follow actual campaign domain from Ballotpedia; original homepage returned HTTP 403", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://samhusseini.com/"], "lead_dispositions": {"https://samhusseini.com/": {"status": "access_failure", "reason": "Actual original returned HTTP 403; no retry or alternate-access attempt. Continue independent questionnaire and professional originals."}}}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220492", "details": "Explicit campaign Christian self-description now accepted; no denomination or historical publication date. Continue dated age, education conferral, direct professional biography, earlier independent profiles and scoped service answers. Local questionnaire does not complete all six families."},
+    {"candidate_id": "220493", "details": "Complete shared questionnaire now reviewed. Dated age and birth-year evidence retain precision/assumptions; underlying university/employer and earlier WYPR profile remain actionable. Federal-client data work does not establish direct government employment."},
+    {"candidate_id": "220491", "details": "New person-level review started from shared questionnaire, not completed. Continue campaign, official, university, Ballotpedia, earlier and independent biography sources for genuinely missing fields."},
+    {"candidate_id": "220490", "details": "Education/trade/media facts persisted from actual biography. Follow actual scottcollier.org campaign and independent Dundalk/professional history; no survey completion in 2020-26 and no inference from failed campaigns."},
+    {"candidate_id": "39942999", "details": "Write-in retained and actual local profile reviewed. Seek candidate campaign, University of Delaware and named employer/professional originals; no age/service/identity evidence yet. Publisher affiliation differs in granularity from native ballot category, not silently recoded."},
+    {"candidate_id": "220485", "details": "2018 state-worker and 2018/2022 Catholic self-descriptions accepted with dated scope. Seek named agency/employment dates, education, age, explicit identities and personal service history; no candidate military answer or never-elected negative established."},
+    {"candidate_id": "220478", "details": "Actual biography supports specific BS and multiple careers; NIH work remains partial because appointment basis unspecified. Archived 2024 campaign original and remaining survey content remain actionable."},
+    {"candidate_id": "220483", "details": "Full 2026 survey provides education/careers and partial substitute-teaching evidence. Campaign original blocked; continue independent professional and earlier biographical sources for explicit identities, dated age, service and teaching employment. No legal-name or FEC bridge accepted from inaccessible or unverified filings."}
+  ]
+}

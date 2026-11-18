@@ -1,0 +1,248 @@
+{
+  "scope": "Additive Maine/Maryland person-level background research from Louisiana checkpoint 0d0a880fa94e9f3c2e7730573d5a55e46a2b80ee. Preserve frozen science, actual native identities, conflicting ages, public-source classifications and unknown service histories. Review all ten background traits together; no candidate is declared complete.",
+  "documents": [
+    {
+      "id": "220484-complete-campaign-meet-adrian",
+      "candidate_id": "220484", "name": "Adrian Boafo", "state": "MD", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "campaign", "url": "https://www.adrianboafo.com/adrian",
+      "source_title": "Meet Adrian: complete campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual Meet link on native MD05 campaign domain; exact candidate, Bowie council, Maryland House and Hoyer campaign history corroborate identity.",
+      "identity_fragments": ["Adrian Boafo"],
+      "source_excerpts": ["Adrian Boafo", "first Black President", "MBA at night", "Bowie City Council", "elected him to the Maryland House of Delegates", "working for Congressman Steny Hoyer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_candidate_published_black_description", "factual_reference_date": "University student-government presidency; year not stated here", "value": "Campaign explicitly describes Boafo as the first Black president of the University of Baltimore Student Government Association; not classification from appearance or caucus membership", "source_fragment": "first Black President"},
+        {"trait": "education", "factual_status": "partial", "precision": "attendance_and_mba_pursuit_not_degree_conferral", "factual_reference_date": null, "value": "Attended DeMatha and University of Baltimore; pursued an MBA at night. This page does not itself establish completed awards or award years; official and university originals reviewed separately", "source_fragment": "MBA at night"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_city_council_and_state_house_elections", "factual_reference_date": "Council election at age 25; election year unspecified on this page", "value": "Won a Bowie City Council seat and served as mayor pro tem; subsequently elected to Maryland House of Delegates. These are local/state offices, not federal incumbency", "source_fragment": "Bowie City Council", "supporting_fragments": ["elected him to the Maryland House of Delegates"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_local_and_state_legislative_career", "factual_reference_date": null, "value": "Local council and state legislative public-service career; private-sector and congressional roles require their own role/employer distinctions", "source_fragment": "elected him to the Maryland House of Delegates"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "hoyer_work_without_official_vs_campaign_employer_detail", "factual_reference_date": null, "value": "Describes working for Congressman Steny Hoyer, but does not distinguish an official congressional staff appointment from campaign work. The separate Archives profile supplies an explicit Kihuen press appointment", "source_fragment": "working for Congressman Steny Hoyer"}
+      ],
+      "extraction_review": "Read the entire actual biography, all career and family narrative, policy conclusion and disclaimer. Parents' Ghanaian migration is not automatically his personal ethnicity. Community importance of faith does not establish a denomination. Age 25 at an undated council election is not a present-age estimate. Pronouns, school type, relatives, policy and omitted service provide no gender/religion/military classification."
+    },
+    {
+      "id": "220484-official-maryland-archives-biography",
+      "candidate_id": "220484", "name": "Adrian Boafo", "state": "MD", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "official_biography", "url": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18393.html",
+      "source_title": "Maryland State Archives, Maryland Manual On-Line: Adrian A. Boafo",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Footer copyright January 28, 2026 is not assigned as the biography publication date. Dated historical roles and birth/award dates retained separately. Credit: Maryland State Archives, Maryland Manual On-Line.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Adrian A. Boafo, state House District 23, Bowie council, Oracle and Hoyer campaign roles match the native MD05 person. State Archives links the actual General Assembly member profile.",
+      "identity_fragments": ["ADRIAN A. BOAFO"],
+      "source_excerpts": ["ADRIAN A. BOAFO", "May 10, 1994", "B.A. (government & public policy), 2016", "M.B.A., 2019", "National Press Assistant", "2017-18", "Oracle Corporation, 2021-", "since January 11, 2023"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_exact_date_of_birth", "factual_reference_date": "1994-05-10; election reference 2026-11-03", "value": "Born May 10, 1994 in Arlington, Virginia; 32 at the election reference date. This is supplementary to already qualified baseline age, not a new age field", "source_fragment": "May 10, 1994"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_named_bachelors_and_mba_conferral_years", "factual_reference_date": "2016 and 2019", "value": "University of Baltimore BA in government and public policy, 2016; American University Kogod School of Business MBA, 2019. DeMatha is listed as attendance, not a newly inferred diploma", "source_fragment": "B.A. (government & public policy), 2016", "supporting_fragments": ["M.B.A., 2019"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_multiple_dated_staff_campaign_and_private_sector_roles", "factual_reference_date": "Congressional press 2017-18; Hoyer campaign 2018-21; Oracle since 2021", "value": "National press assistant for Rep. Ruben Kihuen, 2017-18; Hoyer for Congress field director 2018-19 and campaign manager 2019-21; Oracle senior director of government affairs since 2021", "source_fragment": "National Press Assistant", "supporting_fragments": ["2017-18", "Oracle Corporation, 2021-"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_dated_city_council_and_state_house_tenures", "factual_reference_date": "Bowie 2019-22; Maryland House since 2023-01-11", "value": "Bowie District 3 council member and mayor pro tem, 2019-22; state delegate since January 11, 2023. No change to frozen federal-incumbency controls", "source_fragment": "since January 11, 2023"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_named_congressional_staff_role_separate_from_campaign", "factual_reference_date": "2017-2018", "value": "National press assistant to U.S. Rep. Ruben Kihuen in 2017-18. Hoyer campaign work and private Oracle government-affairs work are not recoded as government employment", "source_fragment": "National Press Assistant", "supporting_fragments": ["2017-18"]}
+      ],
+      "extraction_review": "Read complete official background and dated committee/office/career entries. Black, Latino and associate Jewish caucus memberships do not supply racial, ethnic or religious classifications. Catholic-school attendance does not establish Catholic affiliation. No explicit military history or service negative."
+    },
+    {
+      "id": "220484-ghpac-original-statement",
+      "candidate_id": "220484", "name": "Adrian Boafo", "state": "MD", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "local_profile", "url": "https://www.theafricandream.net/ghpac-backs-adrian/",
+      "source_title": "GHPAC-USA backs Del. Adrian Boafo to rep Maryland's 5th District",
+      "publication_date": "2026-02-16", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Publisher labels February 16, 2026 as Last Updated; original publication day not separately provided. Body explicitly credits GHPAC-USA. Endorsement statement is not independent verification.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Adrian Boafo, MD05 candidacy to succeed Hoyer, Maryland delegate and BlueGen/technology career distinguish the native person.",
+      "identity_fragments": ["Adrian Boafo"],
+      "source_excerpts": ["Adrian Boafo", "As a Ghanaian American", "whose own story is rooted in the African diaspora", "professional background in technology and information technology"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "explicit_publisher_national_origin_description_and_candidate_diaspora_statement", "factual_reference_date": "2026-02-16 source update", "value": "Endorsing GHPAC statement explicitly describes Boafo as Ghanaian American; quoted candidate describes his own story as rooted in the African diaspora. Retain specific origin/diaspora descriptions without assigning a particular Ghanaian ethnic group, ancestry percentage, or Hispanic/non-Hispanic status", "source_fragment": "As a Ghanaian American", "supporting_fragments": ["whose own story is rooted in the African diaspora"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "endorsing_organization_reported_technology_background", "factual_reference_date": "2026-02-16 source update", "value": "GHPAC describes a technology/information-technology professional background; more precise Oracle title comes from the official Archives biography", "source_fragment": "professional background in technology and information technology"}
+      ],
+      "extraction_review": "Read complete statement and both full candidate quotations. Do not equate caucus membership, support for immigrant communities, surnames or parents' origins with personal ethnic or religious identity. Technology work is not government employment. No explicit military or no-prior-office answer supplied."
+    },
+    {
+      "id": "220484-university-annapolis-alumni",
+      "candidate_id": "220484", "name": "Adrian Boafo", "state": "MD", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.ubalt.edu/about/newsroom/ubalt-stories-annapolis-day-2026.cfm",
+      "source_title": "University of Baltimore: Students see government in action with Day in Annapolis",
+      "publication_date": "2026-02-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "University names Adrian Boafo, BA class 2016 and Maryland District 23 delegate; institution and role match the native MD05 candidate and Archives profile.",
+      "identity_fragments": ["Adrian Boafo"],
+      "source_excerpts": ["Adrian Boafo", "B.A. \u201816", "District 23", "both College of Public Affairs alumni"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "issuing_university_identifies_ba_alumnus_and_class_year", "factual_reference_date": "BA class 2016; story 2026-02-19", "value": "University of Baltimore identifies Boafo as BA class 2016 and College of Public Affairs alumnus; independent institutional corroboration of an existing completed award", "source_fragment": "B.A. \u201816", "supporting_fragments": ["both College of Public Affairs alumni"]}
+      ],
+      "extraction_review": "Read complete actual university article, not the search snippet. Other students' prospective degrees, other alumni's awards and the NextGen paid-internship program are not Boafo's qualifications or employment. No new missing identity, religion, age or service fact."
+    },
+    {
+      "id": "220484-earlier-2022-maryland-matters",
+      "candidate_id": "220484", "name": "Adrian Boafo", "state": "MD", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:MD:05:general:source_general",
+      "family": "earlier_biography", "url": "https://marylandmatters.org/2022/02/25/political-notes-delegate-seeks-apology-drama-in-district-23-a-new-hoyer-foe-hardens-national-security-play-and-more/",
+      "source_title": "Maryland Matters political notes: A new candidate in District 23",
+      "publication_date": "2022-02-25", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Named Adrian Boafo, Bowie mayor pro tem, Hoyer campaign manager, Oracle lobbyist and 2022 District 23 aspirant match the later native congressional candidate.",
+      "identity_fragments": ["Adrian Boafo"],
+      "source_excerpts": ["Adrian Boafo", "Bowie\u2019s mayor pro tem", "currently a federal lobbyist for Oracle", "former Hoyer campaign manager"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_independent_report_of_private_lobbying_and_campaign_work", "factual_reference_date": "2022-02-25", "value": "Reported current federal lobbyist for Oracle and former Hoyer campaign manager in February 2022; federal lobbying is private-sector work, not federal employment", "source_fragment": "currently a federal lobbyist for Oracle", "supporting_fragments": ["former Hoyer campaign manager"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_report_of_bowie_mayor_pro_tem_and_council_record", "factual_reference_date": "2022-02-25", "value": "Reported Bowie mayor pro tem with existing city council record before entering the 2022 state House primary; the later House election had not occurred at this article's date", "source_fragment": "Bowie\u2019s mayor pro tem"}
+      ],
+      "extraction_review": "Read complete Boafo section and adjacent candidate sections for subject boundaries. Nearby Tannis Villanova's Marine deployments, gender description, family and cancer history are not Boafo's. No award, birthday, personal religion, military answer or public-employee pay detail supplied."
+    },
+    {
+      "id": "220468-university-classified-staff-biography",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "university_employer_professional", "url": "https://umaine.edu/bov/current-members/matthew-dunlap-87-94g/",
+      "source_title": "University of Maine Board of Visitors: Matthew Dunlap '87, '94G",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "University biography names Matthew Dunlap, Old Town residence, Maine state auditor/secretary and Maine history/English alumni years matching the native ME02 person.",
+      "identity_fragments": ["Matthew Dunlap"],
+      "source_excerpts": ["Matthew Dunlap", "\u201987 (History), \u201894G (English)", "University of Maine", "Dining Services", "student and classified ranks", "University Printing Services", "four terms", "Maine House of Representatives"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "issuing_university_alumni_years_and_subjects", "factual_reference_date": "History class 1987; graduate English class 1994", "value": "University identifies history class 1987 and graduate English class 1994. BA/MA titles are separately corroborated by the already retained profiles, not inferred from college attendance", "source_fragment": "\u201987 (History), \u201894G (English)"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "university_reported_dining_and_printing_career_roles", "factual_reference_date": "Historical work; exact employment years unspecified", "value": "University of Maine Dining Services work in both student and classified ranks, plus National Poetry Foundation and University Printing Services work. Do not assign nonprofit Foundation work to the state without employer evidence", "source_fragment": "Dining Services", "supporting_fragments": ["student and classified ranks", "University Printing Services"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_public_university_classified_staff_employment", "factual_reference_date": "Historical employment; exact tenure unspecified", "value": "University of Maine explicitly reports Dining Services employment in classified as well as student ranks. Classified university staff role supports historical public-university employment independently of elected state offices or unpaid Board of Visitors service", "source_fragment": "student and classified ranks", "supporting_fragments": ["University of Maine", "Dining Services"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "university_reported_four_state_house_terms", "factual_reference_date": "Historical four-term state House tenure", "value": "Four Maine House terms representing Old Town and Indian Island, plus seven secretary-of-state terms and state auditor service. State offices are not federal incumbency", "source_fragment": "four terms", "supporting_fragments": ["Maine House of Representatives"]}
+      ],
+      "extraction_review": "Read the entire substantive university biography. Board volunteering and varsity membership do not establish paid employment; the explicit classified-staff wording does. Men's cross-country participation is not an explicit current gender self-description. Wife's and daughter's names/education are not his. No birth date, race, ethnicity, religious statement or military history supplied."
+    },
+    {
+      "id": "220468-ballotpedia-biography-and-survey-check",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Matthew_Dunlap",
+      "source_title": "Ballotpedia Matthew Dunlap: personal fields, biography and survey declarations",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, ME02 2026 candidacy, Old Town political history, state auditor office and actual native campaign link establish identity.",
+      "identity_fragments": ["Matthew Dunlap"],
+      "source_excerpts": ["Matthew Dunlap", "Christian: Episcopalian", "1987 and 1994, respectively", "journalist and columnist", "did not complete", "2026 Candidate Connection"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "undated_publisher_affiliation_classification_without_individual_source", "factual_reference_date": null, "value": "Personal panel classifies him as Christian: Episcopalian. Individual source and affiliation reference date are not identified; retain classification separately from a verified dated personal religious statement", "source_fragment": "Christian: Episcopalian"},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_named_ba_and_ma_award_years", "factual_reference_date": "1987 and 1994", "value": "BA history and MA English literature at University of Maine in 1987 and 1994 respectively. Harvard entry is Other, not an automatically completed Harvard academic degree", "source_fragment": "1987 and 1994, respectively"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reports_journalism_and_multiple_industries", "factual_reference_date": "Historical career; exact journalism endpoints unspecified", "value": "Reports 25 years of journalism/column writing for Northwoods Sporting Journal and other publications, with food service, nonprofit administration, textiles and farming work. Does not date each role", "source_fragment": "journalist and columnist"}
+      ],
+      "extraction_review": "Read personal fields, complete biography, state-office chronology, and the 2026 survey declaration; no completed Candidate Connection response is supplied there. Did not treat copied campaign policy positions or survey invitation as answered biographical questions. Specific existing offices, executive-program education and religious service remain distinct from categorical service negatives or current affiliation."
+    },
+    {
+      "id": "220468-maine-public-complete-2026-questionnaire",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district",
+      "source_title": "Maine Public Your Vote 2026: Matt Dunlap full questionnaire",
+      "publication_date": "2026-04-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Named Matt Dunlap, Democratic ME02 candidate, Old Town, UMaine degrees and state auditor/secretary/House history match the native Matthew Dunlap.",
+      "identity_fragments": ["Matt Dunlap"],
+      "source_excerpts": ["Matt Dunlap", "Age: 61", "BA, MA, University of Maine", "Maine House of Representatives (1996-2005)", "state auditor (current)"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "dated_reported_age_with_election_interval_no_exact_birth_date", "factual_reference_date": "2026-04-19 publication; individual submission day unspecified", "value": "Profile reports age 61 at publication. If current at publication, birth is within April 20, 1964-April 19, 1965 and election age is 61-62. Do not promote the unsourced November 26 birthday found on derivative sites or manufacture an exact point age", "source_fragment": "Age: 61"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_questionnaire_names_completed_ba_and_ma", "factual_reference_date": "Reported 2026-04-19; awards precede publication", "value": "BA and MA, University of Maine. Award years and subjects come from independently reviewed originals, not this field alone", "source_fragment": "BA, MA, University of Maine"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "questionnaire_explicit_state_house_service", "factual_reference_date": "1996-2005 as reported", "value": "Questionnaire reports Maine House service 1996-2005 plus secretary-of-state service. Preserve its tenure reporting rather than silently replacing other sources' term endpoints", "source_fragment": "Maine House of Representatives (1996-2005)"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "questionnaire_reports_current_state_auditor_role", "factual_reference_date": "2026-04-19", "value": "Reports current Maine state auditor role; legislative selection and later appointment mechanisms are not assumed ordinary civil-service hiring", "source_fragment": "state auditor (current)"}
+      ],
+      "extraction_review": "Read all background fields, ten long-form questions/responses and all ten lightning-round items. Foreign-policy answers are not military service or nonservice. Wabanaki sovereignty support and Indigenous-relations work do not establish Indigenous identity. LGBTQ equality support is not gender identity. No personal religion or scoped military/other-government negative supplied."
+    },
+    {
+      "id": "220467-complete-campaign-home",
+      "candidate_id": "220467", "name": "Ronald Russell", "state": "ME", "district": "01", "party": "Republican",
+      "contest_id": "2026:house:ME:01:general:source_general",
+      "family": "campaign", "url": "https://ronrussellforcongress.com/",
+      "source_title": "Ron Russell for Congress: complete campaign homepage",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Native ME01 Ron Russell campaign domain, Kennebunkport location, Army career and business biography bridge Ronald to Ron; not an unrelated same-name individual.",
+      "identity_fragments": ["Ron Russell"],
+      "source_excerpts": ["Ron Russell", "West Point Graduate", "30 years and 28 days", "U.S. Army", "retired in 2006", "small defense contractor", "start our own small business"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_west_point_graduation_no_named_degree", "factual_reference_date": "Historical graduation; award year unspecified on homepage", "value": "Explicit West Point graduate statement; do not infer named degree, major or birth year from commissioning chronology", "source_fragment": "West Point Graduate"},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_candidate_reported_army_service_and_retirement", "factual_reference_date": "Thirty years and 28 days of service; retirement 2006", "value": "Reports U.S. Army service, Airborne Ranger/Special Forces qualifications and retirement in 2006 after thirty years and 28 days. This candidate is Republican; no change to frozen Democratic analytical military counts", "source_fragment": "U.S. Army", "supporting_fragments": ["30 years and 28 days", "retired in 2006"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_military_private_contracting_and_business_sequence", "factual_reference_date": "Post-retirement from 2006; exact business endpoints unspecified", "value": "After Army retirement worked for a small defense contractor, then co-founded a private business that grew over fourteen years to more than 150 employees. Defense contracting does not itself establish civilian government employment", "source_fragment": "small defense contractor", "supporting_fragments": ["start our own small business"]}
+      ],
+      "extraction_review": "Read complete homepage and actual About link. Template text, copyright 2026 and old dated issue identifiers do not establish page publication or pre-election availability. Campaign's man slogan is not promoted into a categorical gender value. No age inferred from service length, no religion from generic faith language, and no civilian government-service or prior-office negative from omission."
+    },
+    {
+      "id": "220467-complete-campaign-about",
+      "candidate_id": "220467", "name": "Ronald Russell", "state": "ME", "district": "01", "party": "Republican",
+      "contest_id": "2026:house:ME:01:general:source_general",
+      "family": "campaign", "url": "https://ronrussellforcongress.com/about/",
+      "source_title": "Meet Ron Russell: full campaign life and service biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual homepage About link, exact Ron Russell, Fort Fairfield upbringing, Army retirement and Maine return agree with native ME01 candidate.",
+      "identity_fragments": ["Ron Russell"],
+      "source_excerpts": ["Ron Russell", "commissioned as a 2nd Lieutenant in the Infantry in 1976", "30 years and 28 days", "U.S. Army", "small defense contractor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_dated_commission_and_reported_army_tenure", "factual_reference_date": "Commission 1976; retirement 2006", "value": "Commissioned second lieutenant, Infantry, in 1976; served thirty years and 28 days in Army, with Airborne Ranger and Special Forces qualifications; retired 2006", "source_fragment": "commissioned as a 2nd Lieutenant in the Infantry in 1976", "supporting_fragments": ["30 years and 28 days", "U.S. Army"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_private_defense_contracting_and_entrepreneurship", "factual_reference_date": "After 2006 military retirement; June 2021 return to Maine", "value": "Worked for a private defense contractor after retirement and co-founded a business following its acquisition; returned to Maine June 2021", "source_fragment": "small defense contractor"}
+      ],
+      "extraction_review": "Read entire actual biography. His brother's University of Maine ROTC attendance, military intelligence/law work and federal judgeships are not his education, government employment or judicial office. Father's Army history, sisters' school employment and generic family faith are not his service, employment or denomination. No point age from 1976 commission."
+    },
+    {
+      "id": "220469-complete-campaign-meet-paul",
+      "candidate_id": "220469", "name": "Paul LePage", "state": "ME", "district": "02", "party": "Republican",
+      "contest_id": "2026:house:ME:02:general:source_general",
+      "family": "campaign", "url": "https://lepageforcongress.com/meet-paul",
+      "source_title": "Meet Paul: full LePage campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual native LePage congressional homepage Meet link, exact name, Waterville mayoralty, Marden's career and Maine governorship match the ME02 person.",
+      "identity_fragments": ["Paul LePage"],
+      "source_excerpts": ["Paul LePage", "BS in Business Administration in Finance/Accounting", "MBA", "General Manager of Marden\u2019s", "Mayor of Waterville", "January 5, 2011", "first elected Franco-American Governor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reports_completed_husson_bs_and_umaine_mba", "factual_reference_date": "Historical awards; conferral years not supplied", "value": "Graduated Husson with BS in business administration, finance/accounting; subsequently earned University of Maine MBA. Named awards, not inferred from mere college attendance", "source_fragment": "BS in Business Administration in Finance/Accounting", "supporting_fragments": ["MBA"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_multiple_historical_business_and_retail_roles", "factual_reference_date": "Historical career; exact role endpoints unspecified", "value": "Worked for Chrysler, lumber/paper manufacturing, Vic Firth and as Marden's general manager; earlier short-order cooking and other jobs. Private manufacturing/retail work is not government employment", "source_fragment": "General Manager of Marden\u2019s"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reports_repeated_mayoral_and_gubernatorial_elections", "factual_reference_date": "Waterville mayoralty before governorship; sworn governor 2011-01-05", "value": "Elected/re-elected Waterville mayor, then Maine governor; sworn governor January 5, 2011. Not current federal House incumbency", "source_fragment": "Mayor of Waterville", "supporting_fragments": ["January 5, 2011"]},
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "explicit_candidate_ethnocultural_description_not_hispanic_reference_category", "factual_reference_date": "Historical gubernatorial election", "value": "Campaign explicitly describes him as Maine's first elected Franco-American governor. Retain the specific ethnocultural description, not an inferred binary Hispanic/non-Hispanic comparison label, race or citizenship", "source_fragment": "first elected Franco-American Governor"}
+      ],
+      "extraction_review": "Read complete biography, all childhood/education/career sections and public-service conclusion. Childhood ages are undated and cannot establish election age. French first-language statement alone is not ethnicity; retain the explicit campaign ethnocultural wording separately. Work for veterans and spouse's veterans advocacy do not establish his military service; elected office does not supply civilian government employment."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220484", "family": "campaign", "query": "Follow native campaign homepage Meet Adrian link; read entire actual biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.adrianboafo.com/adrian"]},
+    {"candidate_id": "220484", "family": "official_biography", "query": "Follow actual Maryland State Archives biography reference and read complete official background", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18393.html"]},
+    {"candidate_id": "220484", "family": "ballotpedia_questionnaire", "query": "Read actual Ballotpedia personal/biography sections and 2026/2022 Candidate Connection declarations", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Adrian_Boafo"], "lead_dispositions": {"https://ballotpedia.org/Adrian_Boafo": {"status": "reviewed_no_requested_facts", "reason": "Biography repeats already qualified BA/MBA and Oracle/campaign roles. Both displayed years say no completed Candidate Connection. No new requested missing identity, religion or service fact; current webpage is not proof of pre-election information availability."}}},
+    {"candidate_id": "220484", "family": "local_profile", "query": "Read entire actual GHPAC statement, publisher date and both candidate quotations", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.theafricandream.net/ghpac-backs-adrian/"]},
+    {"candidate_id": "220484", "family": "university_employer_professional", "query": "\"Adrian Boafo\" site:ubalt.edu biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ubalt.edu/about/newsroom/ubalt-law-graduates-find-success-in-marylands-primary-elections.cfm", "https://www.ubalt.edu/about/newsroom/ubalt-stories-annapolis-day-2026.cfm"], "lead_dispositions": {"https://www.ubalt.edu/about/newsroom/ubalt-law-graduates-find-success-in-marylands-primary-elections.cfm": {"status": "reviewed_no_requested_facts", "reason": "Read full publisher body, July 8 publication and September 30 update. Search result listed Boafo but actual law-alumni list does not. Reject snippet-only appearance; do not claim he earned a law degree or was named in this list."}}},
+    {"candidate_id": "220484", "family": "earlier_biography", "query": "Follow actual earlier Maryland Matters reference discovered in Wikipedia; read complete Boafo section and verify nearby candidate boundaries", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://marylandmatters.org/2022/02/25/political-notes-delegate-seeks-apology-drama-in-district-23-a-new-hoyer-foe-hardens-national-security-play-and-more/"]},
+    {"candidate_id": "220484", "family": "earlier_biography", "query": "\"Adrian Boafo\" \"Catholic\" religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://en.wikipedia.org/wiki/Adrian_Boafo", "https://www.instagram.com/adrianboafo/p/CqdVUGQrHsV/"], "lead_dispositions": {"https://en.wikipedia.org/wiki/Adrian_Boafo": {"status": "reviewed_no_requested_facts", "reason": "Read personal-life assertion and actual source references for discovery. Do not accept Wikipedia religion classification without reading cited March 31, 2023 self-statement."}, "https://www.instagram.com/adrianboafo/p/CqdVUGQrHsV/": {"status": "access_failure", "reason": "One normal underlying-post request returned Online fetch throttled. Original caption not read or accepted; do not bypass or repeatedly retry."}}},
+    {"candidate_id": "220484", "family": "local_profile", "query": "Follow actual WAMU original referenced in discovered biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://wamu.org/story/26/05/05/lobbyist-public-servant-prince-georges-county-fifth-district-hoyer-congressional-race/"], "qualification": "Normal underlying request returned restricted URL. No original text or derivative biography claim accepted; no retries or bypass."},
+    {"candidate_id": "220468", "family": "university_employer_professional", "query": "Read actual University of Maine Board of Visitors full Matthew Dunlap biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://umaine.edu/bov/current-members/matthew-dunlap-87-94g/"]},
+    {"candidate_id": "220468", "family": "ballotpedia_questionnaire", "query": "Read actual Matthew Dunlap Ballotpedia personal fields, biography, office history and survey declaration", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Matthew_Dunlap"]},
+    {"candidate_id": "220468", "family": "local_profile", "query": "\"Matt Dunlap\" \"61\" \"2026\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.mainepublic.org/politics/2026-04-19/your-vote-2026-profile-matt-dunlap-democrat-for-2nd-district", "https://www.pressherald.com/2026/06/19/dunlap-wins-democratic-runoff-in-maines-2nd-congressional-district/"], "qualification": "Maine Public original followed and read completely. Press Herald result is a separate unreviewed lead, not accepted from its snippet."},
+    {"candidate_id": "220468", "family": "earlier_biography", "query": "\"Matthew Dunlap\" \"November 26\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://en.wikipedia.org/wiki/Matthew_Dunlap"], "qualification": "Derivative/astrology/birthday results do not independently establish a precise birthday. No exact birth date accepted; independently read dated public-radio age questionnaire instead."},
+    {"candidate_id": "220468", "family": "official_biography", "query": "\"Matthew Dunlap\" \"November\" site:maine.gov", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Batched results did not expose a mapped official birth-date source. No precise birthday accepted and no exhaustive official-record search claimed."},
+    {"candidate_id": "220468", "family": "local_profile", "query": "\"Matt Dunlap\" \"military service\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "The executed query is retained, but exact underlying-result mappings were not preserved. No guessed URLs or personal service classification are accepted. This query does not close military research."},
+    {"candidate_id": "220468", "family": "earlier_biography", "query": "\"Matt Dunlap\" \"Episcopal\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://episcopalmaine.org/wp-content/uploads/2024/10/DioME-Proposed-Resolutions-2024.pdf", "https://fomb.org/pages/what_we_do/events/Speaker_Series_2025_2026/Voter_ID/Voter_ID.htm"], "qualification": "Potential primary denominational/speaker biographies remain actual unreviewed leads; do not label them exhausted or infer affiliation from a search snippet."},
+    {"candidate_id": "220475", "family": "earlier_biography", "query": "\"Dan Schwartz\" \"Jewish\" -site:ballotpedia.org -site:harfordstrong.com -site:elect.link", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sfof.com/our-team/dan-schwartz/", "https://www.cesjds.org/alumni/alumni-spotlight/alumni-spotlight-profile/~board/alumni-spotlight/post/dan-schwartz-93"], "qualification": "Search results identify Nevada politician and 1993 school-alumnus cardiologist, not the MD01 2010 GW graduate. No same-name religion or service facts accepted; underlying originals not yet fully reviewed."},
+    {"candidate_id": "220475", "family": "local_profile", "query": "Follow actual HarfordStrong US House profile from mapped search result; read full Schwartz biography and source attribution", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://harfordstrong.com/us-house-profiles"], "lead_dispositions": {"https://harfordstrong.com/us-house-profiles": {"status": "reviewed_no_requested_facts", "reason": "Read actual Schwartz profile. Advocacy page repeats Jewish classification and age 38 without individual sourcing or a dated correction. Its unsupported assertion does not resolve existing religious-source or contradictory-age holds. Repeated career and no-office facts already documented in independent originals; no new claim promoted."}}},
+    {"candidate_id": "220475", "family": "official_biography", "query": "\"Dan Schwartz\" \"CSBS\" biography Jewish", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ffiec.gov/sites/default/files/data/publications/annrpt17.pdf"], "qualification": "Official 2017 report opened and relevant CSBS representative entry located. Full visual/context and same-person qualification remain pending; external representative status does not establish FFIEC government employment."},
+    {"candidate_id": "220467", "family": "campaign", "query": "Read native Ron Russell homepage and follow its actual About link; read entire life/career biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ronrussellforcongress.com/", "https://ronrussellforcongress.com/about/"]},
+    {"candidate_id": "220469", "family": "campaign", "query": "Read native Paul LePage congressional homepage and actual Read More biography, retaining candidate-versus-family subject boundaries", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://lepageforcongress.com/", "https://lepageforcongress.com/meet-paul"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220484", "status": "in_progress", "details": "Six families touched, not comprehensive completion: military and explicit gender remain unresolved; religion original throttled, WAMU restricted. Need independent original for religious affiliation, substantive candidate questionnaire/service history and further professional or interview sources. Retain Ghanaian-American/diaspora evidence as partial specific-origin information, not a binary ethnic comparison."},
+    {"candidate_id": "220468", "status": "in_progress", "details": "All six families now represented, but actual denominational and speaker biographies, independent dated-age original and scoped service leads remain actionable. Public-radio age supports only an interval. Review Episcopal Diocese resolutions and Friends of Merrymeeting Bay biography rather than re-requesting denied Maine audit site or unchanged campaign."},
+    {"candidate_id": "220475", "status": "in_progress", "details": "No new qualified fact this follow-up. Preserve cross-source age conflict and unresolved religion sourcing. Exclude Nevada politician, Maryland cardiologist and other same-name people. Review actual FFIEC personnel listing and independent CSBS career originals for identity/context without turning private association coordination into public employment."},
+    {"candidate_id": "220467", "status": "in_progress", "details": "Newly researched Republican native ME01 candidate. Continue official Army/university/professional, questionnaire, local and earlier biographies; age, explicit identities/religion and scoped elected/civilian-government history remain unresolved. Never borrow brother's federal judgeship or parents' service."},
+    {"candidate_id": "220469", "status": "in_progress", "details": "Newly researched Republican native ME02 candidate. Continue official historical governor biography, university records, substantive local questionnaires and earlier profiles for birth date/dated age, explicit identities/religion and service. Campaign Franco-American description retained without inferring Hispanic reference status; veterans advocacy is not own military service."}
+  ]
+}

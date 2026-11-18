@@ -1,0 +1,42 @@
+{
+  "scope": "Resolve the specific outstanding artist-catalogue original; no source-family or whole-roster completion claim.",
+  "documents": [
+    {
+      "id": "220483-jerusalem-fund-2020-artist-catalogue",
+      "candidate_id": "220483", "name": "Sam Husseini", "state": "MD", "district": "04", "party": "Green", "contest_id": "2026:house:MD:04:general:source_general",
+      "family": "university_employer_professional",
+      "url": "https://thejerusalemfund.org/wp-content/uploads/2020/08/Invisible-5.pdf",
+      "source_title": "Invisibly Present / Visibly Absent: artist statement and About Sam Husseini",
+      "publication_date": null,
+      "source_date_note": "PDF metadata creation/modification August 12, 2020; upload path August 2020. Neither is proof of independently archived public availability on that date.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "cached_original_sha256": "1b9f86e3308767a234b87d8c04f6e33f3600521f3b60a022020a412ad77ae033",
+      "original_bytes": 45690514,
+      "original_redistribution": "Full copyrighted exhibition catalogue not included; retain bounded passages and structured facts.",
+      "source_read_pages": [2, 69, 70, 71],
+      "identity_status": "verified",
+      "identity_qualification": "Exact artist/writer, Riverdale location, Carnegie Mellon and BeThatEmpty site match actual personal CV; distinct from similarly named tourism businessman. Explicit birth-name alias is not an accepted FEC link.",
+      "identity_fragments": ["Sam Husseini"],
+      "source_excerpts": ["Sam Husseini", "born Usamah Husayni", "Amman, Jordan", "artist and writer", "degree in Math and Philosophy", "Carnegie Mellon University"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "gallery_biography_completed_degree_not_art_classes", "factual_reference_date": "Degree before late-1980s New York sculpture classes", "value": "Completed Carnegie Mellon math/philosophy degree; sculpture classes are attendance, not another completed credential. CV independently dates graduation 1987", "source_fragment": "degree in Math and Philosophy", "supporting_fragments": ["Carnegie Mellon University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "gallery_biography_and_artist_statement", "factual_reference_date": "Catalogue reference period around 2020", "value": "Artist and writer, with media/political work and painting/sculpture; does not establish a government or military appointment", "source_fragment": "artist and writer"}
+      ],
+      "extraction_review": "Read full artist statement/bio, not all artwork captions. No birth year/date. Parents' origins, Jordan birthplace and spiritual/art influences do not establish own ethnicity or denomination. Explicit alias retained only as identity context."
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220483", "family": "university_employer_professional",
+      "query": "Follow outstanding actual Jerusalem Fund artist-catalogue original; inspect introduction and complete biographical end matter",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://thejerusalemfund.org/wp-content/uploads/2020/08/Invisible-5.pdf"],
+      "qualification": "Web reader rejected 45,690,514-byte size, not public access. Ordinary public curl download succeeded; existing pypdf extracted actual original. No access restriction bypass, third-party mirror or inferred snippet accepted."
+    }
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220483", "details": "Catalogue lead resolved: explicit birth-name alias and completed-degree/career corroboration, but no birth date/year or direct personal racial/ethnic/denominational classification. Do not confuse an alias with verified FEC identity; remaining person-level source families and qualifications stay open."}
+  ]
+}
