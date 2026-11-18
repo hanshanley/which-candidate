@@ -1,0 +1,240 @@
+{
+  "scope": "Additive factual research; all scientific V1-V9 inputs and fits remain frozen.",
+  "excerpt_policy": "Short noncontiguous source excerpts, not original downloaded page bytes. Values are scoped factual paraphrases reviewed against the underlying page.",
+  "completed_candidates": [],
+  "documents": [
+    {
+      "id": "bio-219729-campaign",
+      "candidate_id": "219729",
+      "contest_id": "2026:house:AL:03:general:source_general",
+      "name": "Lee McInnis",
+      "state": "AL",
+      "district": "03",
+      "party": "Democratic",
+      "url": "https://leemcinnis4alabama.com/bio/",
+      "family": "campaign",
+      "identity_status": "verified",
+      "identity_qualification": "The AL03 2026 Ballotpedia candidate profile links to this campaign domain; the biography names Lee McInnis and matches Auburn education and Army intelligence service. His father's county engineering career and wife's federal employment are excluded.",
+      "identity_support_urls": ["https://ballotpedia.org/Lee_McInnis"],
+      "identity_fragments": ["Lee McInnis"],
+      "source_excerpts": ["Lee McInnis", "BA in communications", "Master’s Degree in Communications and International Relations", "Master’s Degree in History", "Graduate Certificate", "federal service", "taught", "United States Army"],
+      "publication_date": null,
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"completed": ["BA, communications, Auburn University", "Master's, communications and international relations, Auburn University", "Master's, history, Auburn University", "Graduate certificate, public history, Auburn University"], "completion_dates": null},
+          "factual_status": "qualified",
+          "precision": "named_completed_credentials_without_completion_dates",
+          "source_fragment": "BA in communications",
+          "factual_reference_date": null
+        },
+        {
+          "trait": "profession",
+          "value": {"historical_careers": ["defense intelligence professional", "college instructor in communications and American government"], "current_occupation": "not established"},
+          "factual_status": "qualified",
+          "precision": "historical_multiple_careers_not_current_job",
+          "source_fragment": "taught",
+          "factual_reference_date": null
+        },
+        {
+          "trait": "other_government",
+          "value": {"positive_federal_civilian_career": true, "reported_length_years": 28, "organization": "Defense Intelligence Community", "specific_employment_dates": null},
+          "factual_status": "qualified",
+          "precision": "explicit_retired_federal_career_not_advisory_membership",
+          "source_fragment": "federal service",
+          "factual_reference_date": null
+        },
+        {
+          "trait": "military",
+          "value": {"served": true, "branch": "U.S. Army", "reported_service_years": 6, "components": ["active", "reserve"]},
+          "factual_status": "qualified",
+          "precision": "explicit_personal_service",
+          "source_fragment": "United States Army",
+          "factual_reference_date": null
+        }
+      ],
+      "remaining_document_gaps": "No birth date/year or explicit gender, race, ethnicity or religious identification; no explicit exhaustive prior-office negative. Pronouns and family history are not coded as identity or candidate employment."
+    },
+    {
+      "id": "bio-219729-ballotpedia",
+      "candidate_id": "219729",
+      "contest_id": "2026:house:AL:03:general:source_general",
+      "name": "Lee McInnis",
+      "state": "AL",
+      "district": "03",
+      "party": "Democratic",
+      "url": "https://ballotpedia.org/Lee_McInnis",
+      "family": "ballotpedia_questionnaire",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native name, party, Alabama third district and November 3, 2026 general election; linked campaign domain corroborates the campaign biography.",
+      "identity_fragments": ["Lee McInnis", "Alabama's 3rd Congressional District", "November 3, 2026"],
+      "source_excerpts": ["Lee McInnis", "Alabama's 3rd Congressional District", "November 3, 2026", "Religion", "United Methodist"],
+      "publication_date": null,
+      "source_date_note": "Candidate Connection submission is dated October 9, 2025, but the religious infobox field is not separately dated.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "religion",
+          "value": {"affiliation": "United Methodist", "evidence_type": "explicit Ballotpedia religion field", "current_election_date_affiliation_verified": false},
+          "factual_status": "qualified",
+          "precision": "documented_source_classification_reference_date_unspecified",
+          "source_fragment": "United Methodist",
+          "factual_reference_date": null,
+          "qualification": "A documented source classification, not an independently verified current self-identification or an amendment to the frozen religion analysis."
+        }
+      ]
+    },
+    {
+      "id": "bio-219844-ballotpedia",
+      "candidate_id": "219844",
+      "contest_id": "2026:house:AR:02:general:source_general",
+      "name": "Chris Jones",
+      "state": "AR",
+      "district": "02",
+      "party": "Democratic",
+      "url": "https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)",
+      "family": "ballotpedia_questionnaire",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native name, Democratic party, Arkansas second district and 2026 general election; campaign domain matches the native roster. Earlier 2022 gubernatorial questionnaire is on this same verified person page. His wife's combat service is not assigned to him.",
+      "identity_support_urls": ["https://chrisjonesforcongress.com/about/"],
+      "identity_fragments": ["Chris Jones", "Arkansas' 2nd Congressional District"],
+      "source_excerpts": ["Chris Jones", "Arkansas' 2nd Congressional District", "B.S. in physics and mathematics", "M.S. in nuclear engineering/technology and policy", "Ph.D. in urban planning", "Christian", "Nuclear engineer"],
+      "publication_date": null,
+      "source_date_note": "Page contains separately dated 2022 and 2026 questionnaire sections. The religion field has no separately established observation date.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"completed": [{"credential": "BS", "field": "physics and mathematics", "institution": "Morehouse College", "year": 1999}, {"credential": "graduate degree or degrees", "field": "nuclear engineering/technology and policy", "institution": "MIT", "year": 2003}, {"credential": "PhD", "field": "urban planning", "institution": "MIT", "year": 2016}], "graduate_degree_count": "The biography groups engineering/technology and policy; the 2022 self-report describes two master's degrees. Exact degree count retained as unresolved."},
+          "factual_status": "qualified",
+          "precision": "completed_doctorate_and_named_institutions_graduate_degree_count_qualified",
+          "source_fragment": "Ph.D. in urban planning",
+          "factual_reference_date": "2016"
+        },
+        {
+          "trait": "profession",
+          "value": {"documented_careers": ["nuclear engineer", "physicist", "minister", "nonprofit leader"], "current_single_occupation": "not established"},
+          "factual_status": "qualified",
+          "precision": "multiple_documented_careers",
+          "source_fragment": "Nuclear engineer",
+          "factual_reference_date": null
+        },
+        {
+          "trait": "religion",
+          "value": {"affiliation": "Christian", "evidence_type": "explicit Ballotpedia religion field", "current_election_date_affiliation_verified": false},
+          "factual_status": "qualified",
+          "precision": "documented_source_classification_reference_date_unspecified",
+          "source_fragment": "Christian",
+          "factual_reference_date": null,
+          "qualification": "Not inferred from his parents, family, spouse or party; the explicit field is retained separately from current self-identification and model eligibility."
+        }
+      ]
+    },
+    {
+      "id": "bio-219844-ap-race",
+      "candidate_id": "219844",
+      "contest_id": "2026:house:AR:02:general:source_general",
+      "name": "Chris Jones",
+      "state": "AR",
+      "district": "02",
+      "party": "Democratic",
+      "url": "https://apnews.com/article/welfare-queen-medicaid-arkansas-huckabee-sanders-c458e5fb258ecc36aa635e13890473a0",
+      "family": "local_profile",
+      "identity_status": "verified",
+      "identity_qualification": "AP explicitly names Arkansas Democratic congressional candidate Chris Jones; his verified native AR02 campaign is linked through the Ballotpedia/campaign bridge, not through a generic same-name match.",
+      "identity_support_urls": ["https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"],
+      "identity_fragments": ["Arkansas Democratic congressional candidate Chris Jones"],
+      "source_excerpts": ["Arkansas Democratic congressional candidate Chris Jones, who is Black"],
+      "publication_date": null,
+      "source_date_note": "Article discusses a September 28, 2026 campaign advertisement; exact publication timestamp was not present in the rendered source.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "race",
+          "value": {"classification": "Black", "evidence_type": "explicit AP journalistic classification", "self_identification_claimed": false},
+          "factual_status": "qualified",
+          "precision": "explicit_reliable_source_classification_not_ancestry_or_ethnicity",
+          "source_fragment": "Chris Jones, who is Black",
+          "factual_reference_date": "2026",
+          "qualification": "A factual supplement; not appended to the restricted historical Latino-indicator population or any frozen analytical race definition."
+        }
+      ]
+    },
+    {
+      "id": "bio-219725-ballotpedia",
+      "candidate_id": "219725",
+      "contest_id": "2026:house:AL:01:general:source_general",
+      "name": "Clyde Jones",
+      "state": "AL",
+      "district": "01",
+      "party": "Democratic",
+      "url": "https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)",
+      "family": "ballotpedia_questionnaire",
+      "identity_status": "verified",
+      "identity_qualification": "The page explicitly identifies Clyde Jones as the Democratic AL01 2026 general-election candidate and links clydeforcongress.com. Candidate-authored response bridges the fuller name Clyde W. Jones Jr., Army career, Daphne church and Alabama Arise. Same-name Kansas academic and Nebraska zoologist are excluded.",
+      "identity_fragments": ["Clyde Jones", "Alabama's 1st Congressional District"],
+      "source_excerpts": ["Clyde Jones", "Alabama's 1st Congressional District", "Bachelor of Science Degree", "Army First Sergeant", "Associate Minister", "Macedonia Missionary Baptist Church", "Process Safety Management Coordinator", "May 2024"],
+      "publication_date": "2026-02-17",
+      "source_date_note": "Candidate Connection submission date supplied in the page footnote; current page also includes later election results.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"credential": "BS", "field": "liberal arts, administration and management focus", "institution": "Excelsior University", "year": 2008},
+          "factual_status": "qualified",
+          "precision": "completed_named_bachelors_degree",
+          "source_fragment": "Bachelor of Science Degree",
+          "factual_reference_date": "2008"
+        },
+        {
+          "trait": "profession",
+          "value": {"historical_careers": ["Army first sergeant", "DuPont employee", "process safety management coordinator, FMC Agriculture Solutions"], "retirement": "May 2024", "other_documented_role": "associate minister, Macedonia Missionary Baptist Church, Daphne, Alabama", "paid_status_of_ministry": "not stated"},
+          "factual_status": "qualified",
+          "precision": "multiple_careers_with_explicit_retirement_month",
+          "source_fragment": "Process Safety Management Coordinator",
+          "factual_reference_date": "2026-02-17"
+        },
+        {
+          "trait": "military",
+          "value": {"served": true, "branch": "U.S. Army", "years": [1984, 2005], "rank": "first sergeant", "retired": true},
+          "factual_status": "qualified",
+          "precision": "explicit_personal_service_with_year_range",
+          "source_fragment": "Army First Sergeant",
+          "factual_reference_date": "2005"
+        },
+        {
+          "trait": "religion",
+          "value": {"documented_role": "associate minister", "institution": "Macedonia Missionary Baptist Church, Daphne, Alabama", "personal_denomination_self_identification": "not explicitly stated"},
+          "factual_status": "partial",
+          "precision": "dated_religious_institution_role_not_personal_denomination",
+          "source_fragment": "Macedonia Missionary Baptist Church",
+          "factual_reference_date": "2026-02-17",
+          "qualification": "Useful explicit institutional affiliation; does not establish a personal Baptist identity or election-date affiliation. Nonprofit board presidency is not elected public office or paid government employment."
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219729", "family": "campaign", "query": "Direct review: https://leemcinnis4alabama.com/bio/", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://leemcinnis4alabama.com/bio/"]},
+    {"candidate_id": "219729", "family": "ballotpedia_questionnaire", "query": "Direct review: https://ballotpedia.org/Lee_McInnis", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Lee_McInnis"]},
+    {"candidate_id": "219729", "family": "earlier_biography", "query": "\"Lee McInnis\" \"age\" \"born\"", "method": "web_search", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": [], "search_disposition": "Results concern actor David Lee McInnis and unrelated people. No age inferred from degree or service years; candidate birth date remains actionable."},
+    {"candidate_id": "219844", "family": "ballotpedia_questionnaire", "query": "Direct review: https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"]},
+    {"candidate_id": "219844", "family": "earlier_biography", "query": "\"Chris Jones\" \"born\" \"1976\" Arkansas MIT", "method": "web_search", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://en.wikipedia.org/wiki/Chris_Jones_(Arkansas_politician)", "https://www.dotnews.com/2013/new-dsni-leader-brings-grassroots-zeal-job"], "lead_dispositions": {"https://en.wikipedia.org/wiki/Chris_Jones_(Arkansas_politician)": "Discovery only: followed the cited December 12, 2013 Dorchester Reporter profile for age evidence. Do not copy the encyclopedia's exact birthday without original support."}},
+    {"candidate_id": "219844", "family": "local_profile", "query": "Direct review: AP article c458e5fb258ecc36aa635e13890473a0", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://apnews.com/article/welfare-queen-medicaid-arkansas-huckabee-sanders-c458e5fb258ecc36aa635e13890473a0"]},
+    {"candidate_id": "219725", "family": "ballotpedia_questionnaire", "query": "Direct review: https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)"]},
+    {"candidate_id": "219725", "family": "earlier_biography", "query": "\"Clyde Jones\" \"age\" \"born\" congress", "method": "web_search", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": [], "search_disposition": "Same-name zoologist, academics and people-search records are not this verified candidate and are not age evidence."},
+    {"candidate_id": "219848", "family": "campaign", "query": "Direct review: https://russellforar.com/about-james", "method": "underlying_page_review", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://russellforar.com/about-james"], "lead_dispositions": {"https://russellforar.com/about-james": "Underlying page redirects to account login. Search snippet is not accepted evidence. Do not bypass or repeat this page; continue independent public sources."}},
+    {"candidate_id": "219848", "family": "local_profile", "query": "\"James\" \"Russell\" \"2026\" \"Arkansas\" education bio age", "method": "web_search", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/James_Russell_(Arkansas)", "https://www.ualrpublicradio.org/local-regional-news/2025-08-28/james-russell-iii-of-little-rock-joins-democratic-primary-effort-to-unseat-u-s-sen-cotton-in-2026"], "lead_dispositions": {"https://ballotpedia.org/James_Russell_(Arkansas)": "Underlying biography opened; National Guard and conflicting degree dates require careful retained qualification before claims are added."}}
+  ]
+}

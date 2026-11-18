@@ -1,0 +1,176 @@
+{
+  "completed_candidates": [],
+  "documents": [
+    {
+      "id": "bio-219848-ballotpedia",
+      "candidate_id": "219848",
+      "contest_id": "2026:house:AR:04:general:source_general",
+      "name": "James Russell",
+      "state": "AR",
+      "district": "04",
+      "party": "Democratic",
+      "url": "https://ballotpedia.org/James_Russell_(Arkansas)",
+      "family": "ballotpedia_questionnaire",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native name, Democratic AR04 2026 general-election candidate; page explicitly records the Rus alias, earlier Senate candidacy and russellforar.com campaign domain. The 2025 public-radio profile corroborates the same earlier gubernatorial candidacy, central Arkansas business and university.",
+      "identity_support_urls": ["https://www.ualrpublicradio.org/local-regional-news/2025-08-28/james-russell-iii-of-little-rock-joins-democratic-primary-effort-to-unseat-u-s-sen-cotton-in-2026"],
+      "identity_fragments": ["James Russell", "Arkansas' 4th Congressional District"],
+      "source_excerpts": ["James Russell", "Arkansas' 4th Congressional District", "U.S. Army National Guard", "1996 - 1996", "B.S. in philosophy", "University of Central Arkansas", "2012", "2021", "Business owner"],
+      "publication_date": null,
+      "source_date_note": "The page cites a February 6, 2026 questionnaire, 2022 LinkedIn and earlier campaign sources. Infobox and narrative degree dates differ.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"institution": "University of Central Arkansas", "narrative_credential": "BS, philosophy, 2012", "infobox": "Two bachelor's entries, 2012 and 2021", "independent_profile": "2025 public-radio profile says bachelor's in general studies without a completion year", "common_fact": "Completed bachelor's-level education at UCA; exact discipline, degree count and completion year unresolved"},
+          "factual_status": "conflicting",
+          "precision": "credential_title_and_date_conflict_retained_not_resolved_by_guess",
+          "source_fragment": "B.S. in philosophy",
+          "factual_reference_date": null
+        },
+        {
+          "trait": "military",
+          "value": {"reported_service": true, "branch": "U.S. Army National Guard", "reported_start_year": 1996, "reported_end_year": 1996, "duration": null, "statutory_veteran_status": "not established"},
+          "factual_status": "qualified",
+          "precision": "explicit_source_reported_service_same_year_interval_not_duration",
+          "source_fragment": "U.S. Army National Guard",
+          "factual_reference_date": "1996",
+          "qualification": "The same start and end year is retained literally, not converted to one full year. Independent service documentation remains a lead; no frozen military analysis is changed."
+        },
+        {
+          "trait": "profession",
+          "value": {"documented_roles": ["business owner, CYA Music LLC", "co-owner, New Dawn Counseling", "musician"], "licensed_mental_health_counselor": "not claimed"},
+          "factual_status": "qualified",
+          "precision": "multiple_careers_business_role_not_spouses_clinical_credential",
+          "source_fragment": "Business owner",
+          "factual_reference_date": null
+        }
+      ]
+    },
+    {
+      "id": "bio-219848-kuar-2025",
+      "candidate_id": "219848",
+      "contest_id": "2026:house:AR:04:general:source_general",
+      "name": "James Russell",
+      "state": "AR",
+      "district": "04",
+      "party": "Democratic",
+      "url": "https://www.ualrpublicradio.org/local-regional-news/2025-08-28/james-russell-iii-of-little-rock-joins-democratic-primary-effort-to-unseat-u-s-sen-cotton-in-2026",
+      "family": "local_profile",
+      "identity_status": "verified",
+      "identity_qualification": "Fuller name James Russell III, Little Rock, Democratic 2026 Senate bid and 2022 gubernatorial primary match the candidate page that explicitly bridges his subsequent AR04 House candidacy. This is not a same-name or district-only join.",
+      "identity_support_urls": ["https://ballotpedia.org/James_Russell_(Arkansas)"],
+      "identity_fragments": ["James Russell III", "Little Rock"],
+      "source_excerpts": ["James Russell III", "Little Rock", "bachelor’s degree in general studies", "University of Central Arkansas", "the business side", "mental health counselor"],
+      "publication_date": "2025-08-28",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"reported_completed_credential": "bachelor's, general studies, University of Central Arkansas", "completion_year": null},
+          "factual_status": "partial",
+          "precision": "completed_bachelors_supported_but_discipline_conflicts_with_other_source",
+          "source_fragment": "bachelor’s degree in general studies",
+          "factual_reference_date": "2025-08-28"
+        },
+        {
+          "trait": "profession",
+          "value": {"role": "business administration of spouse's mental-health practice", "clinical_credential": "The article identifies his wife as the counselor, not the candidate."},
+          "factual_status": "qualified",
+          "precision": "explicit_candidate_business_role_separated_from_spouses_profession",
+          "source_fragment": "the business side",
+          "factual_reference_date": "2025-08-28"
+        }
+      ]
+    },
+    {
+      "id": "bio-219844-nul-2025",
+      "candidate_id": "219844",
+      "contest_id": "2026:house:AR:02:general:source_general",
+      "name": "Chris Jones",
+      "state": "AR",
+      "district": "02",
+      "party": "Democratic",
+      "url": "https://nul.org/basic-page/2025-wmy-chris-jones",
+      "family": "university_employer_professional",
+      "identity_status": "verified",
+      "identity_qualification": "Fuller name Christopher M. Jones, native Arkansas origin, MIT doctorate, Dudley Street Neighborhood Initiative, Arkansas Regional Innovation Hub and BCT Partners independently match the verified candidate's career. No identity assigned merely from a common name.",
+      "identity_support_urls": ["https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"],
+      "identity_fragments": ["Dr. Christopher M. Jones", "Arkansas Regional Innovation Hub"],
+      "source_excerpts": ["Dr. Christopher M. Jones", "Arkansas Regional Innovation Hub", "dual master's degrees", "Nuclear Engineering and Technology & Policy", "Ph.D. in Urban Planning", "principal at BCT Partners"],
+      "publication_date": null,
+      "source_date_note": "National Urban League event biography labeled 2025 WMY; exact publication day not established.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "education",
+          "value": {"institution": "MIT", "completed": ["master's, nuclear engineering", "master's, technology and policy", "PhD, urban planning"], "master_degree_count": 2, "completion_years": "not supplied by this document"},
+          "factual_status": "qualified",
+          "precision": "explicit_dual_masters_and_doctorate_corroborating_2022_self_report",
+          "source_fragment": "dual master's degrees",
+          "factual_reference_date": "2025"
+        },
+        {
+          "trait": "profession",
+          "value": {"reported_role": "principal, BCT Partners; executive coach and organizational-development professional", "historical_roles": ["MIT assistant dean", "Dudley Street Neighborhood Initiative leadership", "Arkansas Regional Innovation Hub leadership"], "government_employment": "Public-sector client work and federal projects do not establish direct government employment."},
+          "factual_status": "qualified",
+          "precision": "dated_professional_biography_with_multiple_historical_roles",
+          "source_fragment": "principal at BCT Partners",
+          "factual_reference_date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "bio-219844-secondary-birth-hold",
+      "candidate_id": "219844",
+      "contest_id": "2026:house:AR:02:general:source_general",
+      "name": "Chris Jones",
+      "state": "AR",
+      "district": "02",
+      "party": "Democratic",
+      "url": "https://en.wikipedia.org/wiki/Chris_Jones_(Arkansas_politician)",
+      "family": "earlier_biography",
+      "identity_status": "verified",
+      "identity_qualification": "Page names Christopher Michael Jones, Arkansas 2022 gubernatorial candidate and subsequent AR02 congressional candidacy, linked native campaign domain, MIT education and Innovation Hub career. It is not the NFL player, mountaineer or drama critic.",
+      "identity_support_urls": ["https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"],
+      "identity_fragments": ["Christopher Michael Jones", "2nd congressional district"],
+      "source_excerpts": ["Christopher Michael Jones", "2nd congressional district", "October 13, 1976"],
+      "publication_date": null,
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "age",
+          "value": {"secondary_reported_birth_date": "1976-10-13", "independently_qualified_birth_date": null, "original_followed": "https://www.dotnews.com/2013/new-dsni-leader-brings-grassroots-zeal-job", "original_access": "non-retryable retrieval failure"},
+          "factual_status": "partial",
+          "precision": "exact_secondary_report_not_independently_qualified",
+          "source_fragment": "October 13, 1976",
+          "factual_reference_date": null,
+          "qualification": "Retained useful reported evidence only. Do not convert to a qualified exact age or model input until original support is accessible."
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219848", "family": "ballotpedia_questionnaire", "query_kind": "source_followup", "query": "https://ballotpedia.org/James_Russell_(Arkansas)", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/James_Russell_(Arkansas)"]},
+    {"candidate_id": "219848", "family": "official_biography", "query_kind": "reconstructed_historical_description", "query_provenance": "Descriptive historical label, not a verified verbatim executed search. This record cannot satisfy a research-completion gate.", "query": "\"James Russell\" Arkansas \"Medical Board\"", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://smarter.vote/races/ar-house-04-2026/james-russell/"], "lead_dispositions": {"https://smarter.vote/races/ar-house-04-2026/james-russell/": "Discovery only, not accepted evidence. Aggregated page supplies a same-name lobbying-firm source and unsupported never-held-office assertion. Follow real Medical Board personnel sources instead."}},
+    {"candidate_id": "219844", "family": "university_employer_professional", "query_kind": "reconstructed_historical_description", "query_provenance": "Descriptive historical label, not a verified verbatim executed search. Actual NUL original review is logged separately.", "query": "\"Chris Jones\" \"MIT\" \"degrees\" nuclear", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nul.org/basic-page/2025-wmy-chris-jones", "https://blackbeltvoices.com/talent-needs-opportunity/"], "lead_dispositions": {}},
+    {"candidate_id": "219844", "family": "local_profile", "query_kind": "reconstructed_historical_description", "query_provenance": "Descriptive historical label, not a verified verbatim executed search. This record cannot satisfy a research-completion gate.", "query": "\"Chris Jones\" Arkansas \"age\" \"2022\"", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.axios.com/local/nw-arkansas/2022/09/19/chris-jones-arkansas-governor-democrat-interview"], "lead_dispositions": {"https://www.axios.com/local/nw-arkansas/2022/09/19/chris-jones-arkansas-governor-democrat-interview": "Underlying interview reviewed. Useful career and gender classifications remain reading leads; no age is supplied. Its linked MIT original should be followed. No claims extracted from this short-licensed page."}},
+    {"candidate_id": "219844", "family": "earlier_biography", "query": "Follow original biography cited for birth date: Dorchester Reporter December 12, 2013", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.dotnews.com/2013/new-dsni-leader-brings-grassroots-zeal-job"], "lead_dispositions": {"https://www.dotnews.com/2013/new-dsni-leader-brings-grassroots-zeal-job": "Non-retryable underlying-page retrieval failure. Exact secondary birthday remains unqualified; do not retry through alternate clients."}},
+    {"candidate_id": "219844", "family": "earlier_biography", "query": "Follow cited September 6, 2020 Arkansas Online high-profile biography", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.arkansasonline.com/news/2020/sep/06/dr-christopher-michael-jones/"], "lead_dispositions": {"https://www.arkansasonline.com/news/2020/sep/06/dr-christopher-michael-jones/": "Non-retryable retrieval failure. No biographical claims accepted from unavailable original."}},
+    {"candidate_id": "219844", "family": "earlier_biography", "query": "Follow cited June 15, 2021 NBC News political-newcomer profile", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.nbcnews.com/politics/politics-news/chris-jones-nuclear-engineer-political-newcomer-enters-arkansas-governor-s-n1270869"], "lead_dispositions": {"https://www.nbcnews.com/politics/politics-news/chris-jones-nuclear-engineer-political-newcomer-enters-arkansas-governor-s-n1270869": "Restricted URL retrieval failure; no retry or access workaround. Never-ran-before is not inferred to mean no prior elected office."}},
+    {"candidate_id": "219725", "family": "campaign", "query": "Direct review of campaign linked by verified candidate page: https://clydeforcongress.com/", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://clydeforcongress.com/"], "lead_dispositions": {"https://clydeforcongress.com/": "Biography reviewed and corroborates prior claims. Still extract the complete source-specific career and service record before closing this lead."}},
+    {"candidate_id": "219725", "family": "local_profile", "query_kind": "reconstructed_historical_description", "query_provenance": "Descriptive historical label, not a verified verbatim executed search. This record cannot satisfy a research-completion gate.", "query": "\"Clyde Jones\" \"Congress\" \"biography\"", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.alreporter.com/2025/10/20/democrat-clyde-jones-announces-bid-for-alabamas-first-congressional-seat"], "lead_dispositions": {"https://www.alreporter.com/2025/10/20/democrat-clyde-jones-announces-bid-for-alabamas-first-congressional-seat": "Dated underlying profile read; extract all useful background facts as supplementary evidence. No new age or explicit sensitive self-description was supplied."}},
+    {"candidate_id": "219844", "family": "university_employer_professional", "query_kind": "source_followup", "query": "https://nul.org/basic-page/2025-wmy-chris-jones", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nul.org/basic-page/2025-wmy-chris-jones"]},
+    {"candidate_id": "219848", "family": "local_profile", "query_kind": "source_followup", "query": "https://www.ualrpublicradio.org/local-regional-news/2025-08-28/james-russell-iii-of-little-rock-joins-democratic-primary-effort-to-unseat-u-s-sen-cotton-in-2026", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ualrpublicradio.org/local-regional-news/2025-08-28/james-russell-iii-of-little-rock-joins-democratic-primary-effort-to-unseat-u-s-sen-cotton-in-2026"]},
+    {"candidate_id": "219844", "family": "ballotpedia_questionnaire", "query_kind": "source_followup", "query": "https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)"], "lead_dispositions": {"https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)": "Identity bridge to retained Morehouse/MIT, Innovation Hub and AR02 candidate; no separate duplicate claim journal created."}},
+    {"candidate_id": "219844", "family": "earlier_biography", "query_kind": "source_followup", "query": "https://en.wikipedia.org/wiki/Chris_Jones_(Arkansas_politician)", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://en.wikipedia.org/wiki/Chris_Jones_(Arkansas_politician)"]}
+  ]
+}

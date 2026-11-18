@@ -1,0 +1,145 @@
+party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
+all,all,1284,6,39,1239,169,79,41
+all,incumbent,360,0,0,360,0,0,0
+all,nonincumbent,312,6,34,272,164,70,39
+all,unresolved,612,0,5,607,5,9,2
+America First,all,1,0,0,1,0,0,0
+America First,incumbent,0,0,0,0,0,0,0
+America First,nonincumbent,0,0,0,0,0,0,0
+America First,unresolved,1,0,0,1,0,0,0
+American Constitution,all,2,0,0,2,0,0,0
+American Constitution,incumbent,0,0,0,0,0,0,0
+American Constitution,nonincumbent,0,0,0,0,0,0,0
+American Constitution,unresolved,2,0,0,2,0,0,0
+Conservative,all,1,0,0,1,0,0,0
+Conservative,incumbent,0,0,0,0,0,0,0
+Conservative,nonincumbent,0,0,0,0,0,0,0
+Conservative,unresolved,1,0,0,1,0,0,0
+Constitution,all,4,0,0,4,0,0,0
+Constitution,incumbent,0,0,0,0,0,0,0
+Constitution,nonincumbent,0,0,0,0,0,0,0
+Constitution,unresolved,4,0,0,4,0,0,0
+Democratic,all,449,6,34,409,164,70,39
+Democratic,incumbent,183,0,0,183,0,0,0
+Democratic,nonincumbent,266,6,34,226,164,70,39
+Democratic,unresolved,0,0,0,0,0,0,0
+Florida Forward Party,all,1,0,0,1,0,0,0
+Florida Forward Party,incumbent,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,1,0,0,1,0,0,0
+Green,all,29,0,0,29,0,0,0
+Green,incumbent,0,0,0,0,0,0,0
+Green,nonincumbent,0,0,0,0,0,0,0
+Green,unresolved,29,0,0,29,0,0,0
+Independent,all,117,0,4,113,4,7,0
+Independent,incumbent,0,0,0,0,0,0,0
+Independent,nonincumbent,0,0,0,0,0,0,0
+Independent,unresolved,117,0,4,113,4,7,0
+Independent American,all,4,0,0,4,0,0,0
+Independent American,incumbent,0,0,0,0,0,0,0
+Independent American,nonincumbent,0,0,0,0,0,0,0
+Independent American,unresolved,4,0,0,4,0,0,0
+Independent Party of Florida,all,1,0,0,1,0,0,0
+Independent Party of Florida,incumbent,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,1,0,0,1,0,0,0
+Independent/Unenrolled,all,1,0,0,1,0,0,0
+Independent/Unenrolled,incumbent,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,1,0,0,1,0,0,0
+Kentucky Party,all,1,0,0,1,0,0,0
+Kentucky Party,incumbent,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,0,0,0,0,0,0,0
+Kentucky Party,unresolved,1,0,0,1,0,0,0
+Legal Marijuana Now,all,1,0,0,1,0,0,0
+Legal Marijuana Now,incumbent,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,1,0,0,1,0,0,0
+Libertarian,all,78,0,0,78,0,0,0
+Libertarian,incumbent,0,0,0,0,0,0,0
+Libertarian,nonincumbent,0,0,0,0,0,0,0
+Libertarian,unresolved,78,0,0,78,0,0,0
+Natural Law,all,1,0,0,1,0,0,0
+Natural Law,incumbent,0,0,0,0,0,0,0
+Natural Law,nonincumbent,0,0,0,0,0,0,0
+Natural Law,unresolved,1,0,0,1,0,0,0
+Nebraska Working People,all,1,0,0,1,0,0,0
+Nebraska Working People,incumbent,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,1,0,0,1,0,0,0
+No Labels,all,3,0,0,3,0,0,0
+No Labels,incumbent,0,0,0,0,0,0,0
+No Labels,nonincumbent,0,0,0,0,0,0,0
+No Labels,unresolved,3,0,0,3,0,0,0
+No Party Affiliation,all,2,0,0,2,0,0,0
+No Party Affiliation,incumbent,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,2,0,0,2,0,0,0
+No Party Preference,all,1,0,0,1,0,0,0
+No Party Preference,incumbent,1,0,0,1,0,0,0
+No Party Preference,nonincumbent,0,0,0,0,0,0,0
+No Party Preference,unresolved,0,0,0,0,0,0,0
+No Political Party,all,3,0,0,3,0,0,0
+No Political Party,incumbent,0,0,0,0,0,0,0
+No Political Party,nonincumbent,0,0,0,0,0,0,0
+No Political Party,unresolved,3,0,0,3,0,0,0
+Nonpartisan,all,10,0,0,10,0,0,0
+Nonpartisan,incumbent,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,0,0,0,0,0,0,0
+Nonpartisan,unresolved,10,0,0,10,0,0,0
+Other,all,1,0,0,1,0,0,0
+Other,incumbent,0,0,0,0,0,0,0
+Other,nonincumbent,0,0,0,0,0,0,0
+Other,unresolved,1,0,0,1,0,0,0
+Pacific Green,all,2,0,0,2,0,0,0
+Pacific Green,incumbent,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,0,0,0,0,0,0,0
+Pacific Green,unresolved,2,0,0,2,0,0,0
+Republican,all,433,0,1,432,1,2,2
+Republican,incumbent,176,0,0,176,0,0,0
+Republican,nonincumbent,46,0,0,46,0,0,0
+Republican,unresolved,211,0,1,210,1,2,2
+Socialism PSL,all,1,0,0,1,0,0,0
+Socialism PSL,incumbent,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,0,0,0,0,0,0,0
+Socialism PSL,unresolved,1,0,0,1,0,0,0
+Socialist Workers,all,1,0,0,1,0,0,0
+Socialist Workers,incumbent,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,0,0,0,0,0,0,0
+Socialist Workers,unresolved,1,0,0,1,0,0,0
+The Independent Party,all,1,0,0,1,0,0,0
+The Independent Party,incumbent,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,0,0,0,0,0,0,0
+The Independent Party,unresolved,1,0,0,1,0,0,0
+U.S. Taxpayers,all,6,0,0,6,0,0,0
+U.S. Taxpayers,incumbent,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,6,0,0,6,0,0,0
+Unaffiliated,all,6,0,0,6,0,0,0
+Unaffiliated,incumbent,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,0,0,0,0,0,0,0
+Unaffiliated,unresolved,6,0,0,6,0,0,0
+Unenrolled,all,1,0,0,1,0,0,0
+Unenrolled,incumbent,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,0,0,0,0,0,0,0
+Unenrolled,unresolved,1,0,0,1,0,0,0
+Unity,all,3,0,0,3,0,0,0
+Unity,incumbent,0,0,0,0,0,0,0
+Unity,nonincumbent,0,0,0,0,0,0,0
+Unity,unresolved,3,0,0,3,0,0,0
+Workers,all,1,0,0,1,0,0,0
+Workers,incumbent,0,0,0,0,0,0,0
+Workers,nonincumbent,0,0,0,0,0,0,0
+Workers,unresolved,1,0,0,1,0,0,0
+Working Class,all,7,0,0,7,0,0,0
+Working Class,incumbent,0,0,0,0,0,0,0
+Working Class,nonincumbent,0,0,0,0,0,0,0
+Working Class,unresolved,7,0,0,7,0,0,0
+Working Class Party,all,1,0,0,1,0,0,0
+Working Class Party,incumbent,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,0,0,0,0,0,0,0
+Working Class Party,unresolved,1,0,0,1,0,0,0
+Write-In,all,109,0,0,109,0,0,0
+Write-In,incumbent,0,0,0,0,0,0,0
+Write-In,nonincumbent,0,0,0,0,0,0,0
+Write-In,unresolved,109,0,0,109,0,0,0

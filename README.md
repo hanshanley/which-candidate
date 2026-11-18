@@ -12,6 +12,14 @@ remain separate from Democratic nominees.
 
 ## Status
 
+**Comprehensive biographical acquisition is unfinished.** The additive
+[research browser](publication/biographical-research/report.html) and
+[candidate-by-trait research ledger](results/biographical-research/candidate-trait-ledger.csv)
+distinguish actual source review, partial facts, conflicts, holds and unresearched
+people across the full 1,284-person roster. Campaign retrieval is not a completed
+person-level research pass. New factual evidence does not silently alter V9's
+scientific fits. See [research and complete-replay instructions](docs/BIOGRAPHICAL_RESEARCH.md).
+
 **Current supported analysis: V9.** Open
 [`publication/characteristics-v9/report.html`](publication/characteristics-v9/report.html)
 locally for the report, figures and all-candidate evidence browser, or read the

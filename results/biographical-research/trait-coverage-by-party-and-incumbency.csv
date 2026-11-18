@@ -1,0 +1,2161 @@
+party,incumbency_group,trait,denominator,factual_before,factual_after,analytical_eligible_unchanged,unknown_without_new_evidence,without_qualified_factual_value,conflicting_fields,fields_with_unresolved_detail_conflicts,structurally_inapplicable,held_source_fields,first_evidence_fields,first_evidence_including_retained_original,first_qualified_fields,previous_reports_newly_qualified,supplementary_evidence_fields,partial_or_imprecise_fields,fitted_unchanged,prediction_supported_unchanged
+all,all,age,1284,444,449,376,773,835,4,2,0,4,25,0,5,0,2,22,156,156
+all,all,gender,1284,538,542,516,742,742,0,0,0,3,4,0,4,0,5,1,243,243
+all,all,race,1284,312,313,223,970,971,0,0,0,3,1,0,1,0,1,0,99,99
+all,all,ethnicity,1284,228,229,203,1053,1055,0,0,0,2,1,0,1,0,1,0,89,89
+all,all,religion,1284,362,372,341,898,912,0,0,0,3,20,0,10,0,1,10,123,122
+all,all,education,1284,325,357,222,291,927,1,4,0,10,2,0,1,31,41,15,172,172
+all,all,profession,1284,311,341,109,192,943,0,0,0,9,0,0,0,30,41,7,78,78
+all,all,prior_elected_office,1284,263,270,0,770,1014,0,1,0,3,8,0,5,2,6,4,0,0
+all,all,other_government,1284,48,61,0,791,1223,0,1,0,2,15,3,12,1,3,8,0,0
+all,all,military,1284,111,121,85,1077,1163,0,1,0,7,3,0,2,8,11,2,0,0
+all,all,incumbency,1284,672,672,672,612,612,0,0,0,0,0,0,0,0,0,0,375,375
+all,all,house_service,1284,360,360,360,639,639,0,0,285,0,0,0,0,0,0,0,144,144
+all,all,donor_ideology,1284,404,404,404,862,880,0,0,0,0,0,0,0,0,0,0,153,153
+all,all,voting_ideology,1284,291,291,291,639,639,0,0,354,0,0,0,0,0,0,0,118,118
+all,all,party_unity,1284,359,359,359,640,640,0,0,285,0,0,0,0,0,0,0,144,144
+all,incumbent,age,360,360,360,360,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+all,incumbent,gender,360,360,360,360,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+all,incumbent,race,360,245,245,190,114,115,0,0,0,0,0,0,0,0,0,0,76,76
+all,incumbent,ethnicity,360,212,212,194,146,148,0,0,0,0,0,0,0,0,0,0,83,83
+all,incumbent,religion,360,332,332,332,25,28,0,0,0,0,0,0,0,0,0,0,119,119
+all,incumbent,education,360,175,175,174,0,185,0,0,0,0,0,0,0,0,0,0,137,137
+all,incumbent,profession,360,117,117,85,0,243,0,0,0,0,0,0,0,0,0,0,63,63
+all,incumbent,prior_elected_office,360,206,206,0,4,154,0,0,0,0,0,0,0,0,0,0,0,0
+all,incumbent,other_government,360,4,4,0,106,356,0,0,0,0,0,0,0,0,0,0,0,0
+all,incumbent,military,360,62,62,62,292,298,0,0,0,0,0,0,0,0,0,0,0,0
+all,incumbent,incumbency,360,360,360,360,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+all,incumbent,house_service,360,360,360,360,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+all,incumbent,donor_ideology,360,332,332,332,10,28,0,0,0,0,0,0,0,0,0,0,124,124
+all,incumbent,voting_ideology,360,291,291,291,0,0,0,0,69,0,0,0,0,0,0,0,118,118
+all,incumbent,party_unity,360,359,359,359,1,1,0,0,0,0,0,0,0,0,0,0,144,144
+all,nonincumbent,age,312,82,87,16,204,225,4,2,0,4,21,0,5,0,1,17,12,12
+all,nonincumbent,gender,312,165,169,156,143,143,0,0,0,3,4,0,4,0,5,1,99,99
+all,nonincumbent,race,312,53,54,32,258,258,0,0,0,3,1,0,1,0,1,0,23,23
+all,nonincumbent,ethnicity,312,15,16,8,296,296,0,0,0,2,1,0,1,0,1,0,6,6
+all,nonincumbent,religion,312,29,39,9,262,273,0,0,0,3,20,0,10,0,1,10,4,3
+all,nonincumbent,education,312,142,172,46,9,140,1,4,0,10,0,0,0,30,40,14,35,35
+all,nonincumbent,profession,312,152,180,22,8,132,0,0,0,9,0,0,0,28,38,6,15,15
+all,nonincumbent,prior_elected_office,312,52,58,0,216,254,0,1,0,3,7,0,4,2,6,4,0,0
+all,nonincumbent,other_government,312,42,55,0,142,257,0,1,0,2,13,3,12,1,3,6,0,0
+all,nonincumbent,military,312,44,54,21,240,258,0,1,0,7,3,0,2,8,11,2,0,0
+all,nonincumbent,incumbency,312,312,312,312,0,0,0,0,0,0,0,0,0,0,0,0,230,230
+all,nonincumbent,house_service,312,0,0,0,27,27,0,0,285,0,0,0,0,0,0,0,0,0
+all,nonincumbent,donor_ideology,312,41,41,41,271,271,0,0,0,0,0,0,0,0,0,0,29,29
+all,nonincumbent,voting_ideology,312,0,0,0,27,27,0,0,285,0,0,0,0,0,0,0,0,0
+all,nonincumbent,party_unity,312,0,0,0,27,27,0,0,285,0,0,0,0,0,0,0,0,0
+all,unresolved,age,612,2,2,0,569,610,0,0,0,0,4,0,0,0,1,5,0,0
+all,unresolved,gender,612,13,13,0,599,599,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,race,612,14,14,1,598,598,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,ethnicity,612,1,1,1,611,611,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,religion,612,1,1,0,611,611,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,education,612,8,10,2,282,602,0,0,0,0,2,0,1,1,1,1,0,0
+all,unresolved,profession,612,42,44,2,184,568,0,0,0,0,0,0,0,2,3,1,0,0
+all,unresolved,prior_elected_office,612,5,6,0,550,606,0,0,0,0,1,0,1,0,0,0,0,0
+all,unresolved,other_government,612,2,2,0,543,610,0,0,0,0,2,0,0,0,0,2,0,0
+all,unresolved,military,612,5,5,2,545,607,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,incumbency,612,0,0,0,612,612,0,0,0,0,0,0,0,0,0,0,1,1
+all,unresolved,house_service,612,0,0,0,612,612,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,donor_ideology,612,31,31,31,581,581,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,voting_ideology,612,0,0,0,612,612,0,0,0,0,0,0,0,0,0,0,0,0
+all,unresolved,party_unity,612,0,0,0,612,612,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,profession,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,profession,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+America First,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,education,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,profession,2,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,all,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,education,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,profession,2,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+American Constitution,unresolved,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Conservative,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,age,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,gender,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,race,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,ethnicity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,religion,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,education,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,profession,4,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,prior_elected_office,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,other_government,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,military,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,incumbency,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,house_service,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,donor_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,voting_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,all,party_unity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,age,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,gender,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,race,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,ethnicity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,religion,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,education,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,profession,4,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,prior_elected_office,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,other_government,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,military,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,incumbency,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,house_service,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,donor_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,voting_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Constitution,unresolved,party_unity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,all,age,449,264,269,198,161,180,4,2,0,4,21,0,5,0,1,17,156,156
+Democratic,all,gender,449,305,309,296,140,140,0,0,0,3,4,0,4,0,5,1,243,243
+Democratic,all,race,449,189,190,122,259,259,0,0,0,3,1,0,1,0,1,0,99,99
+Democratic,all,ethnicity,449,133,134,112,315,315,0,0,0,2,1,0,1,0,1,0,89,89
+Democratic,all,religion,449,191,201,171,238,248,0,0,0,3,20,0,10,0,1,10,123,122
+Democratic,all,education,449,311,341,217,2,108,1,4,0,10,0,0,0,30,40,14,172,172
+Democratic,all,profession,449,253,281,105,0,168,0,0,0,9,0,0,0,28,38,6,78,78
+Democratic,all,prior_elected_office,449,164,170,0,179,279,0,1,0,3,7,0,4,2,6,4,0,0
+Democratic,all,other_government,449,44,57,0,153,392,0,1,0,2,13,3,12,1,3,6,0,0
+Democratic,all,military,449,59,69,37,362,380,0,1,0,7,3,0,2,8,11,2,0,0
+Democratic,all,incumbency,449,449,449,449,0,0,0,0,0,0,0,0,0,0,0,0,375,375
+Democratic,all,house_service,449,183,183,183,24,24,0,0,242,0,0,0,0,0,0,0,144,144
+Democratic,all,donor_ideology,449,192,192,192,239,257,0,0,0,0,0,0,0,0,0,0,153,153
+Democratic,all,voting_ideology,449,148,148,148,24,24,0,0,277,0,0,0,0,0,0,0,118,118
+Democratic,all,party_unity,449,182,182,182,25,25,0,0,242,0,0,0,0,0,0,0,144,144
+Democratic,incumbent,age,183,183,183,183,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+Democratic,incumbent,gender,183,183,183,183,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+Democratic,incumbent,race,183,146,146,97,37,37,0,0,0,0,0,0,0,0,0,0,76,76
+Democratic,incumbent,ethnicity,183,119,119,104,64,64,0,0,0,0,0,0,0,0,0,0,83,83
+Democratic,incumbent,religion,183,163,163,163,20,20,0,0,0,0,0,0,0,0,0,0,119,119
+Democratic,incumbent,education,183,173,173,173,0,10,0,0,0,0,0,0,0,0,0,0,137,137
+Democratic,incumbent,profession,183,108,108,85,0,75,0,0,0,0,0,0,0,0,0,0,63,63
+Democratic,incumbent,prior_elected_office,183,113,113,0,1,70,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,incumbent,other_government,183,3,3,0,40,180,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,incumbent,military,183,17,17,17,164,166,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,incumbent,incumbency,183,183,183,183,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+Democratic,incumbent,house_service,183,183,183,183,0,0,0,0,0,0,0,0,0,0,0,0,144,144
+Democratic,incumbent,donor_ideology,183,159,159,159,6,24,0,0,0,0,0,0,0,0,0,0,124,124
+Democratic,incumbent,voting_ideology,183,148,148,148,0,0,0,0,35,0,0,0,0,0,0,0,118,118
+Democratic,incumbent,party_unity,183,182,182,182,1,1,0,0,0,0,0,0,0,0,0,0,144,144
+Democratic,nonincumbent,age,266,81,86,15,161,180,4,2,0,4,21,0,5,0,1,17,12,12
+Democratic,nonincumbent,gender,266,122,126,113,140,140,0,0,0,3,4,0,4,0,5,1,99,99
+Democratic,nonincumbent,race,266,43,44,25,222,222,0,0,0,3,1,0,1,0,1,0,23,23
+Democratic,nonincumbent,ethnicity,266,14,15,8,251,251,0,0,0,2,1,0,1,0,1,0,6,6
+Democratic,nonincumbent,religion,266,28,38,8,218,228,0,0,0,3,20,0,10,0,1,10,4,3
+Democratic,nonincumbent,education,266,138,168,44,2,98,1,4,0,10,0,0,0,30,40,14,35,35
+Democratic,nonincumbent,profession,266,145,173,20,0,93,0,0,0,9,0,0,0,28,38,6,15,15
+Democratic,nonincumbent,prior_elected_office,266,51,57,0,178,209,0,1,0,3,7,0,4,2,6,4,0,0
+Democratic,nonincumbent,other_government,266,41,54,0,113,212,0,1,0,2,13,3,12,1,3,6,0,0
+Democratic,nonincumbent,military,266,42,52,20,198,214,0,1,0,7,3,0,2,8,11,2,0,0
+Democratic,nonincumbent,incumbency,266,266,266,266,0,0,0,0,0,0,0,0,0,0,0,0,230,230
+Democratic,nonincumbent,house_service,266,0,0,0,24,24,0,0,242,0,0,0,0,0,0,0,0,0
+Democratic,nonincumbent,donor_ideology,266,33,33,33,233,233,0,0,0,0,0,0,0,0,0,0,29,29
+Democratic,nonincumbent,voting_ideology,266,0,0,0,24,24,0,0,242,0,0,0,0,0,0,0,0,0
+Democratic,nonincumbent,party_unity,266,0,0,0,24,24,0,0,242,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Democratic,unresolved,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Democratic,unresolved,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Florida Forward Party,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,age,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,gender,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,race,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,ethnicity,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,religion,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,education,29,0,0,0,9,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,profession,29,0,0,0,8,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,prior_elected_office,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,other_government,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,military,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,incumbency,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,house_service,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,donor_ideology,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,voting_ideology,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,all,party_unity,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,age,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,gender,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,race,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,ethnicity,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,religion,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,education,29,0,0,0,9,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,profession,29,0,0,0,8,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,prior_elected_office,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,other_government,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,military,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,incumbency,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,house_service,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,donor_ideology,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,voting_ideology,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Green,unresolved,party_unity,29,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,age,117,0,0,0,113,117,0,0,0,0,4,0,0,0,0,4,0,0
+Independent,all,gender,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,race,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,ethnicity,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,religion,117,1,1,0,116,116,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,education,117,0,1,0,49,116,0,0,0,0,1,0,0,1,1,1,0,0
+Independent,all,profession,117,0,1,0,30,116,0,0,0,0,0,0,0,1,2,1,0,0
+Independent,all,prior_elected_office,117,0,0,0,114,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,other_government,117,0,0,0,115,117,0,0,0,0,2,0,0,0,0,2,0,0
+Independent,all,military,117,0,0,0,109,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,incumbency,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,house_service,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,donor_ideology,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,voting_ideology,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,all,party_unity,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,age,117,0,0,0,113,117,0,0,0,0,4,0,0,0,0,4,0,0
+Independent,unresolved,gender,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,race,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,ethnicity,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,religion,117,1,1,0,116,116,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,education,117,0,1,0,49,116,0,0,0,0,1,0,0,1,1,1,0,0
+Independent,unresolved,profession,117,0,1,0,30,116,0,0,0,0,0,0,0,1,2,1,0,0
+Independent,unresolved,prior_elected_office,117,0,0,0,114,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,other_government,117,0,0,0,115,117,0,0,0,0,2,0,0,0,0,2,0,0
+Independent,unresolved,military,117,0,0,0,109,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,incumbency,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,house_service,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,donor_ideology,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,voting_ideology,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent,unresolved,party_unity,117,0,0,0,117,117,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,age,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,gender,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,race,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,ethnicity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,religion,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,education,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,profession,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,prior_elected_office,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,other_government,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,military,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,incumbency,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,house_service,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,donor_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,voting_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,all,party_unity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,age,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,gender,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,race,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,ethnicity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,religion,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,education,4,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,profession,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,prior_elected_office,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,other_government,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,military,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,incumbency,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,house_service,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,donor_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,voting_ideology,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent American,unresolved,party_unity,4,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent Party of Florida,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Independent/Unenrolled,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kentucky Party,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Legal Marijuana Now,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,age,78,1,1,0,76,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,gender,78,2,2,0,76,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,race,78,2,2,0,76,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,ethnicity,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,religion,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,education,78,1,1,0,31,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,profession,78,2,2,1,13,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,prior_elected_office,78,0,0,0,77,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,other_government,78,1,1,0,77,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,military,78,1,1,0,67,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,incumbency,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,house_service,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,donor_ideology,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,voting_ideology,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,all,party_unity,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,age,78,1,1,0,76,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,gender,78,2,2,0,76,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,race,78,2,2,0,76,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,ethnicity,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,religion,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,education,78,1,1,0,31,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,profession,78,2,2,1,13,76,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,prior_elected_office,78,0,0,0,77,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,other_government,78,1,1,0,77,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,military,78,1,1,0,67,77,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,incumbency,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,house_service,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,donor_ideology,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,voting_ideology,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Libertarian,unresolved,party_unity,78,0,0,0,78,78,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Law,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Nebraska Working People,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,education,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,profession,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,all,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,education,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,profession,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Labels,unresolved,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,education,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,profession,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,all,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,education,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,profession,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Affiliation,unresolved,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,age,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,gender,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,religion,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,profession,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,prior_elected_office,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,incumbency,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,house_service,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,voting_ideology,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,all,party_unity,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,age,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,gender,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,religion,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,profession,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,prior_elected_office,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,incumbency,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,house_service,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,voting_ideology,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,incumbent,party_unity,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Party Preference,unresolved,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,education,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,profession,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,all,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,education,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,profession,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+No Political Party,unresolved,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,age,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,gender,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,race,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,ethnicity,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,religion,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,education,10,1,1,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,profession,10,1,1,0,2,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,prior_elected_office,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,other_government,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,military,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,incumbency,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,house_service,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,donor_ideology,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,voting_ideology,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,all,party_unity,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,age,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,gender,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,race,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,ethnicity,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,religion,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,education,10,1,1,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,profession,10,1,1,0,2,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,prior_elected_office,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,other_government,10,1,1,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,military,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,incumbency,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,house_service,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,donor_ideology,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,voting_ideology,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Nonpartisan,unresolved,party_unity,10,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,education,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,profession,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,all,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,age,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,gender,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,race,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,ethnicity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,religion,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,education,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,profession,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,prior_elected_office,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,other_government,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,military,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,incumbency,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,house_service,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,donor_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,voting_ideology,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific Green,unresolved,party_unity,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,age,433,177,177,177,224,256,0,0,0,0,0,0,0,0,1,1,0,0
+Republican,all,gender,433,229,229,219,204,204,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,race,433,120,120,101,312,313,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,ethnicity,433,95,95,91,336,338,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,religion,433,169,169,169,260,264,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,education,433,12,13,5,67,420,0,0,0,0,1,0,1,0,0,0,0,0
+Republican,all,profession,433,53,54,3,37,379,0,0,0,0,0,0,0,1,1,0,0,0
+Republican,all,prior_elected_office,433,99,100,0,195,333,0,0,0,0,1,0,1,0,0,0,0,0
+Republican,all,other_government,433,2,2,0,241,431,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,military,433,51,51,48,336,382,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,incumbency,433,222,222,222,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,house_service,433,176,176,176,214,214,0,0,43,0,0,0,0,0,0,0,0,0
+Republican,all,donor_ideology,433,212,212,212,221,221,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,all,voting_ideology,433,142,142,142,214,214,0,0,77,0,0,0,0,0,0,0,0,0
+Republican,all,party_unity,433,176,176,176,214,214,0,0,43,0,0,0,0,0,0,0,0,0
+Republican,incumbent,age,176,176,176,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,gender,176,176,176,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,race,176,99,99,93,76,77,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,ethnicity,176,93,93,90,81,83,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,religion,176,168,168,168,5,8,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,education,176,2,2,1,0,174,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,profession,176,8,8,0,0,168,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,prior_elected_office,176,93,93,0,3,83,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,other_government,176,1,1,0,65,175,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,military,176,45,45,45,127,131,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,incumbency,176,176,176,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,house_service,176,176,176,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,donor_ideology,176,173,173,173,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,incumbent,voting_ideology,176,142,142,142,0,0,0,0,34,0,0,0,0,0,0,0,0,0
+Republican,incumbent,party_unity,176,176,176,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,age,46,1,1,1,43,45,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,gender,46,43,43,43,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,race,46,10,10,7,36,36,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,ethnicity,46,1,1,0,45,45,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,religion,46,1,1,1,44,45,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,education,46,4,4,2,7,42,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,profession,46,7,7,2,8,39,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,prior_elected_office,46,1,1,0,38,45,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,other_government,46,1,1,0,29,45,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,military,46,2,2,1,42,44,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,incumbency,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,house_service,46,0,0,0,3,3,0,0,43,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,donor_ideology,46,8,8,8,38,38,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,voting_ideology,46,0,0,0,3,3,0,0,43,0,0,0,0,0,0,0,0,0
+Republican,nonincumbent,party_unity,46,0,0,0,3,3,0,0,43,0,0,0,0,0,0,0,0,0
+Republican,unresolved,age,211,0,0,0,181,211,0,0,0,0,0,0,0,0,1,1,0,0
+Republican,unresolved,gender,211,10,10,0,201,201,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,race,211,11,11,1,200,200,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,ethnicity,211,1,1,1,210,210,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,religion,211,0,0,0,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,education,211,6,7,2,60,204,0,0,0,0,1,0,1,0,0,0,0,0
+Republican,unresolved,profession,211,38,39,1,29,172,0,0,0,0,0,0,0,1,1,0,0,0
+Republican,unresolved,prior_elected_office,211,5,6,0,154,205,0,0,0,0,1,0,1,0,0,0,0,0
+Republican,unresolved,other_government,211,0,0,0,147,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,military,211,4,4,2,167,207,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,incumbency,211,0,0,0,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,house_service,211,0,0,0,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,donor_ideology,211,31,31,31,180,180,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,voting_ideology,211,0,0,0,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Republican,unresolved,party_unity,211,0,0,0,211,211,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialism PSL,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Socialist Workers,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+The Independent Party,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,age,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,gender,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,race,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,ethnicity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,religion,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,education,6,0,0,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,profession,6,0,0,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,prior_elected_office,6,0,0,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,other_government,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,military,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,incumbency,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,house_service,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,donor_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,voting_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,all,party_unity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,age,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,gender,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,race,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,ethnicity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,religion,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,education,6,0,0,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,profession,6,0,0,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,prior_elected_office,6,0,0,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,other_government,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,military,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,incumbency,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,house_service,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,donor_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,voting_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Taxpayers,unresolved,party_unity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,age,6,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,gender,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,race,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,ethnicity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,religion,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,education,6,0,0,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,profession,6,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,prior_elected_office,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,other_government,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,military,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,incumbency,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,house_service,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,donor_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,voting_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,all,party_unity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,age,6,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,gender,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,race,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,ethnicity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,religion,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,education,6,0,0,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,profession,6,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,prior_elected_office,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,other_government,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,military,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,incumbency,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,house_service,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,donor_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,voting_ideology,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unaffiliated,unresolved,party_unity,6,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,education,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unenrolled,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,education,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,profession,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,all,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,age,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,gender,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,race,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,ethnicity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,religion,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,education,3,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,profession,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,prior_elected_office,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,other_government,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,military,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,incumbency,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,house_service,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,donor_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,voting_ideology,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Unity,unresolved,party_unity,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Workers,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,age,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,gender,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,race,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,ethnicity,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,religion,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,education,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,profession,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,prior_elected_office,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,other_government,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,military,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,incumbency,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,house_service,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,donor_ideology,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,voting_ideology,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,all,party_unity,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,age,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,gender,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,race,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,ethnicity,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,religion,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,education,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,profession,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,prior_elected_office,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,other_government,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,military,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,incumbency,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,house_service,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,donor_ideology,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,voting_ideology,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class,unresolved,party_unity,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,all,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,age,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,gender,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,race,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,ethnicity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,religion,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,education,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,profession,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,prior_elected_office,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,other_government,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,military,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,incumbency,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,house_service,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,donor_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,voting_ideology,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Working Class Party,unresolved,party_unity,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,age,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,gender,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,race,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,ethnicity,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,religion,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,education,109,0,0,0,101,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,profession,109,0,0,0,95,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,prior_elected_office,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,other_government,109,0,0,0,108,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,military,109,0,0,0,105,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,incumbency,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,house_service,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,donor_ideology,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,voting_ideology,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,all,party_unity,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,incumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,age,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,race,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,ethnicity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,religion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,profession,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,prior_elected_office,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,other_government,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,incumbency,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,house_service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,donor_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,voting_ideology,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,nonincumbent,party_unity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,age,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,gender,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,race,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,ethnicity,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,religion,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,education,109,0,0,0,101,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,profession,109,0,0,0,95,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,prior_elected_office,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,other_government,109,0,0,0,108,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,military,109,0,0,0,105,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,incumbency,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,house_service,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,donor_ideology,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,voting_ideology,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
+Write-In,unresolved,party_unity,109,0,0,0,109,109,0,0,0,0,0,0,0,0,0,0,0,0
