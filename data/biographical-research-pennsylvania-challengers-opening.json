@@ -1,0 +1,122 @@
+{
+  "scope": "Open four Pennsylvania Democratic nonincumbent passes. Reuse complete retained campaign originals and check appointment, employment and dated affiliation in primary reporting.",
+  "documents": [
+    {
+      "id": "221015-retained-meet-bob-harvie", "candidate_id": "221015", "name": "Bob Harvie", "state": "PA", "district": "01", "party": "Democratic", "contest_id": "2026:house:PA:01:general:source_general",
+      "family": "campaign", "url": "https://bobharvieforcongress.com/meet-bob/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221015-8eb418be9b814963245d.html", "retained_sha256": "8eb418be9b814963245dac29da490950af81cabb171d2cd2ec20632d37f31a71",
+      "identity_status": "verified", "identity_qualification": "Own campaign identifies exact name, Bristol and Bucks County, and matching township and county service.",
+      "identity_fragments": ["Bob Harvie"], "source_excerpts": ["Bob Harvie", "bachelor\u2019s degree in history", "master\u2019s degree in education", "Bucks County Technical High School", "elected to the Falls Township Board of Supervisors"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_secondary_and_two_degrees", "source_fragment": "bachelor\u2019s degree in history", "supporting_fragments": ["master\u2019s degree in education"], "factual_reference_date": "Completed before campaign biography", "value": "Bristol High graduation, George Washington history bachelor's, Holy Family University education master's."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_public_school_teaching_and_department_chair", "source_fragment": "Bucks County Technical High School", "factual_reference_date": "Twenty years with named school in a 26-year teaching career", "value": "High-school social studies teacher and department chair."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_public_vocational_school_employment", "source_fragment": "Bucks County Technical High School", "factual_reference_date": "Twenty years of a 26-year teaching career, prior to congressional run", "value": "Public vocational school's teacher and department chair; separate from appointed planning commission and elected service."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_township_and_county_elections", "source_fragment": "elected to the Falls Township Board of Supervisors", "factual_reference_date": "Township election 2003; county elections 2019 and 2023", "value": "Elected township supervisor and county commissioner. Planning Commission and internal chair votes are distinct."}
+      ],
+      "extraction_review": "Complete retained own biography read. Inviting veterans into classrooms is not personal service. No family faith or precise birth date inferred."
+    },
+    {
+      "id": "221027-retained-native-brooks-campaign-biography", "candidate_id": "221027", "name": "Bob Brooks", "state": "PA", "district": "07", "party": "Democratic", "contest_id": "2026:house:PA:07:general:source_general",
+      "family": "campaign", "url": "https://www.brooksforcongress.com/meet-bob/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221027-ce6d0ee6e2584ba7646b.html", "retained_sha256": "ce6d0ee6e2584ba7646be5e589b485e238ab69d629263c554fa6a138eb33351b",
+      "identity_status": "verified", "identity_qualification": "Exact name, native Lehigh Valley campaign, Bethlehem firefighter and statewide union leadership.",
+      "identity_fragments": ["Bob Brooks"], "source_excerpts": ["Bob Brooks", "time he turned 30", "20 years as a firefighter in the City of Bethlehem", "union President", "Brooks Lawn Care"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_historical_age_anchored_to_early_work", "source_fragment": "time he turned 30", "factual_reference_date": "Early service-industry and other work, calendar years unstated", "value": "Reports early jobs before age 30. Not contemporary age."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_municipal_fire_union_and_business_roles", "source_fragment": "union President", "supporting_fragments": ["Brooks Lawn Care"], "factual_reference_date": "City firefighting from 2005, small business since 2013", "value": "Firefighting, union leadership, earlier service/industrial jobs, lawn care business, and baseball coaching."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_twenty_years_municipal_fire_department_job", "source_fragment": "20 years as a firefighter in the City of Bethlehem", "factual_reference_date": "Joined 2005; retired before campaign", "value": "Named city fire department career. Union leadership and advocacy are separate; firefighting is not military service."}
+      ],
+      "extraction_review": "Complete retained candidate biography; relatives' jobs and histories excluded. No earned college credential, religion or explicit military negative found in this biography."
+    },
+    {
+      "id": "221027-city-state-dated-original-interview", "candidate_id": "221027", "name": "Bob Brooks", "state": "PA", "district": "07", "party": "Democratic", "contest_id": "2026:house:PA:07:general:source_general",
+      "family": "local_profile", "url": "https://www.cityandstatepa.com/politics/2026/04/pa-7-dem-primary-bob-brooks-going-pole-poll/412907/?oref=cspa-homepage-noscript-river", "publication_date": "2026-04-17", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Direct interview with named PA07 candidate and matched Bethlehem/union career.",
+      "identity_fragments": ["Bob Brooks"], "source_excerpts": ["Bob Brooks", "a senior in high school", "City of Bethlehem in 2005 as a firefighter", "never held political office", "paper route at age 10"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "historical_event_age_not_current_age", "source_fragment": "paper route at age 10", "factual_reference_date": "First job discussed in April 2026", "value": "Historical event age only."},
+        {"trait": "education", "factual_status": "partial", "precision": "reported_secondary_grade_not_credential", "source_fragment": "a senior in high school", "factual_reference_date": "High-school attendance before relocation as reported", "value": "Secondary attendance reported; this source establishes no conferral."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reporter_identified_firefighting_and_union_work", "source_fragment": "City of Bethlehem in 2005 as a firefighter", "factual_reference_date": "Firefighting 2005–2025; union president from 2021", "value": "Retired city firefighter, union leader and lawn-care business operator."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reporter_named_municipal_job_and_year", "source_fragment": "City of Bethlehem in 2005 as a firefighter", "factual_reference_date": "2005 city hire; retired in 2025 according to April 2026 report", "value": "Reported municipal fire department employment."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reporter_explicit_scoped_no_prior_political_office", "source_fragment": "never held political office", "factual_reference_date": "April 17, 2026 profile", "value": "Direct reporter statement that he had held no political office as of April. This is not a military or government-employment negative and is not automatically extended to November."}
+      ],
+      "extraction_review": "Complete original interview/article through final quotation read. Other primary candidates' biographies excluded. Article's unrelated election-year wording is not used to update the roster."
+    },
+    {
+      "id": "221039-retained-meet-beth", "candidate_id": "221039", "name": "Beth Farnham", "state": "PA", "district": "13", "party": "Democratic", "contest_id": "2026:house:PA:13:general:source_general",
+      "family": "campaign", "url": "https://bethfarnhamforcongress.com/meet-beth/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221039-24982117e77f2cdcb183.html", "retained_sha256": "24982117e77f2cdcb1836b64f19163f6542ff66e1a15add275992dbd175b1583",
+      "identity_status": "verified", "identity_qualification": "Named own PA13 letter, prior general candidacy and Conewago-area school-board service match candidate.",
+      "identity_fragments": ["Beth Farnham"], "source_excerpts": ["Beth Farnham", "degree in Biology, French, and Secondary Education", "credit analyst", "pharmacy technician", "school board member", "married at Gettysburg Presbyterian Church"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_college_completion_and_fields", "source_fragment": "degree in Biology, French, and Secondary Education", "factual_reference_date": "Completed before undated campaign biography", "value": "Own completed college degree and named fields; track/major distinctions and granting institution not stated here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_multiple_earlier_jobs", "source_fragment": "credit analyst", "supporting_fragments": ["pharmacy technician"], "factual_reference_date": "Historical employment before full-time homemaking", "value": "Credit analyst, private administrative assistant and pharmacy technician, later a stay-at-home parent."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "documented_school_board_service_without_election_method_in_own_bio", "source_fragment": "school board member", "factual_reference_date": "Historical service before 2026", "value": "School board membership; the dated local original documents appointment, not election."}
+      ],
+      "extraction_review": "Complete retained biography read. Wedding venue alone is not affiliation; family jobs and public-school enrollment of relatives are not hers."
+    },
+    {
+      "id": "221039-gettysburg-dated-board-appointment",
+      "candidate_id": "221039", "name": "Beth Farnham", "state": "PA", "district": "13", "party": "Democratic", "contest_id": "2026:house:PA:13:general:source_general",
+      "family": "earlier_biography", "url": "https://gettysburgconnection.org/beth-farnham-joins-cvsd-school-board/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Article reports a Monday vacancy vote before the April 3 and April 10, 2023 board meetings. Exact article day not established in accessed body.",
+      "identity_status": "verified", "identity_qualification": "Named Beth Farnham joins Conewago Valley School District board, matching own editions and district profile.",
+      "identity_fragments": ["Beth Farnham"], "source_excerpts": ["Beth Farnham", "filled its vacant position", "following a 7-0 vote", "sworn in prior to the meeting"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "documented_appointment_not_popular_election", "source_fragment": "filled its vacant position", "supporting_fragments": ["following a 7-0 vote"], "factual_reference_date": "March 2023 appointment to a vacancy", "value": "School board filled vacancy by internal vote, not a popular election. This does not establish a universal never-elected negative."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_public_appointment_no_paid_role", "source_fragment": "sworn in prior to the meeting", "factual_reference_date": "March 2023 school board appointment", "value": "Formal board appointment, not demonstrated paid government employment."}
+      ],
+      "extraction_review": "Complete topical article read; author biography describes reporter, not Farnham. Other staff titles, public employment and military-related procedures excluded."
+    },
+    {
+      "id": "221039-candidate-provided-2024-gettysburg-guide",
+      "candidate_id": "221039", "name": "Beth Farnham", "state": "PA", "district": "13", "party": "Democratic", "contest_id": "2026:house:PA:13:general:source_general",
+      "family": "earlier_biography", "url": "https://gettysburgconnection.org/beth-farnham-candidate-information-guide/", "publication_date": "2024-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own named 2024 Democratic PA13 candidate statement; Conewago Valley board and native campaign match.",
+      "identity_fragments": ["Beth Farnham"], "source_excerpts": ["Beth Farnham", "information was provided by Beth Farnham", "member of Gettysburg Presbyterian Church", "former school board member", "stay-at-home parent"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "candidate_provided_explicit_church_membership", "source_fragment": "member of Gettysburg Presbyterian Church", "factual_reference_date": "October 21, 2024 candidate guide", "value": "Named 2024 membership from candidate-provided statement, not assumed current in November 2026."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_provided_homemaker_status", "source_fragment": "stay-at-home parent", "factual_reference_date": "October 2024", "value": "Homemaker in 2024; distinct from former paid roles."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "candidate_provided_board_history_without_mode_in_this_guide", "source_fragment": "former school board member", "factual_reference_date": "Before 2024 general election", "value": "Former district school board member. Elected party committee membership was not elected public office."}
+      ],
+      "extraction_review": "Full original statement read; affiliation explicitly candidate-provided and not inferred from wedding venue. Veteran-support language does not establish personal service."
+    },
+    {
+      "id": "221041-retained-native-about-alan", "candidate_id": "221041", "name": "Alan Bradstock", "state": "PA", "district": "14", "party": "Democratic", "contest_id": "2026:house:PA:14:general:source_general",
+      "family": "campaign", "url": "https://www.bradstockforcongress.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221041-74d2d9bef8022d3579e0.html", "retained_sha256": "74d2d9bef8022d3579e0ac95ee006c3defe9cee8e91513c6ce8f95c20c0cff11",
+      "identity_status": "verified", "identity_qualification": "Own about identifies exact 2026 PA14 Democratic candidate and Donora, accounting, Army and FBI history.",
+      "identity_fragments": ["Alan Bradstock"], "source_excerpts": ["Alan Bradstock", "bachelor\u2019s degree in accounting", "Master\u2019s degree in International Relations", "eight years in the U.S. Army", "decades as an FBI agent", "auditor for KPMG"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_bachelors_masters_and_secondary_graduation", "source_fragment": "bachelor\u2019s degree in accounting", "supporting_fragments": ["Master\u2019s degree in International Relations"], "factual_reference_date": "BA before commission; MA during Army service", "value": "Ringgold High graduate; Washington & Jefferson accounting bachelor's and Troy State overseas program international relations master's."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_public_private_and_contract_careers", "source_fragment": "auditor for KPMG", "supporting_fragments": ["decades as an FBI agent"], "factual_reference_date": "Military then federal law enforcement, plus private and contract roles", "value": "Army aviation, FBI agent and supervisor, auditor, financial adviser and intelligence community contractor."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_fbi_employment_separate_from_contracting_and_army", "source_fragment": "decades as an FBI agent", "factual_reference_date": "Named civilian service after Army", "value": "Two decades as FBI special agent and supervisor; hosted joint assignments do not imply separate agency employment. Later contractor work is distinct."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_eight_year_army_aviation_service", "source_fragment": "eight years in the U.S. Army", "factual_reference_date": "Desert Storm era", "value": "Own U.S. Army aviation service and Desert Storm deployment."}
+      ],
+      "extraction_review": "Read full retained campaign About. Family identity and other private history outside requested traits excluded. No age inferred from service chronology or demographic identity from family role."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "221015", "family": "campaign", "query": "Read complete retained PA01 Meet Bob biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://bobharvieforcongress.com/meet-bob/"]},
+    {"candidate_id": "221015", "family": "earlier_biography", "query": "\"Bob Harvie\" official Bucks county biography social studies teacher school 2026", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://whyy.org/articles/pa-election-2023-bucks-county-board-of-commissioners/"], "note": "WHYY candidate block is a selected follow-up; no evidence asserted from it here."},
+    {"candidate_id": "221027", "family": "campaign", "query": "Read complete retained named PA07 About.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.brooksforcongress.com/meet-bob/"]},
+    {"candidate_id": "221027", "family": "local_profile", "query": "\"Bob Brooks\" Bethlehem firefighter age Pennsylvania 7 2026 Lehigh Valley career education first time candidate", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cityandstatepa.com/politics/2026/04/pa-7-dem-primary-bob-brooks-going-pole-poll/412907/?oref=cspa-homepage-noscript-river", "https://www.lehighvalleypublicmedia.org/news/elections/lehigh-valley-political-pulse-bob-brooks-says-democrats-have-lost-touch-with-working-class-voters/"]},
+    {"candidate_id": "221039", "family": "campaign", "query": "Read complete retained PA13 candidate About.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://bethfarnhamforcongress.com/meet-beth/"]},
+    {"candidate_id": "221039", "family": "earlier_biography", "query": "\"Beth Farnham\" Conewago Valley elected board official minutes election 2017 2021", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://gettysburgconnection.org/beth-farnham-joins-cvsd-school-board/", "https://www.adamscountypa.gov/getmedia/a1cd2ad5-c455-41b4-a607-33b139d8ce94/dGeneralElection-SegregatedPrecinctResults.pdf", "https://gettysburgconnection.org/beth-farnham-candidate-information-guide/"]},
+    {"candidate_id": "221041", "family": "campaign", "query": "Read complete retained PA14 biography and verify candidate/work history.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.bradstockforcongress.com/about"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "221015", "note": "Verify separate formal school employment and administrative role dates via named education employer; WHYY contextual biography does not establish current religion. Explicit possible identity and military evidence remain open."},
+    {"candidate_id": "221027", "note": "Read retained public radio interview, including actual high-school completion observation; check civil service and older professional originals and explicit service/identity. First office statement is dated April only."},
+    {"candidate_id": "221039", "note": "Read actual 2026 Vote411 answers and official board appointment/minutes and final 2023 district return. A single precinct is not a district election result. Verify degree track independently and affiliation only for dated observation."},
+    {"candidate_id": "221041", "note": "Review retained Vote-USA field bodies, authentic dated candidate interviews, educational institution and federal service biography. Own age and explicit identity/service negatives remain open."}
+  ]
+}

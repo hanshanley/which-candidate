@@ -1,0 +1,122 @@
+{
+  "scope": "Open the other six previously untouched Pennsylvania Democratic nonincumbent passes. Reuse earlier records where possible and keep the named final six source leads open.",
+  "documents": [
+    {
+      "id": "221019-complete-retained-pahouse-bio", "candidate_id": "221019", "name": "Chris Rabb", "state": "PA", "district": "03", "party": "Democratic", "contest_id": "2026:house:PA:03:general:source_general",
+      "family": "official_biography", "url": "https://www.pahouse.com/Rabb/About/Biography/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221019-1189b61a48d2f1759613.html", "retained_sha256": "1189b61a48d2f17596132a74afdf02749c112b9063cc13af7df86c6eec4aee20",
+      "identity_status": "verified", "identity_qualification": "Christopher M. Rabb, 200th State House district in Philadelphia, matches retained PA03 candidate.",
+      "identity_fragments": ["Christopher M. Rabb"], "source_excerpts": ["Christopher M. Rabb", "graduate of Yale College and the University of Pennsylvania", "teach at Temple University", "former U.S. Senate legislative aide", "Rep. Rabb"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_explicit_yale_and_penn_graduation", "source_fragment": "graduate of Yale College and the University of Pennsylvania", "factual_reference_date": "Graduation before official biography; degree titles not stated", "value": "Yale College and University of Pennsylvania graduation, sources not assumed to be specific degrees here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_academic_and_staff_work", "source_fragment": "teach at Temple University", "factual_reference_date": "Named roles from 2011 onward and earlier government staff work", "value": "Author, researcher, Temple and Drexel educator, Senate aide and public conference work."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_named_congressional_staff_service", "source_fragment": "former U.S. Senate legislative aide", "factual_reference_date": "Before state office", "value": "Named legislative aide career. White House conference work has a separately described and less specific appointment context."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_state_representative_biography", "source_fragment": "Rep. Rabb", "factual_reference_date": "Serving in State House district 200 in official biography", "value": "Prior state House service."}
+      ],
+      "extraction_review": "Read complete substantive retained biography. Caucus membership, newspaper ownership and family history are not individual racial or ethnic classifications."
+    },
+    {
+      "id": "221033-complete-retained-wgal-employer-bio", "candidate_id": "221033", "name": "Janelle Stelson", "state": "PA", "district": "10", "party": "Democratic", "contest_id": "2026:house:PA:10:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.wgal.com/article/janelle-stelson/6218406", "publication_date": "2011-11-22", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "source_date_note": "Publisher's visible updated date, not necessarily first publication.",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221033-e9320074f2a6e6f567d1.html", "retained_sha256": "e9320074f2a6e6f567d1513758f71deeb6214f85d5fc615c65c037d9d6c9a40b",
+      "identity_status": "verified", "identity_qualification": "Exact name and distinctive prior WGAL anchor career, matched to current PA10 campaign.",
+      "identity_fragments": ["Janelle Stelson"], "source_excerpts": ["Janelle Stelson", "joined WGAL-TV in 1997", "writing speeches at the Embassy of Egypt", "bachelor of arts degree in politics and government"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "employer_reported_ba_and_separate_study", "source_fragment": "bachelor of arts degree in politics and government", "factual_reference_date": "Completed before 2011 biography", "value": "University of Puget Sound BA in politics and government. Additional Vienna study does not imply another degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_employer_broadcast_roles_and_earlier_speechwriting", "source_fragment": "joined WGAL-TV in 1997", "supporting_fragments": ["writing speeches at the Embassy of Egypt"], "factual_reference_date": "WGAL from 1997 as of 2011; foreign embassy role earlier", "value": "Longtime news reporter and anchor; earlier speechwriting at a foreign mission. The dated broadcaster title is not a claim she held it in 2026."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_foreign_mission_role_exact_employee_status_unstated", "source_fragment": "writing speeches at the Embassy of Egypt", "factual_reference_date": "Earlier career reported in 2011", "value": "Named foreign diplomatic mission speechwriting; exact employer arrangement unstated and no U.S. government job established."}
+      ],
+      "extraction_review": "Complete retained substantive employer biography read. Reporting on National Guard personnel is not military service. Birthplace is not age or ancestry."
+    },
+    {
+      "id": "221029-retained-2025-scranton-debate-biography", "candidate_id": "221029", "name": "Paige Cognetti", "state": "PA", "district": "08", "party": "Democratic", "contest_id": "2026:house:PA:08:general:source_general",
+      "family": "earlier_biography", "url": "https://www.scranton.edu/academics/cas/ceeps/candidate_bios.shtml", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "source_date_note": "Matching block is labeled 2025 Democratic Mayoral Primary; exact upload day not shown.",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/221029-c916c4483eba1571931c.html", "retained_sha256": "c916c4483eba1571931c981359f1bd5fafc96923c2f8c31085c3e30db87f9562",
+      "identity_status": "verified", "identity_qualification": "Named candidate's Scranton mayor and education history bridge 2025 city contest to 2026 PA08.",
+      "identity_fragments": ["Paige Cognetti"], "source_excerpts": ["Paige Cognetti", "Mayor of Scranton in January 2020", "MBA from Harvard Business School", "Treasury Department as a Senior Advisor", "Pennsylvania Auditor General"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_published_candidate_credential_history", "source_fragment": "MBA from Harvard Business School", "factual_reference_date": "Completed before 2025 debate biography", "value": "Harvard MBA, separately explicit University of Oregon Clark Honors College graduation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_prior_civilian_policy_and_oversight_work", "source_fragment": "Treasury Department as a Senior Advisor", "supporting_fragments": ["Pennsylvania Auditor General"], "factual_reference_date": "Treasury in Obama administration, then Pennsylvania school oversight work", "value": "Federal Treasury international affairs senior advisor, state fiscal oversight advisory work, and investment management background."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_city_mayoral_service_in_earlier_biography", "source_fragment": "Mayor of Scranton in January 2020", "factual_reference_date": "Sworn January 2020", "value": "Scranton mayor from January 2020. School board seat method not established by this source."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_formal_treasury_staff_role", "source_fragment": "Treasury Department as a Senior Advisor", "factual_reference_date": "Obama administration", "value": "Named Treasury staff service, distinct from appointed federal trade advisory committee and local office."}
+      ],
+      "extraction_review": "Read entire matched 2025 candidate block and boundaries. Other candidates' schooling, police employment and relatives' service excluded."
+    },
+    {
+      "id": "221045-native-meet-justin", "candidate_id": "221045", "name": "Justin Wagner", "state": "PA", "district": "16", "party": "Democratic", "contest_id": "2026:house:PA:16:general:source_general",
+      "family": "campaign", "url": "https://www.justinwagnerforcongress.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Actual About link on native PA16 campaign, matching Pennsylvania, engineer and Army career.",
+      "identity_fragments": ["Justin"], "source_excerpts": ["Justin", "Reynolds High School in 1998", "at the age of 15", "I joined the Army", "engineer for the City of Seattle", "my church\u2019s worship group"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_undated_age_at_first_job_and_dated_graduation", "source_fragment": "at the age of 15", "supporting_fragments": ["Reynolds High School in 1998"], "factual_reference_date": "Prior employment recalled and 1998 graduation explicitly dated", "value": "Reported age 15 at first work and 1998 graduation; do not infer graduation age or birth year."},
+        {"trait": "religion", "factual_status": "partial", "precision": "own_current_church_participation_without_named_affiliation", "source_fragment": "my church\u2019s worship group", "factual_reference_date": "Undated 2026 biography", "value": "Own participation in church worship music, no named tradition or denomination."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_secondary_graduation_with_separate_institute_attendance", "source_fragment": "Reynolds High School in 1998", "factual_reference_date": "High school 1998; postsecondary after", "value": "Reynolds High graduation; ITT Technical Institute and Youngstown State classes, with no conferral specified."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_formal_automation_and_public_utility_work", "source_fragment": "engineer for the City of Seattle", "factual_reference_date": "Prior public utilities and subsequent life sciences work", "value": "Automation engineer in steel, municipal utilities, and life sciences; early grocery and steel work."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_formal_municipal_engineering_job", "source_fragment": "engineer for the City of Seattle", "factual_reference_date": "Before current private work described in 2026 biography", "value": "Municipal engineering role, distinct from projects with NASA or other clients."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_army_active_reserve_service", "source_fragment": "I joined the Army", "factual_reference_date": "Active duty including 2006 Iraq, later Army Reserves", "value": "Own Army and Army Reserve service; spouse's service not transferred."}
+      ],
+      "extraction_review": "Read all substantive About sections. Childhood geography, church participation and family relationships neither define broader identity nor supply other missing fields."
+    },
+    {
+      "id": "221035-native-complete-meet-nancy", "candidate_id": "221035", "name": "Nancy Mannion", "state": "PA", "district": "11", "party": "Democratic", "contest_id": "2026:house:PA:11:general:source_general",
+      "family": "campaign", "url": "https://www.nancymannion.com/Meet-Nancy/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Full name and PA11 on linked About; named nursing leadership matches guide.",
+      "identity_fragments": ["Nancy Mannion"], "source_excerpts": ["Nancy Mannion", "church volunteer", "Registered Nurse diploma", "Bachelor of Science in Nursing", "Master's, and Doctorate degrees", "president of the Emergency Nurses Association"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "own_campaign_nonspecific_current_church_volunteering", "source_fragment": "church volunteer", "factual_reference_date": "Adult service as described in undated campaign biography", "value": "Own church volunteering, without named affiliation or membership."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_diploma_and_degrees", "source_fragment": "Registered Nurse diploma", "supporting_fragments": ["Bachelor of Science in Nursing", "Master's, and Doctorate degrees"], "factual_reference_date": "Completed before 2026 campaign", "value": "RN diploma, BSN, master's and doctorate; institutions and latter degree titles not stated on this page."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_casework_and_health_care_leadership", "source_fragment": "president of the Emergency Nurses Association", "factual_reference_date": "Nursing, consulting and association leadership before and at campaign", "value": "Emergency nurse, healthcare executive/consultant and nonprofit/association leader, including past ENA presidency."}
+      ],
+      "extraction_review": "Read both complete About sections. USAID collaboration, nonprofit board service and volunteering do not establish governmental employment or elected office. Event site and relatives not used for affiliation."
+    },
+    {
+      "id": "221035-capital-star-general-answers", "candidate_id": "221035", "name": "Nancy Mannion", "state": "PA", "district": "11", "party": "Democratic", "contest_id": "2026:house:PA:11:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://penncapital-star.com/voter-guides/contests/2026-general-u-s-house-district-11/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact PA11 Democratic candidate with same nursing career and native website.",
+      "identity_fragments": ["Nancy Mannion"], "source_excerpts": ["Nancy Mannion", "registered nurse for over 40 years", "NMB Global Leadership", "working with foreign governments"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_clinical_duration_and_publisher_named_consultancy", "source_fragment": "registered nurse for over 40 years", "supporting_fragments": ["NMB Global Leadership"], "factual_reference_date": "2026 general-election response", "value": "Reported emergency nursing for over forty years and publisher-named consultancy founder/president. Collaboration with governments is not direct employment."}
+      ],
+      "extraction_review": "Read substantive profile and three response blocks; no claimant age from career length and no facts transferred from opponent."
+    },
+    {
+      "id": "221031-native-wallace-about", "candidate_id": "221031", "name": "Rachel Wallace", "state": "PA", "district": "09", "party": "Democratic", "contest_id": "2026:house:PA:09:general:source_general",
+      "family": "campaign", "url": "https://www.wallaceforcongress.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Linked native PA09 About, matching Pottsville and federal legislative/executive career.",
+      "identity_fragments": ["Rachel was born and raised in Pottsville"], "source_excerpts": ["Rachel was born and raised in Pottsville", "graduate of Pottsville Area High School", "Chief of Staff for the Office of Management and Budget"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_secondary_graduation", "source_fragment": "graduate of Pottsville Area High School", "factual_reference_date": "Historical completed secondary education before campaign", "value": "Pottsville Area High School graduate. Higher credentials not specified on this page."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_federal_legislative_and_executive_roles", "source_fragment": "Chief of Staff for the Office of Management and Budget", "factual_reference_date": "Before 2026 candidacy", "value": "Congressional aide and State Department, Senate and OMB roles. Named Chief of Staff."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_non_elected_white_house_job", "source_fragment": "Chief of Staff for the Office of Management and Budget", "factual_reference_date": "Before 2026 campaign", "value": "Named federal OMB chief-of-staff job. Fire company social membership is not employment or military service."}
+      ],
+      "extraction_review": "Read complete linked About. Parent's clerical and nursing careers, family occupations and hometown chronology not coded as own identity, occupation, faith or age."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "221019", "family": "official_biography", "query": "Read retained official Pennsylvania House biography and match exact source name.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.pahouse.com/Rabb/About/Biography/"]},
+    {"candidate_id": "221033", "family": "university_employer_professional", "query": "Read complete retained former WGAL employee biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wgal.com/article/janelle-stelson/6218406"]},
+    {"candidate_id": "221029", "family": "earlier_biography", "query": "Read exact retained 2025 mayoral debate candidate bio matched to PA08.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.scranton.edu/academics/cas/ceeps/candidate_bios.shtml"]},
+    {"candidate_id": "221045", "family": "campaign", "query": "Follow About menu link from native website and read entire Meet Justin bio.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.justinwagnerforcongress.com/about"]},
+    {"candidate_id": "221035", "family": "campaign", "query": "Follow Meet Nancy native link and read complete biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.nancymannion.com/Meet-Nancy/"]},
+    {"candidate_id": "221035", "family": "ballotpedia_questionnaire", "query": "Follow actual Pennsylvania Capital-Star guide from native site; read candidate profile and three answers.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://penncapital-star.com/voter-guides/contests/2026-general-u-s-house-district-11/"]},
+    {"candidate_id": "221031", "family": "campaign", "query": "Follow About from native PA09 campaign and read complete biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wallaceforcongress.com/about"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "221019", "note": "Review retained Vote411 response and campaign, explicit identity/service evidence and independent education context. Caucus membership is not explicit identity."},
+    {"candidate_id": "221033", "note": "Continue current campaign and 2024 interviews, including election-time history and exact embassy appointment if public. Named broadcasting travel with soldiers is not own military service."},
+    {"candidate_id": "221029", "note": "Use official city and Treasury records for dated terms and explicit service, identities or affiliation; not other mayoral candidates' histories."},
+    {"candidate_id": "221045", "note": "Seek verified Army and Seattle employer dates, exact degree history, independent age and explicit affiliation/identity/office statements."},
+    {"candidate_id": "221035", "note": "Native site links a York Daily Record original for further research. Find professional association and school biographies, explicit age, scoped service and affiliation."},
+    {"candidate_id": "221031", "note": "Complete selected PA09 Capital-Star original beyond the initial profile, and verify historical OMB/legislative positions with official staff releases and interviews. No age or religion inference from family or high-school graduation."}
+  ]
+}

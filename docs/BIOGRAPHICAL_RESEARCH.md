@@ -214,6 +214,30 @@ the six families, all ten traits and outstanding leads in the journals still
 need attention. Continue the separate near-complete audit and first-pass batches
 through Ohio and the rest of the untouched roster.
 
+## Ohio and Pennsylvania continuation
+
+The continuation after `56b42b5` opened the nine untouched Democratic
+nonincumbent passes in Ohio and ten in Pennsylvania. It adds 27 reviews,
+93 claims, 18 first-evidence fields and six first-qualified fields, all gains
+among known Democratic nonincumbents. First fields comprise five other
+government, four prior office, four age, four religion and one ethnicity.
+The current ledger has 773 reviews, 2,212 claims, 319 first-evidence fields
+and 180 first-qualified fields since the frozen factual baseline.
+
+The roster now has 12 completed passes, 219 active and 1,053 untouched.
+Among 449 Democrats the counts are 12, 191 and 246. Among 266 known Democratic
+nonincumbents they are 12, 186 and 68. Opening a pass is not completing it.
+
+Kirtley and Brooks have explicit dated reporter statements about prior office,
+not universal negatives for military or government employment. Farnham's
+school board appointment was not a popular election; her 2024 candidate
+statement documents membership at that date, not necessarily in 2026.
+Mazzuckelli's two actual questionnaires differ on the undergraduate field
+while agreeing on completed undergraduate and teaching degrees. Enoch's
+OEFFA response was filled in PDF form widgets: read `PdfReader.get_fields()`
+and the `/V` values, not just the blank-looking page-text answer spaces.
+None of these observations changes a frozen analytical fit or prediction.
+
 ## What counts as research
 
 Campaign-page retrieval is complete as a transport operation, not a person-level

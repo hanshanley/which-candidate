@@ -1,0 +1,91 @@
+{
+  "scope": "Open the other five untouched Ohio Democratic nonincumbent passes with linked campaign originals and a filled-form questionnaire. No candidate pass is complete.",
+  "documents": [
+    {
+      "id": "220986-native-campaign-linked-bio", "candidate_id": "220986", "name": "Don Leonard", "state": "OH", "district": "15", "party": "Democratic", "contest_id": "2026:house:OH:15:general:source_general",
+      "family": "campaign", "url": "https://donforohio.com/bio", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Meet Don link from native website; exact name, OH15 and Ohio State career.",
+      "identity_fragments": ["Don Leonard"], "source_excerpts": ["Don Leonard", "two years with the U.S. Peace Corps", "a post-doc at Tulane University", "teachers at Ohio State", "professor of city and regional planning"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "postdoctoral_role_not_a_named_degree_or_date", "source_fragment": "a post-doc at Tulane University", "factual_reference_date": "After college and before Ohio State career", "value": "Postdoctoral appointment; no granting university or exact degree title in this original."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_planning_faculty_and_postdoc", "source_fragment": "professor of city and regional planning", "supporting_fragments": ["a post-doc at Tulane University"], "factual_reference_date": "Tulane before Ohio State teaching in historical chronology", "value": "Ohio State planning professor and earlier Tulane postdoctoral work; two years of Peace Corps service separately described."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_formal_public_university_faculty_job", "source_fragment": "teachers at Ohio State", "supporting_fragments": ["professor of city and regional planning"], "factual_reference_date": "Ohio State teaching in historical period described, ten years per biography", "value": "Named public university faculty career. Peace Corps service does not establish a military role or a separate paid civil-service appointment."}
+      ],
+      "extraction_review": "Read complete linked biography. Did not transfer spouse's work or use family roles as gender evidence. Conservative upbringing describes politics, not religion."
+    },
+    {
+      "id": "220977-native-my-life-story", "candidate_id": "220977", "name": "Jerrad Christian", "state": "OH", "district": "12", "party": "Democratic", "contest_id": "2026:house:OH:12:general:source_general",
+      "family": "campaign", "url": "https://www.christianforohio.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own My Life Story on native campaign domain; OH12 and matching Navy/software career.",
+      "identity_fragments": ["Ohio\u2019s 12th Congressional district"], "source_excerpts": ["Ohio\u2019s 12th Congressional district", "attend Ohio University", "attended a tech school", "outdoor education teacher", "software engineer", "join the US Navy", "meteorologist and oceanographer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "own_attendance_at_university_and_technical_school", "source_fragment": "attend Ohio University", "supporting_fragments": ["attended a tech school"], "factual_reference_date": "After Navy separation", "value": "Own Ohio University and technical-school attendance. No completed degree or award inferred from this source."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_mixed_career", "source_fragment": "software engineer", "supporting_fragments": ["outdoor education teacher"], "factual_reference_date": "Software work as of biography; nonprofit teacher and factory custodial work earlier", "value": "Software engineer, previous nonprofit outdoor educator and factory janitor, and earlier Navy weather and flight-deck work."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_navys_flight_deck_and_weather_career", "source_fragment": "join the US Navy", "supporting_fragments": ["meteorologist and oceanographer"], "factual_reference_date": "Two years flight deck followed by three years in weather role; honorable discharge before civilian roles", "value": "Explicit own Navy service; exact service dates not specified."}
+      ],
+      "extraction_review": "Read full My Life Story through its OH12 closing. No age inferred from school-grade/service chronology. Surname is not religion; nonprofit teaching is not a government job."
+    },
+    {
+      "id": "220971-native-meet-kristina", "candidate_id": "220971", "name": "Kristina Knickerbocker", "state": "OH", "district": "10", "party": "Democratic", "contest_id": "2026:house:OH:10:general:source_general",
+      "family": "campaign", "url": "https://kristinaknickerbocker.com/meet-kristina/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Linked native campaign bio gives exact name and matching Wright-Patterson and nurse-practitioner career.",
+      "identity_fragments": ["Kristina Knickerbocker"], "source_excerpts": ["Kristina Knickerbocker", "family enjoyed church", "pursued her nursing degree", "as a major and nurse", "The Ohio State University Medical Center", "Neuro-Oncology Nurse Practitioner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "own_campaign_nonspecific_childhood_church_participation", "source_fragment": "family enjoyed church", "factual_reference_date": "Childhood as described in undated campaign biography", "value": "Named candidate's childhood participation in church, not a current denomination or independently specified current affiliation."},
+        {"trait": "education", "factual_status": "partial", "precision": "pursuit_not_completed_credential", "source_fragment": "pursued her nursing degree", "factual_reference_date": "Before joining Air Force", "value": "Nursing study stated, not exact conferral or granting institution."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_civilian_and_military_nursing_roles", "source_fragment": "Neuro-Oncology Nurse Practitioner", "factual_reference_date": "Civilian work during Air Force Reserve period", "value": "Neuro-oncology nurse practitioner and military nurse."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_civilian_public_university_medical_center_job", "source_fragment": "The Ohio State University Medical Center", "supporting_fragments": ["Neuro-Oncology Nurse Practitioner"], "factual_reference_date": "While serving in Air Force Reserve, before 2026 biography", "value": "Named public university medical-center job, distinct from military service."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_active_and_reserve_service", "source_fragment": "as a major and nurse", "factual_reference_date": "Historical Air Force service in 88th Air Base Wing and later 445th Aeromedical Staging Squadron", "value": "Air Force nursing service, major and subsequent Reserve assignment."}
+      ],
+      "extraction_review": "Read complete linked biography. Partner's job and unrelated private medical history excluded. General language of faith does not establish denomination."
+    },
+    {
+      "id": "220982-native-linked-about-maria", "candidate_id": "220982", "name": "Maria Jukic", "state": "OH", "district": "14", "party": "Democratic", "contest_id": "2026:house:OH:14:general:source_general",
+      "family": "campaign", "url": "https://www.mariajukicforcongress.com/about-maria/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Linked candidate bio identifies Ohio 14, matching name, Cleveland Clinic and Euclid council.",
+      "identity_fragments": ["Maria"], "source_excerpts": ["Maria", "At 13", "law school at 35", "immigrant Croatian family", "Master\u2019s in Theology", "24 years at the Cleveland Clinic", "City Councilwoman", "Civil Service Commission"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "self_reported_age_at_two_undated_events", "source_fragment": "law school at 35", "supporting_fragments": ["At 13"], "factual_reference_date": "Childhood job and law school start; calendar years not given", "value": "Ages 13 at paper routes and 35 at law-school return. No current age inferred."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_explicit_gendered_civic_role_and_woman_description", "source_fragment": "City Councilwoman", "factual_reference_date": "Undated 2026 biography", "value": "Own biography explicitly describes her as a woman and former councilwoman."},
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "own_croatian_ancestry_not_race_or_binary_self_classification", "source_fragment": "immigrant Croatian family", "factual_reference_date": "Historical family origin described in 2026 biography", "value": "Candidate's own Croatian family-origin description; no separate racial or analytical ethnicity label imposed."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_undergraduate_legal_and_theology_education", "source_fragment": "Master\u2019s in Theology", "factual_reference_date": "BA and Cleveland State law graduation before 2022 master's", "value": "Notre Dame American Studies BA, Cleveland State law school graduation, and 2022 John Carroll theology and religious studies master's. Academic subject not personal religion."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_healthcare_legal_and_translation_careers", "source_fragment": "24 years at the Cleveland Clinic", "factual_reference_date": "Historical careers across 24 years at Cleveland Clinic and earlier Fulbright period", "value": "Cleveland Clinic career including arts and medicine, licensed legal work, translation in Croatia and nonprofit service."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_four_year_municipal_service", "source_fragment": "City Councilwoman", "factual_reference_date": "Historical four years in Euclid before 2026", "value": "Elected Euclid city council service, distinct from 2024 federal ballot effort."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "public_commission_role_without_pay_or_employee_status", "source_fragment": "Civil Service Commission", "factual_reference_date": "Before 2026 campaign", "value": "Euclid Civil Service Commission role; basis of service and compensation unresolved."}
+      ],
+      "extraction_review": "Read complete About Maria, excluding relatives' jobs and neighbors' ethnic classifications. Civilian translation in a combat zone is not military service."
+    },
+    {
+      "id": "220967-oeffa-filled-form-questionnaire", "candidate_id": "220967", "name": "Vanessa Enoch", "state": "OH", "district": "08", "party": "Democratic", "contest_id": "2026:house:OH:08:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://action.oeffa.com/wp-content/uploads/2026/10/Vanessa-Enoch-OH-8-Questionnaire.pdf", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2026 general-election response linked by OEFFA guide; URL path is not a verified publication day.",
+      "identity_status": "verified", "identity_qualification": "Filled name and office widgets explicitly match Vanessa Enoch and House OH-8.",
+      "identity_fragments": ["Vanessa Enoch", "US House of Representatives, OH-8"], "source_excerpts": ["Vanessa Enoch", "US House of Representatives, OH-8", "My nonprofit, Vision Works, Inc.", "worked in technology for more than 25 years"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_filled_q1_q9_work_and_nonprofit", "source_fragment": "worked in technology for more than 25 years", "supporting_fragments": ["My nonprofit, Vision Works, Inc."], "factual_reference_date": "Experience as reported in 2026 answers", "value": "Own account of more than 25 years of technology work and nonprofit leadership. This is not a completed credential or a named governmental employer."}
+      ],
+      "extraction_review": "Linear PDF page text only contains prompts. Extracted all 14 nonempty AcroForm /V fields with pypdf.PdfReader.get_fields(), reviewed name, office and biographical passages from Q1 and Q9. No claim that all policy answer tails are exhausted. No personal age or military observation inferred from the form's generic prompts."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220986", "family": "campaign", "query": "Follow Meet Don Leonard link from native site and read full biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://donforohio.com/bio"]},
+    {"candidate_id": "220986", "family": "university_employer_professional", "query": "Open selected Ohio State planning biography path.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://knowlton.osu.edu/people/leonard.627"], "note": "404; not evidence of no affiliation. Continue verified directory paths or archived originals."},
+    {"candidate_id": "220977", "family": "campaign", "query": "Read complete native campaign My Life Story.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.christianforohio.com/about"]},
+    {"candidate_id": "220971", "family": "campaign", "query": "Follow native Meet Kristina link and read complete biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kristinaknickerbocker.com/meet-kristina/"]},
+    {"candidate_id": "220982", "family": "campaign", "query": "Follow native About Maria menu link and read full candidate biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.mariajukicforcongress.com/about-maria/"]},
+    {"candidate_id": "220967", "family": "ballotpedia_questionnaire", "query": "Follow OEFFA 2026 congressional index to Enoch's own original; inspect filled AcroForm fields omitted in PDF linear text.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://action.oeffa.com/wp-content/uploads/2026/10/Vanessa-Enoch-OH-8-Questionnaire.pdf"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220986", "note": "Seek independently dated career/degree sources and earlier profiles; Peace Corps service is not military. Use alternate verified university directory path, not another request to the 404."},
+    {"candidate_id": "220977", "note": "Seek older local or service biographies, Ohio University award/attendance scope, and direct scope for prior office and civilian government work."},
+    {"candidate_id": "220971", "note": "Seek nursing school and hospital biographies, formal Reserve timeline, and explicit current religious affiliation if public; no inferences from church upbringing."},
+    {"candidate_id": "220982", "note": "Read linked Ideastream questionnaire and independent university and Euclid officials' records for credential, office dates, and appointed role. Clarify age and identity without surname inference."},
+    {"candidate_id": "220967", "note": "Follow named nonprofit and dated earlier local profiles. Continue actual campaign biography and public employment/office/military records; policy answers are not service negatives."}
+  ]
+}

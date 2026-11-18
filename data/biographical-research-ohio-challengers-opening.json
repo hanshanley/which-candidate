@@ -1,0 +1,136 @@
+{
+  "scope": "Open first passes for four Ohio Democratic nonincumbents. Reuse retained source bytes and pair them with dated publisher originals and official biography. No passes declared complete.",
+  "documents": [
+    {
+      "id": "220958-retained-native-campaign", "candidate_id": "220958", "name": "Brian A. Shaver", "state": "OH", "district": "05", "party": "Democratic", "contest_id": "2026:house:OH:05:general:source_general",
+      "family": "campaign", "url": "https://brianshaverforcongress.com", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220958-5485d808f49aefa50b41.html", "retained_sha256": "5485d808f49aefa50b41e635d02abcefb56ba6b873f0b3846074e9d51017b055",
+      "identity_status": "verified", "identity_qualification": "Own OH05 campaign, exact short name and Fostoria offices match retained candidate.",
+      "identity_fragments": ["Brian Shaver"], "source_excerpts": ["Brian Shaver", "current President of the Fostoria City Council", "teaches social studies at Fostoria Junior/Senior High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_school_and_teaching_subject", "source_fragment": "teaches social studies at Fostoria Junior/Senior High School", "factual_reference_date": "2026 native biography", "value": "Fostoria public-school social studies teacher."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_public_school_staff_role", "source_fragment": "teaches social studies at Fostoria Junior/Senior High School", "factual_reference_date": "2026 native biography", "value": "Public school teaching, distinct from municipal office and historical private religious school leadership."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_named_municipal_office", "source_fragment": "current President of the Fostoria City Council", "factual_reference_date": "2026 native biography", "value": "Fostoria City Council president, separately documented as elected office by public roster."}
+      ],
+      "extraction_review": "Complete short biography read. Family farming description and relative's name do not establish own career or demographic identities."
+    },
+    {
+      "id": "220958-fostoria-official-biography", "candidate_id": "220958", "name": "Brian A. Shaver", "state": "OH", "district": "05", "party": "Democratic", "contest_id": "2026:house:OH:05:general:source_general",
+      "family": "official_biography", "url": "https://www.fostoriaohio.gov/m/directory/employee?eid=24", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Fostoria City Council presidency and at-large prior role match campaign.",
+      "identity_fragments": ["Brian Shaver"], "source_excerpts": ["Brian Shaver", "Director of Parish and School at St.", "Wendelin Catholic School and Parish", "representative at-large"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "municipal_biography_names_parish_school_directorship", "source_fragment": "Director of Parish and School at St.", "supporting_fragments": ["Wendelin Catholic School and Parish"], "factual_reference_date": "Historical role described by undated council biography", "value": "Director of Parish and School at St. Wendelin, with Diocese of Toledo experience. Do not equate undated title with current public-school job or personal faith."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_council_biography_at_large_and_president", "source_fragment": "representative at-large", "factual_reference_date": "Prior at-large role; President in roster", "value": "At-large representation and council presidency documented."}
+      ],
+      "extraction_review": "Complete official biography and title read. Parish employment is not evidence of personal religious affiliation; unnamed training is not a degree."
+    },
+    {
+      "id": "220958-tiffin-dated-original-profile", "candidate_id": "220958", "name": "Brian A. Shaver", "state": "OH", "district": "05", "party": "Democratic", "contest_id": "2026:house:OH:05:general:source_general",
+      "family": "local_profile", "url": "https://tiffinohio.net/posts/shaver-tacos-transparency-tour-ohio-5th-district/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Substantive original describes the 2026 May primary as past and June 30 session as future. Exact publication day not established in the accessed body.",
+      "identity_status": "verified", "identity_qualification": "Jen Ziegler's original names exact OH05 Democratic nominee and Fostoria roles.",
+      "identity_fragments": ["Brian Shaver"], "source_excerpts": ["Brian Shaver", "Shaver, 48", "president of Fostoria City Council", "teaches social studies at Fostoria Junior/Senior High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "cycle_anchored_numeric_age_from_bylined_body", "source_fragment": "Shaver, 48", "factual_reference_date": "2026 profile between the May primary and June 30 scheduled event; interview date unstated", "value": "Reported age 48; underlying birth date and November 3 age remain unresolved."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reporter_identified_named_teaching_employer", "source_fragment": "teaches social studies at Fostoria Junior/Senior High School", "factual_reference_date": "May–June 2026 campaign profile", "value": "Social studies teacher at Fostoria Junior/Senior High School."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reporter_named_public_school_employment", "source_fragment": "teaches social studies at Fostoria Junior/Senior High School", "factual_reference_date": "May–June 2026 campaign profile", "value": "Public school teaching is distinct from council office."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reporter_named_city_council_presidency", "source_fragment": "president of Fostoria City Council", "factual_reference_date": "May–June 2026 campaign profile", "value": "Fostoria City Council president."}
+      ],
+      "extraction_review": "Complete bylined story, including final age and employer paragraph, reviewed. Page's autogenerated overview was not used for evidence."
+    },
+    {
+      "id": "220965-retained-native-working-class-story", "candidate_id": "220965", "name": "Brian Poindexter", "state": "OH", "district": "07", "party": "Democratic", "contest_id": "2026:house:OH:07:general:source_general",
+      "family": "campaign", "url": "https://poindexterforcongress.com/brian-poindexters-working-class-story/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220965-08196c3192b4acccbaff.html", "retained_sha256": "08196c3192b4acccbaffd7335a43a320bc3a09dbfeb3342db579f9cdcce9f9e4",
+      "identity_status": "verified", "identity_qualification": "Native campaign and OH07 match, with distinctive Brook Park office and Ironworkers Local 17 history.",
+      "identity_fragments": ["Brian Poindexter"], "source_excerpts": ["Brian Poindexter", "By age 15", "Associate Degree in Applied Industrial Technology", "union Ironworker", "elected as an At-Large member", "infrastructure at NASA Glenn Research Center"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_event_age_no_calendar_year", "source_fragment": "By age 15", "factual_reference_date": "First machine-shop work discussed retrospectively", "value": "Machine-shop work by age 15; no inferred current age from this detail."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_associate_degree", "source_fragment": "Associate Degree in Applied Industrial Technology", "factual_reference_date": "Earlier apprenticeship and graduation before 2012 organizing role", "value": "Cuyahoga Community College associate degree; daughters' credentials excluded."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_trades_organizing_and_instruction", "source_fragment": "union Ironworker", "supporting_fragments": ["infrastructure at NASA Glenn Research Center"], "factual_reference_date": "Ironworker since 2007; organizing 2012–2014; later instructor", "value": "Machine-shop and factory worker, commercial driver, ironworker, organizer, and apprenticeship instructor. A trade project at a NASA facility is not evidence of agency employment."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_municipal_election", "source_fragment": "elected as an At-Large member", "factual_reference_date": "2017", "value": "Elected at large to Brook Park City Council in 2017."}
+      ],
+      "extraction_review": "Complete retained working-class story and policy contexts read. No family occupations or degrees transferred; no employer/customer affiliation inferred."
+    },
+    {
+      "id": "220960-retained-ballotready-profile", "candidate_id": "220960", "name": "Elizabeth Kirtley", "state": "OH", "district": "06", "party": "Democratic", "contest_id": "2026:house:OH:06:general:source_general",
+      "family": "local_profile", "url": "https://www.ballotready.org/people/elizabeth-kirtley", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220960-c8226a333c66671a8b32.html", "retained_sha256": "c8226a333c66671a8b32ca3840d6c326462610f5c04f9b7b04a4f705f85bec56",
+      "identity_status": "verified", "identity_qualification": "Exact name and 2026 OH06 general election, Kent State and New Philadelphia match other profiles.",
+      "identity_fragments": ["Elizabeth Kirtley"], "source_excerpts": ["Elizabeth Kirtley", "Bachelor's, Kent State University, English Literature (1996)", "High School Diploma, New Philadelphia High School (1991)", "CEO, Co-Owner", "Content Creator Writer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_lists_explicit_completed_credentials_fields_and_years", "source_fragment": "Bachelor's, Kent State University, English Literature (1996)", "supporting_fragments": ["High School Diploma, New Philadelphia High School (1991)"], "factual_reference_date": "1996 bachelor's and 1991 high-school completion", "value": "Kent State English Literature bachelor's and New Philadelphia High diploma, reported by publisher."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_named_writing_and_small_business_roles", "source_fragment": "CEO, Co-Owner", "supporting_fragments": ["Content Creator Writer"], "factual_reference_date": "Business role since 2021 as reported; date of writing career unstated", "value": "Business co-owner, content creator and writer; guide also lists brand-ambassador role."}
+      ],
+      "extraction_review": "Read complete retained profile and all policy panels. Policies about religion or military are not personal affiliation or service."
+    },
+    {
+      "id": "220960-canton-repository-october-interview", "candidate_id": "220960", "name": "Elizabeth Kirtley", "state": "OH", "district": "06", "party": "Democratic", "contest_id": "2026:house:OH:06:general:source_general",
+      "family": "local_profile", "url": "https://www.aol.com/articles/tuscarawas-dem-faces-us-rep-094820000.html", "publication_date": "2026-10-28", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full Canton Repository article in credited syndication; Robert Wang byline and displayed October 28 date.",
+      "identity_status": "verified", "identity_qualification": "Exact named OH06 Democratic challenger from New Philadelphia, with same candidate and opponent as roster.",
+      "identity_fragments": ["Elizabeth Kirtley"], "source_excerpts": ["Elizabeth Kirtley, 53", "never before been elected to public office", "only woman", "Tuscarawas Department of Job and Family Services", "freelance writer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reporter_numeric_age_at_publication_not_exact_dob", "source_fragment": "Elizabeth Kirtley, 53", "factual_reference_date": "October 28, 2026 profile", "value": "Reported age 53, not independently established election-day age."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "publisher_explicit_woman_description", "source_fragment": "only woman", "factual_reference_date": "2026 primary cohort described in October", "value": "Publisher explicitly describes Kirtley as a woman; distinct from any policy inference."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_county_employer_and_private_careers", "source_fragment": "freelance writer", "supporting_fragments": ["Tuscarawas Department of Job and Family Services"], "factual_reference_date": "County 2007–2014 as reported; later private customer service and freelance writing", "value": "Processed assistance applications, worked in private customer service, and writes freelance."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reporter_explicit_named_county_employee", "source_fragment": "Tuscarawas Department of Job and Family Services", "factual_reference_date": "2007–2014 per October 2026 profile", "value": "Named county agency employee processing applications, distinct from union activity."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reporter_explicit_never_elected_statement_dated", "source_fragment": "never before been elected to public office", "factual_reference_date": "October 28, 2026 profile", "value": "Reporter explicitly states she had not been elected to public office as of the profile. Not a federal-only or generic first-candidacy description. Does not exclude appointment or civilian employment and is not promoted to analytical negatives."}
+      ],
+      "extraction_review": "Read complete substantive article in publisher-credited syndication including final candidate quote. Introductory contrast clearly matches Kirtley. Rulli's prior offices and age excluded."
+    },
+    {
+      "id": "220950-retained-wvxu-october-own-answers", "candidate_id": "220950", "name": "Jen Mazzuckelli", "state": "OH", "district": "02", "party": "Democratic", "contest_id": "2026:house:OH:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.wvxu.org/politics/2026-10-07/ohio-2nd-district-candidates-jen-mazzuckelli-david-taylor", "publication_date": "2026-10-07", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220950-41a0205bb3def4ac2f85.html", "retained_sha256": "41a0205bb3def4ac2f85bf9152b4eb90aad91e4fe723318f9de26826c7f157cd",
+      "identity_status": "verified", "identity_qualification": "Candidate-provided Ohio District 2 general biography, matching name, opposing Taylor and own campaign URL.",
+      "identity_fragments": ["Jen Mazzuckelli"], "source_excerpts": ["Jen Mazzuckelli", "Bachelor of Arts in English and Political Science", "Master of Arts in Teaching", "Human Resources professional", "High School English teacher"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_completed_ba_mat_with_field_detail_discrepancy", "source_fragment": "Bachelor of Arts in English and Political Science", "supporting_fragments": ["Master of Arts in Teaching"], "factual_reference_date": "Completed before October 2026", "value": "BA Illinois College and MAT Miami University. This questionnaire describes the BA as English and Political Science.", "unresolved_details": "April WVXU candidate response describes the BA as English / Creative Writing. Preserve both descriptions without adjudicating credentials' field from headlines."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_two_career_families", "source_fragment": "Human Resources professional", "supporting_fragments": ["High School English teacher"], "factual_reference_date": "Before October 2026", "value": "Human resources and high-school English teaching. This source gives no named employer, so teaching is not proof of government employment."}
+      ],
+      "extraction_review": "Complete selected candidate biography and all general answers read. Opponent's degrees, legal work and offices excluded. No religion from discussion of religious communities."
+    },
+    {
+      "id": "220950-wvxu-april-own-answers", "candidate_id": "220950", "name": "Jen Mazzuckelli", "state": "OH", "district": "02", "party": "Democratic", "contest_id": "2026:house:OH:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.wvxu.org/politics/2026-04-03/democratic-candidates-ohio-2nd-district-jennifer-mazzuckelli-todd-wilson", "publication_date": "2026-04-03", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220950-e10dfec673cb74bd4856.html", "retained_sha256": "e10dfec673cb74bd4856528660907a9426566480869b2690d306cc2d5dc040a4",
+      "identity_status": "verified", "identity_qualification": "Own full name/alias and OH02 candidacy, matching native and October submissions.",
+      "identity_fragments": ["Jennifer Mazzuckelli"], "source_excerpts": ["Jennifer Mazzuckelli", "English / Creative Writing", "Master of Arts in Teaching/Secondary Education", "Pentagon's Office of Community Relations", "ran for county commissioner", "high school English teacher"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_named_completed_ba_and_mat", "source_fragment": "English / Creative Writing", "supporting_fragments": ["Master of Arts in Teaching/Secondary Education"], "factual_reference_date": "Completed prior to April 2026", "value": "BA Illinois College and MAT Miami University; earlier source's field describes English / Creative Writing, distinct from October wording."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_prior_occupations", "source_fragment": "high school English teacher", "factual_reference_date": "Pre-campaign work recalled April 2026", "value": "English teacher, HR assistant, and earlier food service, news delivery, and shelter/child care roles."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_federal_internship_not_confirmed_employment", "source_fragment": "Pentagon's Office of Community Relations", "factual_reference_date": "Internship during college, year unspecified", "value": "One semester at named office; internship pay/appointment and public versus private school teaching employer are not established."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "own_documented_unsuccessful_candidacy", "source_fragment": "ran for county commissioner", "factual_reference_date": "2024 Clermont County race", "value": "Own account of a losing county-commissioner candidacy; not an explicit never-elected statement over entire history."}
+      ],
+      "extraction_review": "Read selected complete biography and relevant personal/professional history passages. No assertion of full policy-answer review. Private history outside requested traits excluded; a Pentagon internship does not establish military service."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220958", "family": "campaign", "query": "Read complete retained OH05 campaign biography.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://brianshaverforcongress.com"]},
+    {"candidate_id": "220958", "family": "local_profile", "query": "\"Brian Shaver\" Fostoria congress municipal council election social studies age 2026", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://tiffinohio.net/posts/shaver-tacos-transparency-tour-ohio-5th-district/", "https://www.fostoriaohio.gov/m/directory/employee?eid=24"]},
+    {"candidate_id": "220958", "family": "official_biography", "query": "Read Fostoria official staff biography and separate employer history from current office.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.fostoriaohio.gov/m/directory/employee?eid=24"]},
+    {"candidate_id": "220965", "family": "campaign", "query": "Read complete retained OH07 working-class story and scan for all ten traits.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://poindexterforcongress.com/brian-poindexters-working-class-story/"]},
+    {"candidate_id": "220965", "family": "local_profile", "query": "\"Brian Poindexter\" \"Catholic\" Ironworker Brooklyn Park interview campaign Congress Ohio 7", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.washingtonpost.com/politics/2026/10/14/people-my-own-party-dont-understand-what-average-worker-is-going-through/"], "note": "Thematic recommendation or unrelated Indiana judge not accepted; selected actual interview remains to read."},
+    {"candidate_id": "220960", "family": "local_profile", "query": "\"elizabeth kirtley\" \"worked\" job family services 2026 Rulli April", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/tuscarawas-dem-faces-us-rep-094820000.html", "https://fliphtml5.com/zjng/TT_2026-05-16/"]},
+    {"candidate_id": "220960", "family": "local_profile", "query": "Read the credited Canton Repository article in its complete syndication.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/tuscarawas-dem-faces-us-rep-094820000.html"]},
+    {"candidate_id": "220950", "family": "ballotpedia_questionnaire", "query": "Read retained October Ohio 2nd District questionnaire and full named answers.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wvxu.org/politics/2026-10-07/ohio-2nd-district-candidates-jen-mazzuckelli-david-taylor"]},
+    {"candidate_id": "220950", "family": "ballotpedia_questionnaire", "query": "Read original April WVXU questionnaire and reconcile degree title separately from field wording.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wvxu.org/politics/2026-04-03/democratic-candidates-ohio-2nd-district-jennifer-mazzuckelli-todd-wilson"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220958", "note": "Read Seneca election result and full selected interview audio or transcript if available; check named university and explicit identity/service evidence. Catholic school role alone is not affiliation."},
+    {"candidate_id": "220965", "note": "Selected national full interview, official municipal record, independent university/employer and explicit identity/service sources remain actionable."},
+    {"candidate_id": "220960", "note": "Read selected primary-night Bargain Hunter profile and examine actual published candidate questionnaire scope; age and employment duration need corroboration. Do not transfer service or faith from unrelated people with this name."},
+    {"candidate_id": "220950", "note": "Verify candidate's 2024 result with authorized county returns; selected county minutes and independent Illinois College/Miami University/teacher employer records remain actionable. No office, pay, military or faith inference."}
+  ]
+}

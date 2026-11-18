@@ -172,32 +172,32 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220855,Micah Lasher,NY,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,[]
 220853,Michael DeCillis,NY,11,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""https://decillisforcongress.com""]"
 220833,Patrick Halpin,NY,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography"", ""university_employer_professional""]",2,"[""http://www.halpinforcongress.com/""]"
-220958,Brian A. Shaver,OH,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://brianshaverforcongress.com""]"
-220965,Brian Poindexter,OH,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://poindexterforcongress.com""]"
-220986,Don Leonard,OH,15,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.donforohio.com""]"
-220960,Elizabeth Kirtley,OH,06,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220950,Jen Mazzuckelli,OH,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://jen4oh2.com""]"
-220977,Jerrad Christian,OH,12,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.christianforohio.com/""]"
+220958,Brian A. Shaver,OH,05,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""official_biography""]",3,"[""https://brianshaverforcongress.com""]"
+220965,Brian Poindexter,OH,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""http://poindexterforcongress.com""]"
+220986,Don Leonard,OH,15,Democratic,nonincumbent,in_progress,"[""campaign"", ""university_employer_professional""]",1,"[""https://www.donforohio.com""]"
+220960,Elizabeth Kirtley,OH,06,Democratic,nonincumbent,in_progress,"[""local_profile""]",2,[]
+220950,Jen Mazzuckelli,OH,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",2,"[""https://jen4oh2.com""]"
+220977,Jerrad Christian,OH,12,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://www.christianforohio.com/""]"
 220955,Joshua D. Kolasinski,OH,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",5,[]
-220971,Kristina Knickerbocker,OH,10,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kristinaknickerbocker.com""]"
-220982,Maria Jukic,OH,14,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.mariajukicforcongress.com""]"
-220967,Vanessa Enoch,OH,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.enochforcongress.com""]"
+220971,Kristina Knickerbocker,OH,10,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://kristinaknickerbocker.com""]"
+220982,Maria Jukic,OH,14,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://www.mariajukicforcongress.com""]"
+220967,Vanessa Enoch,OH,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",1,"[""https://www.enochforcongress.com""]"
 221335,Brandon Wade,OK,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",4,"[""https://wade4okcd2.wixsite.com""]"
 221343,Jena Nelson,OK,05,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",11,"[""https://jenanelson.com""]"
 221333,John Croisant,OK,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",10,"[""https://www.johncroisant.com""]"
 221340,Mitchell Jacob,OK,04,Democratic,nonincumbent,completed,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,"[""https://mitchelljacob.com""]"
 221338,Suzie Byrd,OK,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",6,[]
 221002,Chris Beck,OR,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://chrisbeckforcongress.com""]"
-221041,Alan Bradstock,PA,14,Democratic,nonincumbent,not_yet_researched,[],0,[]
-221039,Beth Farnham,PA,13,Democratic,nonincumbent,not_yet_researched,[],0,[]
-221027,Bob Brooks,PA,07,Democratic,nonincumbent,not_yet_researched,[],0,[]
-221015,Bob Harvie,PA,01,Democratic,nonincumbent,not_yet_researched,[],0,[]
-221019,Chris Rabb,PA,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.chrisrabb.com""]"
-221033,Janelle Stelson,PA,10,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://janellestelson.com""]"
-221045,Justin Wagner,PA,16,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://justinwagnerforcongress.com""]"
-221035,Nancy Mannion,PA,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.nancymannion.com""]"
-221029,Paige Cognetti,PA,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://paigeforpa.com""]"
-221031,Rachel Wallace,PA,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.wallaceforcongress.com""]"
+221041,Alan Bradstock,PA,14,Democratic,nonincumbent,in_progress,"[""campaign""]",1,[]
+221039,Beth Farnham,PA,13,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography""]",3,[]
+221027,Bob Brooks,PA,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",2,[]
+221015,Bob Harvie,PA,01,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography""]",1,[]
+221019,Chris Rabb,PA,03,Democratic,nonincumbent,in_progress,"[""official_biography""]",1,"[""https://www.chrisrabb.com""]"
+221033,Janelle Stelson,PA,10,Democratic,nonincumbent,in_progress,"[""university_employer_professional""]",1,"[""https://janellestelson.com""]"
+221045,Justin Wagner,PA,16,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://justinwagnerforcongress.com""]"
+221035,Nancy Mannion,PA,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,"[""https://www.nancymannion.com""]"
+221029,Paige Cognetti,PA,08,Democratic,nonincumbent,in_progress,"[""earlier_biography""]",1,"[""https://paigeforpa.com""]"
+221031,Rachel Wallace,PA,09,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://www.wallaceforcongress.com""]"
 221043,Ray Bilger,PA,15,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography""]",6,[]
 221081,Courtney McClain,SC,04,Democratic,nonincumbent,not_yet_researched,[],0,[]
 221079,Eunice Lehmacher,SC,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.euniceforsc.com""]"
