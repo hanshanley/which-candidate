@@ -151,27 +151,27 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220931,Paul Barringer,NC,13,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.paulbarringer.com""]"
 220904,Raymond Smith Jr.,NC,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.raymondesmithjr.com""]"
 220921,Richard Ojeda,NC,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.ojedafornc.com""]"
-220940,Trygve Hammer,ND,AL,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://hammerfornd.com""]"
-220698,Becky Stille,NE,03,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220940,Trygve Hammer,ND,AL,Democratic,nonincumbent,in_progress,"[""earlier_biography""]",2,"[""https://hammerfornd.com""]"
+220698,Becky Stille,NE,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",4,[]
 220691,Chris  Backemeyer,NE,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,"[""http://backnebraska.com""]"
-220695,Denise  Powell,NE,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://deniseforcongress.org""]"
-220774,Stefany Shaheen,NH,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://stefanyshaheen.com/""]"
-220825,Adam Hamawy,NJ,12,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220804,Rachel Peace,NJ,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.peace4shore.com/""]"
-220811,Rebecca Bennett,NJ,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://rebeccabennettforcongress.com""]"
-220797,Zack Mullock,NJ,02,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220695,Denise  Powell,NE,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""university_employer_professional""]",3,"[""https://deniseforcongress.org""]"
+220774,Stefany Shaheen,NH,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""earlier_biography"", ""local_profile"", ""official_biography""]",8,"[""https://stefanyshaheen.com/""]"
+220825,Adam Hamawy,NJ,12,Democratic,nonincumbent,in_progress,"[""local_profile""]",3,[]
+220804,Rachel Peace,NJ,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",2,"[""https://www.peace4shore.com/""]"
+220811,Rebecca Bennett,NJ,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""university_employer_professional""]",3,"[""https://rebeccabennettforcongress.com""]"
+220797,Zack Mullock,NJ,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""official_biography""]",3,[]
 220715,Teresa Benitez-Thompson,NV,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://electteresa.com/""]"
-220882,Aaron Gies,NY,23,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.aaronforny23.com""]"
-220884,Alissa Ellman,NY,24,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.ellmanforcongress.com/""]"
-220878,Blake Gendebien,NY,21,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://blakeforny.com""]"
-220851,Brad Lander,NY,10,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://landerfornyc.com""]"
-220870,Cait Conley,NY,17,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.caitconley.com""]"
+220882,Aaron Gies,NY,23,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://www.aaronforny23.com""]"
+220884,Alissa Ellman,NY,24,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""local_profile"", ""official_biography""]",3,"[""https://www.ellmanforcongress.com/""]"
+220878,Blake Gendebien,NY,21,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",2,"[""https://blakeforny.com""]"
+220851,Brad Lander,NY,10,Democratic,nonincumbent,in_progress,"[""local_profile"", ""official_biography""]",3,"[""https://landerfornyc.com""]"
+220870,Cait Conley,NY,17,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",5,"[""https://www.caitconley.com""]"
 220831,Chris Gallant,NY,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile""]",3,"[""https://gallantny.com""]"
-220844,Claire Valdez,NY,07,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220859,Darializa Avila Chevalier,NY,13,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://darializaforcongress.com""]"
-220855,Micah Lasher,NY,12,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220853,Michael DeCillis,NY,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://decillisforcongress.com""]"
-220833,Patrick Halpin,NY,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://www.halpinforcongress.com/""]"
+220844,Claire Valdez,NY,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",4,[]
+220859,Darializa Avila Chevalier,NY,13,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",7,"[""https://darializaforcongress.com""]"
+220855,Micah Lasher,NY,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",2,[]
+220853,Michael DeCillis,NY,11,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile""]",1,"[""https://decillisforcongress.com""]"
+220833,Patrick Halpin,NY,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography"", ""university_employer_professional""]",2,"[""http://www.halpinforcongress.com/""]"
 220958,Brian A. Shaver,OH,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://brianshaverforcongress.com""]"
 220965,Brian Poindexter,OH,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://poindexterforcongress.com""]"
 220986,Don Leonard,OH,15,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.donforohio.com""]"
@@ -374,7 +374,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220899,Deborah Ross,NC,02,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.deborahross.com""]"
 220896,Don Davis,NC,01,Democratic,incumbent,not_yet_researched,[],0,[]
 220907,Valerie Foushee,NC,04,Democratic,incumbent,not_yet_researched,[],0,"[""http://www.valeriefoushee.com/""]"
-220776,Maggie Goodlander,NH,02,Democratic,incumbent,not_yet_researched,[],0,[]
+220776,Maggie Goodlander,NH,02,Democratic,incumbent,in_progress,"[""local_profile""]",1,[]
 220822,Analilia Mejia,NJ,11,Democratic,incumbent,not_yet_researched,[],0,[]
 220794,Donald Norcross,NJ,01,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.donaldnorcrossforcongress.com""]"
 220808,Frank Pallone,NJ,06,Democratic,incumbent,not_yet_researched,[],0,"[""https://www.pallonefornewjersey.com""]"
@@ -474,7 +474,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220514,Terri DeBoer,MI,03,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.terrideboerforcongress.com""]"
 220926,Jennifer Balkcom,NC,11,Republican,nonincumbent,not_yet_researched,[],0,[]
 220897,Laurie Buckhout,NC,01,Republican,nonincumbent,not_yet_researched,[],0,"[""http://www.lauriebuckhoutforcongress.com/""]"
-220775,Lily Tang Williams,NH,02,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.lilytangwilliams.com/""]"
+220775,Lily Tang Williams,NH,02,Republican,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""local_profile""]",2,"[""https://www.lilytangwilliams.com/""]"
 220809,Hillary Herzig,NJ,06,Republican,nonincumbent,not_yet_researched,[],0,[]
 220818,Rosie Pino,NJ,09,Republican,nonincumbent,not_yet_researched,[],0,[]
 220711,Carrie Buck,NV,01,Republican,nonincumbent,not_yet_researched,[],0,"[""https://www.votecarriebuck.com""]"
@@ -802,7 +802,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220700,Macey  Budke,NE,03,Nebraska Working People,unresolved,not_yet_researched,[],0,[]
 220701,Mark  Cohen,NE,03,Independent,unresolved,not_yet_researched,[],0,[]
 220692,Nik  Sandman,NE,01,Libertarian,unresolved,not_yet_researched,[],0,[]
-220773,Anthony DiLorenzo,NH,01,Republican,unresolved,not_yet_researched,[],0,"[""https://www.dilorenzoforcongress.com""]"
+220773,Anthony DiLorenzo,NH,01,Republican,unresolved,in_progress,"[""ballotpedia_questionnaire"", ""local_profile""]",2,"[""https://www.dilorenzoforcongress.com""]"
 220777,Robbie Mahrou,NH,02,Independent,unresolved,not_yet_researched,[],0,[]
 69604274,Aaron Glenn,NJ,03,Write-In,unresolved,not_yet_researched,[],0,[]
 44712834,Aaron Mitchell,NJ,03,Write-In,unresolved,not_yet_researched,[],0,[]
@@ -1211,7 +1211,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220810,Thomas Kean Jr.,NJ,07,Republican,incumbent,not_yet_researched,[],0,"[""https://www.tomkean.com""]"
 220834,Andrew Garbarino,NY,02,Republican,incumbent,not_yet_researched,[],0,"[""https://www.garbarinoforny.com""]"
 220885,Claudia Tenney,NY,24,Republican,incumbent,not_yet_researched,[],0,"[""https://www.claudiaforcongress.com""]"
-220871,Mike Lawler,NY,17,Republican,incumbent,not_yet_researched,[],0,[]
+220871,Mike Lawler,NY,17,Republican,incumbent,in_progress,"[""local_profile""]",1,[]
 220832,Nick LaLota,NY,01,Republican,incumbent,not_yet_researched,[],0,"[""https://nicklalota.com""]"
 220883,Nick Langworthy,NY,23,Republican,incumbent,not_yet_researched,[],0,"[""https://www.nicklangworthy.com""]"
 220854,Nicole Malliotakis,NY,11,Republican,incumbent,not_yet_researched,[],0,"[""https://nicolemalliotakis.com""]"

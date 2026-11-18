@@ -1,0 +1,141 @@
+{
+  "scope": "Open first passes for three previously untouched Democratic nonincumbents. Use originals and matched retained biographies; no new model values.",
+  "documents": [
+    {
+      "id": "220844-own-congressional-campaign-biography", "candidate_id": "220844", "name": "Claire Valdez", "state": "NY", "district": "07", "party": "Democratic", "contest_id": "2026:house:NY:07:general:source_general",
+      "family": "campaign", "url": "https://clairevaldezforcongress.com/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Own NY07 biography with matched Assembly and Columbia union career.",
+      "identity_fragments": ["Claire Valdez"], "source_excerpts": ["Claire Valdez", "dual citizen of the Ysleta del Sur Pueblo Nation", "union organizer, artist", "through high school, college and after", "New York State Assembly"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "own_school_and_college_chronology", "source_fragment": "through high school, college and after", "factual_reference_date": "Historical education before 2026", "value": "Own school and college chronology; no credential named by campaign."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_union_arts_and_service_work", "source_fragment": "union organizer, artist", "factual_reference_date": "Historical and current roles in undated campaign biography", "value": "Union organizer and artist; customer-service work and Columbia University support staff before Assembly service."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_state_assembly_service", "source_fragment": "New York State Assembly", "factual_reference_date": "Serving before November 2026 cutoff", "value": "State Assembly; union bargaining-committee vote is not public office."}
+      ],
+      "extraction_review": "Read the complete About Claire block and visible surrounding context. Own tribal citizenship explicitly documented as political citizenship, not assigned to a racial category. Endorsers' religions and military backgrounds, and predecessor's ethnicity, are not hers."
+    },
+    {
+      "id": "220844-complete-elpais-august-interview", "candidate_id": "220844", "name": "Claire Valdez", "state": "NY", "district": "07", "party": "Democratic", "contest_id": "2026:house:NY:07:general:source_general",
+      "family": "local_profile", "url": "https://english.elpais.com/usa/2026-08-31/the-new-era-of-latino-socialists-in-new-york-if-the-democratic-party-wants-to-lead-it-must-create-a-solution-to-the-immigration-problem.html", "publication_date": "2026-08-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Carla Gloria Colome explicitly identifies the NY07 congressional nominee in a group interview.",
+      "identity_fragments": ["Claire Valdez"], "source_excerpts": ["Claire Valdez", "both were Latina, the former of Mexican roots", "I\u2019ve had to work since I was 14", "fast-food restaurants and supermarkets", "visual artist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "reporter_explicit_latina_classification_and_separate_ancestry", "source_fragment": "both were Latina, the former of Mexican roots", "factual_reference_date": "August 2026 profile", "value": "Reporter explicitly classifies Valdez as Latina and reports Mexican roots; not a direct self-identification, racial assignment or inference from surname/tribal citizenship."},
+        {"trait": "age", "factual_status": "partial", "precision": "event_anchored_own_age_and_reported_age_band", "source_fragment": "I\u2019ve had to work since I was 14", "factual_reference_date": "First work recalled August 2026; article places group in thirties", "value": "Age at first work and broad age-band context; no exact birth or election age."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_early_work_and_reported_arts_career", "source_fragment": "fast-food restaurants and supermarkets", "supporting_fragments": ["visual artist"], "factual_reference_date": "Earlier employment recounted August 2026", "value": "Own early retail and fast-food employment; reporter separately describes pursuit of a visual-art career."}
+      ],
+      "extraction_review": "Read both parts through article close. Matched each speaker and did not transfer another candidate's degree, religion or family history. Political volunteer work is not government employment."
+    },
+    {
+      "id": "220844-citizens-union-original-2024-profile", "candidate_id": "220844", "name": "Claire Valdez", "state": "NY", "district": "07", "party": "Democratic", "contest_id": "2026:house:NY:07:general:source_general",
+      "family": "earlier_biography", "url": "https://citizensunion.org/voters-guide/2024-primary-election/assembly-district-37-democratic-party-primary-2/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2024 Assembly primary guide; exact publication day not established.",
+      "identity_status": "verified", "identity_qualification": "Exact name, Assembly 37 and Columbia union leadership match current campaign.",
+      "identity_fragments": ["Claire Valdez"], "source_excerpts": ["Claire Valdez", "Age: 34", "Bachelor\u2019s Degree", "Administrative Assistant, Visual Arts Program Columbia University", "UAW Local 2110"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "age_in_dated_guide_no_exact_birthday", "source_fragment": "Age: 34", "factual_reference_date": "2024 Assembly primary guide", "value": "Age 34 in 2024 guide; does not determine exact birth date or election-day age."},
+        {"trait": "education", "factual_status": "qualified", "precision": "guide_explicit_bachelors_without_granting_school", "source_fragment": "Bachelor\u2019s Degree", "factual_reference_date": "Reported by 2024 primary", "value": "Bachelor's degree reported by guide; field, institution and conferral date unspecified. This qualifies retained evidence, not a new field."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "guide_dated_editorial_employment_and_union_roles", "source_fragment": "Administrative Assistant, Visual Arts Program Columbia University", "supporting_fragments": ["UAW Local 2110"], "factual_reference_date": "2024 primary guide", "value": "Columbia visual-arts administrative assistant and UAW unit chair; no government job established."}
+      ],
+      "extraction_review": "Read both candidate blocks, then selected only Valdez's named fields and narrative. The linked candidate submission was not available; this is the guide editor's original, not a reviewed first-person questionnaire."
+    },
+    {
+      "id": "220844-assembly-dist37-official-biography", "candidate_id": "220844", "name": "Claire Valdez", "state": "NY", "district": "07", "party": "Democratic", "contest_id": "2026:house:NY:07:general:source_general",
+      "family": "official_biography", "url": "https://nyassembly.gov/mem/Claire-Valdez/bio", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Assembly 37 and UAW/Columbia match own NY07 campaign.",
+      "identity_fragments": ["Claire Valdez"], "source_excerpts": ["Claire Valdez", "37th Assembly District", "She was elected in 2024", "UAW Local 2110 at Columbia University"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_explicit_assembly_election_year", "source_fragment": "She was elected in 2024", "supporting_fragments": ["37th Assembly District"], "factual_reference_date": "2024 election", "value": "Elected to New York Assembly District 37."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_columbia_union_work", "source_fragment": "UAW Local 2110 at Columbia University", "factual_reference_date": "Union leadership before Assembly; unit chair elected 2022", "value": "Columbia employee and union organizer; union election is not public election."}
+      ],
+      "extraction_review": "Complete official biography reviewed. No additional public job, degree, military answer or faith classification."
+    },
+    {
+      "id": "220855-patch-own-ny12-candidate-answers", "candidate_id": "220855", "name": "Micah Lasher", "state": "NY", "district": "12", "party": "Democratic", "contest_id": "2026:house:NY:12:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://patch.com/new-york/upper-west-side-nyc/amp/34283996/election-q-a-meet-ny-12-candidate-micah-lasher", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Answers published for June 23, 2026 primary; accessed version did not give exact publication date.",
+      "identity_status": "verified", "identity_qualification": "Own answers from named NY12 Democratic primary candidate; Assembly and former policy director corroborated by official biography.",
+      "identity_fragments": ["Micah Lasher"], "source_excerpts": ["Micah Lasher", "We belong to the same synagogue, Rodeph Sholom", "graduated in 2003 with a degree in sociology", "Policy Director for Governor Hochul", "State Assemblyman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "own_explicit_current_synagogue_membership", "source_fragment": "We belong to the same synagogue, Rodeph Sholom", "factual_reference_date": "2026 primary questionnaire", "value": "Explicit own membership in Rodeph Sholom; not an imputed ethnicity, denomination or frequency of worship."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_graduation_field_and_year", "source_fragment": "graduated in 2003 with a degree in sociology", "factual_reference_date": "NYU graduation in 2003", "value": "Degree in sociology from NYU, completed 2003. 2024 Citizens Union guide separately specifies BA."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_public_policy_career", "source_fragment": "Policy Director for Governor Hochul", "factual_reference_date": "Before 2026 primary", "value": "Governor's policy director, NY attorney general chief of staff, city legislative-affairs director and congressional aide."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_nonelected_government_positions", "source_fragment": "Policy Director for Governor Hochul", "factual_reference_date": "Before Assembly service in November 2026 cohort", "value": "Named executive and legislative staff jobs, distinct from elected Assembly service and nonprofit trusteeships."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_state_assembly_service", "source_fragment": "State Assemblyman", "factual_reference_date": "Serving in 2026", "value": "State Assembly; title is not used as a separate gender self-description."}
+      ],
+      "extraction_review": "All candidate answers reviewed. Patch labels answers not independently fact-checked. No numerical age, race/ethnicity, military or independently scoped no-service answer."
+    },
+    {
+      "id": "220855-complete-retained-congress-about", "candidate_id": "220855", "name": "Micah Lasher", "state": "NY", "district": "12", "party": "Democratic", "contest_id": "2026:house:NY:12:general:source_general",
+      "family": "campaign", "url": "https://micahlasher.com/meet-micah-lasher/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220855-344293d29c665c217432.html", "retained_sha256": "344293d29c665c2174323faed53c86c91dfab251dda32503567bea580a21570a",
+      "identity_status": "verified", "identity_qualification": "Exact name and NY12 on own campaign; matching Assembly and state executive career.",
+      "identity_fragments": ["Micah Lasher"], "source_excerpts": ["Micah Lasher", "members of Congregation Rodeph Sholom", "member of the New York State Assembly", "Policy Director for Governor Hochul", "trustee and officer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "own_campaign_explicit_congregation_membership", "source_fragment": "members of Congregation Rodeph Sholom", "factual_reference_date": "Undated 2026 campaign biography", "value": "Named synagogue membership, corroborating explicit questionnaire response."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_public_and_nonprofit_career", "source_fragment": "Policy Director for Governor Hochul", "supporting_fragments": ["trustee and officer"], "factual_reference_date": "Roles before undated biography", "value": "Multiple public jobs and separately named nonprofit boards."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_state_assembly_service", "source_fragment": "member of the New York State Assembly", "factual_reference_date": "Serving in 2026", "value": "New York Assembly."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_named_executive_staff_employment", "source_fragment": "Policy Director for Governor Hochul", "factual_reference_date": "Before undated 2026 campaign biography", "value": "Named nonelected state, city and congressional jobs distinct from nonprofit boards."}
+      ],
+      "extraction_review": "Read complete retained About. No military negative or additional identity fields inferred."
+    },
+    {
+      "id": "220833-complete-retained-alumni-hall-of-fame", "candidate_id": "220833", "name": "Patrick Halpin", "state": "NY", "district": "02", "party": "Democratic", "contest_id": "2026:house:NY:02:general:source_general",
+      "family": "university_employer_professional", "url": "https://westbabylonalumni.org/halloffame/2014-hall-of-fame-patrick-halpin/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "source_date_note": "2014 Hall of Fame bio; actual web publication day unverified.",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220833-da831299933e12830716.html", "retained_sha256": "da831299933e128307167160557081ad42da6002fb26eda7c101e70c964f52d1",
+      "identity_status": "verified", "identity_qualification": "Patrick G. Halpin matches native campaign's West Babylon student leadership, Suffolk legislature, Assembly, county executive and water-authority history.",
+      "identity_fragments": ["Patrick G. Halpin"], "source_excerpts": ["Patrick G. Halpin", "B.A. degree in political science in 1975", "In 1979, at 26 years of age", "congressional aide for Congressman Downey", "Director for Mercury"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "age_at_named_historical_election_without_exact_date", "source_fragment": "In 1979, at 26 years of age", "factual_reference_date": "1979 Suffolk legislature election", "value": "Reported age 26 at 1979 county election; same source gives age 34 at 1987 county-executive election. No exact birthday or election-day age inferred."},
+        {"trait": "education", "factual_status": "qualified", "precision": "alumni_biography_explicit_completed_credential", "source_fragment": "B.A. degree in political science in 1975", "factual_reference_date": "Old Dominion graduation 1975; West Babylon High School 1971", "value": "Political science BA from Old Dominion; high school graduation separately named."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "alumni_biography_named_consulting_media_and_public_service", "source_fragment": "Director for Mercury", "factual_reference_date": "Historical career through awards biography", "value": "Managing director at strategic consulting firm Mercury, external affairs at an education organization, television host and congressional aide; corporate title not necessarily current."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "alumni_biography_dated_public_election_history", "source_fragment": "In 1979, at 26 years of age", "factual_reference_date": "County legislature 1979; Assembly 1982; county executive 1987", "value": "Three named elections, distinct from school, presidential elector and appointed water-authority roles."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_congressional_staff_work_separate_from_elections", "source_fragment": "congressional aide for Congressman Downey", "factual_reference_date": "After 1976 campaign role and before 1979 first public election in biography", "value": "Congressional aide in Washington; distinct from Downey's campaign and Halpin's boards. Source does not give payroll dates."}
+      ],
+      "extraction_review": "Complete retained alumni biography reviewed; related alumni and family facts excluded. Existing board compensation and appointment dates remain separate questions."
+    },
+    {
+      "id": "220833-own-campaign-about", "candidate_id": "220833", "name": "Patrick Halpin", "state": "NY", "district": "02", "party": "Democratic", "contest_id": "2026:house:NY:02:general:source_general",
+      "family": "campaign", "url": "https://www.halpinforcongress.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "About linked from native campaign domain; exact alias and Suffolk executive/authority history match retained NY02 candidate.",
+      "identity_fragments": ["Pat Halpin"], "source_excerpts": ["Pat Halpin", "public office at just 26", "Meet the Leaders", "Chair of the Suffolk County Water Authority", "Planning Board", "West Babylon High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_age_at_first_public_election", "source_fragment": "public office at just 26", "factual_reference_date": "First Suffolk legislature election; campaign does not state date", "value": "Own age 26 at first county election. No estimation from presumed age in school."},
+        {"trait": "education", "factual_status": "partial", "precision": "school_attendance_implicit_in_named_student_office", "source_fragment": "West Babylon High School", "factual_reference_date": "West Babylon high-school years", "value": "Named high school and own student-body office; no credential established by this campaign biography."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_tv_host_and_public_leadership_work", "source_fragment": "Meet the Leaders", "factual_reference_date": "Historical pre-election roles", "value": "Public affairs television hosting and public administration; childhood jobs not current occupations."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "own_explicit_county_and_state_public_elections", "source_fragment": "public office at just 26", "factual_reference_date": "Historical offices before 2026 candidacy", "value": "Suffolk legislator, state Assemblymember and Suffolk county executive; school presidency is not public office."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "own_named_authority_and_board_chairs_pay_unverified", "source_fragment": "Chair of the Suffolk County Water Authority", "supporting_fragments": ["Planning Board"], "factual_reference_date": "Authority and town board roles described before undated campaign biography", "value": "Water authority, industrial development agency and planning board chairs; no conclusion about pay or employee status."}
+      ],
+      "extraction_review": "Full linked About biography read. Advocacy for veterans does not establish own military service. Named public appointments distinct from employment and elected office."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220844", "family": "campaign", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read matched Congress campaign About Claire block and surrounding context.", "outcome": "leads_found", "underlying_urls": ["https://clairevaldezforcongress.com/"]},
+    {"candidate_id": "220844", "family": "official_biography", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read official NY Assembly District 37 biography.", "outcome": "leads_found", "underlying_urls": ["https://nyassembly.gov/mem/Claire-Valdez/bio"]},
+    {"candidate_id": "220844", "family": "earlier_biography", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Review full Citizens Union District 37 guide behind the retained excerpt.", "outcome": "leads_found", "underlying_urls": ["https://citizensunion.org/voters-guide/2024-primary-election/assembly-district-37-democratic-party-primary-2/"]},
+    {"candidate_id": "220844", "family": "local_profile", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read both parts of the August 31 El Pais group interview and attribute each claim to the named speaker or reporter.", "outcome": "leads_found", "underlying_urls": ["https://english.elpais.com/usa/2026-08-31/the-new-era-of-latino-socialists-in-new-york-if-the-democratic-party-wants-to-lead-it-must-create-a-solution-to-the-immigration-problem.html"]},
+    {"candidate_id": "220844", "family": "ballotpedia_questionnaire", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Open selected District 37 Citizens Union candidate questionnaire PDF.", "outcome": "access_failure", "underlying_urls": ["https://citizensunion.org/wp-content/uploads/2024/06/AD37_ClaireValdez.pdf"], "note": "403, no workaround. Not a completed questionnaire search."},
+    {"candidate_id": "220844", "family": "local_profile", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Inspect public portion of January 2026 Jacobin candidate interview.", "outcome": "access_failure", "underlying_urls": ["https://jacobin.com/2026/01/claire-valdez-union-organizing-congress"], "note": "Public introduction only; candidate answers subscription restricted."},
+    {"candidate_id": "220855", "family": "ballotpedia_questionnaire", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read original complete Patch congressional questionnaire.", "outcome": "leads_found", "underlying_urls": ["https://patch.com/new-york/upper-west-side-nyc/amp/34283996/election-q-a-meet-ny-12-candidate-micah-lasher"]},
+    {"candidate_id": "220855", "family": "ballotpedia_questionnaire", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Open selected District 69 Citizens Union candidate questionnaire PDF.", "outcome": "access_failure", "underlying_urls": ["https://citizensunion.org/wp-content/uploads/2024/06/AD69_MicahLasher.pdf"], "note": "403, no workaround. Retained guide editor's profile is separate."},
+    {"candidate_id": "220855", "family": "campaign", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read and match retained Meet Micah biography.", "outcome": "leads_found", "underlying_urls": ["https://micahlasher.com/meet-micah-lasher/"]},
+    {"candidate_id": "220833", "family": "campaign", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Follow About Pat link on native campaign site and read complete biography.", "outcome": "leads_found", "underlying_urls": ["https://www.halpinforcongress.com/about"]},
+    {"candidate_id": "220833", "family": "university_employer_professional", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Read complete retained West Babylon Alumni Foundation biography and verify alias with native campaign.", "outcome": "leads_found", "underlying_urls": ["https://westbabylonalumni.org/halloffame/2014-hall-of-fame-patrick-halpin/"]},
+    {"candidate_id": "220833", "family": "ballotpedia_questionnaire", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Open named Ballotpedia biography.", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Patrick_Halpin"], "note": "Returned no usable page content. No survey content accepted."},
+    {"candidate_id": "220833", "family": "official_biography", "searched_at": "2026-11-18", "query_kind": "source_followup", "query": "Check selected former SCWA board profile.", "outcome": "no_qualifying_results", "underlying_urls": ["https://www.scwa.com/about-us/board-members/patrick-g-halpin/"], "note": "Redirects to current general agency page. No evidence of nonservice."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220844", "note": "El Pais fully reviewed. Reported ethnicity and ancestry remain separate from tribal citizenship. Independent university sources, full earlier questionnaire, and faith/service searches remain open."},
+    {"candidate_id": "220855", "note": "Official Assembly District 69 and retained 2024 Citizens Union profile read but not coded here; review source-specific dating and explicit identity/service leads."},
+    {"candidate_id": "220833", "note": "Retained BallotReady profile read but not coded here, and current SCWA page adds no historical details. Seek dated local interviews, Downey's public staff records and authority appointment/compensation records, not another unchanged campaign download."}
+  ]
+}

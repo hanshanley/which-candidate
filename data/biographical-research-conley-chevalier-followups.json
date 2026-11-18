@@ -1,0 +1,153 @@
+{
+  "scope": "Follow selected originals for two open New York challenger passes. Shared opponent evidence is incidental to an already reviewed interview, not a separate incumbent acquisition campaign. No completed passes or scientific promotions.",
+  "documents": [
+    {
+      "id": "220859-university-2015-16-research-assistant-biography", "candidate_id": "220859", "name": "Darializa Avila Chevalier", "state": "NY", "district": "13", "party": "Democratic", "contest_id": "2026:house:NY:13:general:source_general",
+      "family": "university_employer_professional", "url": "https://static1.squarespace.com/static/5d246d010e59040001dc627a/t/5d63f23089feec0001ef5181/1566831158535/2015-16-year-end-report-for-web.pdf", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Columbia IRCPL 2015-2016 annual report; later hosting timestamp is not publication date.",
+      "identity_status": "verified", "identity_qualification": "Exact name with PDF intra-word extraction space, Columbia field and research-assistant history match native person.",
+      "identity_fragments": ["DARIALIZA AVILA CHEV ALIER"], "source_excerpts": ["DARIALIZA AVILA CHEV ALIER", "studies Middle Eastern, South Asian, and African Studies", "works in finance, event programming", "Shared Sacred Sites project"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "institution_dated_field_of_study_without_completed_credential", "source_fragment": "studies Middle Eastern, South Asian, and African Studies", "factual_reference_date": "2015-2016 annual report", "value": "Columbia study field documented; no completed degree established by this student biography."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "institution_named_finance_programming_and_research_work", "source_fragment": "works in finance, event programming", "supporting_fragments": ["Shared Sacred Sites project"], "factual_reference_date": "2015-2016 IRCPL work", "value": "University finance/event-programming and project work. Research on religion is not personal affiliation or government employment."}
+      ],
+      "extraction_review": "Searched all 32 extracted pages, read full matching page 12 and separated all five other students' histories. Layout headings do not establish this candidate's completed degree or graduate status."
+    },
+    {
+      "id": "220859-complete-prism-2024-alumni-interview", "candidate_id": "220859", "name": "Darializa Avila Chevalier", "state": "NY", "district": "13", "party": "Democratic", "contest_id": "2026:house:NY:13:general:source_general",
+      "family": "earlier_biography", "url": "https://www.prismreports.org/columbia-alumni-divided-divestment-protests-reunions/", "publication_date": "2024-05-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Gillian Goodman's own alumni interview matches exact name, Columbia class and organizing history.",
+      "identity_fragments": ["Darializa Avila Chevalier"], "source_excerpts": ["Darializa Avila Chevalier", "a member of Columbia\u2019s class of 2016", "began organizing the alternative reunion"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "reported_alumni_class_not_explicit_degree_conferral", "source_fragment": "a member of Columbia\u2019s class of 2016", "factual_reference_date": "Class of 2016, discussed May 2024", "value": "Alumni-class observation retained; this wording alone does not establish exact degree or conferral."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_reported_organizing_work", "source_fragment": "began organizing the alternative reunion", "factual_reference_date": "April-May 2024", "value": "Named alumni organizing work; not employment by the university or government."}
+      ],
+      "extraction_review": "Complete original article through university response read. Other alumni's graduation years and histories excluded; no age, religion or service negative manufactured."
+    },
+    {
+      "id": "220859-thecity-may-2026-newspaper-original", "candidate_id": "220859", "name": "Darializa Avila Chevalier", "state": "NY", "district": "13", "party": "Democratic", "contest_id": "2026:house:NY:13:general:source_general",
+      "family": "local_profile", "url": "https://static1.squarespace.com/static/5b9ffe0f1137a680c2c08250/t/6a0b061d267b3970990c5ac4/1779107357205/QDE-05182026-digital.pdf", "publication_date": "2026-05-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Queens Daily Eagle page 4, PDF page 5, credits Claudia Irizarry Aponte/THE CITY; original THE CITY publication day not established.",
+      "identity_status": "verified", "identity_qualification": "Named NY13 challenger, Columbia, employer and native election context match retained person.",
+      "identity_fragments": ["Darializa Avila Chevalier"], "source_excerpts": ["Darializa Avila Chevalier", "A Muslim convert who shares Espaillat\u2019s Do- minican roots", "Defender Services of Harlem", "on leave", "her alma mater"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "named_reporter_explicit_muslim_convert_classification", "source_fragment": "A Muslim convert", "factual_reference_date": "Reported May 18, 2026; conversion year unstated", "value": "Explicit dated Muslim classification by named reporter, not an inference from associates or organizing."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_reporter_identified_defender_employer_and_leave_status", "source_fragment": "Defender Services of Harlem", "supporting_fragments": ["on leave"], "factual_reference_date": "May 2026 leave from researcher job", "value": "Named Harlem defender employer, researcher on campaign leave. Employer legal/public status not established here."},
+        {"trait": "education", "factual_status": "partial", "precision": "alma_mater_wording_not_exact_completed_credential", "source_fragment": "her alma mater", "factual_reference_date": "Columbia history before May 2026", "value": "Columbia described as alma mater; exact completed credential unstated."},
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "reported_dominican_roots_not_new_self_identification", "source_fragment": "shares Espaillat\u2019s Do- minican roots", "factual_reference_date": "May 2026 profile", "value": "Reported Dominican roots kept distinct from direct identification in other originals; literal PDF line hyphen retained."}
+      ],
+      "extraction_review": "Searched all 17 pages and read entire matching article/page. Opponents' offices and other activists' government jobs excluded. Newcomer rhetoric is not a never-elected negative."
+    },
+    {
+      "id": "220859-complete-rns-2026-affiliation-profile", "candidate_id": "220859", "name": "Darializa Avila Chevalier", "state": "NY", "district": "13", "party": "Democratic", "contest_id": "2026:house:NY:13:general:source_general",
+      "family": "local_profile", "url": "https://religionnews.com/2026/11/10/darializa-avila-chevalier-conversion-to-islam/", "publication_date": "2026-11-10", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Fiona Andre's NY13 profile matches name, CUNY and campaign.",
+      "identity_fragments": ["Darializa Avila Chevalier"], "source_excerpts": ["Darializa Avila Chevalier", "33-year-old first-time candidate", "Afro Latina Muslim", "join the faith", "congresswoman-elect", "Ph.D. candidate in sociology", "left-wing organizer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age_without_exact_dob", "source_fragment": "33-year-old", "factual_reference_date": "November 10, 2026 report", "value": "Reported age 33; not an exact birth date or automatically election-day age."},
+        {"trait": "race", "factual_status": "qualified", "precision": "own_composite_description_quoted_by_reporter", "source_fragment": "Afro Latina Muslim", "factual_reference_date": "Dandia conversation quoted November 10, 2026", "value": "Own composite identification quoted; video original remains unreviewed. Not recoded into frozen categories."},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "own_latina_description_quoted_by_reporter", "source_fragment": "Afro Latina Muslim", "factual_reference_date": "Dandia conversation quoted November 10, 2026", "value": "Explicit own Latina description, separate from ancestry inference."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "own_muslim_description_and_conversion_words_quoted_by_reporter", "source_fragment": "Afro Latina Muslim", "supporting_fragments": ["join the faith"], "factual_reference_date": "2026 remarks reported November 10", "value": "Explicit own Muslim description and conversion words. Exact conversion year and denomination not established."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "publisher_explicit_gendered_elected_representative_description", "source_fragment": "congresswoman-elect", "factual_reference_date": "November 2026 profile", "value": "Publisher explicitly describes woman elected representative."},
+        {"trait": "education", "factual_status": "partial", "precision": "ongoing_doctoral_candidacy_not_completed_phd", "source_fragment": "Ph.D. candidate in sociology", "factual_reference_date": "November 2026", "value": "Ongoing CUNY doctorate, not completed PhD."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_organizing_career", "source_fragment": "left-wing organizer", "factual_reference_date": "Career described November 2026", "value": "Organizing and historical teaching work."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "first_candidacy_not_direct_never_held_office", "source_fragment": "first-time candidate", "factual_reference_date": "2026 candidacy", "value": "Candidacy history only; not a qualified no-office contrast."}
+      ],
+      "extraction_review": "Complete original through final quotation read. Other interviewees' histories excluded. Post-election reporting does not establish prediction-time availability; attending a Shiah center does not prove denomination."
+    },
+    {
+      "id": "220859-complete-cuny-post-election-profile", "candidate_id": "220859", "name": "Darializa Avila Chevalier", "state": "NY", "district": "13", "party": "Democratic", "contest_id": "2026:house:NY:13:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.gc.cuny.edu/news/election-win-extends-tradition-government-service", "publication_date": "2026-11-04", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "University names retained NY13 candidate and matching sociology program.",
+      "identity_fragments": ["Darializa Avila Chevalier"], "source_excerpts": ["Darializa Avila Chevalier", "Ph.D. program in 2019"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "institution_explicit_doctoral_start_not_completed_degree", "source_fragment": "Ph.D. program in 2019", "factual_reference_date": "2019 doctoral entry, reported November 4, 2026", "value": "CUNY sociology doctoral entry confirmed; other alumni's completed credentials do not belong to her."}
+      ],
+      "extraction_review": "Complete university story read. Future House service is not office held at election cutoff. Other alumni's appointed jobs are not hers; university attendance does not prove employment."
+    },
+    {
+      "id": "220870-complete-retained-ballotready", "candidate_id": "220870", "name": "Cait Conley", "state": "NY", "district": "17", "party": "Democratic", "contest_id": "2026:house:NY:17:general:source_general",
+      "family": "local_profile", "url": "https://www.ballotready.org/people/cait-conley", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220870-83b260cba397066d3194.html", "retained_sha256": "83b260cba397066d319447ce4bfcfb10c681a2da2b153a09a0128fe2a2b57678",
+      "identity_status": "verified", "identity_qualification": "2026 NY17 candidate with matching exact name and NSC/CISA career.",
+      "identity_fragments": ["Cait Conley"], "source_excerpts": ["Cait Conley", "Senior Advisor (Senior Executive Service)", "(2023 - 2025)", "Director for Counterterrorism", "(2021 - 2023)", "US Army"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "qualified", "precision": "editor_explicit_federal_senior_executive_appointment", "source_fragment": "Senior Advisor (Senior Executive Service)", "supporting_fragments": ["(2023 - 2025)"], "factual_reference_date": "CISA senior executive 2023-2025 as reported", "value": "Explicit CISA Senior Executive Service appointment, distinct from military service."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "editor_named_security_roles_and_source_date_ranges", "source_fragment": "Director for Counterterrorism", "supporting_fragments": ["(2021 - 2023)"], "factual_reference_date": "NSC 2021-2023; CISA 2023-2025", "value": "NSC counterterrorism director and CISA executive. Aggregate Army role range does not establish the same rank for every year."},
+        {"trait": "military", "factual_status": "qualified", "precision": "editor_explicit_own_army_career", "source_fragment": "US Army", "factual_reference_date": "Army category 2007-2021 in source; NSC 2021-2023 separately categorized", "value": "Own Army career; category end is not assumed final active-duty separation or a contradiction of sixteen-year service."}
+      ],
+      "extraction_review": "Complete 3,737-character profile and all policy panels read. Reproductive-rights policy is not gender self-description. No degrees, precise age, religious affiliation or no-office negative supplied."
+    },
+    {
+      "id": "220870-complete-retained-own-veterans-release", "candidate_id": "220870", "name": "Cait Conley", "state": "NY", "district": "17", "party": "Democratic", "contest_id": "2026:house:NY:17:general:source_general",
+      "family": "campaign", "url": "https://caitconley.com/ny-times-cait-conley-condemns-gop-attacks-on-veterans/", "publication_date": "2025-10-21", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220870-5ae61df2782fffa96d15.html", "retained_sha256": "5ae61df2782fffa96d15f57fac2f578c1284ee393ff149d1547a81e6f5b23062",
+      "identity_status": "verified", "identity_qualification": "Native campaign release names NY17 candidate opposing Lawler and matching military/security career.",
+      "identity_fragments": ["Cait Conley"], "source_excerpts": ["Cait Conley", "women officers", "West Point graduate", "16-year Army combat veteran", "junior in high school", "graduate programs at Harvard and MIT", "National Security Council"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "event_anchored_school_grade_not_numeric_birth_date", "source_fragment": "junior in high school", "factual_reference_date": "September 11, 2001 school grade recalled October 2025", "value": "Grade chronology only; no assumed standard age."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_campaign_explicit_woman_officer_description", "source_fragment": "women officers", "factual_reference_date": "Own October 21, 2025 release", "value": "Own campaign explicitly identifies her among women officers; not inferred from pronouns or appearance."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_academy_graduation_with_separate_graduate_attendance", "source_fragment": "West Point graduate", "supporting_fragments": ["graduate programs at Harvard and MIT"], "factual_reference_date": "Completed academy and later graduate attendance before October 2025", "value": "Explicit West Point graduation; Harvard/MIT attendance alone is not degree conferral in this original."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_dated_security_and_military_career", "source_fragment": "National Security Council", "factual_reference_date": "Historical careers before October 2025", "value": "Special-operations officer and NSC/CISA security work."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_sixteen_year_army_service", "source_fragment": "16-year Army combat veteran", "factual_reference_date": "Sixteen-year career before October 2025", "value": "Own Army service and six deployments."}
+      ],
+      "extraction_review": "Complete 4,379-character release read. This is campaign-authored selection of NYT quotations, not independent review of the full newspaper original. Family jobs and political rhetoric excluded."
+    },
+    {
+      "id": "220870-complete-forward-november-interview", "candidate_id": "220870", "name": "Cait Conley", "state": "NY", "district": "17", "party": "Democratic", "contest_id": "2026:house:NY:17:general:source_general",
+      "family": "local_profile", "url": "https://forward.com/news/859454/mike-lawler-cait-conley-house-israel/", "publication_date": "2026-11-01", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Jacob Kornbluh's NY17 candidate interview matches name, opponent and career.",
+      "identity_fragments": ["Cait Conley"], "source_excerpts": ["Cait Conley", "Conley, 41", "West Point graduate", "Army combat veteran", "Department of Homeland Security"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age_not_exact_election_age", "source_fragment": "Conley, 41", "factual_reference_date": "November 1, 2026 report; interview day unstated", "value": "Reported age 41; no exact birth date or assumed election age."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_explicit_academy_graduation", "source_fragment": "West Point graduate", "factual_reference_date": "Graduation before November 2026", "value": "West Point graduation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_security_career", "source_fragment": "Department of Homeland Security", "factual_reference_date": "Historical roles before November 2026", "value": "NSC counterterrorism director and DHS election-security work."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reported_dhs_security_work_corroborating_named_executive_appointment", "source_fragment": "Department of Homeland Security", "factual_reference_date": "Before November 2026", "value": "DHS election-security work corroborates separately documented CISA executive role."},
+        {"trait": "military", "factual_status": "qualified", "precision": "reported_explicit_own_army_service", "source_fragment": "Army combat veteran", "factual_reference_date": "Historical sixteen-year career", "value": "Own Army combat service."}
+      ],
+      "extraction_review": "Complete substantive article and continuation read. Opponent's Catholic affiliation is not hers; community outreach is not personal faith. Aggregate literal budget shared with opponent's record."
+    },
+    {
+      "id": "220871-shared-forward-interview", "candidate_id": "220871", "name": "Mike Lawler", "state": "NY", "district": "17", "party": "Republican", "contest_id": "2026:house:NY:17:general:source_general",
+      "family": "local_profile", "url": "https://forward.com/news/859454/mike-lawler-cait-conley-house-israel/", "publication_date": "2026-11-01", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Republican NY17 incumbent matches retained exact FEC/service identity and opponent.",
+      "identity_fragments": ["Mike Lawler"], "source_excerpts": ["Mike Lawler", "Lawler, 40", "A practicing Catholic", "State Assembly in 2020"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age_not_independent_exact_dob", "source_fragment": "Lawler, 40", "factual_reference_date": "November 1, 2026 report", "value": "Reported age 40."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "named_reporter_explicit_practicing_catholic_classification", "source_fragment": "A practicing Catholic", "factual_reference_date": "November 2026", "value": "Explicit practicing-Catholic classification by reporter, not inference from constituents."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_explicit_prior_state_election", "source_fragment": "State Assembly in 2020", "factual_reference_date": "Assembly election 2020; House election 2022", "value": "Prior state and federal elected service."}
+      ],
+      "extraction_review": "Shared original already read for challenger; no separate incumbent request. Other people's identities excluded. Combined excerpts across both candidate records total 25 words."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220859", "family": "university_employer_professional", "query": "Read matched Columbia IRCPL biography in selected 2015-2016 annual report.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://static1.squarespace.com/static/5d246d010e59040001dc627a/t/5d63f23089feec0001ef5181/1566831158535/2015-16-year-end-report-for-web.pdf"]},
+    {"candidate_id": "220859", "family": "earlier_biography", "query": "Read complete selected Prism alumni interview.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.prismreports.org/columbia-alumni-divided-divestment-protests-reunions/"]},
+    {"candidate_id": "220859", "family": "local_profile", "query": "Read complete THE CITY article in selected May 18 newspaper edition, PDF page 5.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://static1.squarespace.com/static/5b9ffe0f1137a680c2c08250/t/6a0b061d267b3970990c5ac4/1779107357205/QDE-05182026-digital.pdf"]},
+    {"candidate_id": "220859", "family": "local_profile", "query": "\"Darializa Avila Chevalier\" \"Muslim\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://religionnews.com/2026/11/10/darializa-avila-chevalier-conversion-to-islam/"], "note": "Original fully read; copied or partisan search summaries not used for conversion date."},
+    {"candidate_id": "220859", "family": "local_profile", "query": "Follow RNS citation to public Beinart interview landing page.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://peterbeinart.substack.com/p/darializa-avila-chevalier-2026"], "note": "Public preview/topics read; full interview marked paid and not accessed. Not counted as a complete interview and no bypass attempted."},
+    {"candidate_id": "220859", "family": "university_employer_professional", "query": "\"Darializa Avila Chevalier\" site:gc.cuny.edu", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.gc.cuny.edu/news/election-win-extends-tradition-government-service", "https://www.gc.cuny.edu/sites/default/files/2024-03/Appx.A.%20February%202024%20Graduation%20Candidates.pdf"], "lead_dispositions": {"https://www.gc.cuny.edu/sites/default/files/2024-03/Appx.A.%20February%202024%20Graduation%20Candidates.pdf": {"status": "access_failure", "reason": "Actual selected original returned HTTP403 once; no workaround. Listing title or snippet not treated as conferred degree."}}},
+    {"candidate_id": "220859", "family": "university_employer_professional", "query": "Read complete CUNY post-election profile; distinguish her study from other alumni's jobs/degrees.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.gc.cuny.edu/news/election-win-extends-tradition-government-service"]},
+    {"candidate_id": "220870", "family": "local_profile", "query": "Read complete selected retained BallotReady profile and policy panels.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/cait-conley"]},
+    {"candidate_id": "220870", "family": "campaign", "query": "Read complete selected retained October 2025 native veterans release.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://caitconley.com/ny-times-cait-conley-condemns-gop-attacks-on-veterans/"]},
+    {"candidate_id": "220870", "family": "local_profile", "query": "\"Cait Conley\" \"Jewish\" \"Catholic\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://forward.com/news/859454/mike-lawler-cait-conley-house-israel/"], "note": "Complete original now read. Catholic description belongs to opponent, not candidate; community outreach does not establish her own faith."},
+    {"candidate_id": "220871", "family": "local_profile", "query": "Review own attributed facts while reading shared NY17 interview selected for challenger.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://forward.com/news/859454/mike-lawler-cait-conley-house-israel/"]},
+    {"candidate_id": "220853", "family": "local_profile", "query": "\"Michael DeCillis\" \"years old\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "note": "No qualifying dated-age original returned in this batch; not an exhausted candidate pass or source family."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220859", "note": "Selected annual report, Prism, THE CITY newspaper, RNS and CUNY news originals now reviewed. Explicit Muslim affiliation and own composite identity are documented; conversion year not pinned. Selected graduation PDF403 and Beinart full interview paid. Continue actual defender employer status, paid CUNY appointment, precise completed degrees, public official sources and scoped service negatives. Own March speech/video remains an independent original lead, not yet watched or transcribed."},
+    {"candidate_id": "220870", "note": "Selected retained BallotReady/veterans release and full Forward interview now read. Dated age41 remains partial; own missing faith/race/ethnicity and scoped office history still require originals. Continue official agency and earlier biographies; no additional unchanged campaign downloads needed."},
+    {"candidate_id": "220871", "note": "One shared interview reviewed incidentally; this is not a comprehensive incumbent pass."},
+    {"candidate_id": "220853", "note": "Current-age query produced no qualifying original. Continue earlier campaigns, original interviews, institutional/employer and official sources rather than declaring age unavailable."}
+  ]
+}

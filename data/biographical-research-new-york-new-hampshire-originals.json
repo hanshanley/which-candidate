@@ -1,0 +1,291 @@
+{
+  "scope": "Follow through reviewed Nebraska and New Hampshire originals and begin three New York challenger passes. All passes remain open; no new claim enters frozen scientific fits.",
+  "documents": [
+    {
+      "id": "220698-complete-branch-primary-profile", "candidate_id": "220698", "name": "Becky Stille", "state": "NE", "district": "03", "party": "Democratic", "contest_id": "2026:house:NE:03:general:source_general",
+      "family": "local_profile", "url": "https://www.branch.vote/races/2026-nebraska-primary-election-ne-state-u.s.-representative-ne-congressional-3-d/candidates/becky-kelly-stille", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Democratic NE03 South Sioux City candidate, AGP career and exact native campaign domain match retained Becky Stille.",
+      "identity_fragments": ["Becky Kelly Stille"], "source_excerpts": ["Becky Kelly Stille", "associate's degree in accounting", "Western Iowa Tech Community College", "quality manager and lab manager", "first run for public office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "editor_explicit_completed_accounting_associate_degree", "source_fragment": "associate's degree in accounting", "supporting_fragments": ["Western Iowa Tech Community College"], "factual_reference_date": "Completed before undated 2026 primary profile", "value": "Reported completed accounting associate's at Western Iowa Tech Community College. This does not disprove the separate bachelor's report; bachelor level remains unreconciled."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "editor_named_current_and_historical_industrial_employers", "source_fragment": "quality manager and lab manager", "factual_reference_date": "AGP current at undated primary profile; prior Tyson roles historical", "value": "AGP quality/lab management; earlier Tyson quality assurance, plant accounting and human resources. Current at profile time, not assumed current in November."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "first_public_office_candidacy_not_never_held_office", "source_fragment": "first run for public office", "factual_reference_date": "2026 House candidacy as described in undated primary profile", "value": "Reported first public-office campaign. Not an explicit never-held-elected-office negative and not eligible for that comparison."}
+      ],
+      "extraction_review": "Complete personal, professional, political and policy sections read. AI-generated Edgepedia used only to discover this underlying source. Veterans policy is not own service. No own age or explicit missing identity/affiliation statement."
+    },
+    {
+      "id": "220698-retained-parked-native-domain", "candidate_id": "220698", "name": "Becky Stille", "state": "NE", "district": "03", "party": "Democratic", "contest_id": "2026:house:NE:03:general:source_general",
+      "family": "campaign", "url": "https://www.beckystille2026.com/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220698-c00c30e75d25dff13535.html", "retained_sha256": "c00c30e75d25dff135352fc5b8c6f1c3f5396762f9fbb74a12c2153aad6a9340",
+      "identity_status": "verified", "identity_qualification": "Exact native campaign domain corroborated by Branch. This is a parked-domain response, not an authored candidate biography.",
+      "identity_fragments": ["beckystille2026.com"], "source_excerpts": ["beckystille2026.com"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [],
+      "extraction_review": "Complete 560-character visible retained response reviewed. GoDaddy parked page yields no requested facts; neither substantive campaign coverage nor a completed campaign-family search."
+    },
+    {
+      "id": "220774-complete-own-2013-patch-announcement", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "earlier_biography", "url": "https://patch.com/new-hampshire/portsmouth-nh/stefany-shaheen-running-for-portsmouth-city-council", "publication_date": "2013-09-09", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Reproduced own announcement links native campaign domain and identifies Portsmouth Good Measures co-founder; matches retained person.",
+      "identity_fragments": ["Stefany Shaheen"], "source_excerpts": ["Stefany Shaheen", "born in Portsmouth in 1974", "businesswoman", "graduated magna cum laude", "master\u2019s degree", "Chief Operating Officer", "appointed Shaheen"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "explicit_birth_year_not_exact_birth_date", "source_fragment": "born in Portsmouth in 1974", "factual_reference_date": "Birth year 1974, reported September 9, 2013", "value": "Birth year 1974 retained without manufacturing month/day from this source."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "own_announcement_explicit_woman_description", "source_fragment": "businesswoman", "factual_reference_date": "Own September 2013 announcement", "value": "Own announcement explicitly describes her as a businesswoman; not inferred from photograph, name or motherhood."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_fairfield_and_harvard_credentials", "source_fragment": "graduated magna cum laude", "supporting_fragments": ["master\u2019s degree"], "factual_reference_date": "Completed before September 2013 announcement", "value": "Oyster River graduate, Fairfield graduate with honors and earned Harvard Kennedy master's; later Harvard Business School researcher, not another degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_dated_healthcare_consulting_and_nonprofit_career", "source_fragment": "Chief Operating Officer", "factual_reference_date": "Good Measures COO in September 2013; earlier consulting, early-learning and research roles", "value": "Good Measures co-founder/COO; prior management/communications consulting, early-learning nonprofit leadership and Harvard social-entrepreneurship research. Historical titles not extended to 2026."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "appointed_commission_service_without_paid_employment_evidence", "source_fragment": "appointed Shaheen", "factual_reference_date": "Governor's appointment in 2006; later commission-chair selection before 2013", "value": "NH Commission on Status of Women appointment and later chair selection. Advisory service does not establish paid government employment or popular election."}
+      ],
+      "extraction_review": "Complete story and reproduced own announcement read. Council candidacy is not an office win in this source. Commission-chair election is not a public electoral contest. Mother's office and husband's career excluded."
+    },
+    {
+      "id": "220774-complete-citizens-count-profile-and-responses", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.citizenscount.org/candidate/stefany-shaheen", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Democratic NH01 candidate with exact native campaign link and matching Portsmouth/Good Measures history.",
+      "identity_fragments": ["Stefany Shaheen"], "source_excerpts": ["Stefany Shaheen", "Portsmouth City Council", "2014 - 2016", "Co-Founder and President", "Good Measures", "Master of Business Administration", "Master of Public Administration"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_named_completed_mba_and_mpa", "source_fragment": "Master of Business Administration", "supporting_fragments": ["Master of Public Administration"], "factual_reference_date": "Credentials before undated 2026 candidate profile", "value": "MIT MBA and Harvard MPA explicitly reported; not inferred from school attendance."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_healthcare_founder_and_author", "source_fragment": "Co-Founder and President", "supporting_fragments": ["Good Measures"], "factual_reference_date": "Company role listed 2011-present on page accessed November 18, 2026", "value": "Good Measures co-founder/president and author; page's present-tense role not independently dated to election day."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_prior_municipal_council_term", "source_fragment": "Portsmouth City Council", "supporting_fragments": ["2014 - 2016"], "factual_reference_date": "Council 2014-2016; police commission chair 2019-2024 separately listed", "value": "Prior Portsmouth city council service; commission role retained separately pending appointment/election chronology."}
+      ],
+      "extraction_review": "Complete overview and policy-response history read. Current not-serving banner does not erase prior office. Praying for troops and policy answers do not establish religion, own military service or paid commission employment."
+    },
+    {
+      "id": "220774-complete-july-laconia-interview", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "local_profile", "url": "https://www.laconiadailysun.com/news/local/stefany-shaheen-focused-on-healthcare-economy-in-congressional-bid/article_b8ebcd7b-b0ae-444b-b462-caa751880cba.html", "publication_date": "2026-07-07", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Bob Martin's NH01 interview identifies Portsmouth candidate, Good Measures and prior city service matching native person.",
+      "identity_fragments": ["Stefany Shaheen"], "source_excerpts": ["Stefany Shaheen", "Fairfield University", "graduated", "Good Measures", "city council", "police commission"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_school_and_fairfield_graduation", "source_fragment": "Fairfield University", "supporting_fragments": ["graduated"], "factual_reference_date": "Completed before July 7, 2026 interview", "value": "Oyster River and Fairfield graduation; MIT/Harvard alumni wording is not independently an exact degree title."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_healthcare_company_founder", "source_fragment": "Good Measures", "factual_reference_date": "Historical founding discussed July 7, 2026", "value": "Good Measures founder and healthcare advocate. Husband's housing-authority executive job is not hers."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_prior_city_service_with_commission_chronology_caveat", "source_fragment": "city council", "supporting_fragments": ["police commission"], "factual_reference_date": "Prior municipal service described July 7, 2026", "value": "Reported prior council/commission service. Do not equate all commission tenure with an elected term before checking official minutes."}
+      ],
+      "extraction_review": "Complete substantive interview read through final quotation; unrelated footer excluded. Daughter's age and husband's job not transferred. No new explicit missing identity, religion or own service evidence."
+    },
+    {
+      "id": "220774-nhpbs-own-candidate-panel", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "local_profile", "url": "https://nhpbs.org/mockelection/candidates.asp", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Democratic NH01 panel matches retained person.",
+      "identity_fragments": ["Shaheen"], "source_excerpts": ["Shaheen", "1974", "Master", "Good Measures", "City Council"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_exact_birth_date_and_election_age", "source_fragment": "1974", "factual_reference_date": "Birth September 1, 1974; election November 3, 2026", "value": "Reported DOB 1974-09-01; election age 52."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_masters", "source_fragment": "Master", "factual_reference_date": "Before 2026 profile", "value": "MIT MBA; Harvard MPA."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_careers", "source_fragment": "Good Measures", "factual_reference_date": "Coaching 2016-2018; book 2015", "value": "Healthcare co-founder, author, volleyball coach."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_prior_council_term", "source_fragment": "City Council", "factual_reference_date": "2014-2016", "value": "Portsmouth council service."}
+      ],
+      "extraction_review": "Full underlying panel read. Coaching does not prove paid government employment."
+    },
+    {
+      "id": "220773-nhpbs-own-candidate-panel", "candidate_id": "220773", "name": "Anthony DiLorenzo", "state": "NH", "district": "01", "party": "Republican", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "local_profile", "url": "https://nhpbs.org/mockelection/candidates.asp", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Republican NH01 panel matches retained person.",
+      "identity_fragments": ["DiLorenzo"], "source_excerpts": ["DiLorenzo", "1964", "University", "Owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_exact_birth_date_and_election_age", "source_fragment": "1964", "factual_reference_date": "Birth July 4, 1964; election November 3, 2026", "value": "Reported DOB 1964-07-04; election age 62."},
+        {"trait": "education", "factual_status": "partial", "precision": "institution_listed_not_completed_credential", "source_fragment": "University", "factual_reference_date": "Before 2026 profile", "value": "UNH listed; no completed degree established."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_business_ownership", "source_fragment": "Owner", "factual_reference_date": "2026 profile", "value": "Key Auto Group owner."}
+      ],
+      "extraction_review": "Full panel read. Nomination is not prior office."
+    },
+    {
+      "id": "220776-nhpbs-own-candidate-panel", "candidate_id": "220776", "name": "Maggie Goodlander", "state": "NH", "district": "02", "party": "Democratic", "contest_id": "2026:house:NH:02:general:source_general",
+      "family": "local_profile", "url": "https://nhpbs.org/mockelection/candidates.asp", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Democratic NH02 panel matches retained incumbent.",
+      "identity_fragments": ["Goodlander"], "source_excerpts": ["Goodlander", "1986", "Yale", "Officer", "Counsel", "Representative"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_exact_birth_date_and_election_age", "source_fragment": "1986", "factual_reference_date": "Birth November 4, 1986; election November 3, 2026", "value": "Reported DOB 1986-11-04; election age 39, not 40."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_yale_degrees", "source_fragment": "Yale", "factual_reference_date": "2009; 2016", "value": "Yale history BA and JD."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_legal_career", "source_fragment": "Counsel", "factual_reference_date": "Historical, before 2026", "value": "Lawyer, clerk and teacher."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_civilian_government_legal_jobs", "source_fragment": "Counsel", "factual_reference_date": "2009-2024", "value": "Congressional, DOJ, White House and judicial jobs."},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_own_navy_reserve_service", "source_fragment": "Officer", "factual_reference_date": "More than a decade before profile", "value": "Navy Reserve intelligence officer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_current_house_service_before_election", "source_fragment": "Representative", "factual_reference_date": "2025-present", "value": "NH02 House service before election2026."}
+      ],
+      "extraction_review": "Full panel read. Relatives' careers excluded."
+    },
+    {
+      "id": "220775-nhpbs-own-candidate-panel", "candidate_id": "220775", "name": "Lily Tang Williams", "state": "NH", "district": "02", "party": "Republican", "contest_id": "2026:house:NH:02:general:source_general",
+      "family": "local_profile", "url": "https://nhpbs.org/mockelection/candidates.asp", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Republican NH02 panel matches retained person.",
+      "identity_fragments": ["Williams"], "source_excerpts": ["Williams", "1964", "master's", "elected 2021", "Founder", "Law degree"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_exact_birth_date_and_election_age", "source_fragment": "1964", "factual_reference_date": "Birth July 30, 1964; election November 3, 2026", "value": "Reported DOB 1964-07-30; election age 62."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_degrees", "source_fragment": "master's", "supporting_fragments": ["Law degree"], "factual_reference_date": "1985; 1991", "value": "Fudan law; UT Austin social-work master's."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_municipal_election", "source_fragment": "elected 2021", "factual_reference_date": "2021", "value": "Weare checklist supervisor election."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_business_and_professional_roles", "source_fragment": "Founder", "factual_reference_date": "Before 2026 profile", "value": "Business founder, manager, speaker and expert witness."}
+      ],
+      "extraction_review": "Full panel read. Birthplace and coalition role do not establish ethnicity."
+    },
+    {
+      "id": "220773-complete-citizens-count-profile-and-responses", "candidate_id": "220773", "name": "Anthony DiLorenzo", "state": "NH", "district": "01", "party": "Republican", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Republican NH01 nominee and exact native campaign link, matching Key Auto Group role.",
+      "identity_fragments": ["Anthony DiLorenzo"], "source_excerpts": ["Anthony DiLorenzo", "Owner, Key Auto Group"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_business_ownership", "source_fragment": "Owner, Key Auto Group", "factual_reference_date": "Undated 2026 profile accessed November 18", "value": "Key Auto Group owner; own policy response also describes operating businesses."}
+      ],
+      "extraction_review": "Complete overview and response history read, including remaining text after character14000. No-response fields and not-currently-serving banner are not scoped negatives. Policy references to troops, Iran or firearms do not establish service or affiliation."
+    },
+    {
+      "id": "220775-complete-citizens-count-profile-and-responses", "candidate_id": "220775", "name": "Lily Tang Williams", "state": "NH", "district": "02", "party": "Republican", "contest_id": "2026:house:NH:02:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://www.citizenscount.org/candidate/lily-tang-williams", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Republican NH02 nominee with native campaign link and Weare checklist role.",
+      "identity_fragments": ["Lily Tang Williams"], "source_excerpts": ["Lily Tang Williams", "Master\u2019s in Administration and Planning", "University of Texas-Austin", "Supervisor of the Checklist", "entrepreneur"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_masters_with_field_wording_preserved", "source_fragment": "Master\u2019s in Administration and Planning", "supporting_fragments": ["University of Texas-Austin"], "factual_reference_date": "Completed before undated 2026 profile", "value": "UT Austin master's reported as Administration and Planning. NHPBS uses social-work wording; preserve program/field variation without assuming mutually exclusive credentials."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_entrepreneurial_career", "source_fragment": "entrepreneur", "factual_reference_date": "Before/at undated 2026 profile", "value": "Reported entrepreneur; coalition leadership not a public-employment inference."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "municipal_role_listed_election_not_stated_in_this_original", "source_fragment": "Supervisor of the Checklist", "factual_reference_date": "Undated prior experience; current not-serving banner", "value": "Weare checklist supervisor role listed. Its explicit election is corroborated separately by NHPBS, not supplied by this page's title alone."}
+      ],
+      "extraction_review": "Complete overview and policy history read through 2022 responses and footer. Advocacy on women, veterans and Asian-American issues is not automatically personal identity, religion or service. No occupation inferred from husband's work."
+    },
+    {
+      "id": "220878-complete-retained-own-campaign-biography", "candidate_id": "220878", "name": "Blake Gendebien", "state": "NY", "district": "21", "party": "Democratic", "contest_id": "2026:house:NY:21:general:source_general",
+      "family": "campaign", "url": "https://blakegendebienforcongress.com/meet-blake/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220878-9d69535520e98e4983ba.html", "retained_sha256": "9d69535520e98e4983babbae6ee799f9692e862cdf282dc2ccd043cf661a2446",
+      "identity_status": "verified", "identity_qualification": "Exact native NY21 campaign biography identifies Twin Mill Farms and Lisbon campaign committee.",
+      "identity_fragments": ["Blake Gendebien"], "source_excerpts": ["Blake Gendebien", "earned a degree in agriculture", "farm equipment manufacturer", "owned and operated Twin Mill Farms", "Cooperative Board of Agri-Mark"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_agriculture_degree_level_unspecified", "source_fragment": "earned a degree in agriculture", "factual_reference_date": "Completed before undated campaign biography", "value": "Completed agriculture degree; institution, level and year unstated here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_farm_ownership_manufacturing_and_cooperative_history", "source_fragment": "owned and operated Twin Mill Farms", "supporting_fragments": ["farm equipment manufacturer", "Cooperative Board of Agri-Mark"], "factual_reference_date": "Farm operation for22years at undated biography; manufacturing earlier", "value": "Twin Mill Farms owner/operator; former farm-equipment-manufacturer work; elected cooperative-board vice-chair. Cooperative election is not governmental office."}
+      ],
+      "extraction_review": "Entire retained biography read and hash verified. Parents' Peace Corps service is not his. Youth coaching and foundation co-founding do not prove government employment; not-a-politician language is not a never-held-office statement."
+    },
+    {
+      "id": "220878-complete-cnhi-watertown-2025-interview", "candidate_id": "220878", "name": "Blake Gendebien", "state": "NY", "district": "21", "party": "Democratic", "contest_id": "2026:house:NY:21:general:source_general",
+      "family": "earlier_biography", "url": "https://www.cnhi.com/rss_feed/gendebien-says-tariffs-prices-on-minds-of-voters-as-he-preps-for-long-haul-campaign/", "publication_date": "2025-05-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Publisher's Watertown Daily Times interview identifies NY21 candidate, St. Lawrence County farmer and Stefanik-opponent context.",
+      "identity_fragments": ["Blake Gendebien"], "source_excerpts": ["Blake Gendebien", "48-year-old", "dairy farmer", "alfalfa, soybeans"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_at_recent_interview_day_unspecified", "source_fragment": "48-year-old", "factual_reference_date": "Recent phone interview before May14,2025 publication; actual interview day unknown", "value": "Reported age48 before May14,2025; no exact birth date or election-day age manufactured."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_and_own_dairy_and_crop_farming", "source_fragment": "dairy farmer", "supporting_fragments": ["alfalfa, soybeans"], "factual_reference_date": "May2025 interview", "value": "Dairy and crop farmer; farm-equipment supply experience discussed in own interview."}
+      ],
+      "extraction_review": "Complete substantive publisher original read. Tariff/immigration opinions and discussion of other people's families are not own identity or service evidence. No generic no-office claim inferred."
+    },
+    {
+      "id": "220882-complete-sbu-faculty-original", "candidate_id": "220882", "name": "Aaron Gies", "state": "NY", "district": "23", "party": "Democratic", "contest_id": "2026:house:NY:23:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.sbu.edu/academics/faculty/gies-aaron-m", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Aaron M. Gies faculty heading/image label and exact theology/Franciscan position match NY23 candidate's verified BallotReady institutional role.",
+      "identity_fragments": ["Gies, Aaron M."], "source_excerpts": ["Gies, Aaron M.", "Ph.D.", "M.A.", "B.A.", "Diploma in Manuscript Studies", "Associate Professor", "serves as a cantor in his parish"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "institution_reported_completed_degrees_and_separate_diploma", "source_fragment": "Ph.D.", "supporting_fragments": ["M.A.", "B.A.", "Diploma in Manuscript Studies"], "factual_reference_date": "BA2002; MA2007/2010; PhD2018; diploma2023", "value": "Montreat Bible/religion BA; Gordon Conwell Christian-thought MA; Catholic University medieval-studies MA and historical/systematic-theology PhD; Pontifical Institute manuscript-studies diploma."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "institution_reported_academic_appointments_and_editorial_work", "source_fragment": "Associate Professor", "factual_reference_date": "Postdoc2019, regular faculty2021; current profile update date unknown", "value": "SBU theology/Franciscan professor, Franciscan Studies associate editor and Rome research fellow. Publication list's forthcoming2024 entries do not establish page update date."},
+        {"trait": "religion", "factual_status": "partial", "precision": "explicit_parish_participation_without_named_affiliation", "source_fragment": "serves as a cantor in his parish", "factual_reference_date": "Undated faculty profile", "value": "Reported cantor in unnamed parish. Denomination/current affiliation not inferred from Catholic employer, degrees or theological research."}
+      ],
+      "extraction_review": "Complete actual institutional page read, not earlier799-byte extraction. Spouse's veterinary occupation not his professional license; first appointment and fellowships not government employment. No appearance/pronoun-based identity coding."
+    },
+    {
+      "id": "220882-complete-retained-ballotready-profile", "candidate_id": "220882", "name": "Aaron Gies", "state": "NY", "district": "23", "party": "Democratic", "contest_id": "2026:house:NY:23:general:source_general",
+      "family": "local_profile", "url": "https://www.ballotready.org/people/aaron-gies", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220882-d7369920e105932c0a5f.html", "retained_sha256": "d7369920e105932c0a5fe6fb24ad7ceee369d090c13d2eb33f248ddaeea1cbc4",
+      "identity_status": "verified", "identity_qualification": "Exact named NY23 candidate with verified campaign links and matching St. Bonaventure academic post.",
+      "identity_fragments": ["Aaron Gies"], "source_excerpts": ["Aaron Gies", "St. Bonaventure University", "Associate Professor of Theology", "2019 - Present"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_university_role_with_start_date_precision_caveat", "source_fragment": "Associate Professor of Theology", "supporting_fragments": ["St. Bonaventure University"], "factual_reference_date": "Reported2019-present; institutional biography distinguishes2019 postdoc from2021 regular faculty", "value": "St. Bonaventure academic career. Do not treat aggregate2019 employment start as exact associate-professor promotion date."}
+      ],
+      "extraction_review": "Entire retained candidate profile and issue panels read. Issue preferences on schools/workers do not establish own credentials or government work. No requested explicit identity/affiliation or service negative."
+    },
+    {
+      "id": "220882-complete-wlea-own-faith-statement", "candidate_id": "220882", "name": "Aaron Gies", "state": "NY", "district": "23", "party": "Democratic", "contest_id": "2026:house:NY:23:general:source_general",
+      "family": "campaign", "url": "https://wlea.net/catholics-vote-common-good-endorses-aaron-gies/", "publication_date": "2026-09-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Explicitly attributed NY23 campaign statement identifies theology professor at SBU and exact native campaign domain.",
+      "identity_fragments": ["Aaron Gies"], "source_excerpts": ["Aaron Gies", "My faith has taught me", "professor of Theology", "currently on leave", "nonprofit leader"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "own_explicit_faith_statement_denomination_unstated", "source_fragment": "My faith has taught me", "factual_reference_date": "September22,2026 campaign release", "value": "Explicit own faith statement; no named denomination. Endorsement by a Catholic organization does not establish personal Catholic affiliation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_dated_academic_leave_and_nonprofit_role", "source_fragment": "professor of Theology", "supporting_fragments": ["currently on leave", "nonprofit leader"], "factual_reference_date": "September22,2026", "value": "SBU theology professor on campaign leave and nonprofit leader, as described in own release."}
+      ],
+      "extraction_review": "Whole release and own quotation read. Endorser's name and religious classification not transferred to candidate. No paid public-employment or never-held-office inference."
+    },
+    {
+      "id": "220884-complete-retained-ballotpedia-own-survey", "candidate_id": "220884", "name": "Alissa Ellman", "state": "NY", "district": "24", "party": "Democratic", "contest_id": "2026:house:NY:24:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Alissa_Ellman", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220884-9559d179337e59badd0f.html", "retained_sha256": "9559d179337e59badd0fb909641f74c25410784abfb11d284d80bf85616dada1",
+      "source_date_note": "Own survey submitted April30,2026; editor page includes subsequent election material and is not wholly dated to survey submission.",
+      "identity_status": "verified", "identity_qualification": "Named Democratic/Working Families NY24 nominee with exact native campaign link and Afghanistan/VA history.",
+      "identity_fragments": ["Alissa Ellman"], "source_excerpts": ["Alissa Ellman", "bachelor's degree", "Niagara University", "2013", "U.S. Army National Guard", "2001 to 2007", "special education teacher", "former Veterans Affairs employee"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "editor_explicit_completed_bachelors_and_year", "source_fragment": "bachelor's degree", "supporting_fragments": ["Niagara University", "2013"], "factual_reference_date": "Completed2013", "value": "Completed Niagara University bachelor's, as explicitly reported by editor."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_former_special_education_role", "source_fragment": "special education teacher", "factual_reference_date": "Before own April30,2026 survey", "value": "Former special-education teacher and VA employee; school employer/pay status not established here."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_former_named_federal_employment", "source_fragment": "former Veterans Affairs employee", "factual_reference_date": "VA work before2026 survey", "value": "Explicit own former VA employment, not inferred from advocacy, grants or relatives."},
+        {"trait": "military", "factual_status": "qualified", "precision": "editor_guard_service_and_own_afghanistan_service", "source_fragment": "U.S. Army National Guard", "supporting_fragments": ["2001 to 2007"], "factual_reference_date": "Guard2001-2007; own surveyApril2026", "value": "Army National Guard2001-2007 and own Afghanistan combat-service description."}
+      ],
+      "extraction_review": "Entire retained page and all five own answers read, including footnote identifying survey date. Policy preferences and motherhood not used as identity classification. No unnecessary health details retained or never-elected negative inferred."
+    },
+    {
+      "id": "220884-retained-senate-own-named-guest-passage", "candidate_id": "220884", "name": "Alissa Ellman", "state": "NY", "district": "24", "party": "Democratic", "contest_id": "2026:house:NY:24:general:source_general",
+      "family": "official_biography", "url": "https://www.govinfo.gov/content/pkg/CREC-2025-03-04/pdf/CREC-2025-03-04-senate.pdf", "publication_date": "2025-03-04", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220884-8f5350766db8d71d64a5.pdf", "retained_sha256": "8f5350766db8d71d64a583f4cef2fcf85d72fd3ee0281b369c0dd7026ac39146",
+      "identity_status": "verified", "identity_qualification": "Senate S1467 names Alissa Ellman, Lockport, Afghanistan service and recently terminated Buffalo VA job, matching own campaign account.",
+      "identity_fragments": ["Alissa"], "source_excerpts": ["Alissa", "Ellman", "Army veteran", "This woman", "got a job at", "the Buffalo", "VA"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_public_senate_speaker_woman_classification", "source_fragment": "This woman", "factual_reference_date": "March4,2025 Senate remarks", "value": "Speaker explicitly describes the named candidate as a woman; not photograph/pronoun inference."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_speaker_reported_named_va_job", "source_fragment": "got a job at", "supporting_fragments": ["the Buffalo", "VA"], "factual_reference_date": "VA employment before March4,2025 remarks; termination reported previous week", "value": "Buffalo VA employment and subsequent termination, independently reported in public Senate remarks; no exact job title invented."},
+        {"trait": "military", "factual_status": "qualified", "precision": "official_speaker_reported_own_army_and_afghanistan_service", "source_fragment": "Army veteran", "factual_reference_date": "Service before March4,2025 remarks", "value": "Army veteran with Afghanistan service; civilian VA work kept distinct."}
+      ],
+      "extraction_review": "Searched all37pages and read complete matching S1467 page3, including surrounding guest introductions. Other guests' histories and unnecessary health details excluded. This is attributed legislative speech, not personnel-file certification."
+    },
+    {
+      "id": "220884-complete-own-wxxi-connections-interview", "candidate_id": "220884", "name": "Alissa Ellman", "state": "NY", "district": "24", "party": "Democratic", "contest_id": "2026:house:NY:24:general:source_general",
+      "family": "local_profile", "url": "https://video.wxxi.org/video/two-races-two-candidates-in-studio-harry-bronson-alissa-ellman-h8xh72/", "publication_date": "2026-10-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "WXXI interviewer explicitly identifies Democratic NY24 challenger against Tenney; own exact campaign domain and VA/Army career corroborate person.",
+      "identity_fragments": ["Alissa Ellman"], "source_excerpts": ["Alissa Ellman", "When I was 17", "soldier", "contractor", "special ed teacher", "Buffalo, VA Education department", "run for any other offices? No."],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_event_anchored_age_without_exact_enlistment_day", "source_fragment": "When I was 17", "factual_reference_date": "Age at Army entry, described October19,2026; September11 followed soon afterwards", "value": "Own Army-entry age17; first deployment19. No exact birth year/date manufactured from approximate event chronology or comparison with another person's age."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_military_contractor_teaching_and_va_career", "source_fragment": "special ed teacher", "supporting_fragments": ["contractor", "Buffalo, VA Education department"], "factual_reference_date": "Historical jobs before October19,2026 interview; VA job ended2025", "value": "Special-education teacher, airfield/logistics contractor in Afghanistan and Buffalo VA education worker. Civilian contracting is not automatically military or government employment."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_explicit_named_federal_department_employment", "source_fragment": "Buffalo, VA Education department", "factual_reference_date": "Just under one year of VA employment before first2025 layoffs", "value": "Own Buffalo VA education-department employment processing veterans' benefits. Not inferred from unspecified teaching employer."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_army_and_deployment_chronology", "source_fragment": "soldier", "factual_reference_date": "Historical Army entry and Afghanistan deployments before October2026", "value": "Own Army service and Afghanistan deployment; later civilian contracting separately described."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "explicit_no_other_candidacy_not_direct_never_held_office", "source_fragment": "run for any other offices? No.", "factual_reference_date": "Own October19,2026 answer", "value": "Explicitly denies running for any other office. Retained as scoped candidacy history, not recoded as the stronger never-held-elected-office comparison."}
+      ],
+      "extraction_review": "Complete Ellman interview section, every question and closing read from underlying public transcript; Bronson's different assembly career excluded. Transcript has recognition errors; relative age and personal medical passages not converted to precise background facts. Policy language is not personal religion."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220698", "family": "university_employer_professional", "query": "\"Becky Stille\" accounting education biography", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.branch.vote/races/2026-nebraska-primary-election-ne-state-u.s.-representative-ne-congressional-3-d/candidates/becky-kelly-stille", "https://influentialwomen.com/connect/becky-stille"], "lead_dispositions": {"https://influentialwomen.com/connect/becky-stille": {"status": "access_failure", "reason": "Selected actual professional profile returned403 once; no workaround or snippet qualification."}}, "note": "Edgepedia's generated text was discovery only; followed its Branch citation to actual original. No university family exhaustion."},
+    {"candidate_id": "220698", "family": "local_profile", "query": "Read full selected Branch candidate biography and policy sections.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.branch.vote/races/2026-nebraska-primary-election-ne-state-u.s.-representative-ne-congressional-3-d/candidates/becky-kelly-stille"]},
+    {"candidate_id": "220698", "family": "campaign", "query": "Read retained native rendered campaign-domain response for actual biography content.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.beckystille2026.com/"], "note": "Parked page, no substantive requested facts; not a new biography."},
+    {"candidate_id": "220698", "family": "university_employer_professional", "query": "Open selected actual Influential Women professional profile.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://influentialwomen.com/connect/becky-stille"], "note": "HTTP403; not retried or bypassed."},
+    {"candidate_id": "220774", "family": "local_profile", "query": "\"Stefany Shaheen\" Fairfield Harvard Portsmouth council biography", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.citizenscount.org/candidate/stefany-shaheen", "https://nhpbs.org/mockelection/candidates.asp", "https://patch.com/new-hampshire/portsmouth-nh/stefany-shaheen-running-for-portsmouth-city-council", "https://www.laconiadailysun.com/news/local/stefany-shaheen-focused-on-healthcare-economy-in-congressional-bid/article_b8ebcd7b-b0ae-444b-b462-caa751880cba.html", "https://files.portsmouthnh.gov/agendas/2019/citycouncil/cc012219cp.pdf", "https://files.portsmouthnh.gov/agendas/2019/citycouncil/cc012219min.pdf"], "note": "First four originals read; selected official council packet/minutes remain actionable unread leads."},
+    {"candidate_id": "220774", "family": "earlier_biography", "query": "Read full selected own2013 municipal candidacy announcement reproduced by Patch.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://patch.com/new-hampshire/portsmouth-nh/stefany-shaheen-running-for-portsmouth-city-council"]},
+    {"candidate_id": "220774", "family": "ballotpedia_questionnaire", "query": "Read complete selected Citizens Count overview and policy history.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.citizenscount.org/candidate/stefany-shaheen"]},
+    {"candidate_id": "220773", "family": "ballotpedia_questionnaire", "query": "Follow NHPBS candidate link to complete Citizens Count profile and remaining policy history.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.citizenscount.org/candidate/anthony-dilorenzo"]},
+    {"candidate_id": "220775", "family": "ballotpedia_questionnaire", "query": "Follow NHPBS candidate link to complete Citizens Count profile and remaining policy history.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.citizenscount.org/candidate/lily-tang-williams"]},
+    {"candidate_id": "220774", "family": "local_profile", "query": "Inspect actual public HTML when simplified NHPBS reader omitted hidden candidate panels.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nhpbs.org/mockelection/candidates.asp"], "note": "Normal public200HTML; full12,126-character visible page read. Four matched House panels coded, other offices excluded. Aggregate retained literal excerpts across all four documents total25words."},
+    {"candidate_id": "220773", "family": "local_profile", "query": "Review own matched NH01 panel in full NHPBS public candidate page.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nhpbs.org/mockelection/candidates.asp"]},
+    {"candidate_id": "220775", "family": "local_profile", "query": "Review own matched NH02 panel in full NHPBS public candidate page.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nhpbs.org/mockelection/candidates.asp"]},
+    {"candidate_id": "220776", "family": "local_profile", "query": "Review own matched NH02 incumbent panel while reading shared NHPBS candidate original.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nhpbs.org/mockelection/candidates.asp"], "note": "No separate incumbent reacquisition; same cohort page supplies November4 birthday precision and named civilian work."},
+    {"candidate_id": "220878", "family": "campaign", "query": "Read complete selected retained native Meet Blake biography before fresh downloads.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://blakegendebienforcongress.com/meet-blake/"]},
+    {"candidate_id": "220878", "family": "local_profile", "query": "\"Blake Gendebien\" \"age\" \"2026\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.cnhi.com/rss_feed/gendebien-says-tariffs-prices-on-minds-of-voters-as-he-preps-for-long-haul-campaign/"], "note": "Selected publisher original fully read; other search previews not accepted as facts or family completion."},
+    {"candidate_id": "220882", "family": "university_employer_professional", "query": "Read actual SBU faculty biography because retained extraction was799bytes.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.sbu.edu/academics/faculty/gies-aaron-m"], "note": "Complete institutional original now read; cached fragment not mistaken for full biography."},
+    {"candidate_id": "220882", "family": "local_profile", "query": "Read complete retained BallotReady candidate profile and issue panels.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/aaron-gies"]},
+    {"candidate_id": "220882", "family": "campaign", "query": "\"Aaron Gies\" \"Catholic\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://wlea.net/catholics-vote-common-good-endorses-aaron-gies/"], "note": "Actual attributed campaign release read. Own faith explicit, denomination not. Native campaign previously403/202; not retried through alternate route."},
+    {"candidate_id": "220884", "family": "ballotpedia_questionnaire", "query": "Read entire retained Ballotpedia biography, all five own survey answers and dating footnote.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Alissa_Ellman"]},
+    {"candidate_id": "220884", "family": "official_biography", "query": "Inspect all37pages of retained Senate PDF for named-person passage; read full matching S1467 page3.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.govinfo.gov/content/pkg/CREC-2025-03-04/pdf/CREC-2025-03-04-senate.pdf"], "note": "Concrete subject-relevance problem resolved positively; not an unrelated same-name hit."},
+    {"candidate_id": "220884", "family": "local_profile", "query": "\"Alissa Ellman\" \"born\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://video.wxxi.org/video/two-races-two-candidates-in-studio-harry-bronson-alissa-ellman-h8xh72/"], "note": "Read complete own interview in underlying public transcript. No exact DOB established."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220698", "note": "Branch original now reviewed and accounting associate's explicitly documented; this does not refute an additional bachelor's. Actual professional profile403, no workaround. Continue institution/employer originals, dated age, explicit identities/affiliation and scoped service evidence; parked native domain is not a biography."},
+    {"candidate_id": "220774", "note": "Patch, Citizens Count, Laconia and own NHPBS panel now read. Read selected official January22,2019 council packet/minutes for police appointment/election chronology; continue institution/employer, explicit race/ethnicity/religion and own military evidence. Advisory and coaching titles do not prove paid employment."},
+    {"candidate_id": "220773", "note": "Own NHPBS panel and full Citizens Count profile/policy history reviewed, not a complete pass. Continue native campaign, employer/university, local/earlier biographies and explicit identity/affiliation/service evidence. UNH attendance is not completed degree."},
+    {"candidate_id": "220775", "note": "Own NHPBS panel and full Citizens Count profile/policies reviewed. Continue native campaign, original university/municipal and earlier biographies; preserve master's field-wording variation. Coalition leadership/birthplace not inferred ethnicity or religion."},
+    {"candidate_id": "220776", "note": "Own NHPBS panel reviewed incidentally on shared House-candidate page; not a comprehensive new incumbent pass. Exact election age39, not40. Independent national nonincumbent acquisition remains priority."},
+    {"candidate_id": "220878", "note": "Full retained campaign and actual publisher's May2025 interview read. Dated age48 remains partial; profession qualifies retained reports rather than first evidence. Continue public questionnaires, official/institutional and earlier biographies for identity, affiliation and service gaps."},
+    {"candidate_id": "220882", "note": "Full actual SBU biography, retained BallotReady and attributed own WLEA release read. Parish participation and unspecified faith do not establish denomination. Continue substantive interviews, actual official/earlier sources and explicit identities/age/service. Do not retry denied campaign source or restricted mirrors."},
+    {"candidate_id": "220884", "note": "Full retained own survey, relevant official Senate page and complete WXXI interview read. Age17 at entry and never-other-candidacy remain partial, not DOB or no-office values. Continue native campaign, Niagara/employer/earlier biographies and explicit race/ethnicity/religion sources."}
+  ]
+}

@@ -1,8 +1,8 @@
 party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
-all,all,1284,12,166,1106,658,261,153
-all,incumbent,360,0,7,353,8,1,1
-all,nonincumbent,312,12,139,161,612,227,135
-all,unresolved,612,0,20,592,38,33,17
+all,all,1284,12,188,1084,724,284,165
+all,incumbent,360,0,9,351,10,2,2
+all,nonincumbent,312,12,158,142,674,248,145
+all,unresolved,612,0,21,591,40,34,18
 America First,all,1,0,0,1,0,0,0
 America First,incumbent,0,0,0,0,0,0,0
 America First,nonincumbent,0,0,0,0,0,0,0
@@ -19,9 +19,9 @@ Constitution,all,4,0,0,4,0,0,0
 Constitution,incumbent,0,0,0,0,0,0,0
 Constitution,nonincumbent,0,0,0,0,0,0,0
 Constitution,unresolved,4,0,0,4,0,0,0
-Democratic,all,449,12,141,296,614,226,134
-Democratic,incumbent,183,0,4,179,5,1,1
-Democratic,nonincumbent,266,12,137,117,609,225,133
+Democratic,all,449,12,160,277,675,246,143
+Democratic,incumbent,183,0,5,178,6,2,2
+Democratic,nonincumbent,266,12,155,99,669,244,141
 Democratic,unresolved,0,0,0,0,0,0,0
 Florida Forward Party,all,1,0,0,1,0,0,0
 Florida Forward Party,incumbent,0,0,0,0,0,0,0
@@ -95,10 +95,10 @@ Pacific Green,all,2,0,0,2,0,0,0
 Pacific Green,incumbent,0,0,0,0,0,0,0
 Pacific Green,nonincumbent,0,0,0,0,0,0,0
 Pacific Green,unresolved,2,0,0,2,0,0,0
-Republican,all,433,0,13,420,21,17,13
-Republican,incumbent,176,0,3,173,3,0,0
-Republican,nonincumbent,46,0,2,44,3,2,2
-Republican,unresolved,211,0,8,203,15,15,11
+Republican,all,433,0,16,417,26,20,16
+Republican,incumbent,176,0,4,172,4,0,0
+Republican,nonincumbent,46,0,3,43,5,4,4
+Republican,unresolved,211,0,9,202,17,16,12
 Socialism PSL,all,1,0,0,1,0,0,0
 Socialism PSL,incumbent,0,0,0,0,0,0,0
 Socialism PSL,nonincumbent,0,0,0,0,0,0,0

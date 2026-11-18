@@ -1,0 +1,261 @@
+{
+  "scope": "Eight retained Democrats researched across ten background traits, using retained originals before new person-level follow-ups. All eight six-family passes remain open. No promotion into frozen analytical models.",
+  "documents": [
+    {
+      "id": "220695-retained-complete-native-home", "candidate_id": "220695", "name": "Denise  Powell", "state": "NE", "district": "02", "party": "Democratic", "contest_id": "2026:house:NE:02:general:source_general",
+      "family": "campaign", "url": "https://deniseforcongress.org", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220695-home/campaign-220695-home", "retained_sha256": "e4ea6fcde0201d706a4620e4e8a4915c1308e13f2891b04fba42b2f6e08afa9a",
+      "identity_status": "verified", "identity_qualification": "Native NE02 campaign domain, Nebraska civic organization and corporate career match the named PODER candidate statement and linked professional profile. Native roster double space preserved.",
+      "identity_fragments": ["Denise Powell"], "source_excerpts": ["Denise Powell", "small business owner", "former corporate executive", "healthcare advocate", "2016"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_explicit_business_corporate_and_advocacy_careers", "source_fragment": "former corporate executive", "supporting_fragments": ["small business owner", "healthcare advocate"], "factual_reference_date": "Undated 2026 campaign; civic organization founded after 2016 election", "value": "Small-business owner, former corporate executive and healthcare/public-school advocate; organization founder supporting other candidates."}
+      ],
+      "extraction_review": "Read complete hash-verified visible biography. University of Nebraska is a policy reference, not her degree. Supporting candidates does not establish her own elected office or paid public employment. Motherhood and pronouns not treated as explicit gender."
+    },
+    {
+      "id": "220774-retained-native-transition-not-biography", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "campaign", "url": "https://stefanyshaheen.com/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220774-home/campaign-220774-home", "retained_sha256": "a4fe7f1d4e4618a2dad921b789c6ef16ff61b42133d31bb4f1046808b6b91ee8",
+      "identity_status": "verified", "identity_qualification": "Native Shaheen NH01 campaign domain and named transition signature, distinct from her mother's Senate campaign.",
+      "identity_fragments": ["Stefany Shaheen"], "source_excerpts": ["Stefany Shaheen", "THANK YOU New Hampshire!"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [],
+      "extraction_review": "Complete 681-character visible original is a post-election transition page, not a substantive biography. No requested fact or first-evidence gain credited. Older machine-extracted campaign biography is not independently re-reviewed by reading this changed page."
+    },
+    {
+      "id": "220804-retained-complete-native-about", "candidate_id": "220804", "name": "Rachel Peace", "state": "NJ", "district": "04", "party": "Democratic", "contest_id": "2026:house:NJ:04:general:source_general",
+      "family": "campaign", "url": "https://www.peace4shore.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220804-bio1/campaign-220804-bio1", "retained_sha256": "7c8746c1f9a4b0f490b1a355eb05df9b3751cfb17ab4eb63b4b637396d78b7b3",
+      "identity_status": "verified", "identity_qualification": "Native NJ04 campaign, Monmouth/Ocean district and Chris Smith opponent agree with complete retained own questionnaire.",
+      "identity_fragments": ["Rachel Peace"], "source_excerpts": ["Rachel Peace", "As a millennial", "I never planned on running for office", "I\u2019m not even in office yet"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_generational_self_description_without_numeric_age_or_birth_bounds", "source_fragment": "As a millennial", "factual_reference_date": "Undated 2026 campaign", "value": "Describes herself as a millennial; no numerical birth interval or election-day age manufactured."}
+      ],
+      "extraction_review": "Read full original. Unexpected candidacy and not-yet-in-office rhetoric do not establish never previously elected. Personal-time advocacy and resolutions are not public employment. No faith, racial identity or military negative."
+    },
+    {
+      "id": "220811-retained-complete-native-meet-rebecca", "candidate_id": "220811", "name": "Rebecca Bennett", "state": "NJ", "district": "07", "party": "Democratic", "contest_id": "2026:house:NJ:07:general:source_general",
+      "family": "campaign", "url": "https://rebeccabennettforcongress.com/meet-rebecca/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220811-bio1/campaign-220811-bio1", "retained_sha256": "4838a1b249e3081f7d09595e94922585cb7a5ccf891648616d7595232f778780",
+      "identity_status": "verified", "identity_qualification": "Native NJ07 campaign, Cornell/Wharton education, Navy MH-60 career and current Air National Guard disclaimer identify retained nominee, not professional namesakes.",
+      "identity_fragments": ["Rebecca Bennett"], "source_excerpts": ["Rebecca Bennett", "Cornell University", "After graduating", "M.B.A.", "The Wharton School", "healthcare", "experimental test pilot", "current member of the Air National Guard"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_cornell_graduation_and_wharton_mba", "source_fragment": "After graduating", "supporting_fragments": ["Cornell University", "M.B.A.", "The Wharton School"], "factual_reference_date": "Cornell before flight career; MBA during experimental-test-pilot service", "value": "Cornell chemical-engineering study followed by explicit graduation; completed Wharton/University of Pennsylvania MBA and flight school. Selection to attend Test Pilot School is not independently labeled a completed credential."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_military_aviation_and_private_healthcare_careers", "source_fragment": "experimental test pilot", "supporting_fragments": ["healthcare"], "factual_reference_date": "Historical Navy career and subsequent healthcare business work", "value": "Helicopter/experimental test pilot and aircraft commander; healthcare business roles at startups and Fortune 50 companies."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_former_navy_current_guard_status", "source_fragment": "current member of the Air National Guard", "factual_reference_date": "Undated 2026 campaign; more than fifteen years service reported", "value": "Former U.S. Navy member and current Air National Guard officer. Husband's separate service is not added to hers."}
+      ],
+      "extraction_review": "Complete original and disclaimer read. Corrected draft interpretation: selected to attend Test Pilot School is not an explicit graduation statement. Military employment not automatically counted again as civilian government employment; no explicit race, ethnicity, religion or no-office claim."
+    },
+    {
+      "id": "220940-retained-complete-native-meet-trygve", "candidate_id": "220940", "name": "Trygve Hammer", "state": "ND", "district": "AL", "party": "Democratic", "contest_id": "2026:house:ND:AL:general:source_general",
+      "family": "campaign", "url": "https://www.hammerfornd.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220940-bio1/campaign-220940-bio1", "retained_sha256": "cac5dd1612d25594018ee1f6d16616157e184fb32b9542a1f7a615e5f2cc0b78",
+      "identity_status": "verified", "identity_qualification": "Native ND campaign, Velva, Naval Academy Class of 1990 and 2010 Marine Reserve retirement distinguish nominee from Norwegian sculptor namesake.",
+      "identity_fragments": ["Trygve Hammer"], "source_excerpts": ["Trygve Hammer", "graduated from Velva High School", "Class of 1990", "Marine Corps Reserve", "2010", "airline pilot", "defense contractor", "Job Corps"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_secondary_completion_and_separately_scoped_academy_history", "source_fragment": "graduated from Velva High School", "supporting_fragments": ["Class of 1990"], "factual_reference_date": "Secondary completion before Navy enlistment; academy Class of 1990", "value": "Completed Velva High School. Naval Academy admission, class and subsequent commission described; exact completed college credential not stated in this original."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_multiple_military_aviation_teaching_industrial_and_counseling_careers", "source_fragment": "airline pilot", "supporting_fragments": ["defense contractor", "Job Corps"], "factual_reference_date": "Civilian careers before/after 2016 North Dakota return; counselor described as current on undated page", "value": "Military/airline pilot, defense contractor, security consultant, grades 7-12 science teacher, oil roughneck, freight-rail conductor and Job Corps counselor."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_explicit_navy_and_marine_service_with_retirement", "source_fragment": "Marine Corps Reserve", "supporting_fragments": ["2010"], "factual_reference_date": "Navy enlistment before academy; Iraq 2003; Marine Reserve retirement 2010", "value": "Navy enlistment and Marine pilot, forward air controller, military attache/instructor; retired Marine Reserve major in 2010."}
+      ],
+      "extraction_review": "Complete original read. Job Corps affiliation, unnamed school and defense contracting do not prove direct civilian government employment. No age inferred from school year; no ancestry or 1878 birth date transferred from sculptor namesake."
+    },
+    {
+      "id": "220825-retained-complete-native-about-timeline", "candidate_id": "220825", "name": "Adam Hamawy", "state": "NJ", "district": "12", "party": "Democratic", "contest_id": "2026:house:NJ:12:general:source_general",
+      "family": "campaign", "url": "https://hamawyfornj.com/about", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220825-01c9808c27854b1f1184.html", "retained_sha256": "01c9808c27854b1f1184382bfef99c77433c1aeb099a0edf34bb35ffd8794a33",
+      "identity_status": "verified", "identity_qualification": "Native NJ12 campaign, Old Bridge, Rutgers/medical-school timeline and Princeton surgical practice match candidate-authored county-party CV.",
+      "identity_fragments": ["Adam Hamawy"], "source_excerpts": ["Adam Hamawy", "I graduated", "Rutgers University", "New Jersey Medical School", "earned an MBA", "attending surgeon", "Lieutenant Colonel", "2011", "1989", "2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_undergraduate_medical_and_mba_timeline", "source_fragment": "I graduated", "supporting_fragments": ["Rutgers University", "New Jersey Medical School", "earned an MBA", "2018"], "factual_reference_date": "Rutgers biology 1991, medical school 1996, Rutgers Camden MBA 2018", "value": "Completed Rutgers New Brunswick biology degree, New Jersey Medical School and Rutgers Camden MBA. Additional reconstructive training described separately, not another invented degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_surgical_practice_and_attending_careers", "source_fragment": "attending surgeon", "factual_reference_date": "Private Princeton practice founded 2013; local hospital attending work from 2014", "value": "Army trauma surgeon, reconstructive surgeon, private-practice founder and local hospital attending; volunteer humanitarian work separately identified."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_guard_active_army_and_retirement_chronology", "source_fragment": "Lieutenant Colonel", "supporting_fragments": ["1989", "2011"], "factual_reference_date": "New Jersey Army National Guard 1989-1991; active Army from 2003; retirement 2011", "value": "Own Guard and Army service, Iraq combat surgery and lieutenant-colonel retirement. Total service claim not mistaken for continuous active duty."}
+      ],
+      "extraction_review": "Full 8,804-character visible original reviewed, including timeline. Seven-month-old immigration under decade heading does not establish DOB. Father/pronouns not explicit gender; humanitarian volunteering and hospital names not proof of paid civilian government employment."
+    },
+    {
+      "id": "220698-retained-examiner-guide-own-panels", "candidate_id": "220698", "name": "Becky Stille", "state": "NE", "district": "03", "party": "Democratic", "contest_id": "2026:house:NE:03:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-general-u-s-house-district-3/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220698-44a60dac3a27f7182568.html", "retained_sha256": "44a60dac3a27f7182568e00875f49a170cabcab25c0c7fc4c60a5df0d708cfc1",
+      "identity_status": "verified", "identity_qualification": "Named Democratic NE03 South Sioux City candidate in contest guide; own answers isolated from four other candidates using heading/question boundaries.",
+      "identity_fragments": ["Becky Stille"], "source_excerpts": ["Becky Stille", "South Sioux City, 56", "bachelor\u2019s degree in accounting", "biofuels industry", "former small business owner", "detasseling corn"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "editor_reported_numeric_age_without_exact_observation_day", "source_fragment": "South Sioux City, 56", "factual_reference_date": "2026 general-election guide; submission/publication day unestablished", "value": "Guide reports age 56; not an exact November 3 age or birth date."},
+        {"trait": "education", "factual_status": "partial", "precision": "editor_reported_bachelor_award_level_unreconciled_with_prior_snippet", "source_fragment": "bachelor\u2019s degree in accounting", "factual_reference_date": "Credential before 2026 guide; school/year not given here", "value": "Editor biography reports completed accounting bachelor's. Prior AAS claim was only a professional-profile snippet; neither a verified contradiction nor independently reconciled degree level."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "editor_biofuels_role_and_own_agricultural_business_history", "source_fragment": "biofuels industry", "supporting_fragments": ["former small business owner", "detasseling corn"], "factual_reference_date": "Current biofuels work in 2026 guide and historical farm/small-business work", "value": "Biofuels/agricultural worker and former small-business owner; own first farm job at age 12 is not a dated current age."}
+      ],
+      "extraction_review": "Read editor introduction and every own substantive answer with question context; other candidates' answers, author biography and republished duplicates excluded. No explicit service/office negative, faith or identity statement found in these panels. Age and degree precision remain held."
+    },
+    {
+      "id": "220797-retained-native-title-only", "candidate_id": "220797", "name": "Zack Mullock", "state": "NJ", "district": "02", "party": "Democratic", "contest_id": "2026:house:NJ:02:general:source_general",
+      "family": "campaign", "url": "https://mullockforcongress.com/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220797-a1aa52e7114538270381.html", "retained_sha256": "a1aa52e7114538270381c2f5e263839322980a8522578de4456cf3c78ffee692",
+      "identity_status": "verified", "identity_qualification": "Retained native NJ02 campaign domain; Zack alias bridged to municipal Zachary biography through Cape May mayoral role.",
+      "identity_fragments": ["Zack Mullock"], "source_excerpts": ["Zack Mullock for Congress", "A Voice for South Jersey"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [],
+      "extraction_review": "Complete visible text is only a title, not a reviewed biography. New About reader also had no readable body; no snippet-derived facts accepted and campaign family remains open."
+    },
+    {
+      "id": "220797-city-official-mayor-biography", "candidate_id": "220797", "name": "Zack Mullock", "state": "NJ", "district": "02", "party": "Democratic", "contest_id": "2026:house:NJ:02:general:source_general",
+      "family": "official_biography", "url": "https://www.capemaycity.com/MayorZacharyMullock", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Municipal page explicitly names Zachary/Zack Mullock, Cape May mayor; matching South Jersey campaign and career establish person link.",
+      "identity_fragments": ["Zack Mullock"], "source_excerpts": ["Zack Mullock", "Mayor", "Cape May City Council", "obtained an MBA", "Saint Joseph\u2019s University", "Mount Saint Mary\u2019s University, BA", "PGA Golf Professional", "2010-2014"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_explicit_completed_ba_and_finance_mba", "source_fragment": "obtained an MBA", "supporting_fragments": ["Saint Joseph\u2019s University", "Mount Saint Mary\u2019s University, BA"], "factual_reference_date": "Credentials before current municipal biography; award dates unspecified", "value": "Completed Mount Saint Mary's BA and Saint Joseph's finance MBA."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_golf_and_property_careers", "source_fragment": "PGA Golf Professional", "supporting_fragments": ["2010-2014"], "factual_reference_date": "Golf professional 2010-2014; subsequent/current business roles on undated page", "value": "Golf professional, golf-club vice president and hotel/historic-property restoration manager. Museum general-contractor role explicitly volunteer."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_explicit_mayoral_and_prior_city_council_service", "source_fragment": "Mayor", "supporting_fragments": ["Cape May City Council"], "factual_reference_date": "Current mayor with term ending December 31, 2028; earlier city council service", "value": "Cape May mayor and previously city council member. Historic Preservation Commission is an additional role, not another automatically elected office."}
+      ],
+      "extraction_review": "Complete official biography and boards/education/career list read. Advisory commission and elected mayoral roles not substituted for separate paid civilian employment. Catholic charity board membership is not personal faith; father/pronouns not explicit gender."
+    },
+    {
+      "id": "220774-previously-read-2013-wmur-age-profile", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "earlier_biography", "url": "https://www.wmur.com/article/stefany-shaheen-considering-run-for-portsmouth-city-council/5181808", "publication_date": "2013-05-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "James Pindell's Portsmouth profile identifies Stefany, not mother Jeanne; Harvard and civic-career chronology corroborated by author biography.",
+      "identity_fragments": ["Shaheen"], "source_excerpts": ["Shaheen, 38", "master's degree", "Harvard Kennedy School", "Every Child Matters"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age_without_birth_day", "source_fragment": "Shaheen, 38", "factual_reference_date": "2013-05-22", "value": "38 in May 2013."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_masters", "source_fragment": "master's degree", "supporting_fragments": ["Harvard Kennedy School"], "factual_reference_date": "Before May 22, 2013", "value": "Harvard Kennedy master's."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_advocacy_role", "source_fragment": "Every Child Matters", "factual_reference_date": "2013-05-22", "value": "Advocacy group leader."}
+      ],
+      "extraction_review": "Preserves earlier complete story review in this batch. Later checking redirected to inaccessible Tollbit page; no retry or bypass. Considering candidacy is not explicit never-held-office evidence. Mother's records not transferred."
+    },
+    {
+      "id": "220774-complete-author-professional-biography", "candidate_id": "220774", "name": "Stefany Shaheen", "state": "NH", "district": "01", "party": "Democratic", "contest_id": "2026:house:NH:01:general:source_general",
+      "family": "university_employer_professional", "url": "https://www.bookreporter.com/authors/stefany-shaheen", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named Elle & Coach author, Portsmouth city councillor and Harvard graduate match earlier WMUR/candidate identity, not her mother.",
+      "identity_fragments": ["Stefany Shaheen"], "source_excerpts": ["Stefany Shaheen", "Harvard graduate", "launched a company", "City Council for the City of Portsmouth", "Board of Trustees"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_biography_explicit_graduation", "source_fragment": "Harvard graduate", "factual_reference_date": "Before undated author biography", "value": "Harvard graduate; degree level specified separately in dated WMUR source."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "professional_biography_company_and_nonprofit_roles", "source_fragment": "launched a company", "supporting_fragments": ["Board of Trustees"], "factual_reference_date": "Undated historical author biography, not assumed current in 2026", "value": "Company founder, author and nonprofit board/advocacy participant. Volunteer boards not government jobs."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "professional_biography_explicit_municipal_council_service", "source_fragment": "City Council for the City of Portsmouth", "factual_reference_date": "Undated historical biography; not asserted as current 2026 council service", "value": "Portsmouth city council service, distinct from mother Jeanne's offices."}
+      ],
+      "extraction_review": "Complete author biography and book description reviewed. Third-party family health details excluded. Historical present tense not extended to 2026; no own ethnicity, race, faith or military statement."
+    },
+    {
+      "id": "220698-complete-2025-examiner-launch-profile", "candidate_id": "220698", "name": "Becky Stille", "state": "NE", "district": "03", "party": "Democratic", "contest_id": "2026:house:NE:03:general:source_general",
+      "family": "local_profile", "url": "https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/", "publication_date": "2025-09-29", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Juan Salinas II identifies South Sioux City's Democratic NE03 candidate against Adrian Smith; same candidate as retained guide.",
+      "identity_fragments": ["Becky Stille"], "source_excerpts": ["Becky Stille", "work as an agricultural lab tech", "new to the inner workings of politics"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_agricultural_laboratory_job", "source_fragment": "work as an agricultural lab tech", "factual_reference_date": "2025-09-29", "value": "Agricultural laboratory technician, as reported in September 2025."}
+      ],
+      "extraction_review": "Whole original read through closing quotation. Political newcomer rhetoric is not an explicit no-office negative; author's Texas background and education not hers."
+    },
+    {
+      "id": "220825-candidate-letter-and-visual-cv", "candidate_id": "220825", "name": "Adam Hamawy", "state": "NJ", "district": "12", "party": "Democratic", "contest_id": "2026:house:NJ:12:general:source_general",
+      "family": "campaign", "url": "https://mcdonj.org/wp-content/uploads/2026/02/Adam-Hamawy-Info-4.pdf", "publication_date": "2026-02-21", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Candidate-authored dated letter requests NJ12 county-party endorsement; matching native domain and surgeon/Guard/Rutgers chronology. County host is not independent credential verification.",
+      "identity_fragments": ["Adam Hamawy"], "source_excerpts": ["Adam Hamawy", "BA, MD, MBA", "PrincetonMD", "United States Army", "2003", "2011", "Volunteer Faculty", "Rutgers University Senate", "1989-1991"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "own_cv_completed_credential_timeline", "source_fragment": "BA, MD, MBA", "factual_reference_date": "BA 1991, MD 1996, MBA 2018", "value": "Completed biology BA, MD and MBA; institutions and years agree with own campaign chronology."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_cv_named_practice_hospital_and_volunteer_academic_careers", "source_fragment": "PrincetonMD", "supporting_fragments": ["Volunteer Faculty"], "factual_reference_date": "Practice from 2013, hospital/academic appointments and historical WESTMED work; CV February 2026", "value": "Practice founder/director, reconstructive surgeon and hospital attending; clinical-instructor role explicitly volunteer."},
+        {"trait": "military", "factual_status": "qualified", "precision": "own_cv_guard_and_active_army_dates_and_discharge", "source_fragment": "United States Army", "supporting_fragments": ["2003", "2011", "1989-1991"], "factual_reference_date": "Guard 1989-1991, active Army 2003-2011, honorable discharge 2011", "value": "Lieutenant-colonel Army service and earlier New Jersey Guard enlistment; active and total military periods kept distinct."}
+      ],
+      "extraction_review": "All four pages read; both CV pages visually verified because text extraction scrambled headings. University senate/professional-society elections are not elected governmental office. Volunteer faculty not paid public employment; military medical-center role remains military. Contact details excluded."
+    },
+    {
+      "id": "220825-complete-dated-aljazeera-profile", "candidate_id": "220825", "name": "Adam Hamawy", "state": "NJ", "district": "12", "party": "Democratic", "contest_id": "2026:house:NJ:12:general:source_general",
+      "family": "local_profile", "url": "https://www.aljazeera.com/amp/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress", "publication_date": "2026-11-05", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Stephen Quillen; updated November 6. Post-election original quotes an earlier own affiliation statement; no verified pre-election snapshot.",
+      "identity_status": "verified", "identity_qualification": "Full named NJ12 reconstructive surgeon, Rutgers/medical-school education and Army service match own biography/CV.",
+      "identity_fragments": ["Hamawy"], "source_excerpts": ["Hamawy", "56-year-old", "Egyptian-American", "As a Muslim", "medical degree", "surgeon", "US Army"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_numeric_age", "source_fragment": "56-year-old", "factual_reference_date": "2026-11-05", "value": "56."},
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "reported_national_origin_not_verified_ethnic_self_identification", "source_fragment": "Egyptian-American", "factual_reference_date": "2026-11-05", "value": "Egyptian-American; national-origin wording only."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_own_affiliation_quoted_in_dated_profile", "source_fragment": "As a Muslim", "factual_reference_date": "Own statement earlier in 2026, quoted November 5", "value": "Muslim."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_medical_credential", "source_fragment": "medical degree", "factual_reference_date": "Before 2026", "value": "NJ Medical degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_named_profession", "source_fragment": "surgeon", "factual_reference_date": "2026-11-05", "value": "Surgeon."},
+        {"trait": "military", "factual_status": "qualified", "precision": "reported_explicit_own_service", "source_fragment": "US Army", "factual_reference_date": "Historical service", "value": "Army veteran."}
+      ],
+      "extraction_review": "Complete underlying story read. National origin not converted into race or Arab identity. No inference from pronouns or grammatical congressman label. Unrelated allegations and political narrative not retained; strict bounded source-derived wording."
+    },
+    {
+      "id": "220695-leadership-now-complete-linked-profile", "candidate_id": "220695", "name": "Denise  Powell", "state": "NE", "district": "02", "party": "Democratic", "contest_id": "2026:house:NE:02:general:source_general",
+      "family": "university_employer_professional", "url": "https://leadershipnowproject.org/candidates/denise-powell/", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Named NE02 profile explicitly links native candidate campaign, Women Who Run Nebraska and communications career; not Denise Mucarsel-Powell.",
+      "identity_fragments": ["Denise Powell"], "source_excerpts": ["Denise Powell", "bachelor's degree in communications", "University of Miami", "communications director", "Alley Poyner Macchietto Architecture", "first Latina"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_profile_explicit_completed_named_bachelors", "source_fragment": "bachelor's degree in communications", "supporting_fragments": ["University of Miami"], "factual_reference_date": "Credential before campaign; exact award year unstated", "value": "Completed University of Miami communications bachelor's, as reported by endorsing organization."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "professional_profile_named_communications_architecture_and_civic_roles", "source_fragment": "communications director", "supporting_fragments": ["Alley Poyner Macchietto Architecture"], "factual_reference_date": "Historical careers and civic organization before 2026 campaign", "value": "Nebraska Loves Public Schools communications director, architecture-firm partner and Women Who Run Nebraska co-founder; civic work not assumed public employment."},
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_reported_latina_classification_corroborated_by_own_statement", "source_fragment": "first Latina", "factual_reference_date": "2026 candidacy profile; source publication day unstated", "value": "Explicit Latina classification; corroborated by own dated PODER quotation, not inferred from endorsement alone."}
+      ],
+      "extraction_review": "Read complete candidate paragraph, not other candidates' cards. University credential is newly qualified existing evidence, not first education acquisition. Latina does not establish a racial category."
+    },
+    {
+      "id": "220695-poder-dated-own-latina-statement", "candidate_id": "220695", "name": "Denise  Powell", "state": "NE", "district": "02", "party": "Democratic", "contest_id": "2026:house:NE:02:general:source_general",
+      "family": "campaign", "url": "https://www.poderpac.com/_files/ugd/c838c1_536725a6508a4f88bbdb221b7d528eb1.pdf", "publication_date": "2025-05-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Dated original expressly identifies Denise Powell running in NE02, with her own quoted statement and matching campaign biography.",
+      "identity_fragments": ["Denise Powell"], "source_excerpts": ["Denise Powell", "I look forward to making history as the first Latina", "small business owner", "career in corporate America"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_own_latina_self_description_in_attributed_dated_statement", "source_fragment": "I look forward to making history as the first Latina", "factual_reference_date": "2025-05-22", "value": "Own explicit Latina self-description in quotation about representing Nebraska in Congress; not inferred from surname or parents' origins."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_candidate_business_and_corporate_background", "source_fragment": "small business owner", "supporting_fragments": ["career in corporate America"], "factual_reference_date": "2025-05-22 and earlier career", "value": "Small-business owner and former corporate professional; candidate-support activism not her own elected office."}
+      ],
+      "extraction_review": "Read entire original press release, including exact quotation and candidate biography. First-Latina-to-Congress aspiration does not prove no earlier local office. Parents' identities, policy references and other candidates not transferred."
+    },
+    {
+      "id": "220804-retained-complete-own-2026-bp-questionnaire", "candidate_id": "220804", "name": "Rachel Peace", "state": "NJ", "district": "04", "party": "Democratic", "contest_id": "2026:house:NJ:04:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Rachel_Peace", "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220804-b85e0679e22a605f8a47.html", "retained_sha256": "b85e0679e22a605f8a4741103842e5445b068783e66d912139ba601010d894ba",
+      "source_date_note": "Footnote identifies own questionnaire submission April 29, 2026. Page also contains later election updates; submission and page vintage not conflated.",
+      "identity_status": "verified", "identity_qualification": "Named NJ04 nominee against Chris Smith, matching native campaign, Hofstra and Hyperfocused Communications biography.",
+      "identity_fragments": ["Rachel Peace"], "source_excerpts": ["Rachel Peace", "the millennial", "BA in Public Relations", "Hofstra University in 2014", "Hyperfocused Communications", "2022", "on-campus security and event jobs"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "own_generational_description_without_numeric_birth_interval", "source_fragment": "the millennial", "factual_reference_date": "2026-04-29 questionnaire", "value": "Own generational self-description only; no exact birth year, bounds or numerical election age."},
+        {"trait": "education", "factual_status": "qualified", "precision": "own_explicit_completed_named_bachelors_and_year", "source_fragment": "BA in Public Relations", "supporting_fragments": ["Hofstra University in 2014"], "factual_reference_date": "2014 graduation, questionnaire April 29, 2026", "value": "Completed Hofstra public-relations BA in 2014, with drama/sociology minors; high-school diploma separately reported in biography."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_named_business_and_earlier_employment", "source_fragment": "Hyperfocused Communications", "supporting_fragments": ["2022", "on-campus security and event jobs"], "factual_reference_date": "Business founded 2022 and earlier student/PR work", "value": "Communications founder/media-relations and content-marketing professional; earlier referee, food-service, daycare and campus jobs. Employer type does not establish government employment."}
+      ],
+      "extraction_review": "Complete retained page and every own survey answer read, including first-job and life-struggle answers. No fresh request needed. Public-servant rhetoric, first job at 12 and first remembered event not transformed into elected office, public employment or birth year. No explicit military/faith/race negative."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220774", "family": "earlier_biography", "query": "\"Stefany Shaheen\" biography birth religion education", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wmur.com/article/stefany-shaheen-considering-run-for-portsmouth-city-council/5181808", "https://www.bookreporter.com/authors/stefany-shaheen"], "note": "Originals read; historical ages, education and municipal service kept dated."},
+    {"candidate_id": "220797", "family": "official_biography", "query": "\"Zack Mullock\" mayor biography military", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.capemaycity.com/MayorZacharyMullock"], "note": "Official original read; military omitted, not a negative."},
+    {"candidate_id": "220825", "family": "local_profile", "query": "\"Adam Hamawy\" religion Muslim biography", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aljazeera.com/amp/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress", "https://mcdonj.org/wp-content/uploads/2026/02/Adam-Hamawy-Info-4.pdf"], "note": "Underlying originals read; national origin not inferred racial/ethnic self-identification."},
+    {"candidate_id": "220698", "family": "ballotpedia_questionnaire", "query": "\"Becky Stille\" biography age education", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nebraskaexaminer.com/voter-guides/contests/2026-general-u-s-house-district-3/"], "note": "Already held original located beyond newer transport queue, not downloaded again."},
+    {"candidate_id": "220797", "family": "official_biography", "query": "\"Zack Mullock\" site:capemaycity.com", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.capemaycity.com/MayorZacharyMullock"], "note": "Full office, education and professional sections read."},
+    {"candidate_id": "220774", "family": "university_employer_professional", "query": "\"Stefany Shaheen\" site:fairfield.edu", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "note": "No clearly matched institutional original retained in combined response. Not an exhausted university family."},
+    {"candidate_id": "220698", "family": "local_profile", "query": "\"Becky Stille\" \"born\"", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://nebraskaexaminer.com/2025/09/29/democrat-becky-stille-runs-in-nebraskas-most-conservative-congressional-district/"], "note": "Original read; no birth date established."},
+    {"candidate_id": "220940", "family": "earlier_biography", "query": "\"Trygve Hammer\" \"born\" religion church", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.pbs.org/video/face-to-face-north-dakota-us-house-debate-rhvu7e/"], "note": "Selected 2024 debate remains actionable. Sculptor namesake explicitly rejected; no transferred 1878 birth date or church information."},
+    {"candidate_id": "220940", "family": "local_profile", "query": "\"Trygve Hammer\" age biography religion", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "note": "No additional mapped original retained from combined call; not a completed source family."},
+    {"candidate_id": "220695", "family": "local_profile", "query": "\"Denise Powell\" biography education religion military", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "note": "Specific newly selected endorser originals subsequently discovered/read and separately logged."},
+    {"candidate_id": "220804", "family": "local_profile", "query": "\"Rachel Peace\" biography age education religion", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "note": "No unreviewed snippet or automatically generated summary accepted. Retained own questionnaire subsequently located and read instead."},
+    {"candidate_id": "220811", "family": "local_profile", "query": "\"Rebecca Bennett\" religion race interview", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "note": "No mapped underlying new interview retained; no affiliation inferred."},
+    {"candidate_id": "220695", "family": "campaign", "query": "Denise Powell PODER Latina Congress 2026", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.poderpac.com/_files/ugd/c838c1_536725a6508a4f88bbdb221b7d528eb1.pdf"], "note": "Full dated press-release original read; own explicit Latina quotation, not endorsement membership alone."},
+    {"candidate_id": "220695", "family": "university_employer_professional", "query": "Denise Powell Leadership Now Project biography", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://leadershipnowproject.org/candidates/denise-powell/"], "note": "Followed actual candidate link from archive; full candidate paragraph read."},
+    {"candidate_id": "220825", "family": "local_profile", "query": "Adam Hamawy Muslim November 5 2026 Al Jazeera", "query_kind": "search_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aljazeera.com/amp/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress"], "note": "Canonical original read, not unrelated search mirrors or generated briefs."},
+    {"candidate_id": "220804", "family": "ballotpedia_questionnaire", "query": "Locate hash-verified already held Rachel Peace original and read complete biography and all own Candidate Connection answers.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Rachel_Peace"], "note": "Retained source candidate-bio-220804-b85e0679e22a605f8a47; no network repeat."},
+    {"candidate_id": "220797", "family": "campaign", "query": "Read native homepage and selected campaign About original.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://mullockforcongress.com/", "https://mullockforcongress.com/about"], "note": "Homepage title-only; About reader no readable body, no explicit denial. Not a completed campaign family or claim that browser rendering is impossible."},
+    {"candidate_id": "220774", "family": "earlier_biography", "query": "Check previously read historical WMUR profile during journal qualification.", "query_kind": "source_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.wmur.com/article/stefany-shaheen-considering-run-for-portsmouth-city-council/5181808"], "note": "Earlier complete original reading preserved. Later reader redirected to inaccessible Tollbit URL; no retries or bypass."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220695", "note": "Own dated Latina identity newly supported. Continue substantive local/earlier interviews, University of Miami/professional originals, explicit own faith/race and scoped office/government/military evidence. Endorser degree qualification is not first education acquisition."},
+    {"candidate_id": "220698", "note": "Guide introduction and all own questionnaire answers now read; age56 lacks exact observation day. Reconcile actual completed accounting credential using institution/employer original, not earlier AAS snippet. Continue campaign, official, professional and earlier families and explicit identity/service evidence."},
+    {"candidate_id": "220940", "url": "https://www.pbs.org/video/face-to-face-north-dakota-us-house-debate-rhvu7e/", "note": "Selected own 2024 debate transcript remains unread. Continue dated age, official Navy/Marine/alumni, actual Job Corps employer and public-school employment originals, explicit identity/affiliation and scoped office/nonservice facts. Norwegian sculptor rejected."},
+    {"candidate_id": "220774", "note": "Current homepage is transition-only; historical author and WMUR originals reviewed. Continue actual municipal/university and substantive campaign/interview originals. Remaining race/ethnicity/religion/military fields not unavailable merely because these pages omit them. WMUR later inaccessible; do not retry."},
+    {"candidate_id": "220797", "url": "https://newjerseyglobe.com/congress/zack-mullock-launches-nj-2-campaign-with-some-top-south-jersey-dems-already-behind-him/amp/", "note": "Selected dated launch profile may provide age and office chronology; original not yet read. Official mayor/council evidence now accepted. Campaign body remains unread; browser rendering may help without evading restrictions. Advisory/volunteer/elected roles do not prove separate paid employment."},
+    {"candidate_id": "220804", "note": "Complete native About and retained own 2026 questionnaire reviewed; millennial is partial age only. Continue Hofstra/employer, substantive local/earlier interviews and official sources for precise age, explicit identities/faith and scoped office/military history. Do not rely on unattributed generated age summaries."},
+    {"candidate_id": "220811", "note": "Full native biography reviewed. Continue Cornell/Wharton, Navy/Guard and substantive local/earlier interviews for remaining race/ethnicity/religion/prior-office evidence. Test Pilot School selection not a completed credential; military not double-counted as civilian employment."},
+    {"candidate_id": "220825", "note": "Full native timeline, own dated letter/CV and substantive profile reviewed. Muslim self-description qualified; Egyptian-American retained only as partial national-origin wording, not race/verified ethnic self-ID. Continue institutional, questionnaire and earlier sources for explicit identities, office and separate paid civilian employment. Volunteer faculty/senate roles not employment or elected public office."}
+  ],
+  "unaccepted_review_notes": [
+    "No six-family completion claimed for any of the eight candidates. Source omissions, not-yet-in-office rhetoric, volunteering and campaign support are not service negatives.",
+    "Reader-only originals have no acquired-byte or redistribution claim. Retained originals have independently verified hashes; previously downloaded bodies were not reacquired.",
+    "All newly coded facts remain outside frozen scientific fits and predictions, including post-election sources and retrospectively reported historical facts."
+  ]
+}

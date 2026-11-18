@@ -149,6 +149,41 @@ accepted. The Carver questionnaire and Richards Publishing profile timed out;
 the old Osberg campaign path returned404 and Detroit Lakes original was
 restricted. None exhausts independent sources or the national roster.
 
+## Northeast and Plains continuation
+
+Relative to `2b46ad6`, this checkpoint adds 66 document reviews, 203 claims,
+23 first-evidence fields and 12 first-qualified fields. Nineteen first fields
+and eight first-qualified fields are among known Democratic nonincumbents.
+Seven first fields are age, five are prior office, five are religion, three
+are ethnicity, two are other government employment and one is race. These
+are changes to factual evidence, not additions to a fitted sample.
+
+The journals include earlier-campaign and institutional follow-ups in Nebraska,
+North Dakota, New Hampshire and New Jersey; retained originals, official
+minutes and congressional testimony; and new or expanded New York candidate
+passes. Education and employment distinctions matter: a prospective Wharton
+MBA is not a degree; Shaheen's initial police commission appointment was a
+council vote and does not by itself prove paid employment or popular election;
+Lasher's own questionnaire documents an NYU degree rather than merely
+attendance. Halpin's historical age remains partial; his named congressional
+staff role qualifies existing employment evidence rather than adding a first
+field. Valdez's tribal citizenship is not a racial assignment. Her reported
+Latina classification and Mexican ancestry are separate observations. Avila
+Chevalier's explicit religious affiliation and quoted self-description do
+not establish a precise conversion date or prediction-time availability.
+
+There are now 724 reviews, 2,040 claims, 284 first-evidence fields and 165
+first-qualified fields since the frozen factual baseline. The status counts
+are 12 completed, 188 active and 1,084 untouched; among the 449 Democrats
+they are 12, 160 and 277; among the 266 known Democratic nonincumbents they
+are 12, 155 and 99. None of the passes added since `2b46ad6` is complete.
+These counts leave two separate tasks: open first passes for untouched
+nonincumbents (next: Mississippi and North Carolina), and verify that
+near-complete active passes have resolved their specific underlying leads.
+A source-family marker by itself does not establish that all selected
+originals were reviewed or that a family was exhausted. Continue to other
+parties and incumbents through the retained roster. No frozen fit changed.
+
 ## What counts as research
 
 Campaign-page retrieval is complete as a transport operation, not a person-level
