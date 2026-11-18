@@ -1,0 +1,339 @@
+{
+  "baseline": "818d7fc1ce46e611193daf3afe05015bc395887f",
+  "sources": [
+    {
+      "id": "south-carolina-khalifa-filed-statement-2026",
+      "family": "official-filing-detail-schema",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/ViewCandidateDocument?candidateId=24437&documentTypeSid=SICPledge",
+      "candidate_id": "221075",
+      "potential_fields": ["identity", "age", "gender", "race", "profession"],
+      "discovery_basis": "Exact ViewCandidateDocument route and SICPledge key declared by the public candidate-detail page's ordinary document click handler"
+    },
+    {
+      "id": "south-carolina-khalifa-public-detail-2026",
+      "family": "official-filing-detail-schema",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/CandidateDetail/?candidateId=24437&electionId=22596&searchType=Default",
+      "candidate_id": "221075",
+      "potential_fields": ["identity", "age", "gender", "race"],
+      "discovery_basis": "Exact public detail anchor on Zyon Khalifa's SC02 Democratic result row, resolved relative to the browser's CandidateSearch page"
+    },
+    {
+      "id": "south-carolina-house-search-results-2026",
+      "family": "official-filing-detail-schema",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/CandidateSearch/",
+      "post_data": {
+        "ElectionId": "22596",
+        "SelectedOffice": "378",
+        "SelectedCandidateStatus": "All",
+        "CandidateFirstName": "",
+        "CandidateLastName": "",
+        "SelectedPoliticalParty": "All",
+        "SelectedFilingLocation": "All"
+      },
+      "potential_fields": ["identity", "age", "gender", "race"],
+      "discovery_basis": "Exact public POST route and FormData fields declared by CandidateSearch.js; office 378 is explicitly U.S. House in the acquired General 2026 selector"
+    },
+    {
+      "id": "south-carolina-general-search-2026",
+      "family": "official-filing-detail-schema",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/CandidateSearch?electionId=22596",
+      "potential_fields": ["identity", "age", "gender", "race"],
+      "discovery_basis": "Public redirect from an ordinary session/CSRF-protected SelectElection submission for General, 2026, election 22596; no endpoint guessing or access bypass"
+    },
+    {
+      "id": "south-carolina-candidate-search-script",
+      "family": "official-filing-detail-schema",
+      "url": "https://vrems.scvotes.sc.gov/js/Candidate/CandidateSearch.js",
+      "potential_fields": ["identity"],
+      "discovery_basis": "Script explicitly linked by the public CandidateSearch page; inspect declared result and detail fields"
+    },
+    {
+      "id": "knowwho-field-definitions-2021",
+      "family": "explicit-service-classifications",
+      "url": "https://kw2.knowwho.com/Files/Developer/Manual_CKW_SKW_Level2DataService.pdf",
+      "potential_fields": ["military", "education", "profession"],
+      "discovery_basis": "Publisher's Level 2 field manual, updated May 14, 2021; distinguish historical branch/date fields from verified current lifetime nonservice"
+    },
+    {
+      "id": "wrkf-louisiana-third-candidate-questionnaire-2026",
+      "family": "control-reporter-verification",
+      "url": "https://www.wrkf.org/politics/2026-10-20/nov-3-election-guide-meet-the-3rd-congressional-district-candidates",
+      "candidate_id": "220434",
+      "potential_fields": ["incumbency", "prior_elected_office", "military", "profession", "other_government"],
+      "discovery_basis": "Dated public-broadcaster report explicitly names Caleb Walker as a challenger for incumbent Clay Higgins in LA03; cross-check retained official ballot roster and positively identified incumbent, without inventing a FEC match"
+    },
+    {
+      "id": "phone2action-117th-freshman-guide-2021",
+      "family": "explicit-service-classifications",
+      "url": "https://www.nationalpawnbrokers.org/assets/2021/02/Freshman-Guide-117th-Congress.pdf",
+      "potential_fields": ["military", "education", "profession", "prior_elected_office", "other_government", "age", "religion"],
+      "discovery_basis": "Phone2Action directory explicitly describes its KnowWho-based freshman population and prints individual Military Service fields, including literal None; review definitions, native identities, timing and conflicts before qualification"
+    },
+    {
+      "id": "montana-miller-authored-questionnaire-2026",
+      "family": "remaining-public-source-discovery",
+      "url": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/c/e8/ce8bb32d-df3f-4824-8a53-de3d077c1500/69f34e8650277.pdf.pdf",
+      "candidate_id": "220677",
+      "potential_fields": ["age", "education", "profession"],
+      "discovery_basis": "Native MT02 candidate's authored questionnaire names Brian J. Miller and explicitly supplies the exact native campaign domain"
+    },
+    {
+      "id": "montana-bar-miller-biography-2011",
+      "family": "remaining-public-source-discovery",
+      "url": "https://www.montanabar.org/Portals/MONTANA/Site%20Resources/Montana%20Lawyer/Past%20issues/2011/2011/February2011MTLawyer.pdf?ver=sx0lI-Mhi8ijYJ1-qQeQCw%3D%3D",
+      "candidate_id": "220677",
+      "potential_fields": ["education", "profession", "other_government"],
+      "discovery_basis": "Contemporaneous professional biography explicitly names Brian Miller and documents his 2007 bar entry, three-year Cotter clerkship and 2010 law-firm appointment"
+    },
+    {
+      "id": "south-carolina-general-election-options-2026",
+      "family": "remaining-public-source-discovery",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/GetElections?electionType=General&year=2026",
+      "potential_fields": ["age", "gender", "race"],
+      "discovery_basis": "Exact ordinary public GET constructed by the acquired SelectElection.js when selecting General and 2026"
+    },
+    {
+      "id": "oklahoma-live-public-filings-2026",
+      "family": "remaining-public-source-discovery",
+      "url": "https://filings.okelections.gov/ViewCandidates/2026040120260403/99/all",
+      "potential_fields": ["age"],
+      "discovery_basis": "Literal candidate-list link on the acquired state filing index; inspect whether candidate declarations are downloadable"
+    },
+    {
+      "id": "south-carolina-public-selector-script",
+      "family": "remaining-public-source-discovery",
+      "url": "https://vrems.scvotes.sc.gov/js/Candidate/SelectElection.js",
+      "potential_fields": ["age", "gender", "race"],
+      "discovery_basis": "Script linked by the acquired public election selector; inspect ordinary public navigation"
+    },
+    {
+      "id": "tlingit-haida-authored-questionnaires-2026",
+      "family": "remaining-public-source-discovery",
+      "url": "https://tlingitandhaida.gov/about-us/2026-election-information/",
+      "potential_fields": ["education", "profession", "race", "ethnicity", "prior_elected_office", "other_government", "military"],
+      "discovery_basis": "Candidate-authored congressional questionnaire on the publisher's public election page"
+    },
+    {
+      "id": "future-caucus-2026-full-report",
+      "family": "remaining-public-source-discovery",
+      "url": "https://futurecaucus.org/wp-content/uploads/2026/10/On-the-Rise-2026.pdf",
+      "potential_fields": ["age", "gender", "prior_elected_office"],
+      "discovery_basis": "Full report linked by the acquired methods page; determine whether named concrete rather than estimated candidate ages are public"
+    },
+    {
+      "id": "tennessee-church-questionnaire-index-2026",
+      "family": "remaining-public-source-discovery",
+      "url": "https://churchvoterguidesnetn.org/",
+      "potential_fields": ["military", "prior_elected_office", "other_government", "religion"],
+      "discovery_basis": "Publisher of the retained explicit Military Background negative; inspect other matched-cohort questionnaire editions without treating blank or N/A as no service"
+    },
+    {
+      "id": "maine-dunlap-legislative-biography-2004",
+      "family": "dated-official-career-histories",
+      "url": "https://lldc.mainelegislature.org/Open/LegRec/122/House/LegRec_2004-12-01_HP_pH0001-0027.pdf",
+      "potential_fields": ["education", "profession", "prior_elected_office", "other_government"],
+      "candidate_id": "220468",
+      "discovery_basis": "Dated legislative nomination describes Matthew and Matt Dunlap, degrees and elected history"
+    },
+    {
+      "id": "miller-dated-candidate-interview-2026",
+      "family": "dated-candidate-interviews",
+      "url": "https://www.newsfromthestates.com/article/democrat-miller-looks-challenge-downing-congress",
+      "potential_fields": ["age", "education", "profession", "other_government"],
+      "candidate_id": "220677",
+      "discovery_basis": "January 7 interview explicitly names the Montana candidate and links his native campaign"
+    },
+    {
+      "id": "decillis-native-campaign-name-bridge",
+      "family": "native-campaign-identity-repair",
+      "url": "https://www.decillisforcongress.com/news",
+      "potential_fields": ["education", "profession", "other_government"],
+      "candidate_id": "220853",
+      "discovery_basis": "Native campaign news page explicitly uses Michael and Mike DeCillis"
+    },
+    {
+      "id": "alaska-begich-uncovered-statement-2026",
+      "family": "uncovered-official-statements",
+      "url": "https://elections.alaska.gov/doc/oep/2026/BEGICH%2C%20NICK_US%20Rep_Eng_06.25.26-PWeb.pdf",
+      "potential_fields": ["age", "education", "profession", "prior_elected_office", "military"],
+      "candidate_id": "219754",
+      "discovery_basis": "Literal stem in the official candidate table; ordinary PDF suffix tested once"
+    },
+    {
+      "id": "alaska-hill-uncovered-statement-2026",
+      "family": "uncovered-official-statements",
+      "url": "https://elections.alaska.gov/doc/oep/2026/HILL%2C%20BILL_US%20Rep_Eng_06.25.26-PWeb.pdf",
+      "potential_fields": ["age", "education", "profession", "prior_elected_office", "military"],
+      "candidate_id": "219757",
+      "discovery_basis": "Literal stem in the official candidate table; ordinary PDF suffix tested once"
+    },
+    {
+      "id": "alaska-mcdermott-uncovered-statement-2026",
+      "family": "uncovered-official-statements",
+      "url": "https://elections.alaska.gov/doc/oep/2026/Mcdermott%2C%20James%20C_%20USRep_Eng_06.07.26-PWEB.pdf",
+      "potential_fields": ["age", "education", "profession", "prior_elected_office", "military"],
+      "candidate_id": "219756",
+      "discovery_basis": "Literal stem in the official candidate table; ordinary PDF suffix tested once"
+    },
+    {
+      "id": "fec-khalifa-form2-june-02159",
+      "family": "held-control-identity",
+      "url": "https://docquery.fec.gov/pdf/165/202606069870434165/202606069870434165.pdf",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-wilson-form2-august-05325",
+      "family": "held-control-identity",
+      "url": "https://docquery.fec.gov/pdf/372/202608109899434372/202608109899434372.pdf",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-wilson-form2-august-05333",
+      "family": "held-control-identity",
+      "url": "https://docquery.fec.gov/pdf/879/202608109899436879/202608109899436879.pdf",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "ffrf-burke-dated-self-description",
+      "family": "national-affiliation-interviews",
+      "url": "https://ffrfaction.org/secularist-wants-to-reconstruct-congress-after-deconstructing-her-faith/",
+      "potential_fields": ["religion"],
+      "candidate_id": "221173"
+    },
+    {
+      "id": "fec-khalifa-candidate-02159",
+      "family": "held-control-identity",
+      "url": "https://www.fec.gov/data/candidate/H6SC02159/?cycle=2026",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-khalifa-candidate-02167",
+      "family": "held-control-identity",
+      "url": "https://www.fec.gov/data/candidate/H6SC02167/?cycle=2026",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-khalifa-form2-june",
+      "family": "held-control-identity",
+      "url": "https://docquery.fec.gov/pdf/190/202606069870434190/202606069870434190.pdf",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-wilson-candidate-05325",
+      "family": "held-control-identity",
+      "url": "https://www.fec.gov/data/candidate/H6LA05325/?cycle=2026",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "fec-wilson-candidate-05333",
+      "family": "held-control-identity",
+      "url": "https://www.fec.gov/data/candidate/H6LA05333/?cycle=2026",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "brian-miller-campaign-candidacy-statement",
+      "family": "retained-biography-identity-repair",
+      "url": "https://www.miller4congress.com/about-5",
+      "potential_fields": ["identity"],
+      "candidate_id": "220677"
+    },
+    {
+      "id": "alaska-uncovered-candidate-statement-links",
+      "family": "uncovered-official-statements",
+      "url": "https://www.elections.alaska.gov/election-candidates/",
+      "potential_fields": ["discovery"]
+    },
+    {
+      "id": "ffrf-burke-candidate-interview-search",
+      "family": "national-affiliation-interviews",
+      "url": "https://ffrfaction.org/wp-json/wp/v2/posts?search=Kristi%20Burke&per_page=5",
+      "potential_fields": ["discovery"]
+    }
+    ,
+    {
+      "id": "oklahoma-candidate-book-2026",
+      "family": "official-filing-discovery",
+      "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf",
+      "potential_fields": ["discovery", "identity"]
+    },
+    {
+      "id": "oklahoma-federal-candidate-form-2026",
+      "family": "official-filing-definitions",
+      "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/candidate-filing-packets/2026-candidate-filing-packets/2026-us-senator-us-rep-filing-packet.pdf",
+      "potential_fields": ["schema_only"]
+    },
+    {
+      "id": "south-carolina-candidate-tracking",
+      "family": "official-filing-discovery",
+      "url": "https://vrems.scvotes.sc.gov/Candidate/SelectElection",
+      "potential_fields": ["identity"]
+    },
+    {
+      "id": "alaska-publication-editions-2026",
+      "family": "uncovered-official-statements",
+      "url": "https://www.elections.alaska.gov/publications/",
+      "potential_fields": ["discovery"],
+      "definition": "Find only remaining native House statements; Hafner already acquired in V8"
+    },
+    {
+      "id": "future-caucus-2026-methods",
+      "family": "national-age-data-discovery",
+      "url": "https://futurecaucus.org/on-the-rise-2026/",
+      "potential_fields": ["methods", "discovery"],
+      "definition": "Public aggregates are not candidate-level data; inferred graduation-based ages are incompatible"
+    },
+    {
+      "id": "ffrf-authored-candidate-interview-index",
+      "family": "national-affiliation-interviews",
+      "url": "https://ffrfaction.org/category/news-blogs/",
+      "potential_fields": ["discovery"],
+      "definition": "Find candidate statements, not religion inferred from endorsement or awards"
+    },
+    {
+      "id": "california-certified-candidates-2026",
+      "family": "official-occupation-filings",
+      "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+      "potential_fields": ["profession", "prior_elected_office"],
+      "expected_candidates": ["Exact native California House names, districts and parties; retain unmatched rows"],
+      "reference_date": "2026-08-27",
+      "definition": "Candidate ballot occupation/designation; not a verified complete career or degree record"
+    },
+    {
+      "id": "california-designation-definitions",
+      "family": "official-occupation-filings",
+      "url": "https://www.sos.ca.gov/administration/regulations/current-regulations/elections/ballot-designations",
+      "potential_fields": ["definitions"],
+      "expected_candidates": []
+    },
+    {
+      "id": "oklahoma-candidate-filing-2026",
+      "family": "official-filing-discovery",
+      "url": "https://oklahoma.gov/elections/candidates/2026-candidate-filing-information.html",
+      "potential_fields": ["discovery"],
+      "expected_candidates": ["Five Oklahoma Democratic House nominees and their native opponents"]
+    },
+    {
+      "id": "south-carolina-candidate-filings",
+      "family": "official-filing-discovery",
+      "url": "https://scvotes.gov/candidates/",
+      "potential_fields": ["discovery", "incumbency"],
+      "expected_candidates": ["Zyon Khalifa SC02 identity bridge and native South Carolina candidates"]
+    },
+    {
+      "id": "west-virginia-candidate-announcement-form-2026",
+      "family": "official-filing-definitions",
+      "url": "https://sos.wv.gov/media/407/download?inline=",
+      "potential_fields": ["schema_only"],
+      "expected_candidates": [],
+      "definition": "Blank form is a schema source, never evidence of a candidate value"
+    },
+    {
+      "id": "north-carolina-candidate-list-definitions",
+      "family": "official-filing-definitions",
+      "url": "https://www.ncsbe.gov/results-data/candidate-lists",
+      "potential_fields": ["schema_only"],
+      "expected_candidates": [],
+      "definition": "Inspect documented list schema; do not assume Louisiana demographic fields exist"
+    }
+  ]
+}

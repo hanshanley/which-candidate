@@ -1,0 +1,16 @@
+trait,new_evidence_source_hashes,new_observations,source_informed_candidates,newly_informed_candidates,existing_fields_newly_qualified,factual_before,factual_after,analytical_before,analytical_after,remaining_limitations,cohort_denominator,first_retained_original_fields,newly_qualified_factual_fields,retained_reported_fields_newly_qualified,no_qualified_factual_value,unknown_after,structurally_inapplicable,identity_or_conflict_holds,timing_or_coding_holds,fitted_before,fitted_after,prediction_supported,prediction_target
+age,4,4,3,3,0,261,264,197,198,Exact age remains incumbent-heavy; year/month intervals are separate.,449,3,3,0,185,182,0,0,69,156,156,156,156
+gender,3,3,3,3,0,302,305,296,296,Explicit public descriptions retained; incompatible source definitions not pooled.,449,3,3,0,144,144,0,0,9,243,243,243,243
+race,4,4,4,4,0,185,189,122,122,Own descriptions do not extend the restricted historical Black/White estimand.,449,4,4,0,260,260,0,0,67,99,99,99,99
+ethnicity,2,2,2,2,0,131,133,112,112,Own descriptions separate from the historical author-coded Latino contrast.,449,2,2,0,316,316,0,0,21,89,89,89,89
+religion,5,5,5,3,0,188,191,170,171,Explicit dated descriptions only; new challenger coverage remains selective.,449,3,3,0,258,258,0,0,20,123,123,122,123
+education,49,50,40,0,38,273,311,211,217,"Completed supported level only; attendance, undated timing and contradictions held.",449,0,38,38,138,2,0,1,229,168,172,172,172
+profession,40,62,56,0,55,198,253,105,105,Four historical families only; mixed families and outside occupations held.,449,0,55,35,196,0,0,0,344,78,78,78,78
+prior_elected_office,21,21,21,4,15,145,164,0,0,Scoped retained negatives insufficient; histories not before first House entry.,449,3,19,14,285,186,0,0,263,0,0,0,0
+other_government,19,19,18,3,6,35,44,0,0,"Documented jobs distinct from advisory, elected and contractor roles; negative support absent.",449,3,9,6,405,166,0,0,283,0,0,0,0
+military,5,5,5,0,3,56,59,34,37,Positive records and one retained explicit negative; negative category below ten in three states.,449,0,3,2,390,365,0,0,47,0,0,0,0
+incumbency,5,5,3,1,0,446,449,446,449,Three V8 controls resolved: two signed-FEC bridges and one dated personal negative with verified incumbent.,449,0,1,0,0,0,0,0,0,374,375,375,375
+house_service,0,0,0,0,0,183,183,183,183,Verified current federal incumbents only.,449,0,0,0,266,24,242,0,0,144,144,144,144
+donor_ideology,0,0,0,0,0,192,192,192,192,"Selective donor-linked population, not universal moderation.",449,0,0,0,257,239,0,0,18,153,153,153,153
+voting_ideology,0,0,0,0,0,148,148,148,148,118th-Congress record; explicit 119th first entrants are structurally inapplicable.,449,0,0,0,301,24,277,0,0,118,118,118,118
+party_unity,0,0,0,0,0,182,182,182,182,Cutoff-qualified current incumbent record; newcomers are not zero.,449,0,0,0,267,25,242,0,0,144,144,144,144

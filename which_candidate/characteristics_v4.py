@@ -37,6 +37,12 @@ def birth_interval(value):
         if earliest > latest or latest > v1.CUTOFF:
             raise ValueError("Invalid reported-age birth interval")
         return [age_at(latest), age_at(earliest)]
+    if (
+        "birth_year" not in value
+        and type(value.get("reported_age")) is int
+        and value.get("reference_date") is None
+    ):
+        return None
     year, month = value["birth_year"], value.get("birth_month")
     earliest = date(year, month or 1, 1)
     latest = date(year, month or 12, calendar.monthrange(year, month or 12)[1])
@@ -229,7 +235,18 @@ def new_rows(root, *, previous=PREVIOUS, prefix="v4-", held_reviewer=held_fec_re
         trait = row["trait"]
         chosen = None
         if trait == "age":
-            intervals = [birth_interval(c["value"]) for c in claims]
+            intervals = [
+                interval for c in claims if (interval := birth_interval(c["value"])) is not None
+            ]
+            if not intervals:
+                if not row["analysis_eligible"]:
+                    row["value"] = {
+                        "reported_ages": [c["value"]["reported_age"] for c in claims],
+                        "reference_date": None,
+                    }
+                    row["coding_status"] = "reported_age_reference_date_unknown"
+                    row["timing_status"] = "undated_age_not_election_age"
+                continue
             lower, upper = max(i[0] for i in intervals), min(i[1] for i in intervals)
             if row["analysis_eligible"] and not lower <= row["analysis_value"] <= upper:
                 conflicts.append(

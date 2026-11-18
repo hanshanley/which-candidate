@@ -821,13 +821,16 @@ def _build(root, output):
         "characteristics-v6",
         "characteristics-v7",
         "characteristics-v8",
+        "characteristics-v9",
     ):
         successor = root / "publication" / version
         if not (successor / "manifest.json").exists():
             continue
         successor_manifest = json.loads((successor / "manifest.json").read_text())
         if version == (
-            "characteristics-v8"
+            "characteristics-v9"
+            if (root / "data/house-characteristics-v9-baseline.json").exists()
+            else "characteristics-v8"
             if (root / "data/house-characteristics-v8-baseline.json").exists()
             else "characteristics-v7"
             if (root / "data/house-characteristics-v7-baseline.json").exists()
@@ -836,6 +839,11 @@ def _build(root, output):
             for name, receipt in successor_manifest["inputs"].items():
                 if fingerprint(root / name) != receipt:
                     raise ValueError(f"Stale successor publication input: {name}")
+        elif (root / "data/house-characteristics-v9-baseline.json").exists():
+            from .characteristics_v2 import verify_frozen
+            from .characteristics_v9_acquisition import BASELINE
+
+            verify_frozen(root, BASELINE)
         elif (root / "data/house-characteristics-v8-baseline.json").exists():
             from .characteristics_v2 import verify_frozen
             from .characteristics_v8_acquisition import BASELINE

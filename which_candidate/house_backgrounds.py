@@ -261,13 +261,33 @@ def acquire_background_inputs(root):
     return records
 
 
+def validate_reported_age_year(value):
+    if (
+        set(value) != {"reported_age", "reference_year", "birth_date_interval"}
+        or type(value["reported_age"]) is not int
+        or not 0 <= value["reported_age"] <= 125
+        or type(value["reference_year"]) is not int
+        or not 1900 <= value["reference_year"] <= 2026
+    ):
+        raise ValueError("Invalid year-referenced reported age")
+    age, year = value["reported_age"], value["reference_year"]
+    expected = [f"{year - age - 1}-01-02", f"{year - age}-12-31"]
+    if value["birth_date_interval"] != expected:
+        raise ValueError("Invalid conservative year-referenced birth interval")
+
+
 def validate_reported_age(value):
     from datetime import timedelta
 
+    if set(value) == {"reported_age", "reference_date"} and value["reference_date"] is None:
+        if type(value["reported_age"]) is not int or not 0 <= value["reported_age"] <= 125:
+            raise ValueError("Invalid undated reported age")
+        return
     if (
         set(value) != {"reported_age", "reference_date", "birth_date_interval"}
         or type(value["reported_age"]) is not int
         or not 0 <= value["reported_age"] <= 125
+        or not isinstance(value["reference_date"], str)
         or not isinstance(value["birth_date_interval"], list)
         or len(value["birth_date_interval"]) != 2
     ):
@@ -340,7 +360,10 @@ def validate_characteristics(records, candidates):
             value = record["value"]
             if isinstance(value, dict):
                 if "reported_age" in value:
-                    validate_reported_age(value)
+                    if "reference_year" in value:
+                        validate_reported_age_year(value)
+                    else:
+                        validate_reported_age(value)
                 elif (
                     set(value) not in ({"birth_year"}, {"birth_year", "birth_month"})
                     or any(type(v) is not int for v in value.values())

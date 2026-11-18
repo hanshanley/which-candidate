@@ -70,7 +70,11 @@ def refresh_evidence(root=ROOT):
             root, inputs=read_rows(root / "results/house/source-inputs.jsonl.gz")[0]
         )
     house_members.build(root)
-    if (root / "data/house-characteristics-v8-acquisitions.json").exists():
+    if (root / "data/house-characteristics-v9-acquisitions.json").exists():
+        from .characteristics_v9 import build as build_characteristics
+
+        build_characteristics(root)
+    elif (root / "data/house-characteristics-v8-acquisitions.json").exists():
         from .characteristics_v8 import build as build_characteristics
 
         build_characteristics(root)
@@ -143,7 +147,9 @@ def refresh_evidence(root=ROOT):
         refreshed_charts.get(name) != receipt
         for name, receipt in chart_receipts.items()
         if not name.startswith(
-            "publication/characteristics-v8/"
+            "publication/characteristics-v9/"
+            if (root / "data/house-characteristics-v9-acquisitions.json").exists()
+            else "publication/characteristics-v8/"
             if (root / "data/house-characteristics-v8-acquisitions.json").exists()
             else "publication/characteristics-v7/"
             if (root / "data/house-characteristics-v7-acquisitions.json").exists()

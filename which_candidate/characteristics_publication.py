@@ -152,10 +152,20 @@ def charts(output, coverage, fits, *, version=VERSION):
                 yticks=y,
                 yticklabels=[
                     "Race (historical classifications)"
-                    if version in {"house-characteristics-v7", "house-characteristics-v8"}
+                    if version
+                    in {
+                        "house-characteristics-v7",
+                        "house-characteristics-v8",
+                        "house-characteristics-v9",
+                    }
                     and r["trait"] == "race"
                     else "Historical Latino indicator"
-                    if version in {"house-characteristics-v7", "house-characteristics-v8"}
+                    if version
+                    in {
+                        "house-characteristics-v7",
+                        "house-characteristics-v8",
+                        "house-characteristics-v9",
+                    }
                     and r["trait"] == "ethnicity"
                     else "Race (historical CAWP women)"
                     if version
@@ -192,7 +202,11 @@ def charts(output, coverage, fits, *, version=VERSION):
                     " Race compares explicit historical Black/White classifications "
                     "among CAWP women, not all candidates."
                 )
-            elif version in {"house-characteristics-v7", "house-characteristics-v8"}:
+            elif version in {
+                "house-characteristics-v7",
+                "house-characteristics-v8",
+                "house-characteristics-v9",
+            }:
                 note += (
                     " Race and Latino-indicator comparisons use restricted historical "
                     "source-classified populations, not all nominees."
@@ -622,12 +636,12 @@ def build(root, *, version=VERSION, reporter=report, rows_override=None):
             '<nav><a href="../characteristics-v1/report.html">Frozen v1</a>'
             '<a href="../report.html">',
         )
-    if version == "house-characteristics-v8":
+    if version in {"house-characteristics-v8", "house-characteristics-v9"}:
         content = content.replace(
             '<a href="../report.html">',
             "".join(
                 f'<a href="../characteristics-v{i}/report.html">Frozen v{i}</a>'
-                for i in range(2, 8)
+                for i in range(2, int(version.rsplit("v", 1)[-1]))
             )
             + '<a href="../report.html">',
             1,

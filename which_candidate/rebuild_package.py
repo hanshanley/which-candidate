@@ -64,6 +64,11 @@ def build(root=ROOT, output=None):
                 else ()
             ),
             *(
+                ("results/house-characteristics-v9",)
+                if (root / "results/house-characteristics-v9/manifest.json").exists()
+                else ()
+            ),
+            *(
                 ("results/participation",)
                 if (root / "data/participation-source-inputs.json").exists()
                 else ()
@@ -114,8 +119,16 @@ def build(root=ROOT, output=None):
         from .characteristics_v8_acquisition import BASELINE
 
         verify_frozen(root, BASELINE)
+    has_v9 = "results/house-characteristics-v9" in manifests
+    if has_v9:
+        from .characteristics_v2 import verify_frozen
+        from .characteristics_v9_acquisition import BASELINE
+
+        verify_frozen(root, BASELINE)
     current_version = (
-        "v8"
+        "v9"
+        if has_v9
+        else "v8"
         if has_v8
         else "v7"
         if has_v7
@@ -190,6 +203,8 @@ def build(root=ROOT, output=None):
         entries[path.relative_to(root).as_posix()] = path
     for path in (root / "data").glob("house-characteristics-v8-*.csv"):
         entries[path.relative_to(root).as_posix()] = path
+    for path in (root / "data").glob("house-characteristics-v9-*.csv"):
+        entries[path.relative_to(root).as_posix()] = path
     baseline_path = root / "data/democratic-background-gap-baseline.json"
     if baseline_path.exists():
         for name, sha256 in json.loads(baseline_path.read_text())[
@@ -252,6 +267,11 @@ def build(root=ROOT, output=None):
             else ()
         ),
         *(
+            ("audits/house-characteristics-v9-validation.json",)
+            if (root / "audits/house-characteristics-v9-validation.json").exists()
+            else ()
+        ),
+        *(
             ("audits/participation-intake.json",)
             if (root / "data/participation-source-inputs.json").exists()
             else ()
@@ -299,13 +319,13 @@ def build(root=ROOT, output=None):
                 staged / "release-assets.json",
                 {
                     "repository": "hanshanley/which-candidate",
-                    "release": "characteristics-v8",
+                    "release": f"characteristics-{current_version}",
                     "reason": "Complete archives are release assets, not size-limited Git blobs.",
                     "assets": {
                         name: {
                             **receipt,
                             "url": "https://github.com/hanshanley/which-candidate/releases/"
-                            f"download/characteristics-v8/{name}",
+                            f"download/characteristics-{current_version}/{name}",
                         }
                         for name, receipt in receipts.items()
                     },

@@ -233,7 +233,7 @@ def attach_research_history(root, profiles):
     supplemental = {
         (o["candidate_id"], o["contest_id"], o["source_id"])
         for o in inputs["reviewed_characteristic_observations"]
-        if o["source_id"].startswith(("v3-", "v4-", "v5-", "v6-", "v7-", "v8-"))
+        if o["source_id"].startswith(("v3-", "v4-", "v5-", "v6-", "v7-", "v8-", "v9-"))
     }
     historical = copy.deepcopy(profiles)
     counts = {}

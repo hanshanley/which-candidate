@@ -1,0 +1,17 @@
+family,requests,acquired_requests,failed_requests,unique_acquired_hashes,evidence_hashes,observations,candidate_trait_fields,first_evidence_fields
+control-reporter-verification,1,1,0,1,1,5,5,2
+dated-candidate-interviews,1,0,1,0,0,0,0,0
+dated-official-career-histories,1,1,0,1,1,3,3,0
+explicit-service-classifications,2,2,0,2,0,0,0,0
+held-control-identity,8,8,0,8,4,4,2,0
+national-affiliation-interviews,3,3,0,3,1,1,1,0
+national-age-data-discovery,1,1,0,1,0,0,0,0
+native-campaign-identity-repair,1,1,0,1,0,0,0,0
+official-filing-definitions,3,3,0,3,0,0,0,0
+official-filing-detail-schema,5,5,0,5,0,0,0,0
+official-filing-discovery,4,4,0,4,0,0,0,0
+official-occupation-filings,2,2,0,2,1,65,65,0
+remaining-public-source-discovery,8,7,1,7,2,5,4,1
+retained-biography-identity-repair,1,1,0,1,0,0,0,0
+retained-original-extraction-corrections,0,0,0,0,88,139,132,21
+uncovered-official-statements,5,5,0,5,3,16,16,2

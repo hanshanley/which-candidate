@@ -105,11 +105,11 @@ def new_rows(root):
     return result
 
 
-def acquisition_accounting(rows, previous, observations):
+def acquisition_accounting(rows, previous, observations, *, review_key="v8_review"):
     old = {(r["candidate_id"], r["trait"]): r for r in previous}
     new = {(r["candidate_id"], r["trait"]): r for r in rows}
     qualified = {
-        (o["candidate_id"], o["trait"]) for o in observations if o["v8_review"]["factual_qualified"]
+        (o["candidate_id"], o["trait"]) for o in observations if o[review_key]["factual_qualified"]
     }
     first = {
         k
