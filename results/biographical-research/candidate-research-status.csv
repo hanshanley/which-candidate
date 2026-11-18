@@ -33,21 +33,21 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 219891,Sandra Van Scotter,CA,20,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://sandravanscotterforcongress.com/""]"
 219872,Scott Wiener,CA,11,Democratic,nonincumbent,not_yet_researched,[],0,[]
 219898,Tessa Lynn Hodge,CA,23,Democratic,nonincumbent,not_yet_researched,[],0,[]
-219981,Dwayne L. Romero,CO,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://romeroforcolorado.com/""]"
-219986,Eileen Laubacher,CO,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.eileenforcolorado.com""]"
-219990,Jessica Killin,CO,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.killinforcolorado.com/""]"
-220006,Manny Rutinel,CO,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://mannyforcolorado.com""]"
-219973,Melat Kiros,CO,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kirosforco.com""]"
-220035,Luke Bronin,CT,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.lukebronin.com/""]"
+219981,Dwayne L. Romero,CO,03,Democratic,nonincumbent,in_progress,[],4,"[""https://romeroforcolorado.com/""]"
+219986,Eileen Laubacher,CO,04,Democratic,nonincumbent,in_progress,[],2,"[""https://www.eileenforcolorado.com""]"
+219990,Jessica Killin,CO,05,Democratic,nonincumbent,in_progress,[],2,"[""https://www.killinforcolorado.com/""]"
+220006,Manny Rutinel,CO,08,Democratic,nonincumbent,in_progress,[],3,"[""https://mannyforcolorado.com""]"
+219973,Melat Kiros,CO,01,Democratic,nonincumbent,in_progress,[],5,"[""https://www.kirosforco.com""]"
+220035,Luke Bronin,CT,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""university_employer_professional""]",3,"[""https://www.lukebronin.com/""]"
 220080,Amanda Green,FL,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,[]
-220094,Bale Dalton,FL,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://baledalton.com/""]"
+220094,Bale Dalton,FL,07,Democratic,nonincumbent,in_progress,[],4,"[""https://baledalton.com/""]"
 220123,Curtis Gibson,FL,18,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",4,[]
-220146,Eliott Rodriguez,FL,27,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.eliottrodriguez.com/""]"
-220092,Eric Yonce,FL,06,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220078,Gay Valimont,FL,01,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220131,James Martin,FL,21,Democratic,nonincumbent,not_yet_researched,[],0,"[""http://jamesmartinforflorida.com/""]"
+220146,Eliott Rodriguez,FL,27,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",3,"[""https://www.eliottrodriguez.com/""]"
+220092,Eric Yonce,FL,06,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,[]
+220078,Gay Valimont,FL,01,Democratic,nonincumbent,in_progress,[],3,[]
+220131,James Martin,FL,21,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",2,"[""http://jamesmartinforflorida.com/""]"
 220102,James Pericola,FL,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,[]
-220098,Jennifer Jenkins,FL,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.jenkinsforfl.com""]"
+220098,Jennifer Jenkins,FL,08,Democratic,nonincumbent,in_progress,[],3,"[""https://www.jenkinsforfl.com""]"
 220117,Kelly Kirschner,FL,16,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kellykirschner.com""]"
 220106,Kimberly Overman,FL,12,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kimberlyoverman.com""]"
 220086,LaShonda Holloway,FL,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.hollowayforcongress.com""]"
@@ -62,7 +62,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220083,Seth Harp,FL,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.sethharpforcongress.com/""]"
 220125,Victor Arias,FL,19,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://ariasforcongress.us""]"
 220172,Amanda Hollowell,GA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://amandaforga.com""]"
-220184,Anthony Kozycki,GA,07,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kozyckiforcongress.com""]"
+220184,Anthony Kozycki,GA,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""university_employer_professional""]",2,"[""https://kozyckiforcongress.com""]"
 220188,Caitlyn Gegen,GA,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://caitlynforgeorgia.com""]"
 220194,Ceretta Smith,GA,12,Democratic,nonincumbent,not_yet_researched,[],0,[]
 220192,Chris Harden,GA,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.chrishardenforcongress.com""]"
@@ -75,13 +75,13 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220353,Dave Dawson,IA,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",4,[]
 220347,Lindsay James,IA,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.lindsayforiowa.com""]"
 220351,Sarah Trone Garriott,IA,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://sarahforiowa.com""]"
-220242,Ellie Gilbreath,ID,02,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220238,Kaylee Peterson,ID,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kayleeforcongress.com""]"
+220242,Ellie Gilbreath,ID,02,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",2,[]
+220238,Kaylee Peterson,ID,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire""]",1,"[""https://kayleeforcongress.com""]"
 220281,Daniel K. Biss,IL,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.danielbiss.com""]"
 220265,Donna Miller,IL,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://donnaforcongress.com""]"
 220293,Jennifer Todd,IL,15,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://jentodd2026.us""]"
 220287,Julie Fortier,IL,12,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://juliefortier.org""]"
-220277,La Shawn Ford,IL,07,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220277,La Shawn Ford,IL,07,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",3,[]
 220279,Melissa Bean,IL,08,Democratic,nonincumbent,not_yet_researched,[],0,[]
 220269,Patty Garcia,IL,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://pattyforillinois.com""]"
 220295,Paul Nolley,IL,16,Democratic,nonincumbent,in_progress,"[""campaign"", ""local_profile"", ""university_employer_professional""]",4,"[""https://nolleyforcongress.com""]"
@@ -89,13 +89,13 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220324,Cinde Wirth,IN,06,Democratic,nonincumbent,not_yet_researched,[],0,[]
 220320,Drew Cox,IN,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.drewcox.org""]"
 220322,J. D. Ford,IN,05,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220315,Jamee Decio,IN,02,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220315,Jamee Decio,IN,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""university_employer_professional""]",9,[]
 220318,Kelly Thompson,IN,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kellythompsonforcongress.com""]"
 220329,Mary Allen,IN,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.maryallenforcongress.com""]"
-220372,Don Coover,KS,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://doncooverforcongress.com/""]"
+220372,Don Coover,KS,02,Democratic,nonincumbent,in_progress,"[""campaign""]",1,"[""https://doncooverforcongress.com/""]"
 220378,Katy Tyndell,KS,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://katyforkansas.com/""]"
 220369,Lauren Reinhold,KS,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.laurenforkansas.com""]"
-220397,Drew Williams,KY,01,Democratic,nonincumbent,not_yet_researched,[],0,[]
+220397,Drew Williams,KY,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile""]",3,[]
 220399,Megan Wingfield,KY,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.wingfieldforcongress.com""]"
 220404,Melissa Strange,KY,04,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.strangeforky.com""]"
 220408,Ned Pillersdorf,KY,05,Democratic,nonincumbent,not_yet_researched,[],0,[]
@@ -115,7 +115,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220751,Dan Koh,MA,06,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.kohforcongress.com/""]"
 220484,Adrian Boafo,MD,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.adrianboafo.com/""]"
 220475,Dan Schwartz,MD,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://schwartzforcongress.com""]"
-220468,Matthew Dunlap,ME,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.mattdunlapforuscongress.com""]"
+220468,Matthew Dunlap,ME,02,Democratic,nonincumbent,in_progress,"[""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography""]",4,"[""https://www.mattdunlapforuscongress.com""]"
 220509,Benjamin Ambrose,MI,02,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.ambrose4congress.com""]"
 220502,Callie Barr,MI,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://callieforcongress.com""]"
 220519,Christian Vukasovich,MI,05,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://christian4michigan.com""]"
@@ -587,7 +587,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220040,Michael Goldstein,CT,04,Republican,unresolved,not_yet_researched,[],0,[]
 220055,Thomas Egan,CT,03,Independent,unresolved,not_yet_researched,[],0,[]
 220067,"Joseph ""Dr. Joe"" Arminio",DE,AL,Republican,unresolved,not_yet_researched,[],0,"[""https://drjoeforcongress.com""]"
-220133,Alexander Cooke,FL,21,Independent,unresolved,not_yet_researched,[],0,[]
+220133,Alexander Cooke,FL,21,Independent,unresolved,in_progress,[],1,[]
 220093,Andrew Parrott,FL,06,Libertarian,unresolved,not_yet_researched,[],0,[]
 220081,Austin Rogers,FL,02,Republican,unresolved,not_yet_researched,[],0,"[""https://rogersforflorida.com""]"
 220107,Branden Scrivener,FL,12,Independent,unresolved,not_yet_researched,[],0,[]
@@ -1133,7 +1133,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 219985,Lauren Boebert,CO,04,Republican,incumbent,not_yet_researched,[],0,"[""https://laurenboebertforcongress.com""]"
 220085,Aaron Bean,FL,04,Republican,incumbent,not_yet_researched,[],0,"[""https://www.aaronbean.com""]"
 220109,Anna Paulina Luna,FL,13,Republican,incumbent,not_yet_researched,[],0,"[""http://www.voteannapaulina.com/""]"
-220132,Brian Mast,FL,21,Republican,incumbent,not_yet_researched,[],0,"[""https://www.mastforcongress.com""]"
+220132,Brian Mast,FL,21,Republican,incumbent,in_progress,[],1,"[""https://www.mastforcongress.com""]"
 220149,Carlos Giménez,FL,28,Republican,incumbent,not_yet_researched,[],0,"[""https://carlosgimenezforcongress.com""]"
 220120,Greg Steube,FL,17,Republican,incumbent,not_yet_researched,[],0,"[""https://www.electgregsteube.com/""]"
 220105,Gus Bilirakis,FL,12,Republican,incumbent,not_yet_researched,[],0,"[""https://www.bilirakisforcongress.com""]"
@@ -1143,7 +1143,7 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220114,Laurel Lee,FL,15,Republican,incumbent,not_yet_researched,[],0,"[""https://www.votelaurel.com""]"
 220147,Maria Elvira Salazar,FL,27,Republican,incumbent,not_yet_researched,[],0,"[""https://www.mariaelvirasalazar.com""]"
 220143,Mario Diaz-Balart,FL,26,Republican,incumbent,not_yet_researched,[],0,"[""https://www.mariodiazbalart.com""]"
-220097,Mike Haridopolos,FL,08,Republican,incumbent,not_yet_researched,[],0,"[""https://www.mike4congress.com""]"
+220097,Mike Haridopolos,FL,08,Republican,incumbent,in_progress,[],1,"[""https://www.mike4congress.com""]"
 220091,Randy Fine,FL,06,Republican,incumbent,not_yet_researched,[],0,"[""https://www.voterandyfine.com""]"
 220122,Scott Franklin,FL,18,Republican,incumbent,not_yet_researched,[],0,"[""https://www.votescottfranklin.com""]"
 220187,Andrew Clyde,GA,09,Republican,incumbent,not_yet_researched,[],0,"[""https://www.clyde4congress.com""]"

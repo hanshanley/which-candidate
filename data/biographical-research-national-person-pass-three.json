@@ -1,0 +1,283 @@
+{
+  "scope": "Continue unfinished all-ten-trait research for Democratic nonincumbents in Georgia, Illinois, Kansas and Maine. Re-extract retained campaign originals and follow concrete professional, questionnaire and earlier-profile leads. No frozen analytical specification is changed.",
+  "documents": [
+    {
+      "id": "220184-retained-complete-campaign",
+      "candidate_id": "220184", "name": "Anthony Kozycki", "state": "GA", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:GA:07:general:source_general", "family": "campaign",
+      "url": "https://kozyckiforcongress.com/", "source_title": "Tony Kozycki for Congress: complete About, Service and Education sections",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220184-home/campaign-220184-home",
+      "sha256": "13f83209331249e06669c4d6387bfb5b075efb539db3db85cafa877dd3c0fb47",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain and GA07 contest match. The Anthony Kozycki professional biography explicitly uses Tony and independently matches Naval Academy 2008, Navy aviation and Georgia State JD 2021.",
+      "identity_fragments": ["Tony Kozycki"],
+      "source_excerpts": ["Tony Kozycki", "Bachelor of Science", "Juris Doctor, summa cum laude", "Public Leadership Credential (PLC) Candidate", "Naval Aviator", "attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_degrees_separate_from_in_progress_credential", "factual_reference_date": null, "value": "BS, United States Naval Academy, 2008; JD, Georgia State University, 2021. Harvard Kennedy School PLC candidacy, 2025-present, is not a completed PLC or MPA.", "source_fragment": "Bachelor of Science", "supporting_fragments": ["Juris Doctor, summa cum laude", "Public Leadership Credential (PLC) Candidate"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reports_multiple_careers", "factual_reference_date": null, "value": "Former naval aviator; subsequent immigration attorney", "source_fragment": "attorney", "supporting_fragments": ["Naval Aviator"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_aircraft_and_deployments", "factual_reference_date": null, "value": "U.S. Navy F/A-18 aviator; three combat deployments; later Navy liaison with Royal Australian Air Force", "source_fragment": "Naval Aviator", "qualification": "Military liaison service is not separate civilian government employment. Parenthood, photographs and pronouns do not supply a gender classification."}
+      ]
+    },
+    {
+      "id": "220184-full-professional-biography",
+      "candidate_id": "220184", "name": "Anthony Kozycki", "state": "GA", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:GA:07:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.kozyckilaw.com/anthony-kozycki-atlanta-criminal-defense-lawyer",
+      "source_title": "Kozycki Law: Anthony L. Kozycki, complete professional biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Anthony and Tony naming, Naval Academy BS 2008, Georgia State JD 2021, F/A-18 Navy career and Georgia law practice independently corroborate the native campaign biography.",
+      "identity_fragments": ["Anthony Kozycki"],
+      "source_excerpts": ["Anthony Kozycki", "Juris Doctor", "United States Naval Academy", "Dekalb County Public Defender's Office", "Office of the Capital Defender", "United States Navy", "trial attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_biography_reports_awards_and_years", "factual_reference_date": null, "value": "Naval Academy BS 2008; Georgia State JD 2021; advocacy certificate and Bill Daniels Trial Advocacy Program graduation", "source_fragment": "Juris Doctor", "supporting_fragments": ["United States Naval Academy"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_legal_practice_and_prior_public_defense_service", "factual_reference_date": null, "value": "Criminal-defense and immigration trial attorney; prior capital-defense and DeKalb public-defender office service", "source_fragment": "trial attorney", "supporting_fragments": ["Office of the Capital Defender", "Dekalb County Public Defender's Office"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_civilian_public_office_service_employment_details_unresolved", "factual_reference_date": null, "value": "Georgia Public Defender Council capital-defense office and DeKalb County Public Defender's Office service", "source_fragment": "Office of the Capital Defender", "supporting_fragments": ["Dekalb County Public Defender's Office"], "qualification": "Named attorney service is useful civilian-government evidence, but appointment/employment status, compensation and dates are not independently established. The separately described DHS internship is not converted into qualifying paid employment."},
+        {"trait": "military", "factual_status": "qualified", "precision": "professional_biography_reports_branch_and_flying_service", "factual_reference_date": null, "value": "U.S. Navy combat aviator flying F/A-18 Super Hornets on three deployments", "source_fragment": "United States Navy"}
+      ],
+      "extraction_review": "Read the entire biography and education list. Undated under-40 award badges do not establish an election-date age. Relatives' legal careers are not the candidate's government employment."
+    },
+    {
+      "id": "220372-retained-complete-meet-don",
+      "candidate_id": "220372", "name": "Don Coover", "state": "KS", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:KS:02:general:source_general", "family": "campaign",
+      "url": "https://doncooverforcongress.com/meet-don/", "source_title": "Don Coover for Congress: complete About Don",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220372-bio1/campaign-220372-bio1",
+      "sha256": "168a8811788f474796ebb97899a1639c31976e08927ca0068f27940345536965",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native KS02 campaign domain, Army/veterinary history and southeast Kansas ranch match the retained candidate.",
+      "identity_fragments": ["Don Coover"],
+      "source_excerpts": ["Don Coover", "West Point", "After graduating", "Kansas State University’s School of Veterinary Medicine", "U.S. Army", "beef cattle genetics company", "veterinary practice", "feed manufacturing business"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_graduation_without_invented_award_or_year", "factual_reference_date": null, "value": "West Point graduate; later graduated from Kansas State University's School of Veterinary Medicine", "source_fragment": "After graduating", "supporting_fragments": ["West Point", "Kansas State University’s School of Veterinary Medicine"], "qualification": "No credential title or graduation year is manufactured from the institution names."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_current_and_historical_occupations", "factual_reference_date": null, "value": "Army intelligence/infantry officer and pilot; veterinarian; former feed-manufacturing entrepreneur; current cattle-genetics business operator, rancher and livestock veterinarian", "source_fragment": "beef cattle genetics company", "supporting_fragments": ["veterinary practice", "feed manufacturing business"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_rank_roles_and_duration", "factual_reference_date": null, "value": "More than ten years U.S. Army service, including infantry/intelligence, aviation in Korea, cryptographic operations and captain rank; re-entered for military veterinary duties", "source_fragment": "U.S. Army", "qualification": "Army veterinary and defense-contractor inspection duties remain military service, not proof of separate civilian government employment. No office or military negative is inferred."}
+      ]
+    },
+    {
+      "id": "220468-retained-complete-campaign",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general", "family": "campaign",
+      "url": "https://www.mattdunlapforuscongress.com/", "source_title": "Matt Dunlap for US Congress: complete Meet Matt",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220468-home/campaign-220468-home",
+      "sha256": "11dff1ad4247ecabd63289d48591ffc5cb4bb28c3b42a66a5ab5877843f749f2",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, Maine CD02, State Auditor and University of Maine career match the earlier Matthew Dunlap originals.",
+      "identity_fragments": ["Matt Dunlap"],
+      "source_excerpts": ["Matt Dunlap", "University of Maine", "graduate", "dishwasher, bartender, and fur-trapper", "State Auditor", "assistant to the treasurer of his local Episcopal Church"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_university_graduation_unspecified_award", "factual_reference_date": null, "value": "University of Maine graduate; credential and year not specified on this page", "source_fragment": "graduate", "supporting_fragments": ["University of Maine"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_named_past_and_current_jobs", "factual_reference_date": null, "value": "Former dishwasher, bartender and fur-trapper; former Sportsman's Alliance of Maine executive director; current State Auditor", "source_fragment": "dishwasher, bartender, and fur-trapper", "supporting_fragments": ["State Auditor"]},
+        {"trait": "religion", "factual_status": "partial", "precision": "explicit_church_role_not_personal_belief_classification", "factual_reference_date": null, "value": "Campaign describes assistant-to-treasurer service at his local Episcopal church", "source_fragment": "assistant to the treasurer of his local Episcopal Church", "qualification": "Retain the explicit organizational affiliation without equating a volunteer finance role with a complete current religious self-description. No family-based inference."}
+      ],
+      "extraction_review": "No birth date, age or service negative appears. Auditor title alone does not establish a popular election or a separate non-elected government job."
+    },
+    {
+      "id": "220468-earlier-senate-election-profile",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general", "family": "earlier_biography",
+      "url": "https://thecounty.me/2012/06/06/community/dunlap-seeks-us-senate-seat-3/",
+      "source_title": "The County, Kathy McCarty: Dunlap seeks U.S. Senate seat",
+      "publication_date": "2012-06-06", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full Matthew Dunlap name, Old Town, Maine secretary-of-state career and University of Maine education corroborate the current native campaign. This is his 2012 Senate campaign, not a 2026 Senate candidacy.",
+      "identity_fragments": ["Matthew Dunlap"],
+      "source_excerpts": ["Matthew Dunlap", "elected to the Maine House of Representatives in 1996", "history and English", "UMO", "Senior Executives in State and Local Government", "Harvard University"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_degrees_and_separate_executive_program", "factual_reference_date": "2012-06-06", "value": "University of Maine degrees in history and English; completed Harvard Senior Executives in State and Local Government program; high-school graduate", "source_fragment": "history and English", "supporting_fragments": ["UMO", "Senior Executives in State and Local Government", "Harvard University"], "qualification": "Harvard executive-program completion is not a Harvard academic degree."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_state_office_career", "factual_reference_date": "2012-06-06", "value": "Former four-term Maine House member and Maine secretary of state", "source_fragment": "elected to the Maine House of Representatives in 1996"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_election_year_and_office", "factual_reference_date": "1996", "value": "Elected to Maine House in 1996; served four terms", "source_fragment": "elected to the Maine House of Representatives in 1996", "qualification": "Implementing military absentee-voting law is not personal military service."}
+      ]
+    },
+    {
+      "id": "220468-complete-2020-retrospective",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general", "family": "local_profile",
+      "url": "https://www.pressherald.com/2020/11/30/dunlap-says-off-stage-events-are-what-hell-remember-most/",
+      "source_title": "Portland Press Herald, Scott Thistle: Dunlap says off-stage events are what he'll remember most",
+      "publication_date": "2020-11-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Matt/Matthew name, Old Town, secretary-of-state career, university degrees and former Sportsman's Alliance leadership match the other originals and current campaign.",
+      "identity_fragments": ["Matt Dunlap"],
+      "source_excerpts": ["Matt Dunlap", "Dunlap, 56,", "bachelor’s degree in Roman history", "master’s degree in English literature", "University of Maine", "restaurant, textile and publishing industries", "driver’s license examiner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age_not_exact_birth_date", "factual_reference_date": "2020-11-30", "value": "Reported age 56 in November 2020; birth-year implication 1963-1964, not an exact birth date", "source_fragment": "Dunlap, 56,", "qualification": "Publication supplies the reporting reference. Interview date and birthday are not independently established; Wikipedia's exact date is not promoted."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_bachelors_and_masters_subjects", "factual_reference_date": "2020-11-30", "value": "University of Maine bachelor's in Roman history and master's in English literature", "source_fragment": "bachelor’s degree in Roman history", "supporting_fragments": ["master’s degree in English literature", "University of Maine"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "historical_industries_and_named_executive_job", "factual_reference_date": "2020-11-30", "value": "Restaurant, textile and publishing work; approximately nine months as interim Sportsman's Alliance of Maine executive director; secretary of state", "source_fragment": "restaurant, textile and publishing industries", "qualification": "Occasional driver's-license examiner duties are described within his secretary-of-state role; this does not establish a separate government employment appointment."}
+      ]
+    },
+    {
+      "id": "220468-2020-credential-reporting",
+      "candidate_id": "220468", "name": "Matthew Dunlap", "state": "ME", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ME:02:general:source_general", "family": "local_profile",
+      "url": "https://www.bangordailynews.com/2020/12/01/politics/matt-dunlap-wants-to-become-state-auditor-hed-have-9-months-to-get-qualified-for-the-job/",
+      "source_title": "Bangor Daily News, Caitlin Andrews: Matt Dunlap wants to become state auditor",
+      "publication_date": "2020-12-01", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Maine secretary-of-state career, Old Town representation and same university degrees corroborate the native candidate.",
+      "identity_fragments": ["Matt Dunlap"],
+      "source_excerpts": ["Matt Dunlap", "bachelor’s degree in Roman history", "master’s in English literature", "University of Maine", "Secretary of State", "I have to get elected first"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_degrees_not_prospective_licensure", "factual_reference_date": "2020-12-01", "value": "University of Maine bachelor's in Roman history and master's in English literature", "source_fragment": "bachelor’s degree in Roman history", "supporting_fragments": ["master’s in English literature", "University of Maine"], "qualification": "The 2020 plan to pursue internal-auditor certification is not evidence that certification had then been earned."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_current_role_distinct_from_proposed_role", "factual_reference_date": "2020-12-01", "value": "Maine secretary of state and prospective state-auditor candidate in December 2020", "source_fragment": "Secretary of State", "supporting_fragments": ["I have to get elected first"], "qualification": "Do not backdate the later auditor position to this article."}
+      ]
+    },
+    {
+      "id": "220277-congressional-candidacy-identity-bridge",
+      "candidate_id": "220277", "name": "La Shawn Ford", "state": "IL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:IL:07:general:source_general", "family": "local_profile",
+      "url": "https://www.austinweeklynews.com/2025/07/31/davis-endorsement/",
+      "source_title": "Austin Weekly News, Jessica Mordacq: Davis endorses La Shawn Ford, announces retirement",
+      "publication_date": "2025-07-31", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Directly connects state representative La Shawn Ford of Illinois' 8th district to the IL07 congressional candidacy and March 2026 Democratic primary. Corroborates the earlier 8th-district questionnaire and church article independently of Wikipedia.",
+      "identity_fragments": ["La Shawn Ford"],
+      "source_excerpts": ["La Shawn Ford", "state representative for Illinois’ 8th district", "Illinois’ 7th congressional district", "March 2026"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_state_representative_role", "factual_reference_date": "2025-07-31", "value": "Illinois state representative, 8th district, while seeking IL07 congressional nomination", "source_fragment": "state representative for Illinois’ 8th district"},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "current_state_legislative_role_election_documented_separately", "factual_reference_date": "2025-07-31", "value": "Serving in Illinois House, 8th district", "source_fragment": "state representative for Illinois’ 8th district", "qualification": "This article bridges the person and contest; the 2019 candidate statement separately supplies his explicit 2006 election."}
+      ]
+    },
+    {
+      "id": "220277-complete-wttw-2019-questionnaire",
+      "candidate_id": "220277", "name": "La Shawn Ford", "state": "IL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:IL:07:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://news.wttw.com/elections/voters-guide/2019/candidates/chicago-mayor/la-shawn-k-ford",
+      "source_title": "WTTW: La Shawn K. Ford, complete 2019 mayoral questionnaire and candidate statement",
+      "publication_date": "2019", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "2019 voter-guide edition. The linked issues survey is dated February 8, 2019; that is not assumed to be the original publication day of every profile field.",
+      "identity_status": "verified",
+      "identity_qualification": "La Shawn K. Ford, Illinois 8th-district representative, matches the independent 2025 IL07 candidacy bridge. This earlier mayoral campaign does not change the retained 2026 contest.",
+      "identity_fragments": ["La Shawn K. Ford"],
+      "source_excerpts": ["La Shawn K. Ford", "Feb. 28, 1972", "graduate college", "I’ve taught for Chicago Public Schools", "elected in 2006", "real estate investor", "8th legislative district"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "candidate_reported_exact_birth_date", "factual_reference_date": "1972-02-28", "value": "Born February 28, 1972; age 54 on November 3, 2026", "source_fragment": "Feb. 28, 1972", "qualification": "An explicit questionnaire DOB, not an inferred date from a photograph or Wikipedia."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_college_graduation_unspecified_credential", "factual_reference_date": "2019", "value": "Candidate explicitly reports college graduation; institution, credential title and year not supplied here", "source_fragment": "graduate college", "qualification": "No named bachelor's award is invented from generic college graduation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "self_reported_teaching_real_estate_and_state_office", "factual_reference_date": "2019", "value": "Former Chicago Public Schools teacher; real-estate investor, realtor and firm founder; Illinois state representative", "source_fragment": "real estate investor", "supporting_fragments": ["I’ve taught for Chicago Public Schools", "8th legislative district"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_election_year_and_district", "factual_reference_date": "2006", "value": "Elected in 2006 to represent Illinois' 8th legislative district", "source_fragment": "elected in 2006", "supporting_fragments": ["8th legislative district"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_public_school_teaching_employer", "factual_reference_date": "before 2019", "value": "Taught for Chicago Public Schools before the 2019 mayoral questionnaire", "source_fragment": "I’ve taught for Chicago Public Schools", "qualification": "Separate public-school teaching, not his elected legislative office. Exact appointment dates are not supplied."}
+      ]
+    },
+    {
+      "id": "220277-historical-explicit-black-catholic-self-description",
+      "candidate_id": "220277", "name": "La Shawn Ford", "state": "IL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:IL:07:general:source_general", "family": "earlier_biography",
+      "url": "https://www.chicagocatholic.com/chicagoland/-/article/2016/10/02/spirituality-young-people-marriage-discussed-at-black-catholic-gatheri-2",
+      "source_title": "Chicago Catholic, Michelle Martin: Spirituality, young people, marriage discussed at black Catholic gathering",
+      "publication_date": "2016-10-03", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Complete substantive original read earlier in this batch. Displayed publication is October 3, despite October 2 in the URL; gathering occurred September 24, 2016. A subsequent alternate-reader request returned 403 and adds no new evidence.",
+      "identity_status": "verified",
+      "identity_qualification": "Article identifies Illinois House member LaShawn Ford; the independent WTTW and 2025 congressional-candidacy originals connect that same state legislator to native IL07 candidate La Shawn Ford.",
+      "identity_fragments": ["LaShawn Ford"],
+      "source_excerpts": ["LaShawn Ford", "As people who are black and Catholics"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "dated_explicit_first_person_collective_self_description", "factual_reference_date": "2016-09-24", "value": "Black, in a first-person inclusive public statement in September 2016", "source_fragment": "As people who are black and Catholics", "qualification": "Explicit self-inclusion, not inference from attendance, appearance, party or name. Does not establish Hispanic/non-Hispanic ethnicity."},
+        {"trait": "religion", "factual_status": "qualified", "precision": "dated_explicit_catholic_self_description", "factual_reference_date": "2016-09-24", "value": "Catholic self-description in September 2016", "source_fragment": "As people who are black and Catholics", "qualification": "Historical affiliation is retained as a dated fact. A continuing 2026 affiliation is not independently established, and the observation is not promoted to frozen religion models."}
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220184", "family": "campaign", "query": "Native campaign original: read retained homepage including the same-page About, Service and Education sections",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://kozyckiforcongress.com/"]
+    },
+    {
+      "candidate_id": "220184", "family": "university_employer_professional", "query": "Direct professional-domain identity check, then follow Anthony Kozycki View profile link",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.kozyckilaw.com/", "https://www.kozyckilaw.com/anthony-kozycki-atlanta-criminal-defense-lawyer"],
+      "lead_dispositions": {"https://www.kozyckilaw.com/": {"status": "duplicate_reviewed_original", "reason": "Read the full homepage and Anthony/Tony partner entry; followed its complete professional biography and retained claims there rather than duplicating the shorter entry. Other partners' facts were not transferred."}}
+    },
+    {
+      "candidate_id": "220372", "family": "campaign", "query": "Read native retained homepage and its complete Meet Don biography",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://doncooverforcongress.com/", "https://doncooverforcongress.com/meet-don/"],
+      "lead_dispositions": {"https://doncooverforcongress.com/": {"status": "duplicate_reviewed_original", "reason": "Homepage repeats the shorter campaign introduction. Full About original was reviewed and extracted; do not inflate claims with its duplicate summary."}}
+    },
+    {
+      "candidate_id": "220468", "family": "campaign", "query": "Read native retained campaign homepage and complete Meet Matt section",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.mattdunlapforuscongress.com/"]
+    },
+    {
+      "candidate_id": "220468", "family": "official_biography", "query": "Attempt ordinary Maine Office of the State Auditor homepage",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://www.maine.gov/audit/"],
+      "lead_dispositions": {"https://www.maine.gov/audit/": {"status": "access_failure", "reason": "HTTP 403; no official biography read and no bypass or repeated request."}}
+    },
+    {
+      "candidate_id": "220468", "family": "local_profile", "query": "\"Matt Dunlap\" biography",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "search_url": "https://html.duckduckgo.com/html/?q=%22Matt%20Dunlap%22%20biography",
+      "error": "Search returned a human-verification image challenge. No results read, no challenge attempted and no further request."
+    },
+    {
+      "candidate_id": "220468", "family": "earlier_biography", "query": "Inspect public encyclopedia references as discovery only; follow actual 2012 Senate profile and 2020 Maine newspaper originals",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "discovery_url": "https://en.wikipedia.org/wiki/Matthew_Dunlap",
+      "underlying_urls": ["https://thecounty.me/2012/06/06/community/dunlap-seeks-us-senate-seat-3/", "https://www.pressherald.com/2020/11/30/dunlap-says-off-stage-events-are-what-hell-remember-most/", "https://www.bangordailynews.com/2020/12/01/politics/matt-dunlap-wants-to-become-state-auditor-hed-have-9-months-to-get-qualified-for-the-job/"],
+      "qualification": "Encyclopedia exact birth date and classifications are not accepted evidence. Only readable underlying originals support the retained claims."
+    },
+    {
+      "candidate_id": "220277", "family": "campaign", "query": "Follow discovered public campaign domain lashawnford.com",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://lashawnford.com/"],
+      "lead_dispositions": {"https://lashawnford.com/": {"status": "access_failure", "reason": "Transport-level DNS/connection/TLS failure; no campaign content read."}}
+    },
+    {
+      "candidate_id": "220277", "family": "official_biography", "query": "Follow historical Illinois member citation and November 2006 First Reading PDF",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://ilga.gov/house/rep.asp?MemberID=2356", "https://www.ilga.gov/commission/lru/nov2006firstrdg.pdf"],
+      "lead_dispositions": {
+        "https://ilga.gov/house/rep.asp?MemberID=2356": {"status": "access_failure", "reason": "Historical member URL returned HTTP 404."},
+        "https://www.ilga.gov/commission/lru/nov2006firstrdg.pdf": {"status": "access_failure", "reason": "Reader returned uninterpreted binary PDF, not a readable biography. Python download failed certificate verification; ordinary system-certificate curl download failed with HTTP-error exit 22. No certificate bypass, further retry or claim based on unread PDF."}
+      }
+    },
+    {
+      "candidate_id": "220277", "family": "local_profile", "query": "Follow discovered Austin Weekly News 2025 congressional-candidacy original to corroborate native IL07 identity",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.austinweeklynews.com/2025/07/31/davis-endorsement/"]
+    },
+    {
+      "candidate_id": "220277", "family": "ballotpedia_questionnaire", "query": "Follow cited WTTW 2019 candidate questionnaire and read profile, candidate statement and issue responses",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://news.wttw.com/elections/voters-guide/2019/candidates/chicago-mayor/la-shawn-k-ford"]
+    },
+    {
+      "candidate_id": "220277", "family": "earlier_biography", "query": "Follow actual Chicago Catholic 2016 gathering article discovered in public bibliography; read substantive original",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "discovery_url": "https://en.wikipedia.org/wiki/La_Shawn_Ford",
+      "underlying_urls": ["https://www.chicagocatholic.com/chicagoland/-/article/2016/10/02/spirituality-young-people-marriage-discussed-at-black-catholic-gatheri-2"],
+      "qualification": "Underlying publisher article was read, not an encyclopedia assertion. An alternate-reader 403 does not add evidence or erase the earlier readable original."
+    }
+  ],
+  "withheld_documents": [
+    {"id": "220468-official-audit-access-hold", "candidate_id": "220468", "url": "https://www.maine.gov/audit/", "status": "access_failure", "reason": "HTTP 403; no official biography read. Independent campaign and historical newspaper work continued.", "traits_pending_verification": ["age", "education", "profession", "prior_elected_office", "other_government", "military"]},
+    {"id": "220277-current-campaign-transport-hold", "candidate_id": "220277", "url": "https://lashawnford.com/", "status": "access_failure", "reason": "Ordinary transport failure; no campaign biography read.", "traits_pending_verification": ["gender", "ethnicity", "religion", "education", "military"]},
+    {"id": "220277-unread-official-2006-pdf", "candidate_id": "220277", "url": "https://www.ilga.gov/commission/lru/nov2006firstrdg.pdf", "status": "access_failure", "reason": "PDF bytes not successfully parsed; ordinary verified-certificate download failed. No education claim accepted from the unread source.", "traits_pending_verification": ["education", "profession", "prior_elected_office"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220184", "leads": ["Date public-defender service and verify actual employment/appointment status.", "University or dated professional biography for birth-year/age evidence; undated under-40 badges are insufficient.", "Questionnaires and interviews for explicit identity/affiliation and scoped prior-office/service answers; no negative inferred."]},
+    {"candidate_id": "220372", "leads": ["Follow a verified veterinary, university or employer biography, without assuming the cattle company's name.", "Find dated age and explicit public identity/affiliation evidence.", "Investigate prior elected office and separate civilian government employment; military veterinary duties do not answer either."]},
+    {"candidate_id": "220468", "leads": ["Locate an independently readable exact birth-date or birthday source; dated age remains partial.", "Verify current explicit religious self-description rather than upgrading church finance duties automatically.", "Investigate named non-elected civilian employment and explicit service evidence; do not transfer his military-voting policy work to personal service."]},
+    {"candidate_id": "220277", "leads": ["University/employer original for the completed credential's actual name and year.", "Current religious affiliation, if publicly explicit; historical 2016 Catholic statement is not current verification.", "Explicit gender/ethnicity and military evidence or properly scoped negatives; no inference from name, image or omissions.", "Current campaign and historical official sources remain unresolved after recorded access failures; other source families are still actionable."]}
+  ],
+  "next_batch": "Continue the retained national roster, including previously selected but still unread Ellie Gilbreath (ID02), Jamee Decio (IN02) and Drew Williams (KY01). Queue selection alone is not research. No candidate in this journal has completed all six source families."
+}

@@ -1,0 +1,356 @@
+{
+  "scope": "Continue unfinished person-level research in Idaho, Indiana and Kentucky. Review all ten background traits together; distinguish dated reported ages, completed credentials, explicit scoped office negatives and separately named civilian employment. No historical scientific result is refitted.",
+  "documents": [
+    {
+      "id": "220242-complete-radio-interview",
+      "candidate_id": "220242", "name": "Ellie Gilbreath", "state": "ID", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ID:02:general:source_general", "family": "local_profile",
+      "url": "https://www.kisu.org/show/idaho-matters/2026-10-30/2026-midterm-elections-2nd-congressional-district-ellie-gilbreath?_amp=true",
+      "source_title": "Idaho Matters, Gemma Gaudette: interview with Ellie Gilbreath",
+      "publication_date": "2026-10-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Democratic ID02 candidacy against Mike Simpson, Ketchum residence and mediation career match the retained person.",
+      "identity_fragments": ["Ellie Gilbreath"],
+      "source_excerpts": ["Ellie Gilbreath", "attorney and mediator", "has never held elected office", "I hadn't run for office before"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_career_and_first_person_corroboration", "factual_reference_date": "2026-10-30", "value": "Attorney, mediator and strategic conflict-resolution professional, with more than two decades of work", "source_fragment": "attorney and mediator"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_presenter_reported_negative_as_of_interview", "factual_reference_date": "2026-10-30", "value": "The presenter explicitly reports that Gilbreath has never held elected office", "source_fragment": "has never held elected office", "qualification": "This scoped negative comes from the presenter's explicit report. The candidate's separate first-campaign statement alone would not prove it. Neither statement establishes no government employment or no military service."}
+      ],
+      "extraction_review": "The complete substantive transcript was read through the closing thanks in the preceding checkpoint. No age or explicit sensitive-identity classification was found. An attorney's constitutional oath is not military evidence."
+    },
+    {
+      "id": "220242-rendered-primary-questionnaire",
+      "candidate_id": "220242", "name": "Ellie Gilbreath", "state": "ID", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:ID:02:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://flo.uri.sh/visualisation/28759049/embed?auto=1",
+      "source_title": "Public Flourish questionnaire: U.S. Congressional Primary Candidates 2026, Ellie Gilbreath entry",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "The District 2 section identifies Ellie Gilbreath as a Democrat from Ketchum, with the same legal and mediation career as the independently read radio interview.",
+      "identity_fragments": ["Ellie Gilbreath"],
+      "source_excerpts": ["Ellie Gilbreath", "Age: 63", "Bachelor of Arts", "UCLA/UC Irvine", "Georgetown Univesity", "Strategic advisor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_year_identified_guide_exact_response_date_unknown", "factual_reference_date": "2026", "value": "Age 63 reported in the 2026 congressional primary questionnaire; exact response/publication day unknown", "source_fragment": "Age: 63", "qualification": "Do not manufacture a birth date or an exact November 3 age from this undated response."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_credentials_with_unresolved_undergraduate_institution", "factual_reference_date": "2026", "value": "Reports a Bachelor of Arts with UCLA/UC Irvine combined in the institution field and a Georgetown law degree; precise law-award title and completion years unspecified", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["UCLA/UC Irvine", "Georgetown Univesity"], "unresolved_details": ["The slash-separated undergraduate institution is not resolved into two degrees or silently assigned to either campus.", "The source misspells University; the literal excerpt preserves its wording."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "questionnaire_occupation_and_first_person_career_description", "factual_reference_date": "2026", "value": "Strategic adviser and conflict-resolution professional; describes thirty years as a mediator and identifies herself as a lawyer", "source_fragment": "Strategic advisor"}
+      ],
+      "extraction_review": "Read the actual HTTP-200 rendered public questionnaire, including all of Gilbreath's answers, not a search snippet or the separately blocked Idaho Capital Sun page. Hosting publisher and exact response date remain unverified. Nonprofit leadership in the elected-office field is not an explicit office negative. Motherhood does not supply a gender classification."
+    },
+    {
+      "id": "220238-rendered-primary-questionnaire",
+      "candidate_id": "220238", "name": "Kaylee Peterson", "state": "ID", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:ID:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://flo.uri.sh/visualisation/28759049/embed?auto=1",
+      "source_title": "Public Flourish questionnaire: U.S. Congressional Primary Candidates 2026, Kaylee Peterson entry",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact Kaylee Peterson name, Democratic District 1 section and Eagle residence match the retained Idaho congressional candidate; not independent Sarah Zabel Peterson.",
+      "identity_fragments": ["Kaylee Peterson"],
+      "source_excerpts": ["Kaylee Peterson", "Age: 36", "Some college", "None"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_year_identified_guide_exact_response_date_unknown", "factual_reference_date": "2026", "value": "Age 36 reported in the 2026 primary questionnaire; exact response date unknown", "source_fragment": "Age: 36"},
+        {"trait": "education", "factual_status": "partial", "precision": "explicit_attendance_not_completed_credential", "factual_reference_date": "2026", "value": "Reports some college; no institution, completed award or graduation year specified here", "source_fragment": "Some college"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_negative_in_scoped_past_present_office_field", "factual_reference_date": "2026", "value": "Explicit None response to the past/present elected offices field in the 2026 primary questionnaire", "source_fragment": "None", "qualification": "Scoped to the questionnaire response, whose exact day is unknown; not automatically an election-day analytical value. This does not answer government employment or military service."}
+      ],
+      "extraction_review": "Read every answer. Candidate is the stated occupation, not a substantive employment history. Endorsements and constituent outreach are not personal government employment. No sensitive identity is inferred."
+    },
+    {
+      "id": "220315-complete-current-campaign-about",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "campaign",
+      "url": "https://decioforcongress.com/about/", "source_title": "Decio for Congress: Meet Jamee Decio",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Elkhart origin and explicit Indiana CD02 Democratic nominee match the retained candidate.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "first 325 women", "graduate from Notre Dame Law", "Elkhart County deputy prosecutor and attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_candidate_authored_women_classification", "factual_reference_date": null, "value": "Campaign explicitly identifies Decio among the first women admitted to Notre Dame and its early women law graduates", "source_fragment": "first 325 women"},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_law_school_graduation", "factual_reference_date": null, "value": "Notre Dame Law graduate; award title and year supplied separately by the university commencement program", "source_fragment": "graduate from Notre Dame Law"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_legal_career", "factual_reference_date": null, "value": "Attorney and former Elkhart County deputy prosecutor", "source_fragment": "Elkhart County deputy prosecutor and attorney"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_civilian_government_legal_job", "factual_reference_date": null, "value": "Former Elkhart County deputy prosecutor", "source_fragment": "Elkhart County deputy prosecutor and attorney", "qualification": "The named civilian prosecuting role is distinct from elected office. Employment dates are unspecified; private practice, union membership and advocacy do not establish additional public jobs."}
+      ]
+    },
+    {
+      "id": "220315-dated-campaign-filing-announcement",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "campaign",
+      "url": "https://decioforcongress.com/paperwork-formally-filed/", "source_title": "Decio campaign: Paperwork Formally Filed For Decio Campaign",
+      "publication_date": "2026-01-29", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Indiana CD02, Republican opponent Rudy Yakym, Elkhart origin and South Bend residence match the native candidate.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "graduated from the University of Notre Dame and Notre Dame Law School", "deputy prosecuting attorney", "private practice"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_undergraduate_and_law_graduation", "factual_reference_date": "2026-01-29", "value": "Graduated from the University of Notre Dame and Notre Dame Law School; this release does not specify the awards or years", "source_fragment": "graduated from the University of Notre Dame and Notre Dame Law School"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_public_and_private_legal_practice", "factual_reference_date": "2026-01-29", "value": "Former Elkhart County deputy prosecuting attorney and private-practice lawyer", "source_fragment": "deputy prosecuting attorney", "supporting_fragments": ["private practice"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_campaign_report_of_prior_named_civilian_employment", "factual_reference_date": "2026-01-29", "value": "Prior deputy prosecuting attorney employment in Elkhart County", "source_fragment": "deputy prosecuting attorney", "qualification": "This is a pre-election public report of a prior role, not an independently dated payroll record or an elected-office claim."}
+      ]
+    },
+    {
+      "id": "220315-local-announcement-interview",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "local_profile",
+      "url": "https://www.wvpe.org/wvpe-news/2025-11-14/democrat-jamee-decio-announces-shell-challenge-yakym-next-year",
+      "source_title": "WVPE, Jeff Parrott: Democrat Jamee Decio announces she'll challenge Yakym next year",
+      "publication_date": "2025-11-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Direct interview with Jamee Decio, Elkhart native challenging Rudy Yakym for Indiana CD02; same law and screenwriting career as the university and campaign originals.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "66-year-old", "law degree from Notre Dame", "deputy prosecutor", "screenwriter"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "literal_dated_publisher_report_pending_age_verification", "factual_reference_date": "2025-11-14", "value": "WVPE reports age 66 on November 14, 2025; no exact birth date accepted", "source_fragment": "66-year-old", "qualification": "University originals identify undergraduate class 1975 and law class 1980. That chronology motivates checking the reported age, not inventing an alternative birth date or declaring a conflict from typical graduation ages. An inaccessible biographical-directory search result is not accepted counterevidence."},
+        {"trait": "education", "factual_status": "qualified", "precision": "interview_reported_completed_law_degree", "factual_reference_date": "2025-11-14", "value": "Notre Dame law degree", "source_fragment": "law degree from Notre Dame"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_report_of_multiple_careers", "factual_reference_date": "2025-11-14", "value": "Practiced law in Elkhart, including deputy prosecutor work, then moved to Los Angeles to become a screenwriter", "source_fragment": "deputy prosecutor", "supporting_fragments": ["screenwriter"]}
+      ]
+    },
+    {
+      "id": "220315-university-women-alumnae-profile",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "university_employer_professional",
+      "url": "https://hospitality.nd.edu/news/a-historic-hat-supports-the-future-of-notre-dame-women/",
+      "source_title": "Notre Dame, Kari Tarman and Annalisa Tombelli: A Historic Hat Supports the Future of Notre Dame Women",
+      "publication_date": "2024-03-04", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name and paired class years are independently connected to the current congressional candidate by the university's Spring 2026 80JD class notes and her campaign.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "'75, '80L"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_identified_alumni_class_years_corroborated_by_commencement", "factual_reference_date": "2024-03-04", "value": "University identifies Decio with undergraduate class 1975 and law class 1980; actual BA and JD titles verified separately in commencement originals", "source_fragment": "'75, '80L", "qualification": "No religion follows from attendance at a Catholic university; class years are not age evidence."}
+      ],
+      "extraction_review": "Read the full substantive original. Other alumnae and their relatives' careers and religious statements do not describe this candidate."
+    },
+    {
+      "id": "220315-university-current-candidate-identity-bridge",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "university_employer_professional",
+      "url": "https://magazine.nd.edu/issues/2026/spring-2026/class-notes/1980s/",
+      "source_title": "Notre Dame Magazine, Spring 2026: 80JD class notes, Jamee Decio entry",
+      "publication_date": "2026", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "The university's 80JD section directly names Jamee Decio, the South Bend-area CD02 congressional candidacy, Elkhart upbringing, legal/public-service career, California screenwriting and current campaign domain.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["80JD", "Jamee Decio", "2nd District Congressional seat", "practicing law", "screenwriter"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_law_class_notation_linked_to_current_candidate", "factual_reference_date": "2026", "value": "University law class 1980; degree title verified by the 1980 commencement original", "source_fragment": "80JD"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "university_alumni_report_of_multiple_careers", "factual_reference_date": "2026", "value": "Lawyer and former public servant who subsequently pursued California screenwriting", "source_fragment": "practicing law", "supporting_fragments": ["screenwriter"], "qualification": "The generic public-servant phrase alone does not establish a specific government job or elected office. Unrelated classmates' military service is not Decio's service."}
+      ],
+      "extraction_review": "Read the complete candidate entry and its 80JD heading. Other decades/classes and unrelated alumni personal details are not collected."
+    },
+    {
+      "id": "220315-undergraduate-commencement-original",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "university_employer_professional",
+      "url": "https://archives.nd.edu/commencement/1975-05-18_Commencement.pdf",
+      "source_title": "Notre Dame 1975 commencement program: College of Arts and Letters, Jamee Ann Decio",
+      "publication_date": "1975-05-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Jamee Ann Decio, Elkhart, is consistent with the university's 1975/1980 alumni identity and the 1980 law program's explicitly listed Notre Dame BA 1975.",
+      "identity_fragments": ["Jamee Ann Decio"],
+      "source_excerpts": ["Jamee Ann Decio", "THE DEGREE OF BACHELOR OF ARTS"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "commencement_award_section_and_subsequent_university_degree_record", "factual_reference_date": "1975", "value": "Notre Dame Bachelor of Arts, 1975", "source_fragment": "THE DEGREE OF BACHELOR OF ARTS", "qualification": "Read the College of Arts and Letters degree header and the actual name entry. The later 1980 program explicitly corroborates BA 1975. Do not equate program ceremony date with exact conferral day or infer a major."}
+      ],
+      "source_locator": "PDF page index 26, printed page 26, name entry; College of Arts and Letters Bachelor of Arts section starts at PDF page index 24, printed page 24."
+    },
+    {
+      "id": "220315-law-commencement-original",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "university_employer_professional",
+      "url": "https://archives.nd.edu/commencement/1980-05-18_Commencement.pdf",
+      "source_title": "Notre Dame 1980 commencement program: Law School, Jamee Decio",
+      "publication_date": "1980-05-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Actual Law School entry Jamee Decio, Elkhart, Indiana, explicitly lists Notre Dame BA 1975. University current-candidate class notes bridge the 80JD graduate to the retained congressional candidate.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "THE DEGREE OF JURIS DOCTOR", "B.A., University of Notre Dame, 1975"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "visually_verified_law_award_header_and_individual_entry", "factual_reference_date": "1980", "value": "Notre Dame Juris Doctor, 1980; the same individual entry explicitly records Notre Dame BA 1975", "source_fragment": "THE DEGREE OF JURIS DOCTOR", "supporting_fragments": ["B.A., University of Notre Dame, 1975"], "qualification": "Both the law-award heading and the candidate's entry were read in the actual PDF screenshot. No age or religious identity is inferred."}
+      ],
+      "source_locator": "PDF page index 27, printed page 27: Law School heading, Juris Doctor heading and Jamee Decio entry."
+    },
+    {
+      "id": "220315-local-legislative-aide-profile",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "local_profile",
+      "url": "https://www.abc57.com/news/elkhart-native-running-to-represent-2nd-congressional-district",
+      "source_title": "ABC57, Tim Wolak: Elkhart-native running to represent 2nd Congressional District",
+      "publication_date": "2025-11-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Elkhart origin, Indiana CD02 candidacy and directly linked campaign domain match the retained candidate.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "first 325 women", "graduated from Notre Dame", "legislative aide", "House Banking Subcommittee on Consumer Affairs", "Elkhart Legal Aid"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_campaign_attributed_women_classification", "factual_reference_date": "2025-11-18", "value": "Identified among Notre Dame's first 325 women students", "source_fragment": "first 325 women"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_university_graduation", "factual_reference_date": "2025-11-18", "value": "Notre Dame undergraduate graduate; subsequently returned for law school", "source_fragment": "graduated from Notre Dame"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_legislative_job_and_legal_advocacy", "factual_reference_date": "2025-11-18", "value": "Former House Banking Subcommittee on Consumer Affairs legislative aide; later Elkhart Legal Aid advocacy", "source_fragment": "legislative aide", "supporting_fragments": ["House Banking Subcommittee on Consumer Affairs", "Elkhart Legal Aid"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_legislative_staff_job_not_elected_office", "factual_reference_date": "2025-11-18", "value": "Former legislative aide for the U.S. House Banking Subcommittee on Consumer Affairs, before law school", "source_fragment": "legislative aide", "supporting_fragments": ["House Banking Subcommittee on Consumer Affairs"], "qualification": "The article attributes its biography to the campaign; this is not an independent employment-record verification. Elkhart Legal Aid is not automatically government employment. The aide position is not elected office."}
+      ]
+    },
+    {
+      "id": "220315-complete-campaign-mlk-speech",
+      "candidate_id": "220315", "name": "Jamee Decio", "state": "IN", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IN:02:general:source_general", "family": "campaign",
+      "url": "https://decioforcongress.com/martin-luther-king-day-speech/", "source_title": "Jamee Decio: Martin Luther King Day Speech",
+      "publication_date": "2026-01-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "First-person name, Elkhart origin, Indiana CD02 candidacy and verified campaign domain directly identify the retained candidate.",
+      "identity_fragments": ["Jamee Decio"],
+      "source_excerpts": ["Jamee Decio", "I became a lawyer and worked at Elkhart", "Legal Aid"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_first_person_legal_aid_work", "factual_reference_date": "2026-01-19", "value": "Lawyer with prior Elkhart Legal Aid work", "source_fragment": "I became a lawyer and worked at Elkhart", "supporting_fragments": ["Legal Aid"], "qualification": "Legal Aid work is not automatically a government job. The speech's references to God do not establish a particular religious affiliation. Her father's friend, not the candidate, served in the Navy and on the city council; Italian immigrants in the neighborhood do not establish her ethnicity."}
+      ],
+      "extraction_review": "Read the entire speech. Childhood recollection of the 1963 speech is not an exact birth-year statement. Relatives' and community members' identities and service remain separate."
+    },
+    {
+      "id": "220397-complete-wkms-election-interview",
+      "candidate_id": "220397", "name": "Drew Williams", "state": "KY", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KY:01:general:source_general", "family": "local_profile",
+      "url": "https://www.wkms.org/government-politics/2026-10-13/2026-kentucky-1st-congressional-district-general-election",
+      "source_title": "WKMS, Hannah Saad: 2026 Kentucky 1st Congressional District general election",
+      "publication_date": "2026-10-13", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "John Drew Williams, Democratic KY01 opponent of James Comer, Marshall County and boat-dock construction career identify the retained person.",
+      "identity_fragments": ["Williams"],
+      "source_excerpts": ["Williams", "I'm 34 now", "construction", "Murray State University", "history major"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_first_person_age_not_exact_birth_date", "factual_reference_date": "2026-10-13", "value": "Explicitly reports age 34 in the October 2026 interview", "source_fragment": "I'm 34 now", "qualification": "Exact interview day and birthday are not independently established; no exact November 3 age is manufactured."},
+        {"trait": "education", "factual_status": "partial", "precision": "named_university_and_major_not_completion_statement", "factual_reference_date": "2026-10-13", "value": "Murray State University history major; this passage alone does not specify a completed award", "source_fragment": "history major", "supporting_fragments": ["Murray State University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_first_person_manual_work_career", "factual_reference_date": "2026-10-13", "value": "Approximately twenty years of construction and boat-dock work, beginning at fourteen", "source_fragment": "construction"}
+      ],
+      "extraction_review": "Read the entire article and interview through the last response. His wife's public-school job, Notre Dame master's and educational doctorate are not his credentials or employment. Community volunteering and not being an established politician are not explicit office/government/military negatives."
+    },
+    {
+      "id": "220397-candidate-connection-profile-and-survey",
+      "candidate_id": "220397", "name": "Drew Williams", "state": "KY", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KY:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Drew_Williams", "source_title": "Ballotpedia: Drew Williams profile and 2025 Candidate Connection responses",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact John Drew Williams alias, Kentucky CD01, Marshall County, construction career and campaign link match the retained nominee and original WKMS interview.",
+      "identity_fragments": ["Drew Williams"],
+      "source_excerpts": ["Drew Williams", "United Methodist", "2016", "History", "Biology", "construction"],
+      "traits_reviewed": ["education", "profession", "religion"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_survey_report_of_completed_degree_major_minor_and_year", "factual_reference_date": "2025", "value": "Reports graduating from Murray State in 2016, with a history degree and biology minor; biography also reports Marshall County High School diploma", "source_fragment": "2016", "supporting_fragments": ["History", "Biology"], "qualification": "The survey is dated 2025. Do not infer the bachelor's award title if unspecified."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_survey_and_profile_report_of_occupation", "factual_reference_date": "2025", "value": "Construction and dock-building work begun at fourteen; approximate elapsed durations do not supply a precise birth date", "source_fragment": "construction"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_publisher_profile_classification_not_first_person_quote", "factual_reference_date": null, "value": "Ballotpedia's religion panel explicitly lists United Methodist", "source_fragment": "United Methodist", "qualification": "Retain the publisher attribution. This is not presented as an independently located first-person religious self-description. The undated panel is not assumed to share the 2025 survey date or establish prediction-time availability."}
+      ],
+      "extraction_review": "Read the profile and displayed survey passages covering education, occupation and institutional views. Complete remaining survey sections still require a reliably retained full read; this source is not marked exhausted and the candidate is not complete. An earlier state-House campaign does not establish no prior elected office."
+    },
+    {
+      "id": "220397-dated-native-campaign-announcement",
+      "candidate_id": "220397", "name": "Drew Williams", "state": "KY", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KY:01:general:source_general", "family": "campaign",
+      "url": "https://www.williamsforky.com/may-27-2025", "source_title": "Williams campaign: John Drew Williams announces campaign for U.S. House in Kentucky's 1st District",
+      "publication_date": "2025-05-27", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Candidate-linked campaign domain, John Drew alias, Marshall County origin and explicit Kentucky CD01 candidacy match the native roster and WKMS interview.",
+      "identity_fragments": ["Drew Williams"],
+      "source_excerpts": ["Drew Williams", "family-owned businesses", "Kentucky Lake", "building personal and marina boat docks"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_candidate_authored_occupation_description", "factual_reference_date": "2025-05-27", "value": "Nearly two decades working in family-owned Kentucky Lake businesses building personal and marina boat docks", "source_fragment": "building personal and marina boat docks", "supporting_fragments": ["family-owned businesses", "Kentucky Lake"], "qualification": "Community festival leadership is not itself elected office or government employment. No sensitive identity follows from photographs or names."}
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220242", "family": "local_profile", "query": "Follow previously discovered Idaho Matters complete candidate interview",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.kisu.org/show/idaho-matters/2026-10-30/2026-midterm-elections-2nd-congressional-district-ellie-gilbreath?_amp=true"]
+    },
+    {
+      "candidate_id": "220242", "family": "campaign", "query": "Follow discovered campaign homepage and About lead",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://ellieforidaho.com/", "https://ellieforidaho.com/about/"],
+      "lead_dispositions": {
+        "https://ellieforidaho.com/": {"status": "access_failure", "reason": "Transport-level DNS/connection/TLS failure; search excerpt is not accepted evidence."},
+        "https://ellieforidaho.com/about/": {"status": "access_failure", "reason": "Same-origin transport failure; no About content read and no further request."}
+      }
+    },
+    {
+      "candidate_id": "220242", "family": "ballotpedia_questionnaire", "query": "Follow discovered Idaho Capital Sun primary guide original",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://idahocapitalsun.com/voter-guides/contests/idaho-democratic-us-house-district-2-primary-race/"],
+      "lead_dispositions": {"https://idahocapitalsun.com/voter-guides/contests/idaho-democratic-us-house-district-2-primary-race/": {"status": "access_failure", "reason": "HTTP 403 on the actual original. No claim accepted from the search snippet, no retry and no bypass."}}
+    },
+    {
+      "candidate_id": "220242", "family": "ballotpedia_questionnaire", "query": "Read independently discovered public Flourish candidate questionnaire using its ordinary rendered page",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://flo.uri.sh/visualisation/28759049/embed?auto=1"],
+      "qualification": "Ordinary public HTTP-200 embed; no authentication, challenge or access-control workaround. The separately denied Capital Sun URL was not retrieved."
+    },
+    {
+      "candidate_id": "220238", "family": "ballotpedia_questionnaire", "query": "Match every retained House candidate in the readable public Idaho primary questionnaire and review Peterson's complete entry",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://flo.uri.sh/visualisation/28759049/embed?auto=1"]
+    },
+    {
+      "candidate_id": "220315", "family": "campaign", "query": "Follow actual campaign About, dated filing announcement and linked MLK speech",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://decioforcongress.com/about/", "https://decioforcongress.com/paperwork-formally-filed/", "https://decioforcongress.com/martin-luther-king-day-speech/"]
+    },
+    {
+      "candidate_id": "220315", "family": "local_profile", "query": "Follow actual WVPE and ABC57 candidacy profiles rather than search excerpts",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.wvpe.org/wvpe-news/2025-11-14/democrat-jamee-decio-announces-shell-challenge-yakym-next-year", "https://www.abc57.com/news/elkhart-native-running-to-represent-2nd-congressional-district"]
+    },
+    {
+      "candidate_id": "220315", "family": "university_employer_professional", "query": "Follow actual Notre Dame alumna profile, current-candidate class notes and original commencement entries with degree headers",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://hospitality.nd.edu/news/a-historic-hat-supports-the-future-of-notre-dame-women/", "https://magazine.nd.edu/issues/2026/spring-2026/class-notes/1980s/", "https://archives.nd.edu/commencement/1975-05-18_Commencement.pdf", "https://archives.nd.edu/commencement/1980-05-18_Commencement.pdf"]
+    },
+    {
+      "candidate_id": "220315", "family": "earlier_biography", "query": "Follow discovered biographical-directory original to investigate reported-age chronology",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://prabook.com/web/jamee.decio/2870254"],
+      "lead_dispositions": {"https://prabook.com/web/jamee.decio/2870254": {"status": "access_failure", "reason": "HTTP 403; no underlying directory entry read, no search-result birth date accepted and no retry."}}
+    },
+    {
+      "candidate_id": "220397", "family": "local_profile", "query": "Read actual complete WKMS general-election interview",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.wkms.org/government-politics/2026-10-13/2026-kentucky-1st-congressional-district-general-election"]
+    },
+    {
+      "candidate_id": "220397", "family": "ballotpedia_questionnaire", "query": "Follow actual Ballotpedia profile and independently discovered iVoterGuide questionnaire",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://ballotpedia.org/Drew_Williams", "https://ivoterguide.com/candidate/93659/race/31120/election/1461"],
+      "lead_dispositions": {"https://ivoterguide.com/candidate/93659/race/31120/election/1461": {"status": "reviewed_no_requested_facts", "reason": "Every background field says candidate did not provide and every substantive questionnaire item says did not answer. No office, employment, military or religious negative follows. Publisher's ideological rating is not imported."}}
+    },
+    {
+      "candidate_id": "220397", "family": "campaign", "query": "Follow the candidate-linked campaign home and dated May 27 announcement",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.williamsforky.com/home", "https://www.williamsforky.com/may-27-2025"],
+      "lead_dispositions": {"https://www.williamsforky.com/home": {"status": "reviewed_no_requested_facts", "reason": "Full textual homepage read. Policy links, donations, photographs and a quotation about lacking political power do not establish requested biographical facts or a scoped office negative. The substantive dated career announcement is separately extracted."}}
+    },
+    {
+      "candidate_id": "220315", "family": "earlier_biography", "query": "\"Jamee Decio\" age birthday",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "This tool execution returned no usable retained result mapping. It does not establish an unsuccessful search or source-family completion."
+    },
+    {
+      "candidate_id": "220242", "family": "university_employer_professional", "query": "\"Ellie Gilbreath\" biography Georgetown UCLA",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "No usable retained result mapping from this execution; earlier concrete leads remain open."
+    },
+    {
+      "candidate_id": "220397", "family": "earlier_biography", "query": "\"Drew Williams\" Kentucky biography military religion",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "No usable retained result mapping; this cannot establish a completed military, religion or earlier-biography search."
+    }
+  ],
+  "reviewed_overlapping_roster_entries": [
+    {"candidate_id": "220239", "name": "Russ Fulcher", "url": "https://flo.uri.sh/visualisation/28759049/embed?auto=1", "extracted_facts": {"age": "Reported 64 in this undated 2026 primary guide", "education": "Reports Boise State BA and MBA; Micron electronics training and Meridian High School diploma", "profession": "U.S. Representative; reported agriculture, technology and commercial-real-estate careers", "prior_elected_office": "Reports U.S. House 2019-present and Idaho Senate 2005-2014"}, "disposition": "Overlapping facts in already-covered incumbent fields; not promoted into additional claims or counted as new acquisition. No employment or military negative follows."},
+    {"candidate_id": "220243", "name": "Mike Simpson", "url": "https://flo.uri.sh/visualisation/28759049/embed?auto=1", "extracted_facts": {"age": "Reported 75 in this undated 2026 primary guide, not an exact election-day age", "education": "Reports Utah State BS 1972 and Washington University dental-medicine doctorate 1978", "profession": "U.S. Representative and former dentist", "prior_elected_office": "Lists Blackfoot City Council, Idaho House/Speaker and U.S. House"}, "disposition": "Overlapping already-covered incumbent facts, not counted as new acquisition. The guide's 1998-present congressional date is not promoted as a verified service-start date; distinguish election from service. No government-employment or military negative follows."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220242", "leads": ["Verify the campaign privacy-page Ellie Newman Gilbreath alias before using older professional biographies under Ellie Newman.", "Follow readable professional and university originals to resolve UCLA versus UC Irvine and the law degree's actual award/year.", "Find independently dated age/birth evidence and explicit public sensitive-identity evidence.", "Government-employment and military questions remain open; the scoped office negative does not answer them."]},
+    {"candidate_id": "220238", "leads": ["This useful questionnaire entry is not a full person-level pass. Research campaign, official, local, professional/university and earlier-biography families.", "Find actual employment history and completed credentials, if publicly documented.", "Date age evidence more precisely and seek explicit identity, affiliation, employment and military evidence without inferring negatives."]},
+    {"candidate_id": "220315", "leads": ["Verify the publisher-reported age 66 against another readable explicit age/birth original; alumni chronology alone is not counterevidence.", "Investigate genuinely explicit prior-office and military statements and public race, ethnicity and religious affiliation; do not infer from university, family or invocation of God.", "Find independent dates/employment records for the named legislative-aide and deputy-prosecutor jobs where available.", "Candidate questionnaires, earlier biographies and further professional originals remain actionable."]},
+    {"candidate_id": "220397", "leads": ["Finish a reliably retained full read of the remaining Ballotpedia survey; selected displayed passages are not source exhaustion.", "Follow Murray State or professional originals for credential corroboration and exact birth-year evidence.", "Seek explicit public gender/race/ethnicity classifications and a dated first-person religious description; publisher panel remains distinctly attributed.", "Investigate actual prior elected office, separate government employment and military service; nonresponses are not negatives."]}
+  ],
+  "next_batch": "Persist and validate this national batch, refresh the current report and complete offline-reconstructible archive at the durable checkpoint, then continue the retained national roster and outstanding person-level leads. No candidate here has completed all six source families."
+}

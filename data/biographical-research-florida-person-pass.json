@@ -1,0 +1,313 @@
+{
+  "scope": "All-ten-trait review for four previously unresearched Democratic nonincumbents, plus the independent and Republican subjects of the same original FL21 interview. Candidate-specific reviews sharing that article retain only 25 quotation words in aggregate. No completed person pass or scientific amendment is claimed.",
+  "documents": [
+    {
+      "id": "220094-retained-campaign-background",
+      "candidate_id": "220094", "name": "Bale Dalton", "state": "FL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:FL:07:general:source_general", "family": "campaign",
+      "url": "https://baledalton.com/", "source_title": "Bale Dalton: campaign background",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220094-home/campaign-220094-home",
+      "sha256": "d111f2da2c2f890c7722acfbe05022398efb83b85d57cfffa52ffb7125bb0131",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain and exact name; district-specific campaign notices and NASA/Navy career match the official employer biography.",
+      "identity_fragments": ["Bale Dalton"],
+      "source_excerpts": ["Bale Dalton", "U.S. Naval Academy", "Navy Captain", "Chief of Staff at NASA", "State Department", "Senator Bill Nelson", "aerospace company", "24 years", "13 years"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "academy_selection_without_explicit_degree_here", "factual_reference_date": null, "value": "Selected to attend the U.S. Naval Academy", "source_fragment": "U.S. Naval Academy", "qualification": "This page's top-of-class wording precedes academy selection; completed degrees come from the separate NASA original."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_current_and_historical_roles", "factual_reference_date": null, "value": "Navy captain and helicopter pilot; former NASA chief of staff; aerospace-company operations; State Department and Senate staff", "source_fragment": "Navy Captain", "supporting_fragments": ["Chief of Staff at NASA", "aerospace company"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_federal_agency_and_senate_staff_roles", "factual_reference_date": null, "value": "NASA chief of staff; State Department work; staff for Senator Bill Nelson", "source_fragment": "Chief of Staff at NASA", "supporting_fragments": ["State Department", "Senator Bill Nelson"], "qualification": "Staff work is not elected office."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_active_and_reserve_service", "factual_reference_date": null, "value": "Navy/Navy Reserve service reported as 24 years, including 13 active-duty years; helicopter pilot and squadron commander", "source_fragment": "Navy Captain", "supporting_fragments": ["24 years", "13 years"]}
+      ]
+    },
+    {
+      "id": "220094-nasa-employer-biography",
+      "candidate_id": "220094", "name": "Bale Dalton", "state": "FL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:FL:07:general:source_general", "family": "official_biography",
+      "url": "https://www.nasa.gov/people/nasa-chief-of-staff-bale-dalton/", "source_title": "NASA: Bale Dalton, former chief of staff",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Complete readable official biography reviewed. Historical office dates are explicit; the live page's current service statement is not a dated pre-election snapshot.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Orlando origin, NASA leadership, Navy squadron and Senator Nelson roles corroborate the native campaign subject.",
+      "identity_fragments": ["Bale Dalton"],
+      "source_excerpts": ["Bale Dalton", "Bachelor of Science", "Master of Public Policy", "Master of Business Administration", "chief of staff", "foreign affairs officer", "Navy Reserve", "program director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "official_employer_reports_completed_credentials", "factual_reference_date": null, "value": "BS ocean engineering, U.S. Naval Academy; MPP, Harvard Kennedy School; MBA, Wharton, University of Pennsylvania", "source_fragment": "Bachelor of Science", "supporting_fragments": ["Master of Public Policy", "Master of Business Administration"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_civilian_and_military_careers", "factual_reference_date": null, "value": "Air Center Helicopters program director; Senate military legislative assistant; State Department foreign affairs officer; NASA leader; naval aviator", "source_fragment": "program director", "supporting_fragments": ["foreign affairs officer", "chief of staff"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_dated_federal_employment", "factual_reference_date": "2021-05/2025-01", "value": "NASA deputy chief of staff May 2021-December 2023; chief of staff January 2024-January 2025; earlier Senate and State Department roles", "source_fragment": "chief of staff", "supporting_fragments": ["foreign affairs officer"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "official_branch_and_named_commands", "factual_reference_date": null, "value": "Naval aviator; commanded HSC-85 and reserve Training Wing Five; page reports Navy Reserve Defense Innovation Unit service", "source_fragment": "Navy Reserve"}
+      ]
+    },
+    {
+      "id": "220094-ballotpedia-full-survey",
+      "candidate_id": "220094", "name": "Bale Dalton", "state": "FL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:FL:07:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Bale_Dalton", "source_title": "Ballotpedia: Bale Dalton, complete displayed 2026 questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, FL07 2026 candidacy and linked native campaign; candidate career matches NASA original.",
+      "identity_fragments": ["Bale Dalton"],
+      "source_excerpts": ["Bale Dalton", "graduating", "U.S. Naval Academy", "Navy and Navy Reserve", "24 years", "13 years", "NASA Chief of Staff", "Senator Bill Nelson", "aerospace company"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_academy", "factual_reference_date": null, "value": "U.S. Naval Academy graduate", "source_fragment": "graduating", "supporting_fragments": ["U.S. Naval Academy"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_careers", "factual_reference_date": null, "value": "Helicopter pilot and Navy squadron commander; Senate staff; aerospace-company operations; NASA chief of staff", "source_fragment": "NASA Chief of Staff", "supporting_fragments": ["aerospace company"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_federal_staff_jobs", "factual_reference_date": null, "value": "Staff for Senator Bill Nelson and NASA chief of staff", "source_fragment": "Senator Bill Nelson", "supporting_fragments": ["NASA Chief of Staff"], "qualification": "No elected-office inference."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_service_and_duration", "factual_reference_date": null, "value": "Over 24 years Navy/Navy Reserve, 13 active duty; helicopter pilot and commanding officer", "source_fragment": "Navy and Navy Reserve", "supporting_fragments": ["24 years", "13 years"]}
+      ]
+    },
+    {
+      "id": "220094-oviedo-original-questionnaire",
+      "candidate_id": "220094", "name": "Bale Dalton", "state": "FL", "district": "07", "party": "Democratic",
+      "contest_id": "2026:house:FL:07:general:source_general", "family": "local_profile",
+      "url": "https://oviedocommunitynews.org/profile/bale-dalton/", "source_title": "Megan Stokes, Oviedo Community News: Bale Dalton",
+      "publication_date": "2026-02-04", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read the entire substantive questionnaire via the ordinary original-page reader. Header date is February 4; live answers include later events, so the exact age-field reference date is not established. A subsequent redundant web-open returned 429; no further requests.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, FL07 Democratic challenger, linked native campaign and corroborated NASA/Navy career.",
+      "identity_fragments": ["Bale Dalton"],
+      "source_excerpts": ["Bale Dalton", "Age:", "45", "Prior political experience:", "None to report.", "Captain", "U.S. Navy Reserve", "Chief of Staff at NASA", "Military Legislative Assistant"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_updated_2026_profile", "factual_reference_date": null, "value": "Age field reports 45", "source_fragment": "45", "qualification": "Do not manufacture birthday or exact election-day age from the living profile."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "scoped_negative_political_experience_field_not_elected_office_inventory", "factual_reference_date": null, "value": "Prior political experience field: none to report", "source_fragment": "None to report.", "supporting_fragments": ["Prior political experience:"], "qualification": "Prior Senate employment appears in the adjacent work field. Preserve this narrower publisher field without treating it as proof of no elected office or no government employment."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "questionnaire_current_and_prior_work_fields", "factual_reference_date": null, "value": "Navy Reserve captain; former NASA chief of staff and military legislative assistant to Senator Nelson", "source_fragment": "Captain", "supporting_fragments": ["Chief of Staff at NASA", "Military Legislative Assistant"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_and_command", "factual_reference_date": null, "value": "Navy Reserve captain; prior Navy helicopter-squadron commander and combat deployments", "source_fragment": "U.S. Navy Reserve"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_former_federal_jobs", "factual_reference_date": null, "value": "NASA chief of staff and Senate military legislative assistant", "source_fragment": "Chief of Staff at NASA", "supporting_fragments": ["Military Legislative Assistant"]}
+      ]
+    },
+    {
+      "id": "220078-campaign-completed-credentials-and-career",
+      "candidate_id": "220078", "name": "Gay Valimont", "state": "FL", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:FL:01:general:source_general", "family": "campaign",
+      "url": "https://www.gayforcongress.com/meet-gay", "source_title": "Gay Valimont for Congress: Meet Gay",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "FL01 candidate name, campaign committee, earlier candidacies and linked Ballotpedia/party biographies identify the retained person despite absent native campaign URL.",
+      "identity_fragments": ["Gay Valimont"],
+      "source_excerpts": ["Gay Valimont", "bachelor’s degree", "Georgia Southern University", "M.A. in Education", "Troy State University", "athletic trainer", "Emory Sports Medicine", "Florida State Lead"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reports_completed_degrees_and_professional_accreditation", "factual_reference_date": null, "value": "Bachelor's in Health and Exercise Science, Georgia Southern; MA Education, Troy State; National Athletic Trainers Association accreditation", "source_fragment": "bachelor’s degree", "supporting_fragments": ["Georgia Southern University", "M.A. in Education", "Troy State University"], "qualification": "No degree year supplied here."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_named_historical_employers_and_advocacy_roles", "factual_reference_date": null, "value": "Athletic trainer at Children's Healthcare of Atlanta and Emory Sports Medicine; later full-time grassroots organizer and Florida State Lead, Moms Demand Action", "source_fragment": "athletic trainer", "supporting_fragments": ["Emory Sports Medicine", "Florida State Lead"], "qualification": "Advocacy leadership is not elected office or government employment. Family medical information is not copied."}
+      ]
+    },
+    {
+      "id": "220078-ballotpedia-biography-and-both-surveys",
+      "candidate_id": "220078", "name": "Gay Valimont", "state": "FL", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:FL:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Gay_Valimont", "source_title": "Ballotpedia: Gay Valimont, biography and 2024/2026 questionnaires",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Reviewed both complete displayed surveys, biography, personal fields and source notes. Submission notes are March 11, 2024 and March 2, 2026; neither proves the date/origin of every infobox field.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, FL01 Democratic candidacies, campaign link and named education/career corroborate the campaign original.",
+      "identity_fragments": ["Gay Valimont"],
+      "source_excerpts": ["Gay Valimont", "Valimont, 51,", "Georgia Southern University", "1996", "Troy State University", "2000", "Troy University, 2001", "athletic trainer", "waited tables", "Religion", "Christian"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "age_in_survey_with_unresolved_reference_date", "factual_reference_date": null, "value": "2026 response text reports age 51", "source_fragment": "Valimont, 51,", "qualification": "Third-person wording may reuse an earlier profile; no birth year or election age assigned. Unread Vote411 discovery suggests another age but is not accepted evidence."},
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_degrees_with_unresolved_graduate_year", "factual_reference_date": null, "value": "Georgia Southern bachelor's, 1996; Troy graduate degree", "source_fragment": "Georgia Southern University", "supporting_fragments": ["1996", "Troy State University", "2000", "Troy University, 2001"], "unresolved_details": ["Biography gives Troy State 2000; infobox also lists Troy 2001. No second graduate degree or exact award year inferred."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reports_multiple_historical_jobs", "factual_reference_date": null, "value": "Athletic trainer, healthcare professional and organizer; waited tables for nine years through college", "source_fragment": "athletic trainer", "supporting_fragments": ["waited tables"]},
+        {"trait": "religion", "factual_status": "partial", "precision": "publisher_field_without_dated_self_attribution", "factual_reference_date": null, "value": "Publisher field: Christian", "source_fragment": "Christian", "supporting_fragments": ["Religion"], "qualification": "Current affiliation and field provenance are not established by displayed survey answers."}
+      ]
+    },
+    {
+      "id": "220078-party-biography",
+      "candidate_id": "220078", "name": "Gay Valimont", "state": "FL", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:FL:01:general:source_general", "family": "campaign",
+      "url": "https://www.escambiademocrats.org/gay_for_congress", "source_title": "Democrats of Escambia County: Meet Gay Valimont",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact full-name variant, Pensacola candidate, campaign link and matching schools/employers identify the retained nominee.",
+      "identity_fragments": ["Gay Gillespie Valimont"],
+      "source_excerpts": ["Gay Gillespie Valimont", "bachelor’s degree", "Georgia Southern University", "M.A. in Education", "Troy State University", "Children's Healthcare of Atlanta", "Emory Sports Medicine", "athletic trainer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "party_reproduces_candidate_completed_credentials", "factual_reference_date": null, "value": "Georgia Southern bachelor's in Health and Exercise Science; Troy State MA Education; athletic-trainer accreditation", "source_fragment": "bachelor’s degree", "supporting_fragments": ["Georgia Southern University", "M.A. in Education", "Troy State University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "party_published_named_employers", "factual_reference_date": null, "value": "Athletic trainer at Children's Healthcare of Atlanta and Emory Sports Medicine; later gun-violence-prevention organizer", "source_fragment": "athletic trainer", "supporting_fragments": ["Children's Healthcare of Atlanta", "Emory Sports Medicine"], "qualification": "Near-duplicate campaign wording is supplementary, not independent verification."}
+      ]
+    },
+    {
+      "id": "220131-retained-campaign-career-and-degree",
+      "candidate_id": "220131", "name": "James Martin", "state": "FL", "district": "21", "party": "Democratic",
+      "contest_id": "2026:house:FL:21:general:source_general", "family": "campaign",
+      "url": "https://www.jamesmartinforflorida.com/about", "source_title": "James Martin for Congress: Meet James",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220131-bio1/campaign-220131-bio1",
+      "sha256": "c914c78145c745ad2e71c879d9ccc435b99bf9e0d03415bdc9383e89f3d1d3df",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, FL21 opponent, Hobe Sound background and matching Coast Guard/White House career establish the correct James Martin, not similarly named politicians.",
+      "identity_fragments": ["James Martin"],
+      "source_excerpts": ["James Martin", "graduated with honors", "Naval Architecture and Marine Engineering", "Coast Guard Reserve", "lieutenant commander", "last assignment on active duty", "2022-2025"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_academy_degree", "factual_reference_date": null, "value": "U.S. Coast Guard Academy honors graduate in Naval Architecture and Marine Engineering", "source_fragment": "graduated with honors", "supporting_fragments": ["Naval Architecture and Marine Engineering"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reports_named_military_and_policy_roles", "factual_reference_date": null, "value": "Coast Guard officer, cutter commander, national-security chief of staff and Office of the Vice President executive secretary", "source_fragment": "last assignment on active duty", "supporting_fragments": ["lieutenant commander"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_service_and_reserve_commission", "factual_reference_date": null, "value": "Nearly ten years of Coast Guard active service; lieutenant commander in the Coast Guard Reserve", "source_fragment": "Coast Guard Reserve", "supporting_fragments": ["lieutenant commander"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "white_house_military_assignment_not_separate_civilian_employment", "factual_reference_date": "2022-2025", "value": "Vice-presidential national-security chief of staff and executive secretary, 2022-2025, explicitly described as last active-duty assignment", "source_fragment": "last assignment on active duty", "supporting_fragments": ["2022-2025"], "qualification": "Separate civilian government employment is not established."}
+      ]
+    },
+    {
+      "id": "220131-stet-original-interview",
+      "candidate_id": "220131", "name": "James Martin", "state": "FL", "district": "21", "party": "Democratic",
+      "contest_id": "2026:house:FL:21:general:source_general", "family": "local_profile",
+      "url": "https://stetnews.org/2026/10/19/2026-midterms-mast-vs-martin-vs-cooke-for-u-s-house/", "source_title": "STET: FL21 interviews",
+      "publication_date": "2026-10-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "District, party, linked native campaign and corroborated service identify the interview subject.",
+      "identity_fragments": ["Martin"],
+      "source_excerpts": ["Martin", "33", "graduated", "Coast Guard", "executive secretary"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age", "factual_reference_date": "2026-10-19", "value": "33 in October 2026", "source_fragment": "33"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_graduation", "factual_reference_date": "2015", "value": "Coast Guard Academy graduate, 2015", "source_fragment": "graduated"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_roles", "factual_reference_date": null, "value": "Coast Guard officer; White House national-security staff", "source_fragment": "Coast Guard", "supporting_fragments": ["executive secretary"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "positive_service_detail_hold", "factual_reference_date": null, "value": "Ten years' Coast Guard service", "source_fragment": "Coast Guard", "unresolved_details": ["Reported captain rank and 2021 staff start differ from campaign."]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "military_assignment", "factual_reference_date": "2021-2025", "value": "White House assignment, 2021-2025", "source_fragment": "executive secretary", "qualification": "Does not establish separate civilian employment."}
+      ]
+    },
+    {
+      "id": "220133-stet-original-interview",
+      "candidate_id": "220133", "name": "Alexander Cooke", "state": "FL", "district": "21", "party": "Independent",
+      "contest_id": "2026:house:FL:21:general:source_general", "family": "local_profile",
+      "url": "https://stetnews.org/2026/10/19/2026-midterms-mast-vs-martin-vs-cooke-for-u-s-house/", "source_title": "STET: FL21 interviews",
+      "publication_date": "2026-10-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Article explicitly bridges Alexander and Alex; same independent district candidacy.",
+      "identity_fragments": ["Cooke"],
+      "source_excerpts": ["Cooke", "49", "Fairfield University", "elected", "Optimist Capital"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age", "factual_reference_date": "2026-10-19", "value": "49", "source_fragment": "49"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_graduation", "factual_reference_date": null, "value": "Fairfield University graduate; studied finance", "source_fragment": "Fairfield University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_business", "factual_reference_date": "2017", "value": "Founder, Optimist Capital, 2017", "source_fragment": "Optimist Capital"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "elected_council_appointed_mayor", "factual_reference_date": "2022-2024", "value": "Juno Beach council, elected 2022; mayor by appointment, not election", "source_fragment": "elected"}
+      ]
+    },
+    {
+      "id": "220132-stet-reported-background",
+      "candidate_id": "220132", "name": "Brian Mast", "state": "FL", "district": "21", "party": "Republican",
+      "contest_id": "2026:house:FL:21:general:source_general", "family": "local_profile",
+      "url": "https://stetnews.org/2026/10/19/2026-midterms-mast-vs-martin-vs-cooke-for-u-s-house/", "source_title": "STET: FL21 interviews",
+      "publication_date": "2026-10-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Publisher says Mast did not respond; this is reported background, not his questionnaire response.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact retained incumbent and district; no relatives' backgrounds assigned.",
+      "identity_fragments": ["Mast"],
+      "source_excerpts": ["Mast", "46", "student until 2002", "Department of Homeland Security", "Army", "2016"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age", "factual_reference_date": "2026-10-19", "value": "46", "source_fragment": "46"},
+        {"trait": "education", "factual_status": "partial", "precision": "attendance_not_degree", "factual_reference_date": "2002", "value": "Palm Beach Atlantic University attendance through 2002; no degree established", "source_fragment": "student until 2002"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_careers", "factual_reference_date": null, "value": "Army bomb-disposal specialist; later counter-terrorism work", "source_fragment": "Army", "supporting_fragments": ["Department of Homeland Security"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reported_civilian_agency_work", "factual_reference_date": null, "value": "Department of Homeland Security after military retirement", "source_fragment": "Department of Homeland Security"},
+        {"trait": "military", "factual_status": "qualified", "precision": "reported_service", "factual_reference_date": "2000/2006", "value": "Army Reserve from 2000; active duty from 2006", "source_fragment": "Army"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_election", "factual_reference_date": "2016", "value": "U.S. House, first elected 2016", "source_fragment": "2016", "qualification": "Election mode is explicit in the reviewed paragraph, not inferred from incumbency."}
+      ]
+    },
+    {
+      "id": "220146-wlrn-original-interview",
+      "candidate_id": "220146", "name": "Eliott Rodriguez", "state": "FL", "district": "27", "party": "Democratic",
+      "contest_id": "2026:house:FL:27:general:source_general", "family": "local_profile",
+      "url": "https://www.wlrn.org/government-politics/2026-07-13/former-cbs-4-anchor-eliott-rodriguez-cites-deep-local-roots-in-bid-to-win-seat-in-congress",
+      "source_title": "WLRN: Eliott Rodriguez interview with This Week in South Florida",
+      "publication_date": "2026-07-13", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate, FL27 race, linked native campaign and independently corroborated CBS Miami career. Interviewers' classifications are distinguished from direct candidate answers.",
+      "identity_fragments": ["Eliott Rodriguez"],
+      "source_excerpts": ["Eliott Rodriguez", "Cuban-American journalists", "straight-up journalist", "born in New York", "immigrant parents from Cuba", "12 years old", "Shenandoah Junior High"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_original_interview_classification", "factual_reference_date": "2026-07-13", "value": "Cuban-American, explicitly classified by interview/reporting; candidate separately describes Cuban immigrant parents", "source_fragment": "Cuban-American journalists", "supporting_fragments": ["immigrant parents from Cuba"], "qualification": "Not inferred from surname or parents alone; no race, citizenship or religion assigned."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_describes_historical_work", "factual_reference_date": "2026-07-13", "value": "Former CBS4 Miami news anchor and journalist", "source_fragment": "straight-up journalist"},
+        {"trait": "education", "factual_status": "partial", "precision": "reported_school_attendance", "factual_reference_date": null, "value": "Shenandoah Junior High attendance after moving to Miami at age 12", "source_fragment": "Shenandoah Junior High", "supporting_fragments": ["12 years old"], "qualification": "Childhood milestone is not an age-at-election observation or completed credential."}
+      ]
+    },
+    {
+      "id": "220146-herald-dated-age",
+      "candidate_id": "220146", "name": "Eliott Rodriguez", "state": "FL", "district": "27", "party": "Democratic",
+      "contest_id": "2026:house:FL:27:general:source_general", "family": "local_profile",
+      "url": "https://www.miamiherald.com/news/politics-government/article314640636.html", "source_title": "Pre-candidacy profile",
+      "publication_date": "2026-02-10", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Readable original reviewed; retention is especially brief to respect this source's reuse limit.",
+      "identity_status": "verified",
+      "identity_qualification": "Correct subject corroborated independently by native campaign and WLRN.",
+      "identity_fragments": ["Eliott Rodriguez"],
+      "source_excerpts": ["Eliott Rodriguez", "Rodriguez, 69,", "retired", "son of Cuban immigrants"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_age", "factual_reference_date": "2026-02-10", "value": "69", "source_fragment": "Rodriguez, 69,"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_career", "factual_reference_date": "2026-02-10", "value": "Retired journalist", "source_fragment": "retired"},
+        {"trait": "ethnicity", "factual_status": "partial", "precision": "ancestry", "factual_reference_date": "2026-02-10", "value": "Cuban parentage", "source_fragment": "son of Cuban immigrants"}
+      ]
+    },
+    {
+      "id": "220146-earlier-original-interview",
+      "candidate_id": "220146", "name": "Eliott Rodriguez", "state": "FL", "district": "27", "party": "Democratic",
+      "contest_id": "2026:house:FL:27:general:source_general", "family": "earlier_biography",
+      "url": "https://theviewpointlm.blogspot.com/2017/08/wfor-cbs-4-elliot-rodrigurez.html", "source_title": "Luis A. Mercado, The ViewPoint: CBS4 News Anchor Eliott Rodriguez",
+      "publication_date": "2017-08-24", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Complete original interview profile read; interview occurred August 15, 2017. Historical work is not labeled current in 2026.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, same CBS4 Miami and WPLG career, Miami schooling and New York-to-Miami move corroborate the candidate. A misspelled URL slug is not a different person.",
+      "identity_fragments": ["Eliott Rodriguez"],
+      "source_excerpts": ["Eliott Rodriguez", "La Salle High School", "After graduation", "Miami Dade College", "University of Miami", "degree in Communications", "CBS4 News", "WPLG"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "earlier_original_interview_reports_completed_degree", "factual_reference_date": "2017-08-15", "value": "La Salle high-school graduation; Miami Dade study; University of Miami Communications degree", "source_fragment": "degree in Communications", "supporting_fragments": ["University of Miami", "La Salle High School", "After graduation"], "qualification": "Does not establish a Miami Dade award or the precise university degree title/year. Other accounts describe journalism; exact major remains unresolved."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_original_career_profile", "factual_reference_date": "2017-08-15", "value": "CBS4 Miami news anchor; previously WPLG Local 10 journalist; college newspaper reporting before broadcasting", "source_fragment": "CBS4 News", "supporting_fragments": ["WPLG"]}
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220146", "family": "ballotpedia_questionnaire", "query": "Underlying-page follow-up: https://ballotpedia.org/Eliott_Rodriguez",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://ballotpedia.org/Eliott_Rodriguez"],
+      "lead_dispositions": {"https://ballotpedia.org/Eliott_Rodriguez": {"status": "reviewed_no_requested_facts", "reason": "No substantive background biography or completed survey on the original."}},
+      "url": "https://ballotpedia.org/Eliott_Rodriguez", "reason": "Reviewed the candidate/election identity and campaign-themes section: explicitly no completed 2026 survey; no biography/background fields displayed. Endorsements and omission do not supply identities or negative service."
+    },
+    {
+      "candidate_id": "220131", "family": "ballotpedia_questionnaire", "query": "Underlying-page follow-up: https://ballotpedia.org/James_Martin_(Florida)",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://ballotpedia.org/James_Martin_(Florida)"],
+      "lead_dispositions": {"https://ballotpedia.org/James_Martin_(Florida)": {"status": "reviewed_no_requested_facts", "reason": "No substantive background biography or completed survey on the original."}},
+      "url": "https://ballotpedia.org/James_Martin_(Florida)", "reason": "Read candidate identity and campaign-themes section: no completed 2026 survey or substantive biography displayed. Similar-name politicians are excluded."
+    },
+    {
+      "candidate_id": "220146", "family": "campaign", "query": "Retained original review: https://www.eliottrodriguez.com/ including the #about-eliott anchor",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.eliottrodriguez.com/"],
+      "lead_dispositions": {"https://www.eliottrodriguez.com/": {"status": "reviewed_no_requested_facts", "reason": "Retained about-section HTML is genuinely sparse; its linked video remains an actionable unreviewed lead."}},
+      "url": "https://www.eliottrodriguez.com/", "reason": "Read retained HTML text and inspected the actual about-eliott DOM section. It contains a policy introduction and an embedded video, not a missing structured biography; the video itself remains unreviewed. General storytelling language is not a new qualified career fact.",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220146-home/campaign-220146-home",
+      "sha256": "859216bc6a526aedc1160d6490d81bac731577d2e0a4a76d7c17d05f19d331e0"
+    }
+  ],
+  "withheld_documents": [
+    {
+      "id": "220078-vote411-original-access-failure", "candidate_id": "220078",
+      "url": "https://onyourballot.vote411.org/candidate-detail.do?id=73020269", "status": "access_failure",
+      "traits_pending_verification": ["age", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "reason": "Ordinary original-page requests yielded timeout then HTTP 500. Discovery text alone is not evidence; another displayed candidate's age/education must not be assigned to Valimont. No further requests."
+    }
+  ],
+  "completed_candidates": [],
+  "raw_discovery_batches": [
+    {"searched_at": "2026-11-18", "queries": ["Bale Dalton biography age education religion office Florida", "Eliott Rodriguez biography birth Cuban college Congress", "Gay Valimont biography education occupation religion", "James Martin Florida Congress biography age Navy"], "result_mapping": "Followed campaign, Ballotpedia and original local-profile leads recorded above. Unrelated Navy/political news and namesakes rejected."},
+    {"searched_at": "2026-11-18", "queries": ["\"Bale Dalton\" NASA biography age", "\"James Martin\" \"Congress\" \"age\" \"2026\"", "\"Gay Valimont\" \"age\" \"2026\"", "\"Eliott Rodriguez\" birth Miami biography university"], "result_mapping": "Followed NASA, Oviedo, STET, original earlier interview and Miami Herald. Vote411 original failed. Wikipedia birth date and contact-broker entries not accepted."},
+    {"searched_at": "2026-11-18", "queries": ["\"Bale Dalton\" religion Jewish Christian university biography", "\"James Martin\" \"Coast Guard\" \"White House\" biography age", "\"Gay Valimont\" \"born\" \"Christian\"", "\"Eliott Rodriguez\" \"Cuban-American\" \"Catholic\""], "result_mapping": "No qualifying new religious self-description; Valimont publisher field remains partial. Rodriguez relative's obituary is not candidate religious evidence. University/earlier official leads and Martin interview recording remain actionable, not completed families."}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "220094", "next": "Review earlier NASA/USRA and university originals; seek explicit identity/affiliation statements and better age timing. Preserve political-experience field scope rather than manufacturing a no-office contrast."},
+    {"candidate_id": "220078", "next": "Independent local election profiles, university/employer histories, earlier campaign biographies, dated age and direct religious-affiliation attribution. Vote411 age remains unverified; relatives' military service is not hers."},
+    {"candidate_id": "220131", "next": "Official Coast Guard and university originals; earlier national-security profile/interview; dated identity/affiliation evidence. Resolve rank and White House start-date details without erasing positive service or asserting civilian employment."},
+    {"candidate_id": "220146", "next": "University and employer originals, exact birth-date source, explicit current affiliation and service-history questions. Campaign video https://www.youtube.com/watch?v=4uqMZu-jXk8 is a concrete unreviewed lead. Do not equate first candidacy with no prior office."},
+    {"candidate_id": "220133", "next": "Follow the interview's linked campaign https://alexcookeforcongress.com/, employer https://optimistcap.com/, official Juno Beach election/service and Fairfield originals; complete remaining traits and source families. Native federal-incumbency uncertainty is not recoded from a former local mayor title."},
+    {"candidate_id": "220132", "next": "Remaining source families and ten-trait pass are uncompleted; only the already encountered interview background was extracted, without additional incumbent-targeted acquisition."}
+  ]
+}

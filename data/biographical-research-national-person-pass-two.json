@@ -1,0 +1,283 @@
+{
+  "scope": "Continue all-ten-trait reading for four previously unresearched Democratic nonincumbents in Colorado, Connecticut and Florida. Extract the FL08 Republican's background from the same encountered interview without an additional incumbent-targeted search. Current-page observations do not establish pre-election availability. These are unfinished passes.",
+  "documents": [
+    {
+      "id": "219990-retained-full-campaign-biography",
+      "candidate_id": "219990", "name": "Jessica Killin", "state": "CO", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:CO:05:general:source_general", "family": "campaign",
+      "url": "https://www.killinforcolorado.com/about", "source_title": "Jessica Killin for Congress: About",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "data/raw/incoming-members-20261114/incoming-primary-219990.html",
+      "sha256": "596510fe4e4532321f2fbfc9ec5b3249b5a934d04ecc3055bd4e5b4a6e982767",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign domain, Colorado Springs and matching military/USAA/White House career establish the retained CO05 candidate.",
+      "identity_fragments": ["Jessica Killin"],
+      "source_excerpts": ["Jessica Killin", "graduating from Falcon High School", "law degree at Georgetown", "executive at USAA", "Capitol Hill", "White House", "Captain and paratrooper", "Military Police Officer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_high_school_and_law_degree", "factual_reference_date": null, "value": "Falcon High School graduate; Georgetown law degree after military service; ROTC scholarship", "source_fragment": "law degree at Georgetown", "supporting_fragments": ["graduating from Falcon High School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_named_historical_careers", "factual_reference_date": null, "value": "Army military police officer and paratrooper; USAA executive for over a decade; congressional and White House staff leadership", "source_fragment": "executive at USAA", "supporting_fragments": ["Military Police Officer", "Capitol Hill", "White House"], "qualification": "USAA work on veterans' loans is private employment, not Department of Veterans Affairs employment."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_congressional_and_executive_staff_roles", "factual_reference_date": null, "value": "Leadership staff roles on Capitol Hill and at the White House", "source_fragment": "Capitol Hill", "supporting_fragments": ["White House"], "qualification": "Staff roles, not elected office."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reports_branch_rank_and_duties", "factual_reference_date": null, "value": "U.S. Army captain, paratrooper and military police officer; Balkans peacekeeping and NATO expansion work", "source_fragment": "Captain and paratrooper", "supporting_fragments": ["Military Police Officer"]}
+      ]
+    },
+    {
+      "id": "219990-contrarian-complete-original-transcript",
+      "candidate_id": "219990", "name": "Jessica Killin", "state": "CO", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:CO:05:general:source_general", "family": "local_profile",
+      "url": "https://www.contrariannews.org/p/killin-it-in-colorados-5th-district",
+      "source_title": "The Contrarian, Tim Dickinson: Killin' It in Colorado's 5th District",
+      "publication_date": "2026-08-07", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Entire substantive publisher transcript read in two consecutive ranges, through the closing question and answer. National interview about this district; not a local-newsroom classification.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact candidate, CO05, native campaign named in her closing answer and corroborated career history.",
+      "identity_fragments": ["Jessica Killin"],
+      "source_excerpts": ["Jessica Killin", "as a woman", "four-year Army ROTC scholarship", "Go to law school", "military police officer", "USAA", "House", "Doug Emhoff’s Chief of Staff"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "direct_public_self_description", "factual_reference_date": "2026-08-07", "value": "Woman", "source_fragment": "as a woman", "qualification": "Explicit first-person description, not inferred from pronouns, parenthood or a photograph."},
+        {"trait": "education", "factual_status": "partial", "precision": "scholarship_and_law_school_not_completed_award_here", "factual_reference_date": "2026-08-07", "value": "Four-year Army ROTC scholarship for college; subsequent law-school study", "source_fragment": "four-year Army ROTC scholarship", "supporting_fragments": ["Go to law school"], "qualification": "Completed law credential is supported by the separate retained campaign original."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_describes_multiple_historical_jobs", "factual_reference_date": "2026-08-07", "value": "Army military police officer; over a decade at USAA; House chief of staff; Doug Emhoff's White House chief of staff", "source_fragment": "military police officer", "supporting_fragments": ["USAA", "House", "Doug Emhoff’s Chief of Staff"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_civilian_staff_employment", "factual_reference_date": "2026-08-07", "value": "House chief of staff and later Doug Emhoff's White House chief of staff", "source_fragment": "Doug Emhoff’s Chief of Staff", "supporting_fragments": ["House"], "qualification": "Does not establish having held elected office."},
+        {"trait": "military", "factual_status": "qualified", "precision": "direct_branch_role_and_overseas_service", "factual_reference_date": "2026-08-07", "value": "Army officer and platoon leader, military police; Balkans peacekeeping and Central European NATO-expansion work", "source_fragment": "military police officer"}
+      ]
+    },
+    {
+      "id": "220035-current-campaign-after-native-domain-rejection",
+      "candidate_id": "220035", "name": "Luke Bronin", "state": "CT", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CT:01:general:source_general", "family": "campaign",
+      "url": "https://www.broninforcongress.com/about", "source_title": "Bronin for Congress: Meet Luke",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Hartford mayoralty, Navy and Treasury career match the retained candidate and the independent Yale/CRDA records. This is not the unrelated material now served at his old native domain.",
+      "identity_fragments": ["Luke Bronin"],
+      "source_excerpts": ["Luke Bronin", "2016 to 2024", "mayor of Hartford", "Rhodes Scholar", "Navy intelligence officer", "Treasury Department", "Deputy Assistant Secretary", "General Counsel"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "scholarship_not_degree_here", "factual_reference_date": null, "value": "Rhodes Scholar", "source_fragment": "Rhodes Scholar", "qualification": "Scholarship designation does not alone identify completed credentials."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_public_legal_and_military_careers", "factual_reference_date": null, "value": "Hartford mayor; Navy intelligence officer; Treasury senior official; general counsel to Governor Malloy", "source_fragment": "mayor of Hartford", "supporting_fragments": ["Navy intelligence officer", "General Counsel"]},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "mayoral_office_without_election_mode_in_this_passage", "factual_reference_date": "2016-2024", "value": "Hartford mayor, campaign span 2016-2024", "source_fragment": "mayor of Hartford", "supporting_fragments": ["2016 to 2024"], "qualification": "Election mode is not supplied in this paragraph; prior qualified office evidence is preserved.", "unresolved_details": ["Campaign uses 2024 endpoint, while Yale biography uses 2023; exact term-end boundary is not independently settled here."]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_civilian_federal_and_state_positions", "factual_reference_date": null, "value": "Treasury deputy assistant secretary for terrorist financing and financial crimes; Governor Malloy's general counsel", "source_fragment": "Deputy Assistant Secretary", "supporting_fragments": ["Treasury Department", "General Counsel"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_and_deployment", "factual_reference_date": null, "value": "Navy intelligence officer, deployed to Afghanistan with military anti-corruption task force", "source_fragment": "Navy intelligence officer"}
+      ]
+    },
+    {
+      "id": "220035-yale-complete-career-interview",
+      "candidate_id": "220035", "name": "Luke Bronin", "state": "CT", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CT:01:general:source_general", "family": "university_employer_professional",
+      "url": "https://law.yale.edu/yls-today/news/lessons-leadership-qa-luke-bronin",
+      "source_title": "Yale Law School: Lessons in Leadership, a Q&A with Luke Bronin",
+      "publication_date": "2024-08-13", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Retained V6 evidence already used this URL. Full underlying interview now reviewed for this person pass, not presented as a newly discovered source. Introduction was updated through the 2024-25 year.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Hartford mayor, Navy, Treasury and Malloy posts corroborate the candidate. A separate speculative university-directory URL required login and was not used.",
+      "identity_fragments": ["Luke Bronin"],
+      "source_excerpts": ["Luke Bronin", "B.A.", "Yale College", "M.Sc.", "University of Oxford", "J.D.", "Yale Law School", "Hinckley Allen", "General Counsel", "Deputy Assistant Secretary", "U.S. Navy Reserve"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_reports_completed_credentials", "factual_reference_date": null, "value": "BA, Yale College; MSc, Oxford; JD, Yale Law School", "source_fragment": "B.A.", "supporting_fragments": ["Yale College", "M.Sc.", "University of Oxford", "J.D.", "Yale Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_named_historical_employers", "factual_reference_date": "2024-2025", "value": "Yale visiting law lecturer and fellow; Hinckley Allen partner; Hartford Financial Services Group; prior mayor and government attorney", "source_fragment": "Hinckley Allen", "supporting_fragments": ["Yale Law School", "General Counsel"], "qualification": "University employment is not government employment."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "named_prior_mayoralty", "factual_reference_date": "2016-2023", "value": "Two Hartford mayoral terms, 2016-2023", "source_fragment": "Luke Bronin", "qualification": "Term history is explicit in the reviewed introduction; election mode is retained from earlier qualified evidence, not inferred here."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "university_reports_named_public_jobs", "factual_reference_date": null, "value": "General counsel to Governor Malloy; Treasury deputy assistant secretary for terrorist financing and financial crimes", "source_fragment": "General Counsel", "supporting_fragments": ["Deputy Assistant Secretary"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_and_dated_deployment", "factual_reference_date": "2010-2011", "value": "U.S. Navy Reserve officer; Afghanistan anti-corruption task-force deployment, 2010-2011", "source_fragment": "U.S. Navy Reserve"}
+      ]
+    },
+    {
+      "id": "220035-crda-explicit-agency-classifications",
+      "candidate_id": "220035", "name": "Luke Bronin", "state": "CT", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CT:01:general:source_general", "family": "official_biography",
+      "url": "https://crdact.net/wp-content/uploads/2023/09/2023-CRDA-FY2023-ANNUAL-REPORT.pdf",
+      "source_title": "Capital Region Development Authority: FY2023 Annual Report, page 36",
+      "publication_date": "2023", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "sha256": "633fb56dd2affb0aabedc7418593e32039fe2710369e11489c7d2630d0cf60c9",
+      "source_date_note": "Official governance roster, not a narrative biography. Downloaded PDF verified in memory (5621768 bytes), parsed page 36 and inspected its complete named table; original bytes not retained for redistribution. Table explicitly as of June 30, 2023.",
+      "identity_status": "verified",
+      "identity_qualification": "Hartford mayor Luke Bronin, ex-officio governmental role, matches the independently documented candidate and mayoral dates.",
+      "identity_fragments": ["Luke Bronin"],
+      "source_excerpts": ["NAME", "RACE/ETHNICITY", "GENDER", "Hartford Mayor", "Luke Bronin", "White", "Male", "Secretary/Legislated", "June", "30,", "2023"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_named_public_agency_classification", "factual_reference_date": "2023-06-30", "value": "White in the authority's combined RACE/ETHNICITY field", "source_fragment": "White", "supporting_fragments": ["RACE/ETHNICITY"], "qualification": "Agency classification, not a claimed self-description. Does not establish non-Hispanic ethnicity or eligibility for a historical analytical race definition."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_named_public_agency_classification", "factual_reference_date": "2023-06-30", "value": "Male in authority's GENDER field", "source_fragment": "Male", "supporting_fragments": ["GENDER"], "qualification": "Documented agency classification, not inferred from name or photograph."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_official_office_roster", "factual_reference_date": "2023-06-30", "value": "Hartford mayor", "source_fragment": "Hartford Mayor"},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "official_role_not_election_certificate", "factual_reference_date": "2023-06-30", "value": "Hartford mayor listed on board roster", "source_fragment": "Hartford Mayor", "qualification": "The roster is not itself an election record."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "legislated_board_service_without_employment_relationship", "factual_reference_date": "2023-06-30", "value": "Authority board secretary in legislated mayoral seat", "source_fragment": "Secretary/Legislated", "qualification": "Ex-officio board membership is not proof of separate paid government employment."}
+      ]
+    },
+    {
+      "id": "220092-rendered-campaign-full-biography",
+      "candidate_id": "220092", "name": "Eric Yonce", "state": "FL", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:FL:06:general:source_general", "family": "campaign",
+      "url": "https://www.yonceforcongress.com/about-eric", "source_title": "Eric Yonce for Congress: Meet Eric",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Ordinary homepage HTML was only a client-rendered shell. Read the actual rendered homepage, followed its About link and read the complete rendered biography; no forms or optional cookies accepted.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Florida Sixth District, matching Citra/Ormond Beach and retail/Airstream career agree with the original election questionnaire. No native website was recorded, so name alone was not used.",
+      "identity_fragments": ["Eric", "Yonce"],
+      "source_excerpts": ["Eric", "Yonce", "graduating from North Marion High School", "twenty years managing big-box retail stores", "small business renovating vintage Airstream travel trailers"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_reported_high_school_completion", "factual_reference_date": null, "value": "North Marion High School graduate", "source_fragment": "graduating from North Marion High School", "qualification": "No college degree inferred; historical questionnaire describes college attendance."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "current_business_and_historical_occupation", "factual_reference_date": null, "value": "Over twenty years managing big-box retail; owner of business renovating vintage Airstream travel trailers", "source_fragment": "twenty years managing big-box retail stores", "supporting_fragments": ["small business renovating vintage Airstream travel trailers"], "qualification": "Father's police service and mother's real-estate work are not assigned to him. Endorsements on homepage are not religion or gender evidence."}
+      ]
+    },
+    {
+      "id": "220092-florida-politics-full-questionnaire",
+      "candidate_id": "220092", "name": "Eric Yonce", "state": "FL", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:FL:06:general:source_general", "family": "local_profile",
+      "url": "https://floridapolitics.com/archives/812257-eric-yonce-what-critics-call-far-left-is-fighting-for-basic-human-needs-and-rights/",
+      "source_title": "Fabrizio Gowdy, Florida Politics: Eric Yonce questionnaire",
+      "publication_date": "2026-08-09", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read all substantive questions/answers in two consecutive ranges, through final left/right policy question. Publisher says answers are unedited.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Democratic FL06 primary, named opponent Fine, Ormond Beach business and campaign-consistent Citra/retail history.",
+      "identity_fragments": ["Eric Yonce"],
+      "source_excerpts": ["Eric Yonce", "20 years in retail", "small business owner", "North Marion High School", "Central Florida Community College", "University of Phoenix", "2 years"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "attendance_and_study_duration_without_completed_college_award", "factual_reference_date": "2026-08-09", "value": "North Marion High School attendance; two years at Central Florida Community College and two years of online University of Phoenix study", "source_fragment": "North Marion High School", "supporting_fragments": ["Central Florida Community College", "University of Phoenix", "2 years"], "qualification": "Two plus two study years do not establish a bachelor's degree or separate college awards."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_candidate_reported_occupations", "factual_reference_date": "2026-08-09", "value": "Over 20 years in retail, managing multiple large-chain locations; small-business owner in Ormond Beach", "source_fragment": "20 years in retail", "supporting_fragments": ["small business owner"], "qualification": "Community volunteering and advocacy do not establish government employment; policy support for religious freedom is not his religious affiliation."}
+      ]
+    },
+    {
+      "id": "220098-retained-campaign-full-biography",
+      "candidate_id": "220098", "name": "Jennifer Jenkins", "state": "FL", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:FL:08:general:source_general", "family": "campaign",
+      "url": "https://jenkinsforfl.com/about", "source_title": "Jennifer Jenkins for Congress: Meet Jennifer",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220098-bio2/campaign-220098-bio2",
+      "sha256": "62780fd3885bb7e1653cb3e4a23c57ced551fb28debfaae715e08f58caec9d67",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact name, Satellite Beach, former Brevard school-board election and same education organization identify the retained candidate despite earlier campaign race changes.",
+      "identity_fragments": ["Jennifer Jenkins"],
+      "source_excerpts": ["Jennifer Jenkins", "career in education", "Brevard County School Board", "2020", "defeated", "Educated We Stand"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_career_and_organization_founder", "factual_reference_date": null, "value": "Education career; founder of Educated We Stand", "source_fragment": "career in education", "supporting_fragments": ["Educated We Stand"], "qualification": "Does not give precise clinical occupation or credentials; husband's teaching and father's corrections employment are not her jobs."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_candidate_reported_local_election", "factual_reference_date": "2020", "value": "Won Brevard County School Board election in 2020", "source_fragment": "Brevard County School Board", "supporting_fragments": ["defeated", "2020"], "qualification": "Elected board office is distinct from earlier salaried district employment."}
+      ]
+    },
+    {
+      "id": "220098-florida-today-dated-questionnaire",
+      "candidate_id": "220098", "name": "Jennifer Jenkins", "state": "FL", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:FL:08:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/haridopolos-jenkins-race-control-congress-090321000.html",
+      "source_title": "Florida Today: FL08 profiles, syndicated on AOL",
+      "publication_date": "2026-10-15", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Complete syndicated original read, including both candidate questionnaires; no request to a denied publisher endpoint. Shared quotation budget is 19 words across both subjects.",
+      "identity_status": "verified",
+      "identity_qualification": "Candidate, district, native campaign and school-board history match; earlier race changes are not identity mismatches.",
+      "identity_fragments": ["Jennifer Jenkins"],
+      "source_excerpts": ["Jennifer Jenkins", "39", "Speech Language Pathologist", "M.A.", "2020-2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age", "factual_reference_date": "2026-10-15", "value": "39", "source_fragment": "39"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_questionnaire_occupation", "factual_reference_date": "2026-10-15", "value": "Speech-language pathologist; Educated We Stand chair, 2024-2025", "source_fragment": "Speech Language Pathologist"},
+        {"trait": "education", "factual_status": "qualified", "precision": "questionnaire_completed_credential", "factual_reference_date": "2026-10-15", "value": "MA Communication Sciences and Disorders, University of Central Florida", "source_fragment": "M.A."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "term_dates_without_election_mode_in_questionnaire", "factual_reference_date": "2020-2024", "value": "Brevard school board, 2020-2024", "source_fragment": "2020-2024", "qualification": "Election independently corroborated by retained campaign original."}
+      ]
+    },
+    {
+      "id": "220097-florida-today-reported-background",
+      "candidate_id": "220097", "name": "Mike Haridopolos", "state": "FL", "district": "08", "party": "Republican",
+      "contest_id": "2026:house:FL:08:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/haridopolos-jenkins-race-control-congress-090321000.html",
+      "source_title": "Florida Today: FL08 profiles, syndicated on AOL",
+      "publication_date": "2026-10-15", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact native Republican incumbent and district; no other subjects' traits transferred.",
+      "identity_fragments": ["Mike Haridopolos"],
+      "source_excerpts": ["Mike Haridopolos", "56", "B.A.", "M.A.", "U.S. Congressman", "2000-2003", "2003-2012", "MJH Consulting"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_reported_age", "factual_reference_date": "2026-10-15", "value": "56", "source_fragment": "56"},
+        {"trait": "education", "factual_status": "qualified", "precision": "questionnaire_completed_credentials", "factual_reference_date": "2026-10-15", "value": "BA history/political science, Stetson; MA history, Arkansas", "source_fragment": "B.A.", "supporting_fragments": ["M.A."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "current_office_and_historical_private_career", "factual_reference_date": "2026-10-15", "value": "Congressman; founder of MJH Consulting after state office", "source_fragment": "U.S. Congressman", "supporting_fragments": ["MJH Consulting"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_dated_elections_and_terms", "factual_reference_date": "2000-2024", "value": "Florida House 2000-2003; Senate 2003-2012; Senate president 2010-2012; elected to Congress 2024", "source_fragment": "2000-2003", "supporting_fragments": ["2003-2012"]}
+      ]
+    },
+    {
+      "id": "220098-earlier-district-employment",
+      "candidate_id": "220098", "name": "Jennifer Jenkins", "state": "FL", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:FL:08:general:source_general", "family": "earlier_biography",
+      "url": "https://floridapolitics.com/archives/713020-ex-brevard-school-board-member-threatens-lawsuit-over-retaliatory-hiring-practices/",
+      "source_title": "Jesse Scheckner, Florida Politics: former Brevard board member and hiring dispute",
+      "publication_date": "2024-12-20", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Complete substantive report read. Earlier completed employment is distinguished from a later rejected job application, substitute offer and unfiled-at-publication lawsuit.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Brevard 2020 election, 2024 board departure and same clinical occupation corroborate the congressional candidate.",
+      "identity_fragments": ["Jennifer Jenkins"],
+      "source_excerpts": ["Jennifer Jenkins", "licensed speech-language pathologist", "worked in the district for six years", "before winning election", "August 2020"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "reported_licensed_clinical_occupation", "factual_reference_date": "2024-12-20", "value": "Licensed speech-language pathologist, formerly employed by Brevard school district", "source_fragment": "licensed speech-language pathologist"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_prior_public_school_district_employment_separate_from_office", "factual_reference_date": "before 2020 election", "value": "Six years as a speech-language pathologist employed in Brevard County School District before school-board election", "source_fragment": "worked in the district for six years", "supporting_fragments": ["before winning election"], "qualification": "Earlier employment is explicit. Her later unsuccessful rehire application and declined substitute offer are not coded as new employment."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "reported_dated_local_election", "factual_reference_date": "2020-08", "value": "Won Brevard school-board election August 2020; term ended November 2024", "source_fragment": "before winning election", "supporting_fragments": ["August 2020"]}
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220035", "family": "campaign", "query": "Retained native campaign original and current campaign About follow-up",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.lukebronin.com/", "https://www.broninforcongress.com/about"],
+      "lead_dispositions": {"https://www.lukebronin.com/": {"status": "identity_rejected", "reason": "Retained native-domain download resolves to unrelated Thai-domain Indonesian gambling text. Full retained text inspected; no candidate biography. Do not treat successful HTTP transport or keyword matches as person evidence."}},
+      "rejected_source_cache": "artifacts/characteristics-v8/campaign/campaign-220035-home/campaign-220035-home",
+      "rejected_source_sha256": "312d08b7fcdc8cc55327b639971b317dd0bbb20c1dd1dc307f16e22395ee2795"
+    },
+    {
+      "candidate_id": "220092", "family": "campaign", "query": "Original campaign homepage and its rendered About Eric link",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.yonceforcongress.com/", "https://www.yonceforcongress.com/about-eric"],
+      "lead_dispositions": {"https://www.yonceforcongress.com/": {"status": "duplicate_reviewed_original", "reason": "Homepage repeats brief candidate introduction; followed About link and retained complete biography claims rather than redundant homepage claims."}}
+    },
+    {
+      "candidate_id": "220035", "family": "university_employer_professional",
+      "query": "Direct attempted Yale directory URL https://law.yale.edu/luke-bronin",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://law.yale.edu/luke-bronin"],
+      "lead_dispositions": {"https://law.yale.edu/luke-bronin": {"status": "access_failure", "reason": "Redirected to university authentication; no biography read and no login attempted."}}
+    },
+    {
+      "candidate_id": "220035", "family": "ballotpedia_questionnaire",
+      "query": "Ordinary browser request to original Luke Bronin profile",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://ballotpedia.org/Luke_Bronin"],
+      "lead_dispositions": {"https://ballotpedia.org/Luke_Bronin": {"status": "access_failure", "reason": "HTTP 403; no page content read and no further attempt."}}
+    },
+    {
+      "candidate_id": "220092", "family": "ballotpedia_questionnaire",
+      "query": "Ordinary original-page reader and browser request to Eric Yonce profile",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://ballotpedia.org/Eric_Yonce"],
+      "lead_dispositions": {"https://ballotpedia.org/Eric_Yonce": {"status": "access_failure", "reason": "Reader returned no text; ordinary browser returned HTTP 403. No page content read and no further attempt."}}
+    },
+    {
+      "candidate_id": "220092", "family": "local_profile",
+      "query": "\"Eric Yonce\" biography age",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "search_url": "https://www.google.com/search?q=%22Eric+Yonce%22+biography+age",
+      "error": "Ordinary search rendering redirected to unusual-traffic human-verification page. No results read, no challenge solved and no further attempt."
+    }
+  ],
+  "withheld_documents": [
+    {"id": "220035-speculative-yale-directory-login", "candidate_id": "220035", "url": "https://law.yale.edu/luke-bronin", "status": "access_failure", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession"], "reason": "Speculative directory URL redirected to Yale CAS login. Not a readable biography and not used; no login or access bypass. Independent public Yale interview was already known from V6."},
+    {"id": "220035-ballotpedia-browser-denied", "candidate_id": "220035", "url": "https://ballotpedia.org/Luke_Bronin", "status": "access_failure", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"], "reason": "Ordinary browser request returned HTTP 403. No content extracted, no survey-read claim and no further attempt."},
+    {"id": "220092-ballotpedia-browser-denied", "candidate_id": "220092", "url": "https://ballotpedia.org/Eric_Yonce", "status": "access_failure", "traits_pending_verification": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"], "reason": "Initial reader returned no content; ordinary browser then returned HTTP 403. No content extracted, no snippet-derived age/religion claim and no further attempt."}
+  ],
+  "completed_candidates": [],
+  "raw_discovery_batches": [
+    {"searched_at": "2026-11-18", "queries": ["\"Eric Yonce\" Congress biography education age religion", "\"Jennifer Jenkins\" Congress biography education age religion", "\"Luke Bronin\" biography age religion Navy", "\"Jessica Killin\" biography education religion Army"], "result_mapping": "Search tool returned no readable result payload; execution is not a successful source-family review. Separately readable originals are documented above."},
+    {"searched_at": "2026-11-18", "queries": ["\"Luke Bronin\" \"religion\" \"Jewish\"", "\"Jennifer Jenkins\" \"39\" religion biography school board", "\"Eric Yonce\" \"age\" born veteran", "\"Jessica Killin\" \"age\" \"religion\""], "result_mapping": "No readable result payload; query hypotheses are not identity, age or affiliation evidence."},
+    {"searched_at": "2026-11-18", "queries": ["\"Luke Bronin\" \"white\" \"male\"", "\"Luke Bronin\" biography site:law.yale.edu", "\"Eric Yonce\" \"age\" \"years old\"", "\"Jennifer Jenkins\" \"school\" \"speech\" \"worked\" \"Palm Bay\""], "result_mapping": "No readable search payload retained. CRDA and local employment claims were independently checked against full ordinary original-page/PDF responses, not discovery snippets."}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "219990", "next": "University, official staff and earlier public biographies; explicit race, ethnicity and current religion; scoped prior-office history. Read retained homepage too; it adds no unique background facts beyond the complete About biography. Direct transcript supports self-described gender, not demographic inference."},
+    {"candidate_id": "220035", "next": "Complete remaining source families, dated age and explicit ethnicity/religion. Agency White/Male classifications are dated 2023 and not self-reports. Resolve exact mayoral term boundary using official election/service records; unrelated native website is rejected, not a candidate campaign biography."},
+    {"candidate_id": "220092", "next": "Dated age, explicit identities/current affiliation, university/employer and earlier public originals, actual prior-office/government/military responses. Blocked Ballotpedia does not exhaust these traits. Campaign client-rendered biography is now read, not still an extraction failure."},
+    {"candidate_id": "220098", "next": "University/employer credential originals, official 2020 election and prior-employment records, direct race/ethnicity/religion and service-history responses. Distinguish elected school board from paid district clinical work. Dated age 39 is not an exact birth date."},
+    {"candidate_id": "220097", "next": "Unfinished all-ten-trait/six-family pass; only the encountered FL08 profile was reviewed. Remaining roster research is not complete."}
+  ]
+}

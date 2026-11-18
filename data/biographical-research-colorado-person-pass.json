@@ -1,0 +1,306 @@
+{
+  "scope": "All-ten-background-trait reading for four previously unresearched retained Colorado Democratic nonincumbents. Retained campaign originals are re-extracted, not downloaded again. No complete person pass or scientific-model amendment is claimed.",
+  "documents": [
+    {
+      "id": "219981-retained-campaign-background",
+      "candidate_id": "219981", "name": "Dwayne L. Romero", "state": "CO", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:CO:03:general:source_general", "family": "campaign",
+      "url": "https://www.romeroforcolorado.com/meet-dwayne/",
+      "source_title": "Romero for Colorado: Meet Dwayne",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-219981-bio1/campaign-219981-bio1",
+      "sha256": "0d1d846b2bf099c58036b347d886ee95e768635c4cf5ab003f2ef640d8bf3eec",
+      "source_date_note": "Reviewed the retained biography. Living campaign text has no established publication date; observation is not proof of prediction-time availability.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, Colorado Third District, Dwayne Romero name, military history and named Colorado economic-development role agree with the employer biography and congressional questionnaire. Native middle initial is preserved.",
+      "identity_fragments": ["Dwayne Romero"],
+      "source_excerpts": ["Dwayne Romero", "West Point", "Army Ranger School", "U.S. Army Corps of Engineers", "Director of Economic Development", "elected Board Director", "property management company"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "military_academy_attendance_and_completed_service_training", "factual_reference_date": null, "value": "West Point attendance and Army Ranger School graduation", "source_fragment": "West Point", "supporting_fragments": ["Army Ranger School"], "qualification": "This biography does not explicitly name a completed academic degree. Service training is not a university credential."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_current_and_historical_roles", "factual_reference_date": null, "value": "Property-management company owner/operator; former Army engineer officer and Colorado economic-development director; former high-school baseball coach", "source_fragment": "property management company", "supporting_fragments": ["Director of Economic Development"], "qualification": "Current business and historical public-service careers remain separate."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_candidate_reported_elected_local_board_role", "factual_reference_date": null, "value": "Elected director of the Snowmass Village Water and Sanitation Board; additional city-council and school-board service reported", "source_fragment": "elected Board Director", "qualification": "The water-board role is explicitly elected here. Do not assume that every other listed board position was elected."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_state_executive_administration_position", "factual_reference_date": null, "value": "Director of Economic Development in Governor John Hickenlooper's administration", "source_fragment": "Director of Economic Development", "qualification": "A named executive-administration job, distinct from advisory boards and military service."},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_self_reported_branch_role_and_duration", "factual_reference_date": null, "value": "Seven years in the U.S. Army Corps of Engineers, including Persian Gulf War combat-engineer service", "source_fragment": "U.S. Army Corps of Engineers", "qualification": "The biography explicitly identifies him as an Army officer and veteran. Relatives' service is not assigned to him."}
+      ]
+    },
+    {
+      "id": "219981-employer-completed-credentials-and-service",
+      "candidate_id": "219981", "name": "Dwayne L. Romero", "state": "CO", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:CO:03:general:source_general", "family": "university_employer_professional",
+      "url": "https://romerogrouprealty.com/romero-group-dwayne-romero/",
+      "source_title": "Romero Group Realty: Dwayne Romero",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full employer biography read. Visible header has a 2023 timestamp, but the live text is not an immutable 2023 snapshot; roles retain their stated historical dates.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, same property-management business, Aspen offices, seven-year Army career and Hickenlooper appointment match the native campaign biography.",
+      "identity_fragments": ["Dwayne Romero"],
+      "source_excerpts": ["Dwayne Romero", "graduate", "West Point", "MBA", "Harvard Business School", "Co-founder and CEO", "2011", "Executive Director", "elected", "Aspen City Council", "Army Corps of Engineers"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "employer_reported_completed_academy_and_graduate_credential", "factual_reference_date": null, "value": "West Point graduate; MBA from Harvard Business School; Army Ranger School graduate", "source_fragment": "MBA", "supporting_fragments": ["Harvard Business School", "graduate", "West Point"], "qualification": "No degree year is supplied here; military training remains distinct."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "named_business_and_historical_executive_roles", "factual_reference_date": null, "value": "Co-founder and CEO of The Romero Group, a real-estate management, development, investment and realty firm", "source_fragment": "Co-founder and CEO", "qualification": "Employer-published biography, not an independent employment audit."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_elections_and_dated_local_terms", "factual_reference_date": "2007-2015", "value": "Elected Aspen City Council terms reported as 2007-2011 and 2013-2015; also elected water-board member", "source_fragment": "elected", "supporting_fragments": ["Aspen City Council"], "qualification": "Advisory-board membership is not coded as elected office."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_named_state_cabinet_role", "factual_reference_date": "2011", "value": "Executive Director of Colorado's Office of Economic Development and International Trade in 2011", "source_fragment": "Executive Director", "supporting_fragments": ["2011"], "qualification": "Commission and advisory service are not used to establish a separate employment relationship."},
+        {"trait": "military", "factual_status": "qualified", "precision": "employer_biography_reports_army_service", "factual_reference_date": null, "value": "Seven years of Army Corps of Engineers service, including Persian Gulf War deployment", "source_fragment": "Army Corps of Engineers", "qualification": "No exact service-start year inferred; the questionnaire's publisher summary supplies a different duration requiring review."}
+      ]
+    },
+    {
+      "id": "219981-newsline-dated-age-questionnaire",
+      "candidate_id": "219981", "name": "Dwayne L. Romero", "state": "CO", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:CO:03:general:source_general", "family": "local_profile",
+      "url": "https://coloradonewsline.com/2026/06/09/candidate-qa-colorado-1st-congressional-district-3/",
+      "source_title": "Lindsey Toomer, Colorado Newsline: Candidate Q&A, Colorado's 3rd Congressional District",
+      "publication_date": "2026-06-09", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read the background fields and all Romero answers. The path says 1st, but the actual title, district explanation, linked campaign and candidate panel identify CO03. Other candidates' fields are not transferred.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Snowmass Village residence, native campaign link and Third District primary identify the retained Romero despite the misleading URL slug.",
+      "identity_fragments": ["Dwayne Romero"],
+      "source_excerpts": ["Dwayne Romero", "Age: 61", "Occupation: Business owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_questionnaire_age_without_birthday", "factual_reference_date": "2026-06-09", "value": "Reported age 61 in June 9, 2026 questionnaire", "source_fragment": "Age: 61", "qualification": "Retain the dated age, not an exact birth date or an unqualified election-day age."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_questionnaire_occupation_field", "factual_reference_date": "2026-06-09", "value": "Business owner", "source_fragment": "Occupation: Business owner", "qualification": "Candidate questionnaire field, not a standardized career taxonomy."}
+      ]
+    },
+    {
+      "id": "219981-ballotpedia-biography-and-full-survey",
+      "candidate_id": "219981", "name": "Dwayne L. Romero", "state": "CO", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:CO:03:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Dwayne_Romero",
+      "source_title": "Ballotpedia: Dwayne Romero, biography and 2026 Candidate Connection answers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Biography, all survey answers and source note reviewed. Information-submission footnote is October 1, 2026. Living page includes later results.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CO03, native campaign URL and named employer/government/military history agree with the campaign and employer originals.",
+      "identity_fragments": ["Dwayne Romero"],
+      "source_excerpts": ["Dwayne Romero", "bachelor's degree", "1987", "Harvard Business School", "1997", "1984 to 1994", "seven years", "Army Ranger School", "business owner", "Director of Economic Development", "City Council"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_completed_credential_and_year_fields", "factual_reference_date": "1997", "value": "West Point bachelor's degree in 1987; Harvard Business School graduate degree in 1997", "source_fragment": "bachelor's degree", "supporting_fragments": ["1987", "Harvard Business School", "1997"], "qualification": "Employer biography identifies the graduate credential as an MBA."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_and_candidate_reported_career", "factual_reference_date": "2026-10-01", "value": "Business owner; Army engineer officer and state economic-development director", "source_fragment": "business owner", "supporting_fragments": ["Director of Economic Development"], "qualification": "Keep multiple careers rather than replacing them with one current label."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "public_office_service_without_election_mode_in_this_answer", "factual_reference_date": "2026-10-01", "value": "Reports local city-council and school-board service", "source_fragment": "City Council", "qualification": "Election mode is supplied by the separate employer biography, not inferred from a title here."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_state_administration_job", "factual_reference_date": "2026-10-01", "value": "Reports Director of Economic Development role in Hickenlooper administration", "source_fragment": "Director of Economic Development", "qualification": "Board roles do not supply additional employment claims."},
+        {"trait": "military", "factual_status": "qualified", "precision": "positive_service_with_unresolved_duration_or_start_year", "factual_reference_date": null, "value": "Positive Army service; publisher summary says 1984-1994 while the candidate answer says seven years", "source_fragment": "1984 to 1994", "supporting_fragments": ["seven years"], "qualification": "Positive service is common to both accounts; do not choose an exact start or alter frozen coding.", "unresolved_details": ["Publisher's ten-year interval versus candidate's seven-year duration. Academy time and commissioned service may have different boundaries; no reconciliation is established."]}
+      ]
+    },
+    {
+      "id": "219986-retained-campaign-background",
+      "candidate_id": "219986", "name": "Eileen Laubacher", "state": "CO", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:CO:04:general:source_general", "family": "campaign",
+      "url": "https://www.eileenforcolorado.com/about",
+      "source_title": "Eileen for Colorado: About Rear Admiral Eileen Laubacher",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-219986-bio1/campaign-219986-bio1",
+      "sha256": "3820fed1fb89708153af574928a383da047773e109c080cd228b7aefa464288e",
+      "source_date_note": "Full retained biography read. No repeat campaign download and no known publication day.",
+      "identity_status": "verified",
+      "identity_qualification": "Native domain, exact name, Colorado Fourth District, Navy rank and 2024 retirement match the retained congressional candidate and independent election profile.",
+      "identity_fragments": ["eileen laubacher"],
+      "source_excerpts": ["eileen laubacher", "Naval Academy in 1990", "intelligence officer", "Senior Director for South Asia", "October 2024", "34 years", "17-years-old", "July of 1986"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "self_reported_age_at_academy_entry_with_linked_month", "factual_reference_date": "1986-07", "value": "Reports first oath at age 17 and Naval Academy entry in July 1986", "source_fragment": "17-years-old", "supporting_fragments": ["July of 1986"], "qualification": "Retain the event and month without inventing a birthday."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_military_academy_education", "factual_reference_date": "1990", "value": "Graduated from the U.S. Naval Academy in 1990", "source_fragment": "Naval Academy in 1990", "qualification": "Do not add an unstated academic major."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_self_reported_military_and_national_security_career", "factual_reference_date": null, "value": "Navy intelligence officer and rear admiral; Senior Defense Official/Defense Attache in India, 2019-2022; later NSC Senior Director for South Asia", "source_fragment": "intelligence officer", "supporting_fragments": ["Senior Director for South Asia"], "qualification": "Historical roles are not current post-retirement employment."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "national_security_assignment_without_separate_civilian_employment_established", "factual_reference_date": null, "value": "Reports NSC Senior Director for South Asia assignment after India tour and before Navy retirement", "source_fragment": "Senior Director for South Asia", "qualification": "The sequence does not independently establish a separate civilian-government employment relationship rather than military assignment."},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_branch_duration_and_retirement_month", "factual_reference_date": "2024-10", "value": "34 years of Navy service; retired in October 2024", "source_fragment": "34 years", "supporting_fragments": ["October 2024"], "qualification": "Active duty and reserve phases are both described. Relatives' service is not assigned to her."}
+      ]
+    },
+    {
+      "id": "219986-ballotpedia-career-and-service",
+      "candidate_id": "219986", "name": "Eileen Laubacher", "state": "CO", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:CO:04:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Eileen_Laubacher",
+      "source_title": "Ballotpedia: Eileen Laubacher, biography and dated service fields",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read biography, service fields and 2026 election context. Living page also contains a 2028 candidacy; future labels do not change frozen 2026 incumbency.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CO04 congressional race and Navy career identify the native candidate; no same-name-only join.",
+      "identity_fragments": ["Eileen Laubacher"],
+      "source_excerpts": ["Eileen Laubacher", "U.S. Navy from 1990 to 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "publisher_reported_branch_and_years", "factual_reference_date": "1990-2024", "value": "U.S. Navy, 1990-2024", "source_fragment": "U.S. Navy from 1990 to 2024", "qualification": "This is positive service evidence, not proof of any separate civilian employment or an office-history negative."}
+      ]
+    },
+    {
+      "id": "220006-retained-campaign-background",
+      "candidate_id": "220006", "name": "Manny Rutinel", "state": "CO", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:CO:08:general:source_general", "family": "campaign",
+      "url": "https://www.mannyforcolorado.com/meetmanny",
+      "source_title": "Manny for Colorado: Meet Manny",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "cache_path": "artifacts/characteristics-v8/campaign/campaign-220006-bio1/campaign-220006-bio1",
+      "sha256": "b80f6b43cfdb8ede1651ba5f3da69fae50b509c2bade57fa59dab369e4511fdc",
+      "source_date_note": "Read full retained personal background and Education & Career sections. Living page has no established publication date.",
+      "identity_status": "verified",
+      "identity_qualification": "Native domain, Colorado Eighth District, prior Adams County representation, Yale/Johns Hopkins education and named Army Corps economist role match the legislature and questionnaire.",
+      "identity_fragments": ["Meet Manny"],
+      "source_excerpts": ["Meet Manny", "Bachelor’s degrees", "Master’s in Economics", "Johns Hopkins University", "Yale Law School", "substitute teacher", "US Army Corps of Engineers", "attorney", "Colorado State House"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "multiple_explicit_completed_credentials", "factual_reference_date": null, "value": "Associate's degree; bachelor's degrees in Microbiology and Economics; master's in Economics from Johns Hopkins; Yale law degree", "source_fragment": "Bachelor’s degrees", "supporting_fragments": ["Master’s in Economics", "Johns Hopkins University", "Yale Law School"], "qualification": "Completion is explicit. No exact award years inferred from this undated page."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "multiple_candidate_reported_jobs", "factual_reference_date": null, "value": "McDonald's and tutoring work; substitute teacher; Army Corps economist/first responder after Hurricane Maria; attorney; state representative", "source_fragment": "substitute teacher", "supporting_fragments": ["US Army Corps of Engineers", "attorney"], "qualification": "Parents' occupations and ancestry are not assigned to him."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_named_federal_agency_economist_job", "factual_reference_date": null, "value": "Worked as an economist for the U.S. Army Corps of Engineers, including disaster response in Puerto Rico", "source_fragment": "US Army Corps of Engineers", "qualification": "The named economist job supports government work, not an inference that he was a uniformed servicemember. A military positive or negative remains unsupported by this page."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "legislative_service_without_election_mode_here", "factual_reference_date": null, "value": "Reports representing Adams County in the Colorado State House", "source_fragment": "Colorado State House", "qualification": "This biography alone does not distinguish initial appointment from a subsequent election; the questionnaire page documents both separately."}
+      ]
+    },
+    {
+      "id": "220006-legislature-office-and-occupation",
+      "candidate_id": "220006", "name": "Manny Rutinel", "state": "CO", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:CO:08:general:source_general", "family": "official_biography",
+      "url": "https://leg.colorado.gov/legislators/manny-rutinel",
+      "source_title": "Colorado General Assembly: Representative Manny Rutinel",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read member heading, party, occupation, district and resignation notice. Legislative district 32 is distinct from congressional district 08.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Adams County district, attorney occupation and service/resignation sequence agree with the native campaign and congressional questionnaire.",
+      "identity_fragments": ["Manny Rutinel"],
+      "source_excerpts": ["Manny Rutinel", "Representative Rutinel resigned 9/4/26", "Attorney", "32"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_occupation_field", "factual_reference_date": null, "value": "Official occupation field: Attorney", "source_fragment": "Attorney", "qualification": "The profile is not a full career or service-history questionnaire."},
+        {"trait": "prior_elected_office", "factual_status": "partial", "precision": "official_state_legislative_service_and_resignation", "factual_reference_date": "2026-09-04", "value": "Colorado House District 32 representative; resigned September 4, 2026", "source_fragment": "Representative Rutinel resigned 9/4/26", "qualification": "Establishes service, but this page alone does not establish how the original or subsequent seat was obtained."}
+      ]
+    },
+    {
+      "id": "220006-ballotpedia-full-survey-and-earlier-election",
+      "candidate_id": "220006", "name": "Manny Rutinel", "state": "CO", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:CO:08:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Manny_Rutinel",
+      "source_title": "Ballotpedia: Manny Rutinel, biography, 2024 election and complete displayed Candidate Connection answers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read biography, earlier election table and all four displayed 2026 survey answers. Unrelated long campaign-policy reproduction was not exhaustively reviewed. Live page includes post-election updates.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign link, CO08 candidacy and former legislative District 32 identify the retained person. Statehouse incumbency does not establish federal incumbency.",
+      "identity_fragments": ["Manny Rutinel"],
+      "source_excerpts": ["Manny Rutinel", "2016", "2018", "2022", "chief executive officer of Climate Refarm", "Economist for the US Army Corps of Engineers", "November 5, 2024", "October 9, 2023"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_completed_credentials_and_years", "factual_reference_date": "2022", "value": "University of Florida bachelor's, 2016; Johns Hopkins master's, 2018; Yale JD, 2022", "source_fragment": "2022", "supporting_fragments": ["2016", "2018"], "qualification": "Degree years are publisher-reported; preserve source-specific precision."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_and_self_reported_multiple_roles", "factual_reference_date": null, "value": "Climate Refarm chief executive; attorney, substitute teacher and U.S. Army Corps economist", "source_fragment": "chief executive officer of Climate Refarm", "supporting_fragments": ["Economist for the US Army Corps of Engineers"], "qualification": "Endorsements are not identity classifications or employment records."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "publisher_documented_appointment_then_subsequent_general_election", "factual_reference_date": "2024-11-05", "value": "Initially appointed to Colorado House District 32 in October 2023; won its November 5, 2024 general election", "source_fragment": "November 5, 2024", "supporting_fragments": ["October 9, 2023"], "qualification": "The 2024 election, not the initial appointment, establishes prior elected office. Attempted linked official abstract returned 404; original-result verification remains a lead."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_named_agency_economist_employment", "factual_reference_date": null, "value": "Reports working as an economist for the U.S. Army Corps of Engineers", "source_fragment": "Economist for the US Army Corps of Engineers", "qualification": "Does not establish uniformed military service."}
+      ]
+    },
+    {
+      "id": "219973-campaign-background-and-credential-discrepancy",
+      "candidate_id": "219973", "name": "Melat Kiros", "state": "CO", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CO:01:general:source_general", "family": "campaign",
+      "url": "https://www.kirosforco.com/about",
+      "source_title": "Kiros for Congress: Meet Melat Kiros",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full about page read. Living text's doctoral institution differs from the university roster; no completed doctorate is claimed by this journal.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact name, Denver congressional candidacy, Washington College and Notre Dame education match the university roster and questionnaire.",
+      "identity_fragments": ["Melat Kiros"],
+      "source_excerpts": ["Melat Kiros", "Washington College", "law degree", "2022", "University of Denver", "attorney", "barista"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "completed_law_degree_with_unresolved_doctoral_institution_name", "factual_reference_date": null, "value": "Notre Dame law degree in 2022; Washington College study; ongoing doctoral study", "source_fragment": "law degree", "supporting_fragments": ["2022", "Washington College", "University of Denver"], "qualification": "Completed earlier credentials are corroborated; no completed doctorate is coded.", "unresolved_details": ["Campaign names University of Denver for the doctorate; CU Denver independently lists her in its Public Affairs PhD program. Preserve the wording discrepancy rather than silently correcting the campaign."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_historical_and_current_work", "factual_reference_date": null, "value": "Former New York attorney; current barista while pursuing doctoral study", "source_fragment": "attorney", "supporting_fragments": ["barista"], "qualification": "Campaign job-loss narrative is attributed, not independently adjudicated. Parents' occupations are not her career."}
+      ]
+    },
+    {
+      "id": "219973-campaign-june-fact-sheet",
+      "candidate_id": "219973", "name": "Melat Kiros", "state": "CO", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CO:01:general:source_general", "family": "campaign",
+      "url": "https://www.kirosforco.com/fact-sheets.pdf",
+      "source_title": "Melat Kiros for Congress, CO-01: June 2026 Fact Sheet, page 2",
+      "publication_date": "2026-06", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read all three pages and visually verified page 2. Source prints June 2026, without an exact publication day. Only candidate-background facts are coded, not attack-ad allegations.",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign-hosted PDF explicitly names Melat Kiros and CO-01; education and Denver career match other reviewed originals.",
+      "identity_fragments": ["MELAT KIROS"],
+      "source_excerpts": ["MELAT KIROS", "Tigrayan-Ethiopian American.", "law degree from Notre Dame", "corporate law firm", "local coffee shop", "Eaglecrest High School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "ethnicity", "factual_status": "qualified", "precision": "explicit_candidate_published_ethnic_self_description", "factual_reference_date": "2026-06", "value": "Tigrayan-Ethiopian American", "source_fragment": "Tigrayan-Ethiopian American.", "qualification": "Explicit candidate description, not inferred from birthplace, surname or relatives. Race is a separate field."},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_law_degree_and_named_high_school", "factual_reference_date": "2026-06", "value": "Notre Dame law degree; Eaglecrest High School named", "source_fragment": "law degree from Notre Dame", "supporting_fragments": ["Eaglecrest High School"], "qualification": "The law credential is explicitly completed; the high-school mention alone is not upgraded to a graduation claim."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_sequential_jobs", "factual_reference_date": "2026-06", "value": "Former corporate-law-firm attorney; local coffee-shop worker while running for Congress", "source_fragment": "corporate law firm", "supporting_fragments": ["local coffee shop"], "qualification": "Retain both careers rather than treating coffee work as absence of legal training."}
+      ]
+    },
+    {
+      "id": "219973-cu-denver-student-biography",
+      "candidate_id": "219973", "name": "Melat Kiros", "state": "CO", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CO:01:general:source_general", "family": "university_employer_professional",
+      "url": "https://publicaffairs.ucdenver.edu/people/meet-our-phd-students",
+      "source_title": "CU Denver School of Public Affairs: Melat Kiros student biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read Kiros's actual entry and program definitions. One simplifier omitted dynamic student entries; the readable original-page reader returned her entry. Other students' credentials are not transferred.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Aurora/Denver background, Washington College 2018, Notre Dame 2022, New York legal work and Colorado campaign work corroborate the candidate. Not a name-only student match.",
+      "identity_fragments": ["Melat Kiros"],
+      "source_excerpts": ["Melat Kiros", "Bachelor of Arts", "2018", "2022", "CU Denver", "securities regulation attorney", "communications director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "institutional_completed_credentials_and_separate_doctoral_enrollment", "factual_reference_date": null, "value": "Washington College BA in Political Science and Economics, 2018; Notre Dame Law School graduate, 2022; CU Denver Public Affairs PhD student", "source_fragment": "Bachelor of Arts", "supporting_fragments": ["2018", "2022", "CU Denver"], "qualification": "The institution places her among students who have not yet taken the preliminary exam, not completed doctorates. Campaign naming of University of Denver remains separately flagged."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "institution_reported_prior_legal_and_campaign_jobs", "factual_reference_date": null, "value": "Securities-regulation attorney in New York and communications director for a congressional campaign in Colorado's Fourth District", "source_fragment": "securities regulation attorney", "supporting_fragments": ["communications director"], "qualification": "Congressional campaign employment is not congressional-office government employment."}
+      ]
+    },
+    {
+      "id": "219973-denver7-original-election-night-interview",
+      "candidate_id": "219973", "name": "Melat Kiros", "state": "CO", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CO:01:general:source_general", "family": "local_profile",
+      "url": "https://www.denver7.com/news/local-news/melat-kiros-to-become-first-black-woman-gen-zer-and-democratic-socialist-to-represent-colorado-in-congress",
+      "source_title": "Micah Smith, Denver7: Melat Kiros to become first Black woman, Gen Zer, and democratic socialist to represent Colorado in congress",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Full original interview article read. Text identifies the first interview after projected 2026 election victory; the displayed Posted field lacked an actual date. Do not invent an exact article day.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Colorado First District, own interview and Denver election-night context identify the native candidate.",
+      "identity_fragments": ["Melat Kiros"],
+      "source_excerpts": ["Melat Kiros", "29-year-old", "first Black woman", "congresswoman-elect"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_age_in_election_night_context_without_exact_publication_day", "factual_reference_date": "2026-11", "value": "Reported age 29 after projected November 2026 election victory", "source_fragment": "29-year-old", "qualification": "Post-election age evidence, not an exact birthday or proof of pre-election information availability."},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_reliable_original_reporting_classification", "factual_reference_date": "2026-11", "value": "Black", "source_fragment": "first Black woman", "qualification": "Documented broadcaster classification beside its original interview, not inferred from appearance, birthplace or name. Not represented as a verbatim self-identification."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_reliable_original_reporting_classification", "factual_reference_date": "2026-11", "value": "Woman", "source_fragment": "first Black woman", "qualification": "Publisher classification; no inference from pronouns or photographs."}
+      ]
+    },
+    {
+      "id": "219973-ballotpedia-full-survey-and-affiliation-hold",
+      "candidate_id": "219973", "name": "Melat Kiros", "state": "CO", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:CO:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Melat_Kiros",
+      "source_title": "Ballotpedia: Melat Kiros, biography and displayed 2025 Candidate Connection response for the 2026 election",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Read biography, all three displayed survey answers and footnotes. Submitted information is dated July 23, 2025; page has later 2026 results and 2028 candidacy. Religion field lacks a separately attributable supporting passage.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, CO01 race, same educational and legal background and linked CU Denver roster identify the retained candidate. Later member-elect labels do not rewrite baseline federal incumbency.",
+      "identity_fragments": ["Melat Kiros"],
+      "source_excerpts": ["Melat Kiros", "Eastern Orthodox Christian", "bachelor's degrees", "law degree", "attorney, a PhD student, and a barista", "July 23, 2025"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "publisher_affiliation_field_with_claim_origin_and_reference_date_unresolved", "factual_reference_date": null, "value": "Publisher's religion field says Eastern Orthodox Christian; direct attribution and current-affiliation date remain unverified", "source_fragment": "Eastern Orthodox Christian", "qualification": "No displayed survey answer establishes current affiliation, and the general submission footnote is not proof that this field came from that response. Do not turn upbringing or a blocked profile snippet into a qualified current affiliation."},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_submitted_completed_undergraduate_and_law_credentials", "factual_reference_date": "2025-07-23", "value": "Reports Washington College bachelor's study completed in Political Science and Economics and Notre Dame law degree; ongoing PhD study", "source_fragment": "bachelor's degrees", "supporting_fragments": ["law degree"], "qualification": "Retain candidate wording without deciding whether the undergraduate record represents two separate awards or one double-major BA; the university uses singular BA."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_submitted_multiple_current_roles", "factual_reference_date": "2025-07-23", "value": "Attorney, PhD student and barista", "source_fragment": "attorney, a PhD student, and a barista", "qualification": "Student status is not a completed doctorate or proof of university employment."}
+      ]
+    }
+  ],
+  "searches": [],
+  "search_batches": [
+    {"searched_at": "2026-11-18", "candidate_ids": ["219981", "219986", "219973", "220006"], "queries": ["\"Dwayne Romero\" biography age ethnicity education religion", "\"Eileen Laubacher\" biography government religion", "\"Melat Kiros\" biography education religion", "\"Manny Rutinel\" biography military religion"], "result_mapping": "Inherited executed discovery batch, without retained exact query-to-result mapping; only separately reviewed originals supply claims."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219986", "219981", "220006", "219973"], "queries": ["\"Eileen Laubacher\" site:navy.mil biography", "\"Dwayne Romero\" site:colorado.gov \"2011\"", "\"Manny Rutinel\" site:leg.colorado.gov biography", "\"Melat Kiros\" site:ucdenver.edu"], "result_mapping": "Tool returned no readable result content. Execution does not establish a successful query review or source-family completion."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219981", "219986", "220006"], "queries": ["\"Dwayne Romero\" \"Harvard\" \"2011\" \"Director\"", "\"Dwayne Romero\" \"Latino\"", "\"Eileen Laubacher\" \"National Security Council\" biography", "\"Manny Rutinel\" \"Latino\" \"elected\" 2024"], "result_mapping": "No readable result payload; do not reconstruct matches, classifications or unsuccessful-family dispositions."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["219981", "219986", "219973", "220006"], "queries": ["\"Dwayne Romero\" \"age\" \"61\"", "\"Eileen Laubacher\" \"religion\" \"Catholic\"", "\"Melat Kiros\" \"Black woman\"", "\"Manny Rutinel\" \"Latino\" \"Army Corps\""], "result_mapping": "No readable result payload. Search wording is a discovery hypothesis, not a claim about a person's age, identity or affiliation."},
+    {"searched_at": "2026-11-18", "candidate_ids": ["220006", "219981"], "queries": ["\"Manny Rutinel\" \"Latino\" \"Army Corps\"", "\"Dwayne Romero\" \"Harvard\" \"2011\" \"Director\""], "result_mapping": "Readable two-query union; exact mapping not retained. Employer and questionnaire originals were followed separately. Endorsements and ancestry are not identity evidence."}
+  ],
+  "completed_candidates": [],
+  "withheld_documents": [
+    {"id": "219973-denverite-primary-guide-denied", "candidate_id": "219973", "url": "https://denverite.com/2026/09/25/vg-2026-melat-kiros-1st-congressional-district-voter-guide/", "status": "access_failure", "traits_pending_verification": ["age", "religion", "education", "profession", "prior_elected_office", "other_government", "military"], "reason": "Ordinary direct fetch returned HTTP 403. No retry or access-control bypass; no snippet-derived claims accepted."},
+    {"id": "219973-denverite-religion-profile-denied", "candidate_id": "219973", "url": "https://denverite.com/2026/11/01/denver-jews-zionism-melat-kiros/", "status": "access_failure", "traits_pending_verification": ["religion"], "reason": "Direct fetch returned HTTP 403. No snippet classification or community/upbringing inference accepted as current affiliation."},
+    {"id": "219986-speculative-navy-article-denied", "candidate_id": "219986", "url": "https://www.navy.mil/DesktopModules/ArticleCS/Print.aspx?Article=2236454&ModuleId=708&PortalId=1", "status": "access_failure", "traits_pending_verification": ["profession", "other_government", "military"], "reason": "Speculative article URL returned HTTP 403 before readable content; subject and correct article identity remain unverified. Not an acquired candidate biography or a basis for claims."},
+    {"id": "220006-cpr-guide-denied", "candidate_id": "220006", "url": "https://www.cpr.org/2026/09/25/vg-2026-manny-rutinel-voter-guide/", "status": "access_failure", "traits_pending_verification": ["age", "education", "profession", "prior_elected_office", "other_government", "military"], "reason": "Ordinary direct fetch returned HTTP 403. Later search discovery excerpts were not accepted as underlying-page review or used to bypass this restriction."},
+    {"id": "220006-official-2024-abstract-missing", "candidate_id": "220006", "url": "https://www.sos.state.co.us/pubs/elections/Results/2024/2024GeneralElectionStateAbstract.pdf", "status": "original_unavailable", "traits_pending_verification": ["prior_elected_office"], "reason": "Followed the questionnaire publisher's source link for 2024 results; original returned 404. Publisher election table remains attributed secondary evidence; discover a valid official archive location."}
+  ],
+  "remaining_leads": [
+    {"candidate_id": "219981", "status": "in_progress", "next": "Follow official Aspen and Colorado executive-service records and earlier originals; resolve Army start-year/duration definitions without erasing positive service. Seek dated age corroboration and explicit gender, race, ethnicity and religion evidence, without inferring identity from surname. This four-family reading is not a six-family completed pass."},
+    {"candidate_id": "219986", "status": "in_progress", "next": "Discover the correct accessible official Navy/NSC originals and independent earlier profiles; distinguish military detail from separate civilian employment. Research explicit identities, religious affiliation and prior-office history rather than treating first congressional run as a negative. Navy URL failure was not subject-verified."},
+    {"candidate_id": "220006", "status": "in_progress", "next": "Find a valid official 2024 House District 32 election abstract; follow university and employer originals, earlier profiles and explicit identity/religion/service responses. Do not infer race or ethnicity from grandparents, his mother, endorsements or district composition; Army Corps economist work does not establish military service."},
+    {"candidate_id": "219973", "status": "in_progress", "next": "Follow Washington College/Notre Dame originals and accessible dated personal interviews; retain the campaign-versus-university doctoral-name discrepancy. Verify direct religious-affiliation attribution and reference date, prior public-office/government-employment history and military service. Blocked Denverite pages do not exhaust these traits or source families."}
+  ]
+}
