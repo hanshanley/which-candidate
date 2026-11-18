@@ -102,20 +102,52 @@ first acquisition. Osberg's college attendance does not establish a degree.
 Library blanks and Little's "None Reported" minority field are not negatives.
 Every candidate in these new batches still has an open research pass.
 
-The factual product now has 633 document reviews, 1,761 claims, 253
-first-evidence fields and 147 first-qualified fields since the frozen factual
-baseline. Twelve candidates have completed passes, 160 are in progress and
-1,112 remain unresearched. Among 449 Democrats, the respective counts are
-12, 135 and 302; among 266 known Democratic nonincumbents, they are
-12, 131 and 123. Completed-plus-active is not completed-pass coverage.
+The nine-document Minnesota follow-up adds 27 claims. Swanson's own general
+questionnaire explicitly gives age46 on election day, qualifying her existing
+partial first-age field without manufacturing a birth date or a second
+first-evidence field. Chapin's reported first political candidacy adds partial
+prior-office evidence, **not** an explicit never-elected negative. Osberg's
+professional biography explicitly names a completed Hamline BA: that qualifies
+retained education evidence rather than constitutes first education acquisition.
+Little's complete native biography, university class note and six substantive
+plus ten lightning-round questionnaire answers are now reviewed.
 
-Concrete next sources include Little's native campaign site, Chapin's selected
-underlying interview and institutional biography, Osberg's official county and
-university sources, Swanson's agency/alumni biographies, and the remaining
-Michigan questionnaire, local and institutional families. The Carver
-questionnaire and selected Richards Publishing profile timed out; the old
-Osberg campaign path returned 404 and the Detroit Lakes original was restricted.
-These individual failures do not exhaust other sources or the national roster.
+The subsequent Wellman/Mann/Herrera/Hesketh/Forstag/Miller batch contributes
+16 document reviews and 49 claims. Its seven first fields are Wellman's explicit
+institutional man classification and dated no-office statement; Forstag's
+explicit reported white/man classifications and named federal employment;
+Hesketh's own 2024 guide age52; and Herrera's unattributed Catholic header.
+Five become qualified factual values. The guide age and religious header remain
+partial. Wellman's explicit no-political-office statement is dated November2025,
+not silently extended to election2026. Forstag's own March2026 interview states
+he had already left his federal job. His white classification does not establish
+non-Hispanic ethnicity or compatibility with the historical Latino model.
+
+Mann's actual native About link corrects a prior policy-page selection and
+explicitly supplies her completed chemistry BS. Her EPA internship still lacks
+paid-employment evidence. Hesketh's guide was visually checked: linear extraction
+interleaves another candidate's Christian statements, which do not describe her.
+Her separate retained CFE unaffiliated observation is not based on that guide.
+Miller's former wife's legislative service is not his officeholding.
+
+Together these follow-ups add eight first-evidence and six first-qualified
+fields relative to `0924e71`, all among known Democratic nonincumbents. The
+factual product now has 658 document reviews, 1,837 claims, 261 first-evidence
+fields and 153 first-qualified fields since the frozen factual baseline.
+Twelve candidates have completed passes, 166 are in progress and 1,106 remain
+unresearched. Among449 Democrats the respective counts are12,141,296; among266
+known Democratic nonincumbents they are12,137,117.
+Completed-plus-active is not completed-pass coverage.
+
+Concrete next sources include Little's selected MPR post-primary interview,
+Osberg's official county and university originals, Swanson's agency/alumni
+biographies, the six new candidates' official/institutional and earlier
+biographies, and the remaining Michigan families. Herrera's selected VoyageKC
+original returned403. Mann's Ballotpedia original and Herrera's remaining survey
+attempt returned202 with zero bytes; no newly unreviewed survey facts were
+accepted. The Carver questionnaire and Richards Publishing profile timed out;
+the old Osberg campaign path returned404 and Detroit Lakes original was
+restricted. None exhausts independent sources or the national roster.
 
 ## What counts as research
 
