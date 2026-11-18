@@ -1,0 +1,1369 @@
+{
+  "documents": [
+    {
+      "id": "219922-campaign-about-2026",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "campaign",
+      "url": "https://www.angela4congress.com/about",
+      "source_title": "About — Angela Gonzales-Torres for Congress",
+      "source_publisher": "Angela for CA-34",
+      "publication_date": null,
+      "source_date_note": "Undated living campaign biography reviewed November 18, 2026.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The exact native campaign URL names Angela Gonzales-Torres and identifies her CA-34 campaign; the roster carries the same campaign domain, name, district, and party.",
+      "identity_fragments": [
+        "Angela Gonzales-Torres"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angela Gonzales-Torres",
+        "supporting people transitioning from prison into universities",
+        "President of the Highland Park Neighborhood Council",
+        "work in the Los Angeles Mayor’s Office"
+      ],
+      "claims": [
+        {
+          "trait": "profession",
+          "value": "Work supporting people transitioning from prison into higher education",
+          "precision": "campaign_reported_current_work",
+          "factual_status": "qualified",
+          "factual_reference_date": null,
+          "source_fragment": "supporting people transitioning from prison into universities",
+          "qualification": "The undated campaign biography does not supply an employment start date or exact job title."
+        },
+        {
+          "trait": "prior_elected_office",
+          "value": "President, Highland Park Neighborhood Council",
+          "precision": "reported_office_without_election_method",
+          "factual_status": "partial",
+          "factual_reference_date": null,
+          "source_fragment": "President of the Highland Park Neighborhood Council",
+          "qualification": "This page establishes the presidency but not by itself whether the presidency or underlying board seat was elected."
+        },
+        {
+          "trait": "other_government",
+          "value": "Worked in the Los Angeles Mayor's Office",
+          "precision": "government_work_without_title_or_compensation",
+          "factual_status": "partial",
+          "factual_reference_date": null,
+          "source_fragment": "work in the Los Angeles Mayor’s Office",
+          "qualification": "The page does not identify title, dates, employee status, or compensation."
+        }
+      ]
+    },
+    {
+      "id": "219922-ballotpedia-profile-2026",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Angela_Gonzales-Torres",
+      "source_title": "Angela Gonzales-Torres",
+      "source_publisher": "Ballotpedia",
+      "publication_date": null,
+      "source_date_note": "Living profile reviewed after the November 3, 2026 election; its biography is explicitly dated as of October 2026.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "Ballotpedia's named profile explicitly identifies the Democratic candidate for U.S. House California District 34.",
+      "identity_fragments": [
+        "Angela Gonzales-Torres",
+        "U.S. House California District 34"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angela Gonzales-Torres",
+        "U.S. House California District 34",
+        "academic counselor at Pasadena City College",
+        "program director for a permanent affordable housing project"
+      ],
+      "claims": [
+        {
+          "trait": "profession",
+          "value": "Academic counselor at Pasadena City College and program director for a permanent affordable-housing project",
+          "precision": "two_roles_as_of_month",
+          "factual_status": "qualified",
+          "factual_reference_date": "2026-10",
+          "source_fragment": "academic counselor at Pasadena City College",
+          "supporting_fragments": [
+            "program director for a permanent affordable housing project"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219922-la-city-public-comment-2023",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "official_biography",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1114_PC_PM_10-31-2023.pdf",
+      "source_title": "Communication from Public",
+      "source_publisher": "Los Angeles City Clerk",
+      "publication_date": "2023-10-31",
+      "source_date_note": "The official filing prints the submission date and the candidate's name and office.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The official city filing names Angela Gonzales-Torres, Highland Park, and her contemporaneous neighborhood-council presidency, matching the native campaign biography.",
+      "identity_fragments": [
+        "Angela Gonzales-Torres"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angela Gonzales-Torres",
+        "current President of the Historic Highland Park Neighborhood Council"
+      ],
+      "claims": [
+        {
+          "trait": "prior_elected_office",
+          "value": "President, Historic Highland Park Neighborhood Council",
+          "precision": "dated_officeholding_without_election_method",
+          "factual_status": "partial",
+          "factual_reference_date": "2023-10-31",
+          "source_fragment": "current President of the Historic Highland Park Neighborhood Council",
+          "qualification": "Official confirmation of the office does not itself state the selection method."
+        }
+      ]
+    },
+    {
+      "id": "219922-house-financial-disclosure-2026",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "official_biography",
+      "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083072.pdf",
+      "source_title": "Financial Disclosure Report, Filing ID 10083072",
+      "source_publisher": "Clerk of the U.S. House of Representatives",
+      "publication_date": "2026-10-21",
+      "source_date_note": "Candidate report filed October 21, 2026, covering January 1, 2025 through April 15, 2026.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": true,
+      "acquisition_origin": "current_public_original_download",
+      "cache_path": "/Users/hanshanley/.copilot/session-state/264dc4d3-f05d-40fb-aeb4-582ccc629e5d/files/angela-gonzales-torres-house-disclosure-10083072.pdf",
+      "sha256": "357d8bf779b6e349f34ebb35e0ed577fb5a0634dd446ca673ac7cce0403b1ddf",
+      "identity_status": "verified",
+      "identity_qualification": "The official disclosure supplies the exact name, congressional-candidate status, and CA34 district.",
+      "identity_fragments": [
+        "Name: Angela Gonzales-Torres",
+        "State/District: CA34"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Name: Angela Gonzales-Torres",
+        "State/District: CA34",
+        "Pasadena Area Community College",
+        "Earned Wages",
+        "Engage Inc.",
+        "Wages"
+      ],
+      "claims": [
+        {
+          "trait": "profession",
+          "value": "Received wages from Engage Inc. and earned wages from Pasadena Area Community College",
+          "precision": "disclosed_wage_sources",
+          "factual_status": "qualified",
+          "factual_reference_date": "2025-01-01/2026-04-15",
+          "source_fragment": "Engage Inc.",
+          "supporting_fragments": [
+            "Wages",
+            "Pasadena Area Community College",
+            "Earned Wages"
+          ],
+          "qualification": "Schedule C (Earned Income), page 1, lists Engage Inc. and Pasadena Area Community College as Angela Gonzales-Torres's income rows. A different row explicitly carries the Spouse label; neither accepted employer row does. The filing does not state exact titles."
+        },
+        {
+          "trait": "other_government",
+          "value": "Paid employment by Pasadena Area Community College",
+          "precision": "public_college_wage_employment",
+          "factual_status": "qualified",
+          "factual_reference_date": "2025-01-01/2026-04-15",
+          "source_fragment": "Pasadena Area Community College",
+          "supporting_fragments": [
+            "Earned Wages"
+          ],
+          "qualification": "Schedule C (Earned Income), page 1, lists Pasadena Area Community College with Earned Wages on Angela Gonzales-Torres's candidate report. The form explicitly marks a different employer row Spouse, while this row has no spouse/dependent marker. Pasadena Area Community College is a public community-college district employer; the filing does not state the title."
+        }
+      ]
+    },
+    {
+      "id": "219922-hear-in-la-2024",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "earlier_biography",
+      "url": "https://rss.com/podcasts/hereinla/1623508/",
+      "source_title": "Angela Gonzales-Torres, former Highland Park NC President, forever NELA activist",
+      "source_publisher": "Hear In LA",
+      "publication_date": "2024-08-22",
+      "source_date_note": "Publisher episode page dated August 22, 2024.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The publisher episode title names Angela Gonzales-Torres and the notes connect her to the same Highland Park presidency and Northeast Los Angeles biography.",
+      "identity_fragments": [
+        "Angela Gonzales-Torres"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angela Gonzales-Torres",
+        "30 year-old",
+        "ran and won for Highland Park Neighborhood Council President"
+      ],
+      "claims": [
+        {
+          "trait": "age",
+          "value": {
+            "reported_age": 30,
+            "as_of": "2024-08-22",
+            "conditional_birth_date_interval": [
+              "1993-08-23",
+              "1994-08-22"
+            ],
+            "conditional_election_day_age_interval": [
+              32,
+              33
+            ],
+            "election_date": "2026-11-03"
+          },
+          "precision": "dated_age_statement",
+          "factual_status": "partial",
+          "factual_reference_date": "2024-08-22",
+          "source_fragment": "30 year-old",
+          "qualification": "The publisher-dated statement gives age 30 on August 22, 2024, not an exact birth date. If current on that date, birth falls from August 23, 1993 through August 22, 1994, implying age 32 or 33 on November 3, 2026."
+        },
+        {
+          "trait": "prior_elected_office",
+          "value": "Won the Highland Park Neighborhood Council presidency",
+          "precision": "explicit_ran_and_won_office",
+          "factual_status": "qualified",
+          "factual_reference_date": "2024-08-22",
+          "source_fragment": "ran and won for Highland Park Neighborhood Council President",
+          "qualification": "Publisher episode notes explicitly characterize the office as won; official city records separately confirm she held the presidency."
+        }
+      ]
+    },
+    {
+      "id": "219922-campaign-email-2025",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "earlier_biography",
+      "url": "https://www.politicalemails.org/messages/1938853",
+      "source_title": "I'm the newest Justice Democrat!",
+      "source_publisher": "Archive of Political Emails",
+      "publication_date": "2025-09-04",
+      "source_date_note": "Archive records sender, subject, timestamp, campaign disclaimer, and message text.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The archived message is sent under Angela Gonzales-Torres's name and carries the Angela for CA-34 campaign disclaimer.",
+      "identity_fragments": [
+        "Angela Gonzales-Torres",
+        "Paid for by Angela for CA-34"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angela Gonzales-Torres",
+        "Paid for by Angela for CA-34",
+        "young Chicana woman"
+      ],
+      "claims": [
+        {
+          "trait": "gender",
+          "value": "woman",
+          "precision": "explicit_self_identification",
+          "factual_status": "qualified",
+          "factual_reference_date": "2025-09-04",
+          "source_fragment": "young Chicana woman"
+        },
+        {
+          "trait": "ethnicity",
+          "value": "Chicana",
+          "precision": "explicit_self_identification",
+          "factual_status": "qualified",
+          "factual_reference_date": "2025-09-04",
+          "source_fragment": "young Chicana woman"
+        }
+      ]
+    },
+    {
+      "id": "219922-daily-bruin-op-ed-2024",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "state": "CA",
+      "district": "34",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:34:general:source_general",
+      "family": "university_employer_professional",
+      "url": "https://dailybruin.com/2024/02/21/op-ed-as-the-daughter-of-a-deportee-i-stand-with-undocumented-students",
+      "source_title": "Op-ed: As the daughter of a deportee, I stand with undocumented students",
+      "source_publisher": "Daily Bruin",
+      "publication_date": "2024-02-21",
+      "source_date_note": "Dated author biography and first-person op-ed.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The byline names Ángela Gonzales-Torres; her distinctive father-deportation history, Northeast Los Angeles ties, UCLA fields, and public-service biography corroborate the native candidate identity.",
+      "identity_fragments": [
+        "Ángela Gonzales-Torres"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Ángela Gonzales-Torres",
+        "fourth-year anthropology and Chicana/o and Central American studies student",
+        "my academic majors"
+      ],
+      "claims": [
+        {
+          "trait": "education",
+          "value": "Fourth-year UCLA student in anthropology and Chicana/o and Central American studies",
+          "precision": "dated_attendance_and_fields_not_degree",
+          "factual_status": "partial",
+          "factual_reference_date": "2024-02-21",
+          "source_fragment": "fourth-year anthropology and Chicana/o and Central American studies student",
+          "supporting_fragments": [
+            "my academic majors"
+          ],
+          "qualification": "This 2024 source establishes fourth-year UCLA attendance and fields, not degree completion. No accepted original reviewed in this pass establishes graduation."
+        }
+      ]
+    },
+    {
+      "id": "219910-campaign-about-2026",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "campaign",
+      "url": "https://angelica4congress.com/about/",
+      "source_title": "About Angélica",
+      "source_publisher": "Angélica Dueñas for Congress",
+      "publication_date": null,
+      "source_date_note": "Undated living campaign biography reviewed November 18, 2026.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The exact native campaign domain names Angelica Dueñas and describes her 2026 congressional run; the roster carries the same domain, name, district, and party.",
+      "identity_fragments": [
+        "Angelica Dueñas"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angelica Dueñas",
+        "mother, activist, and community organizer",
+        "Human Resources Certification from Los Angeles Valley College",
+        "served two terms as President",
+        "working-class women"
+      ],
+      "claims": [
+        {
+          "trait": "gender",
+          "value": "woman",
+          "precision": "explicit_first_person_group_self_reference",
+          "factual_status": "qualified",
+          "factual_reference_date": null,
+          "source_fragment": "working-class women",
+          "qualification": "She explicitly places herself among working-class women in the first-person biography."
+        },
+        {
+          "trait": "education",
+          "value": "Human Resources Certification, Los Angeles Valley College",
+          "precision": "completed_certificate",
+          "factual_status": "qualified",
+          "factual_reference_date": null,
+          "source_fragment": "Human Resources Certification from Los Angeles Valley College"
+        },
+        {
+          "trait": "profession",
+          "value": "Activist and community organizer",
+          "precision": "campaign_role_description",
+          "factual_status": "qualified",
+          "factual_reference_date": null,
+          "source_fragment": "mother, activist, and community organizer",
+          "qualification": "Mother is retained as a personal role; activist and community organizer are the career/activity descriptions."
+        },
+        {
+          "trait": "prior_elected_office",
+          "value": "Two terms as president and one term as first vice president, Sun Valley Neighborhood Council",
+          "precision": "terms_and_titles_without_explicit_election_method",
+          "factual_status": "partial",
+          "factual_reference_date": null,
+          "source_fragment": "served two terms as President",
+          "qualification": "The biography reports service terms but does not state whether the presidency or underlying board position was elected."
+        }
+      ]
+    },
+    {
+      "id": "219910-ballotpedia-profile-2026",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as",
+      "source_title": "Angélica María Dueñas",
+      "source_publisher": "Ballotpedia",
+      "publication_date": null,
+      "source_date_note": "Living profile reviewed after the November 3, 2026 election; the page contains current and historical campaign material.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "Ballotpedia explicitly identifies Angélica María Dueñas as the Democratic U.S. House candidate in California District 29.",
+      "identity_fragments": [
+        "Angélica María Dueñas",
+        "U.S. House California District 29"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angélica María Dueñas",
+        "U.S. House California District 29",
+        "master's degree in organizational leadership from Woodbury University in 2013",
+        "human resources manager with Gravity Defyer"
+      ],
+      "claims": [
+        {
+          "trait": "education",
+          "value": "Master's degree in organizational leadership, Woodbury University, 2013",
+          "precision": "completed_degree_field_institution_year",
+          "factual_status": "qualified",
+          "factual_reference_date": "2013",
+          "source_fragment": "master's degree in organizational leadership from Woodbury University in 2013"
+        },
+        {
+          "trait": "profession",
+          "value": "Human resources manager with Gravity Defyer",
+          "precision": "employer_and_role",
+          "factual_status": "qualified",
+          "factual_reference_date": null,
+          "source_fragment": "human resources manager with Gravity Defyer"
+        }
+      ]
+    },
+    {
+      "id": "219910-la-county-candidate-list-2022",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "official_biography",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4269",
+      "source_title": "Candidate List",
+      "source_publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "publication_date": null,
+      "source_date_note": "Official 2022 candidate-list entry; filing dates are printed but the page itself has no single publication date.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The official county record gives the exact legal name, Democratic preference, campaign website, and United States Representative District 29 contest.",
+      "identity_fragments": [
+        "ANGÉLICA MARÍA DUEÑAS",
+        "UNITED STATES REPRESENTATIVE, 29th District"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "ANGÉLICA MARÍA DUEÑAS",
+        "UNITED STATES REPRESENTATIVE, 29th District",
+        "Mother/Community Organizer"
+      ],
+      "claims": [
+        {
+          "trait": "profession",
+          "value": "Community organizer",
+          "precision": "official_ballot_designation_component",
+          "factual_status": "qualified",
+          "factual_reference_date": "2022",
+          "source_fragment": "Mother/Community Organizer",
+          "qualification": "The official designation combines a personal role and an occupational/activity label."
+        }
+      ]
+    },
+    {
+      "id": "219910-la-times-voter-guide-2024",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "local_profile",
+      "url": "https://www.latimes.com/california/story/2024-02-01/2024-california-election-29th-congressional-district-rivas-duenas-bernal-primary-voter-guide",
+      "source_title": "Your guide to California's Congressional District 29 race",
+      "source_publisher": "Los Angeles Times",
+      "publication_date": "2024-02-01",
+      "source_date_note": "Dated local voter guide for the 2024 primary.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The local guide names Angélica María Dueñas as a Democratic District 29 candidate and connects her to Sun Valley and the same neighborhood council.",
+      "identity_fragments": [
+        "Angélica María Dueñas"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angélica María Dueñas",
+        "Democrat, neighborhood council member",
+        "born in Sun Valley",
+        "ran as a member of the Green Party"
+      ],
+      "claims": [
+        {
+          "trait": "prior_elected_office",
+          "value": "Member, Sun Valley neighborhood council",
+          "precision": "reported_council_membership_without_selection_method",
+          "factual_status": "partial",
+          "factual_reference_date": "2024-02-01",
+          "source_fragment": "Democrat, neighborhood council member",
+          "qualification": "The guide reports council membership but not whether the seat was elected, appointed, or otherwise selected."
+        }
+      ]
+    },
+    {
+      "id": "219910-ivoterguide-2018-questionnaire",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "ballotpedia_questionnaire",
+      "url": "https://ivoterguide.com/candidate/41173/race/1258/election/560?culture=en-us",
+      "source_title": "Angelica Duenas — U.S. Rep., Dist. 29, 2018 candidate profile",
+      "source_publisher": "iVoterGuide",
+      "publication_date": null,
+      "source_date_note": "Historical 2018 questionnaire/profile; exact response date is not printed on the reviewed page.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The profile names Angelica Duenas, CA-29, supplies the same campaign contact details, and labels the selected race as the June 5, 2018 primary.",
+      "identity_fragments": [
+        "Angelica Duenas"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angelica Duenas",
+        "I am agnostic in beliefs and Catholic in tradition",
+        "MA in Organizational Leadership, BA in Political Science-Public Administration",
+        "woman",
+        "2 terms as President"
+      ],
+      "claims": [
+        {
+          "trait": "gender",
+          "value": "woman",
+          "precision": "explicit_questionnaire_profile_classification",
+          "factual_status": "qualified",
+          "factual_reference_date": "2018",
+          "source_fragment": "woman"
+        },
+        {
+          "trait": "religion",
+          "value": "agnostic in beliefs and Catholic in tradition",
+          "precision": "explicit_spiritual_self_description",
+          "factual_status": "qualified",
+          "factual_reference_date": "2018",
+          "source_fragment": "I am agnostic in beliefs and Catholic in tradition"
+        },
+        {
+          "trait": "education",
+          "value": "MA in Organizational Leadership and BA in Political Science-Public Administration",
+          "precision": "completed_degree_levels_and_fields",
+          "factual_status": "qualified",
+          "factual_reference_date": "2018",
+          "source_fragment": "MA in Organizational Leadership, BA in Political Science-Public Administration"
+        },
+        {
+          "trait": "prior_elected_office",
+          "value": "Two terms as president of Sun Valley Area Neighborhood Council",
+          "precision": "terms_and_title_without_explicit_election_method",
+          "factual_status": "partial",
+          "factual_reference_date": "2018",
+          "source_fragment": "2 terms as President",
+          "qualification": "The questionnaire calls these political offices held but does not literally state the election method."
+        }
+      ]
+    },
+    {
+      "id": "219910-chicana-interview-2026",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "local_profile",
+      "url": "https://chicanainthecity.substack.com/p/a-chicana-from-the-valley-meet-angelica",
+      "source_title": "A Chicana from the Valley: Meet Angélica Dueñas",
+      "source_publisher": "Chicana in the City",
+      "publication_date": "2026-10",
+      "source_date_note": "Page was published in October 2026; no exact day was established in the reviewed extraction.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The interview names Angélica Dueñas and explicitly frames her as the CA-29 congressional candidate; her answers match the native Sun Valley, education, and family biography.",
+      "identity_fragments": [
+        "Angélica Dueñas"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "Angélica Dueñas",
+        "As a Chicana and as a woman",
+        "first in my family to graduate college"
+      ],
+      "claims": [
+        {
+          "trait": "gender",
+          "value": "woman",
+          "precision": "explicit_interview_identity",
+          "factual_status": "qualified",
+          "factual_reference_date": "2026-10",
+          "source_fragment": "As a Chicana and as a woman",
+          "qualification": "The interviewer states the identity directly and Dueñas answers the identity-framed question without correction."
+        },
+        {
+          "trait": "ethnicity",
+          "value": "Chicana",
+          "precision": "explicit_interview_identity",
+          "factual_status": "qualified",
+          "factual_reference_date": "2026-10",
+          "source_fragment": "As a Chicana and as a woman",
+          "qualification": "The interviewer states the identity directly and Dueñas answers the identity-framed question without correction."
+        },
+        {
+          "trait": "education",
+          "value": "First person in her family to graduate college",
+          "precision": "first_generation_college_graduate",
+          "factual_status": "qualified",
+          "factual_reference_date": "2026-10",
+          "source_fragment": "first in my family to graduate college"
+        }
+      ]
+    },
+    {
+      "id": "219910-la-neighborhood-ethics-roster-2012",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "state": "CA",
+      "district": "29",
+      "party": "Democratic",
+      "contest_id": "2026:house:CA:29:general:source_general",
+      "family": "official_biography",
+      "url": "https://neighborhoodempowerment.lacity.gov/wp-content/uploads/2012/06/NeighborhoodCouncilMembersEthicsRoster1.pdf",
+      "source_title": "Neighborhood Council Board Member Roster",
+      "source_publisher": "City of Los Angeles Department of Neighborhood Empowerment",
+      "publication_date": null,
+      "source_date_note": "Official roster entry carries the date November 18, 2012; the PDF publication date is not otherwise established.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "acquisition_origin": "current_public_page_review",
+      "identity_status": "verified",
+      "identity_qualification": "The official city roster names Angelica Duenas in the Sun Valley Area Neighborhood Council with the same presidency and residential-representative role reported in her campaign history.",
+      "identity_fragments": [
+        "ANGELICA DUENAS",
+        "SUN VALLEY AREA NEIGHBORHOOD COUNCIL"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ],
+      "source_excerpts": [
+        "ANGELICA DUENAS",
+        "SUN VALLEY AREA NEIGHBORHOOD COUNCIL",
+        "NC PRESIDENT - RESIDENTIAL REP",
+        "11/18/2012"
+      ],
+      "claims": [
+        {
+          "trait": "prior_elected_office",
+          "value": "Neighborhood Council president and residential representative, Sun Valley Area Neighborhood Council",
+          "precision": "official_dated_title_without_selection_method",
+          "factual_status": "partial",
+          "factual_reference_date": "2012-11-18",
+          "source_fragment": "NC PRESIDENT - RESIDENTIAL REP",
+          "qualification": "The official roster confirms the title and representative category but does not literally state election or appointment."
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "219922",
+      "family": "campaign",
+      "query": "\"Angela Gonzales-Torres\" Congress biography",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://www.angela4congress.com/about"
+      ],
+      "lead_dispositions": {},
+      "notes": "Mapped the native campaign biography and reviewed it against the roster campaign domain."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "ballotpedia_questionnaire",
+      "query": "site:ballotpedia.org \"Angela Gonzales-Torres\"",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://ballotpedia.org/Angela_Gonzales-Torres"
+      ],
+      "lead_dispositions": {},
+      "notes": "Reviewed the named Ballotpedia profile and biography; no Candidate Connection personal-background response supplied additional sensitive traits."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "official_biography",
+      "query": "site:ca.gov OR site:lacity.gov \"Angela Gonzales-Torres\"",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://cityclerk.lacity.org/onlinedocs/2023/23-1114_PC_PM_10-31-2023.pdf",
+        "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+      ],
+      "lead_dispositions": {
+        "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The certified ballot designation is already retained in the native candidate-trait ledger with downloaded bytes and adds no missed biographical trait beyond Advocate For Justice."
+        }
+      },
+      "notes": "Reviewed city and state official records while avoiding duplicate extraction of the already-ledgered certified ballot designation."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "official_biography",
+      "query": "\"Angela Gonzales-Torres\" \"Mayor's Office\" Metro Public Safety Advisory Committee",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083072.pdf",
+        "https://www.angela4congress.com/about"
+      ],
+      "lead_dispositions": {
+        "https://www.angela4congress.com/about": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The campaign biography was already reviewed in this pass."
+        }
+      },
+      "notes": "The official House disclosure established paid employers; campaign references to the Mayor's Office and Metro advisory committee lacked title or compensation details."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "local_profile",
+      "query": "\"Angela Gonzales-Torres\" interview profile age education",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://voyagela.com/interview/conversations-with-angela-gonzales-torres/",
+        "https://www.foxla.com/news/california-house-district-34-angela-gonzales-torres-projected-winner.amp"
+      ],
+      "lead_dispositions": {
+        "https://voyagela.com/interview/conversations-with-angela-gonzales-torres/": {
+          "status": "access_failure",
+          "reason": "The underlying original returned HTTP 403. Search extraction alone was not accepted as document or claim evidence, and the page was not retried or bypassed."
+        },
+        "https://www.foxla.com/news/california-house-district-34-angela-gonzales-torres-projected-winner.amp": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "Reviewed fully; its age, Chicana self-description, and two jobs corroborated stronger retained first-person or official documents without adding a distinct claim needed here."
+        }
+      },
+      "notes": "VoyageLA was withheld after the underlying original returned HTTP 403; no search-only content was accepted. FOX 11 was reviewed directly."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "university_employer_professional",
+      "query": "site:ucla.edu \"Angela Gonzales-Torres\" graduate",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://dailybruin.com/2024/02/21/op-ed-as-the-daughter-of-a-deportee-i-stand-with-undocumented-students"
+      ],
+      "lead_dispositions": {},
+      "notes": "The UCLA student newspaper source was reviewed as dated attendance evidence, not proof of a completed credential."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "university_employer_professional",
+      "query": "site:pasadena.edu \"Angela Gonzales-Torres\"",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "no_qualifying_results",
+      "underlying_urls": [],
+      "lead_dispositions": {},
+      "notes": "No mapped Pasadena City College staff biography or other candidate-specific institutional page was returned."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "earlier_biography",
+      "query": "\"Angela Gonzales-Torres\" 2024 biography",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://rss.com/podcasts/hereinla/1623508/",
+        "https://lataco.com/author/angela-gonzales-torres"
+      ],
+      "lead_dispositions": {
+        "https://lataco.com/author/angela-gonzales-torres": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "Reviewed the 2023 author biography; it adds UCLA research and an initiative but no stronger distinct trait fact than retained sources."
+        }
+      },
+      "notes": "The publisher's podcast page supplied a dated age and explicit ran-and-won description."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "earlier_biography",
+      "query": "\"Angela Gonzales-Torres\" Chicana woman",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://www.politicalemails.org/messages/1938853"
+      ],
+      "lead_dispositions": {},
+      "notes": "The archived campaign email supplied explicit self-identification and an exact CA-34 campaign disclaimer."
+    },
+    {
+      "candidate_id": "219922",
+      "family": "earlier_biography",
+      "query": "\"Angela Gonzales-Torres\" military veteran religion",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://commondefense.us/endorsement/angela-gonzales-torres/",
+        "https://www.laprogressive.com/election-and-campaigns/angela-gonzales-torres-californias-34th-district"
+      ],
+      "lead_dispositions": {
+        "https://commondefense.us/endorsement/angela-gonzales-torres/": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "The veteran organization endorsement discusses veterans and military families but does not report candidate military service."
+        },
+        "https://www.laprogressive.com/election-and-campaigns/angela-gonzales-torres-californias-34th-district": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "The article reports that her father was a military veteran; a relative's service is not candidate military service and no religion is identified."
+        }
+      },
+      "notes": "Targeted review found no explicit candidate religion or candidate military-service fact."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "campaign",
+      "query": "\"Angélica María Dueñas\" Congress biography",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://angelica4congress.com/about/"
+      ],
+      "lead_dispositions": {},
+      "notes": "Mapped and reviewed the native 2026 campaign biography."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "ballotpedia_questionnaire",
+      "query": "site:ballotpedia.org \"Angelica Duenas\"",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as"
+      ],
+      "lead_dispositions": {},
+      "notes": "Reviewed the current named Ballotpedia profile and its retained historical biography and survey references."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "official_biography",
+      "query": "site:ca.gov OR site:lacity.gov \"Angélica María Dueñas\" OR \"Angelica Maria Duenas\"",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://www.lavote.gov/Apps/CandidateList/Index?id=4269",
+        "https://elections.cdn.sos.ca.gov/statewide-elections/2024-primary/candidate-10-year.pdf"
+      ],
+      "lead_dispositions": {
+        "https://elections.cdn.sos.ca.gov/statewide-elections/2024-primary/candidate-10-year.pdf": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "The official party-preference history was reviewed for historical identity and party changes but adds no requested background trait."
+        }
+      },
+      "notes": "The county candidate list supplied an official occupation designation; the state history confirmed earlier Green and Democratic affiliations without changing person identity."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "official_biography",
+      "query": "\"Angelica Duenas\" age born Sun Valley",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://neighborhoodempowerment.lacity.gov/wp-content/uploads/2012/06/NeighborhoodCouncilMembersEthicsRoster1.pdf",
+        "https://angelica4congress.wixsite.com/angelica4ca29website/about"
+      ],
+      "lead_dispositions": {
+        "https://angelica4congress.wixsite.com/angelica4ca29website/about": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "Reviewed the earlier campaign biography; it repeats birthplace, education, gender, and council service but provides no age or birth year."
+        }
+      },
+      "notes": "No age or birth year was found; the official city roster supplied dated neighborhood-council title evidence."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "local_profile",
+      "query": "\"Angélica María Dueñas\" local profile interview",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://www.latimes.com/california/story/2024-02-01/2024-california-election-29th-congressional-district-rivas-duenas-bernal-primary-voter-guide",
+        "https://laopinion.com/2023/12/06/madre-de-cinco-hijos-compite-por-escano-que-dejara-vacante-tony-cardenas-en-el-congreso/"
+      ],
+      "lead_dispositions": {
+        "https://laopinion.com/2023/12/06/madre-de-cinco-hijos-compite-por-escano-que-dejara-vacante-tony-cardenas-en-el-congreso/": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "Reviewed fully; it corroborates Sun Valley birth, motherhood, neighborhood-council presidency, and Sanders-delegate history without a stronger distinct trait claim."
+        }
+      },
+      "notes": "The Los Angeles Times guide was retained; La Opinión was reviewed as corroboration."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "local_profile",
+      "query": "\"Angelica Duenas\" parents Mexico religion age",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://chicanainthecity.substack.com/p/a-chicana-from-the-valley-meet-angelica",
+        "https://angelica4congress.com/about/"
+      ],
+      "lead_dispositions": {
+        "https://angelica4congress.com/about/": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The native campaign biography was already reviewed in this pass."
+        }
+      },
+      "notes": "The interview supplied explicit Chicana and woman framing accepted in the candidate's response; neither source supplied age."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "university_employer_professional",
+      "query": "\"Angélica María Dueñas\" Woodbury University biography",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as",
+        "https://angelica4congress.com/about/"
+      ],
+      "lead_dispositions": {
+        "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as": {
+          "status": "duplicate_reviewed_original",
+          "reason": "Ballotpedia was already reviewed and supplies the dated Woodbury degree."
+        },
+        "https://angelica4congress.com/about/": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The campaign biography was already reviewed and supplies the completed Woodbury degree and other credentials."
+        }
+      },
+      "notes": "No separate university biography was found; completed credentials were verified through already-reviewed candidate and profile originals."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "university_employer_professional",
+      "query": "\"Angelica Duenas\" human resources manager Gravity Defyer",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as"
+      ],
+      "lead_dispositions": {
+        "https://ballotpedia.org/Ang%C3%A9lica_Mar%C3%ADa_Due%C3%B1as": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The reviewed Ballotpedia biography was the mapped source for the Gravity Defyer role; no employer biography was returned."
+        }
+      },
+      "notes": "No distinct employer or professional biography was located."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "earlier_biography",
+      "query": "\"Angelica Duenas\" 2018 candidate biography",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://wiki.cagreens.org/committees/coordinating/election-bios/2017-05",
+        "https://ivoterguide.com/candidate/41173/race/1258/election/560?culture=en-us"
+      ],
+      "lead_dispositions": {
+        "https://wiki.cagreens.org/committees/coordinating/election-bios/2017-05": {
+          "status": "access_failure",
+          "reason": "The underlying historical Green Party page timed out. Search extraction alone was not accepted as document or claim evidence, and the page was not retried through an alternate path."
+        }
+      },
+      "notes": "The 2018 iVoterGuide questionnaire/profile was reviewed directly and accepted. The Green Party biography was withheld because its underlying original did not open."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "earlier_biography",
+      "query": "\"Angelica Duenas\" military veteran service",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://angelica4congress.wixsite.com/angelica4ca29website/fighting-for-veterans",
+        "https://ivoterguide.com/candidate/41173/race/1258/election/765"
+      ],
+      "lead_dispositions": {
+        "https://angelica4congress.wixsite.com/angelica4ca29website/fighting-for-veterans": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "The campaign policy page discusses veterans and service members but does not report candidate military service."
+        },
+        "https://ivoterguide.com/candidate/41173/race/1258/election/765": {
+          "status": "reviewed_no_requested_facts",
+          "reason": "The 2020 profile says work and military information was not provided; omission is not evidence of nonservice. Its religion response corroborates the retained 2018 questionnaire."
+        }
+      },
+      "notes": "No candidate military-service fact was found; no negative service claim was created."
+    },
+    {
+      "candidate_id": "219910",
+      "family": "earlier_biography",
+      "query": "\"Angelica Duenas\" religion Catholic agnostic",
+      "query_kind": "search_query",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://ivoterguide.com/candidate/41173/race/1258/election/765",
+        "https://ivoterguide.com/candidate/41173/race/1258/election/560?culture=en-us"
+      ],
+      "lead_dispositions": {
+        "https://ivoterguide.com/candidate/41173/race/1258/election/765": {
+          "status": "duplicate_reviewed_original",
+          "reason": "The 2020 version repeats the same explicit spiritual self-description retained from the reviewed 2018 profile."
+        }
+      },
+      "notes": "The historical questionnaire explicitly reports agnostic beliefs and Catholic tradition."
+    }
+  ],
+  "completed_candidates": [
+    {
+      "candidate_id": "219922",
+      "actionable_leads_remaining": false,
+      "trait_findings": {
+        "age": "A publisher-dated August 22, 2024 biography reports age 30. This is partial dated-age evidence: conditional birth interval August 23, 1993 through August 22, 1994 and conditional November 3, 2026 election-day age 32 through 33; no exact birth date or exact election-day age is claimed.",
+        "gender": "Explicit first-person identification as a woman is retained.",
+        "race": "No explicit race identification was found; Chicana is retained as ethnicity and is not converted into a race value.",
+        "ethnicity": "Explicit self-identification as Chicana is retained.",
+        "religion": "No explicit religious identity was found after targeted searches and review.",
+        "education": "A dated 2024 UCLA source establishes fourth-year attendance in anthropology and Chicana/o and Central American studies. Graduation is not claimed because the only purported completion statement came from an inaccessible original and was withheld.",
+        "profession": "Campaign, Ballotpedia, and official disclosure evidence establish reentry-education work, academic counseling, affordable-housing program direction, and disclosed wage employers.",
+        "prior_elected_office": "Publisher notes explicitly say she ran and won the Highland Park Neighborhood Council presidency; official city records confirm she held it.",
+        "other_government": "Official disclosure establishes paid work for Pasadena Area Community College; campaign material separately reports unspecified work in the Los Angeles Mayor's Office.",
+        "military": "No candidate military-service fact was found; her father's reported service was expressly not attributed to her."
+      },
+      "extraction_review": "All ten traits were reviewed together across campaign, Ballotpedia, official, local-profile, university/employer/professional, and earlier-biography families. VoyageLA was moved to withheld access failure because the underlying original returned HTTP 403; no search-only interview content or claims remain accepted. Other mapped originals were reviewed or explicitly dispositioned. Unknown race, religion, and military remain honest unknowns rather than inferred negatives."
+    },
+    {
+      "candidate_id": "219910",
+      "actionable_leads_remaining": false,
+      "trait_findings": {
+        "age": "No age, birth year, or date of birth was found after targeted current and historical searches; birthplace alone was not converted into age.",
+        "gender": "Campaign and interview materials explicitly identify Dueñas as a woman.",
+        "race": "No explicit race identification was found; Chicana and Mexican parentage were not converted into a race value.",
+        "ethnicity": "A 2026 identity-framed interview explicitly identifies her as Chicana and she answers without correction.",
+        "religion": "A historical candidate questionnaire explicitly says she is agnostic in beliefs and Catholic in tradition.",
+        "education": "Completed HR certification, bachelor's, and master's credentials are retained, with institutions and years where the sources supply them.",
+        "profession": "Community organizing, activism, human-resources work, and Gravity Defyer management are retained. The purported 2016 presidential-campaign coordinator role was removed because the underlying Green Party original did not open.",
+        "prior_elected_office": "Official and candidate sources establish neighborhood-council membership, presidency, vice presidency, and terms, but the reviewed wording does not explicitly establish election rather than appointment; retained as partial.",
+        "other_government": "No paid government employment was established. Neighborhood-council and party/delegate roles were not treated as paid government work.",
+        "military": "No candidate military-service fact was found; policy pages and omitted questionnaire fields were not treated as evidence of nonservice."
+      },
+      "extraction_review": "All ten traits were reviewed together across campaign, Ballotpedia/questionnaire, official, local-profile, university/employer/professional, and earlier-biography families. Current and historical campaign cycles from 2018 through 2026 were identity-bridged to the same CA-29 candidate. The Green Party biography was moved to withheld access failure because the underlying original timed out; no search-only content or claims remain accepted. Every mapped lead was reviewed, retained, withheld, or explicitly dispositioned; unknown age, race, paid government employment, and military remain honest unresolved facts rather than inferred negatives."
+    }
+  ],
+  "withheld_documents": [
+    {
+      "id": "withheld-219922-voyagela-interview-2026",
+      "candidate_id": "219922",
+      "name": "Angela Gonzales-Torres",
+      "url": "https://voyagela.com/interview/conversations-with-angela-gonzales-torres/",
+      "family": "local_profile",
+      "status": "withheld_access_failure",
+      "reason": "The underlying original returned HTTP 403. Search extraction alone is not accepted evidence; the document and its purported UCLA-graduation and woman claims were removed without retrying or bypassing the block.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_pending_verification": [
+        "education",
+        "gender"
+      ]
+    },
+    {
+      "id": "withheld-219910-green-party-bio-2016",
+      "candidate_id": "219910",
+      "name": "Angélica María Dueñas",
+      "url": "https://wiki.cagreens.org/committees/coordinating/election-bios/2017-05",
+      "family": "earlier_biography",
+      "status": "withheld_access_failure",
+      "reason": "The underlying historical Green Party original timed out. Search extraction alone is not accepted evidence; the document and its education, campaign-role, and neighborhood-council claims were removed.",
+      "accessed_at": "2026-11-18",
+      "original_bytes_acquired": false,
+      "traits_pending_verification": [
+        "education",
+        "profession",
+        "prior_elected_office"
+      ]
+    }
+  ],
+  "person_pass_status": {
+    "219922": {
+      "status": "completed",
+      "families_searched": [
+        "campaign",
+        "ballotpedia_questionnaire",
+        "official_biography",
+        "local_profile",
+        "university_employer_professional",
+        "earlier_biography"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ]
+    },
+    "219910": {
+      "status": "completed",
+      "families_searched": [
+        "campaign",
+        "ballotpedia_questionnaire",
+        "official_biography",
+        "local_profile",
+        "university_employer_professional",
+        "earlier_biography"
+      ],
+      "traits_reviewed": [
+        "age",
+        "gender",
+        "race",
+        "ethnicity",
+        "religion",
+        "education",
+        "profession",
+        "prior_elected_office",
+        "other_government",
+        "military"
+      ]
+    }
+  },
+  "remaining_leads": []
+}

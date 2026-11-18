@@ -36,13 +36,22 @@ def deny_network(event, args):
 
 sys.addaudithook(deny_network)
 from which_candidate import biographical_research as research
-from which_candidate.storage import fingerprint
+from which_candidate.storage import confined, fingerprint
 
 root = Path.cwd().resolve()
 assert Path(research.__file__).resolve().is_relative_to(root)
 manifest_path = root / research.RESULTS / "manifest.json"
 before = manifest_path.read_bytes()
 expected = json.loads(before)
+for name in expected["files"]:
+    path = confined(root, name)
+    if not (
+        path.is_relative_to(root / research.RESULTS)
+        or path == root / "publication/biographical-research/report.html"
+    ):
+        raise RuntimeError(f"Unexpected factual output path: {name}")
+    path.unlink()
+manifest_path.unlink()
 summary = research.build(root)
 for name, receipt in expected["files"].items():
     if fingerprint(root / name) != receipt:
@@ -53,6 +62,7 @@ baseline = json.loads((root / research.BASELINE).read_text())
 research.verify_frozen(root, baseline)
 print(json.dumps({
     "network_and_subprocesses_disabled": True,
+    "generated_outputs_removed_before_rebuild": True,
     "identical_outputs_including_manifest": len(expected["files"]) + 1,
     "protected_scientific_files_verified": len(baseline["protected_sha256"]),
     "summary": summary,

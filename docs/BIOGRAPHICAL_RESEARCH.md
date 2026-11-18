@@ -124,8 +124,10 @@ Verify an already downloaded research archive without rebuilding its package:
 
 Verification extracts to an isolated temporary directory, imports the extracted
 code, disables Python networking and child processes, rebuilds every factual
-output, and compares all manifest hashes and the manifest bytes. It also checks
-all protected scientific files. Dependencies must already be installed; this
+output after first removing its archived copy, and compares all manifest hashes
+and the manifest bytes. The unreviewed campaign-reading queue is regenerated
+from the checksummed transport journal, not inherited from the extracted output.
+It also checks all protected scientific files. Dependencies must already be installed; this
 verification does not download them.
 
 Alternatively extract the archive, create an environment using

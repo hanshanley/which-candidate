@@ -545,6 +545,11 @@ def build(root):
     write_csv(output / "trait-coverage-by-party-and-incumbency.csv", trait_groups)
     write_csv(output / "trait-progress.csv", progress)
     write_json(output / "source-provenance.json", journal)
+    retrievals = "data/biographical-retrievals.json"
+    write_json(
+        output / "unreviewed-campaign-reading-leads.json",
+        load_json(root / retrievals, {"sources": {}, "candidates": {}}),
+    )
     summary = {
         "baseline_commit": BASE_COMMIT,
         "candidates": len(candidates),
@@ -568,6 +573,7 @@ def build(root):
                 for name in (
                     BASELINE,
                     *journal_inputs,
+                    retrievals,
                     "results/house-characteristics-v9/candidate-traits.jsonl.gz",
                     "results/house-characteristics-v9/coverage-by-party-and-incumbency.csv",
                     "which_candidate/biographical_research.py",

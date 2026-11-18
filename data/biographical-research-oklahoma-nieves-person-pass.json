@@ -1,0 +1,346 @@
+{
+  "documents": [
+    {
+      "id": "221345-constitution-october2026",
+      "candidate_id": "221345",
+      "name": "Austin Nieves",
+      "state": "OK",
+      "district": "05",
+      "party": "Independent",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1520",
+      "source_title": "U.S. Senate and House Races",
+      "publication_date": "2026-10-23",
+      "source_date_note": "The page's related-news entry dates this same titled article October 23, 2026. Editor-compiled partisan newspaper profile, not a candidate questionnaire or independent credential record.",
+      "accessed_at": "2026-11-18",
+      "acquisition_origin": "current_public_page_review",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Independent Oklahoma City candidate in the article's Fifth District section; full name, UCO credentials and instructional occupation agree with the retained nominee and prior profiles.",
+      "identity_fragments": ["Austin Nieves, 30,"],
+      "source_excerpts": ["Austin Nieves, 30,", "dancer, performer, accountant", "business degree and MBA", "adjunct instructor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "age",
+          "value": {"reported_age": 30, "report_publication_date": "2026-10-23", "conditional_birth_date_interval": ["1995-10-24", "1996-10-23"], "conditional_age_at_2026_election": [30, 31]},
+          "source_fragment": "Austin Nieves, 30,",
+          "factual_status": "partial",
+          "precision": "dated reported age and conditional birth interval, not exact birth date",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "The interval is valid only if the editor's age was current on publication. The undated LWV guide says 31; without its factual reference day this does not establish a same-date contradiction or a birthday."
+        },
+        {
+          "trait": "education",
+          "value": {"institution": "University of Central Oklahoma", "completed_credentials_reported": ["business degree (level unspecified)", "MBA"]},
+          "source_fragment": "business degree and MBA",
+          "factual_status": "qualified",
+          "precision": "reported completed credentials, with no years and unspecified first degree level",
+          "factual_reference_date": null,
+          "qualification": "The full reviewed paragraph names UCO. Do not silently substitute the guide's BS designation or dates into this source's wording."
+        },
+        {
+          "trait": "profession",
+          "value": {"reported_careers": ["dancer", "performer", "accountant", "animal rescuer", "inventor", "aero-hydro-solar mechanic", "adjunct instructor"], "instruction_institution": "University of Central Oklahoma"},
+          "source_fragment": "dancer, performer, accountant",
+          "supporting_fragments": ["adjunct instructor"],
+          "factual_status": "qualified",
+          "precision": "multiple editor-reported careers, not verified licenses or current paid appointments",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "All listed roles occur in the reviewed paragraph; bounded excerpts do not reproduce the whole list. The idiosyncratic mechanic description is preserved as the newspaper's report, not a verified engineering qualification."
+        }
+      ]
+    },
+    {
+      "id": "221344-constitution-october2026",
+      "candidate_id": "221344",
+      "name": "Robert P. Henri",
+      "state": "OK",
+      "district": "05",
+      "party": "Independent",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1520",
+      "source_title": "U.S. Senate and House Races",
+      "publication_date": "2026-10-23",
+      "source_date_note": "Date shown for this titled article in the related-news list. Editor-compiled newspaper report.",
+      "accessed_at": "2026-11-18",
+      "acquisition_origin": "current_public_page_review",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full name and independent Fifth District candidacy; the reviewed paragraph also identifies Edmond and Project Due Course, matching the native candidate and campaign listed by Oklahoma Voice.",
+      "identity_fragments": ["Robert P. Henri"],
+      "source_excerpts": ["Robert P. Henri, 49,", "former lab technician", "cannabis industry"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "age",
+          "value": {"reported_age": 49, "report_publication_date": "2026-10-23", "conditional_age_at_2026_election": [49, 50]},
+          "source_fragment": "Robert P. Henri, 49,",
+          "factual_status": "partial",
+          "precision": "dated reported age, not an exact election-day age",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "No birthday or independently verified age-reference day is supplied."
+        },
+        {
+          "trait": "profession",
+          "value": {"former_occupation": "laboratory technician", "current_industry_reported": "cannabis", "current_job_title": null},
+          "source_fragment": "former lab technician",
+          "supporting_fragments": ["cannabis industry"],
+          "factual_status": "qualified",
+          "precision": "editor-reported former occupation and current industry, not an invented current job title",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "No employer, public-sector status, professional license or precise employment dates are established. Other background fields remain unresolved; this single document is not a completed person pass."
+        }
+      ]
+    },
+    {
+      "id": "221336-constitution-october2026",
+      "candidate_id": "221336",
+      "name": "Ronnie Hopkins",
+      "state": "OK",
+      "district": "02",
+      "party": "Independent",
+      "contest_id": "2026:house:OK:02:general:source_general",
+      "family": "local_profile",
+      "url": "https://oklahomaconstitution.com/ns.php?nid=1520",
+      "source_title": "U.S. Senate and House Races",
+      "publication_date": "2026-10-23",
+      "source_date_note": "Date shown for this titled article in the related-news list. Editor-compiled newspaper report.",
+      "accessed_at": "2026-11-18",
+      "acquisition_origin": "current_public_page_review",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full name, independent Second District candidacy, Rose residence and earlier 2024 congressional candidacy distinguish the retained candidate.",
+      "identity_fragments": ["Ronnie Hopkins, 69,"],
+      "source_excerpts": ["Ronnie Hopkins, 69,", "pastor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "age",
+          "value": {"reported_age": 69, "report_publication_date": "2026-10-23", "conditional_age_at_2026_election": [69, 70]},
+          "source_fragment": "Ronnie Hopkins, 69,",
+          "factual_status": "partial",
+          "precision": "dated reported age; exact birthday and age-reference day not independently established",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "The undated LWV guide reports 70. Different source-reference days may explain this difference; do not manufacture a birth date or automatically classify it as a same-date conflict."
+        },
+        {
+          "trait": "profession",
+          "value": {"occupation_reported": "pastor"},
+          "source_fragment": "pastor",
+          "factual_status": "qualified",
+          "precision": "explicit newspaper-reported occupation",
+          "factual_reference_date": "2026-10-23",
+          "qualification": "No church, denomination, current personal affiliation, ordination or paid public employment is inferred from this occupational title. This document does not complete the person pass."
+        }
+      ]
+    },
+    {
+      "id": "221345-votesmart-biography-current",
+      "candidate_id": "221345",
+      "name": "Austin Nieves",
+      "state": "OK",
+      "district": "05",
+      "party": "Independent",
+      "contest_id": "2026:house:OK:05:general:source_general",
+      "family": "ballotpedia_questionnaire",
+      "url": "https://j.futurefacts.votesmart.io/candidate/biography/238764/austin-nieves",
+      "source_title": "Vote Smart: Austin Nieves' Biography",
+      "publication_date": null,
+      "source_date_note": "Undated public Vote Smart profile, still describing the 2026 candidacy as running. Retrieval does not establish pre-election publication or candidate verification.",
+      "accessed_at": "2026-11-18",
+      "acquisition_origin": "current_public_page_review",
+      "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full name and explicit 2026 Oklahoma District 5 House candidacy match the retained independent nominee. Oklahoma City, UCO credentials and instructional work corroborate the already reviewed LWV and BallotReady profiles. No same-name New Jersey municipal officer or New York athlete is joined.",
+      "identity_fragments": ["Austin Nieves", "District 5, 2026"],
+      "source_excerpts": [
+        "Austin Nieves",
+        "District 5, 2026",
+        "Gender:",
+        "Male",
+        "MBA, Business Administration, University of Central Oklahoma, 2021",
+        "Co-Owner and Accountant",
+        "BlooPop Living",
+        "Former Adjunct Instructor",
+        "2019-2021"
+      ],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {
+          "trait": "gender",
+          "value": {"source_classification": "Male", "classification_field": "Gender", "source": "Vote Smart"},
+          "source_fragment": "Male",
+          "supporting_fragments": ["Gender:"],
+          "factual_status": "qualified",
+          "precision": "explicit public directory gender classification, not a quoted self-identification",
+          "factual_reference_date": null,
+          "qualification": "Retain the source's explicit classification without substituting a biological-sex or self-identification claim. Undated classification does not establish election-time availability."
+        },
+        {
+          "trait": "education",
+          "value": {"degree": "MBA", "field": "Business Administration", "institution": "University of Central Oklahoma", "completion_year": 2021, "source_reported": true},
+          "source_fragment": "MBA, Business Administration, University of Central Oklahoma, 2021",
+          "factual_status": "qualified",
+          "precision": "directory-reported completed credential and year",
+          "factual_reference_date": "2021",
+          "qualification": "Directory statement, not an independently opened university award record. Finance study elsewhere is not promoted to a completed associate degree."
+        },
+        {
+          "trait": "profession",
+          "value": {"occupations": ["co-owner", "accountant", "former adjunct instructor"], "business": "BlooPop Living", "reported_instruction_years": "2019-2021"},
+          "source_fragment": "Co-Owner and Accountant",
+          "supporting_fragments": ["BlooPop Living", "Former Adjunct Instructor", "2019-2021"],
+          "factual_status": "qualified",
+          "precision": "multiple source-reported career roles; disputed instructional end date retained",
+          "factual_reference_date": null,
+          "unresolved_details": ["Vote Smart calls the university role former and dates it 2019-2021; the LWV guide and earlier BallotReady listing say 2019-present. Instruction itself is corroborated, but current employment and the end date are not resolved."],
+          "qualification": "The original page names University of Central Oklahoma as the adjunct institution. Its full professional passage was read; the bounded retained fragments do not reproduce the whole biography."
+        },
+        {
+          "trait": "other_government",
+          "value": {"reported_role": "former adjunct instructor", "institution": "University of Central Oklahoma", "reported_years": "2019-2021", "paid_employment_verified": false},
+          "source_fragment": "Former Adjunct Instructor",
+          "supporting_fragments": ["2019-2021"],
+          "factual_status": "partial",
+          "precision": "reported public-university instructional role; compensation and appointment terms not independently established",
+          "factual_reference_date": "2019-2021",
+          "qualification": "Useful factual lead, not yet a qualified paid-government-employment value. No military, religion or lifetime no-office negative is inferred from omitted profile fields."
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "221345",
+      "family": "university_employer_professional",
+      "query_kind": "search_query",
+      "query": "\"Austin Nieves\" university professor biography",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://j.futurefacts.votesmart.io/candidate/biography/238764/austin-nieves",
+        "https://www.linkedin.com/in/austin-nieves-503795b0"
+      ],
+      "lead_dispositions": {
+        "https://www.linkedin.com/in/austin-nieves-503795b0": {
+          "status": "access_failure",
+          "reason": "Underlying LinkedIn profile returned HTTP 999. Search-result text was not promoted into evidence; do not retry or bypass the restriction."
+        }
+      },
+      "search_access_note": "A first Google HTML fetch required JavaScript and provided no usable results; the actual public web-search tool then returned mapped leads for the same exact query. No Google challenge was bypassed."
+    },
+    {
+      "candidate_id": "221345",
+      "family": "ballotpedia_questionnaire",
+      "query_kind": "source_followup",
+      "query": "https://j.futurefacts.votesmart.io/candidate/biography/238764/austin-nieves",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": ["https://j.futurefacts.votesmart.io/candidate/biography/238764/austin-nieves"]
+    },
+    {
+      "candidate_id": "221345",
+      "family": "university_employer_professional",
+      "query_kind": "search_query",
+      "query": "\"Austin Nieves\" site:uco.edu",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": ["https://www3.uco.edu/CentralitiesArchive/Home/View/13570"],
+      "lead_dispositions": {
+        "https://www3.uco.edu/CentralitiesArchive/Home/View/13570": {"status": "access_failure", "reason": "Underlying university page returned HTTP403. No search-only facts accepted."}
+      }
+    },
+    {
+      "candidate_id": "221345",
+      "family": "official_biography",
+      "query_kind": "search_query",
+      "query": "\"Austin Nieves\" (site:oklahoma.gov OR site:uco.edu OR site:house.gov OR site:fec.gov)",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": ["https://www3.uco.edu/CentralitiesArchive/Home/View/13570"],
+      "lead_dispositions": {
+        "https://www3.uco.edu/CentralitiesArchive/Home/View/13570": {"status": "access_failure", "reason": "Same blocked original as the university-family search; not retried. No official paid-employment proof obtained."}
+      }
+    },
+    {
+      "candidate_id": "221345",
+      "family": "earlier_biography",
+      "query_kind": "search_query",
+      "query": "\"Austin Nieves\" Oklahoma biography interview 2024 2022 dance",
+      "searched_at": "2026-11-18",
+      "outcome": "leads_found",
+      "underlying_urls": [
+        "https://www.kosu.org/oklahoma-cd5-election-preview-2026",
+        "https://www.yahoo.com/entertainment/okc-students-leap-holiday-season-110145365.html",
+        "https://onyxlane.com/cube-of-light/"
+      ],
+      "lead_dispositions": {
+        "https://www.kosu.org/oklahoma-cd5-election-preview-2026": {"status": "access_failure", "reason": "Underlying page returned HTTP403."},
+        "https://www.yahoo.com/entertainment/okc-students-leap-holiday-season-110145365.html": {"status": "access_failure", "reason": "Underlying page returned HTTP429. Independently discovering its Oklahoman original remains actionable."},
+        "https://onyxlane.com/cube-of-light/": {"status": "access_failure", "reason": "Underlying page presented a request-verification challenge; no bypass or accepted search-only claims."}
+      }
+    },
+    {
+      "candidate_id": "221345",
+      "family": "campaign",
+      "query_kind": "search_query",
+      "query": "\"Austin Nieves\" campaign biography religion military",
+      "searched_at": "2026-11-18",
+      "outcome": "result_mapping_not_retained",
+      "underlying_urls": [],
+      "search_access_note": "Exact executed query retained, but its result mapping is not reconstructible. This record cannot establish a completed source-family search."
+    }
+  ],
+  "completed_candidates": [],
+  "reviewed_lead_outcomes": [
+    {"url": "https://ballotpedia.org/Austin_Nieves", "status": "reviewed_no_requested_facts", "reason": "Underlying page reviewed. It supplies election identity and earlier 2024 withdrawal, but no substantive biography and no 2024 or 2026 Candidate Connection response. No prior-office negative is inferred."},
+    {"url": "https://oklahomavoice.com/voter-guides/contests/u-s-representative-district-5-2026-general/", "status": "reviewed_no_requested_facts", "reason": "Underlying guide reviewed. Nieves has only an independent Fifth District candidacy description; Nelson's employment and other candidates' biographies are not attributed to him."},
+    {"url": "https://votewiser.com/2026/OK/Austin_Nieves", "status": "reviewed_no_requested_facts", "reason": "Underlying page reviewed. Identity and social links only, with no requested biographical facts."},
+    {"url": "https://ivoterguide.com/candidate/94374/race/35077/election/1506", "status": "reviewed_no_requested_facts", "reason": "Underlying questionnaire reviewed, including education, work/military, affiliations, political offices and spiritual-belief questions. All are unprovided or unanswered; none are explicit negative service or religion claims."},
+    {"url": "https://www.kgou.org/politics-and-government/2026-10-25/democrat-jena-nelson-2-independents-challenge-republican-stephanie-bice-for-oklahomas-cd5-seat", "status": "reviewed_no_requested_facts", "reason": "Full relevant underlying section reviewed. It identifies candidacy and campaign-related LinkedIn activity, not requested new background traits. Its statement about no apparent campaign site is a reporter observation, not universal proof of absence."},
+    {"url": "https://www3.uco.edu/CentralitiesArchive/Home/View/13570", "status": "access_failure", "reason": "Underlying university archive returned HTTP403. The search result's choreographer attribution is not accepted."},
+    {"url": "https://onyxlane.com/cube-of-light/", "status": "access_failure", "reason": "Underlying professional production page returned a request-verification challenge. No bypass or retry; search-only credit is not accepted."},
+    {"url": "https://www.kosu.org/oklahoma-cd5-election-preview-2026", "status": "access_failure", "reason": "Underlying KOSU page returned HTTP403. The separately published KGOU version was independently accessible and reviewed, not used to retrieve the restricted KOSU page."},
+    {"url": "https://www.yahoo.com/entertainment/okc-students-leap-holiday-season-110145365.html", "status": "access_failure", "reason": "Underlying Yahoo page returned HTTP429. No retry; a separately discoverable Oklahoman original remains an actionable lead."},
+    {"url": "https://www.imdb.com/name/nm11114243/", "status": "access_failure", "reason": "Ballotpedia-linked personal/professional page returned HTTP403. No birthday or career fact is accepted from it."}
+  ],
+  "withheld_documents": [
+    {
+      "id": "221345-linkedin-profile-blocked",
+      "candidate_id": "221345",
+      "url": "https://www.linkedin.com/in/austin-nieves-503795b0",
+      "status": "access_failure",
+      "reason": "HTTP 999 on the underlying page. Search snippets about service/readiness or masked education are not accepted factual claims.",
+      "traits_pending_verification": ["education", "profession", "other_government", "military"]
+    }
+  ],
+  "search_batches": [
+    {
+      "candidate_id": "221345",
+      "searched_at": "2026-11-18",
+      "queries": [
+        "\"Austin Nieves\" site:uco.edu",
+        "\"Austin Nieves\" Oklahoma born age religion veteran",
+        "\"Austin Nieves\" Congress biography interview",
+        "\"Austin Nieves\" Ballotpedia"
+      ],
+      "mapping_qualification": "The tool returned a batch union, not individual-query result mappings. These exact executed queries are retained here but do not by themselves establish completed source-family searches.",
+      "selected_underlying_leads": [
+        "https://ballotpedia.org/Austin_Nieves",
+        "https://oklahomaconstitution.com/ns.php?nid=1520",
+        "https://oklahomavoice.com/voter-guides/contests/u-s-representative-district-5-2026-general/",
+        "https://votewiser.com/2026/OK/Austin_Nieves"
+      ]
+    }
+  ],
+  "person_pass_status": [
+    {
+      "candidate_id": "221345",
+      "status": "in_progress",
+      "remaining_work": "Independently discover and review the Oklahoman original behind the blocked syndicated dance profile; finish campaign and historical family accounting. Preserve age precision and unresolved instructional end dates. No completed pass is claimed."
+    }
+  ]
+}

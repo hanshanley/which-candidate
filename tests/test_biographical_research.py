@@ -1,3 +1,4 @@
+import json
 from copy import deepcopy
 
 import pytest
@@ -203,6 +204,8 @@ def test_unsearched_roster_and_partial_first_evidence(tmp_path, candidate, docum
             )
     write_rows(tmp_path / "results/house-characteristics-v9/candidate-traits.jsonl.gz", baseline)
     write_json(tmp_path / BASELINE, {"protected_sha256": {}})
+    retrievals = {"sources": {"https://example.org/about": {"status": "acquired"}}}
+    write_json(tmp_path / "data/biographical-retrievals.json", retrievals)
     write_json(
         tmp_path / JOURNAL,
         {
@@ -240,8 +243,18 @@ def test_unsearched_roster_and_partial_first_evidence(tmp_path, candidate, docum
     html = (tmp_path / "publication/biographical-research/report.html").read_text()
     assert "A same-name source is not an identity bridge." in html
     before = fingerprint(tmp_path / "publication/biographical-research/report.html")
+    manifest_path = tmp_path / "results/biographical-research/manifest.json"
+    manifest_bytes = manifest_path.read_bytes()
+    manifest = json.loads(manifest_bytes)
+    assert "data/biographical-retrievals.json" in manifest["inputs"]
+    leads = tmp_path / "results/biographical-research/unreviewed-campaign-reading-leads.json"
+    assert json.loads(leads.read_text()) == retrievals
+    for name in manifest["files"]:
+        (tmp_path / name).unlink()
+    manifest_path.unlink()
     build(tmp_path)
     assert fingerprint(tmp_path / "publication/biographical-research/report.html") == before
+    assert manifest_path.read_bytes() == manifest_bytes
 
 
 def test_prior_nested_documents_and_failed_attempts_are_reused(tmp_path):
