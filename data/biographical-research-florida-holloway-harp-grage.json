@@ -1,0 +1,481 @@
+{
+  "scope": "Person-level background research for three retained Democratic nonincumbents, FL04 LaShonda Holloway, FL03 Seth Harp and FL05 Rachel Grage. Review all ten background traits together, distinguish dated self-reports from independently documented employment, and preserve partial ages, unsupported affiliation headers and outstanding original-source leads. No new facts enter frozen scientific fits.",
+  "documents": [
+    {
+      "id": "220086-full-retained-campaign-about",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "campaign", "url": "https://www.hollowayforcongress.com/about-lj",
+      "source_title": "Complete Holloway campaign biography, education and federal/private careers",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220086-bio1/campaign-220086-bio1",
+      "retained_sha256": "7f719b625172d7a706d8663f875ec42420fa90cb7c5da4f0d7889a89664ef235",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native campaign domain, LaShonda/L.J. aliases and paid-for FL04 congressional disclaimer. Same EPA, Carrie Meek, law-school and DC career across independently dated questionnaires.",
+      "identity_fragments": ["LaShonda", "Holloway"],
+      "source_excerpts": ["LaShonda", "Holloway", "attended Howard University", "graduated magna cum laude", "Juris Doctorate", "Environmental Protection Agency", "Lexis-Nexis", "Mediation and Arbitration", "Office of Documents and Administrative Issuances"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_completed_edward_waters_degree_and_uf_jd_separate_howard_attendance", "factual_reference_date": "Historical education; no award years supplied here", "value": "Graduated magna cum laude from Edward Waters and earned a University of Florida JD; Howard attendance is explicitly separate, not a verified additional degree", "source_fragment": "Juris Doctorate", "supporting_fragments": ["graduated magna cum laude", "attended Howard University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_multiple_historical_public_and_private_careers", "factual_reference_date": "Historical careers and roles described on campaign page", "value": "AT&T work, Lexis-Nexis account executive, mediation/arbitration managing partner, banking community-lending director and healthcare-advocacy founder; federal customer relationship is not federal employment", "source_fragment": "Mediation and Arbitration", "supporting_fragments": ["Lexis-Nexis"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_named_federal_and_dc_service", "factual_reference_date": "Prior to current campaign; exact terms not supplied here", "value": "EPA federal service and political appointment, Carrie Meek congressional work and DC Office of Documents and Administrative Issuances directorship. Lexis-Nexis work for a Customs client is private employment", "source_fragment": "Environmental Protection Agency", "supporting_fragments": ["Office of Documents and Administrative Issuances"]}
+      ],
+      "extraction_review": "Read complete cached About and homepage after hash verification. Childhood ages five/fifteen lack calendar anchors. SCLC recognition does not establish religion or race, and fourth-generation local residence is not ethnicity. No own military claim or prior-office negative here. JD does not independently verify current bar admission. Personal medical details not collected."
+    },
+    {
+      "id": "220086-full-ballotpedia-earlier-survey",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/L.J._Holloway",
+      "source_title": "Holloway biography, source-defined affiliation header and complete 2022 Candidate Connection answers",
+      "publication_date": null, "source_date_note": "2022 survey footnote dated July 7, 2022; later biography/header may be updated. No completed 2024/2026 survey found on the reviewed page.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL04 Democratic nominee, current native campaign and earlier Aaron Bean contest; L.J. alias independently bridged by own campaign and dated local questionnaires.",
+      "identity_fragments": ["Holloway"],
+      "source_excerpts": ["Holloway", "Spiritual", "Though I have never held office", "Edward Waters", "1997", "University of Florida", "EPA", "Carrie Meek"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "undated_publisher_spiritual_header_without_personal_affiliation_attribution", "factual_reference_date": "Undated header observed November 18, 2026", "value": "Publisher labels affiliation Spiritual; no underlying own dated affiliation statement acquired", "source_fragment": "Spiritual"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_named_completed_bachelor_and_jd_with_separate_unverified_dates", "factual_reference_date": "Edward Waters bachelor's reported 1997; JD award date not established here", "value": "Edward Waters bachelor's and University of Florida law degree; named completed credentials corroborated by own biography", "source_fragment": "Edward Waters", "supporting_fragments": ["1997", "University of Florida"], "unresolved_details": ["BallotReady separately reports a 1997 JD, Howard bachelor's and Harvard certificate. Those additional award/date claims need institutional corroboration; omission from another biography does not itself establish contradiction."]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_scoped_historical_candidate_no_office_statement", "factual_reference_date": "2022 survey, submission July 7, 2022", "value": "Explicitly reported never having held office in 2022. This dated negative does not automatically establish no elected office at the November 2026 reference date", "source_fragment": "Though I have never held office"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "own_2022_named_congressional_and_epa_experience", "factual_reference_date": "Before July 2022 survey", "value": "Own Carrie Meek staff and EPA experience; distinct from elected public office and private federal-contract customer work", "source_fragment": "EPA", "supporting_fragments": ["Carrie Meek"]}
+      ],
+      "extraction_review": "Read relevant biography and entire 2022 survey through submission footnotes, not just header or indexed snippets. Later surveys absent, not assumed answered. No own military-negative evidence. Separate raw HTTP attempt returned 202 with zero bytes; no empty response retained as an original."
+    },
+    {
+      "id": "220086-own-postelection-black-woman-description",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "local_profile",
+      "url": "https://jacksonvillefreepress.com/a-candidate-speaks-investing-in-black-women-is-not-charity-it-is-political-strategy/",
+      "source_title": "Own signed post-election commentary: explicit Black woman self-description",
+      "publication_date": "2026-11-18", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Signed LaShonda L.J. Holloway commentary recounts own November 3, 2026 FL04 congressional race against Aaron Bean, earlier campaigns and Capitol Hill work. Candidate-authored opinion, not independent outcome verification.",
+      "identity_fragments": ["LaShonda", "Holloway"],
+      "source_excerpts": ["LaShonda", "Holloway", "A Black woman", "Black women", "We register voters", "worked on Capitol Hill"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_own_woman_self_description", "factual_reference_date": "November 18, 2026, recalling own 2026 campaign", "value": "Explicitly describes herself as a woman; post-election source does not establish prediction-time availability", "source_fragment": "A Black woman"},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_own_black_self_description", "factual_reference_date": "November 18, 2026, recalling own 2026 campaign", "value": "Own Black identification in direct account of her race and collective first-person Black-women discussion. Not an ethnicity classification or inference from endorsements", "source_fragment": "A Black woman", "supporting_fragments": ["Black women", "We register voters"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_historical_capitol_hill_work", "factual_reference_date": "Career before November 2026", "value": "Own Capitol Hill work; more than twenty years as a Democratic precinct committee member is party service, not elected public office or necessarily paid government work", "source_fragment": "worked on Capitol Hill"}
+      ],
+      "extraction_review": "Read full original signed commentary. Do not import its vote totals into frozen outcome data or infer causal electoral effects from the opinion. Explicit racial/gender attribution retained separately from religious/ethnic unknowns. This source is dated fifteen days after election."
+    },
+    {
+      "id": "220086-westside-2022-dated-age-profile",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "earlier_biography", "url": "https://thewestsidegazette.com/lashonda-l-j-holloway-is-the-real-deal/",
+      "source_title": "October 2022 Westside Gazette original candidate profile",
+      "publication_date": "2022-10-12", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full-name/alias FL04 Democratic nominee versus Aaron Bean, Carrie Meek career and native-campaign continuity.",
+      "identity_fragments": ["Holloway"],
+      "source_excerpts": ["Holloway", "52-year-old Black woman attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "publisher_reported_age_at_dated_2022_profile_not_exact_dob", "factual_reference_date": "October 12, 2022 publication; age observation day unspecified", "value": "Reported age 52 in 2022; no exact birth date or exact 2026 election age manufactured", "source_fragment": "52-year-old Black woman attorney"},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_named_subject_publisher_woman_classification", "factual_reference_date": "October 2022", "value": "Publisher explicitly describes candidate as woman; later own identification corroborates", "source_fragment": "52-year-old Black woman attorney"},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_named_subject_publisher_black_classification", "factual_reference_date": "October 2022", "value": "Publisher explicitly identifies candidate as Black; own 2026 identification separately retained", "source_fragment": "52-year-old Black woman attorney"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_publisher_occupational_attorney_label", "factual_reference_date": "October 2022", "value": "Described as attorney in election profile; not independent verification of current bar admission", "source_fragment": "52-year-old Black woman attorney"}
+      ],
+      "extraction_review": "Read complete candidate-specific original. Veterans policies are not her military status, YMCA service is not government employment, and mentorship/endorsements do not establish religion or ethnicity. Personal medical history not collected."
+    },
+    {
+      "id": "220086-news4jax-2024-complete-own-questionnaire",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "earlier_biography", "url": "https://www.news4jax.com/voters-guide/2024/08/02/2024-voters-guide-floridas-4th-congressional-district/",
+      "source_title": "News4JAX 2024 FL04: unedited Holloway candidate responses",
+      "publication_date": "2024-08-02", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact full-name/alias FL04 Democrat against Aaron Bean, same native campaign URL and EPA/DC/Carrie Meek work. Candidate section kept separate from Bean.",
+      "identity_fragments": ["LaShonda", "Holloway"],
+      "source_excerpts": ["LaShonda", "Holloway", "Age:", "54", "never held a political office", "only woman in the race", "Juris Doctorate", "Bachelor of Business Administration", "employee", "Mediator", "EPA"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "candidate_reported_age_in_dated_2024_questionnaire", "factual_reference_date": "Published August 2, 2024; exact response/reference day unspecified", "value": "Own reported age 54. Consistent with dated 2022 age 52 but not an exact birth date or exact 2026 election age", "source_fragment": "54", "supporting_fragments": ["Age:"]},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_own_woman_description", "factual_reference_date": "2024 congressional race", "value": "Own explicit woman description in unedited response", "source_fragment": "only woman in the race"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_named_jd_and_bba_separate_non_degree_study", "factual_reference_date": "Education before August 2024; no award years supplied", "value": "UF JD and Edward Waters BBA; Harvard case studies and Howard business-management study do not by themselves establish additional awarded degrees", "source_fragment": "Juris Doctorate", "supporting_fragments": ["Bachelor of Business Administration"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_2024_mediation_advocacy_and_licensing_self_report", "factual_reference_date": "2024 questionnaire", "value": "Reports Florida Supreme Court mediator, healthcare advocacy and NMLS licensing; occupational/licensing self-report, not independent license verification", "source_fragment": "Mediator"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_scoped_historical_no_political_office_statement", "factual_reference_date": "2024 questionnaire published August 2", "value": "Explicitly reports never having held political office as of the 2024 response. Do not silently extend the negative through November 2026", "source_fragment": "never held a political office"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_former_epa_employee_and_dc_director", "factual_reference_date": "Historical roles before 2024 response", "value": "Own former EPA employee, Capitol Hill work and DC documents/administrative-issuances director statement; Customs contract negotiation not coded as Customs employment", "source_fragment": "employee", "supporting_fragments": ["EPA"]}
+      ],
+      "extraction_review": "Read complete original and publisher's explicit unedited-response notice. Family nonresponse is not evidence. Bean's age, prior offices and military policies remain separate. No explicit own military service or nonservice."
+    },
+    {
+      "id": "220086-news4jax-2022-complete-own-questionnaire",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "earlier_biography", "url": "https://www.news4jax.com/voters-guide/2022/07/28/floridas-4th-congressional-district/",
+      "source_title": "News4JAX 2022 FL04: complete own background answers",
+      "publication_date": "2022-07-26", "source_date_note": "Visible first publication July 26, updated September 12, 2022; URL path July 28 is not substituted for visible dates. Exact answer collection day unspecified.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Holloway alias and FL04 Democrat/Aaron Bean contest, own former campaign link and same EPA/DC/Carrie Meek career bridge current nominee.",
+      "identity_fragments": ["LaShonda", "Holloway"],
+      "source_excerpts": ["LaShonda", "Holloway", "Age:", "52", "As a woman", "Author", "Mediator", "Juris Doctorate", "Environmental Protection Agency", "Office of Documents and Administrative Issuances"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "candidate_reported_age_in_dated_2022_questionnaire", "factual_reference_date": "2022 questionnaire, page updated September 12; exact response day unspecified", "value": "Own reported age 52; no invented birthday or exact 2026 age", "source_fragment": "52", "supporting_fragments": ["Age:"]},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_own_woman_description", "factual_reference_date": "2022 answer", "value": "Direct own woman identification, separate from policy positions", "source_fragment": "As a woman"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_completed_uf_law_degree", "factual_reference_date": "Degree before 2022 response; no award date supplied", "value": "Own University of Florida JD report", "source_fragment": "Juris Doctorate"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_own_author_healthcare_advocate_and_mediator_roles", "factual_reference_date": "2022 questionnaire", "value": "Author, healthcare advocate and mediator; roles are not collapsed to a single current occupation", "source_fragment": "Author", "supporting_fragments": ["Mediator"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_own_epa_work_and_dc_directorship", "factual_reference_date": "Historical employment before 2022 questionnaire", "value": "Reports working for EPA/Carrie Meek and directing DC Office of Documents and Administrative Issuances. Private Lexis-Nexis Customs account is not government employment", "source_fragment": "Environmental Protection Agency", "supporting_fragments": ["Office of Documents and Administrative Issuances"]}
+      ],
+      "extraction_review": "Read all own answers and page dates. Reference-day uncertainty retained. Different candidate's education/age and service not transferred; no inference of own military status from policy."
+    },
+    {
+      "id": "220086-ballotready-career-and-unverified-extra-credentials",
+      "candidate_id": "220086", "name": "LaShonda Holloway", "state": "FL", "district": "04", "party": "Democratic", "contest_id": "2026:house:FL:04:general:source_general",
+      "family": "local_profile", "url": "https://www.ballotready.org/people/lashonda-holloway",
+      "source_title": "BallotReady full Holloway career/degree profile and linked originals",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact LaShonda L.J. Holloway and native campaign platform link, same healthcare firm/LexisNexis/Meek/DC career, not name-only matching.",
+      "identity_fragments": ["LaShonda", "Holloway"],
+      "source_excerpts": ["LaShonda", "Holloway", "DC Government", "2007 - 2008", "LexisNexis", "2000 - 2002", "Howard University", "Certificate", "2013", "JD", "1997", "1997 - 1998"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "publisher_extra_award_and_date_claims_not_institutionally_verified", "factual_reference_date": "Claims JD 1997 and Harvard certificate 2013; Howard award undated", "value": "Reports UF JD 1997, Howard bachelor's and Harvard public-health certificate 2013. Own campaign corroborates UF JD but only states Howard attendance; own 2024 response calls Harvard work case studies. Additional awards/dates remain unverified, not silently promoted", "source_fragment": "Howard University", "supporting_fragments": ["Certificate", "2013", "JD", "1997"], "unresolved_details": ["Absence of a second degree in another biography is not proof that it was not awarded. Institutional award records are needed before accepting these additional distinctions."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_named_multi_career_history_corroborated_by_own_biographies", "factual_reference_date": "Historical LexisNexis 2000-2002, firm/advocacy roles observed on undated page", "value": "LexisNexis account executive, mediation-firm managing partner and healthcare-advocacy founder; present-tense listings not independently dated to election", "source_fragment": "LexisNexis", "supporting_fragments": ["2000 - 2002"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "reported_historical_dc_director_role_with_unverified_fine_title", "factual_reference_date": "Reports DC 2007-2008 and Meek fellowship 1997-1998", "value": "DC government director role corroborates own ODAI history. Aggregator's broad Executive Office of the Mayor label is not accepted as a different higher office; fellowship payroll basis not inferred", "source_fragment": "DC Government", "supporting_fragments": ["2007 - 2008", "1997 - 1998"], "unresolved_details": ["Official DC confirmation-testimony original was not successfully parsed/acquired in this followup. Exact appointment/title dates still need readable official text."]}
+      ],
+      "extraction_review": "Read full actual profile and source links. Veterans issue text describes policy, not candidate service. Additional credential claims retained as partial, distinct from corroborated JD/BBA. No new sensitive identity inferred."
+    },
+    {
+      "id": "220083-full-retained-campaign-about",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "campaign", "url": "https://www.sethharpforcongress.com/meetseth",
+      "source_title": "Complete campaign biography: teacher, broadcaster and UF educator",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220083-bio1/campaign-220083-bio1",
+      "retained_sha256": "ad611cdc0aa767547accd9e8f5512720bfc02039c3c8b232eb9ac7cc536600df",
+      "identity_status": "verified", "identity_qualification": "Exact native FL03 campaign, Gainesville Lincoln Middle School and ESPN/UF career, not the investigative journalist/veteran or Georgia politician of the same name.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "7th Grade Civics Teacher", "Lincoln Middle School", "ESPN Gainesville", "Adjunct Professor", "University of Florida", "graduating from college"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_explicit_college_graduation_without_institution_on_this_page", "factual_reference_date": "Before WKZO career; no graduation year supplied here", "value": "Explicit college graduation; institution/degree/year supported separately, not inferred from faculty employment", "source_fragment": "graduating from college"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_named_current_teaching_and_historical_radio_and_university_work", "factual_reference_date": "Current campaign teaching; historical broadcasting/adjunct career", "value": "Lincoln Middle School seventh-grade civics teacher, former ESPN Gainesville operations manager and UF journalism adjunct; multiple radio management/on-air roles since 2001", "source_fragment": "7th Grade Civics Teacher", "supporting_fragments": ["Lincoln Middle School", "ESPN Gainesville", "Adjunct Professor", "University of Florida"]}
+      ],
+      "extraction_review": "Read entire cached About/homepage after hash verification. Age 23 at WKZO lacks an explicit appointment date; career duration and graduation do not yield exact DOB. Grandfathers, uncles and friends' wartime service is not his own service or a nonservice statement. Early campaign volunteering is not paid government employment; adjunct title alone not used to prove payroll status."
+    },
+    {
+      "id": "220083-full-ballotpedia-florida-survey",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Seth_Harp_(Florida)",
+      "source_title": "Correct Florida Harp biography and complete 2025 Candidate Connection survey",
+      "publication_date": null, "source_date_note": "Survey labeled 2025; exact submission day not established. Header is undated.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Florida-specific article, exact FL03 campaign and WMU/ESPN/UF career distinguish namesakes; bare Seth_Harp is disambiguation, not the accepted biography.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "Methodist (United)", "Western Michigan University", "2001", "ESPN"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "publisher_united_methodist_header_without_own_affiliation_provenance", "factual_reference_date": "Undated header observed November 18, 2026", "value": "Publisher labels Methodist (United); no dated own affiliation passage acquired", "source_fragment": "Methodist (United)"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_named_bachelors_and_graduation_year", "factual_reference_date": "WMU bachelor's reported 2001", "value": "Western Michigan bachelor's 2001 and DeKalb high-school diploma; broadcasting career and separate professional biography corroborate WMU graduation", "source_fragment": "Western Michigan University", "supporting_fragments": ["2001"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_survey_broadcast_and_university_career", "factual_reference_date": "Historical careers described in 2025 answers", "value": "Broadcasting/ESPN operations and UF adjunct teaching; employer's full-time roster independently qualifies separate historical public-university employment", "source_fragment": "ESPN"}
+      ],
+      "extraction_review": "Read full relevant survey through ending sections. Childhood Pete Rose recollection is not converted into a birthday without an unambiguous dated event/reference. Grandfather's WWII service not assigned to candidate. No own prior-office or military negative. Raw 202/zero-byte response is not a retained original."
+    },
+    {
+      "id": "220083-alligator-complete-own-election-answers",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "local_profile", "url": "https://www.alligator.org/article/2026/10/the-alligator-s-us-house-district-3-voter-guide",
+      "source_title": "The Alligator FL03 voter guide: complete emailed Harp answers",
+      "publication_date": "2026-10", "source_date_note": "October 2026 article by Christian Haas; exact publication day not established.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL03 Democrat facing Cammack/Klein, Lincoln Middle School and ESPN/UF career match native campaign.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "I am a public school teacher", "Lincoln Middle School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_own_current_public_school_teaching", "factual_reference_date": "October 2026 emailed answers", "value": "Own current public-school teacher statement and named Lincoln Middle School; separate from historical radio work", "source_fragment": "I am a public school teacher", "supporting_fragments": ["Lincoln Middle School"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_own_current_public_school_teacher_role", "factual_reference_date": "October 2026 emailed answers", "value": "Explicit public-school teaching, not school volunteering or assumed employment from an adjunct title; independent historical UF full-time employment separately retained", "source_fragment": "I am a public school teacher"}
+      ],
+      "extraction_review": "Read entire article and all candidate answers with subject boundaries. Klein's Army service does not belong to Harp. No own sensitive-identity or military-negative statement. Canonical URL omits retrieval-only display parameters."
+    },
+    {
+      "id": "220083-uf-2024-full-time-staff-roster",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "university_employer_professional", "url": "https://2024.jou.ufl.edu/page/faculty-staff",
+      "source_title": "University of Florida 2024 Dean's Report: full-time employees",
+      "publication_date": "2024", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name in UF CJC Division of Media Properties full-time roster, corroborated by own ESPN/UF career and official WRUF-AM operations chart; not name-only.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "Full-time Employees", "Division of Media Properties", "2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_university_full_time_media_staff_listing", "factual_reference_date": "2024 Dean's Report reference period", "value": "Full-time Division of Media Properties employee; exact WRUF-AM operations role documented in separate official chart", "source_fragment": "Division of Media Properties", "supporting_fragments": ["Full-time Employees"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "independent_public_university_full_time_employee_classification", "factual_reference_date": "2024 report, not a claim of continuing employment through election", "value": "Explicit full-time employee of public University of Florida; paid/public employment not inferred merely from teaching, volunteering or adjunct status", "source_fragment": "Full-time Employees", "supporting_fragments": ["Division of Media Properties"]}
+      ],
+      "extraction_review": "Read complete official roster, heading and subject's division. Historical full-time status distinct from later campaign's adjunct description; no degree, personal identity or military information supplied."
+    },
+    {
+      "id": "220083-uf-august-2024-official-organization-chart",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "official_biography", "url": "https://www.jou.ufl.edu/wp-content/uploads/2024/09/DMP-August-2024-Org-Chart-003.pdf",
+      "source_title": "Official UF CJC Division of Media Properties August 2024 organization chart",
+      "publication_date": "2024-08", "source_date_note": "Rendered one-page chart footer says August 2024; stale January 2023 text overlaps in extraction and is not substituted for visible chart date. URL upload September is separate.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Seth Harp/WRUF-AM box in UF CJC Media Properties reporting chain, independent full-time roster and campaign ESPN Gainesville career.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "Operations Coordinator", "WRUF-AM", "August 2024"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_named_wruf_operations_role_and_visible_chart_date", "factual_reference_date": "August 2024", "value": "WRUF-AM Operations Coordinator in UF CJC Division of Media Properties", "source_fragment": "Operations Coordinator", "supporting_fragments": ["WRUF-AM", "August 2024"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "official_public_university_staff_role_corroborated_by_full_time_roster", "factual_reference_date": "August 2024", "value": "Named public-university operations staff role; full-time employee status independently supported by official Dean's Report roster, not chart color alone", "source_fragment": "Operations Coordinator", "supporting_fragments": ["WRUF-AM"]}
+      ],
+      "extraction_review": "Read full extracted page and visually inspect rendered diagram, date, exact box and legend. White staff box is distinct from green paid-student and blue student-experience boxes. Government staff role is not elected public office or military service."
+    },
+    {
+      "id": "220083-aol-full-syndicated-gainesville-sun-profile",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "local_profile", "url": "https://www.aol.com/articles/election-preview-u-house-district-205520000.html",
+      "source_title": "Full syndicated Gainesville Sun FL03 election profile by Elliot Tritto",
+      "publication_date": "2026-10-27", "source_date_note": "Syndicated page timestamp October 27, 2026, 20:55 UTC. Source link points to the same Ocala/Gannett original, not a second independent report.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL03 nominee with Cammack/Klein and native Lincoln/ESPN/UF career; not same-name journalist or Georgia official.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "Western Michigan University", "2001", "ESPN Gainesville", "teacher"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_wmu_bachelor_2001", "factual_reference_date": "Reported graduation 2001", "value": "Western Michigan bachelor's 2001, consistent with named earlier professional biography; article derives some history from campaign/prior reporting", "source_fragment": "Western Michigan University", "supporting_fragments": ["2001"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_current_teacher_and_historical_broadcast_career", "factual_reference_date": "October 2026 profile; prior ESPN/UF positions historical", "value": "Current teacher, former ESPN operations and UF adjunct career; not assumed to be simultaneously current in all roles", "source_fragment": "teacher", "supporting_fragments": ["ESPN Gainesville"]}
+      ],
+      "extraction_review": "Read complete actual syndicated article and follow publisher source link, which returned HTTP 402. No duplicate Ocala document counted. WKZO age 23 is not explicitly assigned a calendar year; graduation does not date a later appointment. Other candidates' service/credentials not transferred."
+    },
+    {
+      "id": "220083-full-earlier-broadcast-professional-biography",
+      "candidate_id": "220083", "name": "Seth Harp", "state": "FL", "district": "03", "party": "Democratic", "contest_id": "2026:house:FL:03:general:source_general",
+      "family": "earlier_biography", "url": "https://muckrack.com/media-outlet/harponsports",
+      "source_title": "Harp on Sports professional biography, source attribution and earlier career chronology",
+      "publication_date": null, "source_date_note": "Biography undated; article catalog contains 2022 bylines. Do not substitute catalog article dates for biography publication.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact broadcaster with DeKalb/WMU, WKZO/WQSN, ESPN and Jacksonville iHeart roles matching own campaign, not investigative journalist Seth Harp. MuckRack byline grouping alone not used as identity proof.",
+      "identity_fragments": ["Seth Harp"],
+      "source_excerpts": ["Seth Harp", "Western Michigan University", "2001", "2006", "2015", "WKZO", "WQSN", "Director of Programming", "Communications degree"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "professional_biography_explicit_wmu_graduation_and_communications_study", "factual_reference_date": "Before joining WKZO/WQSN in 2001", "value": "Western Michigan graduate with communications-degree study; do not infer a later postgraduate degree or precise birthday", "source_fragment": "Western Michigan University", "supporting_fragments": ["Communications degree", "2001"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "documented_historical_multi_state_broadcast_career", "factual_reference_date": "WKZO/WQSN 2001, Nebraska 2006, later Alabama/Charleston/Savannah and Jacksonville 2015", "value": "Broadcasting, sports hosting and programming management across named employers and states; chronology separate from current teaching role", "source_fragment": "Director of Programming", "supporting_fragments": ["WKZO", "WQSN", "2001", "2006", "2015"]}
+      ],
+      "extraction_review": "Read complete biographical paragraph and source link, not merely initial navigation. Underlying old About now yields only a logo; copied biography is attributed as such, not independently re-acquired original. Later article catalog snippets are not full articles, ethnic identity or date-of-birth evidence."
+    },
+    {
+      "id": "220089-full-retained-campaign-biography",
+      "candidate_id": "220089", "name": "Rachel Grage", "state": "FL", "district": "05", "party": "Democratic", "contest_id": "2026:house:FL:05:general:source_general",
+      "family": "campaign", "url": "https://rachelgrage.com",
+      "source_title": "Complete FL05 campaign homepage and About biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220089-home/campaign-220089-home",
+      "retained_sha256": "940c8b91ba6f0f59743898c002484d109153da7c9b1afa9a9cdbfe48a2c40ceb",
+      "identity_status": "verified", "identity_qualification": "Exact native campaign, Rachel Grage/FL05/November 3, 2026 election and Tulane/biomedical career; same campaign URL in dated 2024 questionnaire bridges earlier state race.",
+      "identity_fragments": ["Rachel Grage"],
+      "source_excerpts": ["Rachel Grage", "bachelor's and master's degrees in engineering", "Tulane University", "biomedical engineer", "homeowner's association", "her husband"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_completed_named_engineering_bachelor_and_master", "factual_reference_date": "Degrees before campaign; years supplied separately in 2024 own questionnaire", "value": "Tulane engineering bachelor's and master's, with dance minor; attendance not substituted for completed credentials", "source_fragment": "bachelor's and master's degrees in engineering", "supporting_fragments": ["Tulane University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_historical_biomedical_engineering_and_current_community_advocacy", "factual_reference_date": "Historical biomedical work and later advocacy, as described in 2026 campaign", "value": "Biomedical engineering/biomechanics, cardiac-intervention and cerebral-palsy research; later community advocacy and homemaking. Do not infer named paid government employer", "source_fragment": "biomedical engineer"}
+      ],
+      "extraction_review": "Read complete original and hash-check cached bytes. Elected HOA president is not elected public office. Army medical-officer statement is explicitly about husband, not candidate. Parenthood and advocacy do not establish additional sensitive identity, affiliation or nonservice. Campaign-linked Substack About independently read and is duplicate wording, not another original claim gain."
+    },
+    {
+      "id": "220089-full-ballotpedia-current-and-earlier-surveys",
+      "candidate_id": "220089", "name": "Rachel Grage", "state": "FL", "district": "05", "party": "Democratic", "contest_id": "2026:house:FL:05:general:source_general",
+      "family": "ballotpedia_questionnaire", "url": "https://ballotpedia.org/Rachel_Grage",
+      "source_title": "Grage biography and complete current/earlier Candidate Connection answers",
+      "publication_date": null, "source_date_note": "Full 2026 survey January 30, separate partial January 9 response; 2024 survey footnote September 8, 2024. Different response versions are not conflicting dates.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact FL05 native campaign and earlier Florida House District 16 race, same Tulane biomedical career and campaign domain across own dated questionnaires.",
+      "identity_fragments": ["Rachel Grage"],
+      "source_excerpts": ["Rachel Grage", "Catholic", "Tulane University", "LSU Medical School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "publisher_catholic_header_without_dated_own_affiliation_provenance", "factual_reference_date": "Undated header observed November 18, 2026", "value": "Publisher labels Catholic; Catholic Charities volunteering does not independently establish personal Catholic affiliation", "source_fragment": "Catholic"},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_tulane_engineering_degrees_corroborated_by_own_campaign", "factual_reference_date": "Education before current and 2024 campaigns", "value": "Tulane engineering bachelor's and master's; not degrees belonging to spouse or children", "source_fragment": "Tulane University"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "own_historical_biomedical_research_and_advocacy", "factual_reference_date": "Historical research discussed in own survey", "value": "Own orthoses research at LSU Medical School and subsequent community advocacy; specific employment/payroll basis not established", "source_fragment": "LSU Medical School"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "public_institution_research_relationship_with_unknown_employment_basis", "factual_reference_date": "Historical research before campaigns; exact dates unspecified", "value": "Own LSU Medical School research is a concrete public-institution lead, not yet proof of paid government employment versus student, trainee or other research arrangement", "source_fragment": "LSU Medical School"}
+      ],
+      "extraction_review": "Read complete relevant 2026 and 2024 surveys through submission footnotes using overlapping page ranges. Mother's mayoral employment and husband's Army service are not hers. DWC legislative liaison is party advocacy, not legislative payroll. Caucus endorsements do not establish race/ethnicity; HOA office not public elected office. Raw 202/zero-byte response not retained as acquired original."
+    },
+    {
+      "id": "220089-news4jax-2024-complete-own-questionnaire",
+      "candidate_id": "220089", "name": "Rachel Grage", "state": "FL", "district": "05", "party": "Democratic", "contest_id": "2026:house:FL:05:general:source_general",
+      "family": "earlier_biography", "url": "https://www.news4jax.com/voters-guide/2024/08/02/2024-voters-guide-florida-house-district-16/",
+      "source_title": "News4JAX 2024 state House District 16: complete own Grage responses",
+      "publication_date": "2024-08-02", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact candidate, same rachelgrage.com campaign domain, Tulane biomedical degrees and professional/family bridge earlier state candidate to native 2026 FL05 nominee.",
+      "identity_fragments": ["Rachel Grage"],
+      "source_excerpts": ["Rachel Grage", "Age:", "54", "Community activist, homemaker, actor", "Bachelor's and Master's", "BSE", "MSE", "Tulane University", "political outsider", "legislative liaison"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "candidate_reported_age_in_dated_2024_questionnaire", "factual_reference_date": "Published August 2, 2024; answer/reference day unspecified", "value": "Own reported age 54; no invented exact DOB or 2026 election age", "source_fragment": "54", "supporting_fragments": ["Age:"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_completed_bse_1991_and_mse_1993", "factual_reference_date": "Own BSE 1991/MSE 1993 report in 2024 answer", "value": "Tulane biomedical-engineering bachelor's 1991 and master's 1993; years are self-reported, not inferred from age", "source_fragment": "BSE", "supporting_fragments": ["MSE", "Tulane University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_own_multiple_occupations", "factual_reference_date": "2024 questionnaire", "value": "Community activist, homemaker and actor; distinct from historical biomedical engineering career", "source_fragment": "Community activist, homemaker, actor"}
+      ],
+      "extraction_review": "Read complete candidate-specific answers and unedited-response notice. Political outsider does not explicitly establish no prior elected office. HOA presidency is private association office; DWC legislative liaison is not paid legislative employment. Other candidate Kiyan Michael's incumbency not transferred."
+    },
+    {
+      "id": "220089-community-full-candidate-profile",
+      "candidate_id": "220089", "name": "Rachel Grage", "state": "FL", "district": "05", "party": "Democratic", "contest_id": "2026:house:FL:05:general:source_general",
+      "family": "local_profile", "url": "https://nwstjohnsup.com/vote/",
+      "source_title": "NW St Johns United for Progress: full Rachel Grage candidate section",
+      "publication_date": null, "source_date_note": "2026 election guide; specific candidate-section publication day not established.",
+      "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact CD5 Rachel Grage section links native rachelgrage.com and describes earlier state House candidacy; boundaries distinct from other candidates in long guide.",
+      "identity_fragments": ["Rachel Grage"],
+      "source_excerpts": ["Rachel Grage", "regional theater", "community advocate", "volunteered locally"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_community_advocacy_and_theater_roles_corroborating_own_2024_account", "factual_reference_date": "Historical and ongoing community work in 2026 guide", "value": "Community advocacy and regional theater, with volunteering explicitly distinguished from paid work or public office", "source_fragment": "community advocate", "supporting_fragments": ["regional theater", "volunteered locally"]}
+      ],
+      "extraction_review": "Read complete Grage section across text-fetch continuation. Church support does not establish religious affiliation. Adjacent Art Stresing's Catholic upbringing, Filipino family, Navy spouse and public-defender employment are not Grage facts; no transfer from any other guide subject."
+    }
+  ],
+  "searches": [
+    {
+      "candidate_id": "220086", "family": "campaign", "query": "Read complete native cached About and homepage after checking retained hashes",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.hollowayforcongress.com/about-lj", "https://www.hollowayforcongress.com"],
+      "lead_dispositions": {"https://www.hollowayforcongress.com": {"status": "duplicate_reviewed_original", "reason": "Full homepage read; shorter repeated biography links accepted full About. No independent new missing trait or identity evidence."}}
+    },
+    {
+      "candidate_id": "220086", "family": "ballotpedia_questionnaire", "query": "Read correct L.J. Holloway article, full 2022 survey and submission footnotes",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/L.J._Holloway"]
+    },
+    {
+      "candidate_id": "220086", "family": "local_profile", "query": "Follow and read complete own signed Free Press commentary, BallotReady profile and cited candidate platform",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://jacksonvillefreepress.com/a-candidate-speaks-investing-in-black-women-is-not-charity-it-is-political-strategy/", "https://www.ballotready.org/people/lashonda-holloway"]
+    },
+    {
+      "candidate_id": "220086", "family": "earlier_biography", "query": "Follow actual original 2022 Gazette profile and 2022/2024 News4JAX unedited candidate questionnaires; read all subject-specific answers",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://thewestsidegazette.com/lashonda-l-j-holloway-is-the-real-deal/", "https://www.news4jax.com/voters-guide/2022/07/28/floridas-4th-congressional-district/", "https://www.news4jax.com/voters-guide/2024/08/02/2024-voters-guide-floridas-4th-congressional-district/"]
+    },
+    {
+      "candidate_id": "220086", "family": "official_biography", "query": "Follow official DC January 22, 2007 secretary confirmation testimony for identified ODAI directorship",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://os.dc.gov/sites/default/files/dc/sites/os/release_content/attachments/10687/Confirmation_Testimony_012207.pdf"],
+      "lead_dispositions": {"https://os.dc.gov/sites/default/files/dc/sites/os/release_content/attachments/10687/Confirmation_Testimony_012207.pdf": {"status": "access_failure", "reason": "Web reader did not expose complete six-page text; ordinary download returned HTTP 403. Separate page-fetch tool exposed binary PDF text but not usable bytes/text for complete parsing. No accepted official claim or acquired-original receipt manufactured from header, index or incomplete viewport; no further retry/bypass."}}
+    },
+    {
+      "candidate_id": "220086", "family": "university_employer_professional", "query": "\"LaShonda Holloway\" (university OR alumni OR professional OR Harvard OR biography)",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.linkedin.com/in/lashondaholloway"],
+      "lead_dispositions": {"https://www.linkedin.com/in/lashondaholloway": {"status": "access_failure", "reason": "Selected actual professional profile returned HTTP 999. No retry/bypass and no acceptance of indexed education/languages as acquired evidence. LLM-generated derivative biographies and private contact/data-broker listings not used."}}
+    },
+    {
+      "candidate_id": "220083", "family": "campaign", "query": "Read full native cached About and homepage, verify hashes and separate own experience from relatives",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.sethharpforcongress.com/meetseth", "https://www.sethharpforcongress.com"],
+      "lead_dispositions": {"https://www.sethharpforcongress.com": {"status": "reviewed_no_requested_facts", "reason": "Read full homepage. Election/contact/participation information but no additional requested background; About is accepted separately."}}
+    },
+    {
+      "candidate_id": "220083", "family": "ballotpedia_questionnaire", "query": "Follow disambiguation to correct Florida article and read whole 2025 Candidate Connection questionnaire",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://ballotpedia.org/Seth_Harp_(Florida)", "https://ballotpedia.org/Seth_Harp"],
+      "lead_dispositions": {"https://ballotpedia.org/Seth_Harp": {"status": "identity_rejected", "reason": "Disambiguation, not a biography; followed Florida-specific article. Journalist/veteran and Georgia politician are distinct people and their birth/service data not imported."}}
+    },
+    {
+      "candidate_id": "220083", "family": "local_profile", "query": "Read actual Alligator emailed questionnaire and complete AOL syndicated Gainesville Sun profile; follow publisher original",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.alligator.org/article/2026/10/the-alligator-s-us-house-district-3-voter-guide", "https://www.aol.com/articles/election-preview-u-house-district-205520000.html", "https://www.ocala.com/story/news/politics/elections/congressional/2026/10/27/three-candidates-seek-u-s-house-district-3-seat/92459926007/"],
+      "lead_dispositions": {"https://www.ocala.com/story/news/politics/elections/congressional/2026/10/27/three-candidates-seek-u-s-house-district-3-seat/92459926007/": {"status": "access_failure", "reason": "Publisher link from complete authored syndicated report returned HTTP 402. Do not bypass or count syndication and publisher as independent acquisitions."}}
+    },
+    {
+      "candidate_id": "220083", "family": "official_biography", "query": "Read official UF Division of Media Properties chart with rendered role/date/legend and staff-council minutes",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.jou.ufl.edu/wp-content/uploads/2024/09/DMP-August-2024-Org-Chart-003.pdf", "https://www.jou.ufl.edu/wp-content/uploads/2024/01/1.18.24-Staff-Council-Meeting-Minutes.pdf"],
+      "lead_dispositions": {"https://www.jou.ufl.edu/wp-content/uploads/2024/01/1.18.24-Staff-Council-Meeting-Minutes.pdf": {"status": "reviewed_no_requested_facts", "reason": "Read full two-page extracted minutes. Named attendance/Sports Lab student-show report corroborates identity but adds no missing trait beyond accepted employment originals. General employee-benefits discussion not a personal benefits disclosure. Staff council is not elected public office."}}
+    },
+    {
+      "candidate_id": "220083", "family": "university_employer_professional", "query": "Read complete 2024 UF Dean's Report faculty/staff roster and explicit full-time heading",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://2024.jou.ufl.edu/page/faculty-staff"]
+    },
+    {
+      "candidate_id": "220083", "family": "earlier_biography", "query": "Read complete attributed earlier Harp on Sports broadcaster biography and follow actual source About",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://muckrack.com/media-outlet/harponsports", "https://www.harponsports.com/about"],
+      "lead_dispositions": {"https://www.harponsports.com/about": {"status": "reviewed_no_requested_facts", "reason": "Ordinary public fetch redirects to harponsports.com/about/ and yields only a program-logo image, not the historic biographical body. Attributed copied biography read separately; not claimed as recovered original. No birthday inferred from absent body."}}
+    },
+    {
+      "candidate_id": "220083", "family": "ballotpedia_questionnaire", "query": "Follow indexed Vote411 candidate-specific age lead to actual original",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://onyourballot.vote411.org/candidate-detail.do?id=73020273"],
+      "lead_dispositions": {"https://onyourballot.vote411.org/candidate-detail.do?id=73020273": {"status": "access_failure", "reason": "Ordinary page fetch returned HTTP 500 and web reader timed out. Indexed age 47 is not accepted evidence; no original response or dated age acquired, and no repeated retry/bypass."}}
+    },
+    {
+      "candidate_id": "220089", "family": "campaign", "query": "Read complete cached native campaign and actual linked Substack About; compare full biography wording",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://rachelgrage.com", "https://rachelgrage4fl.substack.com/about"],
+      "lead_dispositions": {"https://rachelgrage4fl.substack.com/about": {"status": "duplicate_reviewed_original", "reason": "Complete own About read. Repeats native campaign biomedical/Tulane/HOA biography, with husband's military service explicitly attributed to him. No separate first-evidence or independent-verification gain."}}
+    },
+    {
+      "candidate_id": "220089", "family": "ballotpedia_questionnaire", "query": "Read complete biography and current/earlier Candidate Connection response versions with their separate submission dates",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Rachel_Grage"]
+    },
+    {
+      "candidate_id": "220089", "family": "earlier_biography", "query": "Read full 2024 News4JAX House District 16 own questionnaire, original dates and same campaign-domain identity bridge",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.news4jax.com/voters-guide/2024/08/02/2024-voters-guide-florida-house-district-16/"]
+    },
+    {
+      "candidate_id": "220089", "family": "local_profile", "query": "Read full Grage section in NW St Johns United for Progress 2026 voter guide; inspect actual News4JAX interview program page",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://nwstjohnsup.com/vote/", "https://www.news4jax.com/video/news/2026/10/18/this-week-in-jacksonville-secretary-of-state-cord-byrd-on-how-florida-is-preparing-for-election-day/"],
+      "lead_dispositions": {"https://www.news4jax.com/video/news/2026/10/18/this-week-in-jacksonville-secretary-of-state-cord-byrd-on-how-florida-is-preparing-for-election-day/": {"status": "reviewed_no_requested_facts", "reason": "Read actual program description and October 18, 2026 date: identifies FL05 nominee and policy interview, but accessible text has no background facts. Video itself and captions not acquired or reviewed; potential interview followup remains explicitly open rather than treated as a completed video review."}}
+    },
+    {
+      "candidate_id": "220089", "family": "official_biography", "query": "\"Rachel Grage\" (site:myfloridahouse.gov OR site:dos.elections.myflorida.com OR site:florida.gov)",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "no_qualifying_results",
+      "qualification": "No qualifying official biographical original selected from this actual scoped query. Search absence does not establish no prior office, government employment or other service."
+    },
+    {
+      "candidate_id": "220089", "family": "university_employer_professional", "query": "\"Rachel Grage\" (site:lsuhsc.edu OR site:tulane.edu OR site:floridaredandbluemap.com OR site:myfloridahouse.gov)",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "Executed institutional/professional probe. No accepted candidate-issued university/employer biography recovered; Tulane award hit concerned Rolf A. Grage, not candidate. Do not transfer spouse's degree/award or infer absence of candidate employment from database/search absence. LSU research-employment basis remains open."
+    },
+    {
+      "candidate_id": "220086", "family": "local_profile", "query": "\"LaShonda Holloway\" \"ethnicity\" \"Spiritual\"",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "Actual additional probe executed with other people's distinct queries. No per-query result mapping retained; not used as evidence of search exhaustion or affiliation."
+    },
+    {
+      "candidate_id": "220083", "family": "local_profile", "query": "\"Seth Harp\" \"birthday\" -journalist -dictator -Georgia",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "Additional executed namesake-aware age probe; no per-query result mapping retained. Unread/indexed age and journalist biography not accepted."
+    },
+    {
+      "candidate_id": "220083", "family": "local_profile", "query": "\"Seth Harp\" \"race\" \"ethnicity\" \"religion\" \"Congress\"",
+      "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained",
+      "qualification": "Additional actual sensitive-identity probe; unmapped results are not affiliation evidence or completion credit. No identity inferred from name, photograph, family or party."
+    },
+    {
+      "candidate_id": "220089", "family": "local_profile", "query": "Test unverified News4JAX 2026 candidate-profile URL hypothesis while following earlier questionnaire family",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure",
+      "underlying_urls": ["https://www.news4jax.com/voters-guide/2026/09/21/2026-voters-guide-rachel-grage-candidate-for-us-house-district-5/"],
+      "lead_dispositions": {"https://www.news4jax.com/voters-guide/2026/09/21/2026-voters-guide-rachel-grage-candidate-for-us-house-district-5/": {"status": "access_failure", "reason": "Explicit URL hypothesis, not a discovered article. HTTP 404; no text acquired and no claim that a 2026 questionnaire exists or is substantively unavailable."}}
+    }
+  ],
+  "withheld_documents": [
+    {
+      "id": "220086-dc-confirmation-readable-original-needed", "candidate_id": "220086",
+      "url": "https://os.dc.gov/sites/default/files/dc/sites/os/release_content/attachments/10687/Confirmation_Testimony_012207.pdf",
+      "status": "access_failure", "traits_pending_verification": ["other_government", "profession"],
+      "reason": "Exact official January 22, 2007 confirmation testimony identified, but complete readable body not acquired through available reader; direct download returned HTTP 403. Binary header/incomplete viewport not accepted as reviewed official employment evidence."
+    },
+    {
+      "id": "220086-linkedin-professional-original-blocked", "candidate_id": "220086",
+      "url": "https://www.linkedin.com/in/lashondaholloway", "status": "access_failure",
+      "traits_pending_verification": ["education", "profession"],
+      "reason": "Selected professional original returned HTTP 999. Indexed extra credentials/languages not acquired or accepted; no retry/bypass."
+    },
+    {
+      "id": "220083-vote411-age-original-unavailable", "candidate_id": "220083",
+      "url": "https://onyourballot.vote411.org/candidate-detail.do?id=73020273", "status": "access_failure",
+      "traits_pending_verification": ["age"],
+      "reason": "Actual original returned HTTP 500 and reader timeout. Search-index age 47 not accepted, and no exact birth date/reference day inferred."
+    }
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220086", "details": "All ten traits investigated together across actual campaign, full questionnaires, dated profiles, government testimony attempt and professional-original attempt. Unknown ethnicity/own military history, undated partial Spiritual header and imprecise dated ages remain. Readable official DC appointment evidence, institutional additional-credential records and explicit current affiliation/service sources would improve coverage; old LJHolloway campaign/info domains not yet investigated. No completed-person claim yet."},
+    {"candidate_id": "220083", "details": "All ten traits investigated through campaign, full questionnaire, local originals, official employer chart/roster and earlier professional biography. Current teacher and historical UF full-time employee independently distinguished from mere adjunct status. Age, own gender/race/ethnicity, prior-office and military status remain unresolved; affiliation header stays partial. Specific indexed 2022 own sports recollection could be investigated for an unambiguous dated age; underlying old About is image-only, and Vote411 original failed. Do not import same-name journalist's age/service. No completed-person claim yet."},
+    {"candidate_id": "220089", "details": "Own 2024 reported age, completed degrees and multi-career history retained; Catholic header partial and LSU research does not prove government payroll. Need targeted institutional-employer followup, explicit own identities/service history and possible October 18 video/caption review. HOA and party-club roles are not public office/employment; spouse's Army history is not hers. A program synopsis was read, not the video. No completed-person claim yet."}
+  ]
+}

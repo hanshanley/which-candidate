@@ -11,6 +11,36 @@ no-JavaScript candidate browser exposes accepted facts, partial evidence,
 conflicts, qualifications, source passages, original links and search provenance.
 No website deployment is part of this work.
 
+## Florida person-level checkpoint
+
+The Holloway/Harp/Grage batch adds 18 reviewed documents and 53 claims relative
+to checkpoint `fc8210b`. Its nine first-evidence fields all concern these three
+known Democratic nonincumbents: Holloway's age, gender, race, religion and dated
+prior-office statement; Harp's religion; and Grage's age, religion and unresolved
+public-institution research relationship. Only three of those fields become
+qualified factual values. The two dated ages, three unattributed religious
+headers and Grage's employment relationship remain partial. Harp's profession
+and government employment, and Grage's profession, qualify previously retained
+evidence rather than constitute first evidence.
+
+Holloway's explicit no-office statements concern 2022 and 2024, not an
+automatically extended November 2026 negative. Her November 18 self-description
+is post-election. Harp's full-time UF employee roster and named operations role
+are distinct from an adjunct title; his relatives' service is not his own.
+Grage's husband's Army service, private HOA presidency and party-club legislative
+liaison are not her military service, elected public office or government job.
+
+The factual product now has 517 document reviews, 1,390 claims, 219 first-evidence
+fields and 124 first-qualified fields since the frozen factual baseline.
+Overman's specific final followups close her bounded pass: 12 candidates have
+completed passes, 130 are in progress and 1,142 remain unresearched. The three
+new Florida passes remain open, with specific readable-original, affiliation,
+dated-age, institutional and interview leads in their journal. Comprehensive
+biographical acquisition is **not complete**. Continue those leads and the
+national nonincumbent queue; do not treat these dispositions as external
+unavailability or a reason to stop. Frozen analytical samples and predictions
+are unchanged.
+
 ## What counts as research
 
 Campaign-page retrieval is complete as a transport operation, not a person-level

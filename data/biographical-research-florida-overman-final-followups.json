@@ -1,0 +1,39 @@
+{
+  "scope": "Close the specific remaining WUSF, age and identity leads for Kimberly Overman's existing actual six-family pass. Preserve useful imprecise age, degree-year conflict and unknown personal affiliations; this is bounded research completion, not factual universality or a new scientific release.",
+  "documents": [],
+  "searches": [
+    {"candidate_id": "220106", "family": "local_profile", "query": "\"Kimberly Overman\" \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Executed with separate religion and 2018-age searches. Combined output cannot be attributed per query. Selected actual originals reviewed below; relatives' obituary dates, name-adjacent ages and private-data-broker listings not accepted."},
+    {"candidate_id": "220106", "family": "local_profile", "query": "\"Kimberly Overman\" \"religion\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined results include already-read Ballotpedia Christian header and new own policy originals. Header remains partial absent personal/dated attribution; not a new qualified affiliation."},
+    {"candidate_id": "220106", "family": "earlier_biography", "query": "\"Kimberly Overman\" \"age\" \"2018\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined results include old local election coverage, meeting documents and unrelated people. Residence duration and neighboring candidates' birthdays are not her age."},
+    {"candidate_id": "220106", "family": "earlier_biography", "query": "\"Kimberly Overman\" \"age\" \"2018\" \"59\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Additional dated-age probe executed with separate identity query. No mapped qualifying birthday original selected; same-name school lists and unrelated broker profiles not used."},
+    {"candidate_id": "220106", "family": "local_profile", "query": "\"Kimberly Overman\" \"race\" \"ethnicity\" \"Christian\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined results included generic electoral demographic tables and advocacy policies, not candidate self-identification. Actual underlying policy originals read separately; no inference from voters, endorsements, photos, surname, relatives or geography."},
+    {
+      "candidate_id": "220106", "family": "campaign",
+      "query": "Follow own Substack foreign-policy and equal-protection originals from actual search leads; read complete public posts, byline dates and campaign-site bridges",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://kimberlyoverman.substack.com/p/foreign-policy-human-rights-national", "https://kimberlyoverman.substack.com/p/dignity-freedom-and-equal-protection"],
+      "lead_dispositions": {
+        "https://kimberlyoverman.substack.com/p/foreign-policy-human-rights-national": {"status": "reviewed_no_requested_facts", "reason": "Actual full August 12, 2026 own post read through campaign links and paid-for disclaimer. Faith, ethnicity and service appear as policy constituencies, not own affiliation or military service. Public-servant wording adds no new employer, credential, DOB or scoped service negative. Initial web reader unavailable; ordinary public text fetch succeeded without access denial, login or workaround."},
+        "https://kimberlyoverman.substack.com/p/dignity-freedom-and-equal-protection": {"status": "reviewed_no_requested_facts", "reason": "Actual full August 11, 2026 own post read through campaign links/disclaimer. Equality advocacy, endorsements and event attendance are not candidate sensitive identity. Military-service equality policy is not her military history. No additional missing background evidence; ordinary public fetch succeeded after web reader unavailable."}
+      }
+    },
+    {
+      "candidate_id": "220106", "family": "earlier_biography",
+      "query": "Follow actual November 3, 2022 Plant City Observer original and read complete candidate-specific paragraph with neighboring subject boundaries",
+      "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found",
+      "underlying_urls": ["https://www.plantcityobserver.com/voting-underway-in-hillsborough-county/"],
+      "lead_dispositions": {
+        "https://www.plantcityobserver.com/voting-underway-in-hillsborough-county/": {"status": "reviewed_no_requested_facts", "reason": "Original county District 7 paragraph independently matches current nominee by name, party, county office and financial-business history. Reports 37 years of local residence, not age; repeats already-retained financial occupation and 2018 county election, with no additional missing trait or chronology resolution. Other candidates' birth years, own service and ethnic backgrounds not transferred. Unrelated injected pharmacy links ignored."}
+      }
+    }
+  ],
+  "completed_candidates": [
+    {
+      "candidate_id": "220106", "actionable_leads_remaining": false,
+      "extraction_review": "Existing journal records full actual sources in all six families and all ten traits, including full 2026 and 2025 own questionnaires, current campaign, dated 2018 own biography, official clerk certification, original news and professional sources. Public-media guide followup now resolves remaining questionnaire lead and supplies own reported 67 without exact observation day. New targeted age/identity searches and selected originals supply no further qualified identity or birthday; mixed result assignments remain explicitly unmapped rather than invented. Christian header stays partial, degree award year 1981/1982 remains unresolved, own military status and race/ethnicity unknown. Specific Florida Politics questionnaire requires normal authorized access (402), not repeated bypass. No selected actionable original remains unreviewed; no claim that future evidence cannot exist or every fact is known."
+    }
+  ],
+  "remaining_leads": [
+    {"candidate_id": "220106", "details": "Bounded six-family pass completed, not universal factual coverage. Exact DOB/reference-day evidence and institutional degree-award year remain unresolved; current personal religious attribution, racial/ethnic self-description and own service history need qualifying originals. Known Florida Politics full questionnaire was HTTP 402 and needs ordinary authorized access. County/financial/advisory roles, volunteer basis, retired designation and explicit prior government job remain separately qualified."}
+  ]
+}
