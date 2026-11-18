@@ -1,0 +1,233 @@
+{
+  "scope": "Continue all-ten-trait research for previously unresearched Kentucky Democratic federal nonincumbents. Read retained campaign originals, follow actual questionnaire and biography originals, and retain partial historical evidence without changing frozen analyses. Four person passes are in progress, not complete. Research is not confined to bulk databases.",
+  "documents": [
+    {
+      "id": "220399-retained-complete-campaign-story",
+      "candidate_id": "220399", "name": "Megan Wingfield", "state": "KY", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:KY:02:general:source_general", "family": "campaign",
+      "url": "https://www.wingfieldforcongress.com/about-megan",
+      "source_title": "Read Megan Wingfield's Story: complete retained campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220399-bio2/campaign-220399-bio2",
+      "retained_sha256": "628d5f965aca5d4d8b040b44752457fd30191918a26090e5b03eec0acbad8836",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name on native KY02 campaign domain, Bowling Green background and mechanic career. Retained about-megan-wingfield URL resolved to this actual about-megan page.",
+      "identity_fragments": ["Megan Wingfield"],
+      "source_excerpts": ["Megan Wingfield", "graduated from Southcentral Kentucky Community and Technical College", "degree in Automotive Technology", "mechanic by trade"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_automotive_technology_degree", "factual_reference_date": null, "value": "Completed automotive-technology degree at Southcentral Kentucky Community and Technical College; award level and year not specified", "source_fragment": "degree in Automotive Technology", "supporting_fragments": ["graduated from Southcentral Kentucky Community and Technical College"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_mechanic_and_caregiving_work", "factual_reference_date": null, "value": "Mechanic by trade and caregiver/community advocate; advocacy is not classified as government employment", "source_fragment": "mechanic by trade"}
+      ],
+      "extraction_review": "Read complete hash-verified homepage and entire longer Story, including first-person running statement. Homepage biography is repeated in Story and not counted independently. Describing a fight that began outside the statehouse does not establish never holding office. Support for veterans does not establish military service. Pronouns, photos and political positions do not classify identity."
+    },
+    {
+      "id": "220404-complete-campaign-about",
+      "candidate_id": "220404", "name": "Melissa Strange", "state": "KY", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KY:04:general:source_general", "family": "campaign",
+      "url": "https://strangeforky.com/about-us/",
+      "source_title": "About Us: complete candidate biography and career",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual About Us link on hash-verified native campaign homepage. Exact committee name, KY04, Villa Hills/Erlanger and career corroborate the subject, not a same-name dentist or an Alabama politician's spouse.",
+      "identity_fragments": ["Melissa Strange"],
+      "source_excerpts": ["Melissa Strange", "International Studies", "Northern Kentucky University", "Business Administration", "Thomas More University", "supply chain director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_bachelors_and_mba", "factual_reference_date": null, "value": "Completed NKU bachelor's in international studies, with economics/political-science focus, and Thomas More MBA while employed full time; award years unspecified", "source_fragment": "International Studies", "supporting_fragments": ["Northern Kentucky University", "Business Administration", "Thomas More University"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_current_role_and_multidecade_private_industry_career", "factual_reference_date": null, "value": "Supply-chain director for global nutrition/agribusiness company; describes almost27 years in flavor/food manufacturing and supply-chain work", "source_fragment": "supply chain director"}
+      ],
+      "extraction_review": "Read complete About page. Also read entire retained homepage, verified SHA256 81e554356bade30b75b3c879d454a10cfc7231782081b9ef817744a63d93ee0b, for actual link and shorter repeated bio. Religious schooling and sons' Catholic-school attendance do not classify current affiliation. Marriage length is not age. No government/military/office negative from omission."
+    },
+    {
+      "id": "220412-retained-complete-campaign-home",
+      "candidate_id": "220412", "name": "Zach Dembo", "state": "KY", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:KY:06:general:source_general", "family": "campaign",
+      "url": "https://zachdembo.com/",
+      "source_title": "Meet Zach Dembo and public service over politics: complete retained homepage",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220412-home/campaign-220412-home",
+      "retained_sha256": "a0d599759b286942f3f22698b847334602ecd6c5c37fa99d97f3e0077c0986a2",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign domain, KY06, Lexington and former Navy/prosecutor/governor-administration history.",
+      "identity_fragments": ["Zach Dembo"],
+      "source_excerpts": ["Zach Dembo", "Stanford University", "University of Michigan Law School", "eighth grade English teacher", "Assistant United States Attorney", "Navy", "policy advisor", "legislative director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "candidate_reported_university_and_law_school_attendance", "factual_reference_date": null, "value": "Stanford study followed by Michigan law school; this page does not itself specify completed credential names or award dates", "source_fragment": "Stanford University", "supporting_fragments": ["University of Michigan Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_teaching_legal_and_policy_roles", "factual_reference_date": null, "value": "Former Mississippi eighth-grade English teacher, Navy JAG, federal civil-rights prosecutor, Kentucky policy adviser/legislative director and Lexington assistant U.S. attorney; reports resigning prosecutor post before campaign", "source_fragment": "eighth grade English teacher", "supporting_fragments": ["Assistant United States Attorney", "policy advisor", "legislative director"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_named_civilian_federal_and_state_employment", "factual_reference_date": null, "value": "Civilian Justice Department prosecutor from2017; appointed Kentucky governor's policy adviser in2020 and later legislative director; subsequent Lexington assistant U.S. attorney", "source_fragment": "Assistant United States Attorney", "supporting_fragments": ["policy advisor", "legislative director"], "qualification": "Actual named employee roles, not an elected-office or advisory-board inference. Military employment remains separate."},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_navy_jag_active_duty_service", "factual_reference_date": null, "value": "Commissioned Navy JAG officer and more than four years active duty; precise service dates and discharge documentation not supplied here", "source_fragment": "Navy"}
+      ],
+      "extraction_review": "Read complete hash-verified body, biography, prior-career chronology, policy summaries and footer. Page contains post-election November3 press-release link, so its observed copy is not proven pre-election availability. Appointed governor staff work is not prior elected office. Campaign victory is not incumbency at the election cutoff. No gender/race/ethnicity/religion inference from name, spouse, ancestry or parents."
+    },
+    {
+      "id": "220412-stanford-history-alumni-notice",
+      "candidate_id": "220412", "name": "Zach Dembo", "state": "KY", "district": "06", "party": "Democratic",
+      "contest_id": "2026:house:KY:06:general:source_general", "family": "university_employer_professional",
+      "url": "https://history.stanford.edu/news/zach-dembo-07-elected-house-representatives",
+      "source_title": "Zach Dembo ('07) elected to House of Representatives",
+      "publication_date": "2026-11-03", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Awarding university's History department names exact candidate, KY06 and actual native campaign link.",
+      "identity_fragments": ["Zach Dembo"],
+      "source_excerpts": ["Zach Dembo", "History BA, '07"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "awarding_university_reports_completed_history_ba_in_2007", "factual_reference_date": "2007", "value": "Stanford BA in history,2007", "source_fragment": "History BA, '07", "qualification": "Notice is dated election day and reports election result; historical credential is factual evidence, not proof this source was available before predictions at the election cutoff."}
+      ],
+      "extraction_review": "Read complete short alumni notice and actual campaign link. Does not provide a Michigan JD, birthday or public identity classification. Post-election result is identity context only; frozen scientific fits unchanged."
+    },
+    {
+      "id": "220408-complete-campaign-home",
+      "candidate_id": "220408", "name": "Ned Pillersdorf", "state": "KY", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:KY:05:general:source_general", "family": "campaign",
+      "url": "https://nedforcongress.com/",
+      "source_title": "Ned Pillersdorf for Congress: complete public campaign homepage",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Ballotpedia exact2026 KY05 page links this campaign original; name in footer, poverty-law career, Floyd County and challenge to Hal Rogers corroborate identity.",
+      "identity_fragments": ["Ned Pillersdorf"],
+      "source_excerpts": ["Ned Pillersdorf", "44 years", "law practice", "several non profits"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_longstanding_poverty_law_and_nonprofit_work", "factual_reference_date": null, "value": "Longstanding poverty-focused lawyer and involvement with several nonprofits;44-year duration is relative to undated campaign statement, not an independently fixed start date", "source_fragment": "law practice", "supporting_fragments": ["44 years", "several non profits"]}
+      ],
+      "extraction_review": "Read entire campaign homepage, event block and first-person announcement. No formal age from years of law practice. Campaign announcement is not first-ever candidacy or no-prior-office evidence. Political programs, endorsement groups and surname do not classify religion or ethnicity."
+    },
+    {
+      "id": "220408-dpa-1989-complete-interview-and-bio",
+      "candidate_id": "220408", "name": "Ned Pillersdorf", "state": "KY", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:KY:05:general:source_general", "family": "earlier_biography",
+      "url": "https://dpa.ky.gov/wp-content/uploads/2020/11/1989-12.pdf",
+      "source_title": "The Advocate volume12 number1, December1989: Capital Trial Defense written interview and biography, printed pages13-14",
+      "publication_date": "1989-12", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Prestonsburg civil-rights/criminal-defense practice, partner Gerald DeRossett and Janet Stumbo corroborate current candidate and dated campaign/local reporting; not a name-only join.",
+      "identity_fragments": ["NED PILLERSDORF"],
+      "source_excerpts": ["NED PILLERSDORF", "Vanderbilt University", "McGeorge School of Law", "Department of Public Advocacy from 1981 through 1985", "Civil Rights and criminal defense"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "dated_agency_biography_reports_attendance_not_named_awards", "factual_reference_date": "1973-1980", "value": "Attended Vanderbilt1973-1977 and McGeorge law school1977-1980; California/Kentucky bar membership is reported separately, not substituted for an explicit completed degree", "source_fragment": "Vanderbilt University", "supporting_fragments": ["McGeorge School of Law"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "contemporaneous_agency_interview_and_named_private_practice", "factual_reference_date": "1989-12", "value": "Criminal-defense/capital-trial and civil-rights lawyer in Prestonsburg private practice by December1989; Little League management and humane-society founding retained as community roles, not paid government jobs", "source_fragment": "Civil Rights and criminal defense"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "contemporaneous_state_agency_reports_its_earlier_employee_and_service_dates", "factual_reference_date": "1981-1985", "value": "Worked for Kentucky Department of Public Advocacy from1981 through1985", "source_fragment": "Department of Public Advocacy from 1981 through 1985", "qualification": "Publication is the agency's own contemporary staff/professional interview with an explicit worked-for statement, not public-defender status inferred from representing a client or accepting an appointed case."}
+      ],
+      "extraction_review": "Read entire two-page written interview and subject biography, not all64 pages. Rendered physical page14/zero-based13 inspected to correct faulty OCR in agency name, dates and school wording. Publication month is known; URL2020 upload does not date the original biography. His parents' WWII service is not his military service. Adjacent Ernie Lewis religious comments and another subject's divinity credential are not his. Birthplace is not birth date or identity classification."
+    },
+    {
+      "id": "220399-courier-2026-complete-candidate-response",
+      "candidate_id": "220399", "name": "Megan Wingfield", "state": "KY", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:KY:02:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html",
+      "source_title": "Louisville Courier Journal, Lucas Aulbach: Meet Kentucky House candidates, October8,2026; authorized AOL copy, Wingfield's entire response",
+      "publication_date": "2026-10-08", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name under KY02 Democratic heading, native campaign link, mechanic/caregiver history; not a same-name British clinical psychologist or a people-search record.",
+      "identity_fragments": ["Megan Wingfield"],
+      "source_excerpts": ["Megan Wingfield", "Age: 32", "Mechanic/ Care Giver"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "candidate_reported_age_with_known_publication_and_unknown_response_date", "factual_reference_date": "2026-10-08", "value": "Reports age32 in October8,2026 questionnaire; exact response date/birthday unknown. If age was current at publication, election age32-33; retain conditional interval, not exact DOB", "source_fragment": "Age: 32"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_questionnaire_names_current_work", "factual_reference_date": "2026-10-08", "value": "Mechanic and caregiver, with grassroots organizing/advocacy experience", "source_fragment": "Mechanic/ Care Giver"}
+      ],
+      "extraction_review": "Read introductory methods and Wingfield's entire biography plus all eight policy answers, not just search preview. Publisher says candidate form responses lightly edited. Questions about military aid are policy, not military service. Election-security answers are not background qualifications. Other candidates' ages and jobs do not transfer. Same syndicated guide counted once per reviewed subject, not as independent corroboration."
+    },
+    {
+      "id": "220404-courier-2026-complete-candidate-response",
+      "candidate_id": "220404", "name": "Melissa Strange", "state": "KY", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KY:04:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html",
+      "source_title": "Louisville Courier Journal, Lucas Aulbach: October8,2026 guide; authorized AOL copy, Melissa Claire Strange's entire response",
+      "publication_date": "2026-10-08", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Full name under KY04 Democratic heading, same native campaign link, supply-chain career and northern Kentucky residence.",
+      "identity_fragments": ["Melissa Claire Strange"],
+      "source_excerpts": ["Melissa Claire Strange", "Age: 50", "Supply Chain Director"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "candidate_reported_age_with_known_publication_and_unknown_response_date", "factual_reference_date": "2026-10-08", "value": "Reports age50 in October8,2026 questionnaire; response date and birthday unspecified. Conditional publication-day age implies election age50-51; no exact birth date inferred", "source_fragment": "Age: 50"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_current_supply_chain_role", "factual_reference_date": "2026-10-08", "value": "Supply-chain director and27-year food-manufacturing/supply-chain career as reported in questionnaire", "source_fragment": "Supply Chain Director"}
+      ],
+      "extraction_review": "Read all eight answers and complete introductory biography for Strange. Broad federal-investment promises do not establish prior office/employment. Her term-limit pledge is not her service history. Race/ethnicity/religion not inferred from positions. Combined literal passages for the three accepted subjects of this same original total24 words, not25 per syndicated copy."
+    },
+    {
+      "id": "220408-courier-2026-complete-candidate-response",
+      "candidate_id": "220408", "name": "Ned Pillersdorf", "state": "KY", "district": "05", "party": "Democratic",
+      "contest_id": "2026:house:KY:05:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html",
+      "source_title": "Louisville Courier Journal, Lucas Aulbach: October8,2026 guide; authorized AOL copy, Pillersdorf's entire response",
+      "publication_date": "2026-10-08", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name in KY05 response, native campaign link,45-year Floyd County legal practice and David School leadership.",
+      "identity_fragments": ["Ned Pillersdorf"],
+      "source_excerpts": ["Ned Pillersdorf", "Age: 71", "Executive Director The David School"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "candidate_reported_age_with_known_publication_and_unknown_response_date", "factual_reference_date": "2026-10-08", "value": "Reports age71 in October8,2026 questionnaire; if current on publication day, election age71-72. No exact birthday or unqualified election-day point age supplied", "source_fragment": "Age: 71"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_legal_and_school_leadership_roles", "factual_reference_date": "2026-10-08", "value": "Poverty-law attorney and David School executive director; also reports30 years of school involvement including varsity basketball coaching", "source_fragment": "Executive Director The David School"}
+      ],
+      "extraction_review": "Read complete candidate biography and all eight answers. Opponent's88-year age is not his. School executive role is not automatically public-school/government employment. Parents, clients, spouse's office and endorsement organizations do not supply his identity or military traits. Only three candidate sections accepted from this shared original; other candidates are not represented as fully researched."
+    },
+    {
+      "id": "220404-link-nky-catholic-upbringing",
+      "candidate_id": "220404", "name": "Melissa Strange", "state": "KY", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KY:04:general:source_general", "family": "local_profile",
+      "url": "https://linknky.com/elections/2026/10/16/melissa-strange-speaks-to-kenton-county-rotarians-in-villa-hills/",
+      "source_title": "Nathan Granger: Melissa Strange speaks to Kenton County Rotarians in Villa Hills",
+      "publication_date": "2026-10-16", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name and KY04 Democratic nominee, Villa Hills event and named2026 opponents match native candidate.",
+      "identity_fragments": ["Melissa Strange"],
+      "source_excerpts": ["Melissa Strange", "she was raised Catholic"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "partial", "precision": "reported_first_person_religious_upbringing_not_current_affiliation", "factual_reference_date": "2026-10-15", "value": "At October15,2026 Rotary Q&A, reportedly said she was raised Catholic; current affiliation, practice and congregation not specified", "source_fragment": "she was raised Catholic", "qualification": "Retain historical upbringing as partial evidence. Religious schooling, family affiliation and abortion policy do not independently establish her current religion."}
+      ],
+      "extraction_review": "Read entire original article, all reported questions/answers and event caption. It states professional background was discussed but supplies no new explicit role beyond existing campaign evidence, so no additional career claim manufactured. Rotary participation does not establish government employment or religious affiliation."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220399", "family": "campaign", "query": "Read complete hash-verified native homepage and actual retained About/Story before any new campaign download", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wingfieldforcongress.com/", "https://www.wingfieldforcongress.com/about-megan"], "lead_dispositions": {"https://www.wingfieldforcongress.com/": {"status": "duplicate_reviewed_original", "reason": "Complete original read and SHA256 9a56b982639e67b5f172f4ba40c75a7527b8db6ea25fbadce26740f78cd9608e verified. Short biography repeats in accepted Story; not independent evidence."}}},
+    {"candidate_id": "220404", "family": "campaign", "query": "Read complete hash-verified native homepage and follow its actual About Us link", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://strangeforky.com/", "https://strangeforky.com/about-us/"], "lead_dispositions": {"https://strangeforky.com/": {"status": "duplicate_reviewed_original", "reason": "Read complete retained homepage and verify hash; actual About page supplies completed credential details and longer career account. Repeated homepage not counted independently."}}},
+    {"candidate_id": "220412", "family": "campaign", "query": "Read complete hash-verified native homepage including actual #bio section, chronology and footer", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://zachdembo.com/"]},
+    {"candidate_id": "220399", "family": "local_profile", "query": "\"Megan Wingfield\" biography age education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual multi-query call returned no usable rendered result body; no exhaustive search or absent-evidence claim follows."},
+    {"candidate_id": "220404", "family": "local_profile", "query": "\"Melissa Strange\" Kentucky biography age education", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual multi-query call returned no usable rendered result body; subsequent actual originals recorded separately."},
+    {"candidate_id": "220408", "family": "earlier_biography", "query": "\"Ned Pillersdorf\" biography education born Jewish", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual multi-query call returned no usable rendered results; no identity classification from the query wording."},
+    {"candidate_id": "220412", "family": "university_employer_professional", "query": "\"Zach Dembo\" biography Stanford Michigan degree", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual call had no usable rendered result body. Actual Stanford original was subsequently opened and read."},
+    {"candidate_id": "220399", "family": "local_profile", "query": "\"Megan Wingfield\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search call returned no usable rendered body, not proof that no profiles exist."},
+    {"candidate_id": "220408", "family": "campaign", "query": "\"Ned Pillersdorf\" biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "qualification": "Single query located campaign, Ballotpedia and cited local reporting through discovery aggregators. Aggregator education claims were not accepted; followed originals report attendance rather than specified awards.", "underlying_urls": ["https://www.thefullrecord.org/people/ned-pillersdorf", "https://nedforcongress.com/"], "lead_dispositions": {"https://www.thefullrecord.org/people/ned-pillersdorf": {"status": "reviewed_no_requested_facts", "reason": "Read as discovery/citation index; followed original campaign and Kentucky Lantern account. No derivative claim promoted as independent evidence."}}},
+    {"candidate_id": "220399", "family": "local_profile", "query": "\"Megan Wingfield\" \"age\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query returned people-search namesakes, not a qualified candidate identity or age. No personal contact, family or address records collected."},
+    {"candidate_id": "220404", "family": "local_profile", "query": "\"Melissa Strange\" \"age\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query included unrelated private people, dentist and Alabama politician/spouse. No name-only identity join or data-broker biographical value accepted."},
+    {"candidate_id": "220408", "family": "earlier_biography", "query": "\"Ned Pillersdorf\" \"born\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query supplied the1989 DPA biography and2023 news-profile lead. DPA original followed; third-party relatives and birth notices not used as his birth date."},
+    {"candidate_id": "220412", "family": "university_employer_professional", "query": "\"Zach Dembo\" \"Michigan\" \"2007\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query located2010 Michigan Law issue and derivative degree lists. Michigan original returned403; no snippet promoted as an acquired original."},
+    {"candidate_id": "220412", "family": "university_employer_professional", "query": "Read complete Stanford History alumni notice; follow historical2010 Michigan Law PDF once", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://history.stanford.edu/news/zach-dembo-07-elected-house-representatives", "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/98639/lawquadrangle_f10.pdf?sequence=1"], "lead_dispositions": {"https://deepblue.lib.umich.edu/bitstream/handle/2027.42/98639/lawquadrangle_f10.pdf?sequence=1": {"status": "access_failure", "reason": "Original returned403 Forbidden. Not retried through another delivery or copied from search preview. Stanford BA independently acquired from actual short university notice."}}},
+    {"candidate_id": "220408", "family": "earlier_biography", "query": "Read complete DPA1989 subject interview and bio on printed13-14; inspect rendered page14 for damaged OCR", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://dpa.ky.gov/wp-content/uploads/2020/11/1989-12.pdf"]},
+    {"candidate_id": "220408", "family": "university_employer_professional", "query": "Follow law-firm original cited by actual local biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.pillersdorflaw.com/"], "lead_dispositions": {"https://www.pillersdorflaw.com/": {"status": "access_failure", "reason": "Original redirected to unrelated gambling site blackslotdemo.com and ended403; no biography acquired and no retry/bypass. Historical firm text reproduced in a forum is not this acquired original."}}},
+    {"candidate_id": "220408", "family": "local_profile", "query": "Read full July4,2025 Kentucky Lantern interview and follow its cited2023 Courier Journal profile", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kentuckylantern.com/2025/07/04/eastern-kentucky-attorney-known-for-representing-underdogs-hopes-to-unseat-hal-rogers/", "https://www.courier-journal.com/story/news/2023/07/11/attorney-ned-pillersdorf-profile-eric-conn/70356790007/"], "lead_dispositions": {"https://kentuckylantern.com/2025/07/04/eastern-kentucky-attorney-known-for-representing-underdogs-hopes-to-unseat-hal-rogers/": {"status": "duplicate_reviewed_original", "reason": "Complete written report read; attorney/campaign history supplements existing profession, with no new requested background fact beyond accepted campaign account. Wife's judicial service does not become his office history. Followed actual profile/firm links."}, "https://www.courier-journal.com/story/news/2023/07/11/attorney-ned-pillersdorf-profile-eric-conn/70356790007/": {"status": "access_failure", "reason": "Public reader returned non-retryable open error with no source body; no age accepted from its search snippet or used to bypass access."}}},
+    {"candidate_id": "220399", "family": "ballotpedia_questionnaire", "query": "Read exact KY02 Ballotpedia candidate page and survey-completion section", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://ballotpedia.org/Megan_Wingfield"], "lead_dispositions": {"https://ballotpedia.org/Megan_Wingfield": {"status": "reviewed_no_requested_facts", "reason": "Read candidate contact/election material through campaign themes; explicitly did not complete2026 Candidate Connection. No substantive biography supplied. Nonresponse and no prior-office record are not service negatives. Alternative linked campaign domain is an unreviewed lead."}}},
+    {"candidate_id": "220404", "family": "ballotpedia_questionnaire", "query": "Read exact KY04 page and entire published2026 Candidate Connection through edit-policy note", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://ballotpedia.org/Melissa_Strange"], "lead_dispositions": {"https://ballotpedia.org/Melissa_Strange": {"status": "reviewed_no_requested_facts", "reason": "Ordinary simplifier gave no usable body; public page reader supplied actual profile and all two published answers: three messages and policy passions. No Who-are-you biography or requested background fields present. Religious freedom policy is not affiliation; unasked questions are not negative responses."}}},
+    {"candidate_id": "220408", "family": "ballotpedia_questionnaire", "query": "Read exact2026 KY05 Ballotpedia profile and campaign-themes survey outcome", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://ballotpedia.org/Ned_Pillersdorf"], "lead_dispositions": {"https://ballotpedia.org/Ned_Pillersdorf": {"status": "reviewed_no_requested_facts", "reason": "No substantive background biography; explicitly did not complete2026 Candidate Connection. Campaign contact supplies verified actual website. No omission-based identity or service values."}}},
+    {"candidate_id": "220412", "family": "ballotpedia_questionnaire", "query": "Read exact2026 KY06 Ballotpedia profile and survey outcome", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://ballotpedia.org/Zach_Dembo"], "lead_dispositions": {"https://ballotpedia.org/Zach_Dembo": {"status": "reviewed_no_requested_facts", "reason": "Ordinary simplifier gave no usable body; public page reader supplied candidate and campaign-themes text. Explicitly did not complete2026 Candidate Connection; no substantive background biography. Member-elect status in2026 is not incumbency at cutoff."}}},
+    {"candidate_id": "220399", "family": "local_profile", "query": "\"Megan Wingfield\" interview candidate biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query returned Courier Journal/AOL questionnaire, campaign, unrelated Oxford psychologist and newspaper-feature leads. Followed entire actual questionnaire candidate response; no namesake or snippet evidence accepted."},
+    {"candidate_id": "220404", "family": "local_profile", "query": "\"Melissa Strange\" religion veteran \"Kentucky\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query located Rotary Q&A, WVXU questionnaire and other candidate profiles. Followed full Rotary account. Gallrein's military service and another person's Catholic affiliation are not hers."},
+    {"candidate_id": "220408", "family": "local_profile", "query": "\"Ned Pillersdorf\" Jewish atheist", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched explicit-affiliation query; no newly acquired qualifying self-description from its results. Do not infer identity from surname, clients, legal partner, spouse or endorsement."},
+    {"candidate_id": "220412", "family": "official_biography", "query": "\"Zach Dembo\" biography site:justice.gov", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query found named-prosecutor DOJ case release. Not opened yet; remains concrete official-employment lead, not accepted from snippet."},
+    {"candidate_id": "220399", "family": "local_profile", "query": "Read Courier Journal methods and full Wingfield questionnaire on actual authorized AOL page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html"]},
+    {"candidate_id": "220404", "family": "local_profile", "query": "Read full Melissa Claire Strange questionnaire and full October16 Rotary Q&A report", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html", "https://linknky.com/elections/2026/10/16/melissa-strange-speaks-to-kenton-county-rotarians-in-villa-hills/"]},
+    {"candidate_id": "220408", "family": "local_profile", "query": "Read full Pillersdorf questionnaire, including age, work, school service and all policy responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html"]},
+    {"candidate_id": "220412", "family": "local_profile", "query": "Inspect Dembo's actual entry in Courier Journal October8 questionnaire", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html"], "lead_dispositions": {"https://www.aol.com/articles/whos-running-congress-ky-meet-090601000.html": {"status": "reviewed_no_requested_facts", "reason": "Exact Dembo entry states did not respond by deadline. Neighboring candidates' answers do not transfer. This is not a military, office or religion negative."}}},
+    {"candidate_id": "220408", "family": "earlier_biography", "query": "\"Ned Pillersdorf\" \"religion\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query returned news/consultation material about legal partner John Rosenberg and forum material; no newly followed exact-subject affiliation original."},
+    {"candidate_id": "220399", "family": "ballotpedia_questionnaire", "query": "\"Megan Wingfield\" \"religion\" \"military\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; actual questionnaire independently read. Mentions of aid to foreign militaries are not personal military service; religion remains unqualified by these reviewed sources."},
+    {"candidate_id": "220404", "family": "university_employer_professional", "query": "\"Melissa Strange\" \"Northern Kentucky University\" \"Thomas More\" biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query returned campaign, local profiles and a Thomas More student-publication interview lead cited by a radio transcript. University interview remains an actionable original to locate, not a completed professional-family pass."},
+    {"candidate_id": "220412", "family": "university_employer_professional", "query": "\"Zach Dembo\" \"2012\" site:umich.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; no newly read Michigan JD award original. Known403 historical issue not repeated or bypassed."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220399", "leads": ["Follow alternative campaign domain linked by exact Ballotpedia page only if not a duplicate; continue official, professional/university and earlier-family research.", "October questionnaire supplies reported age32, not exact birth date. Continue explicit identity/affiliation and scoped office/government/military questions; do not use UK psychologist or people-search namesakes."]},
+    {"candidate_id": "220404", "leads": ["Locate full Thomas More student-publication interview referenced by radio discussion; current campaign supplies awards but no dates. Follow additional substantive local questionnaire only for unresolved requested fields.", "Catholic upbringing is partial, not current affiliation. Age50 is questionnaire report with unknown response day. Official and earlier biographies and explicit service questions remain open."]},
+    {"candidate_id": "220408", "leads": ["Follow awarding-university/bar or professional biography for completed credentials; DPA1989 establishes attendance and actual1981-1985 agency employment, not named awards.", "Investigate scoped prior-office and military questions; earlier judicial candidacy is not a win and spouse's judicial service is not his. Historical firm domain now redirects to unrelated blocked site; do not retry."]},
+    {"candidate_id": "220412", "leads": ["Follow actual DOJ and governor-administration originals for career chronology and any awarded-degree/biographical details; Stanford confirms BA2007 but observed notice is post-result.", "Find permitted Michigan credential original, dated age and explicit public identity/affiliation evidence. Appointed staff positions do not establish prior elected office. Historical Michigan issue403 remains blocked."]}
+  ]
+}

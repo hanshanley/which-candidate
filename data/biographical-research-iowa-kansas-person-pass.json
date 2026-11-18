@@ -1,0 +1,449 @@
+{
+  "scope": "Continue all-ten-trait person research for five previously unresearched Democratic federal nonincumbents in Iowa and Kansas. Read retained campaign originals before new acquisition. Preserve exact versus interval age evidence, candidate-submitted versus employer/official evidence, and employment versus advisory or volunteer roles. No complete person pass or amended scientific model is claimed.",
+  "documents": [
+    {
+      "id": "220344-campaign-complete-about",
+      "candidate_id": "220344", "name": "Christina Bohannan", "state": "IA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:IA:01:general:source_general", "family": "campaign",
+      "url": "https://bohannanforcongress.com/about/",
+      "source_title": "Why I'm running and About me: complete campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual About link on the hash-verified native campaign homepage; exact name in page image descriptions, Iowa law faculty history and previous state House election corroborate the IA01 subject.",
+      "identity_fragments": ["Christina Bohannan"],
+      "source_excerpts": ["Christina Bohannan", "Environmental Engineering", "engineer", "University of Iowa College of Law", "Iowa House of Representatives", "2020"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_engineering_and_law_education", "factual_reference_date": null, "value": "Completed environmental-engineering degree and law school; campaign reports graduating first in law-school class, without award dates on this page", "source_fragment": "Environmental Engineering"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_historical_occupations", "factual_reference_date": null, "value": "Water-quality engineer and longtime Iowa law teacher; earlier work waiting tables, picking fruit and cleaning homes retained as earlier jobs, not continuous current occupations", "source_fragment": "engineer", "supporting_fragments": ["University of Iowa College of Law"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_state_house_election_in_2020", "factual_reference_date": "2020", "value": "Reports defeating an incumbent in2020 and serving in the Iowa House; not a current federal-incumbency claim", "source_fragment": "Iowa House of Representatives", "supporting_fragments": ["2020"]}
+      ],
+      "extraction_review": "Read the entire current About page after discovering its actual link in the retained homepage. The homepage was read completely and hash-verified for navigation but is not counted again for its redundant short biography. Relatives' careers, insurance history and political beliefs are not the candidate's traits. Family references and photographs do not classify gender, race, ethnicity or religion. Campaign electoral or policy assertions are not imported as analytical findings."
+    },
+    {
+      "id": "220347-retained-complete-campaign-about",
+      "candidate_id": "220347", "name": "Lindsay James", "state": "IA", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IA:02:general:source_general", "family": "campaign",
+      "url": "https://www.lindsayforiowa.com/about",
+      "source_title": "About Lindsay: complete retained congressional campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220347-bio1/campaign-220347-bio1",
+      "retained_sha256": "cf07a36a15a1b75f269d427b1ae2d0733c4f0352759d74c984e850f4244c8f1c",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name on native congressional campaign domain; chaplain career, state representative service and Dubuque committee match the native IA02 candidate.",
+      "identity_fragments": ["Lindsay James"],
+      "source_excerpts": ["Lindsay James", "As a chaplain", "As a state representative"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_chaplain_career_without_appointment_dates", "factual_reference_date": null, "value": "Chaplain career before congressional candidacy; this biography does not name employer, specific degree or denomination", "source_fragment": "As a chaplain"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_existing_state_representative_service", "factual_reference_date": null, "value": "Iowa state representative before congressional election; federal nonincumbent status remains distinct", "source_fragment": "As a state representative"}
+      ],
+      "extraction_review": "Read complete hash-verified body, including all leadership and policy sections. Chaplain occupation alone does not classify her religion or establish paid public employment. Political values, pronouns and motherhood do not establish requested identity traits; no omission-based service negative accepted."
+    },
+    {
+      "id": "220351-retained-complete-campaign-about",
+      "candidate_id": "220351", "name": "Sarah Trone Garriott", "state": "IA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:IA:03:general:source_general", "family": "campaign",
+      "url": "https://sarahforiowa.com/about/",
+      "source_title": "About Sarah Trone Garriott: complete retained campaign biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220351-bio2/campaign-220351-bio2",
+      "retained_sha256": "08f7b8ff66c1930503f4c2e58412d27bac9d5cc81961a0ca86ef446a813c0712",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign domain, IA03 heading, state Senate record and Faith Lutheran/food-pantry career match the retained candidate.",
+      "identity_fragments": ["Sarah Trone Garriott"],
+      "source_excerpts": ["Sarah Trone Garriott", "VISTA volunteer", "Harvard Divinity School", "ordained Lutheran pastor", "Iowa State Senate", "2020", "Coordinator of Interfaith Engagement"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "candidate_reported_divinity_school_study_without_completed_award", "factual_reference_date": null, "value": "Harvard Divinity School study; this campaign page does not itself specify a completed degree", "source_fragment": "Harvard Divinity School"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_candidate_reported_lutheran_ordination", "factual_reference_date": null, "value": "Explicitly describes becoming an ordained Lutheran pastor; denominational detail not inferred from generic clergy occupation", "source_fragment": "ordained Lutheran pastor"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_ministry_nonprofit_and_earlier_service_work", "factual_reference_date": null, "value": "Hospital chaplain, Lutheran pastor and interfaith food-pantry coordinator; earlier retail, restaurant and hotel-cleaning jobs retained as historical work", "source_fragment": "Coordinator of Interfaith Engagement", "supporting_fragments": ["ordained Lutheran pastor"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_state_senate_election_and_subsequent_service", "factual_reference_date": "2020", "value": "Reports winning Iowa Senate election in2020 and subsequent2022/2024 elections; not federal House incumbency", "source_fragment": "Iowa State Senate", "supporting_fragments": ["2020"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "candidate_reported_americorps_vista_volunteering_not_paid_employment", "factual_reference_date": null, "value": "A year of AmeriCorps VISTA volunteer service supporting domestic-violence victims", "source_fragment": "VISTA volunteer", "qualification": "Formal service-program participation is retained, but volunteer wording does not establish a paid government job. No government-employment model value supplied."}
+      ],
+      "extraction_review": "Read complete hash-verified biography, all education/ministry/service sections and footer. Campaign service-program evidence is not military evidence. Attendance is not a degree. Relatives, pronouns, denomination and geography are not race/ethnicity classifications. New factual evidence does not repair or relabel the frozen IA03 religion training-support failure."
+    },
+    {
+      "id": "220369-retained-complete-campaign-about",
+      "candidate_id": "220369", "name": "Lauren Reinhold", "state": "KS", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KS:01:general:source_general", "family": "campaign",
+      "url": "https://www.laurenforkansas.com/about",
+      "source_title": "About Lauren and Career & Experience: complete retained biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220369-bio1/campaign-220369-bio1",
+      "retained_sha256": "62beef5b8b8f7f97403fba2206ceadb76aede867ed468dabd1572fc9ae74fad7",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, native campaign domain, Kansas candidacy, Lawrence base and SSA/NLRB career match the retained KS01 candidate and dated local interview.",
+      "identity_fragments": ["Lauren Reinhold"],
+      "source_excerpts": ["Lauren Reinhold", "Attorney Advisor at the Social Security Administration", "investigator and election officer for the National Labor Relations Board", "Legal Aid", "immigration law"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_legal_and_administrative_careers", "factual_reference_date": null, "value": "Legal Aid and immigration attorney, disability advocate, private practitioner, SSA attorney-advisor and NLRB investigator/election officer; union leadership retained separately from underlying employment", "source_fragment": "Legal Aid", "supporting_fragments": ["immigration law", "Attorney Advisor at the Social Security Administration"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_reported_named_civilian_federal_employers_and_roles", "factual_reference_date": null, "value": "Civilian federal work at SSA as attorney-advisor and at NLRB as investigator/election officer; reports leaving SSA after2025 changes", "source_fragment": "Attorney Advisor at the Social Security Administration", "supporting_fragments": ["investigator and election officer for the National Labor Relations Board"], "qualification": "Actual agency employment, not an inference from union office or advocacy. Supplementary to already qualified baseline employment evidence."}
+      ],
+      "extraction_review": "Read complete hash-verified biography and all career subsections. Years in Kansas or legal practice are not a dated age. Attorney is not automatically a completed JD credential; no degree inferred here. NLRB election officer is administrative employment, not election to public office."
+    },
+    {
+      "id": "220378-campaign-complete-home-biography",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "campaign",
+      "url": "https://katyforkansas.com/",
+      "source_title": "Meet Katy: complete current campaign homepage biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain explicitly identifies Katy Jackman Tyndell, KS04 candidacy, Wichita business career and challenge to Ron Estes.",
+      "identity_fragments": ["Katy Jackman Tyndell"],
+      "source_excerpts": ["Katy Jackman Tyndell", "earning her law degree", "staff attorney for the National Congress of American Indians", "Sedgwick County Fire District One Steering Council"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_law_degree_without_school_or_year", "factual_reference_date": null, "value": "Explicitly completed law degree; campaign biography alone does not name school, award type or graduation year", "source_fragment": "earning her law degree"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_attorney_business_and_civic_organization_work", "factual_reference_date": null, "value": "Former National Congress of American Indians staff attorney; helps run family businesses including an oil/gas operator; co-founded Leading Kansas in2025", "source_fragment": "staff attorney for the National Congress of American Indians"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "candidate_reported_local_steering_council_role_without_employee_status", "factual_reference_date": null, "value": "Reports chairing Sedgwick County Fire District One Steering Council", "source_fragment": "Sedgwick County Fire District One Steering Council", "qualification": "Advisory/council service is not proven paid government employment or elected office. Work with federal agencies and employment at an advocacy organization do not independently establish a government job."}
+      ],
+      "extraction_review": "Read full homepage, including both repeated Meet Katy blocks, counted once. Family roots do not classify ancestry or ethnicity. NAACP volunteering does not classify race. NCAI staff employment does not imply American Indian identity, tribal citizenship or government employment. No age inferred from children, law-school completion or business duration."
+    },
+    {
+      "id": "220344-iowa-law-complete-faculty-profile",
+      "candidate_id": "220344", "name": "Christina Bohannan", "state": "IA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:IA:01:general:source_general", "family": "university_employer_professional",
+      "url": "https://law.uiowa.edu/people/christina-bohannan",
+      "source_title": "University of Iowa College of Law: complete Christina Bohannan faculty biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact full name, Iowa law appointment, Florida degrees and matching historical scholarship/employment corroborate campaign identity.",
+      "identity_fragments": ["Christina Bohannan"],
+      "source_excerpts": ["Christina Bohannan", "Professor", "JD, University of Florida", "BS, University of Florida", "on leave for the 2026-2027 academic year"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "employer_reported_completed_named_jd_and_bs", "factual_reference_date": null, "value": "University of Florida JD and BS, without award dates on current faculty profile", "source_fragment": "JD, University of Florida", "supporting_fragments": ["BS, University of Florida"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "employer_reported_law_professorship_with_current_leave", "factual_reference_date": "2026-2027", "value": "Iowa law professor and Lauridsen Family Fellow in Law; explicitly on leave during academic year2026-2027", "source_fragment": "Professor", "supporting_fragments": ["on leave for the 2026-2027 academic year"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_public_university_faculty_appointment_with_leave_qualification", "factual_reference_date": "2026-2027", "value": "Faculty appointment at public University of Iowa, with current academic leave expressly retained", "source_fragment": "Professor", "qualification": "Institutional faculty position, not advisory committee membership; no salary amount, leave compensation or full-time active teaching status inferred. Historical state/federal jobs separately documented by CV. Retrieval does not establish prediction-time availability."}
+      ],
+      "extraction_review": "Read complete Overview, research/teaching sections, awards and degree fields. On-leave status is not silently described as active teaching in2026-2027. Publication titles, photographs and pronouns do not classify sensitive traits."
+    },
+    {
+      "id": "220344-iowa-law-historical-cv-first-page",
+      "candidate_id": "220344", "name": "Christina Bohannan", "state": "IA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:IA:01:general:source_general", "family": "earlier_biography",
+      "url": "https://law.uiowa.edu/sites/law.uiowa.edu/files/2020-05/bohannan.pdf",
+      "source_title": "University-hosted historical Christina Bohannan curriculum vitae: education and employment page",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Six-page historical CV with historical appointment entries and a2020-05 URL path. Neither establishes an exact publication date. Public reader supplied first-page education/work text and part of later service/awards sections; direct byte request returned403. No full-six-page reading or new original-byte acquisition claimed.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact full name and University of Iowa employer match the live faculty profile; Florida education and legal/engineering work agree with campaign biography.",
+      "identity_fragments": ["Christina Bohannan"],
+      "source_excerpts": ["Christina Bohannan", "J.D.", "University of Florida College of Law", "December 1997", "B.S. Environmental Engineering", "May 1994", "Law Clerk", "1998-99", "Department of Environmental Protection", "1991-1994"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "university_hosted_cv_completed_awards_with_month_and_year", "factual_reference_date": "1997-12", "value": "Florida BS environmental engineering, May1994; Florida JD, December1997, with first-in-class rank", "source_fragment": "B.S. Environmental Engineering", "supporting_fragments": ["May 1994", "J.D.", "University of Florida College of Law", "December 1997"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "university_hosted_cv_dated_engineering_and_judicial_clerk_work", "factual_reference_date": "1991-1999", "value": "Florida environmental-protection engineer1991-1994; Eleventh Circuit appellate law clerk1998-1999; Iowa law teaching subsequently documented on this first page", "source_fragment": "Department of Environmental Protection", "supporting_fragments": ["1991-1994", "Law Clerk", "1998-99"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_historical_state_agency_and_federal_judicial_jobs", "factual_reference_date": "1991-1999", "value": "State of Florida Department of Environmental Protection engineering job1991-1994 and federal appellate law-clerk position1998-1999", "source_fragment": "Department of Environmental Protection", "supporting_fragments": ["1991-1994", "Law Clerk", "1998-99"], "qualification": "Specific professional jobs, not inference from political advocacy or faculty advisory service. No frozen fit or prediction-time claim changed."}
+      ],
+      "extraction_review": "Accepted only education and actual work entries read on the first PDF page. Later nonprofit school-board trusteeship and faculty governance are not government-elected office. Unread portions cannot establish absence of other requested facts. Direct403 is a stop condition; no retry or access bypass."
+    },
+    {
+      "id": "220351-iowa-official-register-2023-2024",
+      "candidate_id": "220351", "name": "Sarah Trone Garriott", "state": "IA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:IA:03:general:source_general", "family": "official_biography",
+      "url": "https://www.legis.iowa.gov/docs/publications/REDBK/1441915.pdf",
+      "source_title": "Iowa Official Register2023-2024, volume80, Sarah Trone Garriott biography, printed page47/PDF page53",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_date_note": "Official2023-2024 edition; exact release day unknown. Downloaded once for both candidate sections;496 pages,8557011 bytes,SHA256597850c7bf9f7bb27b40901f8f045b0ca25e47ad2afbf436757203f600df9cf7. Complete selected PDF page read, not the entire register; no restricted portraits redistributed.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Sarah Trone Garriott name, Waukee/District14 Senate service, Lutheran ministry and interfaith food-pantry role corroborate the IA03 campaign subject.",
+      "identity_fragments": ["Sarah Trone Garriott"],
+      "source_excerpts": ["Sarah Trone Garriott", "1978", "B.A.", "St. Scholastica", "M.T.S.", "Harvard Divinity School", "M.Div.", "Lutheran School of Theology", "ELCA", "Coordinator of Interfaith Engagement", "Human Rights Board", "Senate"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_birth_year_without_month_or_day", "factual_reference_date": "1978", "value": "Official biography reports birth in1978; source alone supports age47or48 at November3,2026, not an exact birthday", "source_fragment": "1978"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_bachelors_and_two_named_graduate_awards", "factual_reference_date": "2023-2024", "value": "BA history, College of St.Scholastica; MTS, Harvard Divinity School; MDiv, Lutheran School of Theology, Chicago; award years not specified", "source_fragment": "B.A.", "supporting_fragments": ["St. Scholastica", "M.T.S.", "Harvard Divinity School", "M.Div.", "Lutheran School of Theology"]},
+        {"trait": "religion", "factual_status": "qualified", "precision": "official_historical_named_denomination_and_ordination", "factual_reference_date": "2023-2024", "value": "Explicit ordained minister in Evangelical Lutheran Church in America, with official edition timing retained", "source_fragment": "ELCA"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_ministry_and_food_pantry_role", "factual_reference_date": "2023-2024", "value": "Ordained ELCA minister and Des Moines Area Religious Council Food Pantry Network interfaith-engagement coordinator", "source_fragment": "Coordinator of Interfaith Engagement", "supporting_fragments": ["ELCA"]},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_state_senate_service_before_federal_election", "factual_reference_date": "2023-2024", "value": "Official biography identifies second Senate term and Iowa District14; not current federal House incumbency", "source_fragment": "Senate"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_board_and_advisory_memberships_without_paid_employee_status", "factual_reference_date": "2023-2024", "value": "Human Rights Board, child-care advisory committee, mental-health/disability-services commission and human-services council memberships", "source_fragment": "Human Rights Board", "qualification": "Specific official memberships retained; no additional paid government job established by board or legislative committee service."}
+      ],
+      "extraction_review": "Read complete target biography on PDF page53, separating the preceding Todd Taylor entry and following Zach Wahls entry. No neighboring birth year, university, military service or religious membership transferred. Missing military/race/ethnicity fields are not negative classifications. Supplemental historical classification does not alter frozen religion predictions."
+    },
+    {
+      "id": "220347-iowa-official-register-2023-2024",
+      "candidate_id": "220347", "name": "Lindsay James", "state": "IA", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IA:02:general:source_general", "family": "official_biography",
+      "url": "https://www.legis.iowa.gov/docs/publications/REDBK/1441915.pdf",
+      "source_title": "Iowa Official Register2023-2024, volume80, Lindsay James biography, printed page71/PDF page77",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "source_date_note": "Same single8557011-byte official register acquisition as Garriott section,SHA256597850c7bf9f7bb27b40901f8f045b0ca25e47ad2afbf436757203f600df9cf7; separate candidate review, not another original download. Exact release day unknown; no restricted portrait redistributed.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Lindsay James name, Dubuque/District71 House office and chaplain career match the congressional campaign; spouse's degree/career are excluded.",
+      "identity_fragments": ["Lindsay James"],
+      "source_excerpts": ["Lindsay James", "Born in 1980", "B.A. in communications", "Santa Clara University", "divinity", "Fuller Theological Seminary", "Presbyterian Church (PCUSA)", "Extension", "third term", "Ordained pastor"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_birth_year_without_exact_birth_date", "factual_reference_date": "1980", "value": "Official biography reports1980 birth year; source alone supports age45or46 at November3,2026, not exact birthday", "source_fragment": "Born in 1980"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_completed_named_bachelors_and_masters_awards", "factual_reference_date": "2023-2024", "value": "BA communications, Santa Clara University; master's degree in divinity, Fuller Theological Seminary; graduation dates not specified", "source_fragment": "B.A. in communications", "supporting_fragments": ["Santa Clara University", "divinity", "Fuller Theological Seminary"]},
+        {"trait": "religion", "factual_status": "qualified", "precision": "official_historical_presbyterian_ordination_not_exclusive_current_membership", "factual_reference_date": "2023-2024", "value": "Official biography explicitly identifies ordained Presbyterian Church(PCUSA) pastor and inter-religious chaplain", "source_fragment": "Presbyterian Church (PCUSA)", "qualification": "Historical ordination is distinct from later first-person Lutheran congregation membership. Do not silently force one exclusive2026 affiliation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "official_historical_pastoral_academic_and_institute_roles", "factual_reference_date": "2023-2024", "value": "Ordained pastor/inter-religious chaplain; former Loras College Peace Institute co-founder/director and University of Dubuque adjunct faculty", "source_fragment": "Ordained pastor"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_third_state_house_term", "factual_reference_date": "2023-2024", "value": "Iowa House District71 member serving third term in this edition, not federal House incumbent", "source_fragment": "third term"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_local_commission_and_extension_council_service_without_employment_classification", "factual_reference_date": "2023-2024", "value": "Former Dubuque community-development advisory commission chair and Iowa State/Dubuque County Extension council member", "source_fragment": "Extension", "qualification": "Formal advisory/council roles retained; no paid employee status or election mechanism established by this text."}
+      ],
+      "extraction_review": "Read complete target biography on PDF page77, not neighboring David Jacoby or Thomas Jeneary biographies. Adjacent military, church, education and birth details do not transfer. NAACP Religious Affairs leadership does not classify race. Denominational ordination and church membership retained with different scopes and dates."
+    },
+    {
+      "id": "220347-dubuque-chamber-complete-questionnaire",
+      "candidate_id": "220347", "name": "Lindsay James", "state": "IA", "district": "02", "party": "Democratic",
+      "contest_id": "2026:house:IA:02:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://www.dubuquechamber.com/advocacy/candidate-profiles/lindsay-james/",
+      "source_title": "Dubuque Chamber State House District71 candidate profile: complete first-person questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Undated older state-House campaign answers describing six legislative years. Do not manufacture an exact publication date or treat as exclusive current religious affiliation.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Lindsay James name, Dubuque District71 state office, chaplain career and matching official-register education/career identity distinguish this older campaign from the2026 federal contest.",
+      "identity_fragments": ["Lindsay James"],
+      "source_excerpts": ["Lindsay James", "As a woman", "active member of Holy Trinity Lutheran Church", "college chaplain", "city commissioner", "ISU Extension county official", "State Representative"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_first_person_woman_description", "factual_reference_date": null, "value": "Explicitly describes herself as a woman; not inferred from motherhood, name or pronouns", "source_fragment": "As a woman"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_first_person_named_lutheran_congregation_membership", "factual_reference_date": null, "value": "Reports active Holy Trinity Lutheran Church membership in Dubuque in this older state-House questionnaire", "source_fragment": "active member of Holy Trinity Lutheran Church", "qualification": "Congregation membership, not automatic revocation of documented Presbyterian ordination or evidence of exclusive2026 denominational affiliation."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_historical_college_chaplain_career", "factual_reference_date": null, "value": "Reports most of pre-legislative career as college chaplain", "source_fragment": "college chaplain"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "first_person_existing_state_representative_service", "factual_reference_date": null, "value": "Iowa House District71 representative and Democratic whip, with first campaign in2018 described separately", "source_fragment": "State Representative"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "first_person_commission_and_extension_official_roles_without_paid_employee_status", "factual_reference_date": null, "value": "City commissioner and ISU Extension county official roles, corroborated as council/advisory service in official register", "source_fragment": "city commissioner", "supporting_fragments": ["ISU Extension county official"], "qualification": "Official/advisory role does not itself establish paid public employment; no government-employment model value inferred."}
+      ],
+      "extraction_review": "Read Who/Why/What, business-community and government-role responses through end of candidate questionnaire. Initial simplifier request returned400, but ordinary public reader supplied the complete page; no authentication barrier bypassed. Husband's PhD and seminary professorship are not hers. NAACP leadership is not race evidence."
+    },
+    {
+      "id": "220378-kmuw-eagle-complete-questionnaire",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://www.kmuw.org/2026-07-20/voter-guide-u-s-congressional-4th-district-candidates-for-the-august-primary-election",
+      "source_title": "KMUW/Wichita Eagle2026 KS04 primary guide: complete Katy Tyndell biography and answers",
+      "publication_date": "2026-07-20", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Katy Tyndell heading, native campaign link, Wichita location and matching NCAI/business career identify native KS04 nominee despite Tyndall spelling in image caption.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "Age: 43", "Manager, Tallgrass Management, LLC", "Staff Attorney, National Congress of American Indians", "BA, Stanford University", "JD, University of Maryland School of Law"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "reported_age_in_dated_2026_questionnaire_not_exact_birthday", "factual_reference_date": "2026-07-20", "value": "Guide published July20,2026 reports age43. Conditional on age at publication, November3 age is43or44; exact response date and birthday unknown", "source_fragment": "Age: 43", "qualification": "Do not manufacture birthday or a single exact election-day age. Response may predate publication."},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_submitted_named_ba_and_jd_with_graduation_years", "factual_reference_date": "2026-07-20", "value": "BA, Stanford2004; JD, University of Maryland School of Law2009; no major or exact award date supplied", "source_fragment": "BA, Stanford University", "supporting_fragments": ["JD, University of Maryland School of Law"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_submitted_current_manager_and_historical_staff_attorney_roles", "factual_reference_date": "2026-07-20", "value": "Manager at Tallgrass Management LLC; former National Congress of American Indians staff attorney; oil/gas industry work explicitly described in climate answer", "source_fragment": "Manager, Tallgrass Management, LLC", "supporting_fragments": ["Staff Attorney, National Congress of American Indians"]}
+      ],
+      "extraction_review": "Read first20000 characters and continuation, covering complete Tyndell biography and all eight answers. Do not transfer nearby Chris Carmichael Air Force service/age53, Ryan Gilbert's self-description or Ron Estes offices/degrees to Tyndell. Nonincumbent checkbox is not no-prior-elected-office evidence. NCAI employer is not racial/ethnic or government-employment proof."
+    },
+    {
+      "id": "220369-leader-times-complete-interview",
+      "candidate_id": "220369", "name": "Lauren Reinhold", "state": "KS", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KS:01:general:source_general", "family": "local_profile",
+      "url": "https://liberalfirst.com/index.php/news/531-reinhold-challenging-for-big-first-district-seat",
+      "source_title": "Elly Grimm, Leader & Times: Reinhold challenging for Big First District seat",
+      "publication_date": "2026-04-28", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact Lauren Reinhold name, KS01 challenge to Tracey Mann, native campaign domain, Lawrence and matching SSA/NLRB legal career identify retained subject.",
+      "identity_fragments": ["Lauren Reinhold"],
+      "source_excerpts": ["Lauren Reinhold", "since 1993 when I came at age 22", "University of Kansas for law school", "attorney advisor", "Social Security Administration", "National Labor Relations Board"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "reported_age_in_historical_year_with_derived_two_year_birth_interval", "factual_reference_date": "1993", "value": {"reported_age": 22, "reported_event_year": 1993, "derived_possible_birth_years": [1970, 1971], "conservative_election_age_range": [54, 56]}, "source_fragment": "since 1993 when I came at age 22", "qualification": "Year of arrival lacks month/day; retain age-at-arrival evidence and a conservative interval, not exact birth year1993minus22 or exact election age. Partial evidence, not a first-qualified age field."},
+        {"trait": "education", "factual_status": "qualified", "precision": "first_person_law_school_attendance_and_explicit_subsequent_graduation", "factual_reference_date": "1993", "value": "Describes moving to attend University of Kansas law school in1993 and legal work after graduating; no exact award year in this interview", "source_fragment": "University of Kansas for law school", "qualification": "Completion comes from the explicit later after-graduating account in the read interview, not from attendance alone."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_first_person_multiple_legal_and_federal_administrative_roles", "factual_reference_date": "2026-04-28", "value": "Immigration/Legal Aid attorney, SSA attorney-advisor and later human-resources specialist, brief NLRB work and later SSA leadership; union office distinct from agency employment", "source_fragment": "attorney advisor", "supporting_fragments": ["Social Security Administration", "National Labor Relations Board"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "first_person_dated_civilian_federal_career", "factual_reference_date": "2010-2025", "value": "Reports16 total federal-service years, rejoining SSA in2010, brief NLRB work and2025 departure/paid separation transition; continuous active work throughout2025 not assumed", "source_fragment": "Social Security Administration", "supporting_fragments": ["National Labor Relations Board"], "qualification": "Interview distinguishes active work, paid transition and later campaign. First candidacy is not converted into a no-prior-elected-office negative."}
+      ],
+      "extraction_review": "Read complete original interview and all answers through closing paragraph. Campaign chronology retained without inferring appointment history. Years of federal work do not imply military service; first run for office does not rule out earlier appointments. No identity or affiliation inferred from birthplace, surname or occupation."
+    },
+    {
+      "id": "220369-ballotpedia-biography-and-first-response",
+      "candidate_id": "220369", "name": "Lauren Reinhold", "state": "KS", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:KS:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Lauren_Reinhold",
+      "source_title": "Lauren Reinhold: Ballotpedia biography, education fields and first Candidate Connection response",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Page labels survey2026. Public reader supplied biography and first Who are you response; subsequent survey responses were not fully supplied/read. Simplifier yielded no usable body. Do not claim a complete survey pass.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, KS01 Democratic candidacy, native campaign link, Missouri background and matching legal/federal career identify retained person.",
+      "identity_fragments": ["Lauren Reinhold"],
+      "source_excerpts": ["Lauren Reinhold", "Northeast Missouri State University", "1992", "University of Kansas School of Law", "1996", "16 years of federal experience", "Legal Aid attorney", "immigration attorney"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "ballotpedia_reported_completed_bachelors_and_law_awards_with_years", "factual_reference_date": "1996", "value": "Ballotpedia reports completed bachelor's degree at Northeast Missouri State University1992 and law degree at University of Kansas School of Law1996", "source_fragment": "Northeast Missouri State University", "supporting_fragments": ["1992", "University of Kansas School of Law", "1996"], "qualification": "Preserve historical institution name. Reported degree evidence, not independent transcript or identified undergraduate major."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_connection_first_person_multiple_legal_careers", "factual_reference_date": "2026", "value": "First survey answer describes Legal Aid and immigration law, disability advocacy, union leadership and federal administration", "source_fragment": "Legal Aid attorney", "supporting_fragments": ["immigration attorney"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "candidate_connection_reported_total_federal_service_duration", "factual_reference_date": "2026", "value": "First survey answer explicitly reports16 years of federal experience, corroborated with named agency roles in campaign and local interview", "source_fragment": "16 years of federal experience"}
+      ],
+      "extraction_review": "Only supplied biography, education fields and complete first survey answer are accepted, not snippets or unseen answers. No conclusion that all trait questions were absent/answered. Birthplace is not birth date, race or ethnicity. Current page's election outcomes do not replace frozen results."
+    },
+    {
+      "id": "220378-reflector-complete-written-interview",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "local_profile",
+      "url": "https://kansasreflector.com/2026/03/30/people-are-hurting-kansas-democrat-takes-aim-at-republican-incumbents-congressional-seat/",
+      "source_title": "Sherman Smith, Kansas Reflector: People are hurting, written Tyndell interview",
+      "publication_date": "2026-03-30", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Original publication March30; page metadata notes July27 modification. Written interview read completely; audio not listened to and linked Otter transcript body not retrieved.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, KS04 challenge to Ron Estes, Leading Kansas and NCAI/Wichita family-business career match campaign and dated questionnaire.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "University of Maryland, where she earned a law degree", "staff attorney for the National Congress of American Indians", "oil and gas operating company"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "attributed_completed_maryland_law_degree_and_stanford_study", "factual_reference_date": "2026-03-30", "value": "Interview explicitly reports completed University of Maryland law degree and earlier Stanford study; article alone does not explicitly award the Stanford BA", "source_fragment": "University of Maryland, where she earned a law degree"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "attributed_named_legal_employer_and_family_business_career", "factual_reference_date": "2026-03-30", "value": "National Congress of American Indians staff attorney, later family oil/gas business work and Leading Kansas civic-organization co-founder", "source_fragment": "staff attorney for the National Congress of American Indians", "supporting_fragments": ["oil and gas operating company"]}
+      ],
+      "extraction_review": "Read full original written account, not just podcast episode description. Other primary candidates' Army/Air Force service does not transfer to Tyndell. Political newcomer narrative does not prove no prior elected or appointed office. Advocacy involving federal legislation does not itself prove public employment or tribal/racial identity."
+    },
+    {
+      "id": "220378-farm-bureau-public-preview",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://www.kfb.org/Article/Katy-Tyndell",
+      "source_title": "Kansas Farm Bureau candidate background: public education and work-experience preview only",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Wichita business names, Stanford/Maryland award years and current manager role match the native campaign and dated KMUW questionnaire.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "Juris Doctor May 2009", "Bachelor of Arts May 2004", "Tallgrass Management", "Blue Stem Oil & Gas", "June 2013 - PRESENT"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_background_preview_completed_named_awards_with_month_year", "factual_reference_date": "2009-05", "value": "University of Maryland School of Law JD, May2009; Stanford BA, May2004", "source_fragment": "Juris Doctor May 2009", "supporting_fragments": ["Bachelor of Arts May 2004"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_background_preview_dated_manager_and_executive_roles", "factual_reference_date": null, "value": "Lists Tallgrass Management LLC and Blue Stem Oil & Gas LLC manager roles from2021; Oil Producers Inc.of Kansas executive committee from June2013. Describes operations, contracts, legal advice, accounting and regulatory-compliance duties", "source_fragment": "Tallgrass Management", "supporting_fragments": ["Blue Stem Oil & Gas", "June 2013 - PRESENT"], "qualification": "Present refers to the undated submission, not a separately verified November18 employment status."}
+      ],
+      "extraction_review": "Read the entire public preview through its truncation and Members Only Content notice. Remaining questionnaire requires membership and was not retrieved. No hidden body, login, paywall bypass or absent-field service inference. This partial source adds award-month and career-date detail, not first-evidence fields."
+    },
+    {
+      "id": "220378-dated-2025-panel-biography",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "earlier_biography",
+      "url": "https://www.finishingschoolformodernwomen.com/post/meet-the-panelists-for-the-activate-advocacy-panel-discussion",
+      "source_title": "Activate Advocacy Panel: complete Katy Tyndell speaker biography",
+      "publication_date": "2025-05-12", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Page published May12,2025 and updated July19,2025. Actual event May28. Version available at initial publication is not independently archived.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Leading Kansas co-founder, Wichita/Tallgrass/NCAI career and Stanford/Maryland awards identify the same retained candidate before federal candidacy.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "B.A. from Stanford University (2004)", "University of Maryland School of Law (2009)", "manager of Tallgrass Management, LLC", "Steering Committee"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_pre_campaign_speaker_biography_completed_named_ba_jd", "factual_reference_date": "2025", "value": "Reports Stanford BA2004 and Maryland School of Law JD2009; licensed to practice in four jurisdictions including Kansas", "source_fragment": "B.A. from Stanford University (2004)", "supporting_fragments": ["University of Maryland School of Law (2009)"], "qualification": "Speaker biography, not independently acquired diploma or licensing-register extract."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_pre_campaign_manager_attorney_and_nonprofit_founder_roles", "factual_reference_date": "2025", "value": "Tallgrass manager/legal advisor, former NCAI staff attorney and Leading Kansas co-founder", "source_fragment": "manager of Tallgrass Management, LLC"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "dated_pre_campaign_council_role_without_paid_employee_status", "factual_reference_date": "2025", "value": "Sedgwick County Fire District Steering Committee chair; children's school advisory-board role retained as advisory rather than employment", "source_fragment": "Steering Committee", "qualification": "No paid-government or elected-office classification inferred. Official minutes separately establish role scope."}
+      ],
+      "extraction_review": "Read whole event page and complete Tyndell subsection. Its biography closely matches Leading Kansas founders page, so the latter is not counted as another independent biographical document. Other panelists' education, identity and occupations do not transfer. Organization name or event participation does not independently classify the candidate's gender."
+    },
+    {
+      "id": "220378-official-fire-council-2026-resignation-announcement",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "official_biography",
+      "url": "https://www.sedgwickcounty.org/media/71235/fire-district-1-steering-council-meeting-02-05-2026.pdf",
+      "source_title": "Sedgwick County Fire District1 Steering Council meeting, February5,2026",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Meeting date February5,2026; exact PDF publication date unknown. Complete three-page meeting document read.",
+      "identity_status": "verified",
+      "identity_qualification": "Full Katy Jackman Tyndell name and exact fire-district steering-council chair role match native campaign,2025 speaker biography and2023 official council record.",
+      "identity_fragments": ["Katy Jackman Tyndell"],
+      "source_excerpts": ["Katy Jackman Tyndell", "Member at Large #3 Unincorporated Area", "Chairman Katy Jackman Tyndell at 1802", "announced her resignation from the steering committee"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_dated_steering_council_chair_and_resignation_announcement", "factual_reference_date": "2026-02-05", "value": "Official minutes identify chair and member-at-large for unincorporated area3; reports announcing resignation during this meeting", "source_fragment": "Chairman Katy Jackman Tyndell at 1802", "supporting_fragments": ["Member at Large #3 Unincorporated Area", "announced her resignation from the steering committee"], "qualification": "Resignation announcement date is not automatically formal acceptance/effective date. No compensation or elected-office mechanism established; retain partial government-role evidence, not a paid-employment value."}
+      ],
+      "extraction_review": "Read all overview, attendance, motions and adjournment sections. Distinguish council members from named paid fire-department staff. Discussion of firefighters' pay plans does not prove council-member salaries. No birth, religion, identity or military absence inferred."
+    },
+    {
+      "id": "220378-official-fire-council-2023-introduction",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "official_biography",
+      "url": "https://www.sedgwickcounty.org/media/65138/fire-district-1-steering-council-meeting-07-18-2023.pdf",
+      "source_title": "Sedgwick County Fire District1 Steering Council, July18,2023: opening introductions and council-role explanation",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Meeting July18,2023; exact publication day unknown. Read opening introductions and commission chair's role explanation, not entire lengthy meeting transcript.",
+      "identity_status": "verified",
+      "identity_qualification": "Attendance list uses exact Katy Jackman Tyndell name; introduction transcribes Katie Jackman Tyndale. Matching unincorporated-area council role and Oil Producers executive role corroborate spelling variants against native campaign and Farm Bureau preview.",
+      "identity_fragments": ["Katy Jackman Tyndell"],
+      "source_excerpts": ["Katy Jackman Tyndell", "At Large Member from Unincorporated Areas", "executive committee for oil producers Inc. of Kansas", "decisions that advise us as a commission"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_first_person_industry_executive_role_in_official_minutes", "factual_reference_date": "2023-07-18", "value": "Introduces herself as Oil Producers Inc.of Kansas executive-committee member with oil/gas leases operated in unincorporated Sedgwick County", "source_fragment": "executive committee for oil producers Inc. of Kansas"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "official_steering_council_membership_and_expressly_advisory_authority", "factual_reference_date": "2023-07-18", "value": "At-large unincorporated-area member of steering council; commission chair explicitly explains that council decisions advise county commission, which retains final approval", "source_fragment": "At Large Member from Unincorporated Areas", "supporting_fragments": ["decisions that advise us as a commission"], "qualification": "Advisory scope directly documented. Neither a joking pay remark nor other members' election/appointment histories establish this candidate's compensation or elected-office mechanism."}
+      ],
+      "extraction_review": "Candidate's complete opening introduction and commission chair's explanation read. Neighboring mayors' public offices and fire staff employment are not hers. No inference about unreviewed transcript remainder or missing sensitive/service traits."
+    },
+    {
+      "id": "220378-ballotpedia-complete-three-response-survey",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Katy_Tyndell",
+      "source_title": "Katy Tyndell: biography and all three published2026 Candidate Connection responses",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, KS04 Democratic candidacy, actual native campaign link and matching Stanford/Maryland career chronology identify retained subject.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "Enterprise High School", "Stanford University in 2004", "University of Maryland School of Law in 2009", "an attorney, business owner", "across federal government"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_named_completed_bachelors_law_awards_and_separate_high_school", "factual_reference_date": "2026", "value": "Biography explicitly reports Stanford bachelor's2004 and Maryland law degree2009. Enterprise High School listed separately; high-school completion date not established", "source_fragment": "Stanford University in 2004", "supporting_fragments": ["University of Maryland School of Law in 2009", "Enterprise High School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_attorney_and_business_owner_with_public_policy_work", "factual_reference_date": "2026", "value": "Self-described attorney/business owner/civic leader with oil/gas, small-business and public-policy experience", "source_fragment": "an attorney, business owner"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "broad_first_person_federal_experience_without_employer_role_or_compensation", "factual_reference_date": "2026", "value": "Reports experience across federal government, nonprofit advocacy and private enterprise", "source_fragment": "across federal government", "qualification": "Broad experience language does not independently establish a particular paid federal job. NCAI advocacy and official testimony remain distinct from employment."}
+      ],
+      "extraction_review": "Read complete Who are you, three campaign messages and public-policy responses through survey edit-policy note. No further answers published in this section. No military/race/ethnicity/religion negative from omission; mother's role, pronouns and policy positions are not identity classifications. Reproduced campaign-policy text is not another independent biography or updated scientific result."
+    },
+    {
+      "id": "220378-official-2022-written-testimony",
+      "candidate_id": "220378", "name": "Katy Tyndell", "state": "KS", "district": "04", "party": "Democratic",
+      "contest_id": "2026:house:KS:04:general:source_general", "family": "earlier_biography",
+      "url": "https://www.kslegislature.gov/li_2022/b2021_22/committees/ctte_s_fed_st_1/documents/testimony/20220302_03.pdf",
+      "source_title": "Katy Tyndell written-only testimony to Kansas Senate Federal and State Affairs Committee on SB192",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "source_date_note": "Written testimony dated March2,2022. Exact upload day unknown. Complete testimony and footnotes read; personal contact details not copied.",
+      "identity_status": "verified",
+      "identity_qualification": "Exact Katy Tyndell name, Wichita residence after2013 move and NCAI staff-attorney/volunteer history match campaign and dated speaker biography.",
+      "identity_fragments": ["Katy Tyndell"],
+      "source_excerpts": ["Katy Tyndell", "Staff Attorney for the National Congress of American Indians", "Volunteer with Moms Demand Action", "2013"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_pre_2013_ncai_attorney_career_and_separate_volunteer_role", "factual_reference_date": "2022-03-02", "value": "Reports NCAI staff-attorney career before moving from DC area to Wichita in2013;2022 Moms Demand Action role expressly volunteer", "source_fragment": "Staff Attorney for the National Congress of American Indians", "supporting_fragments": ["Volunteer with Moms Demand Action", "2013"], "qualification": "Professional career and volunteer advocacy are separate. Written testimony to government is not itself government employment, elected office, military service or racial/ethnic classification."}
+      ],
+      "extraction_review": "Read entire original including policy discussion and footnotes. General descriptions of women, domestic-violence victims and Native women are not candidate identity statements. Her family's nationality/roots and advocacy populations do not classify her ethnicity or race."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220344", "family": "university_employer_professional", "query": "Christina Bohannan University Iowa biography birthday education engineer state representative", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; original follow-ups recorded separately. No reconstructed per-query exhaustive result list."},
+    {"candidate_id": "220347", "family": "local_profile", "query": "Lindsay James Iowa biography chaplain education religion born", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; read originals, not snippets, support accepted facts."},
+    {"candidate_id": "220351", "family": "official_biography", "query": "Sarah Trone Garriott Iowa biography born education Lutheran AmeriCorps", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; official target sections separately read."},
+    {"candidate_id": "220369", "family": "local_profile", "query": "Lauren Reinhold Kansas biography age education law school", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; dated interview separately followed and read completely."},
+    {"candidate_id": "220378", "family": "local_profile", "query": "Katy Tyndell 2026 Congress age education religion biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; no identity or service values taken from snippets or generated summaries."},
+    {"candidate_id": "220344", "family": "university_employer_professional", "query": "Christina Bohannan site:law.uiowa.edu biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; faculty profile and readable CV education/work page separately accepted."},
+    {"candidate_id": "220347", "family": "official_biography", "query": "Lindsay James site:legis.iowa.gov biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query, not an exhaustive official-record search."},
+    {"candidate_id": "220351", "family": "official_biography", "query": "Sarah Trone Garriott site:legis.iowa.gov legislator biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; current directory and dated register treated separately."},
+    {"candidate_id": "220344", "family": "campaign", "query": "Hash-verify and read complete retained homepage, discover actual About link and read complete live biography", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://bohannanforcongress.com/about/"], "qualification": "No new homepage claim accepted; actual homepage SHA256aa257b8159d28679e421af9e0aa59b9b8b0b694f041397244c4b5ebed87ed873,50749bytes. About original live body actually read."},
+    {"candidate_id": "220347", "family": "campaign", "query": "Hash-verify and read complete retained campaign About body and all leadership sections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.lindsayforiowa.com/about"]},
+    {"candidate_id": "220351", "family": "campaign", "query": "Hash-verify and read complete retained campaign About biography, including AmeriCorps, education, ministry and elected-service sections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sarahforiowa.com/about/"]},
+    {"candidate_id": "220369", "family": "campaign", "query": "Hash-verify and read complete retained About biography and all Career & Experience subsections", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.laurenforkansas.com/about"]},
+    {"candidate_id": "220378", "family": "campaign", "query": "Read current native campaign homepage and both duplicate Meet Katy blocks, counting repeated statement once", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://katyforkansas.com/"]},
+    {"candidate_id": "220344", "family": "university_employer_professional", "query": "Follow and read complete University of Iowa faculty biography, education fields and current academic-leave qualification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://law.uiowa.edu/people/christina-bohannan"]},
+    {"candidate_id": "220344", "family": "earlier_biography", "query": "Read public reader's historical university CV education/employment first page; attempt ordinary verified HTTPS byte acquisition once", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://law.uiowa.edu/sites/law.uiowa.edu/files/2020-05/bohannan.pdf"], "qualification": "Reader-supplied first-page text supports accepted facts. Direct request returned403; no full-six-page reading, byte download or access bypass. Remaining CV sections not used to establish trait absence."},
+    {"candidate_id": "220351", "family": "official_biography", "query": "Read actual current state legislator page, then official2023-2024 register cover and complete Sarah Trone Garriott biography on PDF page53", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.legis.iowa.gov/docs/publications/REDBK/1441915.pdf", "https://www.legis.iowa.gov/legislators/legislator?personID=30551"], "lead_dispositions": {"https://www.legis.iowa.gov/legislators/legislator?personID=30551": {"status": "reviewed_no_requested_facts", "reason": "Current directory supplied minister occupation and Senate/committee context, redundant to the accepted dated register section. No extra independent document counted; directory/advisory membership does not establish another public job."}}},
+    {"candidate_id": "220347", "family": "official_biography", "query": "Read complete Lindsay James biography on PDF page77 of the same single official-register acquisition, separating neighboring candidates", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.legis.iowa.gov/docs/publications/REDBK/1441915.pdf"]},
+    {"candidate_id": "220347", "family": "ballotpedia_questionnaire", "query": "Follow substantive Dubuque Chamber first-person candidate questionnaire and read every candidate answer", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.dubuquechamber.com/advocacy/candidate-profiles/lindsay-james/"], "qualification": "Simplifier initially400; ordinary public reader supplied full original body. No blocked authentication/captcha bypass."},
+    {"candidate_id": "220378", "family": "ballotpedia_questionnaire", "query": "Read dated KMUW/Wichita Eagle primary questionnaire in two content portions, including complete Tyndell biography and all answers", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kmuw.org/2026-07-20/voter-guide-u-s-congressional-4th-district-candidates-for-the-august-primary-election"]},
+    {"candidate_id": "220369", "family": "local_profile", "query": "Follow actual Leader & Times original and read complete dated interview rather than accepting an age snippet", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://liberalfirst.com/index.php/news/531-reinhold-challenging-for-big-first-district-seat"]},
+    {"candidate_id": "220369", "family": "ballotpedia_questionnaire", "query": "Follow exact Ballotpedia person record; read supplied biography, education fields and first2026 Candidate Connection answer", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Lauren_Reinhold"], "qualification": "Public reader supplied bounded original sections; full remaining survey not read. Simplifier supplied no usable body and no unsupported HTTP code is invented. Do not repeatedly retry or count an exhaustive questionnaire pass."},
+    {"candidate_id": "220378", "family": "local_profile", "query": "Read original Kansas Reflector podcast landing text, follow actual written-interview link and read full article; inspect linked transcript once", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://kansasreflector.com/2026/03/30/people-are-hurting-kansas-democrat-takes-aim-at-republican-incumbents-congressional-seat/", "https://kansasreflector.com/podcasts/katy-tyndell-makes-leap-from-civic-engagement-work-t-congressional-race/", "https://otter.ai/u/Ky9S2-Ynol3hQkpPgu4BRIHIH64?utm_source=copy_url"], "lead_dispositions": {"https://kansasreflector.com/podcasts/katy-tyndell-makes-leap-from-civic-engagement-work-t-congressional-race/": {"status": "duplicate_reviewed_original", "reason": "Episode description and actual article link read; accepted full written interview is underlying account of the same interview, not another independent biography. Audio not listened to."}, "https://otter.ai/u/Ky9S2-Ynol3hQkpPgu4BRIHIH64?utm_source=copy_url": {"status": "access_failure", "reason": "Only application HTML/scripts supplied; no usable transcript body. No transcript or audio reading claimed, no login bypass."}}},
+    {"candidate_id": "220378", "family": "university_employer_professional", "query": "\"Katy Tyndell\" \"Stanford\" \"Maryland\" biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "qualification": "Single actual query returned Kansas Farm Bureau preview, Leading Kansas founders, Ballotpedia and dated2025 panel biography; all four originals followed. Wichita Eagle version is the already accepted KMUW shared questionnaire, not another independent original.", "underlying_urls": ["https://www.kfb.org/Article/Katy-Tyndell", "https://leadingkansas.org/founders/", "https://ballotpedia.org/Katy_Tyndell", "https://www.finishingschoolformodernwomen.com/post/meet-the-panelists-for-the-activate-advocacy-panel-discussion"], "lead_dispositions": {"https://leadingkansas.org/founders/": {"status": "duplicate_reviewed_original", "reason": "Read entire founders page and Tyndell subsection. Dated2025 speaker biography closely repeats this founder bio; accepted once as the dated earlier biography, not independent corroboration. Chris Jantz's Iowa/MIT degrees and other founders' military service do not transfer."}}},
+    {"candidate_id": "220378", "family": "official_biography", "query": "\"Katy Tyndell\" \"Senate Library\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "One of three actual batched queries. Principle Civics search result claims early Senate/DOJ work but is not an acquired primary employment original. No job or paid status accepted from snippet."},
+    {"candidate_id": "220378", "family": "earlier_biography", "query": "\"Katy Jackman\" \"Tribal Justice\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched alias query. NCAI attorney advocacy is not the same as DOJ employment; do not transfer other speakers' government jobs."},
+    {"candidate_id": "220378", "family": "official_biography", "query": "\"Katy Tyndell\" \"Fire District\" site:sedgwickcounty.org", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; original meeting records separately followed. Other retrieved agendas remain discovery, not fully read biographies."},
+    {"candidate_id": "220378", "family": "official_biography", "query": "Read complete February5,2026 council minutes and opening July18,2023 introductions/role explanation; inspect March11 county governing-body public page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.sedgwickcounty.org/media/71235/fire-district-1-steering-council-meeting-02-05-2026.pdf", "https://www.sedgwickcounty.org/media/65138/fire-district-1-steering-council-meeting-07-18-2023.pdf", "https://imaging.sedgwickcounty.org/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=2&id=1396"], "lead_dispositions": {"https://imaging.sedgwickcounty.org/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=2&id=1396": {"status": "access_failure", "reason": "Ordinary public reader supplied only agenda/minutes application navigation, not actual March11 minutes body. Search text describes resignation acceptance, but no acceptance/effective date accepted from snippet. February announcement independently read."}}},
+    {"candidate_id": "220378", "family": "official_biography", "query": "\"Katy Jackman\" Senate Justice biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "qualification": "Single actual query returned NCAI consultation/letter records and a payroll aggregator entry for Katy R.Jackman. Full payroll identity bridge and official employment original not acquired; no paid-government claim accepted. These discovery URLs are not represented as read originals. Prior public testimony lead was followed separately.", "underlying_urls": ["https://www.legistorm.com/office/Senate_Secretary_of_the_Senate_Administrative_Services/24/2/end_date/asc.html", "https://www.justice.gov/archive/ovw/docs/2010-tribal-consultation-report.pdf"]},
+    {"candidate_id": "220378", "family": "university_employer_professional", "query": "\"Katy Jackman\" \"Maryland\" Senate", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query. No independently read awarding-university or Senate-employment biography yielded by this recorded attempt."},
+    {"candidate_id": "220378", "family": "ballotpedia_questionnaire", "query": "\"Katy Tyndell\" religion church military veteran", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched query; iVoterGuide and written state testimony followed as originals. Neighboring pastors, veterans, church basements and subject-matter advocacy are not candidate identity or service values."},
+    {"candidate_id": "220378", "family": "earlier_biography", "query": "\"Katy Jackman\" \"Office of Tribal Justice\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Actual batched alias query; consultation documents placing NCAI attorney next to actual DOJ staff do not prove she held their jobs."},
+    {"candidate_id": "220378", "family": "earlier_biography", "query": "Follow and read complete March2,2022 first-person written testimony, including biography and footnotes", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kslegislature.gov/li_2022/b2021_22/committees/ctte_s_fed_st_1/documents/testimony/20220302_03.pdf"]},
+    {"candidate_id": "220378", "family": "ballotpedia_questionnaire", "query": "Follow exact2026 iVoterGuide person page and read complete biography fields and all questionnaire outcomes", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "no_qualifying_results", "underlying_urls": ["https://ivoterguide.com/candidate/97228/race/31722/election/1468"], "lead_dispositions": {"https://ivoterguide.com/candidate/97228/race/31722/election/1468": {"status": "reviewed_no_requested_facts", "reason": "Actual matched profile marks education, work/military, affiliations and offices Candidate did not provide, and all survey questions Did not answer, including spiritual beliefs. These are nonresponses, not explicit nonreligion, nonservice or no-office answers. Evaluator ideology labels and endorsements do not classify background traits or replace scientific ideology measures."}}}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220344", "leads": ["Continue explicit ethnicity/affiliation and scoped military-service research in original questionnaires and substantive earlier/local profiles; omission is not a negative.", "Current faculty leave and historical state/federal jobs are separate dated facts. The CV's remaining unread sections cannot establish missing-trait absence; direct403 prevents further byte retrieval.", "Find independent original age/birth corroboration if needed; do not promote inconsistent or stale questionnaire ages without reference-date review."]},
+    {"candidate_id": "220347", "leads": ["Qualify county-extension election/appointment mechanism and any actual paid public employment separately from commission/council service.", "Continue explicit race/ethnicity and military comparison research, never using NAACP membership, photographs or pronouns as identity evidence.", "Keep Presbyterian ordination and Lutheran congregation membership source/date-specific; seek a dated current affiliation statement rather than silently forcing exclusive labels."]},
+    {"candidate_id": "220351", "leads": ["Investigate actual employment versus volunteer status for specific government-hosted service; board memberships alone do not qualify a paid job.", "Continue explicit race/ethnicity, scoped military service and substantive local/university/earlier biography research.", "IA03 religion prediction failure is unchanged and methodological, not solved by adding another factual affiliation citation."]},
+    {"candidate_id": "220369", "leads": ["Seek a dated direct age/birth statement or primary record beyond age22 on arrival sometime in1993; current interval remains partial.", "Follow accessible awarding-university/alumni or professional originals for completed1992/1996 credentials and career chronology.", "Remaining Candidate Connection responses were not fully read; seek permitted originals without retrying empty responses or bypassing restrictions. Continue explicit affiliation/identity and scoped office/military questions."]},
+    {"candidate_id": "220378", "leads": ["Official2023 minutes establish advisory authority;2026 minutes establish chair role and resignation announcement. Paid employee status/election mechanism remain unproven, and March11 acceptance minutes did not render.", "Seek a primary employment original and qualified identity bridge for claimed early Senate/DOJ work; payroll aggregator Katy R.Jackman is not automatically this candidate. Farm Bureau remainder is members-only and was not accessed.", "Continue explicit identity/affiliation and scoped service questions; completed iVoterGuide reading supplied nonresponses, not negatives. NCAI employment/NAACP volunteering do not classify race or ethnicity. The unread transcript is not evidence; complete written account has been read."]}
+  ]
+}
