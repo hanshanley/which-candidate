@@ -61,15 +61,15 @@ candidate_id,name,state,district,party,incumbency_group,research_status,families
 220115,Robert People,FL,15,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",3,[]
 220083,Seth Harp,FL,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.sethharpforcongress.com/""]"
 220125,Victor Arias,FL,19,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://ariasforcongress.us""]"
-220172,Amanda Hollowell,GA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://amandaforga.com""]"
+220172,Amanda Hollowell,GA,01,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""earlier_biography"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",5,"[""https://amandaforga.com""]"
 220184,Anthony Kozycki,GA,07,Democratic,nonincumbent,in_progress,"[""campaign"", ""university_employer_professional""]",2,"[""https://kozyckiforcongress.com""]"
-220188,Caitlyn Gegen,GA,09,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://caitlynforgeorgia.com""]"
-220194,Ceretta Smith,GA,12,Democratic,nonincumbent,not_yet_researched,[],0,[]
-220192,Chris Harden,GA,11,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.chrishardenforcongress.com""]"
-220195,Jasmine Clark,GA,13,Democratic,nonincumbent,not_yet_researched,[],0,[]
-42478026,Kelly Esti,GA,08,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://kellyesti4congress.com""]"
-220176,Maura Keller,GA,03,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.maurakeller.com""]"
-220190,Pamela DeLancy,GA,10,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://votepamdelancy.com""]"
+220188,Caitlyn Gegen,GA,09,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",8,"[""https://caitlynforgeorgia.com""]"
+220194,Ceretta Smith,GA,12,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""official_biography"", ""university_employer_professional""]",9,[]
+220192,Chris Harden,GA,11,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""local_profile"", ""university_employer_professional""]",3,"[""https://www.chrishardenforcongress.com""]"
+220195,Jasmine Clark,GA,13,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography""]",2,[]
+42478026,Kelly Esti,GA,08,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""university_employer_professional""]",3,"[""https://kellyesti4congress.com""]"
+220176,Maura Keller,GA,03,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",1,"[""https://www.maurakeller.com""]"
+220190,Pamela DeLancy,GA,10,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign""]",3,"[""https://votepamdelancy.com""]"
 220198,Shawn Harris,GA,14,Democratic,nonincumbent,in_progress,"[""campaign"", ""official_biography"", ""university_employer_professional""]",3,"[""https://www,shawnforgeorgia.com""]"
 220344,Christina Bohannan,IA,01,Democratic,nonincumbent,not_yet_researched,[],0,"[""https://www.bohannanforcongress.com""]"
 220353,Dave Dawson,IA,04,Democratic,nonincumbent,in_progress,"[""ballotpedia_questionnaire"", ""campaign"", ""official_biography""]",4,[]

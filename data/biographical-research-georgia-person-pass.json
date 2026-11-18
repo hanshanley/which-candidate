@@ -1,0 +1,423 @@
+{
+  "scope": "Continue the national person-level pass with previously unresearched Democratic federal nonincumbents Amanda Hollowell, Caitlyn Gegen and Ceretta Smith. Preserve literal qualifications, foreign government employment, imprecise ages and conflicting degree-major descriptions. No historical fit changes.",
+  "documents": [
+    {
+      "id": "220172-retained-complete-campaign-about",
+      "candidate_id": "220172", "name": "Amanda Hollowell", "state": "GA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:GA:01:general:source_general", "family": "campaign",
+      "url": "https://www.amandaforga.com/about", "source_title": "Amanda for Georgia: complete substantive About biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220172-bio2/campaign-220172-bio2",
+      "retained_sha256": "263808b15dde2c4fd0c05a1a3d0b246fe79442c0c8f75d65c10dfe11eb06aaf8",
+      "identity_status": "verified", "identity_qualification": "Exact name, GA01, native campaign domain, Savannah civic work and named organizing employers identify the retained candidate. Cached about-amanda request resolved to /about.",
+      "identity_fragments": ["Amanda Hollowell"],
+      "source_excerpts": ["Amanda Hollowell", "Chief of Campaigns", "Color Of Change", "When We All Vote", "Georgia Budget and Policy Institute", "9to5 Georgia", "B.A. in American Studies"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_reported_named_career_and_employers", "factual_reference_date": null, "value": "Political strategist and Color Of Change chief of campaigns; prior national organizing at When We All Vote and campaign strategy at GBPI and 9to5 Georgia", "source_fragment": "Chief of Campaigns", "supporting_fragments": ["Color Of Change", "When We All Vote", "Georgia Budget and Policy Institute", "9to5 Georgia"]},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_completed_award_institution_and_campaign_reported_major", "factual_reference_date": null, "value": "Campaign reports a BA in American Studies from the University of California, Berkeley", "source_fragment": "B.A. in American Studies", "unresolved_details": ["The earlier interview host instead describes the Berkeley bachelor's major as business communication. The shared completed bachelor's/institution fact is retained; the major is not treated as independently resolved."]}
+      ],
+      "extraction_review": "Read the entire cached body. Father's military service is not hers. Racial-justice work, Black Heritage Festival service and group memberships alone do not classify her identity. Nonprofit policy advocacy is not government employment."
+    },
+    {
+      "id": "220172-complete-earlier-interview-host-biography",
+      "candidate_id": "220172", "name": "Amanda Hollowell", "state": "GA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:GA:01:general:source_general", "family": "earlier_biography",
+      "url": "https://www.omkariwilliams.com/amanda-hollowell", "source_title": "Omkari Williams, Stepping Into Truth episode 7: Amanda Hollowell",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Savannah residence, Berkeley graduation, civic work and the same publicly named son in the campaign biography corroborate the guest; no relative's traits are imported.",
+      "identity_fragments": ["Amanda Hollowell"],
+      "source_excerpts": ["Amanda Hollowell", "growing up black in predominantly white communities", "bachelor’s degree in business communication", "University of California at Berkeley", "community activist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_public_interview_host_classification_not_appearance_inference", "factual_reference_date": null, "value": "Host explicitly describes the guest's experience growing up Black in predominantly white communities", "source_fragment": "growing up black in predominantly white communities", "qualification": "An attributed publisher description of the interview, not a quotation transcribed from the audio or a non-Hispanic ethnic classification."},
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_bachelors_with_unresolved_major_disagreement", "factual_reference_date": null, "value": "Host reports a completed Berkeley bachelor's in business communication; the campaign reports American Studies", "source_fragment": "bachelor’s degree in business communication", "supporting_fragments": ["University of California at Berkeley"], "unresolved_details": ["Preserve the disagreement in major. Do not silently substitute one major, invent two degrees or mark the shared completed bachelor's fact unproven."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_public_host_description_of_civic_role", "factual_reference_date": null, "value": "Community activist with volunteer work in technology, health, politics and culture", "source_fragment": "community activist", "qualification": "Volunteering does not establish paid employment."}
+      ],
+      "extraction_review": "Read the complete actual episode page and host biography. The linked audio was not transcribed or listened to; no audio-only claim is accepted. Copyright year is not an episode publication date."
+    },
+    {
+      "id": "220172-dated-employer-original",
+      "candidate_id": "220172", "name": "Amanda Hollowell", "state": "GA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:GA:01:general:source_general", "family": "university_employer_professional",
+      "url": "https://gbpi.org/the-future-of-people-powered-prosperity/", "source_title": "GBPI, Amanda Hollowell: The Future of People-Powered Prosperity",
+      "publication_date": "2020-09-08", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name and distinctive employer/title match the campaign's stated GBPI history; employer publishes her byline and substantive author-role paragraph.",
+      "identity_fragments": ["Amanda Hollowell"],
+      "source_excerpts": ["Amanda Hollowell", "director of strategic campaigns", "Georgia Budget and Policy Institute"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_employer_original_named_position", "factual_reference_date": "2020-09-08", "value": "GBPI identifies Hollowell as its director of strategic campaigns in September 2020", "source_fragment": "director of strategic campaigns", "supporting_fragments": ["Georgia Budget and Policy Institute"]}
+      ],
+      "extraction_review": "Read the entire original. Faith in Public Life is a coalition partner, not her personal religion. Another participant's ministry title is not Hollowell's. Nonprofit budget advocacy is not public employment."
+    },
+    {
+      "id": "220188-rendered-complete-campaign-home",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "campaign",
+      "url": "https://caitlynforgeorgia.com/pages/index.html", "source_title": "Caitlyn Gegen for Congress: browser-rendered full home and About section",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Native campaign domain, exact name, GA09, 2026 general-election reminder and named campaign committee match the retained person.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "University of Georgia", "London School of Economics", "community organizer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_reported_three_completed_degrees", "factual_reference_date": null, "value": "Bachelor's and master's from the University of Georgia and a master's from the London School of Economics; fields and years unspecified here", "source_fragment": "University of Georgia", "supporting_fragments": ["London School of Economics"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_reported_organizing_work", "factual_reference_date": null, "value": "Community organizer working on women's rights and criminal-justice reform", "source_fragment": "community organizer"}
+      ],
+      "extraction_review": "The retained 1,670-byte HTML body contains only a skip link, not an exhausted biography. A normal Chromium HTTP-200 render loaded the substantive page; all body text and actual navigation links were read, and the browser closed. This is a concrete extraction correction, not hundreds of repeat downloads. No cached body was silently promoted into source text."
+    },
+    {
+      "id": "220188-complete-substantive-jejune-interview",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "local_profile",
+      "url": "https://jejeune-magazine.squarespace.com/home/caitlyn-gegen-georgias-9th-congressional-district",
+      "source_title": "Jejune, Andrew F: full Caitlyn Gegen interview",
+      "publication_date": "2026-05-07", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Suwanee, GA09, Andrew Clyde opponent, UGA/LSE education and actual campaign link identify the retained candidate.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "As a white woman", "As a local government employee", "community organizer", "studying at the London School of Economics"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_first_person_racial_self_description", "factual_reference_date": "2026-05-07", "value": "Explicitly self-describes as white", "source_fragment": "As a white woman", "qualification": "Does not establish non-Hispanic ethnicity."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_first_person_woman_self_description", "factual_reference_date": "2026-05-07", "value": "Explicitly self-describes as a woman", "source_fragment": "As a white woman"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_first_person_local_government_employee_statement", "factual_reference_date": "2026-05-07", "value": "Reports working as a local-government employee addressing residents' housing and energy concerns", "source_fragment": "As a local government employee", "qualification": "Retain the public-employment claim separately from elected office. A matching named employer is reported by BallotReady; foreign versus U.S. employment is not silently collapsed for any frozen analytical definition."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_career_and_organizing_work", "factual_reference_date": "2026-05-07", "value": "Community organizer and local-government employee; protest organizing and constituent-advocacy training", "source_fragment": "community organizer"},
+        {"trait": "education", "factual_status": "partial", "precision": "explicit_study_and_scholarship_not_additional_completed_award", "factual_reference_date": "2026-05-07", "value": "Reports UGA Double Dawg/HOPE scholarship experience and study at LSE; completed awards are supplied by the campaign and professional profile", "source_fragment": "studying at the London School of Economics"}
+      ],
+      "extraction_review": "Read every displayed interview answer through final campaign links. The author's generational label supplies no exact age. Parents' public-school jobs and sister's nursing job are not hers. First-person identity is explicit, not pronoun/photograph inference."
+    },
+    {
+      "id": "220188-complete-professional-and-degree-profile",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.ballotready.org/people/caitlyn-gegen", "source_title": "BallotReady: Caitlyn Gegen complete professional experience and degrees",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA09 general election, verified campaign link and concordant UGA/LSE studies identify the retained person.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "London Borough of Camden", "Member Support Officer", "Starbucks", "The 2030 Project Inc.", "Bluebird PAC", "Master's", "Bachelor's"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_completed_awards_fields_and_years", "factual_reference_date": null, "value": "UGA bachelor's in International Relations and Affairs and master's in Public Administration, both 2021; LSE master's in Gender, Peace, and Security, 2022", "source_fragment": "Master's", "supporting_fragments": ["Bachelor's"], "qualification": "Attributed profile reports; not independently obtained university award records."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_multiple_named_jobs_and_dates", "factual_reference_date": null, "value": "Camden member support officer 2022-2025; The 2030 Project program manager 2023-2024; Bluebird PAC program manager 2020-2021; Starbucks barista listed 2025-present", "source_fragment": "Member Support Officer", "supporting_fragments": ["The 2030 Project Inc.", "Bluebird PAC", "Starbucks"], "qualification": "Present is the undated profile's wording, not independent proof of election-day employment."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "named_foreign_local_government_role_corroborating_explicit_employee_statement", "factual_reference_date": "2025", "value": "Publisher reports London Borough of Camden member support officer, 2022-2025", "source_fragment": "London Borough of Camden", "supporting_fragments": ["Member Support Officer"], "qualification": "A United Kingdom local-government role. Retain its jurisdiction and attributed dates; do not silently make it a U.S. government job or change the historical analytical eligibility rule."}
+      ],
+      "extraction_review": "Read the actual complete profile, not just its search snippet. School names and employment titles do not classify race, ethnicity or religion. Source-family label denotes professional-history investigation; BallotReady is not her employer."
+    },
+    {
+      "id": "220188-dated-university-news-original",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "earlier_biography",
+      "url": "https://gradynewsource.uga.edu/uga-students-hold-commit-to-choice-protest-in-opposition-to-heartbeat-bill/",
+      "source_title": "UGA Grady Newsource, March 28, 2019: Commit to Choice protest",
+      "publication_date": "2019-03-28", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, UGA International Affairs studies and named protest-organizing activity corroborate the present candidate's detailed first-person educational and organizing history.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "UGA student studying International Affairs", "one of the organizers"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "dated_university_news_attendance_and_subject_not_graduation", "factual_reference_date": "2019-03-28", "value": "UGA student studying International Affairs in March 2019", "source_fragment": "UGA student studying International Affairs"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_organizing_activity_not_assumed_paid_employment", "factual_reference_date": "2019-03-28", "value": "Identified as a Commit to Choice protest organizer", "source_fragment": "one of the organizers"}
+      ],
+      "extraction_review": "Read the complete underlying university-news article. The reporter's graduating-senior status is not Gegen's. This dated event does not establish her birthday or a degree-completion date."
+    },
+    {
+      "id": "220194-complete-current-campaign",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "campaign",
+      "url": "https://cerettaforga.com/", "source_title": "Ceretta for Georgia: complete About, service and platform biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Ballotpedia-linked cerettaforgeorgia.com redirects normally here; exact name, GA12, Grovetown council and AFGE career corroborate the native person.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "U.S. Army medic", "federal employee", "national union leader", "city councilmember", "Grovetown Councilwoman"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_candidate_report_of_own_army_service", "factual_reference_date": null, "value": "Reports nearly a decade as a U.S. Army medic", "source_fragment": "U.S. Army medic", "qualification": "Her own service, not her husband's service or a veterans endorsement."},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_report_of_civilian_federal_employment", "factual_reference_date": null, "value": "Reports prior federal employment separately from military and union roles; exact civilian job dates unresolved", "source_fragment": "federal employee", "qualification": "Union leadership alone is not the basis for coding public employment. Reported career durations are not converted into invented start/end dates."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "candidate_reported_named_municipal_office", "factual_reference_date": null, "value": "Grovetown city councilmember; exact elected term dates supplied only where separately supported", "source_fragment": "city councilmember", "supporting_fragments": ["Grovetown Councilwoman"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_multiple_service_and_labor_careers", "factual_reference_date": null, "value": "Army medic, federal employee, national union leader and municipal officeholder", "source_fragment": "national union leader"}
+      ],
+      "extraction_review": "Read all substantive campaign text. No race/ethnicity or religious identity is inferred from photographs, endorsements, office or military service."
+    },
+    {
+      "id": "220194-partial-profile-and-survey-opening",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Ceretta_Smith",       "source_title": "Ballotpedia: Ceretta Smith profile and previously read opening of 2025 Candidate Connection",
+      "publication_date": null, "survey_response_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA12, Grovetown, campaign domain and Army/AFGE career match the retained person.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "U.S. Army", "1992", "2000", "Christian", "2004", "2008", "2024", "federal employee", "Councilwoman", "substitute teacher"],
+      "traits_reviewed": ["religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "read_status": "partial_profile_and_opening_survey_only",
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_awards_with_unspecified_graduate_titles", "factual_reference_date": null, "value": "Minnesota Graduate School of Theology bachelor's 2004; Calvary Bible Institute graduate degree 2008; Deeper Bible College degree 2024", "source_fragment": "2004", "supporting_fragments": ["2008", "2024"], "qualification": "Attributed profile, not independently verified awards. No unspecified graduate award is renamed a master's or doctorate.", "unresolved_details": ["BallotReady lists different institutions and additional award titles. Preserve both attributed accounts; they have not been reconciled as additional credentials, substitutions or publisher errors."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_named_careers", "factual_reference_date": null, "value": "Physical-evaluation boards liaison at Eisenhower Army Medical Center, union official and substitute teacher", "source_fragment": "substitute teacher"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_candidate_report_corroborated_by_city_record", "factual_reference_date": "2025", "value": "Grovetown councilwoman; opening survey biography describes prior elected service", "source_fragment": "Councilwoman"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_candidate_civilian_federal_employee_report", "factual_reference_date": "2025", "value": "Opening survey biography reports twenty-five years as a federal employee; exact chronology unresolved", "source_fragment": "federal employee"},
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_own_service_with_attributed_publisher_years", "factual_reference_date": null, "value": "Army service; publisher lists 1992-2000", "source_fragment": "U.S. Army", "supporting_fragments": ["1992", "2000"]},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_publisher_affiliation", "factual_reference_date": null, "value": "Profile explicitly lists Christian", "source_fragment": "Christian", "qualification": "Undated profile affiliation is not assigned a survey date; no denomination inferred."}
+      ],
+      "extraction_review": "Retain only the previously actually read profile and opening survey paragraphs. Subsequent web-reader calls returned no usable body, the simplifier returned no content, and one ordinary direct request returned HTTP 202 with zero bytes. Remaining answers, birth-year response and footnote date were not actually read and are not accepted as facts. No challenge bypass or further retry."
+    },
+    {
+      "id": "220194-dated-official-council-agenda",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "official_biography",
+      "url": "https://cityofgrovetown.com/AgendaCenter/ViewFile/ArchivedAgenda/_06092025-338",
+      "source_title": "City of Grovetown: June 9, 2025 agenda with May 12, 2025 council minutes",
+      "publication_date": "2025-06-09", "accessed_at": "2026-11-18", "original_bytes_acquired": true, "original_bytes_retained": false, "original_byte_count": 694980,
+      "identity_status": "verified", "identity_qualification": "Exact name and specific Grovetown council office independently corroborate the candidate's campaign and survey identity bridge.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "Councilmember Ceretta Smith", "May 12, 2025", "chair of the ad hoc committee"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_city_original_identifying_council_role", "factual_reference_date": "2025-05-12", "value": "City minutes identify Smith as a participating councilmember and appointed chair of a storm-water study committee", "source_fragment": "Councilmember Ceretta Smith", "qualification": "Corroborates council service by this date; the additional committee appointment is not a separate elected office or paid government job. Exact term boundaries remain unverified."}
+      ],
+      "source_locator": "HTTP 200, 694980-byte, 26-page PDF. Read the June 9 agenda on indices 0-1 and matching complete minutes pages on indices 2, 4 and 9; remaining packet items were not read or counted. May 12 is the meeting date inside the June 9 packet."
+    },
+    {
+      "id": "220194-complete-dated-professional-union-original",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.afge.org/publication/largest-federal-employee-union-endorses-ceretta-smith-for-election-to-congress/",
+      "source_title": "AFGE: December 19, 2025 Ceretta Smith endorsement and career biography",
+      "publication_date": "2025-12-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA12, Grovetown council and AFGE roles match the native candidate and the campaign's link.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "U.S. Army veteran", "medic", "24-year career in the federal government", "past president", "AFGE Local 2017", "Grovetown City Council member", "small business owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_union_original_named_positions_and_multiple_careers", "factual_reference_date": "2025-12-19", "value": "Local 2017 past president/member; Council 172 fair-practices and women's coordinator; former state-council president; small-business owner", "source_fragment": "AFGE Local 2017", "supporting_fragments": ["past president", "small business owner"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_professional_original_explicit_own_service", "factual_reference_date": "2025-12-19", "value": "AFGE reports nearly a decade as an Army medic", "source_fragment": "U.S. Army veteran", "supporting_fragments": ["medic"]},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_professional_original_explicit_civilian_career", "factual_reference_date": "2025-12-19", "value": "AFGE reports a separate twenty-four-year federal-government career after military service", "source_fragment": "24-year career in the federal government", "qualification": "Source-attributed duration, not verified start/end dates; the later survey opening reports twenty-five years."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_professional_original_named_municipal_office", "factual_reference_date": "2025-12-19", "value": "AFGE identifies her as a Grovetown city council member", "source_fragment": "Grovetown City Council member"}
+      ],
+      "extraction_review": "Blank earlier web-reader output was not a completed review. A normal direct page simplification returned the full dated release, which was read through its closing organizational paragraph. No access restriction was bypassed."
+    },
+    {
+      "id": "220194-earlier-public-campaign-biography",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "earlier_biography",
+      "url": "https://asianamericanadvocacyfund.org/endorsement-archive/2020-csmith-gasd23",
+      "source_title": "Asian American Advocacy Fund: September 9, 2020 Ceretta Smith state-Senate biography",
+      "publication_date": "2020-09-09", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Grovetown, Army medic, AFGE Georgia State Council presidency and the same campaign domain bridge the earlier state-Senate candidate to the retained GA12 person.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "Army Veteran", "Federal Government", "twenty-four years", "small business owner", "Georgia State Council President"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_earlier_biographical_report_of_own_service", "factual_reference_date": "2020-09-09", "value": "Reports Army medic service for nearly a decade", "source_fragment": "Army Veteran"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "dated_report_of_distinct_civilian_federal_service", "factual_reference_date": "2020-09-09", "value": "Earlier biography reports twenty-four years of federal-government work", "source_fragment": "Federal Government", "supporting_fragments": ["twenty-four years"], "unresolved_details": ["Do not derive start/end years or a verified service chronology by combining this duration, the later survey's twenty-five years and the undated Army-year panel."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_small_business_and_union_leadership_report", "factual_reference_date": "2020-09-09", "value": "Small-business owner and AFGE Georgia State Council president", "source_fragment": "small business owner", "supporting_fragments": ["Georgia State Council President"]}
+      ],
+      "extraction_review": "Read the full original. This endorser's name and constituency do not make Smith Asian-American. Faith leader alone does not establish a denomination. State-Senate candidacy is not service as a state senator."
+    },
+    {
+      "id": "220194-explicit-published-racial-classification",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "local_profile",
+      "url": "https://thevillagemedia.com/2026/11/history-is-in-our-hands-right-now-how-black-women-candidates-in-georgia-can-reshape-american-politics/",
+      "source_title": "The Village Media, A.R. Shaw: Black women candidates in Georgia",
+      "publication_date": "2026-11-03", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact Ceretta Smith name in the Georgia U.S. House candidate list corroborates the matched congressional candidate, not an unrelated state candidate or relative.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "Black women candidates"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_attributed_journalistic_group_classification", "factual_reference_date": "2026-11-03", "value": "Publisher includes Smith among Georgia's Black women candidates", "source_fragment": "Black women candidates", "qualification": "Documented reporter classification, not a first-person racial quotation, visual inference or non-Hispanic ethnicity."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_published_women_classification", "factual_reference_date": "2026-11-03", "value": "Publisher includes Smith among women candidates", "source_fragment": "Black women candidates"}
+      ],
+      "extraction_review": "Read the whole original. No publication time establishes that this was available before polls closed; factual evidence does not automatically enter a prediction-time feature."
+    },
+    {
+      "id": "220172-overlapping-published-racial-classification",
+      "candidate_id": "220172", "name": "Amanda Hollowell", "state": "GA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:GA:01:general:source_general", "family": "local_profile",
+      "url": "https://thevillagemedia.com/2026/11/history-is-in-our-hands-right-now-how-black-women-candidates-in-georgia-can-reshape-american-politics/",
+      "source_title": "The Village Media, A.R. Shaw: overlapping Amanda Hollowell classification",
+      "publication_date": "2026-11-03", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name in the Georgia U.S. House nominee list corroborates the retained candidate; same public original as the Smith entry.",
+      "identity_fragments": ["Amanda Hollowell"],
+      "source_excerpts": ["Amanda Hollowell"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_attributed_journalistic_group_classification", "factual_reference_date": "2026-11-03", "value": "Publisher includes Hollowell among Georgia's Black women candidates", "source_fragment": "Amanda Hollowell", "qualification": "The explicit group heading is retained once in the same-original Smith entry. This classification corroborates the separately read interview-host description; no ethnicity inferred."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_attributed_published_women_classification", "factual_reference_date": "2026-11-03", "value": "Publisher includes Hollowell among women candidates", "source_fragment": "Amanda Hollowell"}
+      ],
+      "reviewed_overlapping_roster_mentions": ["Nikema Williams, Lucy McBath and Jasmine Clark are also mentioned; their already qualified racial/gender fields are not counted as new first evidence from this batch."],
+      "extraction_review": "Shared original, not another acquired document. Article does not provide any candidate's ethnic subgroup or religious identity."
+    },
+    {
+      "id": "220172-complete-candidate-connection",
+      "candidate_id": "220172", "name": "Amanda Hollowell", "state": "GA", "district": "01", "party": "Democratic",
+      "contest_id": "2026:house:GA:01:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Amanda_Hollowell", "source_title": "Ballotpedia: Amanda Hollowell profile and complete Candidate Connection",
+      "publication_date": null, "survey_response_date": "2025-09-10", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA01, linked native campaign and named organizing employers corroborate the candidate.",
+      "identity_fragments": ["Amanda Hollowell"],
+      "source_excerpts": ["Amanda Hollowell", "Palm Springs High School", "University of California, Berkeley", "2001", "first Black woman", "Chief of Campaigns", "worked outside of elected office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_completed_bachelors_year_and_high_school_diploma", "factual_reference_date": "2001", "value": "Berkeley bachelor's in 2001; Palm Springs High School diploma with no completion year supplied", "source_fragment": "2001", "supporting_fragments": ["University of California, Berkeley", "Palm Springs High School"], "qualification": "No major supplied; does not resolve the campaign/interview-host disagreement."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_candidate_submitted_career_statement", "factual_reference_date": "2025-09-10", "value": "Color Of Change chief of campaigns; earlier national organizing and nonprofit advocacy", "source_fragment": "Chief of Campaigns"},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_first_person_racial_self_description", "factual_reference_date": "2025-09-10", "value": "Self-identifies as Black when describing her hoped-for representation of GA01", "source_fragment": "first Black woman", "qualification": "Supplementary direct self-identification, not a new previously unknown field or an ethnicity classification."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_first_person_woman_self_description", "factual_reference_date": "2025-09-10", "value": "Self-identifies as a woman", "source_fragment": "first Black woman"}
+      ],
+      "extraction_review": "Read all displayed survey answers and submission footnote. Working outside elected office is not a never-held-office negative. Father's service and son's degree are not hers. No age or ethnic identity supplied."
+    },
+    {
+      "id": "220188-complete-candidate-connection",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Caitlyn_Gegen", "source_title": "Ballotpedia: Caitlyn Gegen profile and complete three-answer Candidate Connection",
+      "publication_date": null, "survey_response_date": "2026-04-28", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA09, native campaign link and concordant UGA/LSE studies corroborate the retained person.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "bachelor's degree", "graduate degree", "community organizer", "in local government", "April 28, 2026"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_submitted_profile_completed_awards_without_fields_or_years", "factual_reference_date": null, "value": "UGA bachelor's and graduate degree; LSE graduate degree; exact fields and completion years unspecified here", "source_fragment": "bachelor's degree", "supporting_fragments": ["graduate degree"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_first_person_organizing_and_local_government_experience", "factual_reference_date": "2026-04-28", "value": "Reports community-organizing and local-government experience", "source_fragment": "community organizer", "supporting_fragments": ["in local government"], "qualification": "This wording alone does not establish employee status; the separate Jejune interview explicitly does."}
+      ],
+      "extraction_review": "Read all three displayed answers and submission footnote. Parents' teaching and sister's nursing are not her occupations. No age, ethnicity, religion or explicit office/military negative supplied."
+    },
+    {
+      "id": "220188-complete-branch-profile",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "local_profile",
+      "url": "https://branch.vote/races/2026-georgia-primary-election-ga-state-us-representative-ga-9-d/candidates/caitlyn-gegen",
+      "source_title": "Branch: Caitlyn Gegen personal and political background",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Suwanee, GA09 primary and native campaign link corroborate the retained person.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "bachelor's degree", "University of Georgia", "master's degree", "London School of Economics", "first run for public office"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "attributed_publisher_completed_degree_report", "factual_reference_date": null, "value": "UGA bachelor's and LSE master's, with fields and years unspecified", "source_fragment": "bachelor's degree", "supporting_fragments": ["University of Georgia", "master's degree", "London School of Economics"]}
+      ],
+      "extraction_review": "Read the entire profile and policy sections. First candidacy is not proof of no previous office, including appointed service. Issue positions do not establish personal identity or religion."
+    },
+    {
+      "id": "220188-complete-now-georgia-interview",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "local_profile",
+      "url": "https://nowgeorgia.com/gegen-pitches-progressive-platform-systemic-change-in-9th-district-race/",
+      "source_title": "Now Georgia, Patrick Fargason: Gegen pitches progressive platform, systemic change in 9th District race",
+      "publication_date": "2026-04-22", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA09, Clyde opponent and named UGA/LSE studies corroborate the candidate.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "bachelor’s degree", "master of public administration", "University of Georgia", "London School of Economics", "community organizing", "local government"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_reporter_interview_completed_uga_awards_and_lse_study", "factual_reference_date": "2026-04-22", "value": "UGA bachelor's and master of public administration; LSE study without an additional award specified here", "source_fragment": "master of public administration", "supporting_fragments": ["bachelor’s degree", "University of Georgia", "London School of Economics"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reporter_interview_multiple_career_areas", "factual_reference_date": "2026-04-22", "value": "Community organizing on reproductive rights/criminal justice and local-government work on living costs", "source_fragment": "community organizing", "supporting_fragments": ["local government"], "qualification": "No government employer, title or years supplied by this article."}
+      ],
+      "extraction_review": "Read the full underlying interview through its closing rights discussion. No exact age, ethnicity, religion or scoped service negative supplied; relatives' jobs are not hers."
+    },
+    {
+      "id": "220188-dated-podcast-host-employment-account",
+      "candidate_id": "220188", "name": "Caitlyn Gegen", "state": "GA", "district": "09", "party": "Democratic",
+      "contest_id": "2026:house:GA:09:general:source_general", "family": "local_profile",
+      "url": "https://sharithearmchairpundit.substack.com/p/pull-up-a-chair-a-conversation-with?action=share",
+      "source_title": "Shari The Armchair Pundit: Pull Up A Chair, A Conversation with Caitlyn Gegen",
+      "publication_date": "2026-07-17", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA09, Suwanee and actual campaign link corroborate the interview guest.",
+      "identity_fragments": ["Caitlyn Gegen"],
+      "source_excerpts": ["Caitlyn Gegen", "continuing to work as a barista", "Starbucks"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_interview_host_report_of_current_job", "factual_reference_date": "2026-07-17", "value": "Host reports Gegen continuing to work as a Starbucks barista while campaigning", "source_fragment": "continuing to work as a barista", "supporting_fragments": ["Starbucks"], "qualification": "Dated host account, not an audio/video quotation or independently obtained employer record."}
+      ],
+      "extraction_review": "Read the entire textual interview introduction/account. The linked 25-minute interview was not listened to or transcribed; audio-only facts remain unreviewed."
+    },
+    {
+      "id": "220194-dated-local-office-oath-original",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "local_profile",
+      "url": "https://www.wrdw.com/2024/03/28/councilwoman-elect-ceretta-smith-be-sworn-today/?outputType=amp",
+      "source_title": "WRDW/WAGT: Grovetown Councilwoman Ceretta Smith takes oath of office",
+      "publication_date": "2024-03-28", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Grovetown council and matching prior office independently corroborate the current congressional candidate.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "was sworn in on Thursday", "March 12 special election", "my term was over"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "dated_local_reporting_of_election_and_oath", "factual_reference_date": "2024-03-28", "value": "Sworn into Grovetown council on March 28, 2024 after winning the March 12 special election", "source_fragment": "was sworn in on Thursday", "supporting_fragments": ["March 12 special election"], "qualification": "Reports return after an earlier term ended December 31; do not infer uninterrupted service or the later term's end."}
+      ],
+      "extraction_review": "Read the complete actual story. Municipal office is distinct from federal incumbency; no paid civilian employment or sensitive identity inferred."
+    },
+    {
+      "id": "220194-alternative-publisher-award-account",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.ballotready.org/people/ceretta-smith",
+      "source_title": "BallotReady: Ceretta Smith alternative professional and degree account",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA12 general election, verified campaign link and Grovetown/Army career corroborate the candidate.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "Master's", "Sacramento School of Theology", "Bachelor's", "University of Minnesota", "Associate's", "Augusta Technical College", "Author", "US Army"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "partial", "precision": "unreconciled_alternative_publisher_award_listing", "factual_reference_date": null, "value": "Lists Sacramento School of Theology master's in Guidance and Counseling, University of Minnesota bachelor's and Augusta Technical College associate's in Business Management", "source_fragment": "Master's", "supporting_fragments": ["Sacramento School of Theology", "University of Minnesota", "Augusta Technical College"], "unresolved_details": ["Different institutions from Ballotpedia. Do not silently substitute schools, assume all are additional completed awards or invent completion years; institutional originals remain needed."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "attributed_publisher_multiple_career_report", "factual_reference_date": null, "value": "Publisher lists author, Army and Grovetown council careers", "source_fragment": "Author", "supporting_fragments": ["US Army"]},
+        {"trait": "military", "factual_status": "qualified", "precision": "attributed_publisher_own_service_report", "factual_reference_date": null, "value": "Publisher lists U.S. Army service without dates", "source_fragment": "US Army"}
+      ],
+      "extraction_review": "Read the entire actual profile. Religious school names do not establish personal religious affiliation; the unreconciled education listing is partial rather than another independently verified credential set."
+    },
+    {
+      "id": "220194-complete-50501-questionnaire-transcription",
+      "candidate_id": "220194", "name": "Ceretta Smith", "state": "GA", "district": "12", "party": "Democratic",
+      "contest_id": "2026:house:GA:12:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://www.50501ga.org/candidates/ceretta-smith-candidate-for-congress-district-12",
+      "source_title": "50501 Georgia: Ceretta Smith congressional candidate questionnaire, complete displayed text",
+      "publication_date": null, "displayed_publication_date": "May 3, year not independently verified", "election_context_date": "2026-05-19", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, GA12, May 19 2026 primary and native campaign link identify the candidate.",
+      "identity_fragments": ["Ceretta Smith"],
+      "source_excerpts": ["Ceretta Smith", "veteran, union member, retired federal employee, and former elected official"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "explicit_first_person_veteran_statement", "factual_reference_date": null, "value": "Explicitly self-identifies as a veteran", "source_fragment": "veteran, union member, retired federal employee, and former elected official"},
+        {"trait": "other_government", "factual_status": "qualified", "precision": "explicit_first_person_retired_federal_employee_statement", "factual_reference_date": null, "value": "Explicitly reports retired federal employment", "source_fragment": "veteran, union member, retired federal employee, and former elected official", "qualification": "No retirement date, exact tenure or election-day job status inferred."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_first_person_former_elected_official_statement", "factual_reference_date": null, "value": "Explicitly reports being a former elected official", "source_fragment": "veteran, union member, retired federal employee, and former elected official"}
+      ],
+      "extraction_review": "Read all thirteen displayed textual questions/answers in two ranges. Image copies were not independently OCR-checked. No age, ethnicity or degree supplied. A separate metadata request returned HTTP 403; no retry or challenge bypass, and no fabricated publication year."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220172", "family": "campaign", "query": "Read and hash-verify native campaign homepage and retained substantive About original; deduplicate repeated about-amanda pointer", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://amandaforga.com", "https://www.amandaforga.com/about", "https://www.amandaforga.com/about-amanda"], "lead_dispositions": {"https://amandaforga.com": {"status": "reviewed_no_requested_facts", "reason": "Full homepage adds platform text, not additional background beyond the substantive About page."}, "https://www.amandaforga.com/about-amanda": {"status": "duplicate_reviewed_original", "reason": "Retained response resolves to /about; same bytes, duplicate source pointer not another review."}}},
+    {"candidate_id": "220188", "family": "campaign", "query": "Read native cached HTML shell, then resolve its concrete extraction failure with a normal browser-rendered page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://caitlynforgeorgia.com/pages/index.html"]},
+    {"candidate_id": "220194", "family": "ballotpedia_questionnaire", "query": "\"Ceretta Smith\" mayor military biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Ceretta_Smith", "https://asianamericanadvocacyfund.org/endorsement-archive/2020-csmith-gasd23"], "qualification": "The query's mayor term is not a claim that Smith was mayor; actual sources identify a councilmember."},
+    {"candidate_id": "220188", "family": "local_profile", "query": "\"Caitlyn Gegen\" biography education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/caitlyn-gegen", "https://jejeune-magazine.squarespace.com/home/caitlyn-gegen-georgias-9th-congressional-district", "https://branch.vote/races/2026-georgia-primary-election-ga-state-us-representative-ga-9-d/candidates/caitlyn-gegen"], "qualification": "All three originals subsequently read; Branch's first-candidacy statement is not a no-prior-office claim."},
+    {"candidate_id": "220172", "family": "earlier_biography", "query": "\"Amanda Hollowell\" age religion biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.omkariwilliams.com/amanda-hollowell"]},
+    {"candidate_id": "220194", "family": "campaign", "query": "Follow and read the actual campaign link from the matched Ballotpedia profile", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cerettaforga.com/"], "qualification": "The ordinary cerettaforgeorgia.com redirect is not an additional original."},
+    {"candidate_id": "220194", "family": "ballotpedia_questionnaire", "query": "Attempt to continue reading the actual remaining Candidate Connection answers beyond the previously read profile and survey opening", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Ceretta_Smith"], "qualification": "No usable body from web readers or simplifier; ordinary direct request HTTP 202, zero bytes. Not completed, no retry/bypass, no accepted birth-year or ministry claim from unread answers."},
+    {"candidate_id": "220194", "family": "official_biography", "query": "\"Ceretta Smith\" site:cityofgrovetown.com biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://cityofgrovetown.com/AgendaCenter/ViewFile/ArchivedAgenda/_06092025-338"], "qualification": "Read the actual June 2025 agenda and named minutes pages. This is council corroboration, not a complete official biographical search."},
+    {"candidate_id": "220188", "family": "earlier_biography", "query": "\"Caitlyn Gegen\" age born birthday", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined search output supplies no usable age-specific mapping; do not infer age from graduation years or a Gen-Z label."},
+    {"candidate_id": "220172", "family": "university_employer_professional", "query": "\"Amanda Hollowell\" site:gbpi.org", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://gbpi.org/the-future-of-people-powered-prosperity/"]},
+    {"candidate_id": "220188", "family": "earlier_biography", "query": "\"Caitlyn Gegen\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No accepted original establishing age from the combined results. Not an exhaustive age search."},
+    {"candidate_id": "220172", "family": "earlier_biography", "query": "\"Amanda Hollowell\" \"years old\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "A name-only birth-index result is not linked to the candidate and was not followed or accepted. No private relatives' data or unverified date imported."},
+    {"candidate_id": "220194", "family": "local_profile", "query": "\"Ceretta Smith\" \"Black woman\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Combined search returned no usable mapped output. Separately read the actual named Village Media original with a normal page fetch."},
+    {"candidate_id": "220194", "family": "local_profile", "query": "Read the full actual Village Media November 3 candidate-classification original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://thevillagemedia.com/2026/11/history-is-in-our-hands-right-now-how-black-women-candidates-in-georgia-can-reshape-american-politics/"]},
+    {"candidate_id": "220172", "family": "local_profile", "query": "Read overlapping Hollowell classification in the same full Village Media original discovered for Smith", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://thevillagemedia.com/2026/11/history-is-in-our-hands-right-now-how-black-women-candidates-in-georgia-can-reshape-american-politics/"]},
+    {"candidate_id": "220188", "family": "university_employer_professional", "query": "\"Caitlyn Gegen\" site:uga.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Search supplied no usable output mapping. Student memo remains an earlier unread lead; no employee or completed-degree claim accepted from it."},
+    {"candidate_id": "220188", "family": "university_employer_professional", "query": "Read the actual complete BallotReady named career and award profile and separately fetch the named UGA news original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/caitlyn-gegen", "https://gradynewsource.uga.edu/uga-students-hold-commit-to-choice-protest-in-opposition-to-heartbeat-bill/"], "qualification": "Separate actually read originals; do not invent a BallotReady citation or claim to have read a search/tag page that supplied no usable output."},
+    {"candidate_id": "220194", "family": "university_employer_professional", "query": "Follow the campaign's actual AFGE original; after blank web-reader output, read the complete actual release with normal page simplification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.afge.org/publication/largest-federal-employee-union-endorses-ceretta-smith-for-election-to-congress/"]},
+    {"candidate_id": "220172", "family": "ballotpedia_questionnaire", "query": "Read the matched complete Candidate Connection, profile and submission footnote; distinguish direct racial/gender self-identification from existing reporter classification", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Amanda_Hollowell"]},
+    {"candidate_id": "220188", "family": "ballotpedia_questionnaire", "query": "Read the matched full three-answer Candidate Connection and submission footnote", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Caitlyn_Gegen"]},
+    {"candidate_id": "220188", "family": "local_profile", "query": "Follow the previously unread Branch lead and underlying Now Georgia reporter interview", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://branch.vote/races/2026-georgia-primary-election-ga-state-us-representative-ga-9-d/candidates/caitlyn-gegen", "https://nowgeorgia.com/gegen-pitches-progressive-platform-systemic-change-in-9th-district-race/"]},
+    {"candidate_id": "220188", "family": "local_profile", "query": "Read the Full Record source list for discovery only, then attempt the three cited MainStreet/Red and Black originals", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.thefullrecord.org/guide/race/us-house-ga-9/caitlyn-gegen", "https://www.mainstreetnews.com/braselton/news/candidate-questionnaire-caitlyn-gegen-ninth-congressional-district-candidate-democratic-primary/article_b3e5b3d6-5edb-4b1a-b4af-edf6ba749f51.html", "https://www.mainstreetnews.com/jackson/news/suwanee-resident-caitlyn-gegen-announces-run-for-9th-congressional-district/article_87a3e2af-3962-4627-8919-8d9345a1737c.html", "https://www.redandblack.com/uganews/uga-alumna-caitlyn-gegen-enters-georgia-s-9th-congressional-district-race/article_ecb604a5-c42a-45cd-b03c-d6601220657d.html"], "lead_dispositions": {"https://www.thefullrecord.org/guide/race/us-house-ga-9/caitlyn-gegen": {"status": "reviewed_no_requested_facts", "reason": "Derivative guide read solely to discover original links; no additional biographical claims accepted."}, "https://www.mainstreetnews.com/braselton/news/candidate-questionnaire-caitlyn-gegen-ninth-congressional-district-candidate-democratic-primary/article_b3e5b3d6-5edb-4b1a-b4af-edf6ba749f51.html": {"status": "access_failure", "reason": "Restricted URL from underlying original request. No retry through alternative tools, proxies or alternate page formats."}, "https://www.mainstreetnews.com/jackson/news/suwanee-resident-caitlyn-gegen-announces-run-for-9th-congressional-district/article_87a3e2af-3962-4627-8919-8d9345a1737c.html": {"status": "access_failure", "reason": "Restricted URL from underlying original request; no body reviewed or source fact accepted."}, "https://www.redandblack.com/uganews/uga-alumna-caitlyn-gegen-enters-georgia-s-9th-congressional-district-race/article_ecb604a5-c42a-45cd-b03c-d6601220657d.html": {"status": "access_failure", "reason": "Restricted URL from underlying original request; not bypassed."}}},
+    {"candidate_id": "220188", "family": "local_profile", "query": "Read the actual July 17 podcast-host textual account; linked audio/video not transcribed", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://sharithearmchairpundit.substack.com/p/pull-up-a-chair-a-conversation-with?action=share"]},
+    {"candidate_id": "220194", "family": "local_profile", "query": "Read the original March 28, 2024 WRDW swearing-in story to resolve a concrete council-service timing question", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.wrdw.com/2024/03/28/councilwoman-elect-ceretta-smith-be-sworn-today/?outputType=amp"]},
+    {"candidate_id": "220194", "family": "university_employer_professional", "query": "Read actual BallotReady professional and degree profile and compare its institution listing with the previously read Ballotpedia account", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/ceretta-smith"]},
+    {"candidate_id": "220194", "family": "ballotpedia_questionnaire", "query": "Read both ranges of the actual 50501 Georgia questionnaire's complete displayed text", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.50501ga.org/candidates/ceretta-smith-candidate-for-congress-district-12"], "qualification": "Text read successfully; a separate raw-metadata date check returned HTTP 403. No retry; publication year remains unverified."},
+    {"candidate_id": "220172", "family": "official_biography", "query": "Attempt the discovered February 8, 2024 Savannah council-minutes original for civic-role corroboration", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://agenda.savannahga.gov/content/files/agenda-plus_rm-draft-minutes_february-8-2024-city-council-regular-meeting_1.pdf"], "qualification": "Ordinary verified HTTPS retrieval failed certificate verification; no bytes read and TLS verification was not disabled. Search mention is not a government-employment claim."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220172", "leads": ["Complete Candidate Connection now read, including September 10, 2025 submission and direct Black/woman self-identification; do not count these corroborations as new first evidence.", "Resolve Berkeley degree major with a university/alumni or professional original rather than silently selecting the campaign or interview-host wording.", "Find qualified age/birth-year, explicit religious/ethnic identity and scoped office/government/military evidence. Father's service and nonprofit employment cannot answer those fields.", "Savannah minutes attempt failed verified TLS; seek independent permitted official biography/filing sources without disabling verification."]},
+    {"candidate_id": "220188", "leads": ["Candidate Connection, Branch, Now Georgia interview and podcast-host text now read; the podcast audio/video remains an actual untranscribed lead.", "Find employer or university originals confirming Camden role and award years; preserve the explicitly foreign-government jurisdiction.", "Read the named UGA student memo only if useful to verify attendance/identity, never as proof of employment or graduation.", "Seek documented age, religion, ethnicity and scoped office/military answers; do not derive birthday from school years or no office from first candidacy.", "Official-biography family remains unsearched for Gegen. MainStreet/Red and Black originals are specifically restricted and must not be bypassed."]},
+    {"candidate_id": "220194", "leads": ["Remaining Ballotpedia survey answers and birth-year response have not been actually read; direct HTTP 202 is specifically recorded. Seek an independent public age original rather than importing a snippet.", "The actual AFGE release and complete 50501 questionnaire text support civilian/military/elected service; a federal-employer original remains useful for exact civilian job dates.", "Seek specific civilian job dates and military dates without forcing the different reported durations into one chronology.", "Reconcile the different Ballotpedia/BallotReady degree institutions and award titles using independent institutional originals; do not silently certify their union as completed credentials.", "Ethnicity remains unknown. Christian affiliation is explicit but denomination not established.", "The WRDW original establishes the March 28, 2024 council oath following March 12 election; later term boundaries remain unverified."]}
+  ],
+  "next_batch": "Rebuild factual coverage, inspect actual marginal gains and continue the unresolved Georgia person-level leads and next unresearched national nominees. No candidate is marked completed from this partial set of source-family investigations."
+}

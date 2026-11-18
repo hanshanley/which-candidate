@@ -1,0 +1,275 @@
+{
+  "scope": "Continue person-level acquisition for five previously unresearched Democratic federal nonincumbents. Read complete retained campaign bodies before discovering new sources. Preserve completed credentials, contract/advisory distinctions, attributed identities and unresolved degree years. No frozen scientific fit changes.",
+  "documents": [
+    {
+      "id": "220192-retained-complete-campaign-about",
+      "candidate_id": "220192", "name": "Chris Harden", "state": "GA", "district": "11", "party": "Democratic",
+      "contest_id": "2026:house:GA:11:general:source_general", "family": "campaign",
+      "url": "https://www.electharden.com/more-about-chris",
+      "source_title": "Chris Harden for Congress: complete About Chris biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220192-bio1/campaign-220192-bio1",
+      "retained_sha256": "ab0cbd199154ee1d6188ae0c16ac1aadff70f37a9fe80662bf323b9f0e0126cc",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA11 campaign, named committee and contact email on native chrishardenforcongress.com bridge the newer electharden.com domain.",
+      "identity_fragments": ["Chris Harden"],
+      "source_excerpts": ["Chris Harden", "parent defense attorney", "more than fourteen years", "attending school at night", "drove a forklift, loaded trucks"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_careers_and_approximate_duration", "factual_reference_date": null, "value": "Parent-defense attorney for more than fourteen years; earlier forklift and truck-loading work", "source_fragment": "parent defense attorney", "supporting_fragments": ["more than fourteen years", "drove a forklift, loaded trucks"]},
+        {"trait": "education", "factual_status": "partial", "precision": "reported_night_school_attendance_without_named_completed_award", "factual_reference_date": null, "value": "Reports attending school at night while working full time; this body names no institution or completed credential", "source_fragment": "attending school at night"}
+      ],
+      "extraction_review": "Hash-verified and read the complete retained body. Public-servant wording does not establish government employment. No degree inferred from a graduation photograph or gender from family roles."
+    },
+    {
+      "id": "220192-complete-atelier-interview-account",
+      "candidate_id": "220192", "name": "Chris Harden", "state": "GA", "district": "11", "party": "Democratic",
+      "contest_id": "2026:house:GA:11:general:source_general", "family": "local_profile",
+      "url": "https://theateliermagazine.com/chris-harden-wants-to-bring-a-neighbor-first-voice-to-congress-and-a-new-future-for-georgias-11th-district/",
+      "source_title": "ATELIER Magazine Staff: Chris Harden Wants to Bring a Neighbor-First Voice to Congress",
+      "publication_date": "2026-08-15", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA11, attorney and small-business career, and distinctive parent-of-triplets biography corroborate the native campaign.",
+      "identity_fragments": ["Chris Harden"],
+      "source_excerpts": ["Chris Harden", "the privilege he has experienced as a white man", "attorney, small business owner"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_interview_report_of_candidates_racial_self_description", "factual_reference_date": "2026-08-15", "value": "Interview reports Harden reflecting on his own experience as white", "source_fragment": "the privilege he has experienced as a white man", "qualification": "Attributed interview account, not a verbatim recorded answer or non-Hispanic ethnic classification."},
+        {"trait": "gender", "factual_status": "qualified", "precision": "explicit_interview_report_of_candidates_man_self_description", "factual_reference_date": "2026-08-15", "value": "Interview reports Harden describing his own experience as a man", "source_fragment": "the privilege he has experienced as a white man"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_multiple_current_careers", "factual_reference_date": "2026-08-15", "value": "Attorney and small-business owner", "source_fragment": "attorney, small business owner"}
+      ],
+      "extraction_review": "Read the entire underlying staff-written interview account. Mother's schooling and hospital work are not his. Policy discussion supplies no completed degree, religious affiliation or scoped service negative."
+    },
+    {
+      "id": "220176-retained-complete-campaign-meet",
+      "candidate_id": "220176", "name": "Maura Keller", "state": "GA", "district": "03", "party": "Democratic",
+      "contest_id": "2026:house:GA:03:general:source_general", "family": "campaign",
+      "url": "https://maurakeller.com/meet",
+      "source_title": "Maura Keller for Congress: complete Meet Maura biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220176-bio2/campaign-220176-bio2",
+      "retained_sha256": "60c8564c05243c3e88d9751104cf34bb1cf13acba9ac0808f2bbe789cd2a01f2",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain, exact name, Fayetteville residence and retired Army lieutenant-colonel career identify the candidate; retained /about resolves to /meet.",
+      "identity_fragments": ["Maura Keller"],
+      "source_excerpts": ["Maura Keller", "Military Policewoman in 1978", "Lieutenant Colonel after 26 years", "government contractor", "pursued another degree", "Nuclear Medicine Technologist"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_enlistment_year_rank_and_duration", "factual_reference_date": "1978", "value": "Enlisted as Army military policewoman in 1978; reports retiring as lieutenant colonel after 26 years", "source_fragment": "Military Policewoman in 1978", "supporting_fragments": ["Lieutenant Colonel after 26 years"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_military_contract_and_clinical_careers", "factual_reference_date": null, "value": "Army career, later government contracting on Army Reserve/DOD projects, then nuclear-medicine care at Atlanta VA", "source_fragment": "government contractor", "supporting_fragments": ["Nuclear Medicine Technologist"]},
+        {"trait": "education", "factual_status": "partial", "precision": "pursued_degree_without_independent_completion_statement", "factual_reference_date": null, "value": "Reports pursuing another degree as a nuclear medicine technologist; no institution or completed award stated here", "source_fragment": "pursued another degree"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "contracting_and_va_work_without_established_civil_service_status", "factual_reference_date": null, "value": "Reports government contracting and Atlanta VA care; civilian employee versus contractor status remains unresolved", "source_fragment": "government contractor", "supporting_fragments": ["Nuclear Medicine Technologist"]}
+      ],
+      "extraction_review": "Hash-verified and read the entire retained biography. Contracting does not establish government employment. Enlistment and residence durations do not supply a birth year; preserve historical qualification separately from this source's imprecise degree wording."
+    },
+    {
+      "id": "220190-retained-complete-meet-pam",
+      "candidate_id": "220190", "name": "Pamela DeLancy", "state": "GA", "district": "10", "party": "Democratic",
+      "contest_id": "2026:house:GA:10:general:source_general", "family": "campaign",
+      "url": "https://votepamdelancy.com/meet_pamela",
+      "source_title": "Pamela DeLancy for Congress: complete Meet Pam biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-220190-bio1/campaign-220190-bio1",
+      "retained_sha256": "099c25d7f0c1bbe2fb02cba81edc72b22f0c22d23cb6e7119a086f2cd0409329",
+      "identity_status": "verified",
+      "identity_qualification": "Native campaign domain and committee, Meet Pam biography, Henry County residence and linked GA10 homepage identify the retained candidate.",
+      "identity_fragments": ["Pamela DeLancy"],
+      "source_excerpts": ["Pamela DeLancy", "I am also a proud member of", "Shiloh Baptist Church", "District 4 Board of Public Health in Henry County"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_first_person_named_church_membership", "factual_reference_date": null, "value": "Explicitly reports membership in Shiloh Baptist Church", "source_fragment": "I am also a proud member of", "supporting_fragments": ["Shiloh Baptist Church"], "qualification": "Undated self-report of affiliation, not inferred from volunteering or independently established as-of-election membership."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "named_public_health_board_service_not_paid_employment", "factual_reference_date": null, "value": "Reports sitting on District 4 Board of Public Health in Henry County; compensation and appointment/election mechanism unstated", "source_fragment": "District 4 Board of Public Health in Henry County"}
+      ],
+      "extraction_review": "Hash-verified and read the entire body. Teenage summer restaurant work supplies no dated age. Mother's nursing career is not hers. Board service does not establish elected office or paid public employment."
+    },
+    {
+      "id": "220190-complete-campaign-nursing-credentials",
+      "candidate_id": "220190", "name": "Pamela DeLancy", "state": "GA", "district": "10", "party": "Democratic",
+      "contest_id": "2026:house:GA:10:general:source_general", "family": "campaign",
+      "url": "https://votepamdelancy.com/nurse",
+      "source_title": "Pamela DeLancy for Congress: Healthcare Experience",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Nurse link on the hash-verified native campaign biography leads to this exact-named Colonel Pamela DeLancy page and matching campaign committee.",
+      "identity_fragments": ["Pamela DeLancy"],
+      "source_excerpts": ["Pamela DeLancy", "Bachelor of Science in Nursing", "Master of Science in Administration", "Emergency Room, Medical-Surgical, and school nurse", "health and wellness coach"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_reported_completed_named_degrees_without_years", "factual_reference_date": null, "value": "BS Nursing, University of Texas Health Science Center; MS Administration, Central Michigan University; completion years unspecified", "source_fragment": "Bachelor of Science in Nursing", "supporting_fragments": ["Master of Science in Administration"], "qualification": "Separate reported degrees from executive-nurse/PTSD/coaching certifications; not university-issued award verification."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_multiple_clinical_and_post_army_careers", "factual_reference_date": null, "value": "ER, medical-surgical and school nurse; clinical experience at Cypress-Fairbanks Medical Center and Lyndon B. Johnson Hospital; certified health/wellness coach and inactive real-estate professional", "source_fragment": "Emergency Room, Medical-Surgical, and school nurse", "supporting_fragments": ["health and wellness coach"]}
+      ],
+      "extraction_review": "Read the complete linked original. Campaign reports an active Georgia RN license; no independent licensing-register check made. Inactive real-estate status is not current practice. No government-employee or military-negative inference."
+    },
+    {
+      "id": "42478026-retained-complete-campaign-about",
+      "candidate_id": "42478026", "name": "Kelly Esti", "state": "GA", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:GA:08:general:source_general", "family": "campaign",
+      "url": "https://www.kellyesti4congress.com/about-9",
+      "source_title": "Kelly Esti for Congress: complete About Kelly career and education",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-42478026-bio1/campaign-42478026-bio1",
+      "retained_sha256": "da53610be8bf43f55cb4688455bdecca7535c0dd0f4046763ec4d188a9e52d3d",
+      "identity_status": "verified",
+      "identity_qualification": "Exact native campaign domain, named candidate and same BroTagz, Navy and GA08 campaign history identify canonical roster ID 42478026.",
+      "identity_fragments": ["Kelly"],
+      "source_excerpts": ["Kelly", "Co-owner / C.F.O.", "WALDEN UNIVERSITY | 2018", "WEBSTER UNIVERSITY", "OTTAWA UNIVERSITY | 2006", "UNITED STATES NAVY | 1999-2002", "Black Nuclear Operator", "Legislative Aide"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_reported_named_business_and_military_careers", "factual_reference_date": null, "value": "BroTagz Embroidery LLC co-owner/CFO; earlier Navy nuclear operator", "source_fragment": "Co-owner / C.F.O."},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_degrees_with_unresolved_doctoral_year", "factual_reference_date": null, "value": "Walden public-policy PhD reported 2018; Webster finance MBA 2007; Ottawa management BA 2006; South Pike diploma 1999", "source_fragment": "WALDEN UNIVERSITY | 2018", "supporting_fragments": ["WEBSTER UNIVERSITY", "OTTAWA UNIVERSITY | 2006"], "unresolved_details": ["BallotReady reports the Walden doctorate in 2017; award year remains unreconciled."]},
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_own_navy_dates_and_nuclear_role", "factual_reference_date": "2002", "value": "Reports Navy nuclear service aboard USS Henry M Jackson, 1999-2002", "source_fragment": "UNITED STATES NAVY | 1999-2002"},
+        {"trait": "race", "factual_status": "qualified", "precision": "explicit_first_person_black_self_description", "factual_reference_date": null, "value": "Self-describes as a Black nuclear operator during Navy service", "source_fragment": "Black Nuclear Operator", "qualification": "Does not establish ethnicity."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "legislative_aide_and_appointed_board_service_without_employee_status", "factual_reference_date": "2015", "value": "Reports Senator Donzella James legislative-aide service in 2015 and appointed zoning-board roles; pay/employee status unstated", "source_fragment": "Legislative Aide"}
+      ],
+      "extraction_review": "Read full hash-verified body. UGA zoning workshop is not a degree. BA2006 wording about active Navy study is chronologically unclear alongside Navy1999-2002; no invented service extension. Fraternity, advocacy and pronouns do not independently classify gender."
+    },
+    {
+      "id": "42478026-complete-ballotready-career-awards",
+      "candidate_id": "42478026", "name": "Kelly Esti", "state": "GA", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:GA:08:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.ballotready.org/people/kelly-esti",
+      "source_title": "BallotReady: Kelly Esti complete professional and degree profile",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA08 2026 general-election listing, verified native campaign link and concordant BroTagz/degree history identify the candidate.",
+      "identity_fragments": ["Kelly Esti"],
+      "source_excerpts": ["Kelly Esti", "Chief Financial Officer/Co-Owner", "Operations Analyst - Cargo Control Center", "Political Consultant", "Doctorate, Walden University, Public Policy Analysis (2017)"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "publisher_reported_multiple_named_jobs_and_years", "factual_reference_date": null, "value": "BroTagz CFO/co-owner 2020-present; Delta cargo-control operations analyst 2014-present; Fulton County chairman's political consultant 2014-2015", "source_fragment": "Chief Financial Officer/Co-Owner", "supporting_fragments": ["Operations Analyst - Cargo Control Center", "Political Consultant"], "qualification": "Present is the undated publisher's wording, not verified election-day job status. Consulting is not automatically civil-service employment."},
+        {"trait": "education", "factual_status": "qualified", "precision": "publisher_reported_awards_with_visible_year_disagreement", "factual_reference_date": null, "value": "Walden public-policy doctorate reported 2017, Webster MBA 2007 and Ottawa management bachelor's 2006", "source_fragment": "Doctorate, Walden University, Public Policy Analysis (2017)", "unresolved_details": ["Campaign reports Walden2018; retain shared completed doctorate, not a resolved award year."]}
+      ],
+      "extraction_review": "Read the entire actual profile, including professional history, awards, issues and election listing. This is a professional-history publisher, not the employer. Aspirational congressman wording is not evidence of prior congressional service or explicit gender identity."
+    },
+    {
+      "id": "220195-complete-dated-campaign-release",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "campaign",
+      "url": "https://www.jasmine4ga.com/news/6-14-25pressrelease",
+      "source_title": "Rep. Dr. Jasmine Clark: June 14, 2025 No Kings campaign press release",
+      "publication_date": "2025-06-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, GA13 campaign against David Scott, Lilburn residence and state-legislator/Emory-scientist career bridge the retained candidate.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "PhD in Microbiology and Molecular Genetics", "Assistant Professor of Biology", "member of Salem Missionary Baptist Church in Lilburn", "2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "religion", "factual_status": "qualified", "precision": "dated_campaign_report_of_named_church_membership", "factual_reference_date": "2025-06-14", "value": "Campaign reports membership in Salem Missionary Baptist Church, Lilburn", "source_fragment": "member of Salem Missionary Baptist Church in Lilburn", "qualification": "Affiliation reported in June2025, not an independently verified lifelong or election-day identity."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_campaign_report_of_completed_named_doctorate", "factual_reference_date": "2025-06-14", "value": "Emory PhD in Microbiology and Molecular Genetics; completed HIV-research postdoctoral project, not another degree", "source_fragment": "PhD in Microbiology and Molecular Genetics"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_campaign_report_of_academic_career", "factual_reference_date": "2025-06-14", "value": "Assistant Professor of Biology and former HIV postdoctoral researcher", "source_fragment": "Assistant Professor of Biology"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "campaign_reported_first_state_house_election_year", "factual_reference_date": "2018", "value": "First elected to Georgia House in 2018", "source_fragment": "2018"}
+      ],
+      "extraction_review": "Read entire dated release, distinguishing the article from navigation links. Children's educational details are not hers. State office is not federal incumbency, and no separate paid nonlegislative government job or military negative is inferred."
+    },
+    {
+      "id": "220192-complete-avvo-professional-original",
+      "candidate_id": "220192", "name": "Chris Harden", "state": "GA", "district": "11", "party": "Democratic",
+      "contest_id": "2026:house:GA:11:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.avvo.com/attorneys/30188-ga-christopher-harden-4234373.html",
+      "source_title": "Christopher Matthew Harden: complete Avvo first-person professional biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact FEC full name and Chris alias, Woodstock Harden Law Firm, Rossville origin and campaign-confirmed legal career bridge the professional profile, not unrelated same-name engineers.",
+      "identity_fragments": ["Christopher Matthew Harden"],
+      "source_excerpts": ["Christopher Matthew Harden", "Bachelor’s Degree in Political Science", "Georgia State University", "I earned my law degree from John Marshall Law School", "Harden Law Firm"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_first_person_completed_bachelors_and_law_degree", "factual_reference_date": null, "value": "Georgia State bachelor's in political science, history minor; John Marshall law degree; profile lists GSU2009 but no law-degree year", "source_fragment": "Bachelor’s Degree in Political Science", "supporting_fragments": ["Georgia State University", "I earned my law degree from John Marshall Law School"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_practice_areas_and_professional_history", "factual_reference_date": null, "value": "Woodstock estate-planning, guardianship and probate attorney; prior partner at Walden, Goodhart, Harden & New before Harden Law Firm", "source_fragment": "Harden Law Firm"}
+      ],
+      "extraction_review": "Read full underlying profile including biography, experience and education. Self-authored narrative supports completion; an N/A education-table cell is not no degree. Law-school internships do not establish paid government employment. Licensing year is not graduation year."
+    },
+    {
+      "id": "220190-complete-campaign-veteran",
+      "candidate_id": "220190", "name": "Pamela DeLancy", "state": "GA", "district": "10", "party": "Democratic",
+      "contest_id": "2026:house:GA:10:general:source_general", "family": "campaign",
+      "url": "https://votepamdelancy.com/home-2",
+      "source_title": "Pamela Y. DeLancy: complete native The Veteran page",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Actual The Veteran navigation link in hash-verified native Meet Pam page leads to exact-named retired Colonel and GA10 2026 candidacy.",
+      "identity_fragments": ["Pamela Y. DeLancy"],
+      "source_excerpts": ["Pamela Y. DeLancy", "September 1980", "1987", "Master of Science in Strategic Studies", "U.S. Army War College", "Deputy Surgeon for Clinical Operations"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "military", "factual_status": "qualified", "precision": "candidate_reported_army_enlistment_commission_and_rank", "factual_reference_date": "1980-09", "value": "Army enlistment September1980, University of Houston ROTC commission1987, retired colonel; page describes more than35 years", "source_fragment": "September 1980", "supporting_fragments": ["1987"], "qualification": "Homepage reports39 years; more-than35 is compatible, not an exact retirement date."},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_candidate_reported_additional_completed_named_masters", "factual_reference_date": null, "value": "MS Strategic Studies, U.S. Army War College; separate from nursing bachelor's and Central Michigan administration master's", "source_fragment": "Master of Science in Strategic Studies", "supporting_fragments": ["U.S. Army War College"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_named_senior_military_roles", "factual_reference_date": null, "value": "Army Reserve deputy surgeon for clinical operations, DOD director of reserve medical programs and AMEDD Professional Medical Command brigade commander", "source_fragment": "Deputy Surgeon for Clinical Operations", "qualification": "Military roles do not independently establish civilian government employment."}
+      ],
+      "extraction_review": "Read entire actual linked page. A prior guessed /the_veteran URL returned404; the real link is /home-2. ROTC commission is not another completed degree or a birth-year observation."
+    },
+    {
+      "id": "42478026-complete-walb-dated-interview",
+      "candidate_id": "42478026", "name": "Kelly Esti", "state": "GA", "district": "08", "party": "Democratic",
+      "contest_id": "2026:house:GA:08:general:source_general", "family": "local_profile",
+      "url": "https://www.walb.com/2026/04/17/two-democrats-vie-chance-challenge-austin-scott-georgias-8th-congressional-district/",
+      "source_title": "WALB, Taylor Lewis: Two Democrats vie for chance to challenge Austin Scott",
+      "publication_date": "2026-04-17", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified",
+      "identity_qualification": "Exact Kelly Esti name, GA08 candidate against Austin Scott, Navy nuclear/PhD biography and native campaign link identify the retained candidate, not primary opponent Justin Lucas.",
+      "identity_fragments": ["Kelly Esti"],
+      "source_excerpts": ["Kelly Esti", "I was the only black person in the engine room", "E-Trade", "PhD in public policy", "After leaving the Navy"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "race", "factual_status": "qualified", "precision": "dated_direct_first_person_black_self_description", "factual_reference_date": "2026-04-17", "value": "Directly self-describes as Black in discussing Navy engine-room experience", "source_fragment": "I was the only black person in the engine room"},
+        {"trait": "military", "factual_status": "qualified", "precision": "dated_reported_own_navy_nuclear_service", "factual_reference_date": "2026-04-17", "value": "Reports Navy nuclear-power training after high-school graduation1999 and later leaving service", "source_fragment": "After leaving the Navy"},
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_reported_completed_awards_without_institution_or_award_year", "factual_reference_date": "2026-04-17", "value": "Completed bachelor's and master's after leaving Navy, followed by public-policy PhD; institutions/award years unspecified here", "source_fragment": "PhD in public policy", "unresolved_details": ["Supports post-Navy degree sequence rather than silently accepting campaign wording about active-service undergraduate study. Does not resolve Walden2017/2018."]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_reported_finance_employer_and_period", "factual_reference_date": null, "value": "Reports E-Trade finance work during the Great Financial Recession", "source_fragment": "E-Trade"}
+      ],
+      "extraction_review": "Read entire underlying story, including both candidate sections. Lucas's pastor role, school-board office and religious statements are not Esti's. Mother's stated age is not his. Policy claims are not adopted as verified background facts."
+    },
+    {
+      "id": "220195-retained-official-georgia-biography",
+      "candidate_id": "220195", "name": "Jasmine Clark", "state": "GA", "district": "13", "party": "Democratic",
+      "contest_id": "2026:house:GA:13:general:source_general", "family": "official_biography",
+      "url": "https://www.legis.ga.gov/api/document/docs/default-source/bios/clark-jasmine-4953.pdf",
+      "source_title": "Georgia House: Rep. Jasmine Clark, District108 official biography",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true,
+      "acquisition_origin": "retained_source_reextracted",
+      "retained_cache_path": "data/raw/candidate-backgrounds-20261115/220195-7e54a1f167f39ebae921.pdf",
+      "retained_sha256": "7e54a1f167f39ebae921ce0861981eab85b0ca103cb22e687ce1a03d4a2eefcc",
+      "identity_status": "verified",
+      "identity_qualification": "Exact name, Lilburn/Gwinnett state-house service and distinctive Emory microbiology career corroborate the GA13 congressional candidate. State108 and congressional13 are different offices.",
+      "identity_fragments": ["Jasmine Clark"],
+      "source_excerpts": ["Jasmine Clark", "December 26, 1982", "Bachelor of Science", "2005", "2013", "2014", "lecturer of microbiology", "November 6, 2018"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "official_reported_exact_birth_date", "factual_reference_date": "1982-12-26", "value": "Official biography reports birth December26,1982 in Atlanta; age43 at November3,2026 election", "source_fragment": "December 26, 1982"},
+        {"trait": "education", "factual_status": "qualified", "precision": "official_reported_completed_named_awards_and_years", "factual_reference_date": null, "value": "Tennessee Knoxville BS biological sciences, microbiology concentration,2005; Emory microbiology/molecular-genetics doctorate2013; postdoctoral project2014 is not another degree", "source_fragment": "Bachelor of Science", "supporting_fragments": ["2005", "2013", "2014"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "undated_official_reported_historical_academic_position", "factual_reference_date": null, "value": "Official biography describes Emory nursing-school lecturer in microbiology and human anatomy/physiology", "source_fragment": "lecturer of microbiology", "qualification": "Undated older-role description need not conflict with June2025 campaign assistant-professor wording; no invented promotion date."},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "official_reported_exact_first_state_house_election_date", "factual_reference_date": "2018-11-06", "value": "Elected to Georgia House on November6,2018; document identifies then-District108", "source_fragment": "November 6, 2018"}
+      ],
+      "extraction_review": "Hash-verified and read the complete one-page retained PDF. Already acquired/reviewed historically, not presented as new acquisition or first age evidence. Publication date unknown; do not treat current PDF retrieval as pre-election availability."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "220192", "family": "university_employer_professional", "query": "\"Chris Harden\" attorney law firm biography", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.avvo.com/attorneys/30188-ga-christopher-harden-4234373.html"], "qualification": "Followed and read full actual professional original. Same-name engineering and corporate-risk biographies not matched or accepted."},
+    {"candidate_id": "42478026", "family": "university_employer_professional", "query": "\"Kelly Esti\" \"Quantitative Poverty\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.walb.com/2026/04/17/two-democrats-vie-chance-challenge-austin-scott-georgias-8th-congressional-district/"], "qualification": "Combined search returned an actual interview lead, subsequently read. Did not locate a dissertation/award original or resolve its year."},
+    {"candidate_id": "220195", "family": "official_biography", "query": "Locate existing exact-URL source receipt, hash-verify and read the retained complete official legislative PDF without re-downloading", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.legis.ga.gov/api/document/docs/default-source/bios/clark-jasmine-4953.pdf"]},
+    {"candidate_id": "220190", "family": "campaign", "query": "After guessed /the_veteran returned404, read actual /home-2 link from retained native navigation", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://votepamdelancy.com/the_veteran", "https://votepamdelancy.com/home-2"], "lead_dispositions": {"https://votepamdelancy.com/the_veteran": {"status": "access_failure", "reason": "HTTP404; wrong guessed path, not a sitewide access restriction. Actual navigation supplied /home-2."}}},
+    {"candidate_id": "220192", "family": "campaign", "query": "Hash-verify and read the complete retained substantive About body, matching its contact domain to the native campaign", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.electharden.com/more-about-chris"]},
+    {"candidate_id": "220192", "family": "local_profile", "query": "Read the complete actual ATELIER August 15, 2026 interview account discovered in the prior person-level search", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://theateliermagazine.com/chris-harden-wants-to-bring-a-neighbor-first-voice-to-congress-and-a-new-future-for-georgias-11th-district/"]},
+    {"candidate_id": "220176", "family": "campaign", "query": "Hash-verify and read native retained /about response resolving to /meet", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://maurakeller.com/meet"]},
+    {"candidate_id": "220190", "family": "campaign", "query": "Hash-verify and read full retained Meet Pam and homepage; follow actual Nurse navigation link and read its complete original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://votepamdelancy.com/meet_pamela", "https://votepamdelancy.com/nurse"], "qualification": "Homepage read separately as contextual corroboration; not counted as another evidence-yielding document."},
+    {"candidate_id": "42478026", "family": "campaign", "query": "Hash-verify and read complete retained About Kelly and homepage; match exact ID to canonical gzip roster rather than assuming an absent string-only filter is an absent candidate", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.kellyesti4congress.com/about-9"], "qualification": "Homepage adds no independent requested facts beyond reviewed About biography; not another document count."},
+    {"candidate_id": "42478026", "family": "university_employer_professional", "query": "Read actual complete BallotReady professional history and compare degree years against the native campaign", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/kelly-esti"]},
+    {"candidate_id": "220195", "family": "campaign", "query": "Read exact candidate's complete June 14, 2025 campaign release and substantive biographical footer", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.jasmine4ga.com/news/6-14-25pressrelease"]},
+    {"candidate_id": "220192", "family": "ballotpedia_questionnaire", "query": "Attempt ordinary simplification of matched Ballotpedia profile to obtain actual biography and Candidate Connection", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Chris_Harden"], "qualification": "No usable simplified body. One ordinary verified HTTPS diagnostic returned HTTP202 and zero bytes; no further retry/bypass, no snippet-only degree claim or exhausted-survey declaration."},
+    {"candidate_id": "42478026", "family": "ballotpedia_questionnaire", "query": "Attempt ordinary simplification of matched Ballotpedia profile to obtain actual biography and Candidate Connection", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Kelly_Esti"], "qualification": "No usable body. One ordinary verified HTTPS diagnostic returned HTTP202 and zero bytes; stop retries, no survey answer or gender identity accepted from snippets."},
+    {"candidate_id": "220176", "family": "ballotpedia_questionnaire", "query": "Earlier ordinary matched-profile simplification attempt yielded no usable body", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Maura_Keller"], "qualification": "One ordinary verified HTTPS diagnostic subsequently returned HTTP202 and zero bytes. Stop retries; do not claim the survey was read or permanently forbidden."},
+    {"candidate_id": "220190", "family": "ballotpedia_questionnaire", "query": "Earlier ordinary matched-profile simplification attempt yielded no usable body", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Pamela_DeLancy"], "qualification": "One ordinary verified HTTPS diagnostic subsequently returned HTTP202 and zero bytes. Stop retries; no biography or survey answer accepted from snippets."},
+    {"candidate_id": "220192", "family": "local_profile", "query": "Read Take BAC Congress linked candidate statement for a completed-degree lead before following the substantive first-person professional original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.take-bac-congress.us/team/chris-harden"], "qualification": "Political-coalition text reports law-degree completion, attorney work and earlier forklift work but adds no details beyond accepted campaign/Avvo originals; retained as corroborating discovery, not another document or independent award verification."}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "220192", "leads": ["First-person Avvo now supplies completed GSU bachelor's and John Marshall law degree; retain years only where explicitly reported.", "Review actual Atlanta Press Club/PBS GA11 debate transcript and earlier biography for age, affiliation and scoped service evidence.", "Race and gender now have an explicit attributed interview account; ethnicity and religion remain unknown, not inferred from white/man."]},
+    {"candidate_id": "220176", "leads": ["Find a dated age/birth-year original and university award record rather than estimating from 1978 enlistment.", "Seek a VA/employer or first-person original distinguishing civilian employment from contracting.", "Complete permitted questionnaire and earlier-biography investigation; pursue explicit affiliation, ethnicity and scoped office history."]},
+    {"candidate_id": "220190", "leads": ["Actual Veteran page now read: September1980 enlistment,1987 ROTC commission and War College master's. Continue dated local interview for age, credential years and explicit public identity.", "Independent official or professional records can corroborate three reported completed degrees.", "Resolve public-health board mechanism and paid-employment status; do not code it as elected office or a civilian job without evidence."]},
+    {"candidate_id": "42478026", "leads": ["Seek a university dissertation/award original for the campaign2018 versus publisher2017 Walden year discrepancy.", "Verify whether the 2015 legislative aide or 2014-2015 county consulting work was paid employment; appointed boards alone do not answer that.", "Seek explicit gender/ethnicity, dated age and scoped prior-elected-office evidence; preserve existing documented nonreligion."]},
+    {"candidate_id": "220195", "leads": ["Complete official PDF now read from retained hash-verified original; Emory professional original remains actionable.", "June2025 church membership is now documented; do not infer lifelong or election-day membership.", "Seek explicit government-employment and military evidence separately from state legislative office."]}
+  ]
+}
