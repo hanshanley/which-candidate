@@ -1,0 +1,274 @@
+{
+  "scope": "Continue candidate-level research for three previously unresearched California Democratic nonincumbents, plus the retained Republican sharing a complete local questionnaire. Retain all supported background facts and actual unresolved leads. No frozen analytical specification or numerical result changes.",
+  "documents": [
+    {
+      "id": "219891-retained-complete-meet-sandra",
+      "candidate_id": "219891", "name": "Sandra Van Scotter", "state": "CA", "district": "20", "party": "Democratic",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "campaign",
+      "url": "https://www.electsandravanscotter.com/meet-sandra", "source_title": "Sandra Van Scotter campaign: Meet Sandra",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "evidence_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-219891-bio1/campaign-219891-bio1",
+      "retained_sha256": "8817f5deeebb355b451b0048a65c5b04e11a5aa1a148f98307cd442f5bf28360",
+      "identity_status": "verified", "identity_qualification": "Exact name, CA20, Ridgecrest residence and campaign committee match; the native campaign redirects to this domain and Ballotpedia supplies its earlier sandra4cd20.com link.",
+      "identity_fragments": ["Sandra Van Scotter"],
+      "source_excerpts": ["Sandra Van Scotter", "respiratory therapist", "Direct Support Professional", "Advising Kern Regional Center"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_biography_of_multiple_careers", "factual_reference_date": null, "value": "Former respiratory therapist in inpatient care and outpatient cardiac testing; current direct-support professional serving adults with intellectual and developmental disabilities", "source_fragment": "respiratory therapist", "supporting_fragments": ["Direct Support Professional"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "advisory_role_without_verified_government_employment", "factual_reference_date": null, "value": "Advises Kern Regional Center; this does not establish a paid government job", "source_fragment": "Advising Kern Regional Center"}
+      ],
+      "extraction_review": "Read the entire retained HTML body after omitting scripts/styles. Relatives' school paths are not her credentials. Never having thought of running is not a scoped no-prior-office statement. No military negative follows."
+    },
+    {
+      "id": "219891-complete-kget-candidate-questionnaire",
+      "candidate_id": "219891", "name": "Sandra Van Scotter", "state": "CA", "district": "20", "party": "Democratic",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/know-candidates-sent-candidates-20th-015450000.html",
+      "source_title": "KGET / Sangmin Kim, syndicated by AOL: complete CA20 candidate questionnaires",
+      "publication_date": "2026-10-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic CA20 candidacy against Vince Fong, Ridgecrest, healthcare career and author signature identify the retained candidate. Publisher says candidate answers are unedited.",
+      "identity_fragments": ["Sandra Van Scotter"],
+      "source_excerpts": ["Sandra Van Scotter", "Age: 57", "Certificate-Respiratory", "1996", "no elected positions", "no denomination", "Direct Support", "Volunteer"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_questionnaire_reported_age", "factual_reference_date": "2026-10-14", "value": "Reports age 57 in the October 2026 questionnaire; exact birthday and response day unspecified", "source_fragment": "Age: 57"},
+        {"trait": "education", "factual_status": "qualified", "precision": "explicit_certificate_institution_and_year", "factual_reference_date": "1996", "value": "Respiratory-care certificate, Waubonsee Community College, Sugar Grove, Illinois, 1996", "source_fragment": "Certificate-Respiratory", "supporting_fragments": ["1996"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "candidate_reported_current_and_prior_careers", "factual_reference_date": "2026-10-14", "value": "Direct-support professional; prior respiratory-therapy and broader healthcare work", "source_fragment": "Direct Support"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_scoped_negative_in_previous_offices_held_field", "factual_reference_date": "2026-10-14", "value": "Explicitly reports no elected positions", "source_fragment": "no elected positions", "qualification": "Her separately listed appointed volunteer committee is not an elected position. This does not establish no government employment or no military service."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_volunteer_advisory_appointment_not_paid_employment", "factual_reference_date": "2022", "value": "Reports a State Council on Developmental Disabilities appointment to Kern Regional Center's self-determination local volunteer advisory committee since 2022", "source_fragment": "Volunteer"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "literal_candidate_response_preserved_without_expanding_category", "factual_reference_date": "2026-10-14", "value": "Responds no denomination to the Religion field", "source_fragment": "no denomination", "qualification": "Not recoded as atheist, unaffiliated, nonreligious or nondenominational Christian. The separate spiritual-beliefs answer supplies additional context."}
+      ],
+      "extraction_review": "Read both candidates' entire responses through each closing author signature. Publication is the displayed updated UTC date; response date is not separately known. The local publisher is KGET; the readable complete copy was AOL, not an independently retrieved KGET original."
+    },
+    {
+      "id": "219892-overlapping-complete-kget-questionnaire",
+      "candidate_id": "219892", "name": "Vince Fong", "state": "CA", "district": "20", "party": "Republican",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "local_profile",
+      "url": "https://www.aol.com/articles/know-candidates-sent-candidates-20th-015450000.html",
+      "source_title": "KGET / Sangmin Kim, syndicated by AOL: complete CA20 candidate questionnaires, Fong entry",
+      "publication_date": "2026-10-14", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Republican CA20 incumbency, Bakersfield and Assembly history match the retained candidate, independently of Van Scotter's entry.",
+      "identity_fragments": ["Vince Fong"],
+      "source_excerpts": ["Vince Fong", "Christian", "B.A.,", "California State Assembly", "U.S. Representative", "46"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "partial", "precision": "dated_candidate_questionnaire_age", "factual_reference_date": "2026-10-14", "value": "Reports age 46; exact response day unspecified", "source_fragment": "46"},
+        {"trait": "education", "factual_status": "qualified", "precision": "candidate_reported_completed_awards_and_institutions", "factual_reference_date": "2026-10-14", "value": "UCLA BA and Princeton MPA; years unspecified", "source_fragment": "B.A.,"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_current_occupation", "factual_reference_date": "2026-10-14", "value": "U.S. Representative, California District 20", "source_fragment": "U.S. Representative"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_candidate_reported_offices_and_dates", "factual_reference_date": "2026-10-14", "value": "California Assembly 2016-2024; U.S. House May 2024-present", "source_fragment": "California State Assembly"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "explicit_candidate_answer_to_religion_field", "factual_reference_date": "2026-10-14", "value": "Christian", "source_fragment": "Christian"}
+      ],
+      "extraction_review": "An overlapping Republican entry read in the same original, not a separate acquisition. Its known religion is supplementary evidence, not a first-evidence gain. All literal fragments across the two entries together total 25 words."
+    },
+    {
+      "id": "219891-complete-ivoterguide-answers",
+      "candidate_id": "219891", "name": "Sandra Van Scotter", "state": "CA", "district": "20", "party": "Democratic",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ivoterguide.com/candidate/90432",
+      "source_title": "iVoterGuide: Sandra Van Scotter biography and substantive questionnaire",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, California CD20, Democratic party, 2026 election and verified campaign link identify the retained candidate.",
+      "identity_fragments": ["Sandra Van Scotter"],
+      "source_excerpts": ["Sandra Van Scotter", "Certificate-Respiratory Therapy", "POLITICAL OFFICES HELD", "none", "higher power", "I don't wear a denominational label.", "Local Volunteer Advisory Committee"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "reported_completed_vocational_certificate", "factual_reference_date": "1996", "value": "Waubonsee Community College respiratory-therapy certificate; listed attendance 1995-1996", "source_fragment": "Certificate-Respiratory Therapy"},
+        {"trait": "prior_elected_office", "factual_status": "qualified", "precision": "explicit_negative_in_defined_offices_held_field", "factual_reference_date": null, "value": "None listed as the explicit response under political offices held", "source_fragment": "none", "supporting_fragments": ["POLITICAL OFFICES HELD"], "qualification": "The answer is not treated as an independently verified election-day office history; its exact response date is unknown."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "volunteer_advisory_leadership_not_verified_paid_job", "factual_reference_date": "2026", "value": "Chair of Kern Regional Center's self-determination local volunteer advisory committee, listed 2022-2026; also a Supported Life Institute board member 2025-2026", "source_fragment": "Local Volunteer Advisory Committee"},
+        {"trait": "religion", "factual_status": "qualified", "precision": "first_person_spiritual_description_with_explicit_denominational_limit", "factual_reference_date": null, "value": "Describes belief in a higher power and living her faith through service, while explicitly declining a denominational label", "source_fragment": "I don't wear a denominational label.", "supporting_fragments": ["higher power"], "qualification": "Does not establish a specific organized affiliation, atheism or absence of religious belief. Policy views and endorsements supply no additional affiliation."}
+      ],
+      "extraction_review": "Read the complete biography and all answers through the final public-safety question. WORK & MILITARY has a combined none entry despite other sources and this respondent's answers documenting a healthcare career. That ambiguous combined response cannot establish no military service or no employment. No military-negative claim is accepted."
+    },
+    {
+      "id": "219891-professional-career-profile",
+      "candidate_id": "219891", "name": "Sandra Van Scotter", "state": "CA", "district": "20", "party": "Democratic",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "university_employer_professional",
+      "url": "https://www.ballotready.org/people/sandra-van-scotter",
+      "source_title": "BallotReady: Sandra Van Scotter, named professional-experience entries",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, 2026 CA20 general election, verified campaign link and concordant direct-support/respiratory career match the retained candidate.",
+      "identity_fragments": ["Sandra Van Scotter"],
+      "source_excerpts": ["Sandra Van Scotter", "Ridgecrest Regional Hospital", "Northwestern Memorial Hospital", "Sarah Bush Lincoln", "Direct Support Professional"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "attributed_publisher_named_employer_and_role_history", "factual_reference_date": null, "value": "Publisher lists Ridgecrest Regional Hospital cardiac testing 2017-2021; Northwestern Memorial respiratory therapy 2011-2014; Sarah Bush Lincoln respiratory therapy 2004-2011; direct-support professional", "source_fragment": "Ridgecrest Regional Hospital", "supporting_fragments": ["Northwestern Memorial Hospital", "Sarah Bush Lincoln", "Direct Support Professional"], "qualification": "Specific years are attributed to this publisher, not independently verified employer records. The source family reflects professional-history investigation; BallotReady is not itself her employer."}
+      ]
+    },
+    {
+      "id": "219891-dated-local-speaker-biography",
+      "candidate_id": "219891", "name": "Sandra Van Scotter", "state": "CA", "district": "20", "party": "Democratic",
+      "contest_id": "2026:house:CA:20:general:source_general", "family": "local_profile",
+      "url": "https://www.tehachapidemocrats.com/news-1/sandra-van-scotter,-candidate-for-congress",
+      "source_title": "Tehachapi Mountain Democratic Club: January 7, 2026 candidate speaker biography",
+      "publication_date": "2026-01-07", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, CA20 congressional campaign, Ridgecrest move in 2014, healthcare career and actual campaign link identify the same person.",
+      "identity_fragments": ["Sandra Van Scotter"],
+      "source_excerpts": ["Sandra Van Scotter", "Respiratory Therapist", "Direct Support Professional", "Local Volunteer Advisory Committee", "2022"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_local_organization_candidate_biography", "factual_reference_date": "2026-01-07", "value": "Reports twenty years as a respiratory therapist in rural and university teaching hospitals, followed by direct-support work with disabled adults", "source_fragment": "Respiratory Therapist", "supporting_fragments": ["Direct Support Professional"]},
+        {"trait": "other_government", "factual_status": "partial", "precision": "dated_report_of_volunteer_advisory_appointment", "factual_reference_date": "2026-01-07", "value": "Reports a 2022 State Council appointment to the local volunteer advisory committee and current committee chairmanship", "source_fragment": "Local Volunteer Advisory Committee", "supporting_fragments": ["2022"]}
+      ],
+      "extraction_review": "A partisan local host's biography, not independent employer verification. Siblings' schooling is not the candidate's education. No ancestry or religious classification follows from birthplace, family or endorsements."
+    },
+    {
+      "id": "219898-complete-current-campaign-about",
+      "candidate_id": "219898", "name": "Tessa Lynn Hodge", "state": "CA", "district": "23", "party": "Democratic",
+      "contest_id": "2026:house:CA:23:general:source_general", "family": "campaign",
+      "url": "https://www.tessaforca.com/about", "source_title": "Tessa for California: Tessa's Story",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, CA23, 2026 candidacy against Obernolte and matching High Desert social-work career identify the retained candidate; Ballotpedia links this campaign.",
+      "identity_fragments": ["Tessa Lynn Hodge"],
+      "source_excerpts": ["Tessa Lynn Hodge", "Licensed Clinical Social Worker", "worked in San Bernardino County"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_candidate_reported_licensed_career", "factual_reference_date": null, "value": "Licensed clinical social worker with nearly a decade of foster-care, school mental-health and community work", "source_fragment": "Licensed Clinical Social Worker"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "county_policy_work_report_without_named_employment_title_or_dates", "factual_reference_date": null, "value": "Reports San Bernardino County work incorporating state and federal legislation into county policy and worker guidelines", "source_fragment": "worked in San Bernardino County", "qualification": "Retain the work as reported without assuming employee rather than contractor status. Further independent employment details remain a lead."}
+      ],
+      "extraction_review": "Read the full About page. The grandfather's Air Force service and grandmother's nursing career are not the candidate's service or career. No military negative or sensitive identity is inferred."
+    },
+    {
+      "id": "219898-partially-read-candidate-connection",
+      "candidate_id": "219898", "name": "Tessa Lynn Hodge", "state": "CA", "district": "23", "party": "Democratic",
+      "contest_id": "2026:house:CA:23:general:source_general", "family": "ballotpedia_questionnaire",
+      "url": "https://ballotpedia.org/Tessa_Lynn_Hodge", "source_title": "Ballotpedia: partially read Hodge profile and initial 2026 Candidate Connection answers",
+      "publication_date": "2026", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, Democratic CA23 general-election candidacy, High Desert origin and matching campaign domain corroborate the retained person.",
+      "identity_fragments": ["Tessa Lynn Hodge"],
+      "source_excerpts": ["Tessa Lynn Hodge", "Licensed Clinical Social Worker", "worked in San Bernardino County"],
+      "traits_reviewed": ["profession", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_questionnaire_career_description", "factual_reference_date": "2026", "value": "Licensed clinical social worker with foster-care, school mental-health and county-policy experience", "source_fragment": "Licensed Clinical Social Worker"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "explicit_county_policy_work_with_employment_details_unresolved", "factual_reference_date": "2026", "value": "Reports San Bernardino County work translating legislation into county policy and guidelines", "source_fragment": "worked in San Bernardino County"}
+      ],
+      "extraction_review": "The profile and initial survey answers were read in the preceding pass; the remaining survey is not yet read. Subsequent document-reader follow-up yielded no usable body, and one ordinary direct request returned HTTP 202 without usable text. No retry or challenge bypass. Patsy Mink's Asian-American identity and the grandfather's Air Force service are not Hodge's traits. Policy work does not establish elected office."
+    },
+    {
+      "id": "219898-complete-substantive-podcast-transcript",
+      "candidate_id": "219898", "name": "Tessa Lynn Hodge", "state": "CA", "district": "23", "party": "Democratic",
+      "contest_id": "2026:house:CA:23:general:source_general", "family": "local_profile",
+      "url": "https://invisiblenotbroken.com/home-chronic-illness-podcast/lux-raven-paranormal-romance-writer-interview-r8sbb",
+      "source_title": "Invisible Not Broken / Monica Michelle: Tessa Lynn Hodge substantive interview transcript",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Actual heading, candidate's first-person name, California CD23, Obernolte opponent, licensed career and spelled-out campaign domain identify Hodge despite the reused writer-interview URL slug.",
+      "identity_fragments": ["Tessa Lynn Hodge"],
+      "source_excerpts": ["Tessa Lynn Hodge", "we are both pasty pale, white skin", "bachelor's in social work", "master's in social work", "worked for the county", "private practice"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "first_person_explicit_completed_bachelors_and_masters", "factual_reference_date": null, "value": "Explicitly reports completing a bachelor's and master's in social work; this interview does not supply their university or years", "source_fragment": "bachelor's in social work", "supporting_fragments": ["master's in social work"]},
+        {"trait": "profession", "factual_status": "qualified", "precision": "first_person_multiple_social_work_roles_and_current_practice", "factual_reference_date": null, "value": "Licensed social worker with hospital, crisis-response, school, community, child-welfare and policy work; owns a private therapy practice and describes St. Mary's Medical Center work", "source_fragment": "private practice"},
+        {"trait": "other_government", "factual_status": "partial", "precision": "first_person_county_work_claim_with_specific_job_details_unresolved", "factual_reference_date": null, "value": "Explicitly says she worked for the county in policy and legislation; exact job, employment status and dates remain unverified", "source_fragment": "worked for the county"},
+        {"trait": "race", "factual_status": "partial", "precision": "literal_public_self_description_not_expanded_into_racial_category", "factual_reference_date": null, "value": "Publicly describes herself and her husband as white-skinned when discussing their social privilege", "source_fragment": "we are both pasty pale, white skin", "qualification": "Retain her actual self-description, not a photograph-based classification. No standard race category, non-Hispanic ethnicity, gender or sexual orientation is inferred from this statement."}
+      ],
+      "extraction_review": "Read the entire transcript through the 59:54 closing. Publication displays October 28 without an independently established year; no exact dated-prediction availability is claimed. Reused page tags/footer about a writer are not candidate facts. Personal medical and relatives' medical information are outside this collection and are not extracted."
+    },
+    {
+      "id": "219898-archived-campaign-birthday-original",
+      "candidate_id": "219898", "name": "Tessa Lynn Hodge", "state": "CA", "district": "23", "party": "Democratic",
+      "contest_id": "2026:house:CA:23:general:source_general", "family": "earlier_biography",
+      "url": "https://politicalemails.org/messages/2225477", "source_title": "Archive of Political Emails: Tessa for Congress, April 24, 2026 campaign newsletter",
+      "publication_date": "2026-04-24", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Campaign sender/name, CA23 signature, opponent Obernolte, exact June 2, 2026 primary and matching campaign identity distinguish the retained candidate from namesakes.",
+      "identity_fragments": ["Tessa Lynn Hodge"],
+      "source_excerpts": ["Tessa Lynn Hodge", "Tessa is celebrating her 38th birthday in May.", "Licensed Clinical Social Worker"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "birth_month_and_year_derived_from_explicit_dated_birthday_announcement", "factual_reference_date": "2026-11-03", "value": "Campaign reports turning 38 in May 2026, supporting birth in May 1988 and age 38 on November 3, 2026; exact birth day unknown", "source_fragment": "Tessa is celebrating her 38th birthday in May.", "qualification": "The Friday May 15 party is not assumed to be the actual birthday. The campaign email is retained by an independent archive, not downloaded from a live campaign mailing service."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_campaign_newsletter_description", "factual_reference_date": "2026-04-24", "value": "Licensed clinical social worker", "source_fragment": "Licensed Clinical Social Worker"}
+      ],
+      "extraction_review": "Read the full archived email. Copyright footer says 2025, but the archive's explicit date and primary/event chronology identify this as an April 2026 message; footer is not substituted for publication date."
+    },
+    {
+      "id": "219898-dated-professional-speaker-biography",
+      "candidate_id": "219898", "name": "Tessa Lynn Hodge", "state": "CA", "district": "23", "party": "Democratic",
+      "contest_id": "2026:house:CA:23:general:source_general", "family": "university_employer_professional",
+      "url": "https://mountainbearsdemocrats.org/speakers/", "source_title": "Mountain Bears Democratic Club: May 27 and August 26, 2025 Hodge professional speaker entries",
+      "publication_date": "2025", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "identity_status": "verified", "identity_qualification": "Exact name, CA23 candidacy, High Desert, social-work license and linked tessaforca.com domain bridge the speaker directly to the retained candidate.",
+      "identity_fragments": ["Tessa Lynn Hodge"],
+      "source_excerpts": ["Tessa Lynn Hodge", "Bachelor", "Master", "Social Work", "California State University San Bernardino", "SAC Health", "private practice"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "education", "factual_status": "qualified", "precision": "dated_host_report_of_completed_awards_and_named_institution", "factual_reference_date": "2025-05-27", "value": "Host explicitly reports bachelor's and master's degrees in social work from California State University San Bernardino; no graduation years provided", "source_fragment": "California State University San Bernardino", "supporting_fragments": ["Bachelor", "Master", "Social Work"], "qualification": "A dated partisan host's professional biography, corroborating the candidate's degree statements; not an independently obtained university transcript."},
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_host_report_of_practice_and_nonprofit_employer", "factual_reference_date": "2025-05-27", "value": "Owns a private practice and works for nonprofit SAC Health, according to the host's May and August 2025 entries", "source_fragment": "SAC Health", "supporting_fragments": ["private practice"], "qualification": "This historical employment is not assumed to continue through election day. The source family describes the investigation, not an assertion that the host is her employer."}
+      ],
+      "extraction_review": "Read both complete Hodge entries. Other speakers' degrees, religious roles, nationalities and elected offices are not hers."
+    },
+    {
+      "id": "219928-retained-complete-campaign-about",
+      "candidate_id": "219928", "name": "Samantha Mota", "state": "CA", "district": "37", "party": "Democratic",
+      "contest_id": "2026:house:CA:37:general:source_general", "family": "campaign",
+      "url": "https://www.motaforcongress.com/about", "source_title": "Samantha Mota campaign: About and life timeline",
+      "publication_date": null, "accessed_at": "2026-11-18", "original_bytes_acquired": true, "evidence_origin": "retained_source_reextracted",
+      "retained_cache_path": "artifacts/characteristics-v8/campaign/campaign-219928-bio1/campaign-219928-bio1",
+      "retained_sha256": "8f0eda6747ec0cc036e3fa08a959a8b9197c369549e03a177c28e63236fa5fb2",
+      "identity_status": "verified", "identity_qualification": "Native campaign domain, Samantha Mota committee footer, Sam alias, Los Angeles County upbringing and Santa Monica civic work corroborate the retained CA37 person.",
+      "identity_fragments": ["Samantha Mota"],
+      "source_excerpts": ["Samantha Mota", "Sep 1998", "attended Santa Monica College for Political Science", "Commissioner", "Climate Action Santa Monica"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "age", "factual_status": "qualified", "precision": "explicit_birth_month_and_year_without_day", "factual_reference_date": "2026-11-03", "value": "Campaign timeline reports birth in September 1998, supporting election-day age 28; exact birth day unspecified", "source_fragment": "Sep 1998", "qualification": "The undated introductory age 27 can describe earlier campaign timing. It is not assumed to be a contradictory birth date."},
+        {"trait": "education", "factual_status": "partial", "precision": "explicit_college_attendance_not_completed_credential", "factual_reference_date": null, "value": "Attended Santa Monica College for political science; no completed degree claimed in this biography", "source_fragment": "attended Santa Monica College for Political Science"},
+        {"trait": "profession", "factual_status": "qualified", "precision": "explicit_community_organizing_and_advocacy_activities", "factual_reference_date": null, "value": "Climate Action Santa Monica organizing, urban-gardening and food-policy advocacy", "source_fragment": "Climate Action Santa Monica", "qualification": "Supported activities are not evidence of paid nonprofit employment, unemployment or an exhaustive career history."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "appointed_civic_commission_not_verified_paid_employment", "factual_reference_date": "2021", "value": "Served on Santa Monica's Public Safety Reform and Oversight Commission; employment status not established", "source_fragment": "Commissioner", "unresolved_details": ["Campaign timeline says January 2021; the city's September 2021 newsletter says members were selected in April. Retain the corroborated 2021 role without resolving the appointment month."]}
+      ],
+      "extraction_review": "Read the full retained About original and compare the current public page. A Hispanic Heritage Month award does not establish ethnicity; relatives, surname and images supply no racial/religious classification. A 2022 council candidacy is not evidence that she held elected office or never did."
+    },
+    {
+      "id": "219928-city-original-commission-profile",
+      "candidate_id": "219928", "name": "Samantha Mota", "state": "CA", "district": "37", "party": "Democratic",
+      "contest_id": "2026:house:CA:37:general:source_general", "family": "official_biography",
+      "url": "https://www.santamonica.gov/Media/CMO/Seascape/Seascape-2021-09-09-EN.pdf",
+      "source_title": "City of Santa Monica: September 2021 Seascape, new public-safety commission profile",
+      "publication_date": "2021-09", "accessed_at": "2026-11-18", "original_bytes_acquired": false,
+      "retrieval_verification": {"http_status": 200, "bytes": 4800866, "sha256": "2c77ab8042481416c95c7a07eb3645db28cbb2bd8e503bd7568c38c4107657ed", "pages": 12, "original_retained": false},
+      "identity_status": "verified", "identity_qualification": "Exact name, Climate Action Santa Monica affiliation and particular public-safety commission match the current campaign's first-person civic biography.",
+      "identity_fragments": ["Samantha Mota"],
+      "source_excerpts": ["Samantha Mota", "Climate Action Santa Monica", "In April", "Commissioner Samantha Mota"],
+      "traits_reviewed": ["age", "gender", "race", "ethnicity", "religion", "education", "profession", "prior_elected_office", "other_government", "military"],
+      "claims": [
+        {"trait": "profession", "factual_status": "qualified", "precision": "dated_city_classification_of_civic_organization_affiliation", "factual_reference_date": "2021-09", "value": "City identifies Mota with Climate Action Santa Monica", "source_fragment": "Climate Action Santa Monica", "qualification": "Affiliation alone does not establish paid employment."},
+        {"trait": "other_government", "factual_status": "partial", "precision": "independent_city_corroboration_of_appointed_commission_service", "factual_reference_date": "2021-09", "value": "City lists Mota among the public-safety reform and oversight commissioners selected in April 2021 and quotes her own statement about applying to serve", "source_fragment": "Commissioner Samantha Mota", "supporting_fragments": ["In April"], "qualification": "Appointed oversight service is not elected office or verified paid employment. Campaign's January date differs; exact appointment month remains unresolved without treating the whole role as disputed."}
+      ],
+      "source_locator": "PDF page index 1, printed page 02: complete commission heading, selection paragraph, roster entry and attributed Mota quotation."
+    }
+  ],
+  "searches": [
+    {"candidate_id": "219891", "family": "local_profile", "query": "\"Sandra Van Scotter\" biography age education military", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Sandra_Van_Scotter", "https://www.aol.ca/articles/congressional-district-20-candidate-sandra-012914000.html"]},
+    {"candidate_id": "219891", "family": "local_profile", "query": "\"Sandra Van Scotter\" age education respiratory", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/know-candidates-sent-candidates-20th-015450000.html", "https://ivoterguide.com/candidate/90432", "https://www.tehachapidemocrats.com/news-1/sandra-van-scotter,-candidate-for-congress", "https://j.futurefacts.votesmart.io/candidate/biography/236103/sandra-van-scotter"]},
+    {"candidate_id": "219891", "family": "earlier_biography", "query": "\"Sandra Van Scotter\" religion military education", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No query-specific usable result mapping retained. Subsequent original-page reviews are logged separately rather than retrospectively assigned to this query."},
+    {"candidate_id": "219891", "family": "campaign", "query": "Read retained Meet Sandra original and follow Ballotpedia's actual campaign redirect", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.electsandravanscotter.com/meet-sandra", "https://www.sandra4cd20.com", "https://www.electsandravanscotter.com/"], "lead_dispositions": {"https://www.sandra4cd20.com": {"status": "duplicate_reviewed_original", "reason": "Redirects to the reviewed current campaign domain."}, "https://www.electsandravanscotter.com/": {"status": "duplicate_reviewed_original", "reason": "Complete homepage read; overlapping healthcare and advisory-role facts are extracted from its retained substantive About page rather than counted as another acquisition."}}},
+    {"candidate_id": "219891", "family": "ballotpedia_questionnaire", "query": "Read the actual complete Candidate Connection and iVoterGuide responses plus empty Vote Smart profile", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Sandra_Van_Scotter", "https://ivoterguide.com/candidate/90432", "https://j.futurefacts.votesmart.io/candidate/biography/236103/sandra-van-scotter"], "lead_dispositions": {"https://ballotpedia.org/Sandra_Van_Scotter": {"status": "reviewed_no_requested_facts", "reason": "Complete displayed survey is policy/advocacy, not additional requested biographical facts. Veterans policy is not personal service."}, "https://j.futurefacts.votesmart.io/candidate/biography/236103/sandra-van-scotter": {"status": "reviewed_no_requested_facts", "reason": "Readable public biography reports no information on file in all substantive background sections. Missing records are not no education, no office, no employment or no affiliation."}}},
+    {"candidate_id": "219891", "family": "official_biography", "query": "Attempt ordinary retrieval of the named regional-center committee packet", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://kernrc.org/wp-content/uploads/2026/04/Agenda-and-Minute-May-2026-1.pdf"], "lead_dispositions": {"https://kernrc.org/wp-content/uploads/2026/04/Agenda-and-Minute-May-2026-1.pdf": {"status": "access_failure", "reason": "One ordinary request returned HTTP 403. No text was read, no committee-minute claim accepted, no retry or access workaround."}}},
+    {"candidate_id": "219891", "family": "ballotpedia_questionnaire", "query": "Read the entire attributable October 3, 2026 campaign response and separate editorial sections on DutyStation", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://elections.dutystation.ai/candidates/sandra-van-scotter-california-house-20/"], "lead_dispositions": {"https://elections.dutystation.ai/candidates/sandra-van-scotter-california-house-20/": {"status": "reviewed_no_requested_facts", "reason": "Complete direct campaign response reiterates her already documented respiratory-therapy/healthcare career but does not state her own military service or nonservice. Treating veterans is not being a veteran. Independent editorial policy summaries are not biographical evidence. No additional accepted field beyond the extracted original career sources."}}},
+    {"candidate_id": "219891", "family": "university_employer_professional", "query": "Read actual named professional-history profile; university/employer verification remains a separate lead", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.ballotready.org/people/sandra-van-scotter"]},
+    {"candidate_id": "219898", "family": "local_profile", "query": "\"Tessa Lynn Hodge\" biography education religion", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Tessa_Lynn_Hodge", "https://4newsplus.com/former-serrano-student-tessa-lynn-hodge-runs-for-congress-in-californias-23rd-district/", "https://invisiblenotbroken.com/home-chronic-illness-podcast/lux-raven-paranormal-romance-writer-interview-r8sbb"]},
+    {"candidate_id": "219898", "family": "university_employer_professional", "query": "\"Tessa Lynn Hodge\" site:csusb.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No usable source mapping for this particular query; do not treat as an exhausted university search."},
+    {"candidate_id": "219898", "family": "university_employer_professional", "query": "\"Tessa Lynn Hodge\" \"master\" \"San Bernardino\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Query-specific output mapping unavailable. The actual separately reviewed professional speaker page is logged as an original-page follow-up."},
+    {"candidate_id": "219898", "family": "university_employer_professional", "query": "Read both actual complete dated Hodge speaker biographies on the local host's page", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://mountainbearsdemocrats.org/speakers/"]},
+    {"candidate_id": "219898", "family": "university_employer_professional", "query": "\"Tessa Hodge\" site:scholarworks.lib.csusb.edu", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No usable original thesis mapping; a LinkedIn publication title alone does not establish degree completion."},
+    {"candidate_id": "219898", "family": "earlier_biography", "query": "\"Tessa Lynn Hodge\" age birthday", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "Query-specific result mapping unavailable; no search-only age or county-statement claim accepted."},
+    {"candidate_id": "219898", "family": "earlier_biography", "query": "Read the complete actual archived April 24, 2026 campaign email and its birthday announcement", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://politicalemails.org/messages/2225477"]},
+    {"candidate_id": "219898", "family": "campaign", "query": "Follow Ballotpedia-linked actual campaign About original for all ten traits", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.tessaforca.com/about"]},
+    {"candidate_id": "219898", "family": "ballotpedia_questionnaire", "query": "Attempt remaining unread Candidate Connection answers after the previously read profile and initial survey responses", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://ballotpedia.org/Tessa_Lynn_Hodge"], "qualification": "The document reader supplied no usable body. One ordinary direct request returned HTTP 202 without usable page text. Preserve the previously read claims and leave remaining answers unread; do not claim a complete survey review or retry a challenge."},
+    {"candidate_id": "219898", "family": "local_profile", "query": "Follow actual local first-campaign interview and complete substantive podcast transcript", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://4newsplus.com/former-serrano-student-tessa-lynn-hodge-runs-for-congress-in-californias-23rd-district/", "https://invisiblenotbroken.com/home-chronic-illness-podcast/lux-raven-paranormal-romance-writer-interview-r8sbb"], "lead_dispositions": {"https://4newsplus.com/former-serrano-student-tessa-lynn-hodge-runs-for-congress-in-californias-23rd-district/": {"status": "reviewed_no_requested_facts", "reason": "Read entire May 14, 2026 interview. Existing licensed-career evidence is supplementary; former Serrano student does not establish a completed credential, first candidacy does not establish no office, and her husband's teaching job is not hers. No additional accepted trait claim beyond the sources separately extracted."}}},
+    {"candidate_id": "219898", "family": "official_biography", "query": "Follow discovered Riverside voter-guide PDF original; document reader size failure followed by one ordinary direct retrieval", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000325.pdf"], "lead_dispositions": {"https://docs.voteinfo.net/voterInformation/root1103/ballots/bt000325.pdf": {"status": "access_failure", "reason": "Document reader reported 66,153,195 bytes exceeding its content-size limit; ordinary direct retrieval then returned HTTP 403. No repeat request, alternate same-origin edition or snippet-only age claim accepted."}}},
+    {"candidate_id": "219898", "family": "official_biography", "query": "Attempt ordinary retrieval of the independent Kern County candidate statement original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "access_failure", "underlying_urls": ["https://www.kernvote.com/home/showpublisheddocument/23729/639113408097730000"], "lead_dispositions": {"https://www.kernvote.com/home/showpublisheddocument/23729/639113408097730000": {"status": "access_failure", "reason": "One ordinary request returned HTTP 403. No underlying statement, screenshot or original bytes obtained; no age, ancestry or military claim accepted from snippets."}}},
+    {"candidate_id": "219928", "family": "local_profile", "query": "\"Samantha Mota\" Congress biography education military", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Samantha_Mota", "https://www.motaforcongress.com/", "https://www.voterdecoder.org/candidates/2574"]},
+    {"candidate_id": "219928", "family": "earlier_biography", "query": "\"Samantha Mota\" ethnicity religion \"commission\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.santamonica.gov/Media/CMO/Seascape/Seascape-2021-09-09-EN.pdf", "https://factspodium.com/samantha-mota-bio-get-to-know-the-us-representative-candidate/"], "qualification": "The city original is read. The low-authority profile's snippet is not accepted; no private family-event website is accessed or used."},
+    {"candidate_id": "219928", "family": "earlier_biography", "query": "\"Samantha Mota\" \"Latina\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No retained qualifying source mapping from this execution; not a negative ethnic classification."},
+    {"candidate_id": "219928", "family": "earlier_biography", "query": "\"Samantha Mota\" \"Latina\" \"Santa Monica\"", "query_kind": "executed_query", "searched_at": "2026-11-18", "outcome": "result_mapping_not_retained", "qualification": "No retained original giving the requested explicit ethnic self-description; not source-family exhaustion."},
+    {"candidate_id": "219928", "family": "campaign", "query": "Read the actual complete retained About biography and compare the current public original", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.motaforcongress.com/about"]},
+    {"candidate_id": "219928", "family": "official_biography", "query": "Follow the actual city newsletter and read the complete commission article for independent identity and timing", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.santamonica.gov/Media/CMO/Seascape/Seascape-2021-09-09-EN.pdf"]},
+    {"candidate_id": "219928", "family": "ballotpedia_questionnaire", "query": "Read the underlying complete 2025 Candidate Connection displayed on the native candidate profile", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://ballotpedia.org/Samantha_Mota"], "lead_dispositions": {"https://ballotpedia.org/Samantha_Mota": {"status": "reviewed_no_requested_facts", "reason": "Both displayed answers concern campaign priorities and public policy, not additional requested background traits; no sensitive identity or service negative follows."}}},
+    {"candidate_id": "219892", "family": "local_profile", "query": "Read the overlapping Fong entry in the same complete KGET questionnaire original acquired for the Democratic challenger", "query_kind": "underlying_page_followup", "searched_at": "2026-11-18", "outcome": "leads_found", "underlying_urls": ["https://www.aol.com/articles/know-candidates-sent-candidates-20th-015450000.html"]}
+  ],
+  "completed_candidates": [],
+  "remaining_leads": [
+    {"candidate_id": "219891", "leads": ["Seek a source actually addressing personal service or nonservice; the completed DutyStation response only discusses policy and healthcare work.", "Follow named hospital/university employers and Waubonsee originals for independent career and credential corroboration.", "Find exact or birth-year age evidence and explicit public race/ethnicity classifications; no inference from family, appearance, birthplace or endorsements.", "Resolve whether any distinct paid government employment exists; volunteer advisory service and the ambiguous combined work/military none response cannot answer that."]},
+    {"candidate_id": "219898", "leads": ["Read independent CSUSB or professional originals to verify institution and degree years; retain the completed degrees without invented years.", "Find independent permitted official biography or filing sources; do not retry the denied Riverside or Kern PDFs. Remaining Ballotpedia answers remain unread after the documented HTTP 202 empty response.", "Resolve county job title, employee/contractor status and dates.", "Seek explicit racial/ethnic self-classifications beyond the retained skin-color description, plus explicit religion and scoped office/military answers."]},
+    {"candidate_id": "219928", "leads": ["Find direct local-profile and professional/university originals; the current pass does not cover every family.", "Find an actual completed credential if supported; college attendance alone is not graduation.", "Resolve the January-versus-April 2021 appointment month using city appointment records, and investigate distinct employment and office histories without conflating appointment and election.", "Seek explicit public sensitive-identity/affiliation statements and military history; neither surname, photographs nor Hispanic Heritage Month recognition is a classification."]},
+    {"candidate_id": "219892", "leads": ["Only the overlapping complete questionnaire has been reviewed in this additive person-level pass; remaining families remain unresearched.", "Military service, other government employment and explicit ethnicity remain open."]}
+  ],
+  "next_batch": "Rebuild factual coverage and measure actual gains; preserve the verified national checkpoint. Continue unresolved leads and previously unresearched candidates in other states rather than treating this California batch or a validation receipt as the end of acquisition."
+}

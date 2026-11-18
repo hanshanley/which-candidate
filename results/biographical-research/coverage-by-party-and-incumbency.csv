@@ -1,7 +1,7 @@
 party,incumbency_group,candidates,completed_pass,in_progress,not_yet_researched,documents_reviewed,first_evidence_fields,first_qualified_fields
-all,all,1284,9,67,1208,289,135,69
-all,incumbent,360,0,2,358,2,0,0
-all,nonincumbent,312,9,59,244,275,123,65
+all,all,1284,9,71,1204,302,141,72
+all,incumbent,360,0,3,357,3,0,0
+all,nonincumbent,312,9,62,241,287,129,68
 all,unresolved,612,0,6,606,12,12,4
 America First,all,1,0,0,1,0,0,0
 America First,incumbent,0,0,0,0,0,0,0
@@ -19,9 +19,9 @@ Constitution,all,4,0,0,4,0,0,0
 Constitution,incumbent,0,0,0,0,0,0,0
 Constitution,nonincumbent,0,0,0,0,0,0,0
 Constitution,unresolved,4,0,0,4,0,0,0
-Democratic,all,449,9,59,381,275,123,65
+Democratic,all,449,9,62,378,287,129,68
 Democratic,incumbent,183,0,0,183,0,0,0
-Democratic,nonincumbent,266,9,59,198,275,123,65
+Democratic,nonincumbent,266,9,62,195,287,129,68
 Democratic,unresolved,0,0,0,0,0,0,0
 Florida Forward Party,all,1,0,0,1,0,0,0
 Florida Forward Party,incumbent,0,0,0,0,0,0,0
@@ -95,8 +95,8 @@ Pacific Green,all,2,0,0,2,0,0,0
 Pacific Green,incumbent,0,0,0,0,0,0,0
 Pacific Green,nonincumbent,0,0,0,0,0,0,0
 Pacific Green,unresolved,2,0,0,2,0,0,0
-Republican,all,433,0,3,430,3,2,2
-Republican,incumbent,176,0,2,174,2,0,0
+Republican,all,433,0,4,429,4,2,2
+Republican,incumbent,176,0,3,173,3,0,0
 Republican,nonincumbent,46,0,0,46,0,0,0
 Republican,unresolved,211,0,1,210,1,2,2
 Socialism PSL,all,1,0,0,1,0,0,0
